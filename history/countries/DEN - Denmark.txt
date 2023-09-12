@@ -1,0 +1,97 @@
+﻿capital = 37
+
+# Vacant
+recruit_character = DEN_Generic_Vacant_psi
+recruit_character = DEN_Generic_Vacant_pi_0
+recruit_character = DEN_Generic_Vacant_pi_1
+recruit_character = DEN_Generic_Vacant_pi_2
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = DEN_Niels_Christensen
+recruit_character = DEN_Mads_Christian_Dahl
+recruit_character = DEN_Simon_Schmidt
+recruit_character = DEN_Tobias_Lippert
+recruit_character = DEN_Frederik_Voldb
+recruit_character = DEN_Anders_Pedersen
+recruit_character = DEN_Mads_Olsen
+
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 3
+    anocracy = 0
+    conservatism = 4
+    liberalism = 7
+    libertarian_socialism = 12
+    authoritarian_socialism = 55
+    totalitarian_socialism = 19
+    reductivism = 0
+}
+
+add_ideas = {
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_suppressed_opposition
+    EBF_secularism
+    EBF_elite_voting
+    EBF_state_press
+    EBF_state_controlled_unions
+    EBF_open_immigration
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_limited_exports
+    EBF_minor_minimum_wage
+    EBF_16_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_service_by_requirement
+    EBF_basic_training
+    EBF_heavily_armed_policing
+    EBF_military_police
+
+    #SOCDEV
+    EBF_tertiary_schooling
+    EBF_widespread_poverty
+    EBF_underperforming_economy
+    EBF_political_interference
+    EBF_industrial_equipment_use
+    EBF_ineffectual_administration
+
+    #MINISTERS
+    DEN_Mads_Christian_Dahl_min
+    DEN_Simon_Schmidt_min
+    DEN_Tobias_Lippert_min
+    DEN_Mads_Olsen_min
+
+    #BASE IDEAS
+    DEN_Banned_Works_program
+    DEN_Holger_Danske
+    DEN_Disgruntled_Privateers
+    DEN_Schleswig_Pressure
+    DEN_Counterfeit_Currency
+}
+
+add_ideas = {
+    Free_Internet_member
+}

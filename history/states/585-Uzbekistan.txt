@@ -1,0 +1,23 @@
+state={
+	id=585
+	name="STATE_585"
+
+	history={
+		add_core_of = FRU
+		owner = FRU
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1532 1554 4499 7501 7507 10420
+	}
+	manpower=5258776
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

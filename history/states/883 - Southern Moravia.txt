@@ -1,0 +1,22 @@
+state=
+{
+	id=883
+	name="STATE_883"
+	manpower = 2830000
+	
+	state_category = town
+	
+	history={
+		add_core_of = MOV
+		owner = MOV
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			anti_air_building = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces=
+	{557 11525 	}
+}

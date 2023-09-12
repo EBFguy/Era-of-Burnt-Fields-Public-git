@@ -1,0 +1,23 @@
+
+state={
+	id=910
+	name="STATE_910" # Leopoldville
+	manpower = 10
+	
+	state_category = rural
+	local_supplies = 0.0
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+			
+	}
+
+	provinces={
+		1968 12795 1516
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=527
+	name="STATE_527"
+	manpower = 9762000	#32949985
+	state_category = town
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = DPK
+		owner = DPK
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			4052 1
+		}	
+
+		
+	}
+
+	provinces={
+		4052 7171 9790 10065 
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1013
+	name="STATE_1013"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = CID
+		owner = CID
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		4045 5096 5040 4410 7938 10332 2005
+	}
+}

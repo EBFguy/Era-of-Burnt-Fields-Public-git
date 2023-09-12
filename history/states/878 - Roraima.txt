@@ -1,0 +1,22 @@
+
+state={
+	id=878
+	name="STATE_878"
+	manpower = 979900
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = AMA
+		owner = AMA
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		13267 13264 13365 13367 13366
+	}
+}

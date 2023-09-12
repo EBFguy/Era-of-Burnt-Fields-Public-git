@@ -1,0 +1,25 @@
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		
+		add_core_of = KAZ
+		owner = KAZ
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			1517 1 
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		475 642 1517 3593 4523 4620 7641 10262 11701 12163 12383 13008 9592 6758 6748 3475 11455 11552
+	}
+	manpower=1247047
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

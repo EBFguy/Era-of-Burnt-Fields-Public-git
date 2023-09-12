@@ -1,0 +1,26 @@
+EBF_OCC_debug_decisions = {
+	icon = generic_research
+	allowed = {
+		tag = OCC
+	}
+	visible = {
+		is_debug = yes
+	}
+	visible_when_empty = YES
+	priority = 10000
+}
+
+EBF_OCC_house_of_the_free_workers_decisions = {
+	icon = generic_research
+	scripted_gui = OCC_GUI_free_workers
+	allowed = {
+		tag = OCC
+	}
+	visible = {
+		NOT = {
+			has_country_flag = OCC_house_of_the_free_workers_disabled
+		}
+	}
+	visible_when_empty = yes
+	priority = 100000000
+}

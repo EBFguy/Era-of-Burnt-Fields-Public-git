@@ -1,0 +1,22 @@
+state={
+	id=894
+	name="STATE_894"
+
+	history={
+		add_core_of = ARG
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		2224 
+	}
+	manpower=115605
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

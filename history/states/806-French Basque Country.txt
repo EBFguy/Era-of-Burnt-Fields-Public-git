@@ -1,0 +1,28 @@
+
+state={
+	id=806
+	name="STATE_806"
+
+	history={
+		add_core_of = AQU
+		owner = AQU
+		victory_points = {
+			9710 3 
+		}
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+
+	}
+
+	provinces={
+		743 9710 
+	}
+	manpower=1368176
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies = 0.0 
+}

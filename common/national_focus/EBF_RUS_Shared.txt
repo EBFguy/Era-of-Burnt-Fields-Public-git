@@ -1,0 +1,2241 @@
+#Shared Focuses
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	CHAPTER 1: BEGINNING CHAPTER
+#	PHASE 0: BEGINNING TREE
+#	PHASE 1&2: THE INTERNAL WAR
+
+#############
+# CHAPTER 1 #
+#############
+
+# PHASE 0 #
+
+shared_focus = { #Event: News Report at Seven, protests all over the place because of the decree and the Kazakh pacification
+	id = RUS_aftermath_december_emergency_decree
+
+	icon = GFX_focus_aftermath_december_emergency_decree
+	cost = 7
+	x = 8
+	y = 0
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.1
+		}
+	}
+}
+
+shared_focus = { #Event: Emergency Meeting at Eight, Chkalov meets with Tarasov about the fate of Russia
+	id = RUS_organise_meetings_with_loyalists
+	prerequisite = {
+		focus = RUS_aftermath_december_emergency_decree
+	}
+	icon = GFX_focus_Organise_Meetings_With_the_Loyalists
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_aftermath_december_emergency_decree
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.2
+		}		
+	}
+}
+
+shared_focus = { #Event: Emergency Communique, Valeriy Zakharov contacts Pavel Nikitin and tells him to watch over Chkalov
+	id = RUS_boldness_the_few_will_lead
+	prerequisite = {
+		focus = RUS_organise_meetings_with_loyalists
+	}
+	icon = GFX_focus_The_Boldness_of_the_Few_will_Lead
+	cost = 7
+	x = 0
+	y = 2
+	relative_position_id = RUS_aftermath_december_emergency_decree
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.3
+		}		
+	}
+}
+
+shared_focus = { #Event: Personal Directives, the last months of russia's democracy has begun, unlocks kazakhstan deccat NO decisions
+	id = RUS_but_first_clearing_house
+	prerequisite = {
+		focus = RUS_boldness_the_few_will_lead
+	}
+	icon = GFX_focus_but_first_clearing_house
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_aftermath_december_emergency_decree
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.4
+		}		
+	}
+}
+
+#KAZAKH TREE
+shared_focus = { #unlocks kazakhstan deccat decisions
+	id = RUS_business_matter_kazakhstan_pacification
+	prerequisite = {
+		focus = RUS_but_first_clearing_house
+	}
+	icon = GFX_focus_the_kazakhstan_pacification
+	cost = 14
+	x = -4
+	y = 4
+	relative_position_id = RUS_aftermath_december_emergency_decree
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.5
+		}		
+	}
+}
+
+shared_focus = { #Increases Kazakhstan Forces Strength, Decrease Russian Forces Strength, increases Nikitin’s suspicions 
+	id = RUS_bribe_intelligence_department
+	prerequisite = {
+		focus = RUS_business_matter_kazakhstan_pacification
+	}
+	icon = GFX_focus_bribe_the_intelligence_department
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.10 }
+		EBF_KAZ_increase_kazakh_forces_strength = yes
+		set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.05 }
+		EBF_KAZ_increase_nikitins_suspicions = yes
+	}
+}
+
+shared_focus = { #Decreases Nikitin’s suspicions 
+	id = RUS_careful_not_awake_beast
+	prerequisite = {
+		focus = RUS_business_matter_kazakhstan_pacification
+	}
+	icon = GFX_focus_careful_not_to_awake_the_beast
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.2 }
+		EBF_KAZ_decrease_nikitins_suspicions = yes		
+	}
+}
+
+shared_focus = { #ncreases Kazakhstan Forces Strength
+	id = RUS_few_displaced_crates
+	prerequisite = {
+		focus = RUS_business_matter_kazakhstan_pacification
+	}
+	icon = GFX_focus_a_few_displaced_crates
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.05 }
+		EBF_KAZ_increase_kazakh_forces_strength = yes		
+	}
+}
+
+shared_focus = { #unlocks more kazakhstan deccat decisions
+	id = RUS_double_the_efforts
+	prerequisite = {
+		focus = RUS_bribe_intelligence_department
+	}
+	prerequisite = {
+		focus = RUS_careful_not_awake_beast
+	}		
+	prerequisite = {
+		focus = RUS_few_displaced_crates
+	}
+	icon = GFX_focus_double_the_efforts
+	cost = 21
+	x = 0
+	y = 2
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		custom_effect_tooltip = RUS_unlock_more_kazakhstan_decisions
+	}
+}
+
+shared_focus = { #Event: Murder on the Steppes, Chkalov leaks the position of a key general
+	id = RUS_dangers_war_often_lead_unfortunate_deaths
+
+	prerequisite = {
+		focus = RUS_double_the_efforts
+	}
+	icon = GFX_focus_dangers_war_often_lead_unfortunate_deaths
+	cost = 14
+	x = -2
+	y = 3
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.6
+		}		
+	}
+}
+
+shared_focus = { #Event: Meeting of Legends, onn live Television Chkalov and Valeriy speak baout Russia and the end of the war
+	id = RUS_assure_valeriy
+
+	prerequisite = {
+		focus = RUS_double_the_efforts
+	}
+	icon = GFX_focus_go_live_generic
+	cost = 21
+	x = 0
+	y = 3
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.7
+		}		
+	}
+}
+
+shared_focus = { #Kazakhs get leaked suplly maps
+	id = RUS_give_kazakhs_supply_route_maps
+
+	prerequisite = {
+		focus = RUS_double_the_efforts
+	}
+	icon = GFX_focus_supply_maps_generic
+	cost = 14
+	x = 2
+	y = 3
+	relative_position_id = RUS_business_matter_kazakhstan_pacification
+	completion_reward = {
+		set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.1 }
+		EBF_KAZ_increase_kazakh_forces_strength = yes			
+	}
+}
+
+#POLITICAL TREE
+shared_focus = { #Event: Report on the Three Individuals of Interest introduces the big three from an outsider looking in
+	id = RUS_business_matter_allies_make_world_round
+	prerequisite = {
+		focus = RUS_but_first_clearing_house
+	}
+	available = {
+		has_completed_focus = RUS_business_matter_kazakhstan_pacification
+	}
+	icon = GFX_focus_business_matter_allies_make_world_round_shine
+	cost = 14
+	x = 4
+	y = 4
+	relative_position_id = RUS_aftermath_december_emergency_decree
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.8
+		}		
+	}
+}
+
+shared_focus = { #Event: The Cruel General, Osipov is taking the time out of his busy day to look over the new recruits,
+	id = RUS_heart_of_the_army
+
+	prerequisite = {
+		focus = RUS_business_matter_allies_make_world_round
+	}
+	icon = GFX_focus_heart_of_the_army
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.9
+		}		
+	}
+}
+
+shared_focus = { #Event: An All-nighter and a Discovery, Grigoriy Sudoplatov discovers what Chakalov is doing and pushes it along some what
+	id = RUS_trusted_minister
+	prerequisite = {
+		focus = RUS_business_matter_allies_make_world_round
+	}
+	icon = GFX_focus_trusted_minister
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.10
+		}		
+	}
+}
+
+shared_focus = { #Event: Ally or Foe?, Andrei Damian is alone, almost everybody he knew is dead, in exile or imprisoned so he drinks away his sorrows
+	id = RUS_unforeseen_ally
+	prerequisite = {
+		focus = RUS_business_matter_allies_make_world_round
+	}
+	icon = GFX_focus_unforeseen_ally
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.11
+		}		
+	}
+}
+
+shared_focus = { #Event:  Secondary Report on the Three Individuals of Interest, Chkalov has managed to get them all in locations that are private enough for them to speak, he just needs to choose which onne
+	id = RUS_in_a_game_of_influence_and_control
+	prerequisite = {
+		focus = RUS_unforeseen_ally
+	}
+	prerequisite = {
+		focus = RUS_trusted_minister
+	}	
+	prerequisite = {
+		focus = RUS_heart_of_the_army
+	}		
+	icon = GFX_focus_In_A_Game_of_Influence_and_Control
+	cost = 21
+	x = 0
+	y = 2
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.12
+		}		
+	}
+}
+
+shared_focus = { #Event: After Action Report: A Dinner with Wine, a report detailing the successful talk between Chkalov and Osipov
+	id = RUS_only_a_heart_of_war_will_do
+	prerequisite = {
+		focus = RUS_in_a_game_of_influence_and_control
+	}
+	mutually_exclusive = {
+		focus = RUS_only_a_heart_of_unity_will_do
+	}	
+	mutually_exclusive = {
+		focus = RUS_only_a_heart_of_science_will_do
+	}		
+	icon = GFX_focus_Only_a_Heart_of_War_Will_Do
+	cost = 30
+	x = -2
+	y = 3
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.13
+		}		
+	}
+}
+
+shared_focus = { #Event: After Action Report: A Reaffirment of Loyalties, a report detailing the successful talk between Chkalov and Sudoplatov
+	id = RUS_only_a_heart_of_science_will_do
+	prerequisite = {
+		focus = RUS_in_a_game_of_influence_and_control
+	}
+	mutually_exclusive = {
+		focus = RUS_only_a_heart_of_unity_will_do
+	}	
+	mutually_exclusive = {
+		focus = RUS_only_a_heart_of_war_will_do
+	}	
+	icon = GFX_focus_Only_a_Heart_of_Science_Will_Do
+	cost = 30
+	x = 0
+	y = 3
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.14
+		}		
+	}
+}
+
+shared_focus = { #Event: After Action Report: A Saviour's Proper Reward, a report detailing the successful talk between Chkalov and Damian 
+	id = RUS_only_a_heart_of_unity_will_do
+	prerequisite = {
+		focus = RUS_in_a_game_of_influence_and_control
+	}
+	mutually_exclusive = {
+		focus = RUS_only_a_heart_of_science_will_do
+	}	
+	mutually_exclusive = {
+		focus = RUS_only_a_heart_of_war_will_do
+	}		
+	icon = GFX_focus_Only_a_Heart_of_Unity_Will_Do_shine
+	cost = 30
+	x = 2
+	y = 3
+	relative_position_id = RUS_business_matter_allies_make_world_round
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.15
+		}		
+	}
+}
+
+shared_focus = { #Event: The Last Battle of Valeriy Zakharov, Valeriy is about to fight the last battle
+	id = RUS_the_final_days
+	prerequisite = {
+		focus = RUS_give_kazakhs_supply_route_maps
+	}
+	prerequisite = {
+		focus = RUS_assure_valeriy
+	}	
+	prerequisite = {
+		focus = RUS_dangers_war_often_lead_unfortunate_deaths
+	}	
+
+	prerequisite = {
+		focus = RUS_only_a_heart_of_science_will_do
+		focus = RUS_only_a_heart_of_war_will_do
+		focus = RUS_only_a_heart_of_unity_will_do
+	}
+	icon = GFX_focus_final_move_generic
+	cost = 14
+	x = 0
+	y = 5
+	relative_position_id = RUS_but_first_clearing_house
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.16
+		}		
+	}
+}
+
+shared_focus = { #Event: The Victor’s March Home, Valeriy is coming home and he looks mad
+	id = RUS_an_undesired_victory
+	prerequisite = {
+		focus = RUS_the_final_days
+	}
+	mutually_exclusive = {
+		focus = RUS_his_fall
+	}	
+	available = {
+		always = NO
+	}	
+	icon = GFX_focus_marching_soldiers_generic
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_the_final_days
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.17
+		}		
+	}
+}
+
+shared_focus = { #Event: A Shameful retreat, Valeriy is not coming home, he is dead
+	id = RUS_his_fall
+	prerequisite = {
+		focus = RUS_the_final_days
+	}
+	mutually_exclusive = {
+		focus = RUS_an_undesired_victory
+	}	
+	available = {
+		always = NO
+	}
+	icon = GFX_focus_his_fall
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_the_final_days
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.19
+		}		
+	}
+}
+
+shared_focus = { #Event: The Final Death Knell, Russia's democracy comes to an end
+	id = RUS_i_am_president_tsar_and_premier 
+	prerequisite = {
+		focus = RUS_an_undesired_victory
+		focus = RUS_his_fall
+	}
+	icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 2
+	relative_position_id = RUS_the_final_days
+	completion_reward = {
+		country_event = {
+			id = russia_tree_one.21
+		}		
+	}
+}
+
+# PHASE 1&2 #
+##CORE TREE
+
+shared_focus = { #
+	id = RUS_russias_new_paradigm 
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 20
+	y = 0
+	completion_reward = {	
+	}
+}
+
+#SIBERIA PLANNING TREE
+shared_focus = { #
+	id = RUS_attention_long_overdue
+	prerequisite = {
+		focus = RUS_russias_new_paradigm
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -10
+	y = 1
+	relative_position_id = RUS_russias_new_paradigm
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_let_the_planning_begin
+	prerequisite = {
+		focus = RUS_attention_long_overdue
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_matter_of_scope
+	prerequisite = {
+		focus = RUS_let_the_planning_begin
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -1
+	y = 2
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_matter_of_size
+	prerequisite = {
+		focus = RUS_let_the_planning_begin
+	}	
+	available = {
+		has_completed_focus = RUS_matter_of_scope
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 1
+	y = 2
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+
+shared_focus = { #
+	id = RUS_matter_of_purpose
+	prerequisite = {
+		focus = RUS_matter_of_size
+	}
+	prerequisite = {
+		focus = RUS_matter_of_scope
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 3
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_last_minute_proposals
+	prerequisite = {
+		focus = RUS_matter_of_purpose
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 4
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_osipovs_military_city
+	prerequisite = {
+		focus = RUS_last_minute_proposals
+	}	
+	mutually_exclusive = {
+		focus = RUS_sudoplatovs_scientific_marvel
+	}
+	mutually_exclusive = {
+		focus = RUS_they_come_too_late
+	}	
+	mutually_exclusive = {
+		focus = RUS_damians_new_city_model
+	}			
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = -4
+	y = 5
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_sudoplatovs_scientific_marvel
+	prerequisite = {
+		focus = RUS_last_minute_proposals
+	}
+	mutually_exclusive = {
+		focus = RUS_osipovs_military_city
+	}
+	mutually_exclusive = {
+		focus = RUS_they_come_too_late
+	}	
+	mutually_exclusive = {
+		focus = RUS_damians_new_city_model
+	}				
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = -2
+	y = 5
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_they_come_too_late
+	prerequisite = {
+		focus = RUS_last_minute_proposals
+	}	
+	mutually_exclusive = {
+		focus = RUS_osipovs_military_city
+	}
+	mutually_exclusive = {
+		focus = RUS_sudoplatovs_scientific_marvel
+	}	
+	mutually_exclusive = {
+		focus = RUS_damians_new_city_model
+	}			
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 2
+	y = 5
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_damians_new_city_model
+	prerequisite = {
+		focus = RUS_last_minute_proposals
+	}	
+	mutually_exclusive = {
+		focus = RUS_osipovs_military_city
+	}
+	mutually_exclusive = {
+		focus = RUS_sudoplatovs_scientific_marvel
+	}	
+	mutually_exclusive = {
+		focus = RUS_they_come_too_late
+	}				
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 4
+	y = 5
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_a_new_plan_in_motion
+	prerequisite = {
+		focus = RUS_damians_new_city_model
+		focus = RUS_they_come_too_late
+		focus = RUS_sudoplatovs_scientific_marvel
+		focus = RUS_osipovs_military_city
+	}			
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 6
+	relative_position_id = RUS_attention_long_overdue
+	completion_reward = {	
+	}
+}
+#THE INTERNAL WAR TREE
+shared_focus = { #
+	id = RUS_the_internal_war
+	prerequisite = {
+		focus = RUS_russias_new_paradigm
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_russias_new_paradigm
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_dealing_with_roksana 
+	prerequisite = {
+		focus = RUS_the_internal_war
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -4
+	y = 1
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_keep_them_calm
+	prerequisite = {
+		focus = RUS_dealing_with_roksana
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_dealing_with_roksana
+	completion_reward = {	
+	}
+}
+shared_focus = { #
+	id = RUS_trust_in_centre
+	prerequisite = {
+		focus = RUS_keep_them_calm
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 2
+	relative_position_id = RUS_dealing_with_roksana
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_emphasise_their_differences
+	prerequisite = {
+		focus = RUS_dealing_with_roksana
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_dealing_with_roksana
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_break_the_meetings
+	prerequisite = {
+		focus = RUS_emphasise_their_differences
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 2
+	relative_position_id = RUS_dealing_with_roksana
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_isolate_roksana
+	prerequisite = {
+		focus = RUS_break_the_meetings
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 3
+	relative_position_id = RUS_dealing_with_roksana
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_operation_dawn_breaker
+	prerequisite = {
+		focus = RUS_isolate_roksana
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 4
+	relative_position_id = RUS_dealing_with_roksana
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_damage_their_trust
+	prerequisite = {
+		focus = RUS_the_internal_war
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 2
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_chkalov_the_great_unifier
+	prerequisite = {
+		focus = RUS_damage_their_trust
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 3
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_roksana_the_dogmatic_fool
+	prerequisite = {
+		focus = RUS_chkalov_the_great_unifier
+	}	
+	mutually_exclusive = {
+		focus = RUS_kozlov_the_blind_fool
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = -2
+	y = 4
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_kozlov_the_blind_fool
+	prerequisite = {
+		focus = RUS_chkalov_the_great_unifier
+	}	
+	mutually_exclusive = {
+		focus = RUS_roksana_the_dogmatic_fool
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 2
+	y = 4
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_dealing_with_kozlov
+	prerequisite = {
+		focus = RUS_the_internal_war
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 4
+	y = 1
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_friends_in_the_right
+	prerequisite = {
+		focus = RUS_dealing_with_kozlov
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_dealing_with_kozlov
+	completion_reward = {	
+	}
+}
+shared_focus = { #
+	id = RUS_keep_together
+	prerequisite = {
+		focus = RUS_friends_in_the_right
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 2
+	relative_position_id = RUS_dealing_with_kozlov
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_disunity_promotes_weakness
+	prerequisite = {
+		focus = RUS_dealing_with_kozlov
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_dealing_with_kozlov
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_promote_the_common_soil
+	prerequisite = {
+		focus = RUS_disunity_promotes_weakness
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 2
+	relative_position_id = RUS_dealing_with_kozlov
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_isolate_kozlov
+	prerequisite = {
+		focus = RUS_promote_the_common_soil
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 3
+	relative_position_id = RUS_dealing_with_kozlov
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_operation_shadow_closer
+	prerequisite = {
+		focus = RUS_isolate_kozlov
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 4
+	relative_position_id = RUS_dealing_with_kozlov
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_peace_within_the_party
+	prerequisite = {
+		focus = RUS_operation_dawn_breaker
+	}	
+	prerequisite = {
+		focus = RUS_operation_shadow_closer
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 6
+	relative_position_id = RUS_the_internal_war
+	completion_reward = {	
+	}
+}
+#BALKAN UNION AGREEMENT TREE
+shared_focus = { #
+	id = RUS_our_brothers_in_the_balkans
+	prerequisite = {
+		focus = RUS_russias_new_paradigm
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 13
+	y = 1
+	relative_position_id = RUS_russias_new_paradigm
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_making_first_contact
+	prerequisite = {
+		focus = RUS_our_brothers_in_the_balkans
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 1
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_osipovs_military_promises
+	prerequisite = {
+		focus = RUS_making_first_contact
+	}	
+	mutually_exclusive = {
+		focus = RUS_sudoplatovs_pragmatic_promises
+	}
+	mutually_exclusive = {
+		focus = RUS_damians_peoples_promises
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = -4
+	y = 2
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_sudoplatovs_pragmatic_promises
+	prerequisite = {
+		focus = RUS_making_first_contact
+	}	
+	mutually_exclusive = {
+		focus = RUS_osipovs_military_promises
+	}
+	mutually_exclusive = {
+		focus = RUS_damians_peoples_promises
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 0
+	y = 2
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_damians_peoples_promises
+	prerequisite = {
+		focus = RUS_making_first_contact
+	}	
+	mutually_exclusive = {
+		focus = RUS_osipovs_military_promises
+	}
+	mutually_exclusive = {
+		focus = RUS_sudoplatovs_pragmatic_promises
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 4
+	y = 2
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_all_the_might_in_the_world
+	prerequisite = {
+		focus = RUS_osipovs_military_promises
+	}	
+	mutually_exclusive = {
+		focus = RUS_russian_expeditionary_force
+	}
+	mutually_exclusive = {
+		focus = RUS_brotherly_pact
+	}	
+	mutually_exclusive = {
+		focus = RUS_pan_slavic_sustenance
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = -5
+	y = 3
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_russian_expeditionary_force
+	prerequisite = {
+		focus = RUS_osipovs_military_promises
+		focus = RUS_sudoplatovs_pragmatic_promises
+		focus = RUS_damians_peoples_promises
+	}		
+	mutually_exclusive = {
+		focus = RUS_all_the_might_in_the_world
+	}
+	mutually_exclusive = {
+		focus = RUS_brotherly_pact
+	}	
+	mutually_exclusive = {
+		focus = RUS_pan_slavic_sustenance
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = -2
+	y = 3
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_brotherly_pact 
+	prerequisite = {
+		focus = RUS_osipovs_military_promises
+		focus = RUS_sudoplatovs_pragmatic_promises
+		focus = RUS_damians_peoples_promises
+	}
+	mutually_exclusive = {
+		focus = RUS_all_the_might_in_the_world
+	}
+	mutually_exclusive = {
+		focus = RUS_russian_expeditionary_force
+	}	
+	mutually_exclusive = {
+		focus = RUS_pan_slavic_sustenance
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 2
+	y = 3
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_pan_slavic_sustenance
+	prerequisite = {
+		focus = RUS_damians_peoples_promises
+	}	
+	mutually_exclusive = {
+		focus = RUS_all_the_might_in_the_world
+	}
+	mutually_exclusive = {
+		focus = RUS_russian_expeditionary_force
+	}	
+	mutually_exclusive = {
+		focus = RUS_brotherly_pact
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 21
+	x = 5
+	y = 3
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+
+shared_focus = { #
+	id = RUS_permeant_production_installations 
+	prerequisite = {
+		focus = RUS_all_the_might_in_the_world
+		focus = RUS_russian_expeditionary_force
+		focus = RUS_brotherly_pact
+		focus = RUS_pan_slavic_sustenance
+	}	
+	mutually_exclusive = {
+		focus = RUS_small_scale_military_help
+	}
+	mutually_exclusive = {
+		focus = RUS_help_make_the_cut
+	}	
+	mutually_exclusive = {
+		focus = RUS_never_go_poor_again
+	}	
+	available = {
+		has_completed_focus = RUS_osipovs_military_promises
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 28
+	x = -5
+	y = 4
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_small_scale_military_help
+	prerequisite = {
+		focus = RUS_all_the_might_in_the_world
+		focus = RUS_russian_expeditionary_force
+		focus = RUS_brotherly_pact
+		focus = RUS_pan_slavic_sustenance
+	}	
+	mutually_exclusive = {
+		focus = RUS_permeant_production_installations
+	}
+	mutually_exclusive = {
+		focus = RUS_help_make_the_cut
+	}	
+	mutually_exclusive = {
+		focus = RUS_never_go_poor_again
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 28
+	x = -2
+	y = 4
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_help_make_the_cut
+	prerequisite = {
+		focus = RUS_all_the_might_in_the_world
+		focus = RUS_russian_expeditionary_force
+		focus = RUS_brotherly_pact
+		focus = RUS_pan_slavic_sustenance
+	}
+	mutually_exclusive = {
+		focus = RUS_permeant_production_installations
+	}
+	mutually_exclusive = {
+		focus = RUS_small_scale_military_help
+	}	
+	mutually_exclusive = {
+		focus = RUS_never_go_poor_again
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 28
+	x = 2
+	y = 4
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_never_go_poor_again
+	prerequisite = {
+		focus = RUS_all_the_might_in_the_world
+		focus = RUS_russian_expeditionary_force
+		focus = RUS_brotherly_pact
+		focus = RUS_pan_slavic_sustenance
+	}	
+	available = {
+		has_completed_focus = RUS_damians_peoples_promises
+	}	
+	mutually_exclusive = {
+		focus = RUS_permeant_production_installations
+	}
+	mutually_exclusive = {
+		focus = RUS_help_make_the_cut
+	}	
+	mutually_exclusive = {
+		focus = RUS_small_scale_military_help
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 28
+	x = 5
+	y = 4
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_send_the_deal
+	prerequisite = {
+		focus = RUS_never_go_poor_again
+		focus = RUS_permeant_production_installations
+		focus = RUS_help_make_the_cut
+		focus = RUS_small_scale_military_help
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 0
+	y = 5
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_the_russo_balkan_friendship
+	prerequisite = {
+		focus = RUS_send_the_deal
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 6
+	relative_position_id = RUS_our_brothers_in_the_balkans
+	completion_reward = {	
+	}
+}
+##GREATER RUSSIAN SYSTEM TREE
+shared_focus = { #
+	id = RUS_formless_ideology_given_form
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 50
+	y = 0
+	completion_reward = {	
+	}
+}
+
+#DAMIAN GRS BRANCH
+
+shared_focus = { #
+	id = RUS_an_ideology_of_the_people
+	prerequisite = {
+		focus = RUS_formless_ideology_given_form
+	}	
+	allow_branch = {
+		has_country_flag = damian_first_lieutenant
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_formless_ideology_given_form
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_russians_at_home
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_people
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -5
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_people
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_solidify_political_alliance
+	prerequisite = {
+		focus = RUS_russians_at_home
+	}	
+	mutually_exclusive = {
+		focus = RUS_one_party_two_leaders
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_russians_at_home
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_one_party_two_leaders
+	prerequisite = {
+		focus = RUS_russians_at_home
+	}	
+	mutually_exclusive = {
+		focus = RUS_solidify_political_alliance
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_russians_at_home
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_overturn_military_courts
+	prerequisite = {
+		focus = RUS_solidify_political_alliance
+		focus = RUS_one_party_two_leaders
+	}	
+	mutually_exclusive = {
+		focus = RUS_stay_the_course
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -2
+	y = 2
+	relative_position_id = RUS_russians_at_home
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_stay_the_course
+	prerequisite = {
+		focus = RUS_solidify_political_alliance
+		focus = RUS_one_party_two_leaders
+	}	
+	mutually_exclusive = {
+		focus = RUS_overturn_military_courts
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 2
+	y = 2
+	relative_position_id = RUS_russians_at_home
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_a_pan_russian_party
+	prerequisite = {
+		focus = RUS_stay_the_course
+		focus = RUS_overturn_military_courts
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_russians_at_home
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_russians_in_kazakhstan
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_people
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_people
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_making_calls
+	prerequisite = {
+		focus = RUS_russians_in_kazakhstan
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_russians_in_kazakhstan
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_day_without_blood
+	prerequisite = {
+		focus = RUS_making_calls
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 2
+	relative_position_id = RUS_russians_in_kazakhstan
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_russians_in_the_baltics
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_people
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 5
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_people
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_backroom_dancing
+	prerequisite = {
+		focus = RUS_russians_in_the_baltics
+	}	
+	mutually_exclusive = {
+		focus = RUS_silent_shaking_of_hand
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_russians_in_the_baltics
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_silent_shaking_of_hand
+	prerequisite = {
+		focus = RUS_russians_in_the_baltics
+	}	
+	mutually_exclusive = {
+		focus = RUS_backroom_dancing
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_russians_in_the_baltics
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_transformative_influences 
+	prerequisite = {
+		focus = RUS_silent_shaking_of_hand
+		focus = RUS_backroom_dancing
+	}	
+	mutually_exclusive = {
+		focus = RUS_mutual_agreement_will_do
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -2
+	y = 2
+	relative_position_id = RUS_russians_in_the_baltics
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_mutual_agreement_will_do
+	prerequisite = {
+		focus = RUS_silent_shaking_of_hand
+		focus = RUS_backroom_dancing
+	}	
+	mutually_exclusive = {
+		focus = RUS_transformative_influences
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 2
+	y = 2
+	relative_position_id = RUS_russians_in_the_baltics
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_pan_russian_foreign_policy
+	prerequisite = {
+		focus = RUS_mutual_agreement_will_do
+		focus = RUS_transformative_influences
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_russians_in_the_baltics
+	completion_reward = {	
+	}
+}
+
+#SUDOPLATOV GRS BRANCH
+
+shared_focus = { #
+	id = RUS_an_ideology_of_the_sciences
+	prerequisite = {
+		focus = RUS_formless_ideology_given_form
+	}	
+	allow_branch = {
+		has_country_flag = sudoplatov_first_lieutenant
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_formless_ideology_given_form
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_bringing_science_to_russia
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_sciences
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -5
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_sciences
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_unified_bureaus_of_scientific_progress
+	prerequisite = {
+		focus = RUS_bringing_science_to_russia
+	}	
+	mutually_exclusive = {
+		focus = RUS_not_too_much_power
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_bringing_science_to_russia
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_not_too_much_power
+	prerequisite = {
+		focus = RUS_bringing_science_to_russia
+	}	
+	mutually_exclusive = {
+		focus = RUS_unified_bureaus_of_scientific_progress
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_bringing_science_to_russia
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_minister_on_his_own
+	prerequisite = {
+		focus = RUS_unified_bureaus_of_scientific_progress
+		focus = RUS_not_too_much_power
+	}	
+	mutually_exclusive = {
+		focus = RUS_minister_and_a_neurologist
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -2
+	y = 2
+	relative_position_id = RUS_bringing_science_to_russia
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_minister_and_a_neurologist
+	prerequisite = {
+		focus = RUS_unified_bureaus_of_scientific_progress
+		focus = RUS_not_too_much_power
+	}	
+	mutually_exclusive = {
+		focus = RUS_minister_on_his_own
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 2
+	y = 2
+	relative_position_id = RUS_bringing_science_to_russia
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_science_in_action
+	prerequisite = {
+		focus = RUS_minister_and_a_neurologist
+		focus = RUS_minister_on_his_own
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_bringing_science_to_russia
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_bringing_science_to_the_baltics
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_sciences
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_sciences
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_multi_layered_agreement
+	prerequisite = {
+		focus = RUS_bringing_science_to_the_baltics
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 2
+	relative_position_id = RUS_an_ideology_of_the_sciences
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_their_disunity_will_be_our_strength 
+	prerequisite = {
+		focus = RUS_multi_layered_agreement
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_an_ideology_of_the_sciences
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_bringing_science_to_children
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_sciences
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 5
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_sciences
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_scientific_education
+	prerequisite = {
+		focus = RUS_bringing_science_to_children
+	}	
+	mutually_exclusive = {
+		focus = RUS_natural_education
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_natural_education
+	prerequisite = {
+		focus = RUS_bringing_science_to_children
+	}	
+	mutually_exclusive = {
+		focus = RUS_scientific_education
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_prioritise_scientific_roles  
+	prerequisite = {
+		focus = RUS_natural_education
+		focus = RUS_scientific_education
+	}	
+	mutually_exclusive = {
+		focus = RUS_compromise_on_jobs
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -2
+	y = 2
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_compromise_on_jobs 
+	prerequisite = {
+		focus = RUS_natural_education
+		focus = RUS_scientific_education
+	}
+	mutually_exclusive = {
+		focus = RUS_prioritise_scientific_roles
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 2
+	y = 2
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_new_education_plan
+	prerequisite = {
+		focus = RUS_compromise_on_jobs
+		focus = RUS_prioritise_scientific_roles
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+#OSIPOV GRS BRANCH
+
+shared_focus = { #
+	id = RUS_an_ideology_of_the_military
+	prerequisite = {
+		focus = RUS_formless_ideology_given_form
+	}	
+	allow_branch = {
+		has_country_flag = osipov_first_lieutenant
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_formless_ideology_given_form
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_mans_own_well_deserved_glory
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_military
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -5
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_military
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_nikifor_kovalevs_long_service
+	prerequisite = {
+		focus = RUS_mans_own_well_deserved_glory
+	}	
+	mutually_exclusive = {
+		focus = RUS_an_amicable_promotion
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_mans_own_well_deserved_glory
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_an_amicable_promotion 
+	prerequisite = {
+		focus = RUS_mans_own_well_deserved_glory
+	}	
+	mutually_exclusive = {
+		focus = RUS_nikifor_kovalevs_long_service
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_mans_own_well_deserved_glory
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_glory_unchained
+	prerequisite = {
+		focus = RUS_nikifor_kovalevs_long_service
+		focus = RUS_an_amicable_promotion
+	}
+	mutually_exclusive = {
+		focus = RUS_chain_the_glory
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -2
+	y = 2
+	relative_position_id = RUS_mans_own_well_deserved_glory
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_chain_the_glory
+	prerequisite = {
+		focus = RUS_nikifor_kovalevs_long_service
+		focus = RUS_an_amicable_promotion
+	}	
+	mutually_exclusive = {
+		focus = RUS_glory_unchained
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 2
+	y = 2
+	relative_position_id = RUS_mans_own_well_deserved_glory
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_well_deserved_glory_received 
+	prerequisite = {
+		focus = RUS_glory_unchained
+		focus = RUS_chain_the_glory
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_mans_own_well_deserved_glory
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_a_generals_plea
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_military
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_military
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_osipovs_circle_of_allies
+	prerequisite = {
+		focus = RUS_a_generals_plea
+	}	
+	mutually_exclusive = {
+		focus = RUS_stay_the_hand
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -1
+	y = 1
+	relative_position_id = RUS_a_generals_plea
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_stay_the_hand
+	prerequisite = {
+		focus = RUS_a_generals_plea
+	}	
+	mutually_exclusive = {
+		focus = RUS_osipovs_circle_of_allies
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 1
+	y = 1
+	relative_position_id = RUS_a_generals_plea
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_glory_not_yet_earned
+	prerequisite = {
+		focus = RUS_an_ideology_of_the_military
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 5
+	y = 1
+	relative_position_id = RUS_an_ideology_of_the_military
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_crossings_at_lake_pskovskoye
+	prerequisite = {
+		focus = RUS_glory_not_yet_earned
+	}	
+	mutually_exclusive = {
+		focus = RUS_our_soldiers_in_our_rightful_lands
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = -2
+	y = 1
+	relative_position_id = RUS_glory_not_yet_earned
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_our_soldiers_in_our_rightful_lands
+	prerequisite = {
+		focus = RUS_glory_not_yet_earned
+	}
+	mutually_exclusive = {
+		focus = RUS_crossings_at_lake_pskovskoye
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 2
+	y = 1
+	relative_position_id = RUS_glory_not_yet_earned
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_let_sleeping_dogs_lie
+	prerequisite = {
+		focus = RUS_crossings_at_lake_pskovskoye
+		focus = RUS_our_soldiers_in_our_rightful_lands
+	}	
+	mutually_exclusive = {
+		focus = RUS_send_in_the_hounds
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = -2
+	y = 2
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_send_in_the_hounds
+	prerequisite = {
+		focus = RUS_crossings_at_lake_pskovskoye
+		focus = RUS_our_soldiers_in_our_rightful_lands
+	}	
+	mutually_exclusive = {
+		focus = RUS_let_sleeping_dogs_lie
+	}		
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 14
+	x = 2
+	y = 2
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_glory_that_will_soon_be_earned
+	prerequisite = {
+		focus = RUS_let_sleeping_dogs_lie
+		focus = RUS_send_in_the_hounds
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 7
+	x = 0
+	y = 3
+	relative_position_id = RUS_bringing_science_to_children
+	completion_reward = {	
+	}
+}
+
+#CAUCASUS WAR BRANCH
+
+shared_focus = { #
+	id = RUS_controlled_outburst
+	allow_branch = {
+		has_global_flag = GLOBAL_RUS_Caucasus_war_flag
+	}
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = 20
+	y = 10
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_embolden_the_men
+	prerequisite = {
+		focus = RUS_controlled_outburst
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = -2
+	y = 1
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_russia_needs_her_patriots
+	prerequisite = {
+		focus = RUS_embolden_the_men
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = -4
+	y = 2
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_a_quick_and_easy_war
+	prerequisite = {
+		focus = RUS_embolden_the_men
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = -2
+	y = 2
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_fires_of_russia
+	prerequisite = {
+		focus = RUS_a_quick_and_easy_war
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = -2
+	y = 3
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_tactical_repositioning
+	prerequisite = {
+		focus = RUS_controlled_outburst
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = 2
+	y = 1
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_keep_on_the_march
+	prerequisite = {
+		focus = RUS_tactical_repositioning
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = 4
+	y = 2
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_supplementary_divisions
+	prerequisite = {
+		focus = RUS_keep_on_the_march
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = 2
+	y = 2
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_mountain_training
+	prerequisite = {
+		focus = RUS_supplementary_divisions
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = 2
+	y = 3
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}
+
+shared_focus = { #
+	id = RUS_from_grozny_to_yerevan
+	prerequisite = {
+		focus = RUS_mountain_training
+	}	
+	prerequisite = {
+		focus = RUS_fires_of_russia
+	}	
+	#icon = GFX_focus_i_am_president_tsar_and_premier
+	cost = 5
+	x = 0
+	y = 4
+	relative_position_id = RUS_controlled_outburst	
+	completion_reward = {	
+	}
+}

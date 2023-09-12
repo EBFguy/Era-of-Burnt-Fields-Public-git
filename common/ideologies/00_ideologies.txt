@@ -1,0 +1,552 @@
+ideologies = {
+
+	########################################
+	#           Technoutopianism           #
+	########################################
+
+	technoutopianism_1 = {
+		types = { technoutopianism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 20 212 212 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	technoutopianism = {
+	
+		types = {
+			technoutopianism_technoutopianism_subtype = { }
+		
+			technoutopianism_noosphere_project_subtype = { can_be_randomly_selected = no }
+			technoutopianism_esoteric_technoutopianism_subtype = { can_be_randomly_selected = no }
+			technoutopianism_machine_controlled_society_subtype = { can_be_randomly_selected = no }
+			technoutopianism_EOHs_transmission_subtype = { can_be_randomly_selected = no }
+			technoutopianism_panekism_subtype = { can_be_randomly_selected = no }
+			technoutopianism_technoligarchy_subtype = { can_be_randomly_selected = no }
+			technoutopianism_technocracy_subtype = { can_be_randomly_selected = no }
+			technoutopianism_singular_dictatorship_subtype = { can_be_randomly_selected = no }
+			technoutopianism_laboratory_state_subtype = { can_be_randomly_selected = no }
+			technoutopianism_richford_system_subtype = { can_be_randomly_selected = no }
+			technoutopianism_transhumanism_with_national_socialist_characteristics_subtype = { can_be_randomly_selected = no }
+			technoutopianism_transhumanism_subtype = { can_be_randomly_selected = no }
+			technoutopianism_scientific_socialism_subtype = { can_be_randomly_selected = no }
+			technoutopianism_ad_astra_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 36 222 222 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	technoutopianism_2 = {
+		types = { technoutopianism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 40 232 232 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#             Securocracy              #
+	########################################
+	
+	securocracy_1 = {
+		types = { securocracy_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 227 207 182 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	securocracy = {
+	
+		types = {
+			securocracy_securocracy_subtype = {}
+
+			securocracy_greater_russian_system_subtype = { can_be_randomly_selected = no }
+			securocracy_greater_russian_system_left_subtype = { can_be_randomly_selected = no }
+			securocracy_greater_russian_system_centre_subtype = { can_be_randomly_selected = no }
+			securocracy_greater_russian_system_right_subtype = { can_be_randomly_selected = no }
+			securocracy_absolute_corporatocracy_subtype = { can_be_randomly_selected = no }
+			securocracy_habeo_ideam_directorate_subtype = { can_be_randomly_selected = no } #transitionary state towards technoutopianism_richford_system_subtype
+			securocracy_habeo_ideam_directorate_holmes_subtype = { can_be_randomly_selected = no } 
+			securocracy_ultrastatism_subtype = { can_be_randomly_selected = no }
+			securocracy_military_vanguardism_subtype = { can_be_randomly_selected = no }
+			securocracy_automated_state_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 176 166 142 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	securocracy_2 = {
+		types = { securocracy_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 139 134 116 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#           Ultranationalism           #
+	########################################
+
+	ultranationalism_1 = {
+		types = { ultranationalism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 15 15 15 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	ultranationalism = {
+	
+		types = {
+			ultranationalism_ultranationalism_subtype = {}
+		
+			ultranationalism_ultramilitarism_subtype = { can_be_randomly_selected = no }
+			ultranationalism_fundamentalism_subtype = { can_be_randomly_selected = no }
+			ultranationalism_catholic_fundamentalism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 25 25 25 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	ultranationalism_2 = {
+		types = { ultranationalism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 35 35 35 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#                Fascism               #
+	########################################
+
+	fascism_1 = {
+		types = { fascism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 100 35 25 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	fascist = {
+		
+		types = {
+			fascist_fascism_subtype = { } #Classical
+			
+			fascist_neo_fascism_subtype = { can_be_randomly_selected = no }
+			fascist_corporatism_subtype = { can_be_randomly_selected = no }
+			fascist_religious_fascism_subtype = { can_be_randomly_selected = no }
+			fascist_national_socialism_subtype = { can_be_randomly_selected = no }
+			fascist_national_socialism_with_transhuman_characteristics_subtype = { can_be_randomly_selected = no }
+			fascist_esoteric_fascism_subtype = { can_be_randomly_selected = no }
+			fascist_stratocratic_fascism_subtype = { can_be_randomly_selected = no }
+			fascist_european_neo_federalism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 110 45 35 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	fascism_2 = {
+		types = { fascism_3_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 120 55 45 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#               Autocracy              #
+	########################################
+
+	autocracy_1 = {
+		types = { autocracy_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 55 55 55 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	autocracy = {
+	
+		types = {
+			autocracy_autocracy_subtype = {}
+
+			autocracy_military_junta_subtype = { can_be_randomly_selected = no }
+			autocracy_absolute_monarchy_subtype = { can_be_randomly_selected = no }
+			autocracy_technocratic_despotism_subtype = { can_be_randomly_selected = no }
+			autocracy_absolute_theocracy_subtype = { can_be_randomly_selected = no }
+			autocracy_corporatocracy_subtype = { can_be_randomly_selected = no }
+			autocracy_banditry_subtype = { can_be_randomly_selected = no }
+			autocracy_civlian_dictatorship_subtype = { can_be_randomly_selected = no }
+			autocracy_military_dictatorship_subtype = { can_be_randomly_selected = no }
+			autocracy_neo_baathism_subtype = { can_be_randomly_selected = no }
+			autocracy_occupation_authority_subtype = { can_be_randomly_selected = no }
+			autocracy_national_military_company_subtype = { can_be_randomly_selected = no }
+			autocracy_iranian_secularism_subtype = { can_be_randomly_selected = no }
+			autocracy_papal_theocracy_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 65 65 65 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	autocracy_2 = {
+		types = { autocracy_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 75 75 75 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#               Anocracy               #
+	########################################
+
+	anocracy_1 = {
+		types = { anocracy_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 101 101 101 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	anocracy = {
+	
+		types = {
+			anocracy_anocracy_subtype = {}
+			
+			anocracy_semi_constitutional_monarchy_subtype = { can_be_randomly_selected = no }
+			anocracy_controlled_democracy_subtype = { can_be_randomly_selected = no }
+			anocracy_technocratic_democracy_subtype = { can_be_randomly_selected = no }
+			anocracy_traditional_oligarchy_subtype = { can_be_randomly_selected = no }
+			anocracy_stratocracy_subtype = { can_be_randomly_selected = no }
+			anocracy_one_party_dominant_democracy_subtype ={ can_be_randomly_selected = no }
+			anocracy_transitional_democracy_subtype = { can_be_randomly_selected = no }
+			anocracy_provisional_government_subtype = { can_be_randomly_selected = no }
+			anocracy_militaristic_libertarianism_subtype = { can_be_randomly_selected = no }
+			anocracy_soldiers_democracy_subtype = { can_be_randomly_selected = no }
+			anocracy_cyber_stratocracy_subtype = { can_be_randomly_selected = no }
+			anocracy_catholic_religious_democracy_subtype = { can_be_randomly_selected = no }
+			anocracy_eurostructure_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 111 111 111 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	anocracy_2 = {
+		types = { anocracy_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 121 121 121 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#             Conservatism             #
+	########################################
+
+	conservatism_1 = {
+		types = { conservatism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 16 16 91 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	conservatism = {
+	
+		types = {
+			conservatism_conservatism_subtype = { }
+			
+			conservatism_neoconservative_subtype = { can_be_randomly_selected = no }
+			conservatism_paleoconservative_subtype = { can_be_randomly_selected = no }
+			conservatism_conservative_theocracy_subtype = { can_be_randomly_selected = no }
+			conservatism_national_conservative_subtype = { can_be_randomly_selected = no }
+			conservatism_euroconservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_classic_oligarchy_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 26 26 101 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	conservatism_2 = {
+		types = { conservatism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 36 36 111 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	########################################
+	#         Liberal Connservatism        #
+	########################################
+	liberal_conservatism_1 = {
+		types = { liberal_conservatism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 35 44 115 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	liberal_conservatism = {
+	
+		types = {
+			liberal_conservatism_liberal_conservatism_subtype = { }
+			
+			liberal_conservatism_eurocentrism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 47 54 127 }		
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	liberal_conservatism_2 = {
+		types = { liberal_conservatism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 60 64 140 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#              Liberalism              #
+	########################################
+	liberalism_1 = {
+		types = { liberalism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 78 91 137 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	liberalism = {
+	
+		types = {
+			liberalism_liberalism_subtype = {}
+			
+			liberalism_neoliberal_subtype = { can_be_randomly_selected = no }
+			liberalism_christian_democrat_subtype = { can_be_randomly_selected = no }
+			liberalism_social_liberal_subtype = { can_be_randomly_selected = no }
+			liberalism_national_liberalism_subtype = { can_be_randomly_selected = no }
+			liberalism_cyberdemocracy_subtype = { can_be_randomly_selected = no }
+			liberalism_euroliberalism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 88 101 147 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	liberalism_2 = {
+		types = { liberalism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 98 111 157 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	########################################
+	#             Progressivism            #
+	########################################
+	progressivism_1 = {
+		types = { progressivism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 144 41 72 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	progressivism = {
+	
+		types = {
+			progressivism_progressivism_subtype = { }
+
+			progressivism_social_democracy_subtype = { can_be_randomly_selected = no }
+			progressivism_liberal_socialism_subtype = { can_be_randomly_selected = no }
+			progressivism_europrogressivism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 154 37 77 }
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	progressivism_2 = {
+		types = { progressivism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 164 61 92 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	########################################
+	#         Libertarian Socialism        #
+	########################################
+	libertarian_socialism_1 = {
+		types = { libertarian_socialism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 113 13 13 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	libertarian_socialism_2 = {
+		types = { libertarian_socialism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 123 23 23 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	libertarian_socialism = {
+	
+		types = {
+			libertarian_socialism_libertarian_socialism_subtype = {}
+			
+			libertarian_socialism_anarcho_communist_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_market_socialism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_eco_socialism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_utopian_socialism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_democratic_socialism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_syndicalism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_united_front_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_left_wing_nationalism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_religious_socialism_subtype = { can_be_randomly_selected = no }
+			libertarian_socialism_soul_of_the_worker_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 133 33 33 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	libertarian_socialism_3 = {
+		types = { libertarian_socialism_3_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 143 43 43 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	libertarian_socialism_4 = {
+		types = { libertarian_socialism_4_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 153 53 53 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#        Authoritarian Socialism       #
+	########################################
+	authoritarian_socialism_1 = {
+		types = { authoritarian_socialism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 70 5 5 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authoritarian_socialism_2 = {
+		types = { authoritarian_socialism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 80 15 15 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authoritarian_socialism = {
+	
+		types = {
+			authoritarian_socialism_authoritarian_socialism_subtype = {}
+	
+			authoritarian_socialism_stratocratic_communism_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_neo_maoism_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_neo_stalinlist_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_xi_jinping_pragmatic_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_absolute_eco_socialism_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_absolute_peoples_theoracy_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_marxism_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_african_communism_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_guevarism_subtype = { can_be_randomly_selected = no }
+			authoritarian_socialism_national_communism_subtype = { can_be_randomly_selected = no }		
+			authoritarian_socialism_chavismo_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 97 23 23 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	authoritarian_socialism_3 = {
+		types = { authoritarian_socialism_3_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 100 35 35 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authoritarian_socialism_4 = {
+		types = { authoritarian_socialism_4_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 110 45 45 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	########################################
+	#        Totalitarian Socialism        #
+	########################################
+	totalitarian_socialism_1 = {
+		types = { totalitarian_socialism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 50 2 2 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	totalitarian_socialism = {
+	
+		types = {
+			totalitarian_socialism_totalitarian_socialism_subtype = {}
+			
+			totalitarian_socialism_peoples_mandate_of_heaven_subtype = { can_be_randomly_selected = no }
+			totalitarian_socialism_juche_subtype = { can_be_randomly_selected = no }
+			totalitarian_socialism_total_collectivism_subtype = { can_be_randomly_selected = no }
+			totalitarian_socialism_left_communism_subtype = { can_be_randomly_selected = no }
+			totalitarian_socialism_ultra_maoism_subtype = { can_be_randomly_selected = no }
+			totalitarian_socialism_legionary_communism_subtype = { can_be_randomly_selected = no }
+			totalitarian_socialism_aristocratic_communism_subtype = { can_be_randomly_selected = no }
+		}
+
+		dynamic_faction_names = {}
+		color = { 63 12 12 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	totalitarian_socialism_2 = {
+		types = { totalitarian_socialism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 73 22 22 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	########################################
+	#              Reductivism             #
+	########################################
+
+	reductivism_1 = {
+		types = { reductivism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 22 159 36 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	reductivism = {
+	
+		types = {
+			reductivism_reductivism_subtype = {}
+
+			reductivism_neo_feudalism_subtype = { can_be_randomly_selected = no }
+			reductivism_primitivism_subtype = { can_be_randomly_selected = no }
+			reductivism_fatalism_subtype = { can_be_randomly_selected = no }
+			reductivism_barbetites_subtype = { can_be_randomly_selected = no }
+			reductivism_burned_fields_subtype = { can_be_randomly_selected = no }
+			reductivism_dedigitism_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {}
+		color = { 32 169 46 }
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	reductivism_2 = {
+		types = { reductivism_2_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 42 179 56 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

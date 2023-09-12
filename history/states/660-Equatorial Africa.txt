@@ -1,0 +1,25 @@
+
+state={
+	id=660
+	name="STATE_660"
+	manpower = 6047011
+	
+	state_category = pastoral
+	
+	history={
+		add_core_of = ANA
+		owner = ANA
+		
+		victory_points = {
+			12830 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1974 3165 5084 8078 11108 12719 12830 11012
+	}
+}

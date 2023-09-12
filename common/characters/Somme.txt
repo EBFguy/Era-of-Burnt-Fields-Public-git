@@ -1,0 +1,15 @@
+characters = {
+	SMM_Armand_Granet = {
+		name = "Armand Granet"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SMM/Portrait_SMM_Armand_Granet.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_stratocratic_fascism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ARMAND_GRANET_DESC"
+		}
+	}
+}

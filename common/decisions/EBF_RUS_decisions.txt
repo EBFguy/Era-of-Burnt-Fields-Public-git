@@ -1,0 +1,274 @@
+EBF_russia_debug_decisions = {
+	EBF_RUS_fail_at_phase_one = {
+
+		icon = generic_research
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			EBF_RUS_tree_one_fail = YES
+		}
+	}
+
+	EBF_RUS_tree_two = {
+
+		icon = generic_research
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			EBF_RUS_tree_two = yes
+			remove_ideas = RUS_kazakh_pacification
+		}
+	}	
+
+}
+
+EBF_RUS_kazakhstan_pacification_decisions = {
+
+	EBF_RUS_leak_russian_movements = {
+
+		icon = generic_research
+
+		visible = {
+    		has_country_flag = RUS_kazakhstan_decisions_unlocked
+		}
+
+		cost = 50
+
+		days_remove = 15
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.10 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.15 }
+			EBF_KAZ_increase_nikitins_suspicions = yes
+		}
+	}
+
+	
+	EBF_RUS_leak_russian_camp_locations = {
+
+		icon = generic_research
+
+		visible = {
+    		has_completed_focus = RUS_double_the_efforts
+		}
+
+		cost = 75
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.20 }
+			EBF_KAZ_increase_nikitins_suspicions = yes
+		}
+	}		
+
+	EBF_RUS_leak_russian_training_protocols = {
+
+		icon = generic_research
+
+		visible = {
+    		has_country_flag = RUS_kazakhstan_decisions_unlocked
+		}
+
+		cost = 50
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.20 }
+			EBF_KAZ_increase_nikitins_suspicions = yes
+		}
+	}	
+
+	EBF_RUS_supply_the_kazakh_arms = {
+
+		icon = generic_research
+
+		visible = {
+    		has_completed_focus = RUS_double_the_efforts
+		}
+
+		cost = 75
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.2 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.3 }
+			EBF_KAZ_increase_nikitins_suspicions = yes
+		}
+	}	
+
+	EBF_RUS_fund_kazakh_mercenaries = {
+
+		icon = generic_research
+
+		visible = {
+    		has_country_flag = RUS_kazakhstan_decisions_unlocked
+		}
+
+		cost = 100
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+		}
+	}	
+
+	EBF_RUS_inspire_the_troops = {
+
+		icon = generic_research
+
+		visible = {
+    		has_country_flag = RUS_kazakhstan_decisions_unlocked
+		}
+
+		cost = 0
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.10 }
+			EBF_KAZ_decrease_nikitins_suspicions = yes
+			add_political_power = 75
+		}
+	}	
+
+	EBF_RUS_use_osipov_influence = {
+
+		icon = generic_research
+
+		visible = {
+    		has_completed_focus = RUS_only_a_heart_of_war_will_do
+		}
+
+		cost = 50
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			add_political_power = 25
+		}
+	}	
+	
+	EBF_RUS_fudge_the_numbers = {
+
+		icon = generic_research
+
+		visible = {
+    		has_completed_focus = RUS_only_a_heart_of_science_will_do
+		}
+
+		cost = 50
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.10 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			set_temp_variable = { RUS_KAZ_forces_strength = 0.05 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			add_political_power = 25
+		}
+	}	
+
+	EBF_RUS_use_damians_contacts = {
+
+		icon = generic_research
+
+		visible = {
+    		has_completed_focus = RUS_only_a_heart_of_unity_will_do
+		}
+
+		cost = 50
+
+		complete_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+			EBF_KAZ_increase_kazakh_forces_strength = yes
+			add_political_power = 25
+		}
+	}	
+
+	EBF_RUS_countdown_to_final_offensive = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 236
+		selectable_mission = no
+		timeout_effect = {
+			country_event = {
+				id = russia_tree_one.22
+			}
+		}
+	}
+	
+	EBF_RUS_zakharovs_next_move = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		timeout_effect = {
+			set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+			EBF_KAZ_increase_russian_forces_strength = yes
+			hidden_effect = {
+				activate_mission = EBF_RUS_zakharovs_next_move
+			}
+		}
+	}	
+
+	EBF_RUS_nikitin_is_about_to_remove_us_from_power = {
+		icon = mission_icon
+
+		activation = {
+			has_country_flag = RUS_kazakhstan_deccat_unlocked
+			NOT = { has_country_flag = RUS_government_collapse }
+			check_variable = { RUS_KAZ_nikitins_suspicions > 0.75 }
+			is_ai = NO
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = RUS_nikitins_coup_tt
+				check_variable = { RUS_KAZ_nikitins_suspicions < 0.75 }
+			}
+		}
+
+		cancel_trigger = {
+			has_country_flag = RUS_kazakhstan_deccat_unlocked
+		}		
+
+		is_good = no
+		days_mission_timeout = 35
+
+		timeout_effect = {
+			custom_effect_tooltip = RUS_collapse_looming
+			add_stability = -0.5
+			add_political_power = -500
+			hidden_effect = {
+				country_event = {
+					id = russia_tree_one_collapse.1
+					days = 1
+				}
+			}
+		}
+		complete_effect = {
+			custom_effect_tooltip = RUS_collapse_stopped
+		}
+	}	
+}

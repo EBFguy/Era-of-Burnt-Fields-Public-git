@@ -1,0 +1,13 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_wwc_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AMZ
+		}
+	}
+	default = no
+	shared_focus = AMZ_still_standing
+}

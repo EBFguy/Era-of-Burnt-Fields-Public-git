@@ -1,0 +1,21 @@
+
+state={
+	id=273
+	name="STATE_273" # Libyan Desert
+	manpower = 61678
+	
+	state_category = wasteland
+	local_supplies = 0.0 
+	history={
+		add_core_of = LIB
+		owner = LIB
+		buildings = {
+			infrastructure = 0
+		}
+		
+	}
+
+	provinces={
+		1060 1140 4962 7985 10754 10785 11951 12866 10884 12082
+	}
+}

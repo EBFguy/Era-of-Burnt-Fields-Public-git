@@ -1,0 +1,294 @@
+﻿add_namespace = vnc
+
+# The Wise Hall Initiative
+country_event = {
+	id = vnc.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.1" }
+	title = vnc.1.t
+	desc = vnc.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.1.a
+	}
+}
+
+# The Public Cities Initiative
+country_event = {
+	id = vnc.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.2" }
+	title = vnc.2.t
+	desc = vnc.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.2.a
+	}
+}
+
+# For the Ears of the Director of the Habeo Ideam Offices in New Venice
+country_event = {
+	id = vnc.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.3" }
+	title = vnc.3.t
+	desc = vnc.3.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.3.a
+	}
+}
+
+# The Gun, The List and The Money
+country_event = {
+	id = vnc.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.4" }
+	title = vnc.4.t
+	desc = vnc.4.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.4.a
+	}
+}
+
+# The Gun
+country_event = {
+	id = vnc.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.5" }
+	title = vnc.5.t
+	desc = vnc.5.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.5.a
+	}
+}
+
+# Courting the Gun
+country_event = {
+	id = vnc.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.6" }
+	title = vnc.6.t
+	desc = vnc.6.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.6.a
+		set_temp_variable = { temp_selected_cap = 3 }
+		set_temp_variable = { temp_cap_change = 1 }
+		EBF_VNC_change_forces_cap = yes		
+		set_temp_variable = { temp_selected_faction = 1 }
+		set_temp_variable = { temp_faction_power = 10 }
+		EBF_VNC_change_corporate_power = yes
+		set_temp_variable = { temp_selected_faction = 0 }
+		set_temp_variable = { temp_faction_power = 8 }
+		EBF_VNC_change_corporate_power = yes		
+	}
+}
+
+# The Lists
+country_event = {
+	id = vnc.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.7" }
+	title = vnc.7.t
+	desc = vnc.7.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.7.a
+	}
+}
+
+# Courting the Lists
+country_event = {
+	id = vnc.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.8" }
+	title = vnc.8.t
+	desc = vnc.8.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.8.a
+		# TODO add timed idea
+		add_timed_idea = {
+			idea = VNC_unified_vision
+			days = 35
+		}
+		set_temp_variable = { temp_selected_faction = 2 }
+		set_temp_variable = { temp_faction_power = 15 }
+		EBF_VNC_change_corporate_power = yes
+		set_temp_variable = { temp_selected_faction = 0 }
+		set_temp_variable = { temp_faction_power = 5 }
+		EBF_VNC_change_corporate_power = yes	
+	}
+}
+
+# The Money
+country_event = {
+	id = vnc.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.9" }
+	title = vnc.9.t
+	desc = vnc.9.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.9.a
+	}
+}
+
+# Courting the Money Man
+country_event = {
+	id = vnc.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.10" }
+	title = vnc.10.t
+	desc = vnc.10.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.10.a
+		874 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		set_temp_variable = { temp_selected_faction = 3 }
+		set_temp_variable = { temp_faction_power = 10 }
+		EBF_VNC_change_corporate_power = yes
+		set_temp_variable = { temp_selected_faction = 0 }
+		set_temp_variable = { temp_faction_power = 10 }
+		EBF_VNC_change_corporate_power = yes	
+	}
+}
+
+# The Final Days
+country_event = {
+	id = vnc.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.11" }
+	title = vnc.11.t
+	desc = vnc.11.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.11.a
+	}
+}
+
+# NV_Construct.txt
+country_event = {
+	id = vnc.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.12" }
+	title = vnc.12.t
+	desc = vnc.12.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.12.a
+		set_country_flag = EBF_VNC_shining_city_unlocked
+		custom_effect_tooltip = VNC_new_venice_GUI_unlocked_tt
+	}
+}
+
+# Special Delivery
+country_event = {
+	id = vnc.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.13" }
+	title = vnc.13.t
+	desc = vnc.13.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.13.a
+	}
+}
+
+# The Special Construct
+country_event = {
+	id = vnc.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.14" }
+	title = vnc.14.t
+	desc = vnc.14.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.14.a
+		# TODO add special construct
+	}
+}
+
+# Order 23 Directives: Received
+country_event = {
+	id = vnc.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.15" }
+	title = vnc.15.t
+	desc = vnc.15.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnc.15.a
+		hidden_effect = {
+			load_focus_tree = EBF_new_venice_italy_invasion_tree
+		}
+		custom_effect_tooltip = new_focus_tree_tt
+		country_event = { id = vnc.16 hours = 6 }
+	}
+}
+
+# The One To Follow
+country_event = {
+	id = vnc.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event vnc.16" }
+	title = vnc.16.t
+	desc = vnc.16.desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = EBF_VNC_cyclical_politics_unlocked
+		}
+	}
+	
+	option = {
+		name = vnc.16.a
+		set_country_flag = EBF_VNC_krennic_chosen
+		custom_effect_tooltip = EBF_VNC_krennic_chosen_tt
+	}
+
+	option = {
+		name = vnc.16.b
+		set_country_flag = EBF_VNC_milana_chosen
+		custom_effect_tooltip = EBF_VNC_milana_chosen_tt
+	}
+
+	option = {
+		name = vnc.16.c
+		set_country_flag = EBF_VNC_holmes_chosen
+		custom_effect_tooltip = EBF_VNC_holmes_chosen_tt
+	}
+
+	option = {
+		name = vnc.16.d
+		set_country_flag = EBF_VNC_manna_chosen
+		custom_effect_tooltip = EBF_VNC_manna_chosen_tt
+	}
+}
+

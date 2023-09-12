@@ -1,0 +1,13 @@
+fill_empty_minister_nochecks = {
+	meta_effect = {
+		text = {
+			add_ideas = {
+				[currenttag]_Generic_Vacant_psi_min
+				[currenttag]_Generic_Vacant_pi_0_min
+				[currenttag]_Generic_Vacant_pi_1_min
+				[currenttag]_Generic_Vacant_pi_2_min
+			}
+		}
+		currenttag = "[THIS.GetTag]"
+	}
+}

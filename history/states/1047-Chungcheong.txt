@@ -1,0 +1,24 @@
+state=
+{
+	id=1047
+	name="STATE_1047"
+	manpower = 8847297
+	local_supplies = 0.0 
+	state_category = town
+	history=
+	{
+		add_core_of = DPK
+		owner = DPK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			dockyard = 1
+		}
+
+		
+
+	}
+	provinces={
+		7175 11992 7204 7221 1100 10115
+	}
+}

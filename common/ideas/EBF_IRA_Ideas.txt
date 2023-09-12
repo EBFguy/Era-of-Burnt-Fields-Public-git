@@ -1,0 +1,81 @@
+ideas = {
+	country = {
+		IRA_the_fires_of_liberation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRA_the_fires_of_liberation"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				war_stability_factor = 0.3
+				surrender_limit = 0.15
+			}
+		}			
+		IRA_cost_of_change = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRA_cost_of_change"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.1
+				political_power_factor = -0.4
+				monthly_population = -0.05
+			}
+		}	
+		IRA_disperced_command = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRA_disperced_command"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_attack_factor = -0.15
+				recruitable_population_factor = -0.05
+				heat_attrition_factor = 0.1
+			}
+		}	
+		IRA_legacy_of_the_burning_of_tehran = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRA_legacy_of_the_burning_of_tehran"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				war_stability_factor = -0.15
+			}
+		}	
+	}
+}

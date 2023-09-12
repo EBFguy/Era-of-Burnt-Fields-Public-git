@@ -1,0 +1,29 @@
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		add_core_of = RHI
+		owner = RHI
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			6496 3 
+		}
+		victory_points = {
+			11562 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		6496 6500 11456 11562 
+	}
+	manpower=410539
+	buildings_max_level_factor=1.000
+	state_category=town
+}

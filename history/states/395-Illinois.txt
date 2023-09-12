@@ -1,0 +1,23 @@
+
+state={
+	id=395
+	name="STATE_395"
+	manpower = 56406611
+	state_category = megalopolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 11
+			air_base = 3
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		720 954 1604 1655 4508 7611 7626 7831 9682 10457 10461 12305 12497 12697 
+	}
+}

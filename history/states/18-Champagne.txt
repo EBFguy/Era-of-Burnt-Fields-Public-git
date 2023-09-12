@@ -1,0 +1,25 @@
+
+state={
+	id=18
+	name="STATE_18"
+	manpower = 1770749
+	
+	state_category = town
+
+	history={
+		add_core_of = ANF
+		owner = ANF
+		victory_points = {
+			9490 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		551 3533 6531 9490 11732 9505
+	}
+}

@@ -1,0 +1,78 @@
+﻿add_namespace = now_starting_tree
+
+# The Call of the Unicorn
+country_event = {
+	id = now_starting_tree.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event now_starting_tree.1" }
+	title = now_starting_tree.1.t
+	desc = now_starting_tree.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = now_starting_tree.1.a
+		add_stability = 0.05
+	}
+}
+
+# The Lad and the Lost
+country_event = {
+	id = now_starting_tree.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event now_starting_tree.2" }
+	title = now_starting_tree.2.t
+	desc = now_starting_tree.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = now_starting_tree.2.a
+		add_war_support = 0.05
+		army_experience = 25
+	}
+}
+
+# An Ailing Epiphany
+country_event = {
+	id = now_starting_tree.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event now_starting_tree.3" }
+	title = now_starting_tree.3.t
+	desc = now_starting_tree.3.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = now_starting_tree.3.a
+		add_political_power = 25
+	}
+}
+
+# A Chance for New Life
+country_event = {
+	id = now_starting_tree.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event now_starting_tree.4" }
+	title = now_starting_tree.4.t
+	desc = now_starting_tree.4.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = now_starting_tree.4.a
+		add_manpower = 250
+	}
+}
+
+# By Gun and Hammer
+country_event = {
+	id = now_starting_tree.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event now_starting_tree.5" }
+	title = now_starting_tree.5.t
+	desc = now_starting_tree.5.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = now_starting_tree.5.a
+		add_offsite_building = { type = industrial_complex level = 1 }
+		add_offsite_building = { type = arms_factory level = 1 }
+	}
+}

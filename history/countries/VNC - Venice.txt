@@ -1,0 +1,122 @@
+﻿capital = 874
+
+# Vacant
+recruit_character = VNC_Generic_Vacant_psi
+recruit_character = VNC_Generic_Vacant_pi_0
+recruit_character = VNC_Generic_Vacant_pi_1
+recruit_character = VNC_Generic_Vacant_pi_2
+
+# Starting tech
+oob = VNC_2061
+set_technology = {
+    infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    ai_command2059 = 1
+    tech_support = 1
+    MBT2040 = 1
+    MBT2050 = 1
+    IFV2040 = 1
+    IFV2050 = 1
+    IFV2062 = 1
+    APC2040 = 1
+    APC2050 = 1
+    exoskeleton2045 = 1
+    exoskeleton2050 = 1
+    lightexoskeleton2058 = 1
+    android2045 = 1
+    cims2030 = 1
+    cims2050 = 1
+    cims2060 = 1
+    exosuit2063 = 1
+    special_operations = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = securocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    securocracy = 40
+    securocracy_2 = 10
+    fascist = 20
+    autocracy = 5
+    autocracy_2 = 10
+    anocracy = 15
+}
+recruit_character = VNC_harold_krennic
+recruit_character = VNC_damian_richard
+recruit_character = VNC_milana_marcello
+recruit_character = VNC_niccolo_manna
+recruit_character = VNC_carol_holmes
+recruit_character = VNC_nino_cattani
+recruit_character = VNC_disorganised
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_underground_opposition
+    EBF_state_atheism
+    EBF_no_voting
+    EBF_state_press
+    EBF_outlawed_unions
+    EBF_closed_borders
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_export_focus
+    EBF_trinket_minimum_wage
+    EBF_14_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only 
+    EBF_ordinary_policing
+    EBF_basic_training
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_tertiary_schooling
+    EBF_rampant_poverty
+    EBF_underperforming_economy
+    EBF_military_widespread_corruption
+    EBF_industrial_equipment_use
+    EBF_widespread_corruption
+
+    #MINISTERS
+    VNC_damian_richard_min
+    VNC_milana_marcello_min
+    VNC_niccolo_manna_min
+    VNC_carol_holmes_min
+
+    #BASE IDEAS
+    VNC_beacon_habeo_ideam
+    VNC_new_venice_shining_island_on_sea
+    VNC_the_new_venice_self_defence_force
+    VNC_no_home_of_ours
+
+}
+add_ideas = {
+    Habeo_Ideam_Network_Member
+}
+set_country_flag = VNC_corporate_krennic_in_control
+set_variable = { VNC_corporate_power^0 = 75 }
+set_variable = { VNC_corporate_power^1 = 41 }
+set_variable = { VNC_corporate_power^2 = 28 }
+set_variable = { VNC_corporate_power^3 = 51 }
+set_variable = { VNC_corporate_power_bar_cap_var = 344 }
+
+set_variable = { autocracy_1_var = token:VNC_autocracy_2 }
+set_variable = { authoritarian_socialism_1_var = token:VNC_securocracy_2 }
+
+add_dynamic_modifier = {
+    modifier = VNC_new_venice_shining_island_on_sea_dynmod
+}

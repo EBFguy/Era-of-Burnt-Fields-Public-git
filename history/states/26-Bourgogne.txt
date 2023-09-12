@@ -1,0 +1,27 @@
+
+state={
+	id=26
+	name="STATE_26" # Auveregne
+	manpower = 3133275
+	
+	state_category = town
+
+	history={
+		add_core_of = SIA
+		owner = SIA
+		victory_points = {
+			3594 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576 
+	}
+}

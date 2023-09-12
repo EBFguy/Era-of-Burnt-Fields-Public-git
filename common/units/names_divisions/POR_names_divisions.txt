@@ -1,0 +1,64 @@
+POR_infantry_division = {
+	name = "Divisão de Infantaria"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%s. Divisão de Infantaria"
+
+	ordered = {
+		1 = { "%s. Divisão de Infantaria - 'Europa'" }
+		2 = { "%s. Divisão de Infantaria - 'Lusitania'"}
+		3 = { "%s. Divisão de Infantaria - 'Lisboa'" }
+		4 = { "%s. Divisão de Infantaria - 'Coimbra'" }
+		5 = { "%s. Divisão de Infantaria - 'Vila Real'" }
+		6 = { "%s. Divisão de Infantaria - 'Douro'" }
+		7 = { "%s. Divisão de Infantaria - 'Porto'" }
+		8 = { "%s. Divisão de Infantaria - 'Faro'" }
+		9 = { "%s. Divisão de Infantaria - 'Minho'" }
+		10 = { "%s. Divisão de Infantaria - 'Setúbal'" }
+
+	}
+}
+POR_mechanised_division = {
+	name = "Divisão de Infantaria Blindada"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "mechanized" "motorized" }
+
+	fallback_name = "%s. Divisão de Infantaria Blindada"
+
+	ordered = {
+		1 = { "%s. Divisão de Infantaria Blindada" }
+		2 = { "%s. Divisão de Infantaria Blindada" }
+		3 = { "%s. Divisão de Infantaria Blindada" }
+		4 = { "%s. Divisão de Infantaria Blindada" }
+		5 = { "%s. Divisão de Infantaria Blindada" }
+	}
+}
+POR_specop_battalion = {
+	name = "Batalhão de Operações Especiais"
+
+	for_countries = { POR }
+
+	can_use = { always = yes }
+	
+	division_types = { "elite_infantry" "exoskeleton" }
+
+	fallback_name = "%dª Batalhão de Operações Especiais"
+
+	ordered = {
+		1 = { "%dª Batalhão de Operações Especiais - 'Espada'"}
+		2 = { "%dª Batalhão de Operações Especiais - 'Escudo'"}
+		3 = { "%dª Batalhão de Operações Especiais - 'Rapieira'"}
+		4 = { "%dª Batalhão de Operações Especiais - 'Canhão'"}
+		5 = { "%dª Batalhão de Operações Especiais - 'Mosquete'"}
+		6 = { "%dª Batalhão de Operações Especiais - 'Martelo'"}
+	}
+}

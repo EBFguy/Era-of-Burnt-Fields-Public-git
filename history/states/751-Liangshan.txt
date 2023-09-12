@@ -1,0 +1,36 @@
+state={
+	id=751
+	name="STATE_751"
+	provinces={
+		1999 2067 7294 10726 10841 12141 12819 
+	}
+	manpower=28538008
+	buildings_max_level_factor=1.000
+	state_category=rural
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12141 3
+		}
+		victory_points = {
+			7294 1
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2
+
+			}
+
+		}
+
+	}
+	local_supplies = 0.0 
+}

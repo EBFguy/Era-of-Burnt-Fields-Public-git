@@ -1,0 +1,22 @@
+
+state={
+	id=1057
+	name="STATE_1057"
+	manpower = 10
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = AMA
+		owner = AMA
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		13266 13263 13372 13369 13368
+	}
+}

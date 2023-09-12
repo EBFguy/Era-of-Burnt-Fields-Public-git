@@ -1,0 +1,23 @@
+state={
+	id=73
+	name="STATE_73"
+	manpower = 1235945
+	
+	state_category = rural
+	
+	history={
+		add_core_of = UKR
+		owner = UKR
+		victory_points = {
+			3548 1 
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3548 6571 9563 11536 11691 
+	}
+}

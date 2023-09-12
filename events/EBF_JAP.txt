@@ -1,0 +1,37 @@
+﻿add_namespace = JAP_skeleton
+
+country_event = {
+	id = JAP_skeleton.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event JAP_skeleton.1" }
+	title = JAP_skeleton.1.t
+	desc = JAP_skeleton.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = JAP_skeleton.1.a
+		country_event = { id = JAP_skeleton.2 days = 365 }
+	}
+	option = {
+		name = JAP_skeleton.1.b
+		EOH = {
+			transfer_state = 1101
+			add_state_core = 1101
+		}
+		declare_war_on = { target = EOH type = civil_war }
+	}
+}
+
+country_event = {
+	id = JAP_skeleton.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event JAP_skeleton.2" }
+	title = JAP_skeleton.2.t
+	desc = JAP_skeleton.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = JAP_skeleton.2.a
+		declare_war_on = { target = EOH type = civil_war }
+	}
+}

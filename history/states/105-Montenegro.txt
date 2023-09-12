@@ -1,0 +1,34 @@
+
+state={
+	id=105
+	name="STATE_105"
+
+	local_supplies = 0.0 
+	history={
+		add_core_of = MOT
+		owner = MOT
+		victory_points = {
+			9809 3 
+		}
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+
+			}
+
+		}
+		
+
+	}
+
+	provinces={
+		937 6913 9809 9821 11858 
+	}
+	manpower=1295550
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

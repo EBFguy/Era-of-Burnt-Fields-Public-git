@@ -1,0 +1,94 @@
+﻿capital = 848
+
+# Vacant
+recruit_character = BIF_Generic_Vacant_psi
+recruit_character = BIF_Generic_Vacant_pi_0
+recruit_character = BIF_Generic_Vacant_pi_1
+recruit_character = BIF_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+oob = BIF_2061
+set_technology = {
+    infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    me_weapons2059 = 1
+    MBT2040 = 1
+    MBT2040 = 1 
+    IFV2040 = 1
+    IFV2050 = 1
+    IFV2062 = 1 
+    APC2040 = 1
+    APC2050 = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 100
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+recruit_character = BIF_Jayden_Rochfort
+
+add_ideas = {
+    #POLLITICAL
+    EBF_dominant_party_state
+    EBF_internal_opposition
+    EBF_state_religion
+    EBF_no_voting
+    EBF_elite_voting
+    EBF_non_socialist_unions
+    EBF_closed_borders
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_closed_economy
+    EBF_trinket_minimum_wage
+    EBF_14_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_all_adults_serve
+    EBF_basic_training
+    EBF_ordinary_policing
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_widespread_poverty
+    EBF_stagnating_economy
+    EBF_professional_army
+    EBF_industrial_equipment_use
+    EBF_functional_administration
+}
+
+add_ideas = {
+    commonet_Member
+}
+
+add_ideas = {
+    BIF_fortress_belfast
+}

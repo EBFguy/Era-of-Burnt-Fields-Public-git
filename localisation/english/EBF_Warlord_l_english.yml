@@ -1,0 +1,37 @@
+﻿l_english:
+
+ # Decisions
+  warlord_europe_epoch_decision_category: "Epochs of Europe"
+  warlord_europe_epoch_decision_category_desc: ""
+
+ # Dynamic Modifiers
+  warlord_europe_legitimacy_dynamic_modifier: "Warlord Legitimacy"
+  warlord_europe_legitimacy_dynamic_modifier_desc: ""
+  warlord_europe_chaos_dynamic_modifier: "Warlord Chaos"
+  warlord_europe_chaos_dynamic_modifier_desc: ""
+
+ # Scripted Effects
+  warlord_europe_legitimacy_change_tt: "§GLegitimacy!: [?temp_value|+=2%%] ([?temp_before|Y2%%] > [?temp_after|O2%%]).\n"
+  warlord_europe_chaos_change_tt: "§RChaos§!: [?temp_value|+=2%%] ([?temp_before|Y2%%] > [?temp_after|O2%%]).\n"
+
+ # Scripted GUIs
+  EBF_warlord_europe_epoch_counter: "Epoch [?global.warlord_europe_epoch]"
+  EBF_warlord_europe_epoch_title: "[GetWarlordEuropeEpochTitle]"
+
+  EBF_warlord_europe_legitimacy_title: "§GLEGITIMACY§!"
+  EBF_warlord_europe_chaos_title: "§RCHAOS§!"
+
+  EBF_warlord_europe_legitimacy_bar_tt: "$political_power_factor$: [?warlord_europe_legitimacy_political_power_factor|0%%]\n$recruitable_population_factor$: [?warlord_europe_legitimacy_recruitable_population_factor|0%%]\n$resistance_growth$: [?warlord_europe_legitimacy_resistance_growth|0%%]\n$army_morale_factor$: [?warlord_europe_legitimacy_army_morale_factor|0%%]\n$non_core_manpower$: [?warlord_europe_legitimacy_non_core_manpower|0%%]"
+  EBF_warlord_europe_chaos_bar_tt: "$stability_factor$: [?warlord_europe_chaos_stability_factor|0%%]\n$army_core_defence_factor$: [?warlord_europe_chaos_army_core_defence_factor|0%%]\n$surrender_limit$: [?warlord_europe_chaos_surrender_limit|0%%]\n$army_core_attack_factor$: [?warlord_europe_chaos_army_core_attack_factor|0%%]\n$war_support_factor$: [?warlord_europe_chaos_war_support_factor|0%%]"
+
+  EBF_warlord_europe_contender_title: "CONTENDERS: [?warlord_europe_contender_region:warlord_europe_contender_array^num]"
+  EBF_warlord_europe_supplies_title: "§gSUPPLIES§!"
+
+ # Scripted Localisation
+  warlord_europe_epoch_title_1: "Suipiss Epoch"
+  warlord_europe_epoch_title_2: "Suipiss Epoch"
+  warlord_europe_epoch_title_3: "Suipiss Epoch"
+  warlord_europe_epoch_title_4: "Suipiss Epoch"
+  warlord_europe_epoch_title_5: "Suipiss Epoch"
+  warlord_europe_epoch_title_6: "Suipiss Epoch"
+  warlord_europe_epoch_title_7: "Suipiss Epoch"

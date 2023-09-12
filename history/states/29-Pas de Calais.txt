@@ -1,0 +1,31 @@
+
+state={
+	id=29
+	name="STATE_29"
+	manpower = 2246064
+	
+	state_category = town
+
+	history={
+		add_core_of = CAL
+		owner = CAL
+		victory_points = {
+			575 5
+		}
+		victory_points = {
+			11548 15
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+			575 = {
+				naval_base = 6
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		9500 3536 575 11548
+	}
+}

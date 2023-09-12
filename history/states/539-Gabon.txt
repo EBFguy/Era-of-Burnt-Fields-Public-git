@@ -1,0 +1,24 @@
+state={
+	id=539
+	name="STATE_539"
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+	
+		buildings = {
+			infrastructure = 3
+			12975 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		8207 12975
+	}
+	manpower=2329153
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,32 @@
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			9832 1 
+		}
+
+	}
+
+	provinces={
+		6909 9832 9847 
+	}
+	manpower=11593657
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

@@ -1,0 +1,178 @@
+shared_focus = {
+	id = NOW_our_new_duty
+	icon = GFX_focus_our_new_duty
+	cost = 14
+	x = 5
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_our_new_duty"
+		country_event = { id = now_starting_tree.1 hours = 6 }
+	}
+}
+
+shared_focus = {
+	id = NOW_the_hope_of_the_morrow
+	icon = GFX_focus_the_hope_of_the_morrow
+	cost = 14
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_the_hope_of_the_morrow"
+		country_event = { id = now_starting_tree.2 hours = 6 }
+	}
+	relative_position_id = NOW_our_new_duty
+	prerequisite = { focus = NOW_our_new_duty }
+}
+
+shared_focus = {
+	id = NOW_forever_going_on
+	icon = GFX_focus_Forever_Going_On_shine
+	cost = 14
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_forever_going_on"
+		add_stability = 0.10
+	}
+	relative_position_id = NOW_the_hope_of_the_morrow
+	prerequisite = { focus = NOW_the_hope_of_the_morrow }
+}
+
+shared_focus = {
+	id = NOW_forever_remembering
+	icon = GFX_focus_forever_remembering
+	cost = 14
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_forever_remembering"
+		add_war_support = 0.10
+	}
+	relative_position_id = NOW_the_hope_of_the_morrow
+	prerequisite = { focus = NOW_the_hope_of_the_morrow }
+}
+
+shared_focus = {
+	id = NOW_a_unicorns_speed
+	icon = GFX_focus_a_unicorns_speed
+	cost = 14
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_a_unicorns_speed"
+		add_ideas = NOW_a_unicorns_speed_idea
+	}
+	relative_position_id = NOW_forever_going_on
+	prerequisite = { focus = NOW_forever_going_on }
+}
+
+shared_focus = {
+	id = NOW_a_mothers_love
+	icon = GFX_focus_a_mothers_love
+	cost = 14
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_a_mothers_love"
+		add_ideas = NOW_a_mothers_love_idea
+	}
+	relative_position_id = NOW_forever_remembering
+	prerequisite = { focus = NOW_forever_remembering }
+}
+
+shared_focus = {
+	id = NOW_the_memories_of_yesteryear
+	icon = GFX_focus_the_memories_of_yesteryear
+	cost = 14
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_the_memories_of_yesteryear"
+		country_event = { id = now_starting_tree.3 hours = 6 }
+	}
+	relative_position_id = NOW_our_new_duty
+	prerequisite = { focus = NOW_our_new_duty }
+}
+
+shared_focus = {
+	id = NOW_greater_than_machines
+	icon = GFX_generic_suspend_constitution
+	cost = 14
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_greater_than_machines"
+		country_event = { id = now_starting_tree.4 hours = 6 }
+	}
+	relative_position_id = NOW_the_memories_of_yesteryear
+	prerequisite = { focus = NOW_the_memories_of_yesteryear }
+}
+
+shared_focus = {
+	id = NOW_greater_than_soldiers
+	icon = GFX_focus_greater_than_soldier
+	cost = 14
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_greater_than_soldiers"
+		country_event = { id = now_starting_tree.5 hours = 6 }
+	}
+	relative_position_id = NOW_the_memories_of_yesteryear
+	prerequisite = { focus = NOW_the_memories_of_yesteryear }
+}
+
+shared_focus = {
+	id = NOW_a_band_of_humans
+	icon = GFX_focus_a_band_of_humans
+	cost = 14
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_a_band_of_humans"
+		add_political_power = 100
+	}
+	relative_position_id = NOW_greater_than_machines
+	prerequisite = { focus = NOW_greater_than_machines }
+}
+
+shared_focus = {
+	id = NOW_a_fellowship_of_dreams
+	icon = GFX_focus_a_fellowship_of_dreams
+	cost = 14
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_a_fellowship_of_dreams"
+		add_timed_idea = { idea = NOW_do_you_hear_us_now_1 days = 35 }
+	}
+	relative_position_id = NOW_greater_than_soldiers
+	prerequisite = { focus = NOW_greater_than_soldiers }
+}
+
+shared_focus = {
+	id = NOW_the_fight_for_here_and_now
+	icon = GFX_focus_the_fight_for_here_and_now
+	cost = 14
+	x = 4
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOW_the_fight_for_here_and_now"
+		if = {
+			limit = { has_idea = NOW_do_you_hear_us_now_1 }
+			swap_ideas = {
+				remove_idea = NOW_do_you_hear_us_now_1
+				add_idea = NOW_do_you_hear_us_now_2
+				days = 35
+			}
+		}
+		else = {
+			add_timed_idea = { idea = NOW_do_you_hear_us_now_2 days = 35 }
+		}
+	}
+	relative_position_id = NOW_a_unicorns_speed
+	prerequisite = { focus = NOW_a_unicorns_speed }
+	prerequisite = { focus = NOW_a_mothers_love }
+	prerequisite = { focus = NOW_a_band_of_humans }
+	prerequisite = { focus = NOW_a_fellowship_of_dreams }
+}

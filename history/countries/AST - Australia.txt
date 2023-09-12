@@ -1,0 +1,98 @@
+﻿capital = 1052
+
+# Vacant
+recruit_character = AST_Generic_Vacant_psi
+recruit_character = AST_Generic_Vacant_pi_0
+recruit_character = AST_Generic_Vacant_pi_1
+recruit_character = AST_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 5
+    anocracy = 40
+    conservatism = 20
+    liberalism = 25
+    libertarian_socialism = 10
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+#STARTING LEADERS
+recruit_character = AST_Roger_Floyd
+recruit_character = AST_Jasper_Reid
+recruit_character = AST_Sonny_Mussett
+recruit_character = AST_Fletcher_Nguyen
+recruit_character = AST_Gemma_Watson
+
+#OTHERS
+recruit_character = AST_Joshua_Stone
+recruit_character = AST_Australian_Parliament
+recruit_character = AST_Andrew_Collins
+recruit_character = AST_Logan_Wright
+
+add_ideas = {
+    #POLLITICAL
+    EBF_dominant_party_state
+    EBF_single_party_opposition
+    EBF_pluralism
+    EBF_universal_voting
+    EBF_censored_press
+    EBF_universal_voting
+    EBF_all_unions_allowed
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_free_trade
+    EBF_minor_minimum_wage
+    EBF_8_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_basic_training
+    EBF_ordinary_policing
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_rampant_poverty
+    EBF_underperforming_economy
+    EBF_professional_army
+    EBF_industrial_equipment_use
+    EBF_cronyism
+
+    #IDEAS
+    AST_pacific_bastion
+    AST_the_grave_decades
+    AST_growing_authoritarianism
+    AST_a_liberal_conservative_laughingstock
+    AST_floyds_ambitions
+}
+
+add_ideas = {
+    cod_status_2
+    commonet_Member
+}

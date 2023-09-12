@@ -1,0 +1,15 @@
+characters = {
+	BSQ_Gustavo_Iria = {
+		name = "Gustavo Iria"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BSQ/Portrait_BSQ_Gustavo_Iria.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_stratocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_GUSTAVO_IRIA_DESC"
+		}
+	}
+}

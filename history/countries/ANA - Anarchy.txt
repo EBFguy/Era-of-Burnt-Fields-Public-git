@@ -1,0 +1,33 @@
+﻿capital = 295
+
+# Vacant
+recruit_character = ANA_Generic_Vacant_psi
+recruit_character = ANA_Generic_Vacant_pi_0
+recruit_character = ANA_Generic_Vacant_pi_1
+recruit_character = ANA_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+recruit_character = NEZ_anarchy
+
+set_politics = {
+	ruling_party = reductivism
+	elections_allowed = no
+}
+
+set_popularities = {
+    reductivism = 100
+}
+
+EBF_setup_statelore = yes
+EBF_anarchy_setup = yes

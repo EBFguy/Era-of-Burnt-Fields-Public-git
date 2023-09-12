@@ -1,0 +1,22 @@
+state=
+{
+	id=337
+	name="STATE_337"
+	manpower = 87855
+	
+	state_category = small_island
+	local_supplies = 0.0 
+	history=
+	{
+		add_core_of = ICE
+		owner = ICE
+		buildings = {
+			infrastructure = 4
+			13003 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	provinces= { 13003 }
+}

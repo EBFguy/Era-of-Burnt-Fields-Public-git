@@ -1,0 +1,15 @@
+characters = {
+	VEN_Gael_Puig = {
+		name = VEN_Gael_Puig
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_chavismo_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_GAEL_PUIG_DESC"
+		}
+	}
+}

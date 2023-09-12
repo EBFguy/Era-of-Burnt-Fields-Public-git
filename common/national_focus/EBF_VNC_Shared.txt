@@ -1,0 +1,444 @@
+#Shared Focuses
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	CHAPTER 1: BEGINNING CHAPTER
+#	PHASE 0: BEGINNING TREE
+
+#############
+# CHAPTER 1 #
+#############
+
+# PHASE 0 #
+shared_focus = { #The End of New Years on the Shining Island, shows events of people cleaning up the streets of New Venice after the new years celebrations
+	id = VNC_end_new_years_on_the_shining_island
+	icon = GFX_focus_End_of_New_Years_on_the_Shining_Island
+	cost = 2
+	x = 8
+	y = 0
+	completion_reward = {
+		country_event = { id = vnc.1 hours = 6 }
+	}
+}
+
+shared_focus = { #Overlook the Waters into Old Venice, Focuses on the bridge to New Venice which ahs countless starving individuals waiting for placement
+	id = VNC_overlook_waters_into_old_venice
+	icon = GFX_focus_Overlook_the_Waters_into_Old_Venice
+	cost = 8
+	prerequisite = {
+		focus = VNC_end_new_years_on_the_shining_island
+	}
+	x = 0
+	y = 1
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.2 hours = 6 }
+	}
+}
+
+shared_focus = { #New Orders from Richford City..., Richford and Krennic talk to each other over the internet. Here the Wise Hall Iniative is properly introduced with Richford demaning New Venice be completed bfore the year is out and to court the other signficiant memebrs of New Venice
+	id = VNC_new_orders_from_richford_city
+	icon = GFX_focus_new_orders_from_richford_city
+	cost = 14
+	prerequisite = {
+		focus = VNC_overlook_waters_into_old_venice
+	}
+	x = 0
+	y = 2
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.3 hours = 6 }
+	}
+}
+
+shared_focus = { #The Courtship of the Three Interests, Krennic gathers the files on the three intrests
+	id = VNC_courtship_of_three_interests 
+	icon = GFX_focus_courtship_of_three_interests
+	cost = 14
+	prerequisite = {
+		focus = VNC_new_orders_from_richford_city
+	}
+	x = 0
+	y = 3
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.4 hours = 6 }
+	}
+}
+
+shared_focus = { #The Situation with the Self-Defence Force, the self defence force has been weakned recently due to disagreements
+	id = VNC_situation_with_selfdefence_force
+	icon = GFX_focus_situation_with_selfdefence_force
+	cost = 14
+	prerequisite = {
+		focus = VNC_courtship_of_three_interests
+	}
+	x = -4
+	y = 4
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.5 hours = 6 }
+	}
+}
+
+shared_focus = { #Reinforce the Mainland Divisions, grants player some new divisions, increases Milana's influence
+	id = VNC_reinforce_mainland_divisions
+	icon = GFX_focus_reinforce_mainland_divisions
+	cost = 7
+	prerequisite = {
+		focus = VNC_situation_with_selfdefence_force
+	}
+	mutually_exclusive = {
+		focus = VNC_no_better_place_protect_then_home
+	}
+	x = -2
+	y = 1
+	relative_position_id = VNC_situation_with_selfdefence_force
+	completion_reward = {
+		# TODO add units
+		set_temp_variable = { temp_selected_cap = 0 }
+		set_temp_variable = { temp_cap_change = 2 }
+		EBF_VNC_change_forces_cap = yes		
+		set_temp_variable = { temp_selected_cap = 1 }
+		set_temp_variable = { temp_cap_change = 1 }
+		EBF_VNC_change_forces_cap = yes		
+		set_temp_variable = { temp_selected_faction = 1 }
+		set_temp_variable = { temp_faction_power = 10 }
+		EBF_VNC_change_corporate_power = yes
+	}
+}
+
+shared_focus = { #No Better Place to Protect Then Home, gives the player some bunkers in New Venice
+	id = VNC_no_better_place_protect_then_home
+	icon = GFX_focus_no_better_place_protect_then_home
+	cost = 7
+	prerequisite = {
+		focus = VNC_situation_with_selfdefence_force
+	}
+	mutually_exclusive = {
+		focus = VNC_reinforce_mainland_divisions
+	}
+	x = 0
+	y = 1
+	relative_position_id = VNC_situation_with_selfdefence_force
+	completion_reward = {
+		874 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 13252
+				instant_build = yes
+			}
+		}
+		set_temp_variable = { temp_selected_faction = 1 }
+		set_temp_variable = { temp_faction_power = -5 }
+		EBF_VNC_change_corporate_power = yes
+	}
+}
+
+shared_focus = { #Fine Dining with the Woman with a Gun, Krennic visits Milana and they both talk, this increases her influence, however, the player is granted more divisions
+	id = VNC_fine_dining_with_woman_with_gun
+	icon = GFX_focus_fine_dining_with_woman_with_gun
+	cost = 35
+	prerequisite = {
+		focus = VNC_no_better_place_protect_then_home
+		focus = VNC_reinforce_mainland_divisions
+	}
+	mutually_exclusive = {
+		focus = VNC_cruel_logistics_with_director_of_placements
+	}
+	mutually_exclusive = {
+		focus = VNC_art_gazing_with_money_man
+	}	
+	x = -1
+	y = 2
+	relative_position_id = VNC_situation_with_selfdefence_force
+	completion_reward = {
+		country_event = { id = vnc.6 hours = 6 }
+	}
+}
+
+shared_focus = { #Refocus the Wise Hall Initiative, an event describing the position of Minister for Strategic Placements and the Wise Hall Iniative
+	id = VNC_refocus_wise_hall_initiative 
+	icon = GFX_focus_refocus_wise_hall_initiative
+	cost = 14
+	prerequisite = {
+		focus = VNC_new_orders_from_richford_city
+	}
+	x = 0
+	y = 4
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.7 hours = 6 }
+	}
+}
+
+shared_focus = { #Prioritise the Public Cities Infrastructure, increases infrastructure in Old Venice 
+	id = VNC_prioritise_public_cities_infrastructure 
+	icon = GFX_focus_prioritise_public_cities_infrastructure_shine
+	cost = 7
+	prerequisite = {
+		focus = VNC_refocus_wise_hall_initiative
+	}
+	mutually_exclusive = {
+		focus = VNC_hasten_operation_shining_island
+	}
+	x = -2
+	y = 1
+	relative_position_id = VNC_refocus_wise_hall_initiative
+	completion_reward = {
+		160 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		160 = {add_resistance = -25 }
+		1067 = {add_resistance = -25 }
+		39 = {add_resistance = -25 }
+		159 = {add_resistance = -25 }
+	}
+}
+
+shared_focus = { #Hasten Operation Shining Island, increases infrastructure in New Venice, increases Holmes' influence
+	id = VNC_hasten_operation_shining_island
+	icon = GFX_focus_Hasten_Operation_Shining_Island
+	cost = 7
+	prerequisite = {
+		focus = VNC_refocus_wise_hall_initiative
+	}
+	mutually_exclusive = {
+		focus = VNC_prioritise_public_cities_infrastructure
+	}
+	x = 2
+	y = 1
+	relative_position_id = VNC_refocus_wise_hall_initiative
+	completion_reward = {
+		874 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes
+			}
+		}
+		set_temp_variable = { temp_selected_faction = 2 }
+		set_temp_variable = { temp_faction_power = 10 }
+		EBF_VNC_change_corporate_power = yes
+	}
+}
+
+shared_focus = { #Cruel Logistics with the Director of Placements, Krennic and Holmes meet, gives a L A R G E researh bonus in tech but increases his influence
+	id = VNC_cruel_logistics_with_director_of_placements
+	icon = GFX_focus_Cruel_Logistics_with_the_Director
+	cost = 35
+	prerequisite = {
+		focus = VNC_hasten_operation_shining_island
+		focus = VNC_prioritise_public_cities_infrastructure
+	}
+	mutually_exclusive = {
+		focus = VNC_fine_dining_with_woman_with_gun
+	}
+	mutually_exclusive = {
+		focus = VNC_art_gazing_with_money_man
+	}	
+	x = 0
+	y = 2
+	relative_position_id = VNC_refocus_wise_hall_initiative
+	completion_reward = {
+		country_event = { id = vnc.8 hours = 6 }
+	}
+}
+
+shared_focus = { #Manage the Collaborators, the collabs are a local group who joined up with New Venice during its expansion
+	id = VNC_manage_collaborators
+	icon = GFX_focus_Manage_the_Collaborators
+	cost = 14
+	prerequisite = {
+		focus = VNC_courtship_of_three_interests
+	}
+	x = 4
+	y = 4
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.9 hours = 6 }
+	}
+}
+
+shared_focus = { #A Mid Point Between Wise and Unwise, grants stability and cores old Venice, increases Manna's influence, unlocks the ability to begin coring Mainland Italy 
+	id = VNC_mid_point_between_wise_unwise
+	icon = GFX_focus_A_Mid_Point_Between_Wise_and_Unwise
+	cost = 7
+	prerequisite = {
+		focus = VNC_manage_collaborators
+	}
+	mutually_exclusive = {
+		focus = VNC_harsh_command_will_keep_them_in_line
+	}
+	x = 0
+	y = 1
+	relative_position_id = VNC_manage_collaborators
+	completion_reward = {
+		160 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		set_temp_variable = { temp_selected_faction = 3 }
+		set_temp_variable = { temp_faction_power = 10 }
+		EBF_VNC_change_corporate_power = yes
+	}
+}
+
+shared_focus = { #Harsh Command Will Keep Them In Line, grants warsupport and the ability to core main land italy
+	id = VNC_harsh_command_will_keep_them_in_line
+	icon = GFX_focus_Harsh_Command_Will_Keep_Them_In_Line
+	cost = 7
+	prerequisite = {
+		focus = VNC_manage_collaborators
+	}
+	mutually_exclusive = {
+		focus = VNC_mid_point_between_wise_unwise
+	}
+	x = 2
+	y = 1
+	relative_position_id = VNC_manage_collaborators
+	completion_reward = {
+		160 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		add_stability = -0.05
+		set_temp_variable = { temp_selected_faction = 3 }
+		set_temp_variable = { temp_faction_power = -5 }
+		EBF_VNC_change_corporate_power = yes
+	}
+}
+
+shared_focus = { #Art Gazing with the Money Man, grants war support and manpower, increases his influence
+	id = VNC_art_gazing_with_money_man
+	icon = GFX_focus_Art_Gazing_with_the_Money_Man
+	cost = 35
+	prerequisite = {
+		focus = VNC_mid_point_between_wise_unwise
+		focus = VNC_harsh_command_will_keep_them_in_line
+	}
+	mutually_exclusive = {
+		focus = VNC_fine_dining_with_woman_with_gun
+	}
+	mutually_exclusive = {
+		focus = VNC_cruel_logistics_with_director_of_placements
+	}	
+	x = 1
+	y = 2
+	relative_position_id = VNC_manage_collaborators
+	completion_reward = {
+		country_event = { id = vnc.10 hours = 6 }
+	}
+}
+
+shared_focus = { #Refocusing the Efforts on New Venice, unlocks building New Venice GUI
+	id = VNC_refocusing_the_efforts_on_new_venice
+	icon = GFX_focus_Refocusing_the_Efforts_on_New_Venice
+	cost = 7
+	prerequisite = {
+		focus = VNC_fine_dining_with_woman_with_gun
+		focus = VNC_cruel_logistics_with_director_of_placements
+		focus = VNC_art_gazing_with_money_man
+	}
+	x = 0
+	y = 7
+	relative_position_id = VNC_end_new_years_on_the_shining_island
+	completion_reward = {
+		country_event = { id = vnc.11 hours = 6 }
+	}
+}
+
+shared_focus = { #Begin Preliminary Planning for Extra Constructions, allows the player to build buildings in New Venice GUI
+	id = VNC_begin_preliminary_planning_for_extra_construction 
+	icon = GFX_focus_Begin_Preliminary_Planning_for_Extra_Constructions
+	cost = 14
+	prerequisite = {
+		focus = VNC_refocusing_the_efforts_on_new_venice
+	}
+	x = -1
+	y = 1
+	relative_position_id = VNC_refocusing_the_efforts_on_new_venice
+	completion_reward = {
+		country_event = { id = vnc.12 hours = 6 }
+	}
+}
+
+shared_focus = { #Formalise The Department for New Venetian Expansion, gives the player an extra Administration Centre
+	id = VNC_formalise_department_new_venetian_expansion 
+	icon = GFX_focus_Formalise_The_Department_for_New_Venice
+	cost = 14
+	prerequisite = {
+		focus = VNC_refocusing_the_efforts_on_new_venice
+	}
+	available = {
+		has_completed_focus = VNC_formalise_department_new_venetian_expansion
+	}
+	x = 1
+	y = 1
+	relative_position_id = VNC_refocusing_the_efforts_on_new_venice
+	completion_reward = {
+		set_temp_variable = { temp_building_change = 1}
+		set_temp_variable = { temp_selected_building_type = 0}
+		EBF_VNC_city_change_building = YES
+	}
+}
+
+shared_focus = { #Richford's Gift, gives the player an extra division for completing the tutorial!! gob job!! there's also another gift but that's a suprise
+	id = VNC_richford_gift 
+	icon = GFX_focus_richford_gift_shine
+	cost = 7 
+	prerequisite = {
+		focus = VNC_formalise_department_new_venetian_expansion
+	}
+	prerequisite = {
+		focus = VNC_begin_preliminary_planning_for_extra_construction
+	}
+	x = 0
+	y = 2
+	relative_position_id = VNC_refocusing_the_efforts_on_new_venice
+	completion_reward = {
+		country_event = { id = vnc.13 hours = 6 }
+	}
+}
+
+shared_focus = { #The Greatest Boon of Them All? the player can construct a Major Construct of their choosing
+	id = VNC_greatest_boon_them_all
+	icon = GFX_focus_The_Greatest_Boon_of_Them_All
+	cost = 7 
+	prerequisite = {
+		focus = VNC_richford_gift
+	}
+	x = 0
+	y = 3
+	relative_position_id = VNC_refocusing_the_efforts_on_new_venice
+	completion_reward = {
+		country_event = { id = vnc.14 hours = 6 }
+	}
+}
+
+shared_focus = { #A Director's Work is Never Finished, unlocks Phase 1 and the wars to come
+	id = VNC_directors_work_is_never_finished
+	icon = GFX_focus_A_Directors_Work_is_Never_Finished
+	cost = 7 
+	prerequisite = {
+		focus = VNC_greatest_boon_them_all
+	}
+	x = 0
+	y = 4
+	relative_position_id = VNC_refocusing_the_efforts_on_new_venice
+	completion_reward = {
+		country_event = { id = vnc.15 hours = 6 }
+	}
+}

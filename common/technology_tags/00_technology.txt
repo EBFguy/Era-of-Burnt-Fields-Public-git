@@ -1,0 +1,126 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	#INFANTRY
+	infantry_tech
+	infantry_weapons_tech
+	infantry_upgrades_tech
+	special_forces_tech
+	mountaineers_tech
+	marine_tech
+	para_tech
+	lbp_tech
+	#SUPPORT
+	support_tech
+	engineers_tech
+	recon_tech
+	military_police_tech
+	maintenance_company_tech
+	hospital_tech
+	logistics_tech
+	signal_company_tech
+	#AIR
+	air_tech
+	old_air_tech
+	drone_tech
+	attack_drone_tech
+	mass_attack_drone_tech
+	bomber_drone_tech
+	mass_bomber_drone_tech
+	carrier_drone_tech
+	heli_tech
+	indepenndent_heli_tech
+	naval_heli_tech
+	attack_heli_tech
+	scout_heli_tech
+	#AUGMENTS
+	augment_tech
+	preserver_tech
+	grafted_tech
+	civilian_augments_tech
+	military_augments_tech
+	cyberneticsoldiers_tech
+	nanomachine_tech
+	#HARDWARE
+	exos_tech
+	exoskeleton_tech
+	exoskeleton_upgrade_tech
+	heavy_exoskeleton_tech
+	heavy_exoskeleton_upgrade_tech
+	android_tech
+	android_upgrade_tech
+	exosuit_tech
+	exosuit_upgrade_tech
+	skell_tech
+	#ARMOUR
+	armor
+	MBT_armour_tech
+	IFV_tech
+	APC_tech
+	
+
+	#NAVY
+	naval_equipment
+	bb_tech
+	shbb_tech
+	ss_tech
+	cv_tech
+	dd_tech
+	tp_tech
+	ca_tech
+	cl_tech
+	bc_tech
+	#DOCTRINES
+}
+
+technology_folders = {
+	infantry_folder = {
+		ledger = army
+	}
+	support_folder = {
+		ledger = army
+	}
+	vehicles_folder = {
+		ledger = army
+	}
+	fire_support_folder = {
+		ledger = army
+	}
+	hardware_folder = {
+		ledger = army
+	}
+	augments_folder = {
+		ledger = army
+		available = {
+			has_global_flag = WORLD_CYBER_REVOLUTION_BEGIN
+		}
+	}
+	naval_forces_folder = {
+		ledger = navy
+	}
+	air_forces_folder = {
+		ledger = air
+	}
+	industry_folder = {
+		ledger = civilian
+	}
+	land_doctrine_folder = {
+		ledger = army
+		doctrine = yes
+	}
+	naval_doctrine_folder = {
+		ledger = navy
+		doctrine = yes
+	}
+	air_doctrine_folder = {
+		ledger = air
+		doctrine = yes
+	}
+	electronics_folder = {
+		ledger = civilian
+	}
+	#secret_weapons_folder
+}
+
+ 

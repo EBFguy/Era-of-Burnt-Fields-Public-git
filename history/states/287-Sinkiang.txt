@@ -1,0 +1,24 @@
+state={
+	id=287
+	name="STATE_287"
+	local_supplies = 0.0 
+	history={
+		
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4973 10911 8112 1970 13384
+	}
+	manpower=8689786
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

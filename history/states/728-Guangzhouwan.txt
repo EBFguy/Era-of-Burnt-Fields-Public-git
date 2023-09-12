@@ -1,0 +1,24 @@
+state={
+	id=728
+	name="STATE_728"
+	manpower = 20617461
+	
+	state_category = town
+	
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		buildings = {
+			infrastructure = 3
+			11981 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		11981 
+	}
+}

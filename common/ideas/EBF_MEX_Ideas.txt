@@ -1,0 +1,418 @@
+ideas = {
+	country = {
+		MEX_American_Support = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MEX_American_Support"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MEX_American_Support
+					  
+			modifier = {	
+				stability_factor = 0.2
+				war_support_factor = -0.2
+				army_core_defence_factor = 0.1
+				political_power_factor = -0.2
+			}
+
+			targeted_modifier = {
+				tag = USA					
+				extra_trade_to_target_factor = 0.5
+			}	
+
+			targeted_modifier = {
+				tag = USA					
+				trade_opinion_factor = 0.5
+			}	
+
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.2
+				}
+			}
+		}			
+		MEX_Death_Squads = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MEX_Death_Squads"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MEX_Death_Squads
+					  
+			modifier = {	
+				resistance_growth = -0.1
+				monthly_population = -0.2
+			}
+		}	
+
+		MNL_Blood_Money = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MNL_Blood_Money"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MNL_Blood_Money
+					  
+			modifier = {	
+				encryption = -10
+				decryption = 10
+				political_power_cost = 0.25
+			}
+
+			equipment_bonus = {
+				infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.25
+				}
+			}
+		}	
+
+		MNL_Ultranationalist_Internationale = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MNL_Ultranationalist_Internationale"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MNL_Ultranationalist_Internationale
+					  
+			modifier = {	
+				weekly_manpower = 200
+			}
+		}
+
+		ZAP_Autonomous_Army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ZAP_Autonomous_Army"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ZAP_Autonomous_Army
+					  
+			modifier = {	
+				army_org_factor = -0.1
+				army_morale_factor = 0.1
+				political_power_factor = 0.05
+				drift_defence_factor = 0.33
+			}
+		}	
+
+		ZAP_Anarchist_Society = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ZAP_Anarchist_Society"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ZAP_Anarchist_Society
+					  
+			modifier = {	
+				stability_factor = -0.2
+				war_support_factor = 0.3
+				political_power_factor = -0.1
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		YUC_Yepes_Offensive = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUC_Yepes_Offensive"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_YUC_Yepes_Offensive
+					  
+			modifier = {	
+				max_planning_factor = 0.3
+				planning_speed = 0.3
+			}
+
+			targeted_modifier = {
+				tag = ZAP					
+				attack_bonus_against = 0.1
+			}	
+		}
+
+		YUC_Pearl_of_Yucatan = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea YUC_Pearl_of_Yucatan"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_YUC_Pearl_of_Yucatan
+					  
+			modifier = {	
+				stability_factor = 0.3
+				war_support_factor = 0.3
+				political_power_factor = 0.25
+				no_supply_grace = 25
+			}
+
+			targeted_modifier = {
+				tag = ZAP					
+				attack_bonus_against = 0.1
+			}	
+		}
+
+		MWR_Shangai_Pact_Backing = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MWR_Shangai_Pact_Backing"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MWR_Shangai_Pact_Backing
+					  
+			modifier = {	
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+			}
+
+			targeted_modifier = {
+				tag = PRC					
+				trade_opinion_factor = 0.6
+			}	
+		}
+
+		MWR_Manzanares_Program = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MWR_Manzanares_Program"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MWR_Manzanares_Program
+					  
+			modifier = {	
+				monthly_population = -0.3
+				war_support_factor = 0.1
+				industrial_capacity_factory = 0.1
+				stability_factor = -0.1
+			}
+		}
+
+		MCN_Inhospitable_North = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCN_Inhospitable_North"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MCN_Inhospitable_North
+					  
+			modifier = {	
+				army_core_defence_factor = 0.1
+				attrition_for_controller = 0.2
+				monthly_population = -0.1 
+			}
+		}
+
+		MCN_Chaotic_Situation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MCN_Chaotic_Situation"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MCN_Chaotic_Situation
+					  
+			modifier = {	
+				monthly_population = -0.4
+				stability_factor = -0.4
+				war_support_factor = -0.2
+				army_org_factor = -0.1
+			}
+		}
+
+		SIL_Narco_Empire = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIL_Narco_Empire"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_SIL_Narco_Empire
+					  
+			modifier = {	
+				political_power_factor = 0.5
+				trade_opinion_factor = 0.25
+			}
+		}
+
+		SIL_Anti_Cartel_Vigilantes = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SIL_Anti_Cartel_Vigilantes"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_Anti_Cartel_Vigilantes
+					  
+			modifier = {	
+				resistance_growth = 0.2
+				army_org_factor = -0.05
+				stability_factor = -0.1
+			}
+		}
+
+		COM_Flower_of_Freedom = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea COM_Flower_of_Freedom"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_COM_Flower_of_Freedom
+					  
+			modifier = {	
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		COM_Unstable_Coalition = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea COM_Unstable_Coalition"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_COM_Unstable_Coalition
+					  
+			modifier = {	
+				army_org_factor = -0.1
+				drift_defence_factor = -0.33
+			}
+		}
+
+		BAJ_Executive_Overreach = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BAJ_Executive_Overreach"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_core_defence_factor = 0.15
+				stability_factor = -0.05
+				political_power_factor = -0.2
+			}
+		}
+
+		BAJ_Economic_Paradise = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BAJ_Economic_Paradise"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.25
+				monthly_population = -0.1
+				trade_opinion_factor = 0.6
+				industrial_capacity_factory = 0.1
+			}
+		}
+	}
+}

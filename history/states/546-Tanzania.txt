@@ -1,0 +1,22 @@
+state={
+	id=546
+	name="STATE_546"
+	
+	state_category = rural
+	
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+
+		}
+			
+	}
+	local_supplies = 0.0 
+	provinces={
+		8182 8201 10845 12944 12967
+	}
+	manpower=69121105
+	buildings_max_level_factor=1.000
+}

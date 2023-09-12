@@ -1,0 +1,40 @@
+spriteTypes = {
+	
+	progressbartype = {
+		name = "GFX_RUS_GUI_Kazakh_Paci_Nikitin_sus_Bar"
+		textureFile1 = "gfx/interface/EBF_RUS/Kazakh_Paci/RUS_GUI_Kazakh_Paci_Nikitin_sus_GUI_Bar_bg.dds"
+		textureFile2 = "gfx/interface/EBF_RUS/Kazakh_Paci/RUS_GUI_Kazakh_Paci_Nikitin_sus_GUI_Bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_RUS_GUI_Kazakh_Paci_GUI_Bar_Frame"
+		texturefile = "gfx/interface/EBF_RUS/Kazakh_Paci/RUS_GUI_Kazakh_Paci_GUI_Bar_Frame.dds"
+	}
+	
+
+	progressbartype = {
+		name = "GFX_RUS_GUI_Kazakh_Paci_Forces_Strength_Bar"
+		textureFile1 = "gfx/interface/EBF_RUS/Kazakh_Paci/RUS_GUI_Kazakh_Paci_Forces_Strength_Bar.dds"
+		textureFile2 = "gfx/interface/EBF_RUS/Kazakh_Paci/RUS_GUI_Kazakh_Paci_Forces_Strength_Bar_bg.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}	
+
+	spriteType = {
+		name = "GFX_RUS_GUI_Kazakh_Paci_Forces_Strength_GUI_Bar_Frame"
+		texturefile = "gfx/interface/EBF_RUS/Kazakh_Paci/RUS_GUI_Kazakh_Paci_Forces_Strength_Bar_frame.dds"
+	}	
+}

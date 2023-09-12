@@ -1,0 +1,10 @@
+﻿l_english:
+ RULE_GROUP_GLOBAL_RULES:0 "Global Rules"
+ EVEN_EARTH_CAN_BLEED_DESC:0 "Meow"
+ EVEN_EARTH_CAN_BLEED:0 "Even The Earth Can Bleed Difficulty"
+ RULE_OPTION_DEFAULT_CANNOT_BLEED:0 "§GThe Earth Cannot Bleed§!"
+ RULE_OPTION_DEFAULT_CANNOT_BLEED_DESC:0 "Even The Earth Can Bleed Difficulty will not be enabled."
+ RULE_OPTION_CAN_BLEED:0 "§RThe Earth Will Bleed§!"
+ RULE_OPTION_CAN_BLEED_DESC:0 "WARNING: This Difficulty is designed for Burning (Normal) ONLY, it is not recommended you play at any other difficulty with any other difficulty modifier.\n\nEven The Earth Can Bleed Difficulty is a custom difficulty which amps up the AI's difficulty to the maxiumum possible and is explicitly designed for players who want the hardest wars possible, this difficulty does NOT affect the player and is purely focused on changing the AI's parameters. This difficulty inclues:\n\n§YAI Will automatically create meta templates§!\n§YDisables Food and Electricity mechanics for AI§!\n§YArmy Fuel Consumption:§! §G-25%§!\n§YAir Fuel Consumption:§! §G-25%§!\n§YNavy Fuel Consumption:§! §G-25%§!\n§YNavy Fuel Consumption:§! §G-25%§!\n§YSupply Grace:§! §G+72%§! §YHours§!\n§YAir Defense:§! §G+25%§!"
+  
+ 

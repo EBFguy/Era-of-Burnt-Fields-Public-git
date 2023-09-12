@@ -1,0 +1,15 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_London_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LON
+		}
+	}
+	default = no
+	shared_focus = LON_deactivate_soft_stasis_routines
+	shared_focus = LON_internal_cooperation
+	shared_focus = LON_western_cooperation
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=285
+	name="STATE_285"
+	manpower = 3708125
+	state_category = large_city
+	local_supplies = 0.0 
+	history={
+		add_core_of = AST
+		owner = AST
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 5
+			7520 = {
+				coastal_bunker = 1
+			}
+		}
+	
+		
+		victory_points = {
+			7520 1 
+		}
+		
+	}
+
+	provinces={
+		1537 1611 1667 1861 2114 2146 2163 4453 4478 4500 4658 4836 5134 5161 7450 7471 7496 7520 7533 7649 7664 8234 8249 10388 10427 10455 10500 10682 10977 11019 12377 12934 12968 
+	}
+}

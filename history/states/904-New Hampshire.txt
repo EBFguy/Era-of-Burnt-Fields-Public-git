@@ -1,0 +1,23 @@
+state={
+	id=904
+	name="STATE_904"
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		733 3712 3715 10481 
+	}
+	manpower=3101581
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

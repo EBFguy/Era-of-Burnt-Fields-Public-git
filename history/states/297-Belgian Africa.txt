@@ -1,0 +1,37 @@
+state=
+{
+	id=297
+	name="STATE_297" # Equatorial Guinea
+	manpower = 267645
+	local_supplies = 0.0 
+	state_category = rural
+	
+	history=
+	{
+		add_core_of = ANA
+		owner = ANA
+		
+		victory_points = {
+			1903 1 
+		}
+
+		victory_points = {
+			5139 1 
+		}
+		buildings = {
+			infrastructure = 2
+			1903 = {
+				naval_base = 1
+			}
+			8244 = {
+				naval_base = 1
+			}
+			5139 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces=
+	{
+1903 8244 5139	}
+}

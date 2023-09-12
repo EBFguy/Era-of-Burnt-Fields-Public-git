@@ -1,0 +1,505 @@
+ideas = {
+
+	EBF_trade = { 
+		law = yes
+
+		EBF_closed_economy = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				min_export = 0				
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_limited_exports = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				min_export = 0.25 
+				industrial_capacity_factory = 0.05 
+				industrial_capacity_dockyard = 0.05 
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.01
+			
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_export_focus = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				min_export = 0.5 
+				industrial_capacity_factory = 0.1 
+				industrial_capacity_dockyard = 0.1 
+				production_speed_buildings_factor = 0.1
+				research_speed_factor = 0.05
+			
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_free_trade = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				min_export = 0.8 
+				industrial_capacity_factory = 0.15 
+				industrial_capacity_dockyard = 0.15 
+				production_speed_buildings_factor = 0.15 
+				research_speed_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}	
+	}	
+
+	EBF_min_wage = { 
+		law = yes
+
+		EBF_no_minimum_wage = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.05 
+				global_building_slots_factor = 0.10  
+				production_factory_max_efficiency_factor = 0.05			
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_trinket_minimum_wage = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.025 
+				global_building_slots_factor = 0.05 
+				production_factory_max_efficiency_factor = 0.025	
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_minor_minimum_wage = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		EBF_decent_minimum_wage = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = 0.025 
+				global_building_slots_factor = -0.05 
+				production_factory_max_efficiency_factor = -0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_living_wage = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = 0.05 
+				global_building_slots_factor = -0.10 
+				production_factory_max_efficiency_factor = -0.05 
+			}
+			
+			cancel_if_invalid = no
+		}				
+	}
+
+	EBF_max_hours_laws = { 
+		law = yes
+
+		EBF_18_hours = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_factory_start_efficiency_factor = 0.15
+				industrial_capacity_factory = -0.15 
+				consumer_goods_factor = -0.15
+		
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_16_hours = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1 
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = -0.1
+		
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_14_hours = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				industrial_capacity_factory = -0.05 
+				consumer_goods_factor = -0.05
+		
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_10_hours = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_factory_start_efficiency_factor = 0.1 
+				industrial_capacity_factory = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_8_hours = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05 
+				industrial_capacity_factory = 0.05 
+				consumer_goods_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+	}	
+
+	EBF_economic_model = { 
+		law = yes
+
+		EBF_primary_human_model = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_speed_buildings_factor = 0.025 
+				stability_factor = 0.10 
+				industrial_capacity_factory = 0.025 
+				industrial_capacity_dockyard = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_emerging_AI_model = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_speed_buildings_factor = 0.05 
+				stability_factor = 0.05 
+				industrial_capacity_factory = 0.025 
+				industrial_capacity_dockyard = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_joint_human_AI_model = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_speed_buildings_factor = 0.075 
+				research_speed_factor = 0.025 
+				industrial_capacity_factory = 0.05 
+				industrial_capacity_dockyard = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_majority_ai_model = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_speed_buildings_factor = 0.1 
+				research_speed_factor = 0.05 
+				industrial_capacity_factory = 0.075 
+				industrial_capacity_dockyard = 0.075 
+				stability_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_primary_AI_model = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				production_speed_buildings_factor = 0.15 
+				research_speed_factor = 0.1 
+				industrial_capacity_factory = 0.1 
+				industrial_capacity_dockyard = 0.1 
+				stability_factor = -0.20
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+}

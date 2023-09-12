@@ -1,0 +1,28 @@
+state={
+	id=796
+	name="STATE_796"
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 1
+			2115 = {
+				naval_base = 1
+			}
+			10968 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			2115 1 
+		}
+		
+	}
+	provinces={
+		2115 10968
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies = 0.0 
+}

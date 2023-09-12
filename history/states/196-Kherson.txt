@@ -1,0 +1,28 @@
+
+state={
+	id=196
+	name="STATE_196"
+	manpower = 1053748
+	
+	state_category = rural
+	local_supplies = 0.0 
+
+	history={
+		add_core_of = UKR
+		owner = UKR
+		victory_points = {
+			11715 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		
+		
+	}
+
+	provinces={
+		568 721 737 767 3573 6771 9712 11715 
+	}
+}

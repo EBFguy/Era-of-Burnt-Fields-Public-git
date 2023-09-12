@@ -1,0 +1,83 @@
+﻿l_english:
+
+ state_resource_lcm:0 "Light Construction Material"
+ state_resource_hcm:0 "Heavy Construction Material"
+ state_resource_circuitry:1 "Circuitry"
+ state_resource_food:0 "Food"
+ state_resource_electricity:0 "Electricity"
+ state_resource_lunar_titanium:1 "Lunar Titanium"
+
+ temporary_state_resource_lcm:0 "Light Construction Material"
+ temporary_state_resource_hcm:0 "Heavy Construction Material"
+ temporary_state_resource_circuitry:1 "Circuitry"
+ temporary_state_resource_food:0 "Food"
+ temporary_state_resource_electricity:0 "Electricity"
+ temporary_state_resource_lunar_titanium:1 "Lunar Titanium"
+
+ country_resource_lcm:0 "Light Construction Material"
+ country_state_resource_hcm:0 "Heavy Construction Material"
+ country_resource_circuitry:1 "Circuitry"
+ country_resource_food:0 "Food"
+ country_resource_electricity:0 "Electricity"
+ country_resource_resource_lunar_titanium:1 "Lunar Titanium"
+
+ state_resource_cost_lcm:0 "LCM Consumption"
+ state_resource_cost_hcm:0 "HCM Consumption"
+ state_resource_cost_circuitry:1 "Circuitry Consumption"
+ state_resource_cost_food:0 "Food Consumption"
+ state_resource_cost_electricity:0 "Electricity Consumption"
+ state_resource_cost_lunar_titanium:1 "Lunar Titanium Consumption"
+
+ country_resource_cost_lcm:0 "LCM Consumption"
+ country_resource_cost_hcm:0 "HCM Consumption"
+ country_resource_cost_circuitry:1 "Circuitry Consumption"
+ country_resource_cost_food:0 "Food Consumption"
+ country_resource_cost_electricity:0 "Electricity Consumption"
+ country_resource_cost_lunar_titanium:1 "Lunar Titanium Consumption"
+
+ PRODUCTION_MATERIALS_LCM:0 "Light Construction Material"
+ PRODUCTION_MATERIALS_HCM:0 "Heavy Construction Material"
+ PRODUCTION_MATERIALS_CIRCUITRY:0 "Circuitry"
+ PRODUCTION_MATERIALS_FOOD:0 "Food"
+ PRODUCTION_MATERIALS_ELECTRICITY:0 "Electricity"
+ PRODUCTION_MATERIALS_LUNAR_TITANIUM:0 "Lunar Titanium"
+
+ lcm_desc:0 "Metals that have low weight and used to produce products with low weight.\n\n§YComprises:\nAluminum,\nMagnesium,\nSteel,\nRubber,\nand Titanium§!"
+ hcm_desc:0 "Metals that are of comparatively higher weight than LCMs are used to produce products with higher weight than LCMs.\n\n§YComprises:\nChromium,\nHeavier Type Steel,\nTungsten§!"
+ circuitry_desc:0 "Electronic Components that are key for the functioning of electronics within the modern world of 2061.\n\n§YComprises:\nIndividual Electronic Components,\nAI Cores,\nTechnological Marvels§!"
+ food_desc:0 "The blood of life, the things Humans must eat to survive, comes in all shapes and seizes.\n\n§YComprises:\nLab produced food,\nNatural Food§!"
+ electricity_desc:0 "The lifeblood of machines and modern comforts, without Electricity there is no modern man\n\n§YProduced by:\nRemnant Fossil Fuels,\nNuclear Fusion\nCold Fusion\nGreen Energy\nDirty Energy§!"
+ lunar_titanium_desc:0 "Created on the Moon in secret by Lunar scientists"
+
+
+ light_foundry:0 "Light Foundry"
+ light_foundry_plural:0 "Light Foundries"
+ light_foundry_desc:0 "Light Foundries produce LCMs and HCMs for the nation, they are small and easy to produce.\n\nPower Consumption: §R-0.25§! £electricity_texticon. \nProduces:"
+
+ heavy_foundry:0 "Heavy Foundry"
+ heavy_foundry_plural:0 "Heavy Foundries"
+ heavy_foundry_desc:0 "Heavy Foundries produce LCMs and HCMs for the nation, their enlarged size give us more resources at the cost of higher upkeep.\n\nPower Consumption: §R-0.5§! £electricity_texticon. \nProduces:"
+
+ agricultural_complex:0 "Agricultural Complex"
+ agricultural_complex_plural:0 "Agricultural complexes"
+ agricultural_complex_desc:0 "Agri Complexes are massive indoor farming complexes that produce natural food, they're slower than food growing labs but are cheaper to produce and their maintance cost is negligable on our power grid.\n\nProduces:"
+
+ food_growing_laboratory:0 "Food Growing Laboratory"
+ food_growing_laboratory_plural:0 "Food Growing Laboratories"
+ food_growing_laboratory_desc:0 "Unlike their natural growing counterparts FGLs are giga laboratories that exist to produce vat grown meat by the tens of thousands, their energy cost and consturction cost are high but their output is equally vast.\n\nPower Consumption: §R-1§! £electricity_texticon. \nProduces:"
+
+ circuitry_manufactory:0 "Circuity Manufactory"
+ circuitry_manufactory_plural:0 "Circuity Manufactories"
+ circuitry_manufactory_desc:0 "Produces various electrical components that keep the machine part of our nation running.\n\nPower Consumption: §R-0.1§! £electricity_texticon. \nProduces:"
+
+ renewable_energy_construction:0 "Renewable Energy Complex"
+ renewable_energy_construction_plural:0 "Renewable Energy Complexes"
+ renewable_energy_construction_desc:0 "A Varied set of constructions that exploit the local renewable energy sources within the area it is built.\n\nProduces:"
+
+ dirty_energy_construction:0 "Dirty Energy Construction"
+ dirty_energy_construction_plural:0 "Dirty Energy Constructions"
+ dirty_energy_construction_desc:0 "Dirty Energy is a type of energy geneation that harms the local environ in some way, they produce cheap energy for us, however, their decay to the local environment is noticable, especially if multiple of them are produced per state\n\nMonthly Local Ecodecay: §R-5%§!\nProduces:"
+
+ nuclear_reactor:0 "Nuclear Reactor"
+ nuclear_reactor_plural:0 "Nuclear Reactors"
+ nuclear_reactor_desc:0 "This building provides the state with production of enriched Uranium for use in Nuclear weapons."

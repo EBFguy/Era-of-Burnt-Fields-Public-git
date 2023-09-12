@@ -1,0 +1,22 @@
+
+state={
+	id=1100
+	name="STATE_1100"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = IRA
+		owner = IRA
+		buildings = {
+			infrastructure = 3
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		10922 8125 13454
+	}
+}

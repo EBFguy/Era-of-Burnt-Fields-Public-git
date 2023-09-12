@@ -1,0 +1,25 @@
+
+state={
+	id=618
+	name="STATE_618" # Dzungaria
+	manpower = 30516035
+
+	state_category = rural
+
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1708 1783 1844 4788 7866 10674 10691 
+	}
+}

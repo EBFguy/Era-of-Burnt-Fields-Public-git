@@ -1,0 +1,27 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower = 915638
+	
+	state_category = town
+
+	history={
+		add_core_of = RMA
+		owner = RMA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			6682 1 
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		696 6682 6697 9640 
+	}
+}

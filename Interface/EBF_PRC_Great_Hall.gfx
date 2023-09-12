@@ -1,0 +1,79 @@
+spriteTypes = {
+	
+	progressbartype = {
+		name = "GFX_PRC_GUI_great_hall_faction_Bar_left"
+		textureFile1 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Left_GUI_Bar.dds"
+		textureFile2 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Empty_GUI_Bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	progressbartype = {
+		name = "GFX_PRC_GUI_great_hall_faction_Bar_centre"
+		textureFile1 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Centre_GUI_Bar.dds"
+		textureFile2 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Empty_GUI_Bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	progressbartype = {
+		name = "GFX_PRC_GUI_great_hall_faction_Bar_right"
+		textureFile1 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Right_GUI_Bar.dds"
+		textureFile2 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Empty_GUI_Bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	spriteType = {
+		name = "GFX_PRC_GUI_great_hall_GUI_Bar_frame"
+		texturefile = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_Bar_Frame.dds"
+	}
+	
+
+	progressbartype = {
+		name = "GFX_PRC_GUI_great_hall_chaos_Bar"
+		textureFile1 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_great_hall_chaos_GUI_Bar_bg.dds"
+		textureFile2 = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_great_hall_chaos_empty_GUI_Bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}	
+
+	spriteType = {
+		name = "GFX_PRC_GUI_Great_Hall_nonactive_indicator"
+		texturefile = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_nonactive_indicator.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_PRC_GUI_Great_Hall_active_indicator"
+		texturefile = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_GUI_Great_Hall_active_indicator.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_PRC_GUI_infobutton"
+		texturefile = "gfx/interface/EBF_PRC/Battle_for_the_hall/PRC_info_button.dds"
+	}	
+}

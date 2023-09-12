@@ -1,0 +1,57 @@
+﻿add_namespace = korean_skeleton
+
+#korean_skeleton
+country_event = { #KOREAN UNIFICATION WAR BEGINS
+	id = korean_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event korean_skeleton.1"}
+	title = korean_skeleton.1.t
+	desc = korean_skeleton.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = korean_skeleton.1.a
+		if = {#special check to see if both koreas unifided under PLA
+			limit = {
+				OR = {
+					tag = HAM
+					tag = BUS
+				}
+				HAM = {
+					has_country_flag = IS_NATIONAL_UNIFIER
+				}
+				BUS = {
+					has_country_flag = IS_NATIONAL_UNIFIER
+				}
+			}
+			HAM = {
+				annex_country = {
+				    target = BUS
+				    transfer_troops = yes
+				}
+				set_global_flag = EBF_KOREA_UNIFIED
+				clr_global_flag = EBF_shanghai_pact_korea_collapse_ongoing
+				set_country_flag = IS_FULL_UNIFIER
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					tag = NRK
+				}
+				declare_war_on = {
+			    	target = SRK
+			    	type = annex_everything
+				}	
+			}
+			else_if = {
+				limit = {
+					tag = SRK
+				}
+				declare_war_on = {
+			    	target = NRK
+			    	type = annex_everything
+				}	
+			}
+		}
+	}
+}

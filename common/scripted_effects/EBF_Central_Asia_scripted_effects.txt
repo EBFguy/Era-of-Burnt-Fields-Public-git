@@ -1,0 +1,457 @@
+Central_Asian_capitulation_effect = {
+	if = {
+		limit = {
+			FROM = { 
+				OR = {
+					tag = KGR 
+					tag = KYR 
+				}
+			}
+			ROOT = { 
+				OR = {
+					tag = KGR 
+					tag = KYR 
+				}
+			}
+		}
+		FROM = {
+			white_peace = ROOT
+			annex_country = {
+				target = ROOT
+				transfer_troops = no
+			}
+		}
+		set_global_flag = skip_default_capitulation
+		GRN = {
+			add_to_variable = {
+				var = central_asia_BR_count #count till central asia battle royale
+				value = 1
+			}
+		}
+	}
+	
+	else_if = {
+		limit = {
+			FROM = { 
+				OR = {
+					tag = FRU 
+					tag = UZB 
+				}
+			}
+			ROOT = { 
+				OR = {
+					tag = FRU 
+					tag = UZB 
+				}
+			}
+		}
+		FROM = {
+			white_peace = ROOT
+			annex_country = {
+				target = ROOT
+				transfer_troops = no
+			}
+		}
+		set_global_flag = skip_default_capitulation
+		GRN = {
+			add_to_variable = {
+				var = central_asia_BR_count #count till central asia battle royale
+				value = 1
+			}
+		}
+	}	
+	
+	else_if = {
+		limit = {
+			FROM = { 
+				OR = {
+					tag = FAD 
+					tag = TRK 
+				}
+			}
+			ROOT = { 
+				OR = {
+					tag = FAD 
+					tag = TRK 
+				}
+			}
+		}
+		FROM = {
+			white_peace = ROOT
+			annex_country = {
+				target = ROOT
+				transfer_troops = no
+			}
+		}
+		set_global_flag = skip_default_capitulation
+		GRN = {
+			add_to_variable = {
+				var = central_asia_BR_count #count till central asia battle royale
+				value = 1
+			}
+		}
+	}	
+	
+	else = {
+		ROOT = {
+			every_country = {
+				limit = { has_war_with = ROOT }
+				white_peace = ROOT
+			}
+		}
+		FROM = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = no
+			}
+		}
+	}	
+	
+	if = {
+		limit = {
+			GRN = {
+				check_variable = {
+					var = central_asia_BR_count
+					value = 3
+					compare = equals
+				}
+			}
+		}
+		GRN = {
+			country_event = {
+				id = central_asia.1
+				days = 5
+			}
+		}
+	}
+}
+
+battle_royale_effect = {
+	KGR = {	
+		declare_war_on = {
+			target = UZB
+			type = annex_everything
+		}				
+		declare_war_on = {
+			target = FAD
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}	
+	}
+	KYR = {	
+		declare_war_on = {
+			target = UZB
+			type = annex_everything
+		}		
+		declare_war_on = {
+			target = FAD
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}	
+	}
+	UZB = {			
+		declare_war_on = {
+			target = FAD
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}	
+	}
+	FRU = {
+		declare_war_on = {
+			target = KGR		
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = KYR		
+			type = annex_everything
+		}				
+		declare_war_on = {
+			target = FAD
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = KAR
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TAJ
+			type = annex_everything
+		}			
+	}		
+	KAR = {
+		declare_war_on = {
+			target = KGR		
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = KYR		
+			type = annex_everything
+		}		
+		declare_war_on = {
+			target = UZB
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = TAJ
+			type = annex_everything
+		}			
+		declare_war_on = {
+			target = FAD
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}	
+	}	
+	TAJ = {
+		declare_war_on = {
+			target = KGR		
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = KYR		
+			type = annex_everything
+		}		
+		declare_war_on = {
+			target = UZB
+			type = annex_everything
+		}		
+		declare_war_on = {
+			target = FAD
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}	
+	}		
+}
+
+get_central_asia_tag = {
+	if = {
+		limit = {
+			tag = KYR
+		}
+		set_cosmetic_tag = KYR_central_asia
+	}
+	if = {
+		limit = {
+			tag = TAJ
+		}
+		set_cosmetic_tag = TAJ_central_asia
+	}	
+	if = {
+		limit = {
+			tag = FAD
+		}
+		set_cosmetic_tag = FAD_central_asia
+	}		
+	if = {
+		limit = {
+			tag = KAR
+		}
+		set_cosmetic_tag = KAR_central_asia
+	}	
+	if = {
+		limit = {
+			tag = FRU
+		}
+		set_cosmetic_tag = FRU_central_asia
+	}	
+	if = {
+		limit = {
+			tag = TRK
+		}
+		set_cosmetic_tag = TRK_central_asia
+	}	
+	if = {
+		limit = {
+			tag = KGR
+		}
+		create_faction = CENTRALASIA_FACTION
+		set_global_flag = KGR_Central_asia_Exists
+		hidden_effect = {
+			TAJ = {
+				transfer_state = 742
+			}
+			UZB = {
+				transfer_state = 585
+				transfer_state = 823
+				transfer_state = 830
+				transfer_state = 897
+				set_capital = {
+					state = 830
+					remember_old_capital = NO
+				}
+			}
+			KAR = {
+				transfer_state = 831
+				transfer_state = 843
+			}						
+			TRK = {
+				transfer_state = 842
+				transfer_state = 832
+				transfer_state = 584
+			}
+			set_autonomy = { target = TAJ autonomy_state = autonomy_supervised_state }				
+			set_autonomy = { target = UZB autonomy_state = autonomy_supervised_state }
+			set_autonomy = { target = KAR autonomy_state = autonomy_supervised_state }		
+			set_autonomy = { target = TRK autonomy_state = autonomy_supervised_state }	
+			TAJ = {
+				set_popularities = {
+					autocracy = 100
+				}
+				set_politics = {
+					ruling_party = autocracy
+					elections_allowed = no
+					election_frequency = 48
+					long_name = TAJ_KGR_party_long
+					name = TAJ_KGR_party
+				}
+				set_cosmetic_tag = TAJ_KGR_central_asia
+			}
+			UZB = {
+				set_popularities = {
+					autocracy = 100
+				}
+				set_politics = {
+					ruling_party = autocracy
+					elections_allowed = no
+					election_frequency = 48
+					long_name = UZB_KGR_party_long
+					name = UZB_KGR_party
+				}
+				set_cosmetic_tag = UZB_KGR_central_asia
+			}	
+			KAR = {
+				set_popularities = {
+					anocracy = 100
+				}
+				set_politics = {
+					ruling_party = anocracy
+					elections_allowed = no
+					election_frequency = 48
+					long_name = KAR_KGR_party_long
+					name = KAR_KGR_party
+				}
+				set_cosmetic_tag = KAR_KGR_central_asia
+			}		
+			TRK = {
+				set_popularities = {
+					autocracy = 100
+				}
+				set_politics = {
+					ruling_party = autocracy
+					elections_allowed = no
+					election_frequency = 48
+					long_name = TRK_KGR_party_long
+					name = TRK_KGR_party
+				}
+				set_cosmetic_tag = TRK_KGR_central_asia
+			}			
+		}
+	}	
+	if = {
+		limit = {
+			tag = UZB
+		}
+		set_cosmetic_tag = UZB_central_asia
+	}			
+}
+
+get_central_asia_event = {
+	if = {
+		limit = {
+			tag = KYR
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.2
+			}
+		}
+	}
+	if = {
+		limit = {
+			tag = TAJ
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.3
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = FAD
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.4
+			}
+		}
+	}		
+	if = {
+		limit = {
+			tag = KAR
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.5
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = FRU
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.6
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = TRK
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.7
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = KGR
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.8
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = UZB
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.9
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1012
+	name="STATE_1012" # Quetta
+	manpower = 10
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = FAR
+		owner = FAR
+		victory_points = {
+			5105 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		8098 5105 10813 7903 7847
+	}
+}

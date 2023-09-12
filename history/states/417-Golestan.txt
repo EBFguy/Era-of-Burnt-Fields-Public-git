@@ -1,0 +1,26 @@
+
+state={
+	id=417
+	name="STATE_417" # Hamadan
+	manpower = 8458191
+	state_category = rural
+
+	history={
+		add_core_of = IRA
+		owner = IRA
+		victory_points = {
+			8040 3 
+		}
+		victory_points = {
+			2065 1 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1982 2065 8040 13453 12756
+	}
+}

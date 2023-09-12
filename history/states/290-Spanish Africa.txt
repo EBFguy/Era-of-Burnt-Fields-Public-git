@@ -1,0 +1,33 @@
+
+state={
+	id=290
+	name="STATE_290"
+	manpower = 1076370
+	local_supplies = 0.0 
+	
+	state_category = town
+
+	history={
+		add_core_of = MOR
+		owner = MOR
+		add_core_of = MAG
+		
+		victory_points = {
+			9945 3
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			12100 = {
+				naval_base = 3
+			}
+			9945 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+}

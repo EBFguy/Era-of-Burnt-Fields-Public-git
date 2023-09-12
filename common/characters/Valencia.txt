@@ -1,0 +1,15 @@
+characters = {
+	VAL_Marti_Suárez = {
+		name = "Marti Suárez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VAL/Portrait_VAL_Marti_Suárez.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_neo_fascism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MARTI_SUAREZ_DESC"
+		}
+	}
+}

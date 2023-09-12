@@ -1,0 +1,28 @@
+
+state={
+	id=636
+	name="STATE_636"
+	manpower = 915701
+	
+	state_category = small_island
+
+	history={
+		add_core_of = MIC
+		owner = MIC
+		
+		buildings = {
+			infrastructure = 3
+			4286 = {
+				naval_base = 1
+			}
+		}
+		
+		victory_points = {
+			4286 1 
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		4286 7302 12159 
+	}
+}

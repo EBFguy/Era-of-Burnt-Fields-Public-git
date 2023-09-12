@@ -1,0 +1,327 @@
+ideas = {
+	hidden_ideas = {
+		shanghai_pact_status_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea shanghai_pact_status_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		shanghai_pact_status_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea shanghai_pact_status_2"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		shanghai_pact_status_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea shanghai_pact_status_3"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		shanghai_pact_status_4 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea shanghai_pact_status_4"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		wacdep_status_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea wacdep_status_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		wacdep_status_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea wacdep_status_2"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		wacdep_status_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea wacdep_status_3"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}	
+		mpa_status_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea mpa_status_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}	
+		cod_status_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea cod_status_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		cod_status_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea cod_status_2"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		cod_status_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea cod_status_3"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		cod_status_4 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea cod_status_4"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}	
+		solomon_faction_status_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea solomon_faction_status_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		solomon_faction_status_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea solomon_faction_status_2"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		solomon_faction_status_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea solomon_faction_status_3"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}	
+		gulf_union_status_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea gulf_union_status_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		gulf_union_status_2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea gulf_union_status_2"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		gulf_union_status_3 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea gulf_union_status_3"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}				
+		gulf_union_status_4 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea gulf_union_status_4"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+	}
+}

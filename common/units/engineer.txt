@@ -1,0 +1,286 @@
+sub_units = {
+	engineer = {
+		abbreviation = "ENG"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+			category_engineer
+			category_biological
+		}
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 2
+		max_organisation = 20
+		default_morale = 0.3
+		manpower = 300
+		training_time = 120
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.02
+		
+		entrenchment  = 5
+
+				
+		defense = 0.1
+		breakthrough = 0.5
+
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+
+		essential = {
+			support_equipment
+		}
+
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+		}
+
+		can_be_parachuted = yes
+		forest = {
+			defence = 0.25
+			movement = 0.05
+		}
+
+		hills = {
+			defence = 0.1
+		}
+
+		jungle = {
+			defence = 0.25
+		}
+
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+
+		amphibious = {
+			attack = 0.25
+		}
+	}
+
+	mbt_engineer = {
+		abbreviation = "BNG"
+		sprite = medium_armor
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+			category_engineer
+			category_tanks
+			category_all_armor
+			category_biological
+		}
+	
+		combat_width = 2
+	
+		#Size Definitions
+		max_strength = 5
+		max_organisation = 0
+		default_morale = 0.3
+		manpower = 300
+		training_time = 150
+
+		#Misc Abilities
+		weight = 0.15
+		supply_consumption = 0.02
+		
+		entrenchment = 5
+
+				
+		defense = 0.15
+		hardness = 0.1   
+		breakthrough = 0.5
+
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+
+		essential = {
+			support_equipment
+			MBT_equipment
+		}
+
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+			MBT_equipment = 5
+		}
+
+		can_be_parachuted = yes
+		forest = {
+			defence = 0.3
+		}
+
+		hills = {
+			defence = 0.05
+		}
+
+		jungle = {
+			defence = 0.3
+		}
+
+		marsh = {
+			defence = 0.3
+			movement = -0.05
+		}
+
+		fort = {
+			attack = 0.25
+			defence = 0.3
+		}
+
+		river = {
+			defence = 0.3
+			movement = 0.15
+		}
+
+		amphibious = {
+			attack = 0.15
+		}
+	}
+
+	robo_engineer = {
+		abbreviation = "REN"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		affects_speed = no
+		
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+			category_engineer
+			category_androids
+			category_mechanical
+		}
+	
+		combat_width = 0
+	
+		#Size Definitions
+		max_strength = 3
+		max_organisation = 80
+		default_morale = 0.3
+		manpower = 10
+		training_time = 60
+
+		#Misc Abilities
+		weight = 0.1
+		supply_consumption = 0.01
+		
+		entrenchment = 5
+
+				
+		defense = 0.125
+		breakthrough = 0.5
+
+		# Support nerfs to combat abilities
+		soft_attack = -0.5
+
+		essential = {
+			support_equipment
+			android_equipment
+		}
+
+		need = {
+			infantry_equipment = 10
+			support_equipment = 30
+			android_equipment = 10
+		}
+
+		can_be_parachuted = yes
+		forest = {
+			defence = 0.2
+			movement = 0.05
+		}
+
+		hills = {
+			defence = 0.1
+			movement = 0.05
+		}
+
+		jungle = {
+			defence = 0.2
+		}
+
+		marsh = {
+			defence = 0.25
+			movement = 0.2
+		}
+
+		fort = {
+			attack = 0.1
+			defence = 0.25
+		}
+
+		river = {
+			defence = 0.25
+			movement = 0.25
+		}
+
+		desert = {
+			attack = 0.25
+			defence = 0.25
+			movement = 0.1
+		}
+
+		amphibious = {
+			attack = 0.1
+		}
+	}
+
+}

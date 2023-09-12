@@ -1,0 +1,141 @@
+﻿add_namespace = wwc
+
+# A Crumbling Soul
+country_event = {
+	id = wwc.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.1" }
+	title = wwc.1.t
+	desc = wwc.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.1.a
+	}
+}
+
+# Our Leaders
+country_event = {
+	id = wwc.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.2" }
+	title = wwc.2.t
+	desc = wwc.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.2.a
+	}
+}
+
+# Operation Amazonas
+country_event = {
+	id = wwc.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.3" }
+	title = wwc.3.t
+	desc = wwc.3.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.3.a
+	}
+}
+
+# Chase
+country_event = {
+	id = wwc.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.4" }
+	title = wwc.4.t
+	desc = wwc.4.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.4.a
+	}
+}
+
+# The Fall of Peixoto Station
+country_event = {
+	id = wwc.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.5" }
+	title = wwc.5.t
+	desc = wwc.5.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.5.a
+	}
+}
+
+# Soviet Attack
+country_event = {
+	id = wwc.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.6" }
+	title = wwc.6.t
+	desc = wwc.6.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.6.a
+	}
+}
+
+# The Arrival
+country_event = {
+	id = wwc.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.7" }
+	title = wwc.7.t
+	desc = wwc.7.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.7.a
+	}
+}
+
+# Blood in the Sand
+country_event = {
+	id = wwc.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.8" }
+	title = wwc.8.t
+	desc = wwc.8.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.8.a
+	}
+}
+
+# The Donation
+country_event = {
+	id = wwc.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.9" }
+	title = wwc.9.t
+	desc = wwc.9.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.9.a
+	}
+}
+
+# A Civillian WWC?
+country_event = {
+	id = wwc.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wwc.10" }
+	title = wwc.10.t
+	desc = wwc.10.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = wwc.10.a
+	}
+}

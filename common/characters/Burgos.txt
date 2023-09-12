@@ -1,0 +1,15 @@
+characters = {
+	BUR_Jorge_Fernández = {
+		name = "Jorge Fernández"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUR/Portrait_BUR_Jorge_Fernández.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_social_liberal_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JORGE_FERNANDEZ_DESC"
+		}
+	}
+}

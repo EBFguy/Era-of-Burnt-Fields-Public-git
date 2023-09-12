@@ -1,0 +1,14 @@
+warlord_europe_epoch_decision_category = {
+	allowed = {
+		is_european_warlord_nation = yes
+	}
+	visible = {
+		
+	}
+
+	scripted_gui = EBF_warlord_europe_epoch
+	visible_when_empty = yes
+}
+
+# suipissssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+

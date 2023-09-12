@@ -1,0 +1,32 @@
+
+state={
+	id=987
+	name="STATE_987"
+	manpower = 10
+	
+	state_category = large_city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+		}
+		
+		victory_points = {
+			4569 10 
+		}
+		victory_points = {
+			10717 10 
+		}
+		victory_points = {
+			10370 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		10717 12361 1621 4569 1564 1441 1534 10370 12463 12346 4449 4540
+	}
+}

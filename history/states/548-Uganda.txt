@@ -1,0 +1,25 @@
+state={
+	id=548
+	name="STATE_548"
+
+	state_category = rural
+	
+	history={
+		add_core_of = EAF
+		owner = EAF
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+		victory_points = {
+			12989 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3854 7088 7133 8223 12929 12989 13177 
+	}
+	manpower=59983867
+	buildings_max_level_factor=1.000
+}

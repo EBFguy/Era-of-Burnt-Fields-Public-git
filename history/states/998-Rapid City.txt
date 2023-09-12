@@ -1,0 +1,25 @@
+
+state={
+	id=998
+	name="STATE_988"
+	manpower = 10
+	state_category = rural
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			1747 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		3750 4839 1747 7745 1875 7771
+	}
+}

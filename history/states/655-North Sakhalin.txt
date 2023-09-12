@@ -1,0 +1,22 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 504000
+	
+	state_category = pastoral
+	history={
+		add_core_of = RUS
+		owner = RUS
+		
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		855 1742 1755 
+	}
+}

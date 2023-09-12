@@ -1,0 +1,23 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = tiny_island
+
+	history={
+		add_core_of = USA
+		owner = USA
+		
+		buildings = {
+			infrastructure = 4
+			7388 = {
+				naval_base = 3
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		12752 10489 866 7388
+	}
+}

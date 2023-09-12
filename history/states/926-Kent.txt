@@ -1,0 +1,24 @@
+state={
+	id=926
+	name="STATE_926"
+	manpower=10
+	
+	state_category = megalopolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = NSC
+		owner = NSC
+		victory_points = { 3501 20 }
+		buildings = {
+			infrastructure = 4
+			3501 = {
+				naval_base = 6
+				coastal_bunker = 3
+			}
+		}
+	}
+
+	provinces={
+		3501 13462
+	}
+}

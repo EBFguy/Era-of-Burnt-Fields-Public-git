@@ -1,0 +1,28 @@
+
+state={
+	id=613
+	name="STATE_613" # Outer Shanghai
+	manpower = 227508088
+	
+	state_category = metropolis
+	
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+		}
+		victory_points = {
+			11913 20 
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		996 1089 7120 11913 11928 11982 13142 
+	}
+}

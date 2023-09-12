@@ -1,0 +1,97 @@
+﻿capital = 113
+
+# Vacant
+recruit_character = IRE_Generic_Vacant_psi
+recruit_character = IRE_Generic_Vacant_pi_0
+recruit_character = IRE_Generic_Vacant_pi_1
+recruit_character = IRE_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+oob = IRE_2061
+set_technology = {
+    infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    MBT2040 = 1
+    IFV2040 = 1
+    IFV2050 = 1
+    APC2040 = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = IRE_Riley_Rochfort
+recruit_character = IRE_Thomas_OLeary
+recruit_character = IRE_Richard_McGarry
+recruit_character = IRE_Edward_Lawlor
+recruit_character = IRE_Harrison_Donohoe
+recruit_character = IRE_Nora_Gibbons
+recruit_character = IRE_Charles_Reynolds
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 7
+    fascist = 0
+    autocracy = 5
+    anocracy = 73
+    conservatism = 5
+    liberalism = 10
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+add_ideas = {
+    #POLLITICAL
+    EBF_dominant_party_state
+    EBF_internal_opposition
+    EBF_pluralism
+    EBF_registered_voting
+    EBF_censored_press
+    EBF_all_unions_allowed
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_export_focus
+    EBF_decent_minimum_wage
+    EBF_8_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_basic_training
+    EBF_ordinary_policing
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_tertiary_schooling
+    EBF_widespread_poverty
+    EBF_middling_consumer_confidence
+    EBF_professional_army
+    EBF_industrial_equipment_use
+    EBF_functional_administration
+}
+
+add_ideas = {
+    IRE_europes_western_bastion
+    IRE_marching_towards_unification
+    IRE_rising_sons
+}
+
+add_ideas = {
+    commonet_Member
+}

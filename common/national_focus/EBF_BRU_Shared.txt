@@ -1,0 +1,215 @@
+
+
+### Starting Tree ###
+
+shared_focus = {
+	id = BRU_Last_Cough_Of_Sick_Man
+	icon = GFX_focus_The_Last_Cough_of_the_Sick_Man
+	cost = 14
+	x = 0
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_Last_Cough_Of_Sick_Man"
+		country_event = {
+			id = BRU_Intro.1 
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_A_Dream_Past
+	icon = GFX_focus_A_Dream_Past
+	cost = 14
+	x = -2
+	y = 1
+	prerequisite = { focus = BRU_Last_Cough_Of_Sick_Man }
+	relative_position_id = BRU_Last_Cough_Of_Sick_Man
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_A_Dream_Past"
+		country_event = {
+			id = BRU_Intro.2 
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_The_Old_Industries
+	#icon = 
+	cost = 14
+	x = -2
+	y = 1
+	prerequisite = { focus = BRU_A_Dream_Past }
+	relative_position_id = BRU_A_Dream_Past
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_The_Old_Industries"
+		random_owned_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_Were_All_Europeans
+	#icon = 
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = { focus = BRU_The_Old_Industries }
+	relative_position_id = BRU_The_Old_Industries
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_Were_All_Europeans"
+		add_ideas = BRU_A_Call_To_Civility
+	}
+}
+
+shared_focus = {
+	id = BRU_The_Might_Of_Europes_Heart
+	#icon = 
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = { focus = BRU_A_Dream_Past }
+	relative_position_id = BRU_A_Dream_Past
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_The_Might_Of_Europes_Heart"
+		random_owned_state = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_The_Might_Of_Europeans
+	#icon = 
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = { focus = BRU_The_Might_Of_Europes_Heart }
+	relative_position_id = BRU_The_Might_Of_Europes_Heart
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_The_Might_Of_Europeans"
+		add_timed_idea = {
+			idea = BRU_Showing_Our_Might
+			days = 120
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_A_Dream_Now
+	icon = GFX_focus_A_Dream_Now
+	cost = 14
+	x = 2
+	y = 1
+	prerequisite = { focus = BRU_Last_Cough_Of_Sick_Man }
+	relative_position_id = BRU_Last_Cough_Of_Sick_Man
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_A_Dream_Now"
+		country_event = {
+			id = BRU_Intro.3
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_Keep_On_Going
+	#icon = 
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = { focus = BRU_A_Dream_Now }
+	relative_position_id = BRU_A_Dream_Now
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_Keep_On_Going"
+		add_timed_idea = {
+			idea = BRU_A_Campaign_Of_Hope
+			days = 35
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_Europe_Lives_With_Us
+	#icon = 
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = { focus = BRU_Keep_On_Going }
+	relative_position_id = BRU_Keep_On_Going
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_Europe_Lives_With_Us"
+		add_manpower = 2500
+		6 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_victory_point > 1
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = BRU_Grit_Against_The_Pain
+	#icon = 
+	cost = 14
+	x = 2
+	y = 1
+	prerequisite = { focus = BRU_A_Dream_Now }
+	relative_position_id = BRU_A_Dream_Now
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_Grit_Against_The_Pain"
+		add_ideas = BRU_Grit_Against_The_Pain
+	}
+}
+
+shared_focus = {
+	id = BRU_Fight_For_Europe
+	#icon = 
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = { focus = BRU_Grit_Against_The_Pain }
+	relative_position_id = BRU_Grit_Against_The_Pain
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_Fight_For_Europe"
+		swap_ideas = {
+			remove_idea = BRU_Grit_Against_The_Pain
+			add_idea = BRU_Fight_For_Europe
+		} 
+	}
+}
+
+shared_focus = {
+	id = BRU_A_Dream_To_Fight
+	#icon = 
+	cost = 14
+	x = -2
+	y = 1
+	prerequisite = { focus = BRU_Fight_For_Europe }
+	prerequisite = { focus = BRU_Europe_Lives_With_Us }
+	prerequisite = { focus = BRU_The_Might_Of_Europeans }
+	prerequisite = { focus = BRU_Were_All_Europeans }
+	relative_position_id = BRU_Europe_Lives_With_Us
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus BRU_A_Dream_To_Fight"
+		swap_ideas = {
+			remove_idea = BRU_Fight_For_Europe
+			add_idea = BRU_Fight_For_Europe2
+		} 
+	}
+}

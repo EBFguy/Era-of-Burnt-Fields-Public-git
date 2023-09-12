@@ -1,0 +1,16 @@
+characters = {
+	BRN_Abelard_Schmidt	= {
+		name = BRN_Abelard_Schmidt
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRN/Portrait_BRN_Abelard_Schmidt.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_neo_stalinlist_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ABELARD_SCHMIDT_DESC"
+		}	
+	}
+	
+}

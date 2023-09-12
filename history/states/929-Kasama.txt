@@ -1,0 +1,26 @@
+state={
+	id=929
+	name="STATE_929" # Zambia
+	
+	state_category = rural
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+		victory_points = {
+			191 1 
+		}
+	}
+
+	provinces={
+		10930 1846 10594 13173 191
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	local_supplies = 0.0 
+}

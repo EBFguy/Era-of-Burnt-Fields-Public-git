@@ -1,0 +1,35 @@
+
+state={
+	id=19
+	name="STATE_19"
+
+	history={
+		add_core_of = AQU
+		owner = AQU
+		victory_points = {
+			9737 20 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			9737 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		6621 6762 6777 9737 11565 
+	}
+	manpower=4241430
+	buildings_max_level_factor=1.000
+	state_category=city
+}

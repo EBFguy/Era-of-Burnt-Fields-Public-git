@@ -1,0 +1,27 @@
+scripted_gui = {
+	EBF_warlord_europe_epoch = {
+		context_type = decision_category
+		window_name = "EBF_warlord_europe_epoch_container"
+
+		visible = { always = yes }
+
+		dynamic_lists = {
+			EBF_warlord_europe_epoch_grid = {
+				array = global.warlord_europe_epoch_tab
+				change_scope = no
+				entry_container = "EBF_warlord_europe_epoch_[?global.warlord_europe_epoch]_container"
+			}
+			EBF_warlord_europe_contender_grid = {
+				array = warlord_europe_contender_region:warlord_europe_contender_array
+				change_scope = yes
+				entry_container = EBF_warlord_europe_contender_entry
+			}
+		}
+
+		properties = {
+			EBF_warlord_europe_legitimacy_bar = { frame = warlord_europe_legitimacy }
+			EBF_warlord_europe_chaos_bar = { frame = warlord_europe_chaos }
+			EBF_warlord_europe_contender_flag = { image = "[THIS.GetFlag]" }
+		}
+	}
+}

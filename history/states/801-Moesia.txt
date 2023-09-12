@@ -1,0 +1,32 @@
+state={
+	id=801
+	name="STATE_801"
+	manpower = 1218780
+
+	state_category=rural
+
+	history={
+		add_core_of = BUL
+		owner = BUL
+
+		victory_points = { #Ruse
+			9612 3
+		}
+		victory_points = { #Pleven
+			3796 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex =1
+
+		}
+		
+
+	}
+
+	provinces={
+		3796 3819 3952 6842 9610 9612 
+	}
+
+local_supplies = 0.0 
+}

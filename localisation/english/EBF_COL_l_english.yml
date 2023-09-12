@@ -1,0 +1,24 @@
+﻿l_english:
+ #Leaders
+ COL_Juan_Carlos_Franco:0 "Juan Carlos Franco"
+ POLITICS_JUAN_CARLOS_FRANCO_DESC:0 "When Juan Carlos Franco looks back at his past, he can only laugh, for the extent he has changed is near humorous to him. Born to a lower-middle class family in Barranquilla, Juan Carlos Franco was a man with no purpose and nowhere to go in his life, his mother died when he came to this world and his dad was extremely neglectful, preferring to drink his sorrows away and give the young Franco the bare minimum to survive instead of being a proper parent, which made Franco an apathetic and melancholic young man, with no special talents or skills, a mediocre man doomed to live a miserable life. That would be true until he met the men of Clan Usuga, and that's when he finally found what he always searched for : Purpose.\n\nFighting for ideals of a right-wing revolution against the degeneracy of both liberalism and communism, Juan Carlos Franco would become the most fanatic and loyal soldier of the Clan Usuga, rising through the ranks as his studies on alternatives to the rotting status-quo of Colombia. He would soon meet the works of Primo de Rivera and other Third Position writers, leading him into away from Usuga's regular anti-communism and into actual falangist principles, preaching them towards the ranks, an working on his charisma and keeping his devotion to the cause, he would bring in a new wave of young men indignated with the Status Quo\n\nAnd as instability grew in Colombia and Civil War came in with the many crisis of the 21st Century, Franco, with the help of his comrades (and from the American Government) would overthrow Colombia and launch a brutal crackdown campaign on the FARC and other leftist and liberal organizations, leaving Usuga and the legions of militias that rose on the years of chaos in Colombia in control. Now 'El Fidalgo' must deal with the greedy and corrupt old guard and the other rival groups, or else his dream shall fall flat."
+ 
+ #Ideas
+ COL_we_have_passed:0 "We have passed!"
+ COL_we_have_passed_desc:0 "The degenerates, the liberals, the socialists and everything in between screamed that we were 'fascists' and that we 'wouldnt pass', that the feeble democratic society that made Colombia as weak as it is today wouldnt crumble no matter what, and that the 'forces of good' would triumph over 'fascist authoritarianism'. The FARC said we wouldnt pass, that they were unstoppable thanks to the large drug trade network and their guns, and they also said Colombia would be red forever more.But they were all wrong! In the end, those they called 'insane death squads' had the last laugh, as we arise victorious over their bloodied corpses. To the communist, to the socialist, to the liberal, to the democrat, to the degenerate and to the debauched, we have passed! And now nothing can stop us!"
+ COL_our_little_secret:0 "Our little secret"
+ COL_our_little_secret_desc:0 "What keeps our state running? That is question that many of those sleazy liberal rats ask themselves. Despite the deorganized and factionalized state of Colombia after a pact of Right-Wing Paramilitaries took over the nation, we never suffered much troubles in keeping the country whole...All thanks to the US of A. They have funded our state and we have been providing them with what they needed in return, all to guarantee that American money would keep flooding our coffers to keep our state running and keep the many factions loyal.If something happened to this valuable funding, God knows what will happen with this war-torn nation that is Colombia."
+ 
+ #PARTIES#
+ #Colombia
+ 
+ COL_fascist_party:0 "Colombian League"
+ COL_fascist_party_long:0 "The Colombian League"
+ COL_autocracy_party:0 "Colombian League"
+ COL_autocracy_party_long:0 "The Colombian League" 
+ COL_liberalism_party:0 "§RBANNED§!"
+ COL_liberalism_party_long:0 "§RBANNED§!" 
+ COL_libertarian_socialism_party:0 "ELN"
+ COL_libertarian_socialism_party_long:0 "Ejercito de Liberacion Nacional" 
+ COL_authoritarian_socialism_party:0 "FARC"
+ COL_authoritarian_socialism_party_long:0 "Fuerzas Armadas Revolucionarias de Colombia" 

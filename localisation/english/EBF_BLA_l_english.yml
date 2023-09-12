@@ -1,0 +1,33 @@
+﻿l_english:
+
+ #NAMES#
+ BLA:0 "Plurinational Republic of Alto Parano"
+ BLA_DEF:0 "The Plurinational Republic of Alto Parano"
+ BLA_ADJ:0 "Paranan"
+ 
+ BLA_Alceu_Laguna:0 "Alceu Laguna"
+ 
+ BLA_technoutopianism_party:0 "DISORGANISED"
+ BLA_technoutopianism_party_long:0 "DISORGANISED" 
+ BLA_securocracy_party:0 "DISORGANISED"
+ BLA_securocracy_party_long:0 "DISORGANISED"
+ BLA_ultranationalism_party:0 "DISORGANISED"
+ BLA_ultranationalism_party_long:0 "DISORGANISED"
+ BLA_fascist_party:0 "§RBANNED§!"
+ BLA_fascist_party_long:0 "§RBANNED§!"
+ BLA_autocracy_party:0 "USPUG"
+ BLA_autocracy_party_long:0 "United States Provisional Unity Government" 
+ BLA_anocracy_party:0 "BLA"
+ BLA_anocracy_party_long:0 "Brasilguayo Liberation Army" 
+ BLA_conservatism_party:0 "§RBANNED§!"
+ BLA_conservatism_party_long:0 "§RBANNED§!" 
+ BLA_liberalism_party:0 "§RBANNED§!"
+ BLA_liberalism_party_long:0 "§RBANNED§!" 
+ BLA_libertarian_socialism_party:0 "§RBANNED§!"
+ BLA_libertarian_socialism_party_long:0 "§RBANNED§!" 
+ BLA_authoritarian_socialism_party:0 "§RBANNED§!"
+ BLA_authoritarian_socialism_party_long:0 "§RBANNED§!" 
+ BLA_totalitarian_socialism_party:0 "§RBANNED§!"
+ BLA_totalitarian_socialism_party_long:0 "§RBANNED§!" 
+ BLA_reductivism_party:0 "DISORGANISED"
+ BLA_reductivism_party_long:0 "DISORGANISED" 

@@ -1,0 +1,29 @@
+
+state={
+	id=1050
+	name="STATE_1050"
+	
+	manpower = 10
+	
+	state_category = large_city
+
+	history={
+		add_core_of = AST
+		owner = AST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			12910 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			12910 5 
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1773 12924 12918 12910 5211 10925 7567 5225
+	}
+}

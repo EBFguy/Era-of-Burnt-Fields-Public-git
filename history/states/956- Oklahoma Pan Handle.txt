@@ -1,0 +1,21 @@
+
+state={
+	id=956
+	name="STATE_956"
+	manpower = 10
+	
+	state_category = city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		12624
+	}
+}

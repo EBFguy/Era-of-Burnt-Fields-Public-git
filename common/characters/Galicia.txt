@@ -1,0 +1,15 @@
+characters = {
+	GAL_Gabriel_Riba = {
+		name = "Gabriel Riba"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GAL/Portrait_GAL_Gabriel_Riba.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_STEPHEN_MONTGOMERY_DESC"
+		}
+	}
+}

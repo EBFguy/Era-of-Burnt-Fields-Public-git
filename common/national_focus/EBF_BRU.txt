@@ -1,0 +1,13 @@
+#Starting Tree 
+focus_tree = {
+	id = EBF_BRU_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BRU
+		}
+	}
+	default = no
+	shared_focus = BRU_Last_Cough_Of_Sick_Man
+}

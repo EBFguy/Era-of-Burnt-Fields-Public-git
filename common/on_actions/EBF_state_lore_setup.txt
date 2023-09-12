@@ -1,0 +1,60 @@
+# Notes:
+# Stolen from TNO loL!
+
+on_actions = {
+	on_startup = {
+		effect = {
+			# London
+			126 = { add_to_array = { global.state_with_lore = THIS.id } }
+			add_to_array = { 126.lore_entries = 1 }
+
+			#Belfast
+			848 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 2 }
+			}
+
+			#Dublin
+			113 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 3 }
+			}
+
+			#Cardiff
+			122 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 4 }
+			}
+
+			#Edinburgh
+			121 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 5 }
+			}
+
+			#Glasgow
+			133 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 6 }
+			}
+
+			#Birmingham
+			128 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 7 }
+			}
+
+			#New Venice
+			874 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 8 }
+			}
+
+			#Toulouse
+			31 = {
+				add_to_array = { global.state_with_lore = THIS.id }
+				add_to_array = { lore_entries = 9 }
+			}
+		}
+	}
+}

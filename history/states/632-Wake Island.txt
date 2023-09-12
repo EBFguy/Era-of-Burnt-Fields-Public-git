@@ -1,0 +1,21 @@
+
+state={
+	id=632
+	name="STATE_632"
+	manpower=763
+	state_category = tiny_island
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		13047 10071 12775 7219 8016
+	}
+}

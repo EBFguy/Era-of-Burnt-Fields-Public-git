@@ -1,0 +1,56 @@
+﻿capital = 797
+
+# Vacant
+recruit_character = TUR_Generic_Vacant_psi
+recruit_character = TUR_Generic_Vacant_pi_0
+recruit_character = TUR_Generic_Vacant_pi_1
+recruit_character = TUR_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+recruit_character = TUR_Kemal_Yildirim
+recruit_character = TUR_Baris_Seven
+recruit_character = TUR_Burak_Sabanci
+recruit_character = TUR_Mustafa_Koc
+recruit_character = TUR_Mehmet_Can_Yigit
+recruit_character = TUR_Unknown
+recruit_character = TUR_Secret
+
+
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    technoutopianism = 14
+    securocracy = 15
+    ultranationalism = 0
+    fascist = 0
+    autocracy_1 = 9
+    autocracy = 35
+    anocracy = 0
+    conservatism = 0
+    liberal_conservatism = 0
+    liberalism = 0
+    progressivism = 0
+    libertarian_socialism = 9
+    authoritarian_socialism_1 = 6
+    authoritarian_socialism = 12
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+set_variable = { autocracy_1_var = token:TUR_autocracy_1 }
+set_variable = { authoritarian_socialism_1_var = token:TUR_authoritarian_socialism_1 }

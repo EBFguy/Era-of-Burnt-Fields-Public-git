@@ -1,0 +1,33 @@
+state=
+{
+	id=69
+	name="STATE_69"
+	manpower = 4094259
+	
+	state_category = town
+	
+	
+	history={
+		add_core_of = CZE
+		owner = CZE
+		victory_points = {
+			3585 3
+		}
+		#victory_points = {
+		#	11432 1
+		#}
+		victory_points = {
+			11401 3
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			anti_air_building = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces=
+	{
+424 469 543 3418 3585 5283 6470 7857 9555 11401 11414 11432 	}
+}

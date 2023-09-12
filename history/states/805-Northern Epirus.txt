@@ -1,0 +1,31 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		914 13234 13235
+	}
+	manpower = 262200
+	
+	state_category = pastoral
+
+	history= {
+		add_core_of = ALB
+		owner = ALB
+		victory_points = {
+			914 3
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		
+		
+		
+
+		1939.4.12 = {
+			
+			
+			
+		}
+	}
+	local_supplies = 0.0 
+}

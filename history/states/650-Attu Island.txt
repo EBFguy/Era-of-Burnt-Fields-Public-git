@@ -1,0 +1,26 @@
+state=
+{
+	id=650
+	name="STATE_650"
+	manpower=106
+	state_category = tiny_island
+	
+	history=
+	{
+		add_core_of = RUS
+		owner = RUS
+		victory_points = {
+			13067 1 
+		}
+		buildings = {
+			infrastructure = 1
+			13067 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces=
+	{
+13067 	}
+}

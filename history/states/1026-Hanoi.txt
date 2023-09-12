@@ -1,0 +1,21 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+	manpower = 10
+	
+	state_category = megalopolis
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = TRI
+		owner = TRI
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		13028 12008 1073 12048 7518 12065 7015 9948 1157 7093
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	CAL_Council_for_the_Dutch_Resettlement = {
+		name = "Council for the Dutch Resettlement"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Council_for_the_Dutch_Resettlement.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_liberalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_COUNCIL_FOR_THE_DUTCH_RESETTLEMENT_DESC"
+		}
+	}
+}

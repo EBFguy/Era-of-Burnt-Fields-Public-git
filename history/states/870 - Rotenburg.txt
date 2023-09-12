@@ -1,0 +1,24 @@
+
+state={
+	id=870
+	name="STATE_842"
+	manpower = 2438286
+	
+	state_category = large_city
+
+	history={
+		add_core_of = BRM
+		owner = BRM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3326 6349 
+	}
+}

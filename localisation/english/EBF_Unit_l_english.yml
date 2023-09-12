@@ -1,0 +1,18 @@
+﻿l_english:
+ preservers:0 "Preserver Unit"
+ jet_troops:0 "Jet Trooper"
+ grafted:0 "Grafted Soldier"
+ exoskeleton:0 "Exoskeleton"
+ heavy_exoskeleton:0 "Heavy Exoskeleton"
+ exosuit:0 "Exosuit"
+ cybersoldiers:0 "Cybernetically Modified Soldier"
+ nanoenhancedsoldiers:0 "Nano Machine Enhanced Soldier"
+ light_infantry:0 "Light Infantry"
+ elite_infantry:0 "Elite Infantry"
+ MBT:0 "Main Battle Tank"
+ Hover_Tank:0 "Hover Tank"
+ IFV:0 "Infantry Fighting Vehicle"
+ APC:0 "Armoured Personnel Carrier"
+ category_enhanced_soldier:0 "All Enhanced Units"
+ advanced_special_operations2080_tooltip:0 "Special Forces:\n Urban:\n  Movement: §G0.05§!\n  Soft Attack: §G0.05§!"
+ 

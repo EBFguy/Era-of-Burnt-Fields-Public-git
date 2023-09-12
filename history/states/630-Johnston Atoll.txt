@@ -1,0 +1,22 @@
+state=
+{
+	id=630
+	name="STATE_630"
+	manpower = 508
+	state_category = tiny_island
+
+	history={
+		add_core_of = BRN
+		owner = BRN
+		victory_points = {
+			3522 5 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		13051 9456 11219 11359 3522 6487
+	}
+}

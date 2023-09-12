@@ -1,0 +1,15 @@
+characters = {
+	PCC_Patrick_Gachet = {
+		name = "Patrick Gachet"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PCC/Portrait_PCC_Patrick_Gachet.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_corporatocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_PATRICK_GACHET_DESC"
+		}
+	}
+}

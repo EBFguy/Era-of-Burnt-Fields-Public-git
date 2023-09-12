@@ -1,0 +1,188 @@
+# 1) TITLE
+# 2) INITIALS
+# 3) DESCRIPTION
+
+################
+### 1) TITLE ###
+################
+
+defined_text = {
+	name = Statelore_Get_Name
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 1 }
+		}
+		localization_key = state_lore_name.1
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 2 }
+		}
+		localization_key = state_lore_name.2
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 3 }
+		}
+		localization_key = state_lore_name.3
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 4 }
+		}
+		localization_key = state_lore_name.4
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 5 }
+		}
+		localization_key = state_lore_name.5
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 6 }
+		}
+		localization_key = state_lore_name.6
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 7 }
+		}
+		localization_key = state_lore_name.7
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 8 }
+		}
+		localization_key = state_lore_name.8
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 9 }
+		}
+		localization_key = state_lore_name.9
+	}
+}
+
+###################
+### 2) INITIALS ###
+###################
+
+defined_text = {
+	name = Statelore_Get_Initials
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 1 }
+		}
+		localization_key = state_lore_initials.1
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 2 }
+		}
+		localization_key = state_lore_initials.2
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 3 }
+		}
+		localization_key = state_lore_initials.3
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 4 }
+		}
+		localization_key = state_lore_initials.4
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 5 }
+		}
+		localization_key = state_lore_initials.5
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 6 }
+		}
+		localization_key = state_lore_initials.6
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 7 }
+		}
+		localization_key = state_lore_initials.7
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 8 }
+		}
+		localization_key = state_lore_initials.8
+	}
+	text = {
+		trigger = {
+			check_variable = { lore_entries_onscreen^sl_i = 9 }
+		}
+		localization_key = state_lore_initials.9
+	}
+}
+
+######################
+### 3) DESCRIPTION ###
+######################
+defined_text = {
+	name = Statelore_Get_Desc
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 1 }
+		}
+		localization_key = state_lore_desc.1
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 2 }
+		}
+		localization_key = state_lore_desc.2
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 3 }
+		}
+		localization_key = state_lore_desc.3
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 4 }
+		}
+		localization_key = state_lore_desc.4
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 5 }
+		}
+		localization_key = state_lore_desc.5
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 6 }
+		}
+		localization_key = state_lore_desc.6
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 7 }
+		}
+		localization_key = state_lore_desc.7
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 8 }
+		}
+		localization_key = state_lore_desc.8
+	}
+	text = {
+		trigger = {
+			check_variable = { selected_lore = 9 }
+		}
+		localization_key = state_lore_desc.9
+	}
+}

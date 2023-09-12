@@ -1,0 +1,26 @@
+
+state={
+	id=594
+	name="STATE_594"
+	manpower = 85464634
+	state_category = town
+
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = { 
+			7137 10 
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		1018 4023 4121 4177 7044 7137 7192 10004 10050 10105 11926 11983 12023 
+	}
+}

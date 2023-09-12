@@ -1,0 +1,29 @@
+state={
+	id=91
+	name="STATE_91" # Lwow
+	manpower = 4669770
+	
+	state_category = city
+	
+	history={
+		add_core_of = UKR
+		owner = UKR
+		victory_points = {
+			11479 3
+		}
+		#victory_points = {
+		#	3483 5
+		#}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 5
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		438 491 536 3483 3562 9454 9468 9558 11427 11479 
+	}
+}

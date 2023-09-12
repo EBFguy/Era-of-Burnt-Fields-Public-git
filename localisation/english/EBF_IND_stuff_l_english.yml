@@ -1,0 +1,109 @@
+﻿l_english:
+ #NAME#
+
+ IND:0 "Unification Government of India and Pakistan"
+ IND_DEF:0 "The Unification Government of India and Pakistan"
+ IND_ADJ:0 "Indian"
+
+ PAK:0 "Pakistan Authority"
+ PAK_DEF:0 "The Pakistan Provisional Authority"
+ PAK_ADJ:0 "Pakistani"
+
+ KAS:0 "Kashmir Authority"
+ KAS_DEF:0 "The Kashmir Provisional Authority"
+ KAS_ADJ:0 "Kashmiri"
+
+ RDL:0 "Red Legion"
+ RDL_DEF:0 "The Red Legion"
+ RDL_ADJ:0 "Pakistani"   
+
+ RDL_india_unified:0 "Indian Legionary State"
+ RDL_india_unified_DEF:0 "The Indian Legionary State"
+ RDL_india_unified_ADJ:0 "Indian" 
+
+ FAR:0 "First Army"
+ FAR_DEF:0 "The First Army"
+ FAR_ADJ:0 "Indian"    
+
+ HIN:0 "Hindustan Authority"
+ HIN_DEF:0 "The Hindustan Provisional Authority"
+ HIN_ADJ:0 "Hindustani"    
+
+ CID:0 "Central Indian Authority"
+ CID_DEF:0 "The Central Indian Provisional Authority"
+ CID_ADJ:0 "Central Indian"
+
+ MAH:0 "Maharashtra Authority"
+ MAH_DEF:0 "The Maharashtra Provisional Authority"
+ MAH_ADJ:0 "Indian"
+ #PARTIES
+ IND_anocracy_party:0 "CURIP"
+ IND_anocracy_party_long:0 "Cabinet for the Unification and Reconstuction of India and Pakistan"
+
+ CID_anocracy_party:0 "CICB"
+ CID_anocracy_party_long:0 "Central Indian Control Body"
+
+ PAK_anocracy_party:0 "PCB"
+ PAK_anocracy_party_long:0 "Pakistani Control Body" 
+
+ HIN_anocracy_party:0 "HCB"
+ HIN_anocracy_party_long:0 "Hindustani Control Body"  
+
+ MAH_anocracy_party:0 "MCB"
+ MAH_anocracy_party_long:0 "Maharashtra Control Body"  
+
+ KAS_anocracy_party:0 "KCB"
+ KAS_anocracy_party_long:0 "Kashmiri Control Body"   
+
+ FAR_autocracy_party:0 "IFRU"
+ FAR_autocracy_party_long:0 "Indian First Army for Unification"  
+
+ RDL_totalitarian_socialism_party:0 "Red Legion"
+ RDL_totalitarian_socialism_party_long:0 "The Red Legion"   
+
+
+ #CHARACHTERS#
+ IND_Devansh_Thaman:0 "Devansh Thaman"
+ POLITICS_DEVANSH_THAMAN_DESC:0 "§YPrime Minister of India and Pakistan§!\n§W--------------§!\n"
+ CID_Ritu_Behl:0 "Ritu Behl"
+ POLITICS_RITU_BEHL_DESC:0 "§YController of Central India§!\n§W--------------§!\n"
+ MAH_Amit_Sangha:0 "Amit Sangha"
+ POLITICS_AMIT_SANGHA_DESC:0 "§YController of Maharashtra§!\n§W--------------§!\n"
+ HIN_Indrajit_Bhasin:0 "Indrajit Bhasin"
+ POLITICS_INDRAJIT_BHASIN_DESC:0 "§YController of Hindustan§!\n§W--------------§!\n"
+ KAS_Fartouss_Mamund:0 "Fartouss Mamund"
+ POLITICS_FARTOUSS_MAMUND_DESC:0 "§YController of Kashmir§!\n§W--------------§!\n"
+ PAK_Abdul_Hamid_Jamshidi:0 "Abdul Hamid Jamshidi"
+ POLITICS_ABDUL_HAMID_JAMSHIDI_DESC:0 "§YController of Pakistan§!\n§W--------------§!\n"
+ FAR_Ananya_Sridhar:0 "Ananya Sridhar"
+ POLITICS_ANANYA_SRIDHAR_DESC:0 "§YGeneral of the First Army§!\n§W--------------§!\n"
+ #Malini Sachdeva
+ RDL_master_legionary:0 "Master Legionary"
+ POLITICS_MASTER_LEGIONARY_DESC:0 "§YMaster of the Red Legion§!\n§W--------------§!\n"
+
+ #Indrani Ghosh
+ 
+
+ #IDEAS#
+ IND_rising_and_falling:0 "Rising and Falling"
+ IND_the_control_system:0 "The Control System"
+ IND_screams_of_woe_out_west:0 "Screams of Woe out West"
+ CID_reintegration_process:0 "The Reintegration Process"
+ MAH_the_southern_watch:0 "The Southern Watch"
+ HIN_ruins_of_old:0 "In the Ruins of Old"
+ HIN_old_indias_fortress:0 "Old India's Fortress"
+ KAS_the_isolated_post:0 "The Isolated Post"
+ PAK_the_final_piece:0 "The Final Piece"
+ PAK_incomplete_pacification:0 "Incomplete Pacification"
+ FAR_malini_lost_army:0 "Malini's Lost Army"
+ FAR_decimation_at_khuzdar:0 "Decimation at Khuzdar"
+ RDL_a_legion_with_a_state:0 "A Legion with a State"
+ RDL_the_march_east_begins:0 "The March East Begins"
+ RDL_victory_at_khuzdar:0 "Victory at Khuzdar"
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#
+ IND_the_control_system_tt:0 "§YWhilst technically still under our control the various authorities in India and Pakistan exercise limited independence from us, we will have to negoiate with the authorties if they are to lose their indepndence willingly.§!"

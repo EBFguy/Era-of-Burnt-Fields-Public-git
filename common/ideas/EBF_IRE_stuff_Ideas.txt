@@ -1,0 +1,241 @@
+ideas = {
+	country = {
+		#Ireland
+		IRE_europes_western_bastion = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_europes_western_bastion"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_IRE_europes_western_bastion
+					  
+			modifier = {	
+				stability_factor = 0.15
+				drift_defence_factor = 0.25
+				army_core_defence_factor = 0.05
+			}
+		}			
+		IRE_marching_towards_unification = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_marching_towards_unification"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_IRE_marching_towards_unification
+					  
+			modifier = {	
+				civilian_factory_use = 5
+				industrial_capacity_factory = -0.15
+			}
+		}	
+		IRE_rising_sons = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_rising_sons"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_IRE_rising_sons
+					  
+			modifier = {	
+				war_support_factor = -0.1
+				conscription_factor = -0.05
+			}
+		}
+		IRE_unified_at_last = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_unified_at_last"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_IRE_unified_at_last
+					  
+			modifier = {	
+				stability_factor = 0.15
+				war_support_factor = 0.1
+			}
+		}	
+
+		IRE_europes_defender = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_europes_defender"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_IRE_europes_western_bastion
+					  
+			modifier = {	
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				drift_defence_factor = 0.3
+			}
+		}	
+
+		IRE_europes_new_home = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IRE_europes_new_home"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_IRE_europes_western_bastion
+					  
+			modifier = {	
+				stability_factor = 0.15
+				war_support_factor = 0.15
+			}
+		}	
+
+		#Ulster
+		ULS_retaking_the_home = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ULS_retaking_the_home"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ULS_retaking_the_home
+					  
+			modifier = {	
+				conscription_factor = 0.05
+				army_attack_factor = 0.1
+			}
+		}	
+		ULS_the_sons_have_risen = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ULS_the_sons_have_risen"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ULS_the_sons_have_risen
+					  
+			modifier = {	
+				war_support_factor = 0.15
+				army_attack_speed_factor = 0.05
+				army_defence_factor = 0.1
+			}
+		}
+		ULS_debts_will_be_repayed = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ULS_debts_will_be_repayed"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ULS_debts_will_be_repayed
+					  
+			modifier = {	
+				army_morale_factor = 0.5
+				breakthrough_factor = 0.1
+			}
+		}		
+		
+		#Belfast
+		BIF_fortress_belfast = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BIF_fortress_belfast"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_BIF_fortress_belfast
+					  
+			modifier = {	
+				army_core_defence_factor = 0.15
+				army_morale_factor = 0.1
+			}
+		}	
+		BIF_british_takeover = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BIF_british_takeover"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_BIF_british_takeover
+					  
+			modifier = {	
+				conscription_factor = -0.1
+				training_time_army_factor = -0.3
+			}
+		}		
+		BIF_the_crown_will_reign = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BIF_the_crown_will_reign"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_BIF_the_crown_will_reign
+					  
+			modifier = {	
+				custom_modifier_tooltip = BIF_the_crown_will_reign_tt
+			}
+		}			
+	}
+}

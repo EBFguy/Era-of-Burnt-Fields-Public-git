@@ -1,0 +1,25 @@
+
+state={
+	id=1098
+	name="STATE_1098"
+	manpower = 1
+	
+	state_category = rural
+	history={
+		add_core_of = IRA
+		owner = IRA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1822 1 
+		}
+		
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		12861 1822
+	}
+}

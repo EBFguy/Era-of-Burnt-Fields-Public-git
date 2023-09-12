@@ -1,0 +1,98 @@
+﻿l_english:
+ #NAME#
+
+ MEX:0 "State of Mexico"
+ MEX_DEF:0 "The State of Mexico"
+ MEX_ADJ:0 "Mexican"
+
+ YUC:0 "Yucatán"
+ YUC_DEF:0 "The Yucatán Republic"
+ YUC_ADJ:0 "Yucateco"  
+
+ MWR:0 "Mexican Worker's Republic"
+ MWR_DEF:0 "The Mexican Worker's Republic"
+ MWR_ADJ:0 "Mexican"  
+
+ MCN:0 "Confederacy of the North"
+ MCN_DEF:0 "The Confederacy of the North"
+ MCN_ADJ:0 "North Mexican"  
+
+ MNL:0 "Mexican National Legion"
+ MNL_DEF:0 "The Mexican National Legion"
+ MNL_ADJ:0 "Mexican"  
+
+ SIL:0 "Sinaloa Cartel"
+ SIL_DEF:0 "The Sinaloa Cartel"
+ SIL_ADJ:0 "Sinaloan"  
+
+ COM:0 "Constitutionalist Mexico"
+ COM_DEF:0 "The Constitutionalist Army of Mexico"
+ COM_ADJ:0 "Mexican"  
+
+ ZAP:0 "Zapatist Army of National Liberation"
+ ZAP_DEF:0 "The Zapatist Army of National Liberation"
+ ZAP_ADJ:0 "Mexican"  
+
+ BAJ:0 "Free Economic Community of Baja"
+ BAJ_DEF:0 "The Free Economic Community of Baja"
+ BAJ_ADJ:0 "Bajacalifornian"  
+
+
+ #PARTIES
+
+ #CHARACHTERS#
+ MEX_Martin_Varela:0 "Martin Varela"
+ POLITICS_MARTIN_VARELA_DESC:0 "§YPresident of Mexico§!\n§W--------------§!\n"
+
+ MNL_El_Basilisco:0 "El Basilisco"
+ POLITICS_EL_BASILISCO_DESC:0 "§YSupreme Commander of the Legion§!\n§W--------------§!\nNo one truly knows where the man known as 'The Basilisk' truly came from. An elusive figure with a mysterious past, a figure that now terrorizes Mexico with his Legion of the damned. Some believe that El Basilisco was simply a sicario who saw the light after being shot and left to die in the unforgiving climate of Northern Mexico, there, he would survive his wounds and realize that he was now 'blessed by God all-mighty' and his most loyal saint, 'Santa Muerte', which El Basilisco holds a fanatical loyalty to. El Basilisco would begin uniting under him gangs and cartels who thought the same as him, who believed themselves to have the most holy of missions to save Mexico from the degenerates and communists, even if throught the worst methods, and thus, with the followers he gained in the years of instability, 'The Mexican National Legion' was born.\n\nNow El Basilisco is one of the most feared figures in Mexico, being known as one of the heads of the eventual fall of the Mexican Nation as it was once known. His Legion marches unstoppable as the man gets rid of his enemies in a brutal fashion : Submerging them on concrete so that they may be petrified like the Basilisk of legend did to it's enemies. El Basilisco will fight for his dream of a sanctified Mexico, even if he has to cleanse his beloved nation with the blood of degenerates"
+
+ ZAP_Consejo_de_Comandancia_Zapatista:0 "Council of Zapatist Commanders"
+ POLITICS_ZAPATISTA_COUNCIL_DESC:0 "§YConsejo de Comandancia Zapatista§!\n§W--------------§!\n"
+
+ YUC_Matias_Yepes:0 "Matías Yepes"
+ POLITICS_MATIAS_YEPES_DESC:0 "§YPresident of Yucatán§!\n§W--------------§!\n"
+
+ MWR_Eustacio_Manzanares:0 "Eustacio Manzanares"
+ POLITICS_EUSTACIO_MANZANRES_DESC:0 "§YGeneral-Secretary of the Republic§!\n§W--------------§!\n"
+
+ MCN_Roman_Elvira:0 "Román Elvira"
+ POLITICS_ROMAN_ELVIRA_DESC:0 "§YPresident of the Northern Confederacy§!\n§W--------------§!\n"
+
+ SIL_Ovidio_Guzman:0 "Ovidio Guzmán 'El Ratón' López"
+ POLITICS_OVIDIO_GUZMAN_DESC:0 "§YChief of the Cartel§!\n§W--------------§!\n"
+
+ COM_Tatiana_Clouthier:0 "Tatiana Clouthier"
+ POLITICS_TATIANA_CLOUTHIER_DESC:0 "§YProvisional President of the United States of Mexico§!\n§W--------------§!\n"
+
+ BAJ_Jaime_Olmeda:0 "Jaime Olmeda"
+ POLITICS_JAIME_OLEMDA_DESC:0 "§YBaja Executive§!\n§W--------------§!\n"
+
+ #IDEAS#
+ MEX_American_Support:0 "American Support"
+ MEX_Death_Squads:0 "The Death Squads"
+ MNL_Blood_Money:0 "Blood Money"
+ MNL_Ultranationalist_Internationale:0 "An Ultranationalist Internationale"
+ ZAP_Autonomous_Army:0 "The Autonomous Army"
+ ZAP_Anarchist_Society:0 "The Anarchist Society"
+ YUC_Yepes_Offensive:0 "The Yepes Offensive"
+ YUC_Pearl_of_Yucatan:0 "The Pearl of Yucatán"
+ MWR_Shangai_Pact_Backing:0 "Shanghai Pact Backing"
+ MWR_Manzanares_Program:0 "Manzanares Program"
+ MCN_Inhospitable_North:0 "Inhospitable North"
+ MCN_Chaotic_Situation:0 "Chaotic Situation"
+ SIL_Narco_Empire:0 "The Narco-Empire"
+ SIL_Narco_Empire_desc:0 "Sometimes, our leader 'El Ratón' looks back at the humble origins of our cartel and questions himself : How we got here? Beginning with Pedro Avilés Pérez as a criminal organization in Sinaloa, we have grown rapidly in the last years thanks to the corruption festering within the Mexican State, until we had enough of being simply a large cartel within the borders of a nation and had one ambition : To become a Narco-State for absolute profit. Our own army, our own laws, our own leaders, our own systems, this were but one of the many things we created as we grew more powerful, until even the army and police of mexico were too fearful to do anything to us. We became untouchable. Now as the mexican central government collapses. we cast aside the façade of being under the jurisdiction of the 'United States of Mexico', no more, we are now our own state in Sinaloa, an all-mighty empire stretching through the West Coast of Mexico. And as our rivals are eventually dealt with and fade away, we stand on top, not as the largest cartel of Mexico, but as the mightiest Narco-State of the World."
+ SIL_Anti_Cartel_Vigilantes:0 "Anti-Cartel Vigilantes"
+ SIL_Anti_Cartel_Vigilantes_desc:0 "The world of crime is one where blood will be shed no matter the circumstances, even if you are a shady drug dealer in an alley or an Narco-Empire, sometimes you will have to spill some blood or its your blood that will stain the floor. This is proven to be true by the fact that there are still those who resist us even if we are the most powerful force here : Remnants from rival cartels, local villagers, ex-soldiers and special forces, all of them united in one purpose, that being of taking out our Narco State. We must be careful to not underestimate these men and women who want revenge against the Cartel, for there are fates worse than death if we let ourselves be taken by them."
+ COM_Flower_of_Freedom:0 "The Flower of Freedom"
+ COM_Unstable_Coalition:0 "Unstable Coalition"
+ BAJ_Executive_Overreach:0 "Executive Overreach"
+ BAJ_Economic_Paradise:0 "Economic 'Pradise'"
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#
+ IND_the_control_system_tt:0 "§YWhilst technically still under our control the various authorities in India and Pakistan exercise limited independence from us, we will have to negoiate with the authorties if they are to lose their indepndence willingly.§!"

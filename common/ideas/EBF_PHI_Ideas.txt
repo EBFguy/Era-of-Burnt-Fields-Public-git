@@ -1,0 +1,98 @@
+ideas = {
+	country = {
+		PHI_under_habeo_ideam = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_under_habeo_ideam"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_PHI_under_habeo_ideam
+					  
+			modifier = {	
+				custom_modifier_tooltip = PHI_under_habeo_ideam_tt
+			}
+		}
+		PHI_broken_archipelago = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_broken_archipelago"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_PHI_broken_archipelago
+					  
+			modifier = {	
+				mobilization_speed = -0.6
+				army_attack_speed_factor = -0.5
+				army_core_defence_factor = -0.1
+			}
+		}
+		PHI_golden_city  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_golden_city"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_PHI_golden_city
+					  
+			modifier = {	
+				civilian_factory_use = 5
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.5
+			}
+		}
+		PHI_nothing_can_stop_progress  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_nothing_can_stop_progress"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_PHI_nothing_can_stop_progress
+					  
+			modifier = {	
+				research_speed_factor = 0.2
+				surrender_limit = -0.2
+			}
+		}
+		PHI_those_bound_to_past	= {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_those_bound_to_past"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_PHI_those_bound_to_past
+					  
+			modifier = {	
+			}	
+		}
+	}
+}

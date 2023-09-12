@@ -1,0 +1,171 @@
+characters = {
+	POL_Antoni_Kaminski = {
+		name = POL_Antoni_Kaminski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/Antoni_Kamiński.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism_liberal_conservatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Antoni_Kaminski_desc"
+		}
+		country_leader = {
+			ideology = anocracy_transitional_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Antoni_Kaminski_Authdem_desc"
+		}
+	}
+
+	POL_Kazimierz_August_Czartoryski = {
+		name = POL_Kazimierz_August_Czartoryski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/Kazimierz_August_Czartoryski.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_conservatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Kazimierz_August_Czartoryski_desc"
+		}
+	}
+
+	POL_Aster_Nyx = {
+		name = POL_Aster_Nyx
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POL/EBF_Aster_Nyx.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_united_front_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Aster_Nyx_desc"
+		}
+		country_leader = {
+			ideology = progressivism_progressivism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Aster_Nyx_desc"
+		}
+	}
+
+	POL_Alex_Freyer = {
+		name = POL_Alex_Freyer
+		portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			ideology = liberalism_2_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Alex_Freyer_desc"
+		}
+	}
+
+	POL_Ksawery_Krasnostawski = {
+		name = POL_Ksawery_Krasnostawski
+		#No Portrait, he is not meant to be a leader
+		#portraits = {
+		#	civilian = {
+		#		large = 
+		#	}
+		#}
+		country_leader = {
+			ideology = authoritarian_socialism_absolute_peoples_theoracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Ksawery_Krasnostawski_desc"
+		}
+	}
+
+	POL_Ignacy_Kilinski = {
+		name = POL_Ignacy_Kilinski
+		portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			ideology = liberalism_christian_democrat_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Ignacy_Kilinski_desc"
+		}
+	}
+
+	POL_Waldemar_Panek = {
+		name = POL_Waldemar_Panek
+		#No Portrait, he is not meant to be a leader
+		#portraits = {
+		#	civilian = {
+		#		large = 
+		#	}
+		#}
+		country_leader = {
+			ideology = technoutopianism_panekism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Waldermar_Panek_desc"
+		}
+	}
+
+	POL_Maciej_Sobota = {
+		name = POL_Maciej_Sobota
+		#No Portrait, he is not meant to be a leader
+		#portraits = {
+		#	civilian = {
+		#		large = 
+		#	}
+		#}
+		country_leader = {
+			ideology = totalitarian_socialism_left_communism_subtype 
+			expire = "2082.10.20"
+			desc = "POLITICS_Maciej_Sobota_desc"
+		}
+	}
+
+	POL_Jan_Zaleski = {
+		name = POL_Jan_Zaleski
+		portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			ideology = anocracy_controlled_democracy_subtype 
+			expire = "2082.10.20"
+			desc = "POLITICS_Jan_Zaleski_desc"
+		}
+	}
+
+	POL_Ludwik_Eidrigevicius = {
+		name = POL_Ludwik_Eidrigevicius
+		portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			ideology = securocracy_ultrastatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Ludwik_Eidrigevicius_desc"
+		}
+	}
+
+	POL_Zygmunt_Emerling = {
+		name = POL_Zygmunt_Emerling
+		#portraits = {
+		#	civilian = {
+		#		large = 
+		#	}
+		#}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Zygmunt_Emerling_desc"
+		}
+
+	}
+
+
+}

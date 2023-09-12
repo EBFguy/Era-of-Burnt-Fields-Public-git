@@ -1,0 +1,29 @@
+
+state={
+	id=1074
+	name="STATE_1074"
+	manpower = 905253
+	
+	state_category = pastoral
+
+
+	history={
+		add_core_of = UAE
+		owner = UAE
+		
+		victory_points = {
+			13404 1 
+		}
+		buildings = {
+			infrastructure = 2
+			13407 = {
+				naval_base = 3
+			}
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		13406 13408 13404 13407 13405
+	}
+}

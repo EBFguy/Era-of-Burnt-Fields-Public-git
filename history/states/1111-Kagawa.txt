@@ -1,0 +1,24 @@
+state = {
+	id = 1111
+	name = "STATE_1111"
+	manpower = 683660
+	state_category = town
+
+	history = {
+		add_core_of = JAP
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4094 1 
+		}
+		victory_points = {
+			9965 5 
+		}
+	}
+
+	provinces = {
+		4094 9965 
+	}
+}

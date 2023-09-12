@@ -1,0 +1,29 @@
+state={
+	id=261
+	name="STATE_261"
+	
+	local_supplies = 0.0 
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 6
+
+		}
+		
+		victory_points = {
+			6855 5 
+		}
+
+	}
+
+	provinces={
+		827 971 3829 6855 7528 9760 9808 
+	}
+	manpower=9616002
+	buildings_max_level_factor=1.000
+}

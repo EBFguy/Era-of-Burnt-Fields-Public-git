@@ -1,0 +1,26 @@
+
+state={
+	id=128
+	name="STATE_128"
+
+	history={
+		add_core_of = MER
+		owner = MER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		11345 13494 13495 13497 
+	}
+	manpower=4044165
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

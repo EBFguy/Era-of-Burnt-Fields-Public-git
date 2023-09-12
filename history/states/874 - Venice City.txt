@@ -1,0 +1,29 @@
+state={
+	id=874
+	name="STATE_874"
+	
+	state_category = large_city
+
+	history={
+		add_core_of = VNC
+		owner = VNC
+		victory_points = {
+			13252 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		13251 9582 13252
+	}
+	manpower=3963151
+	buildings_max_level_factor=1.000
+}

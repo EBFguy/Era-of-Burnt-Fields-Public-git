@@ -1,0 +1,102 @@
+LON_init_logic_consump = {
+	clear_array = EBF_logic_consump_array
+	add_to_array = { EBF_logic_consump_array = 0 }
+	add_to_array = { EBF_logic_consump_array = 0 }
+	add_to_array = { EBF_logic_consump_array = 0 }
+	set_variable = { EBF_LON_logic_routines = 5 }
+	set_variable = { EBF_LON_spare_routines = 5 }
+	set_variable = { EBF_LON_used_routines = 0 }
+	log = "OCC_workers_house_array is setup"
+	for_each_loop = {
+		array = EBF_logic_consump_array
+		log = "Index [?i]: [?v]"
+	}
+}
+
+#t_change, explanatory, it changes the actual var
+#t_index 0 - TolCols, 1 - Workers Soul, 2 - Scisocs
+#use non-decimilsed numbers eg 1 not 0.01 (.5, .25 can be added to the non-decimalised)
+OCC_worker_house_change_values = {
+	set_temp_variable = { v_check = OCC_workers_house_array^t_index }
+	add_to_temp_variable = { v_check = t_change }
+
+	if = {																		
+		limit = {
+			check_variable = { v_check < 0 }
+		}
+		subtract_from_temp_variable = { t_change = v_check }
+		log = "Sub-zero value detected, Normalized value: [?t_change]"
+	}
+	else_if = {																		
+		limit = {
+			check_variable = { v_check > 100 }
+		}
+		set_temp_variable = { n_100 = v_check }
+		subtract_from_temp_variable = { n_100 = 100 }
+		subtract_from_temp_variable = { t_change = n_100 }
+		log = "Over-100 value detected, Normalized value: [?t_change]"
+	}
+	
+	if = {
+		limit = {
+			NOT = {
+				check_variable = { t_change = 0 }									
+			}
+		}
+		add_to_variable = { OCC_workers_house_array^t_index = t_change }					
+		divide_temp_variable = { t_change = 2 }										
+		set_temp_variable = { excess = 0 }
+		for_each_loop = {
+			array = OCC_workers_house_array
+			if = {
+				limit = {
+					NOT = {
+						check_variable = { i = t_index }							
+					}
+				}
+				subtract_from_variable = { OCC_workers_house_array^i = t_change }
+			}
+			if = {
+				limit = { check_variable = { OCC_workers_house_array^i < 0 } }
+				add_to_temp_variable = { excess = OCC_workers_house_array^i }				
+				set_variable = { OCC_workers_house_array^i = 0 }							
+				add_to_temp_array = { zero_value = i }								
+			}
+		}
+		for_each_loop = {
+			array = OCC_workers_house_array
+			if = {
+				limit = {
+					NOT = {
+						is_in_array = { array = zero_value value = i }				
+						check_variable = { i = t_index }							
+					}
+				}
+				add_to_variable = { OCC_workers_house_array^i = excess }					
+			}
+		}
+	}
+
+	if = {																		
+		limit = {
+			check_variable = { t_change < 0 }
+		}
+		multiply_temp_variable = {t_change = -1 }
+		custom_effect_tooltip = EBF_OCC_worker_house_dec
+	}
+
+	if = {																		
+		limit = {
+			check_variable = { t_change > 0 }
+		}
+		custom_effect_tooltip = EBF_OCC_worker_house_inc
+	}
+}
+
+sc_print_values = {
+	log = "Printing values"
+	for_each_loop = {
+		array = OCC_workers_house_array
+		log = "Index [?i]: [?v]"
+	}
+}

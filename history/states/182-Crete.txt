@@ -1,0 +1,31 @@
+state = {
+	id=182
+	name="STATE_182"
+	manpower = 561188
+	local_supplies = 0.0 
+	state_category = town
+	history = {
+		add_core_of = AEG
+		owner = AEG
+		victory_points = {
+			9940 5
+		}
+		victory_points = {
+			12058 3
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			12058 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
+		}
+		
+	}
+	provinces = {
+		1164 4170 9940 12058
+	}
+}

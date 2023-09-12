@@ -1,0 +1,28 @@
+
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		add_core_of = UZB
+		owner = UZB
+		victory_points = {
+			1459 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		1459 10187 10488 
+	}
+	manpower=21338543
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

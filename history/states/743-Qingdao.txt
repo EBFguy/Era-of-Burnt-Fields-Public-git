@@ -1,0 +1,38 @@
+state=
+{
+	id=743
+	name="STATE_743"
+	manpower = 19278718
+	state_category = city
+	
+	
+	history=
+	{
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		victory_points = {
+			10000 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			10000 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+			}
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		10000 4089 4186 7105 1104 1200 10018 4205
+	}
+}

@@ -1,0 +1,39 @@
+defined_text = {
+	name = GetWarlordEuropeEpochTitle
+	text = {
+		trigger = {
+			check_variable = { global.warlord_europe_epoch = 1 }
+		}
+		localization_key = warlord_europe_epoch_title_1
+	}
+	text = {
+		trigger = {
+			check_variable = { global.warlord_europe_epoch = 2 }
+		}
+		localization_key = warlord_europe_epoch_title_2
+	}
+	text = {
+		trigger = {
+			check_variable = { global.warlord_europe_epoch = 3 }
+		}
+		localization_key = warlord_europe_epoch_title_3
+	}
+	text = {
+		trigger = {
+			check_variable = { global.warlord_europe_epoch = 4 }
+		}
+		localization_key = warlord_europe_epoch_title_4
+	}
+	text = {
+		trigger = {
+			check_variable = { global.warlord_europe_epoch = 5 }
+		}
+		localization_key = warlord_europe_epoch_title_5
+	}
+	text = {
+		trigger = {
+			check_variable = { global.warlord_europe_epoch = 6 }
+		}
+		localization_key = warlord_europe_epoch_title_6
+	}
+}

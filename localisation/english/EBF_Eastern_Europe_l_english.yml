@@ -1,0 +1,43 @@
+﻿l_english:
+
+ #NAMES#
+ BLR:0 "Belarus"
+ BLR_DEF:0 "The Republic of Belarus"
+ BLR_ADJ:0 "Belarusian"
+ 
+ UKR:0 "Ukraine"
+ UKR_DEF:0 "The Republic of Ukraine"
+ UKR_ADJ:0 "Ukrainian"
+ #IDEAS#
+ #Belarus
+ BLR_hope_of_democracy:0 "The Hope of Democracy"
+ BLR_edge_of_the_world:0 "At the Edge of the World"
+ BLR_memories_of_war_power:0 "Memories of War & Power"
+ #Ukraine
+ UKR_voitenkos_legacy:0 "Voitenko's Legacy"
+ UKR_scars_from_war_two_decades_past:0 "Scars from a War Two Decades Past"
+ UKR_never_another_war:0 "Never Another War"
+
+ #PARTIES
+ UKR_securocracy_party:0 "Disorganised"
+ UKR_securocracy_party_long:0 "Disorganised"
+ UKR_ultranationalism_party:0 "Right Sector"
+ UKR_ultranationalism_party_long:0 "The Right Sector"
+ UKR_fascist_party:0 "LAR"
+ UKR_fascist_party_long:0 "League Against Russia"
+ UKR_conservatism_party:0 "PUD"
+ UKR_conservatism_party_long:0 "Party for Ukraine's Defence" 
+ UKR_liberalism_party:0 "PVL"
+ UKR_liberalism_party_long:0 "Party for Valerij's Legacy" 
+
+ BLR_securocracy_party:0 "Disorganised"
+ BLR_securocracy_party_long:0 "Disorganised"
+ BLR_autocracy_party:0 "FRP"
+ BLR_autocracy_party_long:0 "For a Return to Form" 
+ BLR_conservatism_party:0 "BDRP"
+ BLR_conservatism_party_long:0 "Belarusian Democratic Reform Party" 
+ BLR_liberalism_party:0 "FHP"
+ BLR_liberalism_party_long:0 "Freedom, Hope and Prosperity" 
+ BLR_libertarian_socialism_party:0 "WBUP"
+ BLR_libertarian_socialism_party_long:0 "Worker's Bread and Unity Party" 
+

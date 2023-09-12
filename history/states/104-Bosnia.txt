@@ -1,0 +1,32 @@
+
+state={
+	id=104
+	name="STATE_104"
+	manpower =2763552
+	
+	
+	state_category = town
+	local_supplies = 0.0 
+
+	history={
+		add_core_of = BAL
+		owner = BAL
+		victory_points = {
+			11899 5 
+		}
+		victory_points = {
+			6983 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
+		
+		
+	}
+
+	provinces={
+		606 982 3985 6614 6619 6799 6957 6983 9586 9588 9591 9922 11572 11574 11741 11872 11899 
+	}
+}

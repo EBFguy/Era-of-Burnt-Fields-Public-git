@@ -1,0 +1,26 @@
+
+state={
+	id=862
+	name="STATE_862" # Lorraine
+	manpower = 2661804
+	
+	state_category = town
+
+	history={
+		add_core_of = ALS
+		owner = ALS
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		521 11516 
+	}
+}

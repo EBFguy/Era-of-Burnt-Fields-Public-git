@@ -1,0 +1,39 @@
+﻿l_english:
+ # Network
+ MAPMODE_EBF_NETWORK_MAP_MODE:0 "§YNetworks§!"
+ MAPMODE_EBF_NETWORK_MAP_MODE_NAME:0 "Network"
+ MAPMODE_EBF_NETWORK_MAP_MODE_DESCRIPTION:0 "Shows the network that the country belongs to."
+ 
+ ebf_network_map_mode_tooltip:0 "§Y[FROM.Controller.GetNameWithFlag]§! is a part of §Y[FROM.Controller.GetNetworkName]§!"
+ ebf_network_map_mode_tooltip_delayed:0 "[FROM.Controller.GetNetworkDesc]"
+
+ # Culture
+ MAPMODE_EBF_CULTURE_MAP_MODE:0 "§YCultures§!"
+ MAPMODE_EBF_CULTURE_MAP_MODE_NAME:0 "Culture"
+ MAPMODE_EBF_CULTURE_MAP_MODE_DESCRIPTION:0 "Shows the majority culture of states."
+ 
+ ebf_culture_map_mode_tooltip:0 "[FROM.GetCultureDataOther]"
+ ebf_culture_map_mode_tooltip_proper:0 "The majority culture of §Y[FROM.GetName]§! is §Y[FROM.GetCulture]§!"
+ ebf_culture_map_mode_tooltip_missing:0 "LOCAL DEMOGRAPHICS UNKNOWN"
+ ebf_culture_map_mode_tooltip_delayed:0 "[FROM.GetCultureDesc]"
+
+ # Religion
+ MAPMODE_EBF_RELIGION_MAP_MODE:0 "§YReligions§!"
+ MAPMODE_EBF_RELIGION_MAP_MODE_NAME:0 "Religion"
+ MAPMODE_EBF_RELIGION_MAP_MODE_DESCRIPTION:0 "Shows the majority culture of states."
+ 
+ ebf_religion_map_mode_tooltip:0 "[FROM.GetReligionDataOther]"
+ ebf_religion_map_mode_tooltip_proper:0 "The majority religion of §Y[FROM.GetName]§! is §Y[FROM.GetReligion]§!"
+ ebf_religion_map_mode_tooltip_missing:0 "LOCAL DEMOGRAPHICS UNKNOWN"
+ ebf_religion_map_mode_tooltip_delayed:0 "[FROM.GetReligionDesc]"
+
+ # Ecodecay
+ MAPMODE_EBF_ECODECAY_MAP_MODE:0 "§YEcodecay§!"
+ MAPMODE_EBF_ECODECAY_MAP_MODE_NAME:0 "Ecodecay"
+ MAPMODE_EBF_ECODECAY_MAP_MODE_DESCRIPTION:0 "Shows the status of Ecodecay within states."
+ 
+ ebf_ecodecay_map_mode_tooltip:0 "The Status of Ecodecay in this state is: [FROM.GetEcodecay]"
+ ebf_ecodecay_map_mode_tooltip_delayed:0 "[FROM.GetEcodecayDesc]"
+ 
+
+ 

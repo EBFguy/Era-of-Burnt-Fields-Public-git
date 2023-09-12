@@ -1,0 +1,140 @@
+ideas = {
+
+	country = {
+
+		#BASE IDEAS 
+
+		POL_A_Humanitarian_Catastrophe = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_A_Humanitarian_Catastrophe"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_A_Humanitarian_Catastrophe
+					  
+			modifier = {	
+			
+			}
+		}
+
+		POL_Abusive_Economic_Relationship = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_Abusive_Economic_Relationship"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_Abusive_Economic_Relationship
+					  
+			modifier = {	
+			
+			}
+		}
+
+		POL_All_For_Me_None_For_Thee = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_All_For_Me_None_For_Thee"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_All_For_Me_None_For_Thee
+					  
+			modifier = {	
+			
+			}
+		}
+
+		POL_Destroyed_Coastline = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_Destroyed_Coastline"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_Destroyed_Coastline
+					  
+			modifier = {	
+			
+			}
+		}
+
+		POL_The_Bulwark_Of_Europe = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_The_Bulwark_Of_Europe"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_The_Bulwark_Of_Europe
+					  
+			modifier = {	
+			
+			}
+		}
+
+		POL_Two_Polands_A_State_Of_Limbo = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_Two_Polands_A_State_Of_Limbo"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_Two_Polands_A_State_Of_Limbo
+					  
+			modifier = {	
+			
+			}
+		}
+
+		POL_Unrepresentative_Democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POL_Unrepresentative_Democracy"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = POL_Unrepresentative_Democracy
+					  
+			modifier = {	
+			
+			}
+		}
+	}
+}

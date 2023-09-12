@@ -1,0 +1,26 @@
+state={
+	id=191
+	name="STATE_191"
+	local_supplies = 0.0 
+	state_category = rural
+
+	history={
+		add_core_of = ODO
+		owner = ODO
+		victory_points = {
+			9221 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+
+	}
+
+	provinces={
+		592 6178 6408 9221 9485 
+	}
+	manpower=544550
+	buildings_max_level_factor=1.000
+}

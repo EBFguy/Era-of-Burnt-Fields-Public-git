@@ -1,0 +1,24 @@
+state={
+	id=866
+	name="STATE_866"
+
+	state_category = city
+	history={
+		add_core_of = BAD
+		owner = BAD
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		11640 3692 6712 6542 11486 3530 6568
+	}
+	manpower=12775745
+	buildings_max_level_factor=1.000
+}

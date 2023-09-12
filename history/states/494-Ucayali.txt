@@ -1,0 +1,22 @@
+
+state={
+	id=494
+	name="STATE_494"
+	manpower = 10645637
+	
+	state_category = large_town
+	
+
+	history={
+		add_core_of = PER
+		owner = PER
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		2212 2226 5166 8160 8191 10940 
+	}
+}

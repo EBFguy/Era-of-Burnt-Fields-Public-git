@@ -1,0 +1,15 @@
+characters = {
+	AZO_Nunes_Cabral = {
+		name = AZO_Nunes_Cabral
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AZO/Portrait_AZO_Nunes_Cabral.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_stratocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Nunes_Cabral_desc"
+		}
+	}
+}

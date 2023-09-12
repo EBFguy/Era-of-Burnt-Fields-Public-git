@@ -1,0 +1,59 @@
+ideas = {
+	hidden_ideas = {
+		#AmericaNet
+		AmericaNet_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AmericaNet_member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}
+
+		#People's Connection
+		Peoples_Connection_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Peoples_Connection_member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}
+
+		#Free Internet
+		Free_Internet_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Free_Internet_member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}
+
+		#United Eastern Network
+		UEN_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea UEN_member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}
+
+		#RevNet
+		RevNet_member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RevNet_member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}
+
+		#Habeo Ideam Private Network/PrivConnect
+		Habeo_Ideam_Network_Member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Habeo_Ideam_Network_Member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}		
+
+		#Common(wealth) Net(work)
+		commonet_Member = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea Habeo_Ideam_Network_Member" }
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+
+		}
+	}
+}

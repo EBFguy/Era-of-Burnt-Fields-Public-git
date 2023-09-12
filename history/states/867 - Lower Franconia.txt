@@ -1,0 +1,21 @@
+
+state={
+	id=867
+	name="STATE_867"
+	manpower = 2405894
+
+	state_category = town
+
+	history={
+		add_core_of = HES
+		owner = HES
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	local_supplies = 0.0 
+	provinces={ 
+		9557 6594 11417 13116 68
+	}
+}

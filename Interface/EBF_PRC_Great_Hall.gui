@@ -1,0 +1,258 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "PRC_GUI_great_hall_deccat_GUI"
+		size = { width = 525 height = 780 }
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "PRC_GUI_great_hall_category_header"
+			spriteType = "GFX_decision_category_EBF_PRC_battle_for_the_great_hall"
+			position = { x = 5 y = -10 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "Info"
+			spriteType = "GFX_PRC_GUI_infobutton"
+			position = { x = 380 y = -63 }
+			pdx_tooltip = PRC_great_hall_info_tt
+		}
+
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_desc"
+			position = { x = 5 y = 100 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+		#MAOISTS
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_left_desc"
+			position = { x = 25 y = 450 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_left_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_left_favours_desc"
+			position = { x = 25 y = 500 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_favours_desc_txt"
+			pdx_tooltip = PRC_GUI_great_hall_favours_desc_tt
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_left"
+			spriteType = "GFX_PRC_GUI_great_hall_faction_Bar_left"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_left_tt
+			position = { x = 20 y = 471 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_left_frame"
+			spriteType = "GFX_PRC_GUI_great_hall_GUI_Bar_frame"
+			position = { x = 18 y = 470 }
+			alwaystransparent = YES
+		}
+
+		iconType = { #USES SCRIPTED LOC
+			name = "PRC_GUI_great_hall_faction_Bar_left_25"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_25_tt
+			position = { x = 111 y = 435 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_left_50"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_50_tt
+			position = { x = 222 y = 435 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_left_75"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_75_tt
+			position = { x = 333 y = 435 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_left_100"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_100_tt
+			position = { x = 448 y = 435 }
+		}
+
+		#XI LOYALISTS
+		
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_centre_desc"
+			position = { x = 25 y = 535 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_centre_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_centre"
+			spriteType = "GFX_PRC_GUI_great_hall_faction_Bar_centre"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_centre_tt
+			position = { x = 20 y = 556 }
+		}
+
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_centre_favours_desc"
+			position = { x = 25 y = 585 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_favours_desc_txt"
+			pdx_tooltip = PRC_GUI_great_hall_favours_desc_tt
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_centre_frame"
+			spriteType = "GFX_PRC_GUI_great_hall_GUI_Bar_frame"
+			position = { x = 18 y = 555 }
+			alwaystransparent = YES
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_centre_25"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_25_tt
+			position = { x = 111 y = 520 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_centre_50"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_50_tt
+			position = { x = 222 y = 520 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_centre_75"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_75_tt
+			position = { x = 333 y = 520 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_centre_100"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_100_tt
+			position = { x = 448 y = 520 }
+		}		
+
+		#RIGHT
+		
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_right_desc"
+			position = { x = 25 y = 620 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_right_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_right_favours_desc"
+			position = { x = 25 y = 670 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_favours_desc_txt"
+			pdx_tooltip = PRC_GUI_great_hall_favours_desc_tt
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_right"
+			spriteType = "GFX_PRC_GUI_great_hall_faction_Bar_right"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_right_tt
+			position = { x = 20 y = 641 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_right_frame"
+			spriteType = "GFX_PRC_GUI_great_hall_GUI_Bar_frame"
+			position = { x = 18 y = 640 }
+			alwaystransparent = YES
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_right_25"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_25_tt
+			position = { x = 111 y = 605 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_right_50"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_50_tt
+			position = { x = 222 y = 605 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_right_75"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_25_tt
+			position = { x = 333 y = 605 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_faction_Bar_right_100"
+			pdx_tooltip = PRC_GUI_great_hall_faction_Bar_100_tt
+			position = { x = 448 y = 605 }
+		}	
+
+		#CHAOS
+		
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_chaos_desc"
+			position = { x = 25 y = 705 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_chaos_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
+			name = "PRC_GUI_great_hall_public_mood_desc"
+			position = { x = 25 y = 755 }
+			font = "hoi_16mbs"
+			text = "PRC_GUI_great_hall_public_mood_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_chaos_Bar"
+			spriteType = "GFX_PRC_GUI_great_hall_chaos_Bar"
+			pdx_tooltip = PRC_GUI_great_hall_chaos_Bar_tt
+			position = { x = 20 y = 726 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_chaos_Bar_frame"
+			spriteType = "GFX_PRC_GUI_great_hall_GUI_Bar_frame"
+			position = { x = 18 y = 725 }
+			alwaystransparent = YES
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_chaos_Bar_50"
+			pdx_tooltip = PRC_GUI_great_hall_chaos_Bar_50_tt
+			position = { x = 222 y = 690 }
+		}
+
+		iconType = {
+			name = "PRC_GUI_great_hall_chaos_Bar_75"
+			pdx_tooltip = PRC_GUI_great_hall_chaos_Bar_75_tt
+			position = { x = 333 y = 690 }
+		}
+	}
+} 

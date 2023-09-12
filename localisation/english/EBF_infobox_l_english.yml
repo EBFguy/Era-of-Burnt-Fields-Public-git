@@ -1,0 +1,22 @@
+﻿l_english:
+#BASICS
+EBF_infobox_icon_text:0 "Infobox"
+EBF_Infobox_national_text_button:0 "National Info"
+EBF_Infobox_global_text_button:0 "Global Info"
+EBF_Infobox_encyclopedia_text_button:0 "Encyclopedia"
+EBF_Infobox_mod_text_button:0 "Mod Info"
+EBF_Infobox_Close_tt:0 "[GetInfoBoxCloseText]"
+EBF_Infobox_Close_delayed_tt:0 "§YWe go, ever onwards§!"
+
+#BUTTON LOC
+EBF_RUS_infobox_close_text:0 "Vpered"
+EBF_BRA_infobox_close_text:0 "For the Republic"
+EBF_USA_infobox_close_text:0 "The Dream Endours"
+EBF_VNC_infobox_close_text:0 "A Dream for the Wise"
+EBF_infobox_close_text_misc:0 "Onwards"
+
+#OPENING LOC
+EBF_USA_infobox_national_lore_text:0 "Amogu"
+EBF_RUS_infobox_national_lore_text:0 "C'mon work"
+EBF_infobox_national_lore_text_misc:0 "This content does not exist at this point\n so leave. Or don't\n I try to add at least some kind of skeleton that you can mess with, unless this nation dosen't have a skeleton. Which is possible. In others words, just leave."
+EBF_BRA_infobox_national_lore_text:0 "I DONT WANNA GO TO BRAZI LWAAAAAAA"

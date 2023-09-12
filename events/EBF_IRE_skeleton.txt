@@ -1,0 +1,278 @@
+﻿add_namespace = ireland_skeleton
+
+#ireland_skeleton
+country_event = { #IRISH REUNIFICATION, NO SONS OF IRELAND, COLLAPSE OF PAI
+	id = ireland_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ireland_skeleton.1"}
+	title = ireland_skeleton.1.t
+	desc = ireland_skeleton.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ireland_skeleton.1.a
+		IRE = {
+			every_state = {
+				limit = {
+					is_core_of = ULS
+				}
+				add_core_of = IRE
+				remove_core_of = ULS
+			}			
+			annex_country = {
+				target = ULS
+				transfer_troops = yes
+			}
+			remove_ideas = IRE_marching_towards_unification
+			add_ideas = IRE_unified_at_last
+			country_event = {
+				id = ireland_skeleton.100
+				days = 30
+			}
+			every_country = { news_event = news_event.23 }
+		}
+	}
+}
+
+country_event = { #COLLAPSE OF PAI
+	id = ireland_skeleton.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ireland_skeleton.100"}
+	title = ireland_skeleton.100.t
+	desc = ireland_skeleton.100.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ireland_skeleton.100.a
+		IRE = {
+			remove_ideas = IRE_rising_sons	
+			set_popularities = {
+			    technoutopianism = 0
+			    securocracy = 0
+			    ultranationalism = 0
+			    fascist = 15
+			    autocracy = 10
+			    anocracy = 20
+			    conservatism = 20
+			    liberalism = 20
+			    libertarian_socialism = 15
+			    authoritarian_socialism = 0
+			    totalitarian_socialism = 0
+			    reductivism = 0
+			}
+			set_party_name = {
+			    ideology = anocracy
+			    long_name = IRE_authdem_party_collapse_long
+			    name = IRE_authdem_party_collapse
+			}
+			set_party_name = {
+			    ideology = liberalism
+			    long_name = IRE_libdem_party_collapse_long
+			    name = IRE_libdem_party_collapse
+			}
+			set_party_name = {
+			    ideology = conservatism
+			    long_name = IRE_condem_party_collapse_long
+			    name = IRE_condem_party_collapse
+			}
+			IRE_Riley_Rochfort = {
+				remove_country_leader_role = {
+				    ideology = anocracy_one_party_dominant_democracy_subtype
+				}
+			}
+			add_country_leader_role = {
+			    character = IRE_Riley_Rochfort
+			    promote_leader = yes
+			    country_leader = {
+			        ideology = anocracy_technocratic_democracy_subtype
+			        expire = "2100.1.1.1"
+			    }
+			}	
+			add_ideas = {
+				EBF_multiparty_system
+				EBF_multiparty_opposition
+				EBF_free_press
+				EBF_free_trade
+			}
+			country_event = {
+				id = ireland_skeleton.101
+				days = 60
+			}		
+		}
+	}
+}
+
+country_event = { #IRISH ELECTIONS
+	id = ireland_skeleton.101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ireland_skeleton.101"}
+	title = ireland_skeleton.101.t
+	desc = ireland_skeleton.101.d
+	is_triggered_only = yes
+
+	immediate = { 
+		set_country_leader_description = {
+			ideology = anocracy
+			desc = POLITICS_RILEY_ROCHFORT_GREAT_UNIFIER_DESC
+		}
+
+		add_trait = {
+		    character = IRE_Riley_Rochfort
+		    ideology = anocracy_technocratic_democracy_subtype
+		    trait = IRE_great_unifier
+		}
+	}
+	
+	option = { #authdem
+		name = ireland_skeleton.101.a
+		IRE = {	
+			set_political_party = {
+				ideology = anocracy
+				popularity = 50
+			}
+			every_country = { news_event = news_event.24 }
+			swap_ideas = {
+				remove_idea = IRE_europes_western_bastion
+				add_idea = IRE_europes_defender
+			}
+		}
+	}
+
+	option = { #fascist
+		name = ireland_skeleton.101.b
+		IRE = {	
+			set_political_party = {
+				ideology = fascist
+				popularity = 50
+			}
+			set_politics = { ruling_party = fascist }	
+			every_country = { news_event = news_event.25 }
+		}
+	}
+
+	option = { #libdem
+		name = ireland_skeleton.101.c
+		IRE = {	
+			set_political_party = {
+				ideology = liberalism
+				popularity = 50
+			}
+			set_politics = { ruling_party = liberalism }	
+			every_country = { news_event = news_event.26 }
+		}
+	}
+
+	option = { #condem
+		name = ireland_skeleton.101.e
+		IRE = {	
+			set_political_party = {
+				ideology = conservatism
+				popularity = 50
+			}
+			set_politics = { ruling_party = conservatism }	
+			every_country = { news_event = news_event.27 }
+		}
+	}
+
+	option = { #EURO COUP
+		name = ireland_skeleton.101.f
+		IRE = {	
+			set_political_party = {
+				ideology = autocracy
+				popularity = 75
+			}
+			set_politics = { ruling_party = autocracy }			
+			every_country = { news_event = news_event.28 }
+			set_cosmetic_tag = IRE_euro_coup
+			swap_ideas = {
+				remove_idea = IRE_europes_western_bastion
+				add_idea = IRE_europes_new_home
+			}
+		}
+	}
+
+	option = { #Libsoc
+		name = ireland_skeleton.101.g
+		IRE = {	
+			set_political_party = {
+				ideology = libertarian_socialism
+				popularity = 50
+			}
+			set_politics = { ruling_party = libertarian_socialism }			
+			every_country = { news_event = news_event.29 }
+		}
+	}
+}
+
+country_event = {
+	id = ireland_skeleton.2 #IRELAND IS RISING
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ireland_skeleton.2"}
+	title = ireland_skeleton.2.t
+	desc = ireland_skeleton.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ireland_skeleton.2.a
+		ULS = {
+			set_cosmetic_tag = ULS_sons_of_ireland
+			declare_war_on = {
+				target = IRE
+				type = civil_war
+			}
+			set_political_party = {
+				ideology = ultranationalism
+				popularity = 100
+			}
+			set_politics = {
+				ruling_party = ultranationalism
+				elections_allowed = no
+			}	
+			every_state = {
+				limit = {
+					is_core_of = IRE
+				}
+				add_core_of = ULS
+			}				
+			remove_ideas = ULS_retaking_the_home		
+			remove_ideas = IRE_rising_sons	
+			add_ideas = ULS_the_sons_have_risen
+			add_ideas = ULS_debts_will_be_repayed
+			add_ideas = {
+				EBF_suppressed_opposition
+				EBF_state_religion
+				EBF_18_hours
+				EBF_all_adults_serve
+				EBF_no_restrictions
+				EBF_spartan_professionalism
+			}
+		}
+		IRE = {
+			remove_ideas = IRE_marching_towards_unification
+			remove_ideas = IRE_rising_sons	
+		}
+	}
+}
+
+
+country_event = {
+	id = ireland_skeleton.3 #Belfast Victory in Ulster, war for Ireland
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ireland_skeleton.3"}
+	title = ireland_skeleton.3.t
+	desc = ireland_skeleton.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ireland_skeleton.3.a
+		BIF = {
+			declare_war_on = {
+				target = IRE
+				type = civil_war
+			}			
+			849 = {
+				add_core_of = BIF
+			}
+			remove_ideas = BIF_fortress_belfast
+			add_ideas = BIF_british_takeover			
+		}
+		IRE = {
+			remove_ideas = IRE_marching_towards_unification
+		}
+	}
+}

@@ -1,0 +1,171 @@
+warlord_europe_initial = {
+	set_variable = { global.warlord_europe_epoch = 1 }
+
+	clear_array = global.warlord_europe_epoch_tab
+	clear_array = global.warlord_europe_contender_array
+	clear_array = 1.warlord_europe_contender_array
+	clear_array = 2.warlord_europe_contender_array
+	clear_array = 3.warlord_europe_contender_array
+	clear_array = 4.warlord_europe_contender_array
+
+	add_to_array = { global.warlord_europe_epoch_tab = 1 }
+
+	hidden_effect = {
+		every_country = {
+			limit = { is_european_warlord_nation = yes }
+
+			add_to_array = { global.warlord_europe_contender_array = THIS }
+
+			if = {
+				limit = { is_european_warlord_nation_iberia = yes }
+				add_to_array = { 1.warlord_europe_contender_array = THIS }
+				set_variable = { warlord_europe_contender_region = 1 }
+			}
+			else_if = {
+				limit = { is_european_warlord_nation_franco_lowcountries = yes }
+				add_to_array = { 2.warlord_europe_contender_array = THIS }
+				set_variable = { warlord_europe_contender_region = 2 }
+			}
+			else_if = {
+				limit = { is_european_warlord_nation_north_central_europe = yes }
+				add_to_array = { 3.warlord_europe_contender_array = THIS }
+				set_variable = { warlord_europe_contender_region = 3 }
+			}
+			else_if = {
+				limit = { is_european_warlord_nation_south_central_europe = yes }
+				add_to_array = { 4.warlord_europe_contender_array = THIS }
+				set_variable = { warlord_europe_contender_region = 4 }
+			}
+
+			set_temp_variable = { temp_value = 50 }
+			warlord_europe_legitimacy_change = yes
+
+			add_dynamic_modifier = { modifier = warlord_europe_legitimacy_dynamic_modifier }
+			add_dynamic_modifier = { modifier = warlord_europe_chaos_dynamic_modifier }
+		}
+	}
+}
+
+warlord_europe_legitimacy_change = {
+	set_temp_variable = { temp_total = warlord_europe_legitimacy }
+	set_temp_variable = { temp_before = warlord_europe_legitimacy }
+	set_temp_variable = { temp_after = warlord_europe_legitimacy }
+	add_to_temp_variable = { temp_total = temp_value }
+
+	if = {
+		limit = {
+			check_variable = { temp_total > 100 }
+		}
+		subtract_from_temp_variable = { temp_total = 100 }
+		subtract_from_temp_variable = { temp_value = temp_total }
+	}
+	else_if = {
+		limit = {
+			check_variable = { temp_total < 0 }
+		}
+		add_to_temp_variable = { temp_value = temp_total }
+	}
+
+	add_to_temp_variable = { temp_after = temp_value }
+
+	custom_effect_tooltip = warlord_europe_legitimacy_change_tt
+
+	set_variable = { warlord_europe_legitimacy = temp_after }
+
+	set_variable = { warlord_europe_legitimacy_political_power_factor = 50 }
+	multiply_variable = { warlord_europe_legitimacy_political_power_factor = warlord_europe_legitimacy }
+	divide_variable = { warlord_europe_legitimacy_political_power_factor = 100 }
+	round_variable = warlord_europe_legitimacy_political_power_factor
+	divide_variable = { warlord_europe_legitimacy_political_power_factor = 100 }
+	subtract_from_variable = { warlord_europe_legitimacy_political_power_factor = 0.25 }
+
+	set_variable = { warlord_europe_legitimacy_recruitable_population_factor = 50 }
+	multiply_variable = { warlord_europe_legitimacy_recruitable_population_factor = warlord_europe_legitimacy }
+	divide_variable = { warlord_europe_legitimacy_recruitable_population_factor = 100 }
+	round_variable = warlord_europe_legitimacy_recruitable_population_factor
+	divide_variable = { warlord_europe_legitimacy_recruitable_population_factor = 100 }
+	subtract_from_variable = { warlord_europe_legitimacy_recruitable_population_factor = 0.25 }
+
+	set_variable = { warlord_europe_legitimacy_resistance_growth = 50 }
+	multiply_variable = { warlord_europe_legitimacy_resistance_growth = warlord_europe_legitimacy }
+	divide_variable = { warlord_europe_legitimacy_resistance_growth = 100 }
+	round_variable = warlord_europe_legitimacy_resistance_growth
+	divide_variable = { warlord_europe_legitimacy_resistance_growth = 100 }
+	subtract_from_variable = { warlord_europe_legitimacy_resistance_growth = 0.25 }
+
+	set_variable = { warlord_europe_legitimacy_army_morale_factor = 50 }
+	multiply_variable = { warlord_europe_legitimacy_army_morale_factor = warlord_europe_legitimacy }
+	divide_variable = { warlord_europe_legitimacy_army_morale_factor = 100 }
+	round_variable = warlord_europe_legitimacy_army_morale_factor
+	divide_variable = { warlord_europe_legitimacy_army_morale_factor = 100 }
+	subtract_from_variable = { warlord_europe_legitimacy_army_morale_factor = 0.25 }
+
+	set_variable = { warlord_europe_legitimacy_non_core_manpower = 50 }
+	multiply_variable = { warlord_europe_legitimacy_non_core_manpower = warlord_europe_legitimacy }
+	divide_variable = { warlord_europe_legitimacy_non_core_manpower = 100 }
+	round_variable = warlord_europe_legitimacy_non_core_manpower
+	divide_variable = { warlord_europe_legitimacy_non_core_manpower = 100 }
+	subtract_from_variable = { warlord_europe_legitimacy_non_core_manpower = 0.25 }
+}
+
+warlord_europe_chaos_change = {
+	set_temp_variable = { temp_total = warlord_europe_chaos }
+	set_temp_variable = { temp_before = warlord_europe_chaos }
+	set_temp_variable = { temp_after = warlord_europe_chaos }
+	add_to_temp_variable = { temp_total = temp_value }
+
+	if = {
+		limit = {
+			check_variable = { temp_total > 100 }
+		}
+		subtract_from_temp_variable = { temp_total = 100 }
+		subtract_from_temp_variable = { temp_value = temp_total }
+	}
+	else_if = {
+		limit = {
+			check_variable = { temp_total < 0 }
+		}
+		add_to_temp_variable = { temp_value = temp_total }
+	}
+
+	add_to_temp_variable = { temp_after = temp_value }
+
+	custom_effect_tooltip = warlord_europe_chaos_change_tt
+
+	set_variable = { warlord_europe_chaos = temp_after }
+
+	set_variable = { warlord_europe_chaos_stability_factor = -50 }
+	multiply_variable = { warlord_europe_chaos_stability_factor = warlord_europe_chaos }
+	divide_variable = { warlord_europe_chaos_stability_factor = 100 }
+	round_variable = warlord_europe_chaos_stability_factor
+	divide_variable = { warlord_europe_chaos_stability_factor = 100 }
+	add_to_variable = { warlord_europe_chaos_stability_factor = 0.25 }
+
+	set_variable = { warlord_europe_chaos_army_core_defence_factor = -50 }
+	multiply_variable = { warlord_europe_chaos_army_core_defence_factor = warlord_europe_chaos }
+	divide_variable = { warlord_europe_chaos_army_core_defence_factor = 100 }
+	round_variable = warlord_europe_chaos_army_core_defence_factor
+	divide_variable = { warlord_europe_chaos_army_core_defence_factor = 100 }
+	add_to_variable = { warlord_europe_chaos_army_core_defence_factor = 0.25 }
+
+	set_variable = { warlord_europe_chaos_surrender_limit = -50 }
+	multiply_variable = { warlord_europe_chaos_surrender_limit = warlord_europe_chaos }
+	divide_variable = { warlord_europe_chaos_surrender_limit = 100 }
+	round_variable = warlord_europe_chaos_surrender_limit
+	divide_variable = { warlord_europe_chaos_surrender_limit = 100 }
+	add_to_variable = { warlord_europe_chaos_surrender_limit = 0.25 }
+
+	set_variable = { warlord_europe_chaos_army_core_attack_factor = -50 }
+	multiply_variable = { warlord_europe_chaos_army_core_attack_factor = warlord_europe_chaos }
+	divide_variable = { warlord_europe_chaos_army_core_attack_factor = 100 }
+	round_variable = warlord_europe_chaos_army_core_attack_factor
+	divide_variable = { warlord_europe_chaos_army_core_attack_factor = 100 }
+	add_to_variable = { warlord_europe_chaos_army_core_attack_factor = 0.25 }
+
+	set_variable = { warlord_europe_chaos_war_support_factor = -50 }
+	multiply_variable = { warlord_europe_chaos_war_support_factor = warlord_europe_chaos }
+	divide_variable = { warlord_europe_chaos_war_support_factor = 100 }
+	round_variable = warlord_europe_chaos_war_support_factor
+	divide_variable = { warlord_europe_chaos_war_support_factor = 100 }
+	add_to_variable = { warlord_europe_chaos_war_support_factor = 0.25 }
+}

@@ -1,0 +1,64 @@
+EBF_outage_crisis_resolved = {
+	hidden_effect = { add_ideas = EBF_energy_outage_stage_0 }
+	set_variable = { EBF_ordi_1_outage_5_ON = 0 }
+	set_variable = { EBF_ordi_1_outage_4_ON = 0 }
+	set_variable = { EBF_ordi_1_outage_3_ON = 0 }
+	set_variable = { EBF_ordi_1_outage_2_ON = 0 }
+	set_variable = { EBF_ordi_1_outage_1_ON = 0 }
+	clr_country_flag = EBF_country_currently_in_outage
+	custom_effect_tooltip = EBF_outage_crisis_resolved_TT
+}
+
+EBF_remove_energy_size_on_frames = {
+	set_variable = { ordi_1_size_minor_btn_ON = 1 }
+	set_variable = { ordi_1_size_normal_btn_ON = 1 }
+	set_variable = { ordi_1_size_large_btn_ON = 1 }
+	set_variable = { ordi_1_size_massive_btn_ON = 1 }
+	set_variable = { ordi_1_size_super_massive_btn_ON = 1 }
+}
+
+EBF_remove_energy_regs_on_frames = {
+	set_variable = { ordi_1_high_consump_btn_ON = 1 }
+	set_variable = { ordi_1_norm_consump_btn_ON = 1 }
+	set_variable = { ordi_1_small_regs_btn_ON = 1 }
+	set_variable = { ordi_1_med_regs_btn_ON = 1 }
+	set_variable = { ordi_1_high_regs_btn_ON = 1 }
+}
+
+EBF_famine_crisis_resolved = {
+	hidden_effect = { add_ideas = EBF_food_famine_stage_0 }
+	set_variable = { EBF_ordi_2_famine_5_ON = 0 }
+	set_variable = { EBF_ordi_2_famine_4_ON = 0 }
+	set_variable = { EBF_ordi_2_famine_3_ON = 0 }
+	set_variable = { EBF_ordi_2_famine_2_ON = 0 }
+	set_variable = { EBF_ordi_2_famine_1_ON = 0 }
+	clr_country_flag = EBF_country_currently_in_famine
+	custom_effect_tooltip = EBF_famine_crisis_resolved_TT
+}
+
+EBF_remove_food_stockpile_frames = {
+	set_variable = { ordi_2_below_stock_btn_ON = 1 }
+	set_variable = { ordi_2_meeting_stock_btn_ON = 1 }
+	set_variable = { ordi_2_slightly_above_stock_btn_ON = 1 }
+	set_variable = { ordi_2_above_stock_btn_ON = 1 }
+	set_variable = { ordi_2_high_stock_btn_ON = 1 }
+}
+
+EBF_get_energy_consump = {
+	set_variable = { needed_energy_consumption_emer = misc_energy_consumption_add }
+	add_to_variable = { needed_energy_consumption_emer = modifier@misc_energy_consumption_add }
+	add_to_variable = { needed_energy_consumption_emer = EBF_army_total_energy_needed }
+	add_to_variable = { needed_energy_consumption_emer = EBF_state_population_energy_needed }
+	add_to_variable = { needed_energy_consumption_emer = EBF_building_total_energy_needed }
+	subtract_from_variable = { needed_energy_consumption_emer = misc_energy_consumption_reducers }
+	subtract_from_variable = { needed_energy_consumption_emer = modifier@misc_energy_consumption_reducers }
+} #PURGE AFTER USED by using clear_variable = needed_energy_consumption_emer
+
+EBF_get_food_consump = {
+	set_variable = { needed_food_consumption_emer = misc_food_consumption_add }
+	add_to_variable = { needed_food_consumption_emer = modifier@misc_food_consumption_add }
+	add_to_variable = { needed_food_consumption_emer = EBF_army_total_food_needed }
+	add_to_variable = { needed_food_consumption_emer = EBF_state_population_food_needed }
+	subtract_from_variable = { needed_food_consumption_emer = misc_food_consumption_reducers }
+	subtract_from_variable = { needed_food_consumption_emer = modifier@misc_food_consumption_reducers }
+} #PURGE AFTER USED by using clear_variable = needed_food_consumption_emer

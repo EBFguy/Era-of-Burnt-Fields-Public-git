@@ -1,0 +1,27 @@
+
+state={
+	id=296
+	name="STATE_296" # Guinea-Bissau
+	manpower = 527913
+	local_supplies = 0.0 
+	state_category = rural
+	
+	history={
+		add_core_of = GUE
+		owner = GUE
+		
+		victory_points = {
+			12891 1
+		}
+		buildings = {
+			infrastructure = 2
+			12891 ={
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		12747 12891 
+	}
+}

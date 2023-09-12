@@ -1,0 +1,26 @@
+state={
+	id=922
+	
+	state_category = pastoral
+	
+	name="STATE_922"
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			10929 1 
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		2216 10929 7842
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

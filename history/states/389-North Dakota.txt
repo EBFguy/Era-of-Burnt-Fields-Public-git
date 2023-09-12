@@ -1,0 +1,25 @@
+
+state={
+	id=389
+	name="STATE_389"
+	manpower = 5032873
+	state_category = rural
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			1836 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1752 1836 1870 3719 4772 10685 10709 12685 
+	}
+}

@@ -1,0 +1,1549 @@
+get_law_grid_btn_effect = {
+	if = { #GUIDED
+		limit = { check_variable = { mobilization_1_law = 1 } } #Checks which array element this is, in this case 1 is for conscription
+		set_variable = { ebf_mobilization_category = 1 }#When it knows which array element is being selected it'll set the category, used to check costs and scripted loc
+		for_loop_effect = {#ah! thank you maho!
+			start = 1
+			end = 9
+			value = i
+		
+			add_to_array = { law_ladder_grid = i index = 0 }#The array of laws that appear in the popup, 8 laws will be made here
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { mobilization_1_law = 2 } 
+		}
+		set_variable = { ebf_mobilization_category = 2 }
+		for_loop_effect = {
+			start = 1
+			end = 6
+			value = i
+		
+			add_to_array = { law_ladder_grid = i index = 0 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { mobilization_1_law = 3 } 
+		}
+		set_variable = { ebf_mobilization_category = 3 }
+		for_loop_effect = {
+			start = 1
+			end = 7
+			value = i
+		
+			add_to_array = { law_ladder_grid = i index = 0 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { mobilization_1_law = 4 } 
+		}
+		set_variable = { ebf_mobilization_category = 4 }
+		for_loop_effect = {
+			start = 1
+			end = 7
+			value = i
+
+			add_to_array = { law_ladder_grid = i index = 0 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { mobilization_1_law = 5 } 
+		}
+		set_variable = { ebf_mobilization_category = 5 }
+		for_loop_effect = {
+			start = 1
+			end = 8
+			value = i
+
+			add_to_array = { law_ladder_grid = i index = 0 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { mobilization_1_law = 6 } 
+		}
+		set_variable = { ebf_mobilization_category = 6 }
+		for_loop_effect = {
+			start = 1
+			end = 4
+			value = i
+
+			add_to_array = { law_ladder_grid = i index = 0 }
+		}
+	}
+	
+}
+
+law_change_effect_list = {
+	if = {
+		limit = { check_variable = { ebf_mobilization_category = 1 } }
+		law_change_conscription_effect_list = YES
+	}
+	else_if = {
+		limit = { check_variable = { ebf_mobilization_category = 2 }  }
+		law_change_training_standard_effect_list = YES
+	}
+	else_if = {
+		limit = { check_variable = { ebf_mobilization_category = 3 } }
+		law_change_policing_effect_list = YES
+	}
+	else_if = {
+		limit = {check_variable = { ebf_mobilization_category = 4 } }
+		law_change_military_supervision_effect_list = YES
+	}
+	else_if = {
+		limit = {check_variable = { ebf_mobilization_category = 5 } }
+		law_change_ethos_effect_list = YES
+	}
+	else_if = {
+		limit = {check_variable = { ebf_mobilization_category = 6 } }
+		law_change_ethics_effect_list = YES
+	}
+}
+
+law_change_conscription_effect_list = { #GUIDED
+	if = { #first check, just in case they select the already selected law 
+		limit = { NOT = { check_variable = { EBF_conscription_current_law = mobilization_1_law_ladder } } }
+		if = { #second check, checks law is within allowed laws
+			limit = {
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = conscription_allow_law_min
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = conscription_allow_law_max
+					compare = less_than_or_equals
+				}
+			}
+			if = {#final checks, checks for PP and gives effects
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 8}
+					has_political_power > EBF_conscription_law_cost_var^8
+				}
+				add_political_power = EBF_conscription_law_cost^8
+				add_ideas = EBF_scraping_the_barrel
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 7}
+					has_political_power > EBF_conscription_law_cost_var^7
+				}
+				add_political_power = EBF_conscription_law_cost^7
+				add_ideas = EBF_all_adults_serve
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 6}
+					has_political_power > EBF_conscription_law_cost_var^6
+				}
+				add_political_power = EBF_conscription_law_cost^6
+				add_ideas = EBF_service_by_requirement
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 5}
+					has_political_power > EBF_conscription_law_cost_var^5
+				}
+				add_political_power = EBF_conscription_law_cost^5
+				add_ideas = EBF_four_year_draft
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 4}
+					has_political_power > EBF_conscription_law_cost_var^4
+				}
+				add_political_power = EBF_conscription_law_cost^4
+				add_ideas = EBF_two_year_draft
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 3}
+					has_political_power > EBF_conscription_law_cost_var^3
+				}
+				add_political_power = EBF_conscription_law_cost^3
+				add_ideas = EBF_one_year_draft
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 2}
+					has_political_power > EBF_conscription_law_cost_var^2
+				}
+				add_political_power = EBF_conscription_law_cost^2
+				add_ideas = EBF_volunteer_only
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 1}
+					has_political_power > EBF_conscription_law_cost_var^1
+				}
+				add_political_power = EBF_conscription_law_cost^1
+				add_ideas = EBF_disarmed_nation
+			}
+		}
+	}
+}
+
+law_change_training_standard_effect_list = {
+	if = {
+		limit = {
+			NOT = { check_variable = { EBF_training_standard_current_law = mobilization_1_law_ladder } }
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = training_standard_law_min
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = training_standard_law_max
+					compare = less_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 5}
+					has_political_power > EBF_training_standard_cost_var^5
+				}
+				add_political_power = EBF_training_standard_cost^5
+				add_ideas = EBF_advanced_schooling
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 4}
+					has_political_power > EBF_training_standard_cost_var^4
+				}
+				add_political_power = EBF_training_standard_cost^4
+				add_ideas = EBF_combat_schooling
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 3}
+					has_political_power > EBF_training_standard_cost_var^3
+				}
+				add_political_power = EBF_training_standard_cost^3
+				add_ideas = EBF_basic_training
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 2}
+					has_political_power > EBF_training_standard_cost_var^2
+				}
+				add_political_power = EBF_training_standard_cost^2
+				add_ideas = EBF_minimal_training
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 1}
+					has_political_power > EBF_training_standard_cost_var^1
+				}
+				add_political_power = EBF_training_standard_cost^1
+				add_ideas = EBF_no_training
+			}
+		}
+	}
+}
+
+law_change_policing_effect_list = {
+	if = {
+		limit = {
+			NOT = { check_variable = { EBF_policing_current_law = mobilization_1_law_ladder } }
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = policing_law_min
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = policing_law_max
+					compare = less_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 6}
+					has_political_power > EBF_policing_cost_var^6
+				}
+				add_political_power = EBF_policing_cost^6
+				add_ideas = EBF_militarised_policing
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 5}
+					has_political_power > EBF_policing_cost_var^5
+				}
+				add_political_power = EBF_policing_cost^5
+				add_ideas = EBF_heavily_armed_policing
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 4}
+					has_political_power > EBF_policing_cost_var^4
+				}
+				add_political_power = EBF_policing_cost^4
+				add_ideas = EBF_intimidation_policing
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 3}
+					has_political_power > EBF_policing_cost_var^3
+				}
+				add_political_power = EBF_policing_cost^3
+				add_ideas = EBF_ordinary_policing
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 2}
+					has_political_power > EBF_policing_cost_var^2
+				}
+				add_political_power = EBF_policing_cost^2
+				add_ideas = EBF_community_outreach
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 1}
+					has_political_power > EBF_policing_cost_var^1
+				}
+				add_political_power = EBF_policing_cost^1
+				add_ideas = EBF_no_policing
+			}
+		}
+	}
+}
+
+law_change_military_supervision_effect_list = {
+	if = {
+		limit = {
+			NOT = { check_variable = { EBF_military_supervision_current_law = mobilization_1_law_ladder } }
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = military_supervision_law_min
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = mobilization_1_law_ladder
+					value = military_supervision_law_max
+					compare = less_than_or_equals
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 6}
+					has_political_power > EBF_military_supervision_cost_var^6
+				}
+				add_political_power = EBF_military_supervision_cost^6
+				add_ideas = EBF_no_restrictions
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 5}
+					has_political_power > EBF_military_supervision_cost_var^5
+				}
+				add_political_power = EBF_military_supervision_cost^5
+				add_ideas = EBF_minimal_supervision
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 4}
+					has_political_power > EBF_military_supervision_cost_var^4
+				}
+				add_political_power = EBF_military_supervision_cost^4
+				add_ideas = EBF_military_police
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 3}
+					has_political_power > EBF_military_supervision_cost_var^3
+				}
+				add_political_power = EBF_military_supervision_cost^3
+				add_ideas = EBF_rules_of_engagement
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 2}
+					has_political_power > EBF_military_supervision_cost_var^2
+				}
+				add_political_power = EBF_military_supervision_cost^2
+				add_ideas = EBF_modernised_rules_of_war
+			}
+			else_if = {
+				limit = {
+					check_variable = {mobilization_1_law_ladder = 1}
+					has_political_power > EBF_military_supervision_cost_var^1
+				}
+				add_political_power = EBF_military_supervision_cost^1
+				add_ideas = EBF_ethical_battlefield_supervision
+			}
+		}
+	}
+}
+
+law_change_ethos_effect_list = {
+	if = { 
+		limit = {
+			NOT = { check_variable = { EBF_military_supervision_current_law = mobilization_1_law_ladder } }
+		}#SECOND CHECK OMMITED BECAUSE NOT NEEDED BECAUSE PLAYER CAN SELECT ANY OF THE ETHOS'
+		if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 7}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_ground_forces_ethos
+		}
+		else_if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 6}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_naval_forces_ethos
+		}
+		else_if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 5}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_air_forces_ethos
+		}
+		else_if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 4}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_special_forces_ethos
+		}
+		else_if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 3}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_military_research_ethos
+		}
+		else_if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 2}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_civil_services_ethos
+		}
+		else_if = {
+			limit = {
+				check_variable = {mobilization_1_law_ladder = 1}
+				has_political_power > 50
+			}
+			add_political_power = -50
+			add_ideas = EBF_neutral_ethos
+		}
+	}
+}
+
+law_change_ethics_effect_list = {
+}
+
+ip_maths = {
+	set_temp_variable = { EBF_maxIPs = standard_IPs }
+	add_to_temp_variable = { EBF_maxIPs = modifier@added_military_ip }
+	add_to_temp_variable = { EBF_maxIPs = added_military_ip }
+	subtract_from_temp_variable = { EBF_maxIPs = modifier@remove_military_ip }
+	subtract_from_temp_variable = { EBF_maxIPs = remove_military_ip }
+	set_temp_variable = { EBF_currentIPs = ground_ips_used }
+	add_to_temp_variable = { EBF_currentIPs = naval_ips_used }
+	add_to_temp_variable = { EBF_currentIPs = air_ips_used }
+	add_to_temp_variable = { EBF_currentIPs = research_ips_used }
+	add_to_temp_variable = { EBF_currentIPs = civil_services_ips_used }
+	set_temp_variable = {
+		remaining_IPs = EBF_maxIPs
+	}
+	subtract_from_temp_variable = {
+		remaining_IPs = EBF_currentIPs
+	}
+}
+
+update_ground_investment = {
+	clear_variable = total_ground_ips_used
+	set_variable = { total_ground_ips_used = added_military_ip_ground }
+	add_to_variable = { total_ground_ips_used = modifier@added_military_ip_ground }
+	set_variable = { all_added_military_ip_ground = total_ground_ips_used }
+	add_to_variable = {total_ground_ips_used = ground_ips_used}
+
+	clamp_variable = { var = total_ground_ips_used min = all_added_military_ip_ground max = 100 }
+}
+
+change_ground_investment = {
+	ip_maths = yes
+	if = {
+		limit = { check_variable = { ip_change < 0 } }
+		add_to_variable = { ground_ips_used = ip_change }
+	}
+	else = {
+		clamp_temp_variable = { var = ip_change min = 0 max = remaining_IPs }
+		add_to_variable = { ground_ips_used = ip_change }
+	}
+	clamp_variable = { var = ground_ips_used min = 0 max = 100 }
+}
+
+update_naval_investment = {
+	clear_variable = total_naval_ips_used
+	set_variable = { total_naval_ips_used = added_military_ip_naval }
+	add_to_variable = { total_naval_ips_used = modifier@added_military_ip_naval }
+	set_variable = { all_added_military_ip_naval = total_naval_ips_used }
+	add_to_variable = {total_naval_ips_used = naval_ips_used}
+
+	clamp_variable = { var = total_naval_ips_used min = all_added_military_ip_naval max = 100 }
+}
+
+change_naval_investment = {
+	ip_maths = yes
+	if = {
+		limit = { check_variable = { ip_change < 0 } }
+		add_to_variable = { naval_ips_used = ip_change }
+	}
+	else = {
+		clamp_temp_variable = { var = ip_change min = 0 max = remaining_IPs }
+		add_to_variable = { naval_ips_used = ip_change }
+	}
+	clamp_variable = { var = naval_ips_used min = 0 max = 100 }
+}
+
+update_air_investment = {
+	clear_variable = total_air_ips_used
+	set_variable = { total_air_ips_used = added_military_ip_air }
+	add_to_variable = { total_air_ips_used = modifier@added_military_ip_air }
+	set_variable = { all_added_military_ip_air = total_air_ips_used }
+	add_to_variable = {total_air_ips_used = air_ips_used}
+
+	clamp_variable = { var = total_air_ips_used min = all_added_military_ip_air max = 100 }
+}
+
+change_air_investment = {
+	ip_maths = yes
+	if = {
+		limit = { check_variable = { ip_change < 0 } }
+		add_to_variable = { air_ips_used = ip_change }
+	}
+	else = {
+		clamp_temp_variable = { var = ip_change min = 0 max = remaining_IPs }
+		add_to_variable = { air_ips_used = ip_change }
+	}
+	clamp_variable = { var = air_ips_used min = 0 max = 100 }
+}
+
+update_research_investment = {
+	clear_variable = total_research_ips_used
+	set_variable = { total_research_ips_used = added_military_ip_research }
+	add_to_variable = { total_research_ips_used = modifier@added_military_ip_research }
+	set_variable = { all_added_military_ip_research = total_research_ips_used }
+	add_to_variable = {total_research_ips_used = research_ips_used}
+
+	clamp_variable = { var = total_research_ips_used min = all_added_military_ip_research max = 100 }
+}
+
+change_research_investment = {
+	ip_maths = yes
+	if = {
+		limit = { check_variable = { ip_change < 0 } }
+		add_to_variable = { research_ips_used = ip_change }
+	}
+	else = {
+		clamp_temp_variable = { var = ip_change min = 0 max = remaining_IPs }
+		add_to_variable = { research_ips_used = ip_change }
+	}
+	clamp_variable = { var = research_ips_used min = 0 max = 100 }
+}
+
+update_civil_services_investment = {
+	clear_variable = total_civil_services_ips_used
+	set_variable = { total_civil_services_ips_used = added_military_ip_civil_services }
+	add_to_variable = { total_civil_services_ips_used = modifier@added_military_ip_civil_services }
+	set_variable = { all_added_military_ip_civil_services = total_civil_services_ips_used }
+	add_to_variable = {total_civil_services_ips_used = civil_services_ips_used}
+
+	clamp_variable = { var = total_civil_services_ips_used min = all_added_military_ip_civil_services max = 100 }
+}
+
+change_civil_services_investment = {
+	ip_maths = yes
+	if = {
+		limit = { check_variable = { ip_change < 0 } }
+		add_to_variable = { civil_services_ips_used = ip_change }
+	}
+	else = {
+		clamp_temp_variable = { var = ip_change min = 0 max = remaining_IPs }
+		add_to_variable = { civil_services_ips_used = ip_change }
+	}
+	clamp_variable = { var = civil_services_ips_used min = 0 max = 100 }
+}
+
+upgrade_consciption_type = {
+	set_temp_variable = { maths2 = EBF_conscription_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 > conscription_allow_law_max } }
+		custom_effect_tooltip = current_conscription_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = {
+				has_idea = EBF_all_adults_serve
+			}
+			add_ideas = scraping_the_barrel
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_service_by_requirement
+			}
+			add_ideas = EBF_all_adults_serve
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_four_year_draft
+			}
+			add_ideas = EBF_service_by_requirement
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_two_year_draft
+			}
+			add_ideas = EBF_four_year_draft
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_one_year_draft
+			}
+			add_ideas = EBF_two_year_draft
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_volunteer_only
+			}
+			add_ideas = EBF_one_year_draft
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_disarmed_nation
+			}
+			add_ideas = EBF_volunteer_only
+		}		
+	}
+}
+
+downgrade_consciption_type = {
+	set_temp_variable = { maths2 = EBF_conscription_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 > conscription_allow_law_min } }
+		custom_effect_tooltip = current_conscription_type_cannot_go_lower
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = {
+				has_idea = EBF_all_adults_serve
+			}
+			add_ideas = EBF_service_by_requirement
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_service_by_requirement
+			}
+			add_ideas = EBF_four_year_draft
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_four_year_draft
+			}
+			add_ideas = EBF_two_year_draft
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_two_year_draft
+			}
+			add_ideas = EBF_one_year_draft
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_one_year_draft
+			}
+			add_ideas = EBF_volunteer_only
+		}
+		else_if = {
+			limit = {
+				has_idea = EBF_volunteer_only
+			}
+			add_ideas = EBF_disarmed_nation
+		}		
+	}
+}
+
+# new_min_conscription_boundry
+# new_max_conscription_boundry
+change_conscription_boundries = {
+	custom_effect_tooltip = conscription_boundries_change
+	set_variable = { conscription_allow_law_max = new_max_conscription_boundry }
+	set_variable = { conscription_allow_law_min = new_max_conscription_boundry }
+	hidden_effect = { check_for_conscription_boundaries = yes }
+}
+
+check_for_conscription_boundaries = {
+	if = {
+		limit = {
+			check_variable = { EBF_conscription_current_law > conscription_allow_law_max }
+			downgrade_consciption_type = yes
+			check_for_conscription_boundaries = yes #repeat until below
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { EBF_conscription_current_law < conscription_allow_law_min }
+			upgrade_consciption_type = yes
+			check_for_conscription_boundaries = yes
+		}
+	}
+	else = {}
+}
+
+upgrade_training_standard_type = {
+	set_temp_variable = { maths2 = EBF_training_standard_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 > training_standard_law_max } }
+		custom_effect_tooltip = current_training_standard_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_no_training }
+			add_ideas = EBF_minimal_training
+		}
+		else_if = {
+			limit = { has_idea = EBF_minimal_training }
+			add_ideas = EBF_basic_training
+		}
+		else_if = {
+			limit = { has_idea = EBF_basic_training }
+			add_ideas = EBF_combat_schooling
+		}
+		else_if = {
+			limit = { has_idea = EBF_combat_schooling }
+			add_ideas = EBF_advanced_schooling
+		}
+	}
+}
+
+downgrade_training_standard_type = {
+	set_temp_variable = { maths2 = EBF_training_standard_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 < training_standard_law_min } }
+		custom_effect_tooltip = current_training_standard_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_minimal_training }
+			add_ideas = EBF_no_training
+		}
+		else_if = {
+			limit = { has_idea = EBF_basic_training }
+			add_ideas = EBF_minimal_training
+		}
+		else_if = {
+			limit = { has_idea = EBF_combat_schooling }
+			add_ideas = EBF_basic_training
+		}
+		else_if = {
+			limit = { has_idea = EBF_advanced_schooling }
+			add_ideas = EBF_combat_schooling
+		}
+	}
+}
+
+# new_min_training_standard_boundry
+# new_max_training_standard_boundry
+change_training_standard_boundries = {
+	custom_effect_tooltip = training_standard_boundries_change
+	set_variable = { training_standard_law_max = new_max_training_standard_boundry }
+	set_variable = { training_standard_law_min = new_max_training_standard_boundry }
+	hidden_effect = { check_for_training_standard_boundaries = yes }
+}
+
+check_for_training_standard_boundaries = {
+	if = {
+		limit = {
+			check_variable = { EBF_training_standard_current_law > training_standard_law_max }
+			downgrade_consciption_type = yes
+			check_for_training_standard_boundaries = yes #repeat until below
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { EBF_training_standard_current_law < training_standard_law_min }
+			upgrade_consciption_type = yes
+			check_for_training_standard_boundaries = yes
+		}
+	}
+	else = {}
+}
+
+upgrade_policing_type = {
+	set_temp_variable = { maths2 = EBF_policing_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 > policing_law_max } }
+		custom_effect_tooltip = current_policing_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_no_policing }
+			add_ideas = EBF_community_outreach
+		}
+		else_if = {
+			limit = { has_idea = EBF_community_outreach }
+			add_ideas = EBF_ordinary_policing
+		}
+		else_if = {
+			limit = { has_idea = EBF_ordinary_policing }
+			add_ideas = EBF_intimidation_policing
+		}
+		else_if = {
+			limit = { has_idea = EBF_intimidation_policing }
+			add_ideas = EBF_heavily_armed_policing
+		}
+		else_if = {
+			limit = { has_idea = EBF_heavily_armed_policing }
+			add_ideas = EBF_militarised_policing
+		}
+	}
+}
+
+downgrade_policing_type = {
+	set_temp_variable = { maths2 = EBF_policing_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 < policing_law_min } }
+		custom_effect_tooltip = current_policing_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_community_outreach }
+			add_ideas = EBF_no_policing
+		}
+		else_if = {
+			limit = { has_idea = EBF_ordinary_policing }
+			add_ideas = EBF_community_outreach
+		}
+		else_if = {
+			limit = { has_idea = EBF_intimidation_policing }
+			add_ideas = EBF_ordinary_policing
+		}
+		else_if = {
+			limit = { has_idea = EBF_heavily_armed_policing }
+			add_ideas = EBF_intimidation_policing
+		}
+		else_if = {
+			limit = { has_idea = EBF_militarised_policing }
+			add_ideas = EBF_heavily_armed_policing
+		}
+	}
+}
+
+# new_min_policing_boundry
+# new_max_policing_boundry
+change_policing_boundries = {
+	custom_effect_tooltip = policing_boundries_change
+	set_variable = { policing_law_max = new_max_policing_boundry }
+	set_variable = { policing_law_min = new_max_policing_boundry }
+	hidden_effect = { check_for_policing_boundaries = yes }
+}
+
+check_for_policing_boundaries = {
+	if = {
+		limit = {
+			check_variable = { EBF_policing_current_law > policing_law_max }
+			downgrade_policing_type = yes
+			check_for_policing_boundaries = yes #repeat until below
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { EBF_policing_current_law < policing_law_min }
+			upgrade_policing_type = yes
+			check_for_policing_boundaries = yes
+		}
+	}
+	else = {}
+}
+
+upgrade_military_supervision_type = {
+	set_temp_variable = { maths2 = EBF_military_supervision_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 > military_supervision_law_max } }
+		custom_effect_tooltip = current_military_supervision_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_minimal_supervision }
+			add_ideas = EBF_no_restrictions
+		}
+		else_if = {
+			limit = { has_idea = EBF_military_police }
+			add_ideas = EBF_minimal_supervision
+		}
+		else_if = {
+			limit = { has_idea = EBF_rules_of_engagement }
+			add_ideas = EBF_military_police
+		}
+		else_if = {
+			limit = { has_idea = EBF_modernised_rules_of_war }
+			add_ideas = EBF_rules_of_engagement
+		}
+		else_if = {
+			limit = { has_idea = EBF_ethical_battlefield_supervision }
+			add_ideas = EBF_modernised_rules_of_war
+		}
+	}
+}
+
+downgrade_military_supervision_type = {
+	set_temp_variable = { maths2 = EBF_military_supervision_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 < military_supervision_law_min } }
+		custom_effect_tooltip = current_military_supervision_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_no_restrictions }
+			add_ideas = EBF_minimal_supervision
+		}
+		else_if = {
+			limit = { has_idea = EBF_minimal_supervision }
+			add_ideas = EBF_military_police
+		}
+		else_if = {
+			limit = { has_idea = EBF_military_police }
+			add_ideas = EBF_rules_of_engagement
+		}
+		else_if = {
+			limit = { has_idea = EBF_rules_of_engagement }
+			add_ideas = EBF_modernised_rules_of_war
+		}
+		else_if = {
+			limit = { has_idea = EBF_modernised_rules_of_war }
+			add_ideas = EBF_ethical_battlefield_supervision
+		}
+	}
+}
+
+# new_min_military_supervision_boundry
+# new_max_military_supervision_boundry
+change_military_supervision_boundries = {
+	custom_effect_tooltip = military_supervision_boundries_change
+	set_variable = { military_supervision_law_max = new_max_military_supervision_boundry }
+	set_variable = { military_supervision_law_min = new_max_military_supervision_boundry }
+	hidden_effect = { check_for_military_supervision_boundaries = yes }
+}
+
+check_for_military_supervision_boundaries = {
+	if = {
+		limit = {
+			check_variable = { EBF_military_supervision_current_law > military_supervision_law_max }
+			downgrade_military_supervision_type = yes
+			check_for_military_supervision_boundaries = yes #repeat until below
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { EBF_military_supervision_current_law < military_supervision_law_min }
+			upgrade_military_supervision_type = yes
+			check_for_military_supervision_boundaries = yes
+		}
+	}
+	else = {}
+}
+
+
+upgrade_military_ethics_type = {
+	set_temp_variable = { maths2 = EBF_military_ethics_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 > military_ethics_law_max } }
+		custom_effect_tooltip = current_military_ethics_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_minimal_supervision }
+			add_ideas = EBF_no_restrictions
+		}
+		else_if = {
+			limit = { has_idea = EBF_military_police }
+			add_ideas = EBF_minimal_supervision
+		}
+		else_if = {
+			limit = { has_idea = EBF_rules_of_engagement }
+			add_ideas = EBF_military_police
+		}
+		else_if = {
+			limit = { has_idea = EBF_modernised_rules_of_war }
+			add_ideas = EBF_rules_of_engagement
+		}
+		else_if = {
+			limit = { has_idea = EBF_ethical_battlefield_supervision }
+			add_ideas = EBF_modernised_rules_of_war
+		}
+	}
+}
+
+downgrade_military_ethics_type = {
+	set_temp_variable = { maths2 = EBF_military_ethics_current_law }
+	add_to_temp_variable = { maths2 = 1 }
+	if = {
+		limit = { check_variable = { maths2 < military_ethics_law_min } }
+		custom_effect_tooltip = current_military_ethics_type_cannot_go_higher
+		add_political_power = 30
+	}
+	else = {
+		if = {
+			limit = { has_idea = EBF_banned_wmds_ethics }
+			add_ideas = EBF_restricted_wmds_ethics
+		}
+		else_if = {
+			limit = { has_idea = EBF_restricted_wmds_ethics }
+			add_ideas = EBF_unrestricted_wmds_ethics
+		}
+	}
+}
+
+# new_min_military_ethics_boundry
+# new_max_military_ethics_boundry
+change_military_ethics_boundries = {
+	custom_effect_tooltip = military_ethics_boundries_change
+	set_variable = { military_ethics_law_max = new_max_military_ethics_boundry }
+	set_variable = { military_ethics_law_min = new_max_military_ethics_boundry }
+	hidden_effect = { check_for_military_ethics_boundaries = yes }
+}
+
+check_for_military_ethics_boundaries = {
+	if = {
+		limit = {
+			check_variable = { EBF_military_ethics_current_law > military_ethics_law_max }
+			downgrade_military_ethics_type = yes
+			check_for_military_ethics_boundaries = yes #repeat until below
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { EBF_military_ethics_current_law < military_ethics_law_min }
+			upgrade_military_ethics_type = yes
+			check_for_military_ethics_boundaries = yes
+		}
+	}
+	else = {}
+}
+
+
+
+
+
+laws_get_correct_set_variable = {
+	if = {
+		limit = {
+			has_idea = EBF_scraping_the_barrel
+		}
+		set_variable = { EBF_conscription_current_law = 8 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 150 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 180 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 210 }
+		set_variable = { EBF_conscription_law_cost^8 = 0 }
+		set_variable = { EBF_conscription_law_cost^7 = -30 }
+		set_variable = { EBF_conscription_law_cost^6 = -60 }
+		set_variable = { EBF_conscription_law_cost^5 = -90 }
+		set_variable = { EBF_conscription_law_cost^4 = -120 }
+		set_variable = { EBF_conscription_law_cost^3 = -150 }
+		set_variable = { EBF_conscription_law_cost^2 = -180 }
+		set_variable = { EBF_conscription_law_cost^1 = -210 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_all_adults_serve
+		}
+		set_variable = { EBF_conscription_current_law = 7 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 150 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 180 }
+		set_variable = { EBF_conscription_law_cost^8 = -30 }
+		set_variable = { EBF_conscription_law_cost^7 = 0 }
+		set_variable = { EBF_conscription_law_cost^6 = -30 }
+		set_variable = { EBF_conscription_law_cost^5 = -60 }
+		set_variable = { EBF_conscription_law_cost^4 = -90 }
+		set_variable = { EBF_conscription_law_cost^3 = -90 }
+		set_variable = { EBF_conscription_law_cost^2 = -150 }
+		set_variable = { EBF_conscription_law_cost^1 = -180 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_service_by_requirement
+		}
+		set_variable = { EBF_conscription_current_law = 6 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 150 }
+		set_variable = { EBF_conscription_law_cost^8 = -60 }
+		set_variable = { EBF_conscription_law_cost^7 = -30 }
+		set_variable = { EBF_conscription_law_cost^6 = 0 }
+		set_variable = { EBF_conscription_law_cost^5 = -30 }
+		set_variable = { EBF_conscription_law_cost^4 = -60 }
+		set_variable = { EBF_conscription_law_cost^3 = -90 }
+		set_variable = { EBF_conscription_law_cost^2 = -120 }
+		set_variable = { EBF_conscription_law_cost^1 = -150 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_four_year_draft
+		}
+		set_variable = { EBF_conscription_current_law = 5 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 120 }
+		set_variable = { EBF_conscription_law_cost^8 = -90 }
+		set_variable = { EBF_conscription_law_cost^7 = -60 }
+		set_variable = { EBF_conscription_law_cost^6 = -30 }
+		set_variable = { EBF_conscription_law_cost^5 = 0 }
+		set_variable = { EBF_conscription_law_cost^4 = -30 }
+		set_variable = { EBF_conscription_law_cost^3 = -60 }
+		set_variable = { EBF_conscription_law_cost^2 = -90 }
+		set_variable = { EBF_conscription_law_cost^1 = -120 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_two_year_draft
+		}
+		set_variable = { EBF_conscription_current_law = 4 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 90 }
+		set_variable = { EBF_conscription_law_cost^8 = -120 }
+		set_variable = { EBF_conscription_law_cost^7 = -90 }
+		set_variable = { EBF_conscription_law_cost^6 = -60 }
+		set_variable = { EBF_conscription_law_cost^5 = -30 }
+		set_variable = { EBF_conscription_law_cost^4 = 0 }
+		set_variable = { EBF_conscription_law_cost^3 = -30 }
+		set_variable = { EBF_conscription_law_cost^2 = -60 }
+		set_variable = { EBF_conscription_law_cost^1 = -90 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_one_year_draft
+		}
+		set_variable = { EBF_conscription_current_law = 3 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 150 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 60 }
+		set_variable = { EBF_conscription_law_cost^8 = -150 }
+		set_variable = { EBF_conscription_law_cost^7 = -120 }
+		set_variable = { EBF_conscription_law_cost^6 = -90 }
+		set_variable = { EBF_conscription_law_cost^5 = -60 }
+		set_variable = { EBF_conscription_law_cost^4 = -30 }
+		set_variable = { EBF_conscription_law_cost^3 = 0 }
+		set_variable = { EBF_conscription_law_cost^2 = -30 }
+		set_variable = { EBF_conscription_law_cost^1 = -60 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_volunteer_only
+		}
+		set_variable = { EBF_conscription_current_law = 2 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 180 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 150 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 0 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 30 }
+		set_variable = { EBF_conscription_law_cost^8 = -180 }
+		set_variable = { EBF_conscription_law_cost^7 = -150 }
+		set_variable = { EBF_conscription_law_cost^6 = -120 }
+		set_variable = { EBF_conscription_law_cost^5 = -90 }
+		set_variable = { EBF_conscription_law_cost^4 = -60 }
+		set_variable = { EBF_conscription_law_cost^3 = -30 }
+		set_variable = { EBF_conscription_law_cost^2 = 0 }
+		set_variable = { EBF_conscription_law_cost^1 = -30 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_disarmed_nation
+		}
+		set_variable = { EBF_conscription_current_law = 1 }
+		set_variable = { EBF_conscription_law_cost_var^8 = 210 }
+		set_variable = { EBF_conscription_law_cost_var^7 = 180 }
+		set_variable = { EBF_conscription_law_cost_var^6 = 150 }
+		set_variable = { EBF_conscription_law_cost_var^5 = 120 }
+		set_variable = { EBF_conscription_law_cost_var^4 = 90 }
+		set_variable = { EBF_conscription_law_cost_var^3 = 60 }
+		set_variable = { EBF_conscription_law_cost_var^2 = 30 }
+		set_variable = { EBF_conscription_law_cost_var^1 = 0 }
+		set_variable = { EBF_conscription_law_cost^8 = -210 }
+		set_variable = { EBF_conscription_law_cost^7 = -180 }
+		set_variable = { EBF_conscription_law_cost^6 = -150 }
+		set_variable = { EBF_conscription_law_cost^5 = -120 }
+		set_variable = { EBF_conscription_law_cost^4 = -90 }
+		set_variable = { EBF_conscription_law_cost^3 = -60 }
+		set_variable = { EBF_conscription_law_cost^2 = -30 }
+		set_variable = { EBF_conscription_law_cost^1 = 0 }
+	}
+
+	if = {
+		limit = {
+			has_idea = EBF_no_training
+		}
+		set_variable = { EBF_training_standard_current_law = 1 }
+		set_variable = { EBF_training_standard_cost_var^5 = 120 }
+		set_variable = { EBF_training_standard_cost_var^4 = 90 }
+		set_variable = { EBF_training_standard_cost_var^3 = 60 }
+		set_variable = { EBF_training_standard_cost_var^2 = 30 }
+		set_variable = { EBF_training_standard_cost_var^1 = 0 }
+		set_variable = { EBF_training_standard_cost^5 = -120 }
+		set_variable = { EBF_training_standard_cost^4 = -90 }
+		set_variable = { EBF_training_standard_cost^3 = -60 }
+		set_variable = { EBF_training_standard_cost^2 = -30 }
+		set_variable = { EBF_training_standard_cost^1 = 0 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_minimal_training
+		}
+		set_variable = { EBF_training_standard_current_law = 2 }
+		set_variable = { EBF_training_standard_cost_var^5 = 90 }
+		set_variable = { EBF_training_standard_cost_var^4 = 60 }
+		set_variable = { EBF_training_standard_cost_var^3 = 30 }
+		set_variable = { EBF_training_standard_cost_var^2 = 0 }
+		set_variable = { EBF_training_standard_cost_var^1 = 30 }
+		set_variable = { EBF_training_standard_cost^5 = -90 }
+		set_variable = { EBF_training_standard_cost^4 = -60 }
+		set_variable = { EBF_training_standard_cost^3 = -30 }
+		set_variable = { EBF_training_standard_cost^2 = 0 }
+		set_variable = { EBF_training_standard_cost^1 = -30 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_basic_training
+		}
+		set_variable = { EBF_training_standard_current_law = 3 }
+		set_variable = { EBF_training_standard_cost_var^5 = 60 }
+		set_variable = { EBF_training_standard_cost_var^4 = 30 }
+		set_variable = { EBF_training_standard_cost_var^3 = 0 }
+		set_variable = { EBF_training_standard_cost_var^2 = 30 }
+		set_variable = { EBF_training_standard_cost_var^1 = 60 }
+		set_variable = { EBF_training_standard_cost^5 = -60 }
+		set_variable = { EBF_training_standard_cost^4 = -30 }
+		set_variable = { EBF_training_standard_cost^3 = 0 }
+		set_variable = { EBF_training_standard_cost^2 = -30 }
+		set_variable = { EBF_training_standard_cost^1 = -60 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_combat_schooling
+		}
+		set_variable = { EBF_training_standard_current_law = 4 }
+		set_variable = { EBF_training_standard_cost_var^5 = 30 }
+		set_variable = { EBF_training_standard_cost_var^4 = 0 }
+		set_variable = { EBF_training_standard_cost_var^3 = 30 }
+		set_variable = { EBF_training_standard_cost_var^2 = 60 }
+		set_variable = { EBF_training_standard_cost_var^1 = 90 }
+		set_variable = { EBF_training_standard_cost^5 = -30 }
+		set_variable = { EBF_training_standard_cost^4 = 0 }
+		set_variable = { EBF_training_standard_cost^3 = -30 }
+		set_variable = { EBF_training_standard_cost^2 = -60 }
+		set_variable = { EBF_training_standard_cost^1 = -90 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_advanced_schooling
+		}
+		set_variable = { EBF_training_standard_current_law = 5 }
+		set_variable = { EBF_training_standard_cost_var^5 = 0 }
+		set_variable = { EBF_training_standard_cost_var^4 = 30 }
+		set_variable = { EBF_training_standard_cost_var^3 = 60 }
+		set_variable = { EBF_training_standard_cost_var^2 = 90 }
+		set_variable = { EBF_training_standard_cost_var^1 = 120 }
+		set_variable = { EBF_training_standard_cost^5 = 0 }
+		set_variable = { EBF_training_standard_cost^4 = -30 }
+		set_variable = { EBF_training_standard_cost^3 = -60 }
+		set_variable = { EBF_training_standard_cost^2 = -90 }
+		set_variable = { EBF_training_standard_cost^1 = -120 }
+	}
+
+	if = {
+		limit = {
+			has_idea = EBF_no_policing
+		}
+		set_variable = { EBF_policing_current_law = 1 }
+		set_variable = { EBF_policing_cost_var^6 = 150 }
+		set_variable = { EBF_policing_cost_var^5 = 120 }
+		set_variable = { EBF_policing_cost_var^4 = 90 }
+		set_variable = { EBF_policing_cost_var^3 = 60 }
+		set_variable = { EBF_policing_cost_var^2 = 30 }
+		set_variable = { EBF_policing_cost_var^1 = 0 }
+		set_variable = { EBF_policing_cost^6 = -150 }
+		set_variable = { EBF_policing_cost^5 = -120 }
+		set_variable = { EBF_policing_cost^4 = -90 }
+		set_variable = { EBF_policing_cost^3 = -60 }
+		set_variable = { EBF_policing_cost^2 = -30 }
+		set_variable = { EBF_policing_cost^1 = 0 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_community_outreach
+		}
+		set_variable = { EBF_policing_current_law = 2 }
+		set_variable = { EBF_policing_cost_var^6 = 120 }
+		set_variable = { EBF_policing_cost_var^5 = 90 }
+		set_variable = { EBF_policing_cost_var^4 = 60 }
+		set_variable = { EBF_policing_cost_var^3 = 30 }
+		set_variable = { EBF_policing_cost_var^2 = 0 }
+		set_variable = { EBF_policing_cost_var^1 = 30 }
+		set_variable = { EBF_policing_cost^6 = -120 }
+		set_variable = { EBF_policing_cost^5 = -90 }
+		set_variable = { EBF_policing_cost^4 = -60 }
+		set_variable = { EBF_policing_cost^3 = -30 }
+		set_variable = { EBF_policing_cost^2 = 0 }
+		set_variable = { EBF_policing_cost^1 = -30 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_ordinary_policing
+		}
+		set_variable = { EBF_policing_current_law = 3 }
+		set_variable = { EBF_policing_cost_var^6 = 90 }
+		set_variable = { EBF_policing_cost_var^5 = 60 }
+		set_variable = { EBF_policing_cost_var^4 = 30 }
+		set_variable = { EBF_policing_cost_var^3 = 0 }
+		set_variable = { EBF_policing_cost_var^2 = 30 }
+		set_variable = { EBF_policing_cost_var^1 = 60 }
+		set_variable = { EBF_policing_cost^6 = -90 }
+		set_variable = { EBF_policing_cost^5 = -60 }
+		set_variable = { EBF_policing_cost^4 = -30 }
+		set_variable = { EBF_policing_cost^3 = 0 }
+		set_variable = { EBF_policing_cost^2 = -30 }
+		set_variable = { EBF_policing_cost^1 = -60 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_intimidation_policing
+		}
+		set_variable = { EBF_policing_current_law = 4 }
+		set_variable = { EBF_policing_cost_var^6 = 60 }
+		set_variable = { EBF_policing_cost_var^5 = 30 }
+		set_variable = { EBF_policing_cost_var^4 = 0 }
+		set_variable = { EBF_policing_cost_var^3 = 30 }
+		set_variable = { EBF_policing_cost_var^2 = 60 }
+		set_variable = { EBF_policing_cost_var^1 = 90 }
+		set_variable = { EBF_policing_cost^6 = -60 }
+		set_variable = { EBF_policing_cost^5 = -30 }
+		set_variable = { EBF_policing_cost^4 = 0 }
+		set_variable = { EBF_policing_cost^3 = -30 }
+		set_variable = { EBF_policing_cost^2 = -60 }
+		set_variable = { EBF_policing_cost^1 = -90 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_heavily_armed_policing
+		}
+		set_variable = { EBF_policing_current_law = 5 }
+		set_variable = { EBF_policing_cost_var^6 = 30 }
+		set_variable = { EBF_policing_cost_var^5 = 0 }
+		set_variable = { EBF_policing_cost_var^4 = 30 }
+		set_variable = { EBF_policing_cost_var^3 = 60 }
+		set_variable = { EBF_policing_cost_var^2 = 90 }
+		set_variable = { EBF_policing_cost_var^1 = 120 }
+		set_variable = { EBF_policing_cost^6 = -30 }
+		set_variable = { EBF_policing_cost^5 = 0 }
+		set_variable = { EBF_policing_cost^4 = -30 }
+		set_variable = { EBF_policing_cost^3 = -60 }
+		set_variable = { EBF_policing_cost^2 = -90 }
+		set_variable = { EBF_policing_cost^1 = -120 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_militarised_policing
+		}
+		set_variable = { EBF_policing_current_law = 6 }
+		set_variable = { EBF_policing_cost_var^6 = 0 }
+		set_variable = { EBF_policing_cost_var^5 = 30 }
+		set_variable = { EBF_policing_cost_var^4 = 60 }
+		set_variable = { EBF_policing_cost_var^3 = 90 }
+		set_variable = { EBF_policing_cost_var^2 = 120 }
+		set_variable = { EBF_policing_cost_var^1 = 150 }
+		set_variable = { EBF_policing_cost^6 = 0 }
+		set_variable = { EBF_policing_cost^5 = -30 }
+		set_variable = { EBF_policing_cost^4 = -60 }
+		set_variable = { EBF_policing_cost^3 = -90 }
+		set_variable = { EBF_policing_cost^2 = -120 }
+		set_variable = { EBF_policing_cost^1 = -150 }
+	}
+
+	if = {
+		limit = {
+			has_idea = EBF_no_restrictions
+		}
+		set_variable = { EBF_military_supervision_current_law = 6 }
+		set_variable = { EBF_military_supervision_cost_var^6 = 0 }
+		set_variable = { EBF_military_supervision_cost_var^5 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^4 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^3 = 90 }
+		set_variable = { EBF_military_supervision_cost_var^2 = 120 }
+		set_variable = { EBF_military_supervision_cost_var^1 = 150 }
+		set_variable = { EBF_military_supervision_cost^6 = 0 }
+		set_variable = { EBF_military_supervision_cost^5 = -30 }
+		set_variable = { EBF_military_supervision_cost^4 = -60 }
+		set_variable = { EBF_military_supervision_cost^3 = -90 }
+		set_variable = { EBF_military_supervision_cost^2 = -120 }
+		set_variable = { EBF_military_supervision_cost^1 = -150 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_minimal_supervision
+		}
+		set_variable = { EBF_military_supervision_current_law = 5 }
+		set_variable = { EBF_military_supervision_cost_var^6 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^5 = 0 }
+		set_variable = { EBF_military_supervision_cost_var^4 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^3 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^2 = 90 }
+		set_variable = { EBF_military_supervision_cost_var^1 = 120 }
+		set_variable = { EBF_military_supervision_cost^6 = -30 }
+		set_variable = { EBF_military_supervision_cost^5 = 0 }
+		set_variable = { EBF_military_supervision_cost^4 = -30 }
+		set_variable = { EBF_military_supervision_cost^3 = -60 }
+		set_variable = { EBF_military_supervision_cost^2 = -90 }
+		set_variable = { EBF_military_supervision_cost^1 = -120 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_military_police
+		}
+		set_variable = { EBF_military_supervision_current_law = 4 }
+		set_variable = { EBF_military_supervision_cost_var^6 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^5 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^4 = 0 }
+		set_variable = { EBF_military_supervision_cost_var^3 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^2 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^1 = 90 }
+		set_variable = { EBF_military_supervision_cost^6 = -60 }
+		set_variable = { EBF_military_supervision_cost^5 = -30 }
+		set_variable = { EBF_military_supervision_cost^4 = 0 }
+		set_variable = { EBF_military_supervision_cost^3 = -30 }
+		set_variable = { EBF_military_supervision_cost^2 = -60 }
+		set_variable = { EBF_military_supervision_cost^1 = -90 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_rules_of_engagement
+		}
+		set_variable = { EBF_military_supervision_current_law = 3 }
+		set_variable = { EBF_military_supervision_cost_var^6 = 90 }
+		set_variable = { EBF_military_supervision_cost_var^5 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^4 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^3 = 0 }
+		set_variable = { EBF_military_supervision_cost_var^2 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^1 = 60 }
+		set_variable = { EBF_military_supervision_cost^6 = -90 }
+		set_variable = { EBF_military_supervision_cost^5 = -60 }
+		set_variable = { EBF_military_supervision_cost^4 = -30 }
+		set_variable = { EBF_military_supervision_cost^3 = 0 }
+		set_variable = { EBF_military_supervision_cost^2 = -30 }
+		set_variable = { EBF_military_supervision_cost^1 = -60 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_modernised_rules_of_war
+		}
+		set_variable = { EBF_military_supervision_current_law = 2 }
+		set_variable = { EBF_military_supervision_cost_var^6 = 120 }
+		set_variable = { EBF_military_supervision_cost_var^5 = 90 }
+		set_variable = { EBF_military_supervision_cost_var^4 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^3 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^2 = 0 }
+		set_variable = { EBF_military_supervision_cost_var^1 = 30 }
+		set_variable = { EBF_military_supervision_cost^6 = -120 }
+		set_variable = { EBF_military_supervision_cost^5 = -90 }
+		set_variable = { EBF_military_supervision_cost^4 = -60 }
+		set_variable = { EBF_military_supervision_cost^3 = -30 }
+		set_variable = { EBF_military_supervision_cost^2 = 0 }
+		set_variable = { EBF_military_supervision_cost^1 = -30 }
+	}
+	else_if = {
+		limit = {
+			has_idea = EBF_ethical_battlefield_supervision
+		}
+		set_variable = { EBF_military_supervision_current_law = 1 }
+		set_variable = { EBF_military_supervision_cost_var^6 = 150 }
+		set_variable = { EBF_military_supervision_cost_var^5 = 120 }
+		set_variable = { EBF_military_supervision_cost_var^4 = 90 }
+		set_variable = { EBF_military_supervision_cost_var^3 = 60 }
+		set_variable = { EBF_military_supervision_cost_var^2 = 30 }
+		set_variable = { EBF_military_supervision_cost_var^1 = 0 }
+		set_variable = { EBF_military_supervision_cost^6 = -150 }
+		set_variable = { EBF_military_supervision_cost^5 = -120 }
+		set_variable = { EBF_military_supervision_cost^4 = -90 }
+		set_variable = { EBF_military_supervision_cost^3 = -60 }
+		set_variable = { EBF_military_supervision_cost^2 = -30 }
+		set_variable = { EBF_military_supervision_cost^1 = 0 }
+	}
+}

@@ -1,0 +1,2133 @@
+defined_text = {
+	name = GetReligionData
+	text = { #
+		trigger = { check_variable = { religion = 12 } }
+		localization_key = majority_religion_text_missing
+	}
+	text = {
+		localization_key = majority_religion_text_proper
+	}				
+}
+
+defined_text = {
+	name = GetReligionDataOther
+	text = { #
+		trigger = { check_variable = { religion = 12 } }
+		localization_key = ebf_religion_map_mode_tooltip_missing
+	}
+	text = {
+		localization_key = ebf_religion_map_mode_tooltip_proper
+	}				
+}
+
+defined_text = {
+	name = GetReligion
+	text = { # It Broke or somebody forgor, plz fix
+		trigger = { check_variable = { religion = 0 } }
+		localization_key = religionloc.0
+	}
+	text = { # Catholic
+		trigger = { check_variable = { religion = 1 } }
+		localization_key = religionloc.1
+	}
+	text = { # Atheist
+		trigger = { check_variable = { religion = 2 } }
+		localization_key = religionloc.2
+	}	
+	text = { # Chinese Folk Sects
+		trigger = { check_variable = { religion = 3 } }
+		localization_key = religionloc.3
+	}		
+	text = { # Protestant
+		trigger = { check_variable = { religion = 4 } }
+		localization_key = religionloc.4
+	}
+	text = { # Hessenite Protestantism
+		trigger = { check_variable = { religion = 5 } }
+		localization_key = religionloc.5
+	}	
+	text = { # Orthodox Christianity
+		trigger = { check_variable = { religion = 6 } }
+		localization_key = religionloc.6
+	}		
+	text = { # New Creed Catholicism
+		trigger = { check_variable = { religion = 7 } }
+		localization_key = religionloc.7
+	}			
+	text = { # Shintoism
+		trigger = { check_variable = { religion = 8 } }
+		localization_key = religionloc.8
+	}	
+	text = { # Muism
+		trigger = { check_variable = { religion = 9 } }
+		localization_key = religionloc.9
+	}		
+	text = { # Mahayana Buddhism
+		trigger = { check_variable = { religion = 10 } }
+		localization_key = religionloc.10
+	}	
+	text = { # Sunni Islam
+		trigger = { check_variable = { religion = 11 } }
+		localization_key = religionloc.11
+	}	
+	text = { # Demoograhics Unknown
+		trigger = { check_variable = { religion = 12 } }
+		localization_key = religionloc.12
+	}	
+	text = { # Mormonism
+		trigger = { check_variable = { religion = 13 } }
+		localization_key = religionloc.13
+	}	
+	text = { # Shia Islam
+		trigger = { check_variable = { religion = 14 } }
+		localization_key = religionloc.14
+	}		
+	text = { # Ibadi Islam
+		trigger = { check_variable = { religion = 15 } }
+		localization_key = religionloc.15
+	}	
+	text = { # Theravada Buddhism
+		trigger = { check_variable = { religion = 16 } }
+		localization_key = religionloc.16
+	}	
+	text = { # Hiloni Judaism
+		trigger = { check_variable = { religion = 17 } }
+		localization_key = religionloc.17
+	}
+	text = { # Miaphysite Christianity
+		trigger = { check_variable = { religion = 18 } }
+		localization_key = religionloc.18
+	}	
+	text = { # Cult of the Sahara
+		trigger = { check_variable = { religion = 19 } }
+		localization_key = religionloc.19
+	}		
+	text = { # Hinduism
+		trigger = { check_variable = { religion = 20 } }
+		localization_key = religionloc.20
+	}
+	text = { # Bengali Big Three
+		trigger = { check_variable = { religion = 21 } }
+		localization_key = religionloc.21
+	}		
+	text = { # Vietnamese Folk Religion
+		trigger = { check_variable = { religion = 22 } }
+		localization_key = religionloc.22
+	}
+	text = { # Juche Religion
+		trigger = { check_variable = { religion = 23 } }
+		localization_key = religionloc.23
+	}	
+	text = { # American Parousia Convent
+		trigger = { check_variable = { religion = 24 } }
+		localization_key = religionloc.24
+	}
+	text = { # Association of True American Churches
+		trigger = { check_variable = { religion = 25 } }
+		localization_key = religionloc.25
+	}
+	text = { # Papal Church
+		trigger = { check_variable = { religion = 26 } }
+		localization_key = religionloc.26
+	}
+	text = { # Brazilian Catholic Apostolic Church
+		trigger = { check_variable = { religion = 27 } }
+		localization_key = religionloc.27
+	}
+	text = { # Santa Muerte
+		trigger = { check_variable = { religion = 28 } }
+		localization_key = religionloc.28
+	}
+	text = { # Lucius
+		trigger = { check_variable = { religion = 29 } }
+		localization_key = religionloc.29
+	}
+	text = { # Unaligned Catholics
+		trigger = { check_variable = { religion = 30 } }
+		localization_key = religionloc.30
+	}
+	text = { # Independent Orthodoxy
+		trigger = { check_variable = { religion = 31 } }
+		localization_key = religionloc.31
+	}
+	text = { # Sergius II's Orthodoxy
+		trigger = { check_variable = { religion = 32 } }
+		localization_key = religionloc.32
+	}
+	text = { # Mefodiy II's Orthodoxy
+		trigger = { check_variable = { religion = 33 } }
+		localization_key = religionloc.33
+	}
+}
+
+defined_text = {
+	name = GetReligionDesc
+	text = { # It Broke or somebody forgor, plz fix
+		trigger = { check_variable = { religion = 0 } }
+		localization_key = religionlocdesc.0
+	}
+	text = { # Catholic
+		trigger = { check_variable = { religion = 1 } }
+		localization_key = religionlocdesc.1
+	}
+	text = { # Atheist
+		trigger = { check_variable = { religion = 2 } }
+		localization_key = religionlocdesc.2
+	}	
+	text = { # Chinese Folk Sects
+		trigger = { check_variable = { religion = 3 } }
+		localization_key = religionlocdesc.3
+	}	
+	text = { # Protestant
+		trigger = { check_variable = { religion = 4 } }
+		localization_key = religionlocdesc.4
+	}	
+	text = { # Hessenite Protestantism
+		trigger = { check_variable = { religion = 5 } }
+		localization_key = religionlocdesc.5
+	}
+	text = { # Orthodox Christianity
+		trigger = { check_variable = { religion = 6 } }
+		localization_key = religionlocdesc.6
+	}	
+	text = { # New Creed Catholicism
+		trigger = { check_variable = { religion = 7 } }
+		localization_key = religionlocdesc.7
+	}	
+	text = { # Shintoism
+		trigger = { check_variable = { religion = 8 } }
+		localization_key = religionlocdesc.8
+	}		
+	text = { # Muism
+		trigger = { check_variable = { religion = 9 } }
+		localization_key = religionlocdesc.9
+	}
+	text = { # Mahayana Buddhism
+		trigger = { check_variable = { religion = 10 } }
+		localization_key = religionlocdesc.10
+	}	
+	text = { # Sunni Islam
+		trigger = { check_variable = { religion = 11 } }
+		localization_key = religionlocdesc.11
+	}	
+	text = { # Demoograhics Unknown
+		trigger = { check_variable = { religion = 12 } }
+		localization_key = religionlocdesc.12
+	}		
+	text = { # Mormonism
+		trigger = { check_variable = { religion = 13 } }
+		localization_key = religionlocdesc.13
+	}		
+	text = { # Shia Islam
+		trigger = { check_variable = { religion = 14 } }
+		localization_key = religionlocdesc.14
+	}
+	text = { # Ibadi Islam
+		trigger = { check_variable = { religion = 15 } }
+		localization_key = religionlocdesc.15
+	}
+	text = { # Theravada Buddhism
+		trigger = { check_variable = { religion = 16 } }
+		localization_key = religionlocdesc.16
+	}	
+	text = { # Hiloni Judaism
+		trigger = { check_variable = { religion = 17 } }
+		localization_key = religionlocdesc.17
+	}	
+	text = { # Miaphysite Christianity
+		trigger = { check_variable = { religion = 18 } }
+		localization_key = religionlocdesc.18
+	}	
+	text = { # Cult of the Sahara
+		trigger = { check_variable = { religion = 19 } }
+		localization_key = religionlocdesc.19
+	}	
+	text = { # Hinduism
+		trigger = { check_variable = { religion = 20 } }
+		localization_key = religionlocdesc.20
+	}	
+	text = { # Bengali Big Three
+		trigger = { check_variable = { religion = 21 } }
+		localization_key = religionlocdesc.21
+	}	
+	text = { # Vietnamese Folk Religion
+		trigger = { check_variable = { religion = 22 } }
+		localization_key = religionlocdesc.22
+	}		
+	text = { # Juche Religion
+		trigger = { check_variable = { religion = 23 } }
+		localization_key = religionlocdesc.23
+	}
+	text = { # American Parousia Convent
+		trigger = { check_variable = { religion = 24 } }
+		localization_key = religionlocdesc.24
+	}
+	text = { # Association of True American Churches
+		trigger = { check_variable = { religion = 25 } }
+		localization_key = religionlocdesc.25
+	}
+	text = { # Papal Church
+		trigger = { check_variable = { religion = 26 } }
+		localization_key = religionlocdesc.26
+	}
+	text = { # Brazilian Catholic Apostolic Church
+		trigger = { check_variable = { religion = 27 } }
+		localization_key = religionlocdesc.27
+	}
+	text = { # Santa Muerte
+		trigger = { check_variable = { religion = 28 } }
+		localization_key = religionlocdesc.28
+	}
+	text = { # Lucius
+		trigger = { check_variable = { religion = 29 } }
+		localization_key = religionlocdesc.29
+	}
+	text = { # Unaligned Catholics
+		trigger = { check_variable = { religion = 30 } }
+		localization_key = religionlocdesc.30
+	}
+	text = { # Independent Orthodoxy
+		trigger = { check_variable = { religion = 31 } }
+		localization_key = religionlocdesc.31
+	}
+	text = { # Sergius II's Orthodoxy
+		trigger = { check_variable = { religion = 32 } }
+		localization_key = religionlocdesc.32
+	}
+	text = { # Mefodiy II's Orthodoxy
+		trigger = { check_variable = { religion = 33 } }
+		localization_key = religionlocdesc.33
+	}
+}
+
+defined_text = {
+	name = GetCultureData
+	text = { #
+		trigger = { check_variable = { culture = 19 } }
+		localization_key = majority_culture_text_missing
+	}
+	text = {
+		localization_key = majority_culture_text_proper
+	}				
+}
+
+defined_text = {
+	name = GetCultureDataOther
+	text = { #
+		trigger = { check_variable = { culture = 19 } }
+		localization_key = ebf_culture_map_mode_tooltip_missing
+	}
+	text = {
+		localization_key = ebf_culture_map_mode_tooltip_proper
+	}				
+}
+
+defined_text = {
+	name = GetCulture
+	text = { # It Broke or somebody forgor, plz fix
+		trigger = { check_variable = { culture = 0 } }
+		localization_key = cultureloc.0
+	}
+	text = { # Yankee
+		trigger = { check_variable = { culture = 1 } }
+		localization_key = cultureloc.1
+	}
+	text = { # Haipai
+		trigger = { check_variable = { culture = 2 } }
+		localization_key = cultureloc.2
+	}
+	text = { # Han
+		trigger = { check_variable = { culture = 3 } }
+		localization_key = cultureloc.3
+	}	
+	text = { # Corsica
+		trigger = { check_variable = { culture = 4 } }
+		localization_key = cultureloc.4
+	}	
+	text = { # Northern Italian
+		trigger = { check_variable = { culture = 5 } }
+		localization_key = cultureloc.5
+	}
+	text = { # Swiss
+		trigger = { check_variable = { culture = 6 } }
+		localization_key = cultureloc.6
+	}	
+	text = { # Austrian
+		trigger = { check_variable = { culture = 7 } }
+		localization_key = cultureloc.7
+	}	
+	text = { # Polish
+		trigger = { check_variable = { culture = 8 } }
+		localization_key = cultureloc.8
+	}	
+	text = { # Benelux, the product of various Benelux cultures mixing due to the Deluge
+		trigger = { check_variable = { culture = 9 } }
+		localization_key = cultureloc.9
+	}	
+	text = { #Scottish
+		trigger = { check_variable = { culture = 10 } }
+		localization_key = cultureloc.10
+	}	
+	text = { #North English
+		trigger = { check_variable = { culture = 11 } }
+		localization_key = cultureloc.11
+	}	
+	text = { #South English
+		trigger = { check_variable = { culture = 12 } }
+		localization_key = cultureloc.12
+	}	
+	text = { #Londoner
+		trigger = { check_variable = { culture = 13 } }
+		localization_key = cultureloc.13
+	}	
+	text = { #Welsh
+		trigger = { check_variable = { culture = 14 } }
+		localization_key = cultureloc.14
+	}	
+	text = { #Irish
+		trigger = { check_variable = { culture = 15 } }
+		localization_key = cultureloc.15
+	}
+	text = { #Ulster
+		trigger = { check_variable = { culture = 16 } }
+		localization_key = cultureloc.16
+	}		
+	text = { #Faroese
+		trigger = { check_variable = { culture = 17 } }
+		localization_key = cultureloc.17
+	}		
+	text = { #Icelandic
+		trigger = { check_variable = { culture = 18 } }
+		localization_key = cultureloc.18
+	}	
+	text = { #Missing Data
+		trigger = { check_variable = { culture = 19 } }
+		localization_key = cultureloc.19
+	}	
+	text = { #French
+		trigger = { check_variable = { culture = 20 } }
+		localization_key = cultureloc.20
+	}	
+	text = { #Breton
+		trigger = { check_variable = { culture = 21 } }
+		localization_key = cultureloc.21
+	}			
+	text = { #Sardinian
+		trigger = { check_variable = { culture = 22 } }
+		localization_key = cultureloc.22
+	}
+	text = { #Southern Italian
+		trigger = { check_variable = { culture = 23 } }
+		localization_key = cultureloc.23
+	}
+	text = { #Sicilian
+		trigger = { check_variable = { culture = 24 } }
+		localization_key = cultureloc.24
+	}
+	text = { #New Venetian
+		trigger = { check_variable = { culture = 25 } }
+		localization_key = cultureloc.25
+	}
+	text = { #Spanish
+		trigger = { check_variable = { culture = 26 } }
+		localization_key = cultureloc.26
+	}		
+	text = { #Catalan
+		trigger = { check_variable = { culture = 27 } }
+		localization_key = cultureloc.27
+	}	
+	text = { #Basque
+		trigger = { check_variable = { culture = 28 } }
+		localization_key = cultureloc.28
+	}
+	text = { #Galician
+		trigger = { check_variable = { culture = 29 } }
+		localization_key = cultureloc.29
+	}	
+	text = { #Andalusian
+		trigger = { check_variable = { culture = 30 } }
+		localization_key = cultureloc.30
+	}
+	text = { #Portuguese
+		trigger = { check_variable = { culture = 31 } }
+		localization_key = cultureloc.31
+	}
+	text = { #Bavarian
+		trigger = { check_variable = { culture = 32 } }
+		localization_key = cultureloc.32
+	}	
+	text = { #Czech
+		trigger = { check_variable = { culture = 33 } }
+		localization_key = cultureloc.33
+	}	
+	text = { #Swarbian
+		trigger = { check_variable = { culture = 34 } }
+		localization_key = cultureloc.34
+	}	
+	text = { #Rhinelander
+		trigger = { check_variable = { culture = 35 } }
+		localization_key = cultureloc.35
+	}	
+	text = { #Danish
+		trigger = { check_variable = { culture = 36 } }
+		localization_key = cultureloc.36
+	}	
+	text = { #Norwegian
+		trigger = { check_variable = { culture = 37 } }
+		localization_key = cultureloc.37
+	}	
+	text = { #Sami
+		trigger = { check_variable = { culture = 38 } }
+		localization_key = cultureloc.38
+	}	
+	text = { #Swedish
+		trigger = { check_variable = { culture = 39 } }
+		localization_key = cultureloc.39
+	}		
+	text = { #Hungarian
+		trigger = { check_variable = { culture = 40 } }
+		localization_key = cultureloc.40
+	}
+	text = { #Slovakian
+		trigger = { check_variable = { culture = 41 } }
+		localization_key = cultureloc.41
+	}	
+	text = { #Bulgarian
+		trigger = { check_variable = { culture = 42 } }
+		localization_key = cultureloc.42
+	}
+	text = { #Greek
+		trigger = { check_variable = { culture = 43 } }
+		localization_key = cultureloc.43
+	}	
+	text = { #Albanian
+		trigger = { check_variable = { culture = 44 } }
+		localization_key = cultureloc.44
+	}
+	text = { #Slovenian
+		trigger = { check_variable = { culture = 45 } }
+		localization_key = cultureloc.45
+	}		
+	text = { #Croatian
+		trigger = { check_variable = { culture = 46 } }
+		localization_key = cultureloc.46
+	}
+	text = { #Serbian
+		trigger = { check_variable = { culture = 47 } }
+		localization_key = cultureloc.47
+	}
+	text = { #Macedonian
+		trigger = { check_variable = { culture = 48 } }
+		localization_key = cultureloc.48
+	}
+	text = { #Montenegrin
+		trigger = { check_variable = { culture = 49 } }
+		localization_key = cultureloc.49
+	}	
+	text = { #Bosniak
+		trigger = { check_variable = { culture = 50 } }
+		localization_key = cultureloc.50
+	}
+	text = { #Romanian
+		trigger = { check_variable = { culture = 51 } }
+		localization_key = cultureloc.51
+	}	
+	text = { #Moldovan
+		trigger = { check_variable = { culture = 52 } }
+		localization_key = cultureloc.52
+	}	
+	text = { #Ukrainian 
+		trigger = { check_variable = { culture = 53 } }
+		localization_key = cultureloc.53
+	}	
+	text = { #Belarusian 
+		trigger = { check_variable = { culture = 54 } }
+		localization_key = cultureloc.54
+	}
+	text = { # Lithuanian 
+		trigger = { check_variable = { culture = 55 } }
+		localization_key = cultureloc.55
+	}	
+	text = { # Latvian 
+		trigger = { check_variable = { culture = 56 } }
+		localization_key = cultureloc.56
+	}	
+	text = { # Estonian 
+		trigger = { check_variable = { culture = 57 } }
+		localization_key = cultureloc.57
+	}	
+	text = { # Finnish 
+		trigger = { check_variable = { culture = 58 } }
+		localization_key = cultureloc.58
+	}
+	text = { # Maltese 
+		trigger = { check_variable = { culture = 59 } }
+		localization_key = cultureloc.59
+	}
+	text = { # Turkish 
+		trigger = { check_variable = { culture = 60 } }
+		localization_key = cultureloc.60
+	}	
+	text = { # Kurdish 
+		trigger = { check_variable = { culture = 61 } }
+		localization_key = cultureloc.61
+	}	
+	text = { # Armenian 
+		trigger = { check_variable = { culture = 62 } }
+		localization_key = cultureloc.62
+	}		
+	text = { # Georgian 
+		trigger = { check_variable = { culture = 63 } }
+		localization_key = cultureloc.63
+	}		
+	text = { # Abkhazian 
+		trigger = { check_variable = { culture = 64 } }
+		localization_key = cultureloc.64
+	}	
+	text = { # Azerbaijani 
+		trigger = { check_variable = { culture = 65 } }
+		localization_key = cultureloc.65
+	}	
+	text = { # Syrian 
+		trigger = { check_variable = { culture = 66 } }
+		localization_key = cultureloc.66
+	}	
+	text = { # Lebanese 
+		trigger = { check_variable = { culture = 67 } }
+		localization_key = cultureloc.67
+	}	
+	text = { # Iraqi 
+		trigger = { check_variable = { culture = 68 } }
+		localization_key = cultureloc.68
+	}	
+	text = { # Japanese 
+		trigger = { check_variable = { culture = 69 } }
+		localization_key = cultureloc.69
+	}	
+	text = { # Korean 
+		trigger = { check_variable = { culture = 70 } }
+		localization_key = cultureloc.70
+	}		
+	text = { # Australian 
+		trigger = { check_variable = { culture = 71 } }
+		localization_key = cultureloc.71
+	}			
+	text = { # New Zealander 
+		trigger = { check_variable = { culture = 72 } }
+		localization_key = cultureloc.72
+	}	
+	text = { # Moroccan
+		trigger = { check_variable = { culture = 73 } }
+		localization_key = cultureloc.73
+	}
+	text = { # Algerian
+		trigger = { check_variable = { culture = 74 } }
+		localization_key = cultureloc.74
+	}	
+	text = { # Tunisian
+		trigger = { check_variable = { culture = 75 } }
+		localization_key = cultureloc.75
+	}	
+	text = { # Libyan
+		trigger = { check_variable = { culture = 76 } }
+		localization_key = cultureloc.76
+	}
+	text = { # Egyptian
+		trigger = { check_variable = { culture = 77 } }
+		localization_key = cultureloc.77
+	}		
+	text = { # Sudanese
+		trigger = { check_variable = { culture = 78} }
+		localization_key = cultureloc.78
+	}	
+	text = { # South Sudanese
+		trigger = { check_variable = { culture = 79 } }
+		localization_key = cultureloc.79
+	}	
+	text = { # Eritrean
+		trigger = { check_variable = { culture = 80 } }
+		localization_key = cultureloc.80
+	}	
+	text = { # Tigrayans
+		trigger = { check_variable = { culture = 81 } }
+		localization_key = cultureloc.81
+	}		
+	text = { # Oromo
+		trigger = { check_variable = { culture = 82 } }
+		localization_key = cultureloc.82
+	}
+	text = { # Afar
+		trigger = { check_variable = { culture = 83 } }
+		localization_key = cultureloc.83
+	}
+	text = { # Amhara
+		trigger = { check_variable = { culture = 84 } }
+		localization_key = cultureloc.84
+	}	
+	text = { # Somali
+		trigger = { check_variable = { culture = 85 } }
+		localization_key = cultureloc.85
+	}		
+	text = { # Kazakh
+		trigger = { check_variable = { culture = 86 } }
+		localization_key = cultureloc.86
+	}			
+	text = { # Turkmen
+		trigger = { check_variable = { culture = 87 } }
+		localization_key = cultureloc.87
+	}	
+	text = { # Uzbeki
+		trigger = { check_variable = { culture = 88 } }
+		localization_key = cultureloc.88
+	}	
+	text = { # Karakalpak
+		trigger = { check_variable = { culture = 89 } }
+		localization_key = cultureloc.89
+	}		
+	text = { # Tajiks
+		trigger = { check_variable = { culture = 90 } }
+		localization_key = cultureloc.90
+	}	
+	text = { # Kyrgyz
+		trigger = { check_variable = { culture = 91 } }
+		localization_key = cultureloc.91
+	}		
+	text = { # Vietnamese
+		trigger = { check_variable = { culture = 92 } }
+		localization_key = cultureloc.92
+	}	
+	text = { # Laotian
+		trigger = { check_variable = { culture = 93 } }
+		localization_key = cultureloc.93
+	}		
+	text = { # Khmer
+		trigger = { check_variable = { culture = 94 } }
+		localization_key = cultureloc.94
+	}		
+	text = { # Thai
+		trigger = { check_variable = { culture = 95 } }
+		localization_key = cultureloc.95
+	}		
+	text = { # Bhutanese
+		trigger = { check_variable = { culture = 96 } }
+		localization_key = cultureloc.96
+	}	
+	text = { # Nepalese
+		trigger = { check_variable = { culture = 97 } }
+		localization_key = cultureloc.97
+	}	
+	text = { # Yemeni
+		trigger = { check_variable = { culture = 98 } }
+		localization_key = cultureloc.98
+	}	
+	text = { # Omani
+		trigger = { check_variable = { culture = 99 } }
+		localization_key = cultureloc.99
+	}	
+	text = { # Gulf Arab
+		trigger = { check_variable = { culture = 100 } }
+		localization_key = cultureloc.100
+	}	
+	text = { # Dixie
+		trigger = { check_variable = { culture = 101 } }
+		localization_key = cultureloc.101
+	}		
+	text = { # Hijazi
+		trigger = { check_variable = { culture = 102 } }
+		localization_key = cultureloc.102
+	}	
+	text = { # Najdi
+		trigger = { check_variable = { culture = 103 } }
+		localization_key = cultureloc.103
+	}	
+	text = { # Israeli Jews
+		trigger = { check_variable = { culture = 104 } }
+		localization_key = cultureloc.104
+	}	
+	text = { # Levantine Arabs
+		trigger = { check_variable = { culture = 105 } }
+		localization_key = cultureloc.105
+	}		
+	text = { # Persian
+		trigger = { check_variable = { culture = 106 } }
+		localization_key = cultureloc.106
+	}		
+	text = { # Balochi
+		trigger = { check_variable = { culture = 107 } }
+		localization_key = cultureloc.107
+	}	
+	text = { # Pashtun
+		trigger = { check_variable = { culture = 108 } }
+		localization_key = cultureloc.108
+	}	
+	text = { # Kashmiri
+		trigger = { check_variable = { culture = 109 } }
+		localization_key = cultureloc.109
+	}	
+	text = { # Sindhi
+		trigger = { check_variable = { culture = 110 } }
+		localization_key = cultureloc.110
+	}	
+	text = { # Sindhi
+		trigger = { check_variable = { culture = 110 } }
+		localization_key = cultureloc.110
+	}		
+	text = { # Punjabi
+		trigger = { check_variable = { culture = 111 } }
+		localization_key = cultureloc.111
+	}	
+	text = { # Mongolian
+		trigger = { check_variable = { culture = 112 } }
+		localization_key = cultureloc.112
+	}
+	text = { # Min
+		trigger = { check_variable = { culture = 113 } }
+		localization_key = cultureloc.113
+	}
+	text = { # Yue
+		trigger = { check_variable = { culture = 114 } }
+		localization_key = cultureloc.114
+	}	
+	text = { # Zhujiang Shimin, Pearl River City
+		trigger = { check_variable = { culture = 115 } }
+		localization_key = cultureloc.115
+	}	
+	text = { # Wu
+		trigger = { check_variable = { culture = 116 } }
+		localization_key = cultureloc.116
+	}	
+	text = { # Novorossiyan
+		trigger = { check_variable = { culture = 117 } }
+		localization_key = cultureloc.117
+	}		
+	text = { # Russian
+		trigger = { check_variable = { culture = 118 } }
+		localization_key = cultureloc.118
+	}		
+	text = { # Siber-Russian
+		trigger = { check_variable = { culture = 119 } }
+		localization_key = cultureloc.119
+	}	
+	text = { # Mexican
+		trigger = { check_variable = { culture = 120 } }
+		localization_key = cultureloc.120
+	}
+	text = { # Colombian
+		trigger = { check_variable = { culture = 121 } }
+		localization_key = cultureloc.121
+	}		
+	text = { # Venezuelan
+		trigger = { check_variable = { culture = 122 } }
+		localization_key = cultureloc.122
+	}	
+	text = { # Ecuadorian
+		trigger = { check_variable = { culture = 123 } }
+		localization_key = cultureloc.123
+	}		
+	text = { # Peruvian
+		trigger = { check_variable = { culture = 124 } }
+		localization_key = cultureloc.124
+	}		
+	text = { # Bolivian
+		trigger = { check_variable = { culture = 125 } }
+		localization_key = cultureloc.125
+	}	
+	text = { # Argentine
+		trigger = { check_variable = { culture = 126 } }
+		localization_key = cultureloc.126
+	}	
+	text = { # Paraguayan
+		trigger = { check_variable = { culture = 127 } }
+		localization_key = cultureloc.127
+	}	
+	text = { # Paraguayan
+		trigger = { check_variable = { culture = 127 } }
+		localization_key = cultureloc.127
+	}	
+	text = { # Chilean
+		trigger = { check_variable = { culture = 128 } }
+		localization_key = cultureloc.128
+	}			
+	text = { # Uraguayan
+		trigger = { check_variable = { culture = 129 } }
+		localization_key = cultureloc.129
+	}	
+	text = { # Amazonian
+		trigger = { check_variable = { culture = 130 } }
+		localization_key = cultureloc.130
+	}	
+	text = { # Sulista
+		trigger = { check_variable = { culture = 131 } }
+		localization_key = cultureloc.131
+	}		
+	text = { # Brazilian
+		trigger = { check_variable = { culture = 132 } }
+		localization_key = cultureloc.132
+	}		
+	text = { # Guyanan
+		trigger = { check_variable = { culture = 133 } }
+		localization_key = cultureloc.133
+	}	
+	text = { # Karelian
+		trigger = { check_variable = { culture = 134 } }
+		localization_key = cultureloc.134
+	}		
+	text = { # Buryats
+		trigger = { check_variable = { culture = 135 } }
+		localization_key = cultureloc.135
+	}	
+	text = { # Tuvan
+		trigger = { check_variable = { culture = 136 } }
+		localization_key = cultureloc.136
+	}	
+	text = { # Komi
+		trigger = { check_variable = { culture = 137 } }
+		localization_key = cultureloc.137
+	}
+	text = { # Chechen
+		trigger = { check_variable = { culture = 138 } }
+		localization_key = cultureloc.138
+	}		
+	text = { # Saxon
+		trigger = { check_variable = { culture = 139 } }
+		localization_key = cultureloc.139
+	}
+	text = { # 	Hanoverian
+		trigger = { check_variable = { culture = 140 } }
+		localization_key = cultureloc.140
+	}
+	text = { # Schleswig 
+		trigger = { check_variable = { culture = 141 } }
+		localization_key = cultureloc.141
+	}
+	text = { # Brandenburger 
+		trigger = { check_variable = { culture = 142 } }
+		localization_key = cultureloc.142
+	}		
+	text = { # Kikuyu 
+		trigger = { check_variable = { culture = 143 } }
+		localization_key = cultureloc.143
+	}	
+	text = { # Baganda 
+		trigger = { check_variable = { culture = 144 } }
+		localization_key = cultureloc.144
+	}	
+	text = { # Sara 
+		trigger = { check_variable = { culture = 145 } }
+		localization_key = cultureloc.145
+	}
+	text = { # Hausa 
+		trigger = { check_variable = { culture = 146 } }
+		localization_key = cultureloc.146
+	}	
+	text = { # Fon 
+		trigger = { check_variable = { culture = 147 } }
+		localization_key = cultureloc.147
+	}	
+	text = { # Ewe 
+		trigger = { check_variable = { culture = 148 } }
+		localization_key = cultureloc.148
+	}		
+	text = { # Mossi 
+		trigger = { check_variable = { culture = 149 } }
+		localization_key = cultureloc.149
+	}		
+	text = { # Akan 
+		trigger = { check_variable = { culture = 150 } }
+		localization_key = cultureloc.150
+	}
+	text = { # Bambara  
+		trigger = { check_variable = { culture = 151 } }
+		localization_key = cultureloc.151
+	}	
+	text = { # Fula  
+		trigger = { check_variable = { culture = 152 } }
+		localization_key = cultureloc.152
+	}		
+	text = { # Kpelle  
+		trigger = { check_variable = { culture = 153 } }
+		localization_key = cultureloc.153
+	}	
+	text = { # Temne  
+		trigger = { check_variable = { culture = 154 } }
+		localization_key = cultureloc.154
+	}	
+	text = { # Wolof  
+		trigger = { check_variable = { culture = 155 } }
+		localization_key = cultureloc.155
+	}		
+	text = { # Ovambo  
+		trigger = { check_variable = { culture = 156 } }
+		localization_key = cultureloc.156
+	}
+	text = { # Tswana   
+		trigger = { check_variable = { culture = 157 } }
+		localization_key = cultureloc.157
+	}	
+	text = { # Zulu   
+		trigger = { check_variable = { culture = 158 } }
+		localization_key = cultureloc.158
+	}	
+	text = { # Xhosa   
+		trigger = { check_variable = { culture = 159 } }
+		localization_key = cultureloc.159
+	}	
+	text = { # Cape   
+		trigger = { check_variable = { culture = 160 } }
+		localization_key = cultureloc.160
+	}	
+	text = { # Sotho   
+		trigger = { check_variable = { culture = 161 } }
+		localization_key = cultureloc.161
+	}	
+	text = { # Malagasy   
+		trigger = { check_variable = { culture = 162 } }
+		localization_key = cultureloc.162
+	}		
+	text = { # Cuban   
+		trigger = { check_variable = { culture = 163 } }
+		localization_key = cultureloc.163
+	}
+	text = { # Cuban   
+		trigger = { check_variable = { culture = 163 } }
+		localization_key = cultureloc.163
+	}
+	text = { # Hispaniolan   
+		trigger = { check_variable = { culture = 164 } }
+		localization_key = cultureloc.164
+	}	
+	text = { # Jamacian   
+		trigger = { check_variable = { culture = 165 } }
+		localization_key = cultureloc.165
+	}	
+	text = { # Puerto Rican   
+		trigger = { check_variable = { culture = 166 } }
+		localization_key = cultureloc.166
+	}	
+	text = { # Caribbean
+		trigger = { check_variable = { culture = 167 } }
+		localization_key = cultureloc.167
+	}
+	text = { # Panaman
+		trigger = { check_variable = { culture = 168 } }
+		localization_key = cultureloc.168
+	}
+	text = { # Costa Rican
+		trigger = { check_variable = { culture = 169 } }
+		localization_key = cultureloc.169
+	}
+	text = { # Nicaraguan
+		trigger = { check_variable = { culture = 170 } }
+		localization_key = cultureloc.170
+	}
+	text = { # Honduran
+		trigger = { check_variable = { culture = 171 } }
+		localization_key = cultureloc.171
+	}	
+	text = { # El Salvadorian
+		trigger = { check_variable = { culture = 172 } }
+		localization_key = cultureloc.172
+	}	
+	text = { # Guatemalan
+		trigger = { check_variable = { culture = 173 } }
+		localization_key = cultureloc.173
+	}		
+	text = { # Belizean
+		trigger = { check_variable = { culture = 174 } }
+		localization_key = cultureloc.174
+	}
+	text = { # Pacifican
+		trigger = { check_variable = { culture = 175 } }
+		localization_key = cultureloc.175
+	}	
+	text = { # Alantican
+		trigger = { check_variable = { culture = 176 } }
+		localization_key = cultureloc.176
+	}	
+	text = { # Steel Belt
+		trigger = { check_variable = { culture = 177 } }
+		localization_key = cultureloc.177
+	}	
+	text = { # Corn Belt
+		trigger = { check_variable = { culture = 178 } }
+		localization_key = cultureloc.178
+	}
+	text = { # South Western
+		trigger = { check_variable = { culture = 179 } }
+		localization_key = cultureloc.179
+	}		
+	text = { # Rockies
+		trigger = { check_variable = { culture = 180 } }
+		localization_key = cultureloc.180
+	}	
+	text = { # Pacific
+		trigger = { check_variable = { culture = 181 } }
+		localization_key = cultureloc.181
+	}	
+	text = { # Québécois
+		trigger = { check_variable = { culture = 182 } }
+		localization_key = cultureloc.182
+	}	
+	text = { # Canadian
+		trigger = { check_variable = { culture = 183 } }
+		localization_key = cultureloc.183
+	}	
+	text = { # Formosan
+		trigger = { check_variable = { culture = 184 } }
+		localization_key = cultureloc.184
+	}	
+	text = { # Bengali
+		trigger = { check_variable = { culture = 185 } }
+		localization_key = cultureloc.185
+	}	
+	text = { # New Hindustani
+		trigger = { check_variable = { culture = 186 } }
+		localization_key = cultureloc.186
+	}	
+	text = { # Old Hindustani
+		trigger = { check_variable = { culture = 187 } }
+		localization_key = cultureloc.187
+	}	
+	text = { # Marathi
+		trigger = { check_variable = { culture = 188 } }
+		localization_key = cultureloc.188
+	}
+	text = { # Telugu
+		trigger = { check_variable = { culture = 189 } }
+		localization_key = cultureloc.189
+	}		
+	text = { # Kannadiga
+		trigger = { check_variable = { culture = 190 } }
+		localization_key = cultureloc.190
+	}	
+	text = { # Tamil
+		trigger = { check_variable = { culture = 191 } }
+		localization_key = cultureloc.191
+	}
+	text = { # Sinhalese
+		trigger = { check_variable = { culture = 192 } }
+		localization_key = cultureloc.192
+	}	
+	text = { # Bamar
+		trigger = { check_variable = { culture = 193 } }
+		localization_key = cultureloc.193
+	}	
+	text = { # Xinan
+		trigger = { check_variable = { culture = 194 } }
+		localization_key = cultureloc.194
+	}	
+	text = { # Gan
+		trigger = { check_variable = { culture = 195 } }
+		localization_key = cultureloc.195
+	}	
+	text = { # Xiang
+		trigger = { check_variable = { culture = 196 } }
+		localization_key = cultureloc.196
+	}	
+	text = { # Jianghuai
+		trigger = { check_variable = { culture = 197 } }
+		localization_key = cultureloc.197
+	}		
+	text = { # Zhongyuan
+		trigger = { check_variable = { culture = 198 } }
+		localization_key = cultureloc.198
+	}	
+	text = { # Jiaoliao
+		trigger = { check_variable = { culture = 199 } }
+		localization_key = cultureloc.199
+	}		
+	text = { # Jin
+		trigger = { check_variable = { culture = 200 } }
+		localization_key = cultureloc.200
+	}	
+	text = { # Sichuanese
+		trigger = { check_variable = { culture = 201 } }
+		localization_key = cultureloc.201
+	}	
+	text = { # Hui
+		trigger = { check_variable = { culture = 202 } }
+		localization_key = cultureloc.202
+	}	
+	text = { # Tibetan
+		trigger = { check_variable = { culture = 203 } }
+		localization_key = cultureloc.203
+	}	
+	text = { # Xibei
+		trigger = { check_variable = { culture = 204 } }
+		localization_key = cultureloc.204
+	}	
+	text = { # Uyghur
+		trigger = { check_variable = { culture = 205 } }
+		localization_key = cultureloc.205
+	}	
+	text = { # Dongbei
+		trigger = { check_variable = { culture = 206 } }
+		localization_key = cultureloc.206
+	}	
+	text = { # Papuan
+		trigger = { check_variable = { culture = 207 } }
+		localization_key = cultureloc.207
+	}	
+	text = { # Iloko
+		trigger = { check_variable = { culture = 208 } }
+		localization_key = cultureloc.208
+	}	
+	text = { # Tagalog
+		trigger = { check_variable = { culture = 209 } }
+		localization_key = cultureloc.209
+	}	
+	text = { # Bisaya
+		trigger = { check_variable = { culture = 210 } }
+		localization_key = cultureloc.210
+	}
+	text = { # Richfordian
+		trigger = { check_variable = { culture = 211 } }
+		localization_key = cultureloc.211
+	}
+	text = { # Acehnese
+		trigger = { check_variable = { culture = 212 } }
+		localization_key = cultureloc.212
+	}	
+	text = { # Malay
+		trigger = { check_variable = { culture = 213 } }
+		localization_key = cultureloc.213
+	}
+	text = { # Javanese
+		trigger = { check_variable = { culture = 214 } }
+		localization_key = cultureloc.214
+	}		
+	text = { # Sulawesi
+		trigger = { check_variable = { culture = 215 } }
+		localization_key = cultureloc.215
+	}			
+	text = { # Ambon-Timor
+		trigger = { check_variable = { culture = 216 } }
+		localization_key = cultureloc.216
+	}			
+	text = { # Austronesian
+		trigger = { check_variable = { culture = 217 } }
+		localization_key = cultureloc.217
+	}
+	text = { # Hawaiian
+		trigger = { check_variable = { culture = 218 } }
+		localization_key = cultureloc.218
+	}	
+	text = { # Occitan
+		trigger = { check_variable = { culture = 219 } }
+		localization_key = cultureloc.219
+	}	
+	text = { # New Englander
+		trigger = { check_variable = { culture = 220 } }
+		localization_key = cultureloc.220
+	}	
+	text = { # Sino-Korean
+		trigger = { check_variable = { culture = 221 } }
+		localization_key = cultureloc.221
+	}		
+
+	text = { # South Korean
+		trigger = { check_variable = { culture = 222 } }
+		localization_key = cultureloc.222
+	}	
+}
+
+
+defined_text = {
+	name = GetCultureDesc
+	text = { # It Broke or somebody forgor, plz fix
+		trigger = { check_variable = { culture = 0 } }
+		localization_key = culturelocdesc.0
+	}
+	text = { # Yankee
+		trigger = { check_variable = { culture = 1 } }
+		localization_key = culturelocdesc.1
+	}
+	text = { # Haipai
+		trigger = { check_variable = { culture = 2 } }
+		localization_key = culturelocdesc.2
+	}
+	text = { # Han
+		trigger = { check_variable = { culture = 3 } }
+		localization_key = culturelocdesc.3
+	}	
+	text = { # Corsica
+		trigger = { check_variable = { culture = 4 } }
+		localization_key = culturelocdesc.4
+	}	
+	text = { # Northern Italian
+		trigger = { check_variable = { culture = 5 } }
+		localization_key = culturelocdesc.5
+	}
+	text = { # Swiss
+		trigger = { check_variable = { culture = 6 } }
+		localization_key = culturelocdesc.6
+	}	
+	text = { # Austrian
+		trigger = { check_variable = { culture = 7 } }
+		localization_key = culturelocdesc.7
+	}	
+	text = { # Polish
+		trigger = { check_variable = { culture = 8 } }
+		localization_key = culturelocdesc.8
+	}		
+	text = { # Benelux, the product of various Benelux cultures mixing due to the Deluge
+		trigger = { check_variable = { culture = 9 } }
+		localization_key = culturelocdesc.9
+	}
+	text = { #Scottish
+		trigger = { check_variable = { culture = 10 } }
+		localization_key = culturelocdesc.10
+	}	
+	text = { #North English
+		trigger = { check_variable = { culture = 11 } }
+		localization_key = culturelocdesc.11
+	}	
+	text = { #South English
+		trigger = { check_variable = { culture = 12 } }
+		localization_key = culturelocdesc.12
+	}
+	text = { #Londoner
+		trigger = { check_variable = { culture = 13 } }
+		localization_key = culturelocdesc.13
+	}	
+	text = { #Welsh
+		trigger = { check_variable = { culture = 14 } }
+		localization_key = culturelocdesc.14
+	}
+	text = { #Irish
+		trigger = { check_variable = { culture = 15 } }
+		localization_key = culturelocdesc.15
+	}
+	text = { #Ulster
+		trigger = { check_variable = { culture = 16 } }
+		localization_key = culturelocdesc.16
+	}	
+	text = { #Faroese
+		trigger = { check_variable = { culture = 17 } }
+		localization_key = culturelocdesc.17
+	}
+	text = { #Icelandic
+		trigger = { check_variable = { culture = 18 } }
+		localization_key = culturelocdesc.18
+	}	
+	text = { #Missing Data
+		trigger = { check_variable = { culture = 19 } }
+		localization_key = culturelocdesc.19
+	}	
+	text = { #French
+		trigger = { check_variable = { culture = 20 } }
+		localization_key = culturelocdesc.20
+	}	
+	text = { #Breton
+		trigger = { check_variable = { culture = 21 } }
+		localization_key = culturelocdesc.21
+	}
+	text = { #Sardinian
+		trigger = { check_variable = { culture = 22 } }
+		localization_key = culturelocdesc.22
+	}	
+	text = { #Southern Italian
+		trigger = { check_variable = { culture = 23 } }
+		localization_key = culturelocdesc.23
+	}	
+	text = { #Sicilian
+		trigger = { check_variable = { culture = 24 } }
+		localization_key = culturelocdesc.24
+	}
+	text = { #New Venetian
+		trigger = { check_variable = { culture = 25 } }
+		localization_key = culturelocdesc.25
+	}
+	text = { #Spanish
+		trigger = { check_variable = { culture = 26 } }
+		localization_key = culturelocdesc.26
+	}	
+	text = { #Catalan
+		trigger = { check_variable = { culture = 27 } }
+		localization_key = culturelocdesc.27
+	}	
+	text = { #Basque
+		trigger = { check_variable = { culture = 28 } }
+		localization_key = culturelocdesc.28
+	}	
+	text = { #Galician
+		trigger = { check_variable = { culture = 29 } }
+		localization_key = culturelocdesc.29
+	}	
+	text = { #Andalusian
+		trigger = { check_variable = { culture = 30 } }
+		localization_key = culturelocdesc.30
+	}	
+	text = { #Portuguese
+		trigger = { check_variable = { culture = 31 } }
+		localization_key = culturelocdesc.31
+	}	
+	text = { #Bavarian
+		trigger = { check_variable = { culture = 32 } }
+		localization_key = culturelocdesc.32
+	}	
+	text = { #Czech
+		trigger = { check_variable = { culture = 33 } }
+		localization_key = culturelocdesc.33
+	}	
+	text = { #Swarbian
+		trigger = { check_variable = { culture = 34 } }
+		localization_key = culturelocdesc.34
+	}	
+	text = { #Rhinelander
+		trigger = { check_variable = { culture = 35 } }
+		localization_key = culturelocdesc.35
+	}
+	text = { #Danish
+		trigger = { check_variable = { culture = 36 } }
+		localization_key = culturelocdesc.36
+	}	
+	text = { #Norwegian
+		trigger = { check_variable = { culture = 37 } }
+		localization_key = culturelocdesc.37
+	}
+	text = { #Sami
+		trigger = { check_variable = { culture = 38 } }
+		localization_key = culturelocdesc.38
+	}
+	text = { #Swedish
+		trigger = { check_variable = { culture = 39 } }
+		localization_key = culturelocdesc.39
+	}		
+	text = { #Hungarian
+		trigger = { check_variable = { culture = 40 } }
+		localization_key = culturelocdesc.40
+	}
+	text = { #Slovakian
+		trigger = { check_variable = { culture = 41 } }
+		localization_key = culturelocdesc.41
+	}	
+	text = { #Bulgarian
+		trigger = { check_variable = { culture = 42 } }
+		localization_key = culturelocdesc.42
+	}	
+	text = { #Greek
+		trigger = { check_variable = { culture = 43 } }
+		localization_key = culturelocdesc.43
+	}	
+	text = { #Albanian
+		trigger = { check_variable = { culture = 44 } }
+		localization_key = culturelocdesc.44
+	}	
+	text = { #Slovenian
+		trigger = { check_variable = { culture = 45 } }
+		localization_key = culturelocdesc.45
+	}	
+	text = { #Croatian
+		trigger = { check_variable = { culture = 46 } }
+		localization_key = culturelocdesc.46
+	}	
+	text = { #Serbian
+		trigger = { check_variable = { culture = 47 } }
+		localization_key = culturelocdesc.47
+	}		
+	text = { #Macedonian
+		trigger = { check_variable = { culture = 48 } }
+		localization_key = culturelocdesc.48
+	}	
+	text = { #Montenegrin
+		trigger = { check_variable = { culture = 49 } }
+		localization_key = culturelocdesc.49
+	}
+	text = { #Bosniak
+		trigger = { check_variable = { culture = 50 } }
+		localization_key = culturelocdesc.50
+	}	
+	text = { #Romanian
+		trigger = { check_variable = { culture = 51 } }
+		localization_key = culturelocdesc.51
+	}
+	text = { #Moldovan
+		trigger = { check_variable = { culture = 52 } }
+		localization_key = culturelocdesc.52
+	}	
+	text = { #Ukrainian 
+		trigger = { check_variable = { culture = 53 } }
+		localization_key = culturelocdesc.53
+	}	
+	text = { #Belarusian 
+		trigger = { check_variable = { culture = 54 } }
+		localization_key = culturelocdesc.54
+	}	
+	text = { # Lithuanian 
+		trigger = { check_variable = { culture = 55 } }
+		localization_key = culturelocdesc.55
+	}	
+	text = { # Latvian 
+		trigger = { check_variable = { culture = 56 } }
+		localization_key = culturelocdesc.56
+	}	
+	text = { # Estonian 
+		trigger = { check_variable = { culture = 57 } }
+		localization_key = culturelocdesc.57
+	}	
+	text = { # Finnish 
+		trigger = { check_variable = { culture = 58 } }
+		localization_key = culturelocdesc.58
+	}	
+	text = { # Maltese 
+		trigger = { check_variable = { culture = 59 } }
+		localization_key = culturelocdesc.59
+	}	
+	text = { # Turkish 
+		trigger = { check_variable = { culture = 60 } }
+		localization_key = culturelocdesc.60
+	}	
+	text = { # Kurdish 
+		trigger = { check_variable = { culture = 61 } }
+		localization_key = culturelocdesc.61
+	}	
+	text = { # Armenian 
+		trigger = { check_variable = { culture = 62 } }
+		localization_key = culturelocdesc.62
+	}	
+	text = { # Georgian 
+		trigger = { check_variable = { culture = 63 } }
+		localization_key = culturelocdesc.63
+	}		
+	text = { # Abkhazian 
+		trigger = { check_variable = { culture = 64 } }
+		localization_key = culturelocdesc.64
+	}	
+	text = { # Azerbaijani 
+		trigger = { check_variable = { culture = 65 } }
+		localization_key = culturelocdesc.65
+	}	
+	text = { # Syrian 
+		trigger = { check_variable = { culture = 66 } }
+		localization_key = culturelocdesc.66
+	}	
+	text = { # Lebanese 
+		trigger = { check_variable = { culture = 67 } }
+		localization_key = culturelocdesc.67
+	}	
+	text = { # Iraqi 
+		trigger = { check_variable = { culture = 68 } }
+		localization_key = culturelocdesc.68
+	}	
+	text = { # Japanese 
+		trigger = { check_variable = { culture = 69 } }
+		localization_key = culturelocdesc.69
+	}
+	text = { # Korean 
+		trigger = { check_variable = { culture = 70 } }
+		localization_key = culturelocdesc.70
+	}	
+	text = { # Australian 
+		trigger = { check_variable = { culture = 71 } }
+		localization_key = culturelocdesc.71
+	}		
+	text = { # New Zealander 
+		trigger = { check_variable = { culture = 72 } }
+		localization_key = culturelocdesc.72
+	}	
+	text = { # Moroccan
+		trigger = { check_variable = { culture = 73 } }
+		localization_key = culturelocdesc.73
+	}	
+	text = { # Algerian
+		trigger = { check_variable = { culture = 74 } }
+		localization_key = culturelocdesc.74
+	}	
+	text = { # Tunisian
+		trigger = { check_variable = { culture = 75 } }
+		localization_key = culturelocdesc.75
+	}	
+	text = { # Libyan
+		trigger = { check_variable = { culture = 76 } }
+		localization_key = culturelocdesc.76
+	}
+	text = { # Egyptian
+		trigger = { check_variable = { culture = 77 } }
+		localization_key = culturelocdesc.77
+	}	
+	text = { # Sudanese
+		trigger = { check_variable = { culture = 78 } }
+		localization_key = culturelocdesc.78
+	}	
+	text = { # South Sudanese
+		trigger = { check_variable = { culture = 79 } }
+		localization_key = culturelocdesc.79
+	}	
+	text = { # Eritrean
+		trigger = { check_variable = { culture = 80 } }
+		localization_key = culturelocdesc.80
+	}	
+	text = { # Tigrayans
+		trigger = { check_variable = { culture = 81} }
+		localization_key = culturelocdesc.81
+	}		
+	text = { # Oromo
+		trigger = { check_variable = { culture = 82 } }
+		localization_key = culturelocdesc.82
+	}	
+	text = { # Afar
+		trigger = { check_variable = { culture = 83 } }
+		localization_key = culturelocdesc.83
+	}	
+	text = { # Amhara
+		trigger = { check_variable = { culture = 84 } }
+		localization_key = culturelocdesc.84
+	}	
+	text = { # Somali
+		trigger = { check_variable = { culture = 85 } }
+		localization_key = culturelocdesc.85
+	}		
+	text = { # Kazakh
+		trigger = { check_variable = { culture = 86 } }
+		localization_key = culturelocdesc.86
+	}	
+	text = { # Turkmen
+		trigger = { check_variable = { culture = 87 } }
+		localization_key = culturelocdesc.87
+	}	
+	text = { # Uzbeki
+		trigger = { check_variable = { culture = 88 } }
+		localization_key = culturelocdesc.88
+	}	
+	text = { # Karakalpak
+		trigger = { check_variable = { culture = 89 } }
+		localization_key = culturelocdesc.89
+	}	
+	text = { # Tajiks
+		trigger = { check_variable = { culture = 90 } }
+		localization_key = culturelocdesc.90
+	}		
+	text = { # Kyrgyz
+		trigger = { check_variable = { culture = 91 } }
+		localization_key = culturelocdesc.91
+	}	
+	text = { # Vietnamese
+		trigger = { check_variable = { culture = 92 } }
+		localization_key = culturelocdesc.92
+	}	
+	text = { # Laotian
+		trigger = { check_variable = { culture = 93 } }
+		localization_key = culturelocdesc.93
+	}		
+	text = { # Khmer
+		trigger = { check_variable = { culture = 94 } }
+		localization_key = culturelocdesc.94
+	}
+	text = { # Thai
+		trigger = { check_variable = { culture = 95 } }
+		localization_key = culturelocdesc.95
+	}	
+	text = { # Bhutanese
+		trigger = { check_variable = { culture = 96 } }
+		localization_key = culturelocdesc.96
+	}	
+	text = { # Nepalese
+		trigger = { check_variable = { culture = 97 } }
+		localization_key = culturelocdesc.97
+	}		
+	text = { # Yemeni
+		trigger = { check_variable = { culture = 98 } }
+		localization_key = culturelocdesc.98
+	}	
+	text = { # Omani
+		trigger = { check_variable = { culture = 99 } }
+		localization_key = culturelocdesc.99
+	}	
+	text = { # Gulf Arab
+		trigger = { check_variable = { culture = 100 } }
+		localization_key = culturelocdesc.100
+	}	
+	text = { # Dixie
+		trigger = { check_variable = { culture = 101 } }
+		localization_key = culturelocdesc.101
+	}	
+	text = { # Hijazi
+		trigger = { check_variable = { culture = 102 } }
+		localization_key = culturelocdesc.102
+	}
+	text = { # Najdi
+		trigger = { check_variable = { culture = 103 } }
+		localization_key = culturelocdesc.103
+	}	
+	text = { # Israeli Jews
+		trigger = { check_variable = { culture = 104 } }
+		localization_key = culturelocdesc.104
+	}	
+	text = { # Levantine Arabs
+		trigger = { check_variable = { culture = 105 } }
+		localization_key = culturelocdesc.105
+	}			
+	text = { # Persian
+		trigger = { check_variable = { culture = 106 } }
+		localization_key = culturelocdesc.106
+	}		
+	text = { # Balochi
+		trigger = { check_variable = { culture = 107 } }
+		localization_key = culturelocdesc.107
+	}	
+	text = { # Pashtun
+		trigger = { check_variable = { culture = 108 } }
+		localization_key = culturelocdesc.108
+	}
+	text = { # Kashmiri
+		trigger = { check_variable = { culture = 109 } }
+		localization_key = culturelocdesc.109
+	}	
+	text = { # Sindhi
+		trigger = { check_variable = { culture = 110 } }
+		localization_key = culturelocdesc.110
+	}	
+	text = { # Punjabi
+		trigger = { check_variable = { culture = 111 } }
+		localization_key = culturelocdesc.111
+	}	
+	text = { # Mongolian
+		trigger = { check_variable = { culture = 112 } }
+		localization_key = culturelocdesc.112
+	}		
+	text = { # Min
+		trigger = { check_variable = { culture = 113 } }
+		localization_key = culturelocdesc.113
+	}
+	text = { # Yue
+		trigger = { check_variable = { culture = 114 } }
+		localization_key = culturelocdesc.114
+	}	
+	text = { # Zhūjiāng Chéng, Pearl River City
+		trigger = { check_variable = { culture = 115 } }
+		localization_key = culturelocdesc.115
+	}		
+	text = { # Wu
+		trigger = { check_variable = { culture = 116 } }
+		localization_key = culturelocdesc.116
+	}	
+	text = { # Novorossiyan
+		trigger = { check_variable = { culture = 117 } }
+		localization_key = culturelocdesc.117
+	}	
+	text = { # Russian
+		trigger = { check_variable = { culture = 118 } }
+		localization_key = culturelocdesc.118
+	}		
+	text = { # Siber-Russian
+		trigger = { check_variable = { culture = 119 } }
+		localization_key = culturelocdesc.119
+	}		
+	text = { # Mexican
+		trigger = { check_variable = { culture = 120 } }
+		localization_key = culturelocdesc.120
+	}			
+	text = { # Colombian
+		trigger = { check_variable = { culture = 121 } }
+		localization_key = culturelocdesc.121
+	}		
+	text = { # Venezuelan
+		trigger = { check_variable = { culture = 122 } }
+		localization_key = culturelocdesc.122
+	}	
+	text = { # Ecuadorian
+		trigger = { check_variable = { culture = 123 } }
+		localization_key = culturelocdesc.123
+	}	
+	text = { # Peruvian
+		trigger = { check_variable = { culture = 124 } }
+		localization_key = culturelocdesc.124
+	}		
+	text = { # Bolivian
+		trigger = { check_variable = { culture = 125 } }
+		localization_key = culturelocdesc.125
+	}	
+	text = { # Argentine
+		trigger = { check_variable = { culture = 126 } }
+		localization_key = culturelocdesc.126
+	}
+	text = { # Paraguayan
+		trigger = { check_variable = { culture = 127 } }
+		localization_key = culturelocdesc.127
+	}
+	text = { # Chilean
+		trigger = { check_variable = { culture = 128 } }
+		localization_key = culturelocdesc.128
+	}	
+	text = { # Uraguayan
+		trigger = { check_variable = { culture = 129 } }
+		localization_key = culturelocdesc.129
+	}	
+	text = { # Amazonian
+		trigger = { check_variable = { culture = 130 } }
+		localization_key = culturelocdesc.130
+	}	
+	text = { # Sulista
+		trigger = { check_variable = { culture = 131 } }
+		localization_key = culturelocdesc.131
+	}			
+	text = { # Brazilian
+		trigger = { check_variable = { culture = 132 } }
+		localization_key = culturelocdesc.132
+	}			
+	text = { # Guyanan
+		trigger = { check_variable = { culture = 133 } }
+		localization_key = culturelocdesc.133
+	}	
+	text = { # Karelian
+		trigger = { check_variable = { culture = 134 } }
+		localization_key = culturelocdesc.134
+	}			
+	text = { # Buryats
+		trigger = { check_variable = { culture = 135 } }
+		localization_key = culturelocdesc.135
+	}	
+	text = { # Tuvan
+		trigger = { check_variable = { culture = 136 } }
+		localization_key = culturelocdesc.136
+	}	
+	text = { # Komi
+		trigger = { check_variable = { culture = 137 } }
+		localization_key = culturelocdesc.137
+	}		
+	text = { # Chechen
+		trigger = { check_variable = { culture = 138 } }
+		localization_key = culturelocdesc.138
+	}				
+	text = { # Saxon
+		trigger = { check_variable = { culture = 139 } }
+		localization_key = culturelocdesc.139
+	}
+	text = { # Hanoverian
+		trigger = { check_variable = { culture = 140 } }
+		localization_key = culturelocdesc.140
+	}	
+	text = { # Schleswig 
+		trigger = { check_variable = { culture = 141 } }
+		localization_key = culturelocdesc.141
+	}	
+	text = { # Brandenburger 
+		trigger = { check_variable = { culture = 142 } }
+		localization_key = culturelocdesc.142
+	}	
+	text = { # Kikuyu 
+		trigger = { check_variable = { culture = 143 } }
+		localization_key = culturelocdesc.143
+	}	
+	text = { # Baganda 
+		trigger = { check_variable = { culture = 144 } }
+		localization_key = culturelocdesc.144
+	}			
+	text = { # Sara 
+		trigger = { check_variable = { culture = 145 } }
+		localization_key = culturelocdesc.145
+	}	
+	text = { # Hausa 
+		trigger = { check_variable = { culture = 146 } }
+		localization_key = culturelocdesc.146
+	}		
+	text = { # Fon 
+		trigger = { check_variable = { culture = 147 } }
+		localization_key = culturelocdesc.147
+	}	
+	text = { # Ewe 
+		trigger = { check_variable = { culture = 148 } }
+		localization_key = culturelocdesc.148
+	}	
+	text = { # Mossi 
+		trigger = { check_variable = { culture = 149 } }
+		localization_key = culturelocdesc.149
+	}
+	text = { # Akan 
+		trigger = { check_variable = { culture = 150 } }
+		localization_key = culturelocdesc.150
+	}		
+	text = { # Bambara  
+		trigger = { check_variable = { culture = 151 } }
+		localization_key = culturelocdesc.151
+	}	
+	text = { # Bambara  
+		trigger = { check_variable = { culture = 151 } }
+		localization_key = culturelocdesc.151
+	}	
+	text = { # Fula  
+		trigger = { check_variable = { culture = 152 } }
+		localization_key = culturelocdesc.152
+	}	
+	text = { # Kpelle  
+		trigger = { check_variable = { culture = 153 } }
+		localization_key = culturelocdesc.153
+	}
+	text = { # Temne  
+		trigger = { check_variable = { culture = 154 } }
+		localization_key = culturelocdesc.154
+	}	
+	text = { # Wolof  
+		trigger = { check_variable = { culture = 155 } }
+		localization_key = culturelocdesc.155
+	}	
+	text = { # Ovambo  
+		trigger = { check_variable = { culture = 156 } }
+		localization_key = culturelocdesc.156
+	}	
+	text = { # Tswana   
+		trigger = { check_variable = { culture = 157 } }
+		localization_key = culturelocdesc.157
+	}		
+	text = { # Zulu   
+		trigger = { check_variable = { culture = 158 } }
+		localization_key = culturelocdesc.158
+	}
+	text = { # Xhosa   
+		trigger = { check_variable = { culture = 159 } }
+		localization_key = culturelocdesc.159
+	}	
+	text = { # Cape   
+		trigger = { check_variable = { culture = 160 } }
+		localization_key = culturelocdesc.160
+	}	
+	text = { # Sotho   
+		trigger = { check_variable = { culture = 161 } }
+		localization_key = culturelocdesc.161
+	}		
+	text = { # Malagasy   
+		trigger = { check_variable = { culture = 162 } }
+		localization_key = culturelocdesc.162
+	}	
+	text = { # Cuban   
+		trigger = { check_variable = { culture = 163 } }
+		localization_key = culturelocdesc.163
+	}
+	text = { # Hispaniolan   
+		trigger = { check_variable = { culture = 165 } }
+		localization_key = culturelocdesc.164
+	}		
+	text = { # Jamacian   
+		trigger = { check_variable = { culture = 165 } }
+		localization_key = culturelocdesc.165
+	}	
+	text = { # Puerto Rican   
+		trigger = { check_variable = { culture = 166 } }
+		localization_key = culturelocdesc.166
+	}	
+	text = { # Caribbean
+		trigger = { check_variable = { culture = 167 } }
+		localization_key = culturelocdesc.167
+	}	
+	text = { # Panaman
+		trigger = { check_variable = { culture = 168 } }
+		localization_key = culturelocdesc.168
+	}	
+	text = { # Costa Rican
+		trigger = { check_variable = { culture = 169 } }
+		localization_key = culturelocdesc.169
+	}	
+	text = { # Nicaraguan
+		trigger = { check_variable = { culture = 170 } }
+		localization_key = culturelocdesc.170
+	}		
+	text = { # Honduran
+		trigger = { check_variable = { culture = 171 } }
+		localization_key = culturelocdesc.171
+	}	
+	text = { # El Salvadorian
+		trigger = { check_variable = { culture = 172 } }
+		localization_key = culturelocdesc.172
+	}
+	text = { # Guatemalan
+		trigger = { check_variable = { culture = 173 } }
+		localization_key = culturelocdesc.173
+	}
+	text = { # Belizean
+		trigger = { check_variable = { culture = 174 } }
+		localization_key = culturelocdesc.174
+	}	
+	text = { # Pacifican
+		trigger = { check_variable = { culture = 175 } }
+		localization_key = culturelocdesc.175
+	}	
+	text = { # Alantican
+		trigger = { check_variable = { culture = 176 } }
+		localization_key = culturelocdesc.176
+	}	
+	text = { # Steel Belt
+		trigger = { check_variable = { culture = 177 } }
+		localization_key = culturelocdesc.177
+	}	
+	text = { # Corn Belt
+		trigger = { check_variable = { culture = 178 } }
+		localization_key = culturelocdesc.178
+	}	
+	text = { # South Western
+		trigger = { check_variable = { culture = 179 } }
+		localization_key = culturelocdesc.179
+	}	
+	text = { # Rockies
+		trigger = { check_variable = { culture = 180 } }
+		localization_key = culturelocdesc.180
+	}	
+	text = { # Pacific
+		trigger = { check_variable = { culture = 181 } }
+		localization_key = culturelocdesc.181
+	}	
+	text = { # Quebecois
+		trigger = { check_variable = { culture = 182 } }
+		localization_key = culturelocdesc.182
+	}	
+	text = { # Canadian
+		trigger = { check_variable = { culture = 183 } }
+		localization_key = culturelocdesc.183
+	}	
+	text = { # Formosan
+		trigger = { check_variable = { culture = 184 } }
+		localization_key = culturelocdesc.184
+	}	
+	text = { # Bengali
+		trigger = { check_variable = { culture = 185 } }
+		localization_key = culturelocdesc.185
+	}	
+	text = { # New Hindustani
+		trigger = { check_variable = { culture = 186 } }
+		localization_key = culturelocdesc.186
+	}	
+	text = { # Old Hindustani
+		trigger = { check_variable = { culture = 187 } }
+		localization_key = culturelocdesc.187
+	}	
+	text = { # Marathi
+		trigger = { check_variable = { culture = 188 } }
+		localization_key = culturelocdesc.188
+	}	
+	text = { # Telugu
+		trigger = { check_variable = { culture = 189 } }
+		localization_key = culturelocdesc.189
+	}	
+	text = { # Kannadiga
+		trigger = { check_variable = { culture = 190 } }
+		localization_key = culturelocdesc.190
+	}	
+	text = { # Tamil
+		trigger = { check_variable = { culture = 191 } }
+		localization_key = culturelocdesc.191
+	}		
+	text = { # Sinhalese
+		trigger = { check_variable = { culture = 192 } }
+		localization_key = culturelocdesc.192
+	}
+	text = { # Bamar
+		trigger = { check_variable = { culture = 193 } }
+		localization_key = culturelocdesc.193
+	}	
+	text = { # Xinan
+		trigger = { check_variable = { culture = 194 } }
+		localization_key = culturelocdesc.194
+	}	
+	text = { # Gan
+		trigger = { check_variable = { culture = 195 } }
+		localization_key = culturelocdesc.195
+	}	
+	text = { # Xiang
+		trigger = { check_variable = { culture = 196 } }
+		localization_key = culturelocdesc.196
+	}		
+	text = { # Jianghuai
+		trigger = { check_variable = { culture = 197 } }
+		localization_key = culturelocdesc.197
+	}	
+	text = { # Zhongyuan
+		trigger = { check_variable = { culture = 198 } }
+		localization_key = culturelocdesc.198
+	}	
+	text = { # Jiaoliao
+		trigger = { check_variable = { culture = 199 } }
+		localization_key = culturelocdesc.199
+	}	
+	text = { # Jin
+		trigger = { check_variable = { culture = 200 } }
+		localization_key = culturelocdesc.200
+	}	
+	text = { # Sichuanese
+		trigger = { check_variable = { culture = 201 } }
+		localization_key = culturelocdesc.201
+	}	
+	text = { # Hui
+		trigger = { check_variable = { culture = 202 } }
+		localization_key = culturelocdesc.202
+	}	
+	text = { # Tibetan
+		trigger = { check_variable = { culture = 203 } }
+		localization_key = culturelocdesc.203
+	}	
+	text = { # Xibei
+		trigger = { check_variable = { culture = 204 } }
+		localization_key = culturelocdesc.204
+	}	
+	text = { # Uyghur
+		trigger = { check_variable = { culture = 205 } }
+		localization_key = culturelocdesc.205
+	}	
+	text = { # Dongbei
+		trigger = { check_variable = { culture = 206 } }
+		localization_key = culturelocdesc.206
+	}	
+	text = { # Papuan
+		trigger = { check_variable = { culture = 207 } }
+		localization_key = culturelocdesc.207
+	}	
+	text = { # Iloko
+		trigger = { check_variable = { culture = 208 } }
+		localization_key = culturelocdesc.208
+	}	
+	text = { # Tagalog
+		trigger = { check_variable = { culture = 209 } }
+		localization_key = culturelocdesc.209
+	}	
+	text = { # Bisaya
+		trigger = { check_variable = { culture = 210 } }
+		localization_key = culturelocdesc.210
+	}	
+	text = { # Richfordian
+		trigger = { check_variable = { culture = 211 } }
+		localization_key = culturelocdesc.211
+	}	
+	text = { # Acehnese
+		trigger = { check_variable = { culture = 212 } }
+		localization_key = culturelocdesc.212
+	}	
+	text = { # Malay
+		trigger = { check_variable = { culture = 213 } }
+		localization_key = culturelocdesc.213
+	}		
+	text = { # Javanese
+		trigger = { check_variable = { culture = 214 } }
+		localization_key = culturelocdesc.214
+	}		
+	text = { # Sulawesi
+		trigger = { check_variable = { culture = 215 } }
+		localization_key = culturelocdesc.215
+	}	
+	text = { # Ambon-Timor
+		trigger = { check_variable = { culture = 216 } }
+		localization_key = culturelocdesc.216
+	}
+	text = { # Austronesian
+		trigger = { check_variable = { culture = 217 } }
+		localization_key = culturelocdesc.217
+	}			
+	text = { # Hawaiian
+		trigger = { check_variable = { culture = 218 } }
+		localization_key = culturelocdesc.218
+	}	
+	text = { # Occitan
+		trigger = { check_variable = { culture = 219 } }
+		localization_key = culturelocdesc.219
+	}		
+	text = { # New Englander
+		trigger = { check_variable = { culture = 220 } }
+		localization_key = culturelocdesc.220
+	}	
+	text = { # Sino-Korean
+		trigger = { check_variable = { culture = 221 } }
+		localization_key = culturelocdesc.221
+	}	
+	text = { # South Korean
+		trigger = { check_variable = { culture = 222 } }
+		localization_key = culturelocdesc.222
+	}				
+}

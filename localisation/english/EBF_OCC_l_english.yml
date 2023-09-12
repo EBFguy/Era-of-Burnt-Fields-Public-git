@@ -1,0 +1,183 @@
+﻿l_english:
+ #NAME#
+ OCC:0 "Occitania"
+ OCC_DEF:0 "The Occitania Collective"
+ OCC_ADJ:0 "Occitanian"
+
+ OCC_Unified_Franco_Lowlands:0 "French Collective"
+ OCC_Unified_Franco_Lowlands_DEF:0 "The French Collective"
+ OCC_Unified_Franco_Lowlands_ADJ:0 "Western European"
+
+ #PARTIES
+ OCC_technoutopianism_party:0 "SciSoc Initiative"
+ OCC_technoutopianism_party_long:0 "Scientific Socialism Initiative" 
+ OCC_securocracy_party:0 "Disorganised"
+ OCC_securocracy_party_long:0 "Disorganised"
+ OCC_ultranationalism_party:0 "Disorganised"
+ OCC_ultranationalism_party_long:0 "Disorganised"
+ OCC_fascist_party:0 "Disorganised"
+ OCC_fascist_party_long:0 "Disorganised"
+ OCC_autocracy_party:0 "Disorganised"
+ OCC_autocracy_party_long:0 "Disorganised" 
+ OCC_anocracy_party:0 "Disorganised"
+ OCC_anocracy_party_long:0 "Disorganised"
+ OCC_conservatism_party:0 "Disorganised"
+ OCC_conservatism_party_long:0 "Disorganised" 
+ OCC_liberalism_party:0 "Disorganised"
+ OCC_liberalism_party_long:0 "Disorganised" 
+ OCC_libertarian_socialism_party:0 "Order of the Holy Worker"
+ OCC_libertarian_socialism_party_long:0 "Order of the Holy Worker's Soul" 
+ OCC_authoritarian_socialism_party:0 "Disorganised"
+ OCC_authoritarian_socialism_party_long:0 "Disorganised" 
+ OCC_totalitarian_socialism_party:0 "Supreme Politburo"
+ OCC_totalitarian_socialism_party_long:0 "The Supreme Politburo" 
+ OCC_reductivism_party:0 "Disorganised"
+ OCC_reductivism_party_long:0 "Disorganised" 
+
+ #CHARACHTERS#
+ OCC_Supreme_Politburo:0 "Supreme Politburo"
+ POLITICS_SUPREME_POLITBURO_DESC:0 "§YThe Supreme Politburo of the Occitania Collective§!\n§W--------------§!\nThe Occitania Collective's Supreme Politburo is not a political organisation focused on providing order, prosperity, and hope but an elaborate set of excuses and lies, made to avoid violence and a total collapse of order within the nascent warlord and its vying factions.\n\nFormed as a matter of convenience and survival by three ideologically competing factions in the chaos of the European Civil War and its subsequent collapse: The SciSocs, The Holy Order of the Worker and The Total Collectivists have carved a mighty chunk out of post-war southern France all the while arguing and debasing each other in vain attempts for political gain without causing a total collapse.\n\nHowever, the winds are changing, the coming completion of Eurocity Fifteen in the bombed-out ruins of Toulouse will be a major victory for the already dominant Total Collectivists, securing their dominion over the Supreme Politburo. With few options left the cornered SciSocs and Holy Orderists are growing reckless."
+ OCC_Nicolas_Favre:0 "Nicolas Favre"
+ OCC_Urilla_Deniau:0 "Urilla Deniau"
+ OCC_Giorgio_Napolitani:0 "Giorgio Napolitani"
+
+ #MINISTERS
+ OCC_Supreme_Politburo_minister:0 "Supreme Politburo"
+ OCC_Supreme_Politburo_minister_min_desc:0 "§YThe House of the Free Workers\nTotal Collectivism§!\n--------------\n§L§!"
+ OCC_Nicolas_Favre_min_desc:0 "§YThe Thirty Third Member\nTotal Collectivism\nOld Dogmatist§!\n\n\n\n\n\n\n£GFX_idea_OCC_Nicolas_Favre_large\n\n\n\n\n\n\n\n--------------\n§LOnce considered France's premier Marxist-Leninist thinker of the mid-twenty-first century, Nicolas Favre's fall into isolation is a tragic one. A founding member of the European Federation's biggest communist party, the European All-Workers' Congress the collapse of his party during the Civil War crackdowns forced him further into political extremism as his friends and allies were forced into prisons or turned up dead in the streets. Forced into hiding because of this Favre emerged two years as one of Occitania's founding members and as a changed man. But still, Favre is undeterred, his ideology and his mind might have changed but his dedication to the worker's cause is unshakable.§!"
+ OCC_Urilla_Deniau_min_desc:0 "§YMistress of the Order of the Holy Worker's Soul\nBelief in the Worker's Soul\nMother of Man§!\n\n\n\n\n\n\n£GFX_idea_OCC_Urilla_Deniau_large\n\n\n\n\n\n\n\n--------------\n§LLong before becoming the founder of the Order of the Holy Worker's Soul, Urilla Deniau was a nun who lived in a monastery in southern France. Seeing firsthand the suffering caused by the ECW and the mass mutinies that followed, her faith in the lord was shaken by the indiscriminate bombings and killings perpetrated by out-of-control soldiers against her fellow nuns. Fleeing from the violence to Toulouse she hid amongst the ruins, hoping to survive.\n\nWith her convent destroyed and her faith weakened Urilla isolated herself from the world wondering where it all went wrong. The product of her contemplation was the Order of the Holy Worker's Soul, a humanist religion focused on improving human lives and creating a new idol of worship, mankind's ingenuity, faith and industriousness. Finding power in Occitania's Supreme Politburo Urilla's order has found a small yet growing niche within Occitania's society.§!"
+ OCC_Giorgio_Napolitani_min_desc:0 "§YChief of the SciSoc Group\nSciSoc\nConnected 'Scientist'§!\n\n\n\n\n\n\n£GFX_idea_OCC_Giorgio_Napolitani_large\n\n\n\n\n\n\n\n--------------\n§LFrom leftist biochemistry student to pseudoscientific political figure, Giorgio Napolitani's transformation began in 2055 when Gabrielist forces interrupted his university lecture taking away his professor and countless of his fellow students, never to be seen again. Joining a resistance cell soon after, Giorgio fought against Gabriel's military dictatorship in southern France every step of the way losing close friends and allies every step of the way.\n\nAfter fighting hard for a year only to see his hard work go to waste with Europe's collapse, Napolitani's transformation was completed in 2058 with the formation of the SciSoc Group, a 'research' organisation focused on finding and dispersing the most optimal traits within Humans. Using his position as one of Occitania's most powerful individuals the success of SciSoc might just be within arm's reach.§!"
+ 
+ #FOCUSES
+ OCC_the_city_communism_was_found:0 "The City Where Communism was Found"
+ OCC_tale_collective_failure:0 "A Tale of Collective Failure"
+ OCC_secure_the_grounds:0 "Secure the Grounds"
+ OCC_theatrics_for_the_workers:0 "Theatrics for the Workers"
+ OCC_call_upon_the_members:0 "Call Upon the Members"
+ OCC_politburo_undivided:0 "A Politburo, Undivided"
+ OCC_ambitions_laid_to_rest:0 "Ambitions Laid to Rest"
+ OCC_smiles_and_pleasantries:0 "Smiles and Pleasantries"
+ OCC_awaken_common_workers:0 "Awaken Common Workers..."
+ OCC_find_your_utopia:0 "...And Find Your Utopia"
+ OCC_utopia_in_flames:0 "Utopia in Flames"
+ OCC_the_workers_cloth_brings_comfort:0 "The Worker's Cloth Brings Comfort"
+ OCC_the_workers_cloth_brings_comfort_tt:0 "Urilla's victory in the Utopia Crisis will be ensured by cloth and scripture."
+ OCC_their_salvation_comes_at_last:0 "Their Salvation Comes At Last"
+ OCC_stand_firm_to_vision:0 "To Stand Firm To Vision"
+ OCC_stand_firm_to_vision_tt:0 "Favre's victory in the Utopia Crisis will be ensured by theory and vision."
+ OCC_vision_will_return:0 "The Last Rodeo Begins"
+ OCC_new_vision_of_utopia:0 "A New Vision of Utopia"
+ OCC_new_vision_of_utopia_tt:0 "Napolitani's victory in the Utopia Crisis will be ensured by science and prosperty."
+ OCC_new_day_dawns:0 "A New Day Dawns"
+ OCC_chair_occupied:0 "A Chair, Occupied"
+ 
+ #IDEAS#
+ OCC_the_powers_of_supreme_politburo:0 "The Powers of the Supreme Politburo"
+ OCC_the_powers_of_supreme_politburo_desc:0 "The power of the Supreme Politburo is not vested in its strength to govern the country of Occitania, but to prevent its collapse from political infighting. Comprised of 1000 members from all across Occitania and anybody else willing enough to join it, yhe three dominant factions must negotiate with their less radical counterparts to ensure their agenda gets through."
+ OCC_issues_of_workplace_revolutionism:0 "The Issues of the Workers"
+ OCC_issues_of_workplace_revolutionism_desc:0 "The average worker has no interest in the political machinations of the extremist members of the Supreme Politburo. All they wish for is a good meal and a return to the better times of the European Federation. Getting the average person to become interested and better yet aligned to any of the factions will require significant work."
+ OCC_growing_power_games:0 "Growing Power Games"
+ OCC_growing_power_games_desc:0 "Day by day, as disagreements mount and the Politburo spirals ever deeper into internal conflict, power plays are made by the three major factions within the Politburo. The Old Guard, comprised of the original fifty-seven members try their best to resist the dogmatic religious fanatics of Urilla Deniau and the so-called scientific revolutionaries of Giorgio Napolitani."
+ OCC_our_eurocity:0 "Our Eurocity"
+ OCC_our_eurocity_desc:0 "The transformation of Toulouse from bombed-out ruins into a southern stronghold has been a long and difficult process for the Politburo, but now it is almost complete. With the rechristening of Toulouse into Eurocity Fifteen just a few months away it seems as if the power games within the Politburo may only ignite into a much more dangerous conflict."
+ OCC_utopia_crisis:0 "The Utopia Crisis"
+
+ #DECISIONS#
+ EBF_OCC_debug_decisions:0 "Occitania Debug"
+
+ 
+ EBF_OCC_house_of_the_free_workers_decisions:0 "Within the Supreme Politburo"
+ OCC_workers_hall_faction_0:0 "§oNicolas Favre's§!"
+ OCC_workers_hall_faction_1:0 "§rUrilla Deniau's§!"
+ OCC_workers_hall_faction_2:0 "§UGiorgio Napolitan's§!"
+
+ OCC_GUI_free_workers_unity_bar_txt:0 "Politburo Unity"
+ OCC_free_workers_Decision_Unity_Bar_tt:0 "The Politburo is at §Y[?OCC_workers_house_unity_var]%§! Unity which is changing every week at a rate of §Y[OCC_workers_house_unity_var_change_get]%§!.\n\nIf Unity goes below §R25%§! the Supreme Politburo will §Rbegin to falter.§!"
+ EBF_OCC_unity_tick_change:0 "Weekly Unity Change"
+ EBF_OCC_get_real_unity_tick_txt:0 "[?EBF_OCC_unity_change_loc]"
+ OCC_GUI_free_workers_desc_txt:0 "Founded by 1000 member the Supreme Politburo of Occitania is the state's legislative and executive"
+ 
+ OCC_GUI_free_workers_power_bar_txt:0 "Power Distribution"
+ OCC_free_workers_Decision_GUI_Bar_tt:0 "§oTotCols:§! §Y[?OCC_workers_house_array^0]§! §rWorker's Belief:§! §Y[?OCC_workers_house_array^1]§! §USciSocs:§! §Y[?OCC_workers_house_array^2]§!\nTheir powers are by §Y[OCC_workers_house_favre_var_change_get]§!, §Y[OCC_workers_house_urilla_var_change_get]§!, §Y[OCC_workers_house_giorgio_var_change_get]§! respectively each week.\n\nEach faction's power is a represenation of their influence, favours and power over the Supreme Politburo and its members."
+ EBF_OCC_worker_house_dec:0 "This will §RDecrease§! [OCCgethousefaction] influence by §Y[?t_change_tt]§!"
+ EBF_OCC_worker_house_inc:0 "This will §GIncrease§! [OCCgethousefaction] influence by §Y[?t_change_tt]§!"
+ EBF_OCC_get_real_favre_tick_txt:0 "[?OCC_workers_house_tick_array_loc]"
+ EBF_OCC_get_real_urilla_tick_txt:0 "[?OCC_workers_house_tick_array_loc]"
+ EBF_OCC_get_real_giorgio_tick_txt:0 "[?OCC_workers_house_tick_array_loc]"
+ OCC_workers_house_tick_array:0 "Weekly §oTotCol§! Change"
+ OCC_workers_house_tick_arrayone:0 "Weekly §rWorker's Soulist§! Change"
+ OCC_workers_house_tick_arraytwo:0 "Weekly §USciSoc§! Change"
+ EBF_OCC_supreme_politburo_unity_inc:0 "This will §Gincrease§! the Supreme Politburo's §YUnity§! by §Y[?t_change_tt]§!"
+ EBF_OCC_supreme_politburo_unity_dec:0 "This will §Rdecrease§! the Supreme Politburo's §YUnity§! by §Y[?t_change_tt]§!"
+ EBF_OCC_supreme_politburo_unity_tick_inc:0 "This will §GIncrease§! the Supreme Politburo's §YWeekly Unity§! by §Y[?t_change_tt]§!"
+ EBF_OCC_supreme_politburo_unity_tick_dec:0 "This will §RDecrease§! the Supreme Politburo's §YWeekly Unity§! by §Y[?t_change_tt]§!"
+ EBF_OCC_worker_house_tick_inc:0 "This will §GIncrease§! [OCCgethousefaction] weekly influence change by §Y[?t_change_tt]§!"
+ EBF_OCC_worker_house_tick_dec:0 "This will §RDecrease§! [OCCgethousefaction] weekly influence change by §Y[?t_change_tt]§!"
+
+
+ #EVENT#
+
+ OCC_starting_tree.1.t: "The City of Salvation"
+ OCC_starting_tree.1.desc: ""
+ OCC_starting_tree.1.a: "..."
+
+ OCC_starting_tree.2.t: "Screams From Within"
+ OCC_starting_tree.2.desc: ""
+ OCC_starting_tree.2.a: "..."
+
+ OCC_starting_tree.3.t: "Screams From Without"
+ OCC_starting_tree.3.desc: ""
+ OCC_starting_tree.3.a: "..."
+
+ OCC_starting_tree.4.t: "Mass-Producible Synthmeals, and Fun"
+ OCC_starting_tree.4.desc: ""
+ OCC_starting_tree.4.a: "..."
+
+ OCC_starting_tree.5.t: "The Worker's Arise"
+ OCC_starting_tree.5.desc: ""
+ OCC_starting_tree.5.a: "..."
+
+ OCC_starting_tree.6.t: "A Grand Opening"
+ OCC_starting_tree.6.desc: ""
+ OCC_starting_tree.6.a: "..."
+
+ OCC_starting_tree.7.t: "A Grand Tragedy"
+ OCC_starting_tree.7.desc: ""
+ OCC_starting_tree.7.a: "..."
+
+ OCC_starting_tree.8.t: "The Supreme Politburo Emergency Session"
+ OCC_starting_tree.8.desc: ""
+ OCC_starting_tree.8.a: "..."
+
+ OCC_starting_tree.9.t: "The Choice"
+ OCC_starting_tree.9.desc: ""
+ OCC_starting_tree.9.a: "..."
+
+ OCC_starting_tree.10.t: "For Hope, God, And Man"
+ OCC_starting_tree.10.desc: ""
+ OCC_starting_tree.10.a: "..."
+
+ OCC_starting_tree.11.t: "A New Politburo"
+ OCC_starting_tree.11.desc: ""
+ OCC_starting_tree.11.a: "..."
+
+ OCC_starting_tree.12.t: "Let the Research Begin"
+ OCC_starting_tree.12.desc: ""
+ OCC_starting_tree.12.a: "..."
+
+ OCC_starting_tree.13.t: "The Crown of Occitania"
+ OCC_starting_tree.13.desc.a: ""
+ OCC_starting_tree.13.desc.b: ""
+ OCC_starting_tree.13.desc.c: ""
+ OCC_starting_tree.13.a: "..."
+ OCC_starting_tree.13.b: "..."
+ OCC_starting_tree.13.c: "..."
+
+ #MISC#
+ OCC_Eurocity_15:0 "EuroCity 15"
+ OCC_utopia_crisis_event_tt:0 "§RWith Utopia in crisis§!, the focus tree changes."
+ OCC_favre_chosen_tt:0 ""
+ OCC_napolitani_chosen_tt:0 ""
+ OCC_deniau_chosen_tt:0 ""
+ OCC_workers_house_unity_custom_cost_loc:0 "Power §Y[?OCC_workers_house_unity_var_check]§!"
+ OCC_workers_house_unity_custom_cost_loc_blocked:0 "Power §R[?OCC_workers_house_unity_var_check]§!"

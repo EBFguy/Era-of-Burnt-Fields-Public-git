@@ -1,0 +1,29 @@
+
+state={
+	id=984
+	name="STATE_984"
+	manpower = 10
+	
+	state_category = city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			7480 = {
+				naval_base = 3
+			}
+		}
+		
+		victory_points = {
+			7480 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		860 492 4756 7640 11942 10520 7480
+	}
+}

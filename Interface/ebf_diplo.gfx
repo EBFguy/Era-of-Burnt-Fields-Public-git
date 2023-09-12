@@ -1,0 +1,56 @@
+spriteTypes = {	
+
+	#### anarchy
+
+	SpriteType = {
+		name = "GFX_EBF_laws_category_no_bar"
+		texturefile = "gfx/interface/EBF_laws_category_no_bar.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_greenland"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_greenland.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_sahara"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_sahara.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_middle_africa"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_middle_africa.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_india"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_india.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_zagros"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_zagros.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_japan"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_japan.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_anarchy_picture_anarchy_nagasaki"
+		texturefile = "gfx/interface/EBF_anarchy/anarchy_nagasaki.dds"			
+	}
+
+	#### shanghai pact
+
+	SpriteType = {
+		name = "GFX_faction_icon_shanghai_pact"
+		texturefile = "gfx/interface/EBF_factions/EBF_shanghai_pact_icon.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_faction_icon_Commonwealth_of_Democracies"
+		texturefile = "gfx/interface/EBF_factions/EBF_Commonwealth_of_Democracies.dds"			
+	}	
+}

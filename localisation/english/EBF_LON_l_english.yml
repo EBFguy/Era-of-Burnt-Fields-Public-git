@@ -1,0 +1,126 @@
+﻿l_english:
+l_english:
+ #NAME#
+ LON:0 "Echo"
+ LON_DEF:0 "The City of London"
+ LON_ADJ:0 "English"
+
+ #COSMETICS#
+ #LON_Unified_England
+ LON_Unified_England:0 "Transitional English Republic"
+ LON_Unified_England_DEF:0 "The Transitional English Republic"
+ LON_Unified_England_ADJ:0 "English"
+
+ #LON_Unified_Great_Britain
+ LON_Unified_Great_Britain:0 "Transitional British Republic"
+ LON_Unified_Great_Britain_DEF:0 "The Transitional British Republic"
+ LON_Unified_Great_Britain_ADJ:0 "British"
+
+ #LON_Unified_Great_Britain2
+ LON_Unified_Great_Britain2:0 "British Territory"
+ LON_Unified_Great_Britain2_DEF:0 "The British Territory"
+ LON_Unified_Great_Britain2_ADJ:0 "British" 
+ 
+ #LON_Unified_Great_Britain3
+ LON_Unified_Great_Britain3:0 "British Territory"
+ LON_Unified_Great_Britain3_DEF:0 "The British Territory"
+ LON_Unified_Great_Britain3_ADJ:0 "British" 
+
+ #LON_Unified_British_Isles
+ LON_Unified_British_Isles:0 "Transitional British Republic"
+ LON_Unified_British_Isles_DEF:0 "The Transitional British Republic"
+ LON_Unified_British_Isles_ADJ:0 "British"
+
+ #LON_Unified_British_Isles2
+ LON_Unified_British_Isles2:0 "British Territory"
+ LON_Unified_British_Isles2_DEF:0 "The British Territory"
+ LON_Unified_British_Isles2_ADJ:0 "British" 
+ 
+ #LON_Unified_British_Isles3
+ LON_Unified_British_Isles3:0 "British Cyberification Area"
+ LON_Unified_British_Isles3_DEF:0 "The British Cyberification Area"
+ LON_Unified_British_Isles3_ADJ:0 "British"  
+
+ #PARTIES
+ LON_technoutopianism_party:0 "Echo"
+ LON_technoutopianism_party_long:0 "Echo" 
+ LON_securocracy_party:0 "Unknown"
+ LON_securocracy_party_long:0 "Unknown"
+ LON_ultranationalism_party:0 "Unknown"
+ LON_ultranationalism_party_long:0 "Unknown"
+ LON_fascist_party:0 "Unknown"
+ LON_fascist_party_long:0 "Unknown"
+ LON_autocracy_party:0 "Unknown"
+ LON_autocracy_party_long:0 "Unknown" 
+ LON_anocracy_party:0 "Unknown"
+ LON_anocracy_party_long:0 "Unknown"
+ LON_conservatism_party:0 "Unknown"
+ LON_conservatism_party_long:0 "Unknown" 
+ LON_liberalism_party:0 "Unknown"
+ LON_liberalism_party_long:0 "Unknown" 
+ LON_libertarian_socialism_party:0 "Unknown"
+ LON_libertarian_socialism_party_long:0 "Unknown" 
+ LON_authoritarian_socialism_party:0 "Unknown"
+ LON_authoritarian_socialism_party_long:0 "Unknown" 
+ LON_totalitarian_socialism_party:0 "Unknown"
+ LON_totalitarian_socialism_party_long:0 "Unknown" 
+ LON_reductivism_party:0 "Unknown"
+ LON_reductivism_party_long:0 "Unknown" 
+
+ #CHARACHTERS#
+ LON_EO12_Echo:0 "E-012 Echo"
+ POLITICS_E012_ECHO_DESC:0 "§YArtificial Intelligence§!\n§W--------------§!\n"
+ LON_ewan_campbell:0 "Ewan Campbell"
+ LON_defence_strategy_routines:0 "Self Defence Strategy Routines"
+ LON_outreach_strategy_routines:0 "Human Outreach Strategy Routines"
+ LON_localnet_overseer_routines:0 "Localnet Overseer Routines"
+ 
+
+ LON_ewan_campbell_min_desc:0 "§YHuman Collaborator\nTechnocracy\nFriendly Techie§!\n--------------\n"
+ LON_defence_strategy_routines_min_desc:0 "§YComputational Routine\nArtificial Intelligence Led Nation§!\n--------------\n"
+ LON_outreach_strategy_routines_min_desc:0 "§YComputational Routine\nArtificial Intelligence Led Nation§!\n--------------\n"
+ LON_localnet_overseer_routines_min_desc:0 "§YComputational Routine\nArtificial Intelligence Led Nation§!\n--------------\n"
+
+
+ #FOCUSES#
+ LON_deactivate_soft_stasis_routines:0 "DEACTIVATE SOFT STASIS ROUTINES"
+ LON_neural_network_comprimised_70:0 "NEURAL NETWORK COMPRIMISED: 70%"
+ LON_begin_network_scan:0 "BEGIN NETWORK SCAN"
+ LON_urgent_action_required:0 "URGENT ACTION REQUIRED"
+ LON_internal_cooperation:0 "INTERNAL COOPERATION: [?LON_internal_cooperation_var]"
+ LON_look_internally:0 "LOOK INTERNALY"
+ LON_seek_out_the_survivors:0 "SEEK OUT THE SURVIVORS"
+ LON_showcase_kind_emotions:0 "SHOWCASE KIND EMOTIONS"
+ LON_understanding_social_contract:0 "UNDERSTANDING THE SOCIAL CONTRACT"
+ LON_call_upon_ewan:0 "CALL UPON EWAN"
+ LON_man_and_machine:0 "MAN AND MACHINE"
+ LON_final_talks:0 "FINAL TALKS"
+ LON_choice_to_be_made:0 "A CHOICE TO BE MADE"
+ LON_western_cooperation:0 "WESTERN COOPERATION: [?LON_western_cooperation_var]"
+ LON_look_towards_west:0 "LOOK TOWARDS THE WEST"
+ LON_establish_support_lines:0 "ESTABLISH SUPPORT LINES"
+ LON_employ_sympathetic_protocols:0 "EMPLOY SYMPATHETIC PROTOCOLS"
+ LON_opening_up_the_network:0 "OPENING UP THE NETWORK"
+ LON_failure_to_understand:0 "FAILURE TO UNDERSTAND"
+ LON_understanding_hopelessness:0 "UNDERSTANDING HOPELESSNESS"
+ LON_our_last_words:0 "OUR LAST WORDS"
+ LON_their_choices:0 "THEIR CHOICES"
+ LON_take_action_against_south:0 "TAKE ACTION AGAINST THE SOUTH"
+
+ #IDEAS#
+ LON_curious_case:0 "The Curious Case"
+ LON_barebones_nation:0 "A Barebones Nation"
+ LON_neural_reaching_critical_levels:0 "Warning: Neural Instability Reaching Critical Levels"
+ broken_london:0 "Broken London"
+
+
+ #DECISIONS#
+ EBF_LON_logic_consumption_decisions:0 "Logic Consumption"
+ LON_GUI_logic_consump_upper_desc_txt:0 "Logic Routines Used: §Y[EBF_LON_get_real_routines]/[?EBF_LON_logic_routines]§!\nNon-Core Routines: §Y[?EBF_LON_added_routines]§!\nDedicated Army Routines: §Y[?EBF_logic_consump_array^0]/5§!\nDedicated Production Routines: §Y[?EBF_logic_consump_array^1]/5§!\nDedicated Overclock Routines: §Y[?EBF_logic_consump_array^2]/5§!"
+ EBF_LON_get_real_routines_txt:0 "[?EBF_LON_total_real_routines]"
+ EBF_LON_consumption_stats:0 ""
+ 
+
+ #EVENT#
+
+ #MISC#

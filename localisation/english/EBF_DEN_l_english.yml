@@ -1,0 +1,185 @@
+﻿l_english:
+l_english:
+ #NAME#
+ DEN:0 "Denmark"
+ DEN_DEF:0 "The Democratic Republic of Denmark"
+ DEN_ADJ:0 "Denmark"
+ #COSMETICS#
+
+ #PARTIES
+ DEN_technoutopianism_party:0 "Unknown"
+ DEN_technoutopianism_party_long:0 "Unknown" 
+ DEN_securocracy_party:0 "Unknown"
+ DEN_securocracy_party_long:0 "Unknown"
+ DEN_ultranationalism_party:0 "Unknown"
+ DEN_ultranationalism_party_long:0 "Unknown"
+ DEN_fascist_party:0 "Unknown"
+ DEN_fascist_party_long:0 "Unknown"
+ DEN_autocracy_party:0 "House of Glücksburg"
+ DEN_autocracy_party_long:0 "House of Glücksburg" 
+ DEN_anocracy_party:0 "Unknown"
+ DEN_anocracy_party_long:0 "Unknown"
+ DEN_conservatism_party:0 "Unity Party"
+ DEN_conservatism_party_long:0 "Unity Party" 
+ DEN_liberalism_party:0 "Holger Danske"
+ DEN_liberalism_party_long:0 "Holger Danske" 
+ DEN_libertarian_socialism_party:0 "Reformist Coalition"
+ DEN_libertarian_socialism_party_long:0 "Reformist Coalition" 
+ DEN_authoritarian_socialism_party:0 "Unity Party"
+ DEN_authoritarian_socialism_party_long:0 "Unity Party" 
+ DEN_totalitarian_socialism_party:0 "AFD"
+ DEN_totalitarian_socialism_party_long:0 "Armed Forces of Denmark" 
+ DEN_reductivism_party:0 "Unknown"
+ DEN_reductivism_party_long:0 "Unknown" 
+
+ #CHARACHTERS#
+ DEN_Niels_Christensen:0 "Niels Christensen"
+ POLITICS_NIELS_CHRISTENSEN_DESC:0 "§YPremier of Denmark§!\n§W--------------§!\nNiels Christensen, the current Premier of Denmark, is a shadow of the politician he once was. Despite his theoretical power, he is now merely a figurehead in a government that is constantly in a tug of war between the ministers and the military. The Premier must now follow orders, as it's highly unlikely that either side would allow him to do whatever he wants.\n\nNiels began his political career after graduating from the University of Copenhagen and won the vote for office in Kolding due to a dwindling economy. He later served as governor of Zealand in the European Federation until its collapse. Using his voice and image, Niels campaigned on the idea of reuniting Denmark under its own flag and consolidated power with military presence.\n\nHis tenure as Premier has been far from successful, resulting in a power struggle that dissolved the Danish Parliament and granted near-unlimited power to the Premier. Widely hated by citizens, military, and ministers alike, Niels must now claw back opinions from all three sides to stay in power.\n\nThe military no longer directly answers to the Premier, instead following the lead of the Armed Forces head. They fear that the ministers will cut off funding, as the economy is struggling on both ends. Meanwhile, the ministers ensure that the Premier's "wishes" are carried out, but only if they agree with them. If the Premier's desires conflict with their own, they could deny them. However, they know that going against the military would be disastrous, and they are not warm to the idea of a rogue military coup.\n\nAs a result, the Premier's role is far from safe or powerful. He is constantly caught between the treasury and practically the entire administration on one hand and the armed forces on the other. His notorious reputation as a drunk and his political indecisiveness have made him widely hated by citizens, military, and ministers alike. To stay in power, he must claw back opinions from all three sides and carefully navigate the tug of war that is the Danish government."
+ DEN_Frederik_Voldb:0 "Frederik Voldb"
+ POLITICS_FREDERIK_VOLDB_DESC:0 "§YPremier of Denmark§!\n§W--------------§!\n"
+ DEN_Anders_Pedersen:0 "Anders Pederson"
+ POLITICS_ANDERS_PEDERSON_DESC:0 "§YPremier of Denmark§!\n§W--------------§!\n"
+ DEN_Tobias_Lippert:0 "Tobias Lippert"
+ DEN_Tobias_Lippert_min_desc:0 "§YMinister for Agriculture\nAuthoritarian Socialism\nChronic Meddler§!\n\n\n\n\n\n\n£GFX_idea_DEN_Tobias_Lippert_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ DEN_Mads_Christian_Dahl:0 "Mads Christian Dahl"
+ DEN_Mads_Christian_Dahl_min_desc:0 "§YMinister for the Economy\nSocial Democracy\nEconomic Reformist§!\n\n\n\n\n\n\n£GFX_idea_DEN_Mads_Christian_Dahl_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ DEN_Simon_Schmidt:0 "Simon Schmidt"
+ DEN_Simon_Schmidt_min_desc:0 "§YMinister for Foreign Affairs\nTotalitarian Socialism\nSmoothtalking Socialist§!\n\n\n\n\n\n\n£GFX_idea_DEN_Simon_Schmidt_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ DEN_Mads_Olsen:0 "Mads Olsen"
+ DEN_Mads_Olsen_min_desc:0 "§YChief of Defence\nMilitary Dictatorship\nChronic Meddler§!\n\n\n\n\n\n\n£GFX_idea_DEN_Mads_Olsen_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+
+
+ #FOCUSES#
+ DEN_nights_in_copenhagen:0 "Nights in Copenhagen"
+ DEN_controlling_the_population:0 "Controlling the Population"
+ DEN_promises_to_population:0 "Promises To The Population"
+ DEN_amend_medical_care:0 "Amend Medical Care"
+ DEN_reform_labour_laws:0 "Reform Labour Laws"
+ DEN_breaking_the_bottleneck:0 "Breaking the Bottleneck"
+ DEN_waking_the_giant:0 "Waking the Giant"
+ DEN_specimen_of_sin:0 "Specimen of Sin"
+ DEN_deputies_in_town:0 "Deputies in Town"
+ DEN_regional_troubles:0 "Regional Troubles"
+ DEN_billing_the_population:0 "Billing the Population"
+ DEN_downsizing_agriculture:0 "Downsizing Agriculture"
+ DEN_sub_standard_issue:0 "Sub-Standard Issue"
+ DEN_give_me_a_break:0 "Give Me a Break"
+ DEN_the_storied_stage:0 "The Storied Stage"
+ 
+ DEN_election_of_the_second_premier:0 "Election of the Second Premier"
+ DEN_different_caliber:0 "Different Caliber"
+ DEN_convincing_the_cabinet:0 "Convincing the Cabinet"
+ DEN_dealing_with_judas:0 "Dealing with Judas"
+ DEN_burying_some_evidence:0 "Burying Some Evidence"
+ DEN_the_puppet:0 "The Puppet"
+ DEN_intensify_self_sufficiency_programs:0 "Intensify Self-Sufficiency Programs"
+ DEN_intensify_investment_programs:0 "Intensify Investment Programs"
+ DEN_intensify_infrastructure_programs:0 "Intensify Infrastructure Programs"
+ DEN_ministerial_experience:0 "Ministerial Experience"
+ DEN_gathering_support:0 "Gathering Support"
+ DEN_tip_toe_premier_elect:0 "Tipe Toe, Premier Elect"
+
+ #IDEAS#
+ DEN_Banned_Works_program:0 "Banned Works"
+ DEN_Banned_Works_program_desc:0 "Literature is a powerful tool. It is able to provide insight and inspire political and social currents throughout the globe, all within a few strokes of the author's hand. However, if the text contains incorrect information whether the author intends it or not, such fallacies will misinform its consumers. The Unity Party understands this issue and has decided to cooperate with the Legislative Body in order to curate the selection of works allowed to be published and distributed in Denmark.\n\nThe Party assures the opposition that the removal of these works is a crucial part in maintaining a stable society, and that newer texts produced by party approved publishing houses will be enough to supplement the banned works. Besides, according to the party themselves…\n\nFor what are the best books but those that tell us what we already know?"
+ DEN_Holger_Danske:0 "Holger Danske"
+ DEN_Holger_Danske_desc:0 "Initially an insignificant minor group, their popularity and ranks have grown significantly in recent years, and they now pose a threat to the regime. The group continually resists the government's authoritarian practices while advocating for a return to democracy and freedom for the Danish people. Only time will tell if the spirit of Holger lives through them and their rebellion as they attempt to help the people in their time of need."
+ DEN_Holger_Danske_1:0 "Holger Danske"
+ DEN_Disgruntled_Privateers:0 "Disgruntled Privateers"
+ DEN_Disgruntled_Privateers_desc:0 "Arla and Maersk, two of Denmark's largest corporations, have gained an alarming amount of influence over the country's government. This allowed them enough power to make some demands from us which are rarely satisfied, and their interests seem to take precedence over the needs of the Danish people. We should think twice of crossing them or it could have grave consequences on our economy."
+ DEN_Schleswig_Pressure:0 "Schleswig Pressure"
+ DEN_Schleswig_Pressure_desc:0 "The neighboring region of Schleswig-Holstein has been pressuring the Danish government for years economically and militarily. The far-right government of Schleswig-Holstein seeks to expand its territory and impose its ideology on the Danish people. They also want to eliminate any leftist movements in Copenhagen, which they see as a threat to their vision for the region."
+ DEN_Counterfeit_Currency:0 "Counterfeit Currency"
+ DEN_Counterfeit_Currency_desc:0 "The Danish currency, the Kroner, has been plagued by counterfeiting since its return following the collapse of the European Federation. The influx of fake currency has caused inflation in the economy, and the government must act swiftly to resolve the issue before it spirals out of control."
+
+
+ # Decisions
+  DEN_regional_resistance_decisions: "Regional Resistance"
+  DEN_regional_resistance_decisions_desc: ""
+
+ #EVENT#
+ DEN_starting_tree.1.t:0 "Fairytale Gone Bust"
+ DEN_starting_tree.1.desc:0 "Niels Christensen bursts into the restroom of a popular nightclub, gasping for air and feeling sick to his stomach. He knows it's the result of a night of partying a little too hard, but it's too late to worry about that now. He quickly makes his way to one of the stalls and falls to the floor beside the toilet, hoping that the nausea will pass soon.\n\nAs he sits there, waiting and preparing himself for whatever may come next, he's left alone with his thoughts. His security entourage has made sure that his privacy is secure within the restrooms, so he doesn't have to worry about any unwanted interruptions.\n\nBut as he sits there, he can't help but feel a growing sense of regret. He thinks back to the lawyer he used to be, the one who fought his way up the ladder to become a powerful figure in the country's administration. But now that he's in charge, things seem to be falling apart around him.\n\nThe military dissolved the parliament with barely any resistance from him, essentially confirming their place within the administration. He realizes that he's left his ministers with a blank cheque for far too long, and now they've grown power-hungry and are constantly scheming against him.\n\nHe feels guilty for failing to reform the economy in a way that would protect more families and create a more robust social safety net. Instead, the economy is arguably in its worst state ever, and his attempts to nationalize companies to protect consumers were ultimately unsuccessful. The powerful Business Committee, led by companies like Arla, ended up with even more power than before, some even enjoying a monopoly status. The administration now dances around these worshippers of capitalism, afraid of retribution.\n\nMeanwhile, tensions are rising along the border with Schleswig-Holstein, with potential conflict looming. Strikes and sabotage in Northern Jutland are breeding instability across the country, as the rebel organization "Holger Danske" seeks to liberate the Danes from what they see as a senseless government. Niels struggles to come to terms with the fact that he has become the face of oppression in his own country.\n\nFeeling worse than before, he decides to drown out his thoughts with more alcohol and the sharp lights of the nightclub. He stands up, takes a deep breath, and exits the stall, ready to face whatever comes next."
+ DEN_starting_tree.1.a:0 "The show goes on."
+
+ DEN_starting_tree.2.t:0 "The Briefing Room"
+ DEN_starting_tree.2.desc:0 "You are being briefed in a cold, dark room in the middle of the night. You were told to hastily meet there over the phone, and with you are the Minister of Justice, Minister of Armed Forces and Commander"
+ DEN_starting_tree.2.a:0 ""
+
+ DEN_starting_tree.3.t:0 "NAME NOT GIVEN"
+ DEN_starting_tree.3.desc:0 "Advisory board tells you that support is le very low (so sad) and tells you that you kinda urgently need to fix your image. They give you two obvious choices; Amending a medical system that has been in shambles for a decade because of the European federation being the European federation, or reforming labour laws that were improperly implemented during the early years of the republic and actually never fixed. It's become a source of much debate in recent times as people fear that they might be able to be exploited as more or less slave labour - although, this has never actually occurred, rumours and stories have spread around cities of some less fortunate people being exploited in inhuman conditions, though the validity of these claims are far fetched."
+ DEN_starting_tree.3.a:0 ""
+
+ DEN_starting_tree.4.t:0 "The Lay Off"
+ DEN_starting_tree.4.desc:0 "A member of a random committee for cultural preservation(or some irrelevant BULLSHIT) arrives late to work at Amalienborg. He has tons of paperwork from different ministries which he was about to begin diving into, before being called into a meeting. He waits outside where he notices that a lot of people are also beginning to queue. He gets inside and is informed coldly that he has been laid off."
+ DEN_starting_tree.4.a:0 ""
+
+ DEN_starting_tree.5.t:0 "Refilling an Arsenal"
+ DEN_starting_tree.5.desc:0 "You’re busy working for once. You feel like it’s been, for once, a productive day. However, suddenly you are disturbed by the Commander of the Armed Forces, who immediately heads for your drink cabinet. He fixes himself a whiskey before loudly remarking about being finished with the project. Before you can even gather your thoughts and question what he’s talking about, he sits himself down, says that the budget allocation he received has been spent appropriately, while simultaneously being a little on the nose about “not receiving enough money”. The step up is a bit impressive for the admittedly tight budget given the circumstances, which would have been an impressive showcase of capability from the commanders side had it not been for the fact you were in the possession of these documents for days prior to this from the Minister of Defence, giving the impression it was not actually conducted by the Commander himself as he otherwise claims."
+ DEN_starting_tree.5.a:0 ""
+
+ DEN_starting_tree.6.t:0 "A Demagogue’s Day to Day"
+ DEN_starting_tree.6.desc:0 "A fellow we’ll for now call “Noah Mortensen”(will make characters in depth at some point), enters the offices of Danmarks Radio, the state owned broadcasting company. Though it is filled at this time of the day to the brim with all forms of characters, from tired interns to exhausted writers, the crowd disperses around Noah slightly, almost as if he’s repellant to them; Indeed, they are petrified of him, as he is well known to fire employees who he dislikes for even the most minor reasons, and no one truely knows where they are afterwards. Not that they would want to contact the now disgraced former coworkers anyways, in fear of retribution from Noah. However, he is in an exquisite mood today, as he has received permission to write a speech he will perform on national television about the values of the people and cooperation, and more so, demonize the “freedom-fighting” resistance organization dubbed “Holger Danske”. He is left a lot of wiggle room with this task, though they still insist he should stick to the general idea. He gets to work."
+ DEN_starting_tree.6.a:0 ""
+
+ DEN_starting_tree.7.t:0 "Lokalfred, Verdensfred"
+ DEN_starting_tree.7.desc:0 "This event takes place in the eyes of a citizen in Copenhagen, who is on his way to, idk work or to get bread or smth like that, and while he’s out there military transport vehicles carrying troops plows through the city. He looks at an alleyway, where he can see soldiers running with loaded weapons and looking across the street, the soldiers are kicking down a door to a house. He returns home, and reflects on the naive hopes of a better and easier life following the socialist government's establishment."
+ DEN_starting_tree.7.a:0 ""
+
+
+ DEN_starting_tree.8.t:0 "The Briefing Room, Act II"
+ DEN_starting_tree.8.desc:0 "Once again called to the briefing room, however at this time it’s early in the morning of the day. It’s an urgent meeting. You met with the Minister of Justice, the Minister of Defence. The Commander of the Armed Forces could not be there. You were presented with more details in regards to the resistance overview. You go through it all. That’s basically the entire meeting. Once he leaves the room, he goes back to drinking :)"
+ DEN_starting_tree.8.a:0 ""
+
+ DEN_starting_tree.9.t:0 "Freezing the Treasury"
+ DEN_starting_tree.9.desc:0 "Uh oh!!! We kinda overspent in the last few years and as such the debt we’ve accumulated is reaching a point where if we don’t do something about it quickly, we might cause a severe economic crisis. As such, you are invited to a meeting with the minister of economy, where you are given two options: Cut agriculture spending, or military spending. These are some of the biggest liabilities in our budget that realistically may be overspending. It’s a difficult choice that will no doubt create enemies. Until you’ve figured out a victim, and until the economic plan steps into effect, we have no choice but to freeze the treasury for the time being."
+ DEN_starting_tree.9.a:0 ""
+
+ DEN_starting_tree.10.t:0 "'Tunes of War'"
+ DEN_starting_tree.10.desc:0 "Basically, the secretary states that you have a visitor, and before she has a chance to finish or say who it is, the Commander of the Armed forces barges into your office. Barraging insults at you, it’s actually a little surprising that the old guy can continue for that long. Regardless, not long after the Minister of Defense arrives. He isn’t in a happy mood either. They are both angered by the massive budget cuts they received, and now believe that this was a direct attack towards the military and nothing else. They urge you to reconsider your decision, but you’ve already decided; the military gets a budget cut."
+ DEN_starting_tree.10.a:0 ""
+
+ DEN_starting_tree.11.t:0 "Pit of Snakes"
+ DEN_starting_tree.11.desc:0 "You have been summoned to a meeting by the ministers. When you enter, you quickly realize the tone is not that of happiness. The agricultural minister tells you to take a seat. He questions you, if you understand how the economy of Denmark is made up, before pointing out that most of the money stems, one way or the other, through the agricultural sector. He also makes the point of Denmark being a lot more reliant on agriculture than they wish to be - imported foods have decreased and foods from agriculture have seen a massive spike in general demand. It was already a delicate balance that required total cooperation from Arla to be able to keep the country mostly fed, and now they question if it’s actually feasible. The agricultural minister finishes off by telling you that he is very disappointed in your judgement. Then, he gestures rudely towards the door. Throughout the entire meeting, he was the only person to ever say anything."
+ DEN_starting_tree.11.a:0 ""
+
+ DEN_starting_tree.12.t:0 "A Stroll Downtown"
+ DEN_starting_tree.12.desc:0 "It’s been a long time since you felt truly relaxed given everything around you collapsing in on itself. As such you felt compelled to take a stroll and go to a cafe. You inform security of your plans, who insist on following you. Reluctantly, you accept. You go past a cafe, filled to the brim with onlookers, before stopping and saying you want a cup of coffee. Before you even get the chance to enter, you get pulled back by security as police run into the cafe and get every other customer out in a rush. They all look periled, quietly upsetting you because, is this truly how it feels to live under your reign? Filled with doubt, you take a seat outside, looking out at the port of Copenhagen. Despite the tranquil setting and breezy peaceful weather, it feels unnatural because of the empty street. Indeed, the entire street was empty beyond security officers and police officers blocking off the ends from citizens eager to take a look at you. Enough is enough. You decide to inform the security to let the people through - what harm would they do? And besides, you’ve long felt like you’ve lost touch with the common person, the one group you specifically wanted to help out. Despite heavy disapproval from the entourage, they eventually let people through. At first people just shot you glances and hurried past, but eventually a crowd began to form around the cafe. Suddenly someone barges through the crowd to barrage you with insults, calling you a traitor to your own ideals, an idiot who messed the country up, and before you can even contemplate what to respond with, he’s tackled by a police officer and dragged away by a few more. You wonder what would happen to him."
+ DEN_starting_tree.12.a:0 ""
+
+ DEN_starting_tree.13.t:0 "Unnamed"
+ DEN_starting_tree.13.desc:0 "You’re scheduled to broadcast a nationwide speech. It’s tense all around the palace, because Niels is nowhere to be found - where could he be? Suddenly, the massive doors in Amalienborg’s inner chamber slams open, as a clearly intoxicated Niels Christiansen walks over to his seat. Disbelief and shocked looks were shared among the crew from Danmarks Radio. They ask if he’s aware that it’s going to be broadcasted to the entire country. He tells them to get on with it, where they count down from 20 and eventually yell live. Niels keeps looking down at his papers. For another 15 seconds, nothing happens, while this is being broadcasted live on a scheduled tv program, watched by most of the population. Finally, looking up, he greets the viewers, slurring his words and going woefully off script. Talking about how great the weather was outside, for example (you can go wild with it, just write something that makes him look like a fool). He pauses, and says under his breath something along the lines of “I need a hotdog” or something dumb like that. The entire thing is just a disaster of a speech. If you want to, you can throw in a reference to “A political landscape so violent - it feels like a movie”. That probably will make maho and trun happy. Beyond that, just emphasize the fact that he is inebriated, he’s doing something stupid, everyone is like “oh shit fuck” among the government and what not, the public is hella mad, and confidence in the administration is at an all time low. This is massively controversial. Also if you want to, you can add him drinking mid speech lol. He is a massive drunk after all :) Also, he has to finish off by saying “Gud bevare Danmark.” it means god bless denmark and its tradition."
+ DEN_starting_tree.13.a:0 ""
+
+ # Scripted Effects
+  DEN_regional_resistance_initial_tt: "§YResistance Overview§! has been unlocked in §YDecisions§!.\n"
+  DEN_regional_resistance_broken_tt: "§YResistance Overview§! has changed, §Rsignificantly§!.\n"
+
+  DEN_regional_resistance_map_faction_change_tt: "§Y[GetDENRegionalResistanceRegionNameContext2]§! is now controlled by the §Y[GetDENRegionalResistanceFactionNameContext3]§!.\n"
+  DEN_regional_resistance_faction_power_change_stability_tt: "§YStability§! changes by [?temp_value|+=2%%].\n"
+  DEN_regional_resistance_faction_power_change_other_tt: "§Y[GetDENRegionalResistanceFactionNameContext3]§! Faction Power changes by [?temp_value|+=2%%].\n"
+
+ # Scripted GUIs
+  DEN_regional_resistance_map_all_tt: "§YDenmark§! is under the control of the §YAdministration§!\n\n§RFor now...§!"
+  DEN_regional_resistance_map_button_tt: "§Y[GetDENRegionalResistanceRegionNameContext1]§! is under the control of the §Y[GetDENRegionalResistanceFactionNameContext1]§!"
+  DEN_regional_resistance_faction_icon_tt: "[GetDENRegionalResistanceFactionPowerText]"  
+
+ # Scripted Localisation
+  DEN_regional_resistance_region_name_1: "Hovedstaden"
+  DEN_regional_resistance_region_name_2: "Midtjylland"
+  DEN_regional_resistance_region_name_3: "Nordjylland"
+  DEN_regional_resistance_region_name_4: "Syddanmark"
+  DEN_regional_resistance_region_name_5: "Sjælland"
+
+  DEN_regional_resistance_faction_name_1: "Administration"
+  DEN_regional_resistance_faction_name_2: "Military"
+  DEN_regional_resistance_faction_name_3: "Holger Danske"
+  DEN_regional_resistance_faction_name_4: "Stability"
+
+  DEN_regional_resistance_faction_power_stability: "§YStability§! is currently [?4.DEN_regional_resistance_faction_power|Y2%%]"
+  DEN_regional_resistance_faction_power_other: "§Y[GetDENRegionalResistanceFactionNameContext2]§! Faction Power: [?v:DEN_regional_resistance_faction_power|Y2%%]"
+
+ #MISC#
+ DEN_drunkard:0 "Drunkard"
+ EBF_DEN_the_people_will_remember:0 "§YThe People Will remember our promises.§!"
+ DEN_starting_tree13_tt:0 "§RGud..bevare Danmark?§!"

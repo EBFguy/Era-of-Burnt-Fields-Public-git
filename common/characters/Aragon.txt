@@ -1,0 +1,15 @@
+characters = {
+	ARA_Josep_Bolívar = {
+		name = "Josep Bolívar"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARA/Portrait_ARA_Josep_Bolívar.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_social_liberal_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JOSEP_BOLIVAR_DESC"
+		}
+	}
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 3527552
+	
+	state_category = large_city
+
+	resources={
+		lcm=3
+		hcm=3
+		circuitry=3
+		food=3
+		electricity=3
+		lunar_titanium=3
+	}
+
+	history={
+		add_core_of = BRM
+		owner = BRM
+		victory_points = {
+			6377 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			6325 = {
+				naval_base = 1
+			}
+
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		526 3271 3395 6218 6263 6298 6325 6377 6513 9238 9264 9375 11402 11468 11493 241
+	}
+}

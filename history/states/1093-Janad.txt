@@ -1,0 +1,20 @@
+state={
+	id=1093
+	name="STATE_1093"
+	manpower = 10
+
+	state_category = pastoral
+	local_supplies = 0.0
+	history={
+		add_core_of = YEM
+		owner = YEM
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		13438 1973 13442 13443
+	}
+}

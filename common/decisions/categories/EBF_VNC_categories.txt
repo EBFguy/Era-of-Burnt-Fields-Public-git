@@ -1,0 +1,36 @@
+EBF_VNC_debug_decisions = {
+	icon = generic_research
+	allowed = {
+		tag = VNC
+	}
+	visible = {
+		is_debug = yes
+	}
+	visible_when_empty = YES
+	priority = 1
+}
+
+EBF_VNC_shining_city_decisions = {
+	icon = generic_research
+	allowed = {
+		tag = VNC
+	}
+#	visible = {
+#		has_country_flag = EBF_VNC_shining_city_unlocked
+#	}
+	visible_when_empty = yes
+	priority = 100000000
+}
+
+EBF_VNC_cyclical_politics_decisions = {
+	icon = generic_research
+	scripted_gui = VNC_GUI_corporate_politics_Paci_Decision_GUI
+	allowed = {
+		tag = VNC
+	}
+#	visible = {
+#		has_country_flag = EBF_VNC_cyclical_politics_unlocked
+#	}
+	visible_when_empty = yes
+	priority = 100000000
+}

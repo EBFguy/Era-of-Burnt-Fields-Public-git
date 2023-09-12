@@ -1,0 +1,129 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "Infobox_Open_Container"
+		position = { x = -540 y = 2 }
+		orientation = UPPER_RIGHT
+		
+		buttonType = {
+			name ="Infobox_Icon"
+			spriteType = "GFX_government_button"
+			buttonText = EBF_infobox_icon_text
+			buttonFont = "hoi_16mbs"
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "Infobox_Window"
+		size = { width = 860 height = 460 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes
+
+		background = {
+			name = "EBF_infobox_fake_bg"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name = "EBF_Infobox_BG"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_EBF_InfoBox_BG"
+			alwaystransparent = yes
+		}		
+
+		instantTextBoxType = {
+			name = "EBF_Infobox_Title"
+			position = { x = 150 y = 25 }
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "Era of Burnt Fields Infobox"
+			maxWidth = 600
+			maxHeight = 50
+			fixedsize = yes	
+			format = center
+		}
+		instantTextBoxType = {
+			name = "EBF_Infobox_Text"
+			position = { x = 45 y = 75 }
+			font = "hoi_20bs"
+			text = [GetInfoBoxMainText]
+			maxWidth = 530
+			maxHeight = 381
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}	
+		#SIDE PANEL STUFF	
+		buttonType = {
+			name ="EBF_Infobox_player_flag"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x= 591 y = 75 }
+		}			
+		instantTextBoxType = {
+			name = "EBF_Infobox_nationname"
+			position = { x = 700 y = 90 }
+			font = "hoi_20bs"
+			text = "[ROOT.getname]"
+			maxWidth = 100
+			maxHeight = 410
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}	
+		buttonType = {
+			name = "Infobox_National_Info_Button"
+			position = { x = -210 y = 163 }
+			quadTextureSprite ="GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			buttonFont = "hoi_16mbs"
+			buttonText = EBF_Infobox_national_text_button
+		}		
+		buttonType = {
+			name = "Infobox_Global_Info_Button"
+			position = { x = -210 y = 226 }
+			quadTextureSprite ="GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			buttonFont = "hoi_16mbs"
+			buttonText = EBF_Infobox_global_text_button
+		}	
+		buttonType = {
+			name = "Infobox_encyclopedia_Info_Button"
+			position = { x = -210 y = 290 }
+			quadTextureSprite ="GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			buttonFont = "hoi_16mbs"
+			buttonText = EBF_Infobox_encyclopedia_text_button
+		}	
+		buttonType = {
+			name = "Infobox_mod_Info_Button"
+			position = { x = -210 y = 355 }
+			quadTextureSprite ="GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			buttonFont = "hoi_16mbs"
+			buttonText = EBF_Infobox_mod_text_button
+		}					
+		buttonType = {
+			name = "Infobox_Close"
+			position = { x = -210 y = 415 }
+			quadTextureSprite ="GFX_government_button"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			buttonFont = "hoi_16mbs"
+			buttonText = "[GetInfoBoxCloseText]"
+			pdx_tooltip = EBF_Infobox_Close_tt
+			pdx_tooltip_delayed = EBF_Infobox_Close_delayed_tt
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=721
+	name="STATE_721"
+	manpower = 455604
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = TIM
+		owner = TIM
+		buildings = {
+			infrastructure = 3
+			12190 ={
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		1326 12178 12190 13001 
+	}
+}

@@ -1,0 +1,90 @@
+division_template = {
+	name = "Divisão de Infantaria" #Infantry Division
+	division_names_group = POR_infantry_division
+	regiments = {
+		infantry = { x = 0 y = 0 }
+ 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+ 		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+ 		infantry = { x = 2 y = 0 }
+ 		infantry = { x = 2 y = 1 }
+ 	}
+}
+
+division_template = {
+	name = "Divisão de Infantaria Blindada" #Mechanised Infantry Division
+	regiments = {
+		infantry = { x = 0 y = 0 }
+ 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Divisão de Carros de Combate" #Tank Division
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Batalhão de Operações Especiais" #Special Forces Battalion
+	division_names_group = POR_specop_battalion
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		exoskeleton = { x = 1 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Batalhão de Guarnição" #Garrison Battalion
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+ 		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+
+	}
+}
+
+units = {
+	#Lisbon
+	division = {
+		location = "11805"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		location = "970"
+		division_template = "Divisão de Infantaria"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		location = "924"
+		division_template = "Batalhão de Operações Especiais"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.6
+    }
+
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=141
+	name="STATE_141"
+	manpower = 2153003
+	state_category = large_town
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = SWE
+		owner = SWE
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 6
+		}
+		
+	}
+
+	provinces={
+		35 3106 6084 6164 6188 9109 9185 9209 11044 11082 11188 13097 13098 
+	}
+}

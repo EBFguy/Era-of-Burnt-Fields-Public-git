@@ -1,0 +1,24 @@
+
+state={
+	id=122
+	name="STATE_122"
+
+	history={
+		add_core_of = WAL
+		owner = WAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		311 3274 13487 13489 13490 
+	}
+	manpower=1194554
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

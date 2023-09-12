@@ -1,0 +1,323 @@
+ideas = {
+	country = {
+		#India Ideas
+		IND_rising_and_falling = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IND_rising_and_falling"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.1
+				drift_defence_factor = 0.15
+				political_power_factor = -0.1
+			}
+		}			
+		IND_the_control_system = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IND_the_control_system"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				custom_modifier_tooltip = IND_the_control_system_tt
+			}
+		}	
+		IND_screams_of_woe_out_west = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea IND_screams_of_woe_out_west"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				war_support_factor = -0.1
+				political_power_factor = -0.15
+				send_volunteer_size = 0
+			}
+		}		
+		#central india				
+		CID_reintegration_process = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CID_reintegration_process"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = 0.15
+			}
+
+			targeted_modifier = {
+				tag = IND
+				mic_to_target_factor = 0.5
+			}
+
+			targeted_modifier = {
+				tag = IND
+				cic_to_target_factor = 0.25
+			}
+		}	
+		#Maharashtra
+		MAH_the_southern_watch = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAH_the_southern_watch"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_defence_factor = 0.15
+				army_core_attack_factor = 0.05
+			}
+		}	
+
+		#Hindustan
+		HIN_ruins_of_old = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HIN_ruins_of_old"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				terrain_penalty_reduction = -0.3
+				org_loss_when_moving = 0.1
+				dig_in_speed_factor = 0.05
+			}
+		}				
+
+		HIN_old_indias_fortress = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea HIN_old_indias_fortress"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {		
+				stability_factor = -0.15
+				political_power_factor = -0.05
+			}
+		}		
+
+		#Kashmir
+		KAS_the_isolated_post = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KAS_the_isolated_post"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_core_defence_factor = 0.1
+				dig_in_speed_factor = 0.05
+			}
+		}	
+
+		#Pakistan
+		PAK_the_final_piece = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PAK_the_final_piece"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = 0.1
+				political_power_factor = 0.05
+			}
+		}		
+
+		PAK_incomplete_pacification = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PAK_incomplete_pacification"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {		
+				stability_factor = -0.25
+				out_of_supply_factor = -0.1
+			}
+		}	
+
+		#First Army
+		FAR_malini_lost_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FAR_malini_lost_army"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = -0.5
+				surrender_limit = -0.1
+			}
+		}		
+
+		FAR_decimation_at_khuzdar = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea FAR_decimation_at_khuzdar"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {			
+				war_support_factor = -0.3
+			}
+
+			targeted_modifier = {
+				tag = RDL
+				attack_bonus_against = -0.5
+			}
+		}	
+
+		#Red Legion
+		RDL_a_legion_with_a_state = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RDL_a_legion_with_a_state"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				surrender_limit = 0.25
+				war_support_factor = 0.3
+				war_stability_factor = 0.1
+			}
+		}
+		RDL_the_march_east_begins = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RDL_the_march_east_begins"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_attack_speed_factor = 0.25
+				army_attack_factor = 0.25
+				training_time_army_factor = -0.1
+			}
+		}		
+
+		RDL_victory_at_khuzdar = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea RDL_victory_at_khuzdar"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_attack_factor = 0.1	
+				weekly_manpower = 1000 
+			}
+		}							
+	}
+}

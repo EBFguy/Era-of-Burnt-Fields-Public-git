@@ -1,0 +1,248 @@
+characters = {
+	#MAJOR RUSSIAN CHARACHTERS/LEADERS
+	RUS_Grigory_Chkalov = {
+		name = RUS_Grigory_Chkalov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_AUTHDEM_GRIGORY_CHKALOV_DESC"
+		}
+	}
+	RUS_Grigoriy_Sudoplatov = {
+		name = RUS_Grigoriy_Sudoplatov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+				small = "GFX_idea_EBF_grigoriy_sudoplatov"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_technoutopianism_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_GRIGORIY_SUDOPLATOV_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = RUS_Grigoriy_Sudoplatov_min
+			allowed = { original_tag = RUS }
+			traits = { minister_neurologist_turned_minister }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}		
+	}	
+	RUS_Miron_Osipov = {
+		name = RUS_Miron_Osipov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultramilitarism_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_MIRON_OSPIOV_DESC"
+		}
+	}
+	
+	RUS_Nikifor_Kovalev = {
+		name = RUS_Nikifor_Kovalev
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUS_Rurik_Belov"
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = RUS_Nikifor_Kovalev_min
+			allowed = { original_tag = RUS }
+			traits = {
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}		
+	RUS_Timur_Sokolov = {
+		name = RUS_Timur_Sokolov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_corporatism_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_TIMUR_SOKOLOV_DESC"
+		}
+	}
+	RUS_Valeriy_Zakharov = {
+		name = RUS_Valeriy_Zakharov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Valeriy_Zakharov.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_occupation_authority_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_VALERIY_ZAKHAROV_DESC"
+		}
+	}	
+	RUS_Igor_Kozlov = {
+		name = RUS_Igor_Kozlov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_national_conservative_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_IGOR_KOZLOV_DESC"
+		}
+	}		
+	RUS_Roksana_Smirnova = {
+		name = RUS_Roksana_Smirnova
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_christian_democrat_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_ROKSANA_SMIRNOVA_DESC"
+		}
+	}				
+	RUS_Andrei_Damian = {
+		name = RUS_Andrei_Damian
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_left_communism_subtype
+			expire = "2999.10.20"
+			#desc = ""
+		}
+	}	
+
+	#MINISTERS
+	RUS_Mikhail_Tarasov = {
+		name = RUS_Mikhail_Tarasov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUS_mikhail_tarasov"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = RUS_Mikhail_Tarasov_min
+			allowed = { original_tag = RUS }
+			traits = { minister_well_connected }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	RUS_Pavel_Nikitin = {
+		name = RUS_Pavel_Nikitin
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUS_Pavel_Nikitin"
+				large = "gfx/leaders/RUS/Portrait_RUS_Valeriy_Zakharov.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2999.10.20"
+			desc = "POLITICS_VALERIY_ZAKHAROV_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = RUS_Pavel_Nikitin_min
+			allowed = { original_tag = RUS }
+			traits = { minister_distrusting_general }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}		
+	}		
+	RUS_Rurik_Belov = {
+		name = RUS_Rurik_Belov
+		portraits = {
+			civilian = {
+				small = "GFX_idea_RUS_Rurik_Belov"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = RUS_Rurik_Belov_min
+			allowed = { original_tag = RUS }
+			traits = { minister_quiet_yes_man }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+
+	#PLACEHOLDERS
+	RUS_REDACTED_sec = {
+		name = RUS_REDACTED_sec
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = securocracy_securocracy_subtype
+			expire = "2999.10.20"
+			#desc = ""
+		}
+	}
+	RUS_UNKNOWN_libsoc = {
+		name = RUS_UNKNOWN_libsoc
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2999.10.20"
+			#desc = ""
+		}
+	}	
+	RUS_Disorganised = {
+		name = RUS_Disorganised
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_authoritarian_socialism_subtype
+			expire = "2999.10.20"
+			#desc = ""
+		}
+		country_leader = {
+			ideology = reductivism_reductivism_subtype
+			expire = "2999.10.20"
+			#desc = ""
+		}
+
+	}	
+}

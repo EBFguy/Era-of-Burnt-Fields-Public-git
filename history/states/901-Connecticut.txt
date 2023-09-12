@@ -1,0 +1,22 @@
+state={
+	id=901
+	name="STATE_901"
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		9850 
+	}
+	manpower=11593657
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

@@ -1,0 +1,63 @@
+EBF_ecodecay_0 = { #Artificial Ecosphere
+	icon = GFX_ecodecay_0
+	local_supplies = 0.25 
+	local_resources = 0.1
+	local_manpower = 0.3
+}
+
+EBF_ecodecay_1 = { #Total Ecodecay
+	icon = GFX_ecodecay_0
+	local_supplies = -0.5 
+	local_manpower = -0.15
+}
+
+EBF_ecodecay_2 = { #Dangerous Ecodecay
+	icon = GFX_ecodecay_0
+	local_supplies = -0.25 
+	local_manpower = -0.1
+}
+
+EBF_ecodecay_3 = { #Great Ecodecay
+	icon = GFX_ecodecay_0
+	local_supplies = -0.1
+	local_manpower = -0.05
+}
+
+EBF_ecodecay_4 = { #Middling Ecodecay
+	icon = GFX_ecodecay_0
+	local_supplies = -0.05
+}
+
+EBF_ecodecay_5 = { #Trace Ecodecay
+	icon = GFX_ecodecay_0
+	local_supplies = -0.05
+}
+
+EBF_ecodecay_6 = { #Minimal Ecodecay
+	icon = GFX_ecodecay_0
+	local_supplies = 0.05
+}
+
+EBF_ground_investment = {
+	
+
+}
+
+EBF_air_investment = {
+	
+}
+
+EBF_naval_investment = {
+	
+}
+
+EBF_research_investment = {
+	
+}
+
+EBF_civil_services_investment = {
+	
+}
+
+
+

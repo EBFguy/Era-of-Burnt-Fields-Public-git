@@ -1,0 +1,94 @@
+﻿capital = 112
+
+# Vacant
+recruit_character = POR_Generic_Vacant_psi
+recruit_character = POR_Generic_Vacant_pi_0
+recruit_character = POR_Generic_Vacant_pi_1
+recruit_character = POR_Generic_Vacant_pi_2
+
+# Starting tech
+set_technology = {
+
+}
+
+oob = "POR_2061"
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 2
+    anocracy = 5
+    conservatism = 35
+    liberalism = 49
+    libertarian_socialism = 3
+    authoritarian_socialism = 4
+    totalitarian_socialism = 2
+    reductivism = 0
+}
+
+recruit_character = POR_Joao_Botelho
+recruit_character = POR_Espiridiao_Rabelo
+recruit_character = POR_Eduardo_Silveira
+recruit_character = POR_Jose_Magalhaes
+recruit_character = POR_Pedro_Linhares
+recruit_character = POR_Isidoro_Prestes
+
+add_ideas = {
+
+    #LAWS#
+    EBF_multiparty_system
+    EBF_internal_opposition
+    EBF_secularism
+    EBF_universal_voting
+    EBF_free_press
+    EBF_all_unions_allowed
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+    #ECON LAWS#
+    EBF_export_focus
+    EBF_decent_minimum_wage
+    EBF_8_hours
+    EBF_primary_human_model
+    #MIL LAWS#
+    EBF_two_year_draft
+    EBF_basic_training
+    EBF_ordinary_policing
+    EBF_rules_of_engagement
+    #SOC DEV#
+    EBF_secondary_schooling
+    EBF_widespread_poverty
+    EBF_economic_collapse
+    EBF_political_interference
+    EBF_manufactory_lines
+    EBF_functional_administration
+
+    #MINISTERS#
+    POR_Espiridiao_Rabelo_min
+    POR_Eduardo_Silveira_min
+    POR_Jose_Magalhaes_min
+    POR_Pedro_Linhares_min
+
+    #IDEAS#
+    POR_surrounded_by_wolves
+    POR_dissolving_coalition
+    POR_our_collapsed_economy
+
+}
+
+add_ideas = {
+    Free_Internet_member
+}

@@ -1,0 +1,123 @@
+scripted_gui = {
+	EBF_countrypoliticsview_ideology_info = {
+		context_type = player_context
+		window_name = "countrypoliticsview_ideology_info"
+		parent_window_token = politics_tab
+	}
+	
+	EBF_countrypolitics_workaround_bg_upper = {
+		context_type = player_context
+		window_name = "countrypolitics_workaround_bg_upper"
+		parent_window_token = politics_tab
+
+		visible = {
+			always = yes
+		}
+	}	
+
+
+	EBF_countrydiplomacyview_ideology_info = {
+		context_type = selected_country_context
+		window_name = "countrydiplomacyview_ideology_info"
+		parent_window_token = selected_country_view_diplomacy
+	}
+
+	EBF_countrydiplomacyview_faction_info = {
+		context_type = selected_country_context
+		window_name = "countrydiplomacyview_faction_info"
+		parent_window_token = selected_country_view_diplomacy
+		triggers = {					
+			shanghai_pact_faction_status_visible = {
+				is_in_faction = yes
+				PRC = { is_faction_leader = yes }
+				OR = {
+					tag = PRC
+					is_in_faction_with = PRC
+				}				
+				has_global_flag = PRC_Shanghai_Pact_Exists
+			}
+			wacdep_faction_status_visible = {
+				is_in_faction = yes
+				NIG = { is_faction_leader = yes }
+				OR = {
+					tag = NIG
+					is_in_faction_with = NIG
+				}				
+				has_global_flag = NIG_WACEP_Exists
+			}		
+			cod_faction_status_visible = {
+				is_in_faction = yes
+				OR = {
+					CAN = { is_faction_leader = yes }
+					AST = { is_faction_leader = yes }
+				}	
+				OR = {
+					tag = CAN
+					is_in_faction_with = CAN
+					tag = AST
+					is_in_faction_with = AST
+				}	
+				has_global_flag = CAN_COD_Exists				
+			}		
+			mpa_faction_status_visible = {
+				is_in_faction = yes
+				BOL = { is_faction_leader = yes }
+				OR = {
+					tag = BOL
+					is_in_faction_with = BOL
+				}	
+				has_global_flag = BOL_MPA_Exists
+			}
+			andes_faction_faction_status_visible = {
+				is_in_faction = yes
+				CHL = { is_faction_leader = yes }
+				OR = {
+					tag = CHL
+					is_in_faction_with = CHL
+				}	
+				has_global_flag = CHL_Andes_Pact_Exists
+			}				
+			central_asia_faction_status_visible = {
+				is_in_faction = yes
+				KGR = { is_faction_leader = yes }
+				OR = {
+					tag = KGR
+					is_in_faction_with = KGR
+				}
+				has_global_flag = KGR_Central_asia_Exists
+			}		
+			gulf_union_faction_status_visible = {
+				is_in_faction = yes
+				IRA = { is_faction_leader = yes }
+				OR = {
+					tag = IRA
+					is_in_faction_with = IRA
+				}
+				has_global_flag = IRA_GU_Exists
+			}					
+			current_faction_membership_visible = {
+				#OR = {
+					is_in_faction = yes
+					#HAS_IDEA = FUTURE NONE FACTION MEMBERS OF FACTION
+				#}
+			}
+		}
+		properties = {
+			current_faction_membership = {
+				image = "[This.GetFactionMembeship_icon]"
+			}
+		}
+	}	
+
+	EBF_anarchy_overlay = {
+		context_type = selected_country_context
+		window_name = "countrydiplomacyview_anarchy_overlay"
+		parent_window_token = selected_country_view_diplomacy
+		visible = { original_tag = ANA }
+		properties = {
+			anarchy_picture_gui = {
+				image = "[This.GetAnarchyPicture_icon]"
+			}
+		}
+	}	
+}

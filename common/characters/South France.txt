@@ -1,0 +1,15 @@
+characters = {
+	SIA_Frank_Vandame = {
+		name = "Frank Vandame"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIA/Portrait_SIA_Frank_Vandame.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FRANK_VANDAME_DESC"
+		}
+	}
+}

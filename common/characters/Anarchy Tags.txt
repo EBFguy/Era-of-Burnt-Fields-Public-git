@@ -1,0 +1,15 @@
+characters = {
+	NEZ_anarchy = {
+		name = NEZ_anarchy
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = reductivism_burned_fields_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NEZ_ANARCHY_DESC"
+		}
+	}	
+}

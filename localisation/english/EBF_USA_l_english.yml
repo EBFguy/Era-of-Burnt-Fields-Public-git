@@ -1,0 +1,65 @@
+﻿l_english:
+
+ #NAMES#
+ USA:0 "United States of America"
+ USA_DEF:0 "The United States of America"
+ USA_ADJ:0 "American"
+
+ #COSMETICS#
+
+ #PARTIES#
+ #UNITED STATES
+ USA_technoutopianism_party:0 "DISORGANISED"
+ USA_technoutopianism_party_long:0 "DISORGANISED" 
+ USA_securocracy_party:0 "DISORGANISED"
+ USA_securocracy_party_long:0 "DISORGANISED"
+ USA_ultranationalism_party:0 "DISORGANISED"
+ USA_ultranationalism_party_long:0 "DISORGANISED"
+ USA_fascist_party:0 "§RBANNED§!"
+ USA_fascist_party_long:0 "§RBANNED§!"
+ USA_autocracy_party:0 "USPUG"
+ USA_autocracy_party_long:0 "United States Provisional Unity Government" 
+ USA_anocracy_party:0 "USAF"
+ USA_anocracy_party_long:0 "United States Armed Forces" 
+ USA_conservatism_party:0 "§RBANNED§!"
+ USA_conservatism_party_long:0 "§RBANNED§!" 
+ USA_liberalism_party:0 "§RBANNED§!"
+ USA_liberalism_party_long:0 "§RBANNED§!" 
+ USA_libertarian_socialism_party:0 "§RBANNED§!"
+ USA_libertarian_socialism_party_long:0 "§RBANNED§!" 
+ USA_authoritarian_socialism_party:0 "§RBANNED§!"
+ USA_authoritarian_socialism_party_long:0 "§RBANNED§!" 
+ USA_totalitarian_socialism_party:0 "§RBANNED§!"
+ USA_totalitarian_socialism_party_long:0 "§RBANNED§!" 
+ USA_reductivism_party:0 "DISORGANISED"
+ USA_reductivism_party_long:0 "DISORGANISED" 
+
+ USA_atlantic_party:0 "BWGG"
+ USA_atlantic_party_long:0 "Boston-Washington Gigalopolis Governorship"   
+
+ #CHARACHTERS#
+ USA_elijah_solomon:0 "Elijah Solomon"
+ POLITICS_ELIJAH_SOLOMON_DESC:0 "§YPresident of the United States America§!\n§W--------------§!\n"
+
+ #TRAITS#
+ USA_first_dictator:0 "The First Dictator"
+
+ #IDEAS# 
+ #PRE CIVIL WAR
+ USA_fallen_star_spangled_banner:0 "The Fallen Star Spangled Banner"
+ USA_their_playgrounds:0 "Their Playgrounds"
+ USA_broken_committees_departments_bureaus:0 "Broken Committees, Departments and Bureaus"
+ USA_fully_fallen_flag:0 "The Fully Fallen Flag"
+ USA_just_metal_tarmac:0 "Just Metal and Tarmac"
+
+ #FLO
+
+
+
+ #FOCUSES#
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC# 

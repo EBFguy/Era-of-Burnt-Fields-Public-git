@@ -1,0 +1,29 @@
+
+state={
+	id=190
+	name="STATE_190"
+	manpower = 549035
+	local_supplies = 0.0 
+	state_category = rural
+	
+	history={
+		add_core_of = BLT
+		owner = BLT
+		victory_points = {
+			9262 3
+		}
+		
+		buildings = {
+			infrastructure = 3
+			9262 = {
+				naval_base = 1
+			}
+			dockyard = 1
+		}
+		
+	}
+
+	provinces={
+		3194 3296 3319 6322 9262 11246 3525 6342
+	}
+}

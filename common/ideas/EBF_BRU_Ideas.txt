@@ -1,0 +1,218 @@
+ideas = {
+	country = {
+		#BASE IDEAS
+		BRU_A_Long_Gone_Federation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_A_Long_Gone_Federation"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = x
+					  
+			modifier = {	
+				stability_factor = -0.1
+				war_support_factor = 0.1
+			}
+		}
+
+		BRU_Against_The_Wall = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_Against_The_Wall"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = x
+					  
+			modifier = {	
+				stability_factor = 0.25
+				army_morale_factor = 0.05
+			}
+		}
+
+		BRU_The_Eurostructure = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_The_Eurostructure"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = x
+					  
+			modifier = {	
+				drift_defence_factor = 1
+			}
+		}
+		#OTHER IDEAS
+		BRU_A_Call_To_Civility = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_A_Call_To_Civility"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = {
+					country_exists = NOW
+				}
+			}
+				
+			picture = x
+					  
+			targeted_modifier = {
+				tag = NOW
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+
+		BRU_Showing_Our_Might = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_Showing_Our_Might"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}	
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+				
+			picture = x
+					  
+			modifier = {
+				army_morale_factor = 0.15
+				breakthrough_factor = 0.1
+			}
+		}
+
+		BRU_A_Campaign_Of_Hope = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_A_Campaign_Of_Hope"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}	
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+				
+			picture = x
+					  
+			modifier = {
+				stability_weekly = 0.025
+				war_support_weekly = 0.025
+				war_stability_factor = -0.1
+			}
+		}
+
+		BRU_Grit_Against_The_Pain = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_Grit_Against_The_Pain"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}	
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = {
+					country_exists = NOW
+				}
+			}
+
+			picture = x
+					  
+			modifier = {
+				army_strength_factor = 0.05
+				experience_loss_factor = 0.1
+				pocket_penalty = 0.25
+			}
+		}
+
+		BRU_Fight_For_Europe = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_Fight_For_Europe"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}	
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = {
+					country_exists = NOW
+				}
+			}
+
+			picture = x
+					  
+			modifier = {
+				army_strength_factor = 0.1
+				experience_loss_factor = 0.15
+				pocket_penalty = 0.25
+				terrain_penalty_reduction = 0.05
+
+			}
+		}
+
+		BRU_Fight_For_Europe2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BRU_Fight_For_Europe2"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}	
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				NOT = {
+					country_exists = NOW
+				}
+			}
+
+			picture = x
+					  
+			modifier = {
+				army_strength_factor = 0.15
+				experience_loss_factor = 0.15
+				pocket_penalty = 0.5
+				terrain_penalty_reduction = 0.1
+				army_speed_factor = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1154
+	name="STATE_1154"
+
+	history={
+		add_core_of = SCF
+		owner = SCF
+		victory_points = {
+			3273 15 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		3273 6320 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

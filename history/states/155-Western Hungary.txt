@@ -1,0 +1,23 @@
+
+state={
+	id=155
+	name="STATE_155" # Transdanubia
+	manpower = 3179351
+	local_supplies = 0.0 
+	state_category = city
+	history={
+		add_core_of = WHU
+		owner = WHU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+		}
+		
+	}
+
+	provinces={
+		686 701 3683 6720 9676 11627 11663 13125 
+	}
+}

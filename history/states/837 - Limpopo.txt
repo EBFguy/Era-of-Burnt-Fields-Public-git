@@ -1,0 +1,25 @@
+
+state={
+	id=837
+	name="STATE_837" # Transvaal
+	manpower = 3680363
+	
+	state_category = large_town
+
+	history={
+		add_core_of = SAF
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+		}
+		
+	}
+
+	provinces={
+		1688 5106 5217 10566
+	}
+	local_supplies = 0.0 
+}

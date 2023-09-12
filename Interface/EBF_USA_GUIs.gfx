@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	#GENERAL
+
+
+	SpriteType = { 
+		name = "GFX_USA_open_DOA_GUI" 
+		texturefile = "gfx/interface/EBF_USA/DOA/Open_DOA_GUI.dds" 
+	}	
+}

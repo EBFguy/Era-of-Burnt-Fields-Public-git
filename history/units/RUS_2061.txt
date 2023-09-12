@@ -1,0 +1,469 @@
+﻿division_template = {
+	name = "Motopehotnaya Diviziya" #Motor Rifle Division, infantry IFVs
+	division_names_group = RUS_motor_rfile
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		mechanized = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gvardeyskaya Motopehotnaya Diviziya" #Guards Motor Rifle Division, infantry MBTs
+	division_names_group = RUS_guard_motor_rfile
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+		mechanized = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Elitnaya Motopehotnaya Diviziya" #Enhanced Motor Rifle Division, infantry exoskeletons
+	division_names_group = RUS_enhanced_motor_rfile
+	regiments = {
+		exoskeleton = { x = 2 y = 0 }
+		exoskeleton = { x = 2 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Tankovaya Diviziya" #Tank Division, tanks :stuff:
+	division_names_group = RUS_tank_division
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+		MBT = { x = 0 y = 2 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Diviziya Spetsnasa" #Special Forces, elite infantry
+	division_names_group = RUS_spetnaz
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Vozdushno-Desantnaya Diviziya" #Paratrooper Division, paratrooper :stuff:
+	division_names_group = RUS_paratrooper
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+        paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Diviziya Boevyh Androidov" #Combat Android Force, combat androids
+	division_names_group = RUS_android
+	regiments = {
+		android = { x = 0 y = 0 }
+		android = { x = 0 y = 1 }
+        android = { x = 1 y = 0 }
+		android = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+
+units = {
+	#Kaliningrad
+    division = {
+		location = "6332"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+
+	}
+	#WEST RUSSIA
+	division = {
+		location = "3686"
+		division_template = "Gvardeyskaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "3580"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "11202"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "9098"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "3321"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "11159"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "3134"
+		division_template = "Elitnaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "11142"
+		division_template = "Gvardeyskaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "11351"
+		division_template = "Gvardeyskaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "9417"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "3672"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "3529"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "3338"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "11537"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "3618"
+		division_template = "Elitnaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "1210"
+		division_template = "Elitnaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "7375"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "6338"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "9258"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "11225"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "11047"
+		division_template = "Diviziya Spetsnasa"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "108"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "105"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "9114"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}				
+	#ST PETERSBURG FORCES
+	division = {
+		location = "13311"
+		division_template = "Diviziya Boevyh Androidov"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "149"
+		division_template = "Diviziya Boevyh Androidov"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "13316"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "11068"
+		division_template = "Vozdushno-Desantnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	#MOSCOW FORCES
+	division = {
+		location = "13325"
+		division_template = "Diviziya Boevyh Androidov"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "13320"
+		division_template = "Diviziya Boevyh Androidov"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "6380"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "13322"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "6380"
+		division_template = "Elitnaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "6414"
+		division_template = "Elitnaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	#SIBERIA
+	division = {
+		location = "10312"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "4333"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "10256"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "4824"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "4824"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "10696"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "12594"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "1818"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "10653"
+		division_template = "Gvardeyskaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "12622"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "4725"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "957"
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "9735"
+		division_template = "Gvardeyskaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.9
+	}		
+	division = {
+		location = "4797"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "10641"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "7672"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "12657"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "4728"
+		division_template = "Diviziya Spetsnasa"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "12683"
+		division_template = "Diviziya Spetsnasa"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "13067"
+		division_template = "Diviziya Boevyh Androidov"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "7274"
+		division_template = "Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "12592"
+		division_template = "Elitnaya Motopehotnaya Diviziya"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}					
+}
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+	   		type = infantry_equipment_2
+	   		creator = "RUS"
+		}
+		requested_factories = 4
+		progress = 0.19
+		efficiency = 100
+    }
+    add_equipment_production = {
+        equipment = {
+	   		type = MBT_equipment_2
+	   		creator = "RUS"
+		}
+		requested_factories = 4
+		progress = 0.19
+		efficiency = 100
+    }	
+}

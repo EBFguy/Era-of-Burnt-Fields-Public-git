@@ -1,0 +1,21 @@
+
+state={
+	id=129
+	name="STATE_129"
+	manpower = 69469
+	local_supplies = 0.0 
+	state_category = pastoral
+
+	history={
+		add_core_of = LIN
+		owner = LIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		3353 9250
+	}
+}

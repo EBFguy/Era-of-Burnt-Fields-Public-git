@@ -1,0 +1,26 @@
+state={
+	id=81
+	name="STATE_81"
+	manpower=2198024
+	
+	
+	state_category = rural
+	
+	history={
+		add_core_of = RMA
+		owner = RMA
+		victory_points = {
+			6652 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		637 3630 3645 6652 6667 11588 11605 11657 
+	}
+}

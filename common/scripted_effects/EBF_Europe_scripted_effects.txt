@@ -1,0 +1,1224 @@
+EUROPE_capitulation_effect = {
+	#Unicorn Unit beats Brussels
+	IF = {
+		limit = {
+			FROM = {
+				original_tag = BRU
+			}
+			ROOT = { original_tag = NOW }
+		}
+		NOW = {
+			white_peace = BRU
+			annex_country = {
+				target = BRU
+				transfer_troops = no
+			}
+			every_owned_state = {
+				limit = { is_core_of = BRU }
+				add_core_of = NOW
+				remove_core_of = BRU
+			}
+			set_global_flag = EBF_Unicorn_War_done
+		}
+		set_global_flag = skip_default_capitulation
+	}
+
+	else_if = {#Brussels beats Unicorn Unit
+		limit = {
+			FROM = {
+				original_tag = BRU
+			}
+			ROOT = { original_tag = NOW }
+		}
+		BRU = {
+			white_peace = NOW
+			annex_country = {
+				target = NOW
+				transfer_troops = no
+			}
+			every_owned_state = {
+				limit = { is_core_of = NOW }
+				add_core_of = BRU
+				remove_core_of = NOW
+			}
+			set_global_flag = EBF_Unicorn_War_done
+		}
+		set_global_flag = skip_default_capitulation
+	}
+
+	if = {
+		limit = {
+			country_exists = ROOT
+		}
+		ROOT = { white_peace = FROM }
+		FROM = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = no
+			}
+		}
+		set_global_flag = skip_default_capitulation
+	}
+
+}
+
+
+get_europe_iberia_tag = {
+	if = {
+		limit = {
+			tag = PRP
+		}
+		set_cosmetic_tag = PRP_Unified_Iberia
+	}
+	if = {
+		limit = {
+			tag = POR
+		}
+		set_cosmetic_tag = POR_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = NPF
+		}
+		set_cosmetic_tag = NPF_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = GAL
+		}
+		set_cosmetic_tag = GAL_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = ATU
+		}
+		set_cosmetic_tag = ATU_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = LEO
+		}
+		set_cosmetic_tag = LEO_Unified_Iberia
+	}		
+	if = {
+		limit = {
+			tag = BUR
+		}
+		set_cosmetic_tag = BUR_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = BSQ
+		}
+		set_cosmetic_tag = BSQ_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = ARA
+		}
+		set_cosmetic_tag = ARA_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = CAS
+		}
+		set_cosmetic_tag = CAS_Unified_Iberia
+	}		
+	if = {
+		limit = {
+			tag = VAL
+		}
+		set_cosmetic_tag = VAL_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = XAV
+		}
+		set_cosmetic_tag = XAV_Unified_Iberia
+	}		
+	if = {
+		limit = {
+			tag = CIU
+		}
+		set_cosmetic_tag = CIU_Unified_Iberia
+	}	
+	if = {
+		limit = {
+			tag = EXT
+		}
+		set_cosmetic_tag = EXT_Unified_Iberia
+	}		
+	if = {
+		limit = {
+			tag = ADA
+		}
+		set_cosmetic_tag = ADA_Unified_Iberia
+	}	
+}
+
+
+get_europe_franco_lowlands_tag = {
+	if = {
+		limit = {
+			tag = BRU
+		}
+		set_cosmetic_tag = BRU_Unified_Franco_Lowlands
+	}
+	if = {
+		limit = {
+			tag = NOW
+		}
+		set_cosmetic_tag = NOW_Unified_Franco_Lowlands
+	}		
+	if = {
+		limit = {
+			tag = CAL
+		}
+		set_cosmetic_tag = CAL_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = SMM
+		}
+		set_cosmetic_tag = SMM_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = CHA
+		}
+		set_cosmetic_tag = CHA_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = ALS
+		}
+		set_cosmetic_tag = ALS_Unified_Franco_Lowlands
+	}		
+	if = {
+		limit = {
+			tag = ANF
+		}
+		set_cosmetic_tag = ANF_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = PCC
+		}
+		set_cosmetic_tag = PCC_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = PRS
+		}
+		set_cosmetic_tag = PRS_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = NRM
+		}
+		set_cosmetic_tag = NRM_Unified_Franco_Lowlands
+	}		
+	if = {
+		limit = {
+			tag = ORL
+		}
+		set_cosmetic_tag = ORL_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = BRE
+		}
+		set_cosmetic_tag = BRE_Unified_Franco_Lowlands
+	}		
+	if = {
+		limit = {
+			tag = NAN
+		}
+		set_cosmetic_tag = NAN_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = RHO
+		}
+		set_cosmetic_tag = RHO_Unified_Franco_Lowlands
+	}		
+	if = {
+		limit = {
+			tag = AQU
+		}
+		set_cosmetic_tag = AQU_Unified_Franco_Lowlands
+	}	
+	if = {
+		limit = {
+			tag = OCC
+		}
+		set_cosmetic_tag = OCC_Unified_Franco_Lowlands
+	}
+	if = {
+		limit = {
+			tag = PRO
+		}
+		set_cosmetic_tag = PRO_Unified_Franco_Lowlands
+	}		
+}
+
+
+get_europe_north_central_europe_tag = {
+	if = {
+		limit = {
+			tag = DEN
+		}
+		set_cosmetic_tag = DEN_Unified_north_central_europe
+	}
+	if = {
+		limit = {
+			tag = SCH
+		}
+		set_cosmetic_tag = SCH_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = WIL
+		}
+		set_cosmetic_tag = WIL_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = BRN
+		}
+		set_cosmetic_tag = BRN_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = BRM
+		}
+		set_cosmetic_tag = BRM_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = WES
+		}
+		set_cosmetic_tag = WES_Unified_north_central_europe
+	}		
+	if = {
+		limit = {
+			tag = RHI
+		}
+		set_cosmetic_tag = RHI_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = RHE
+		}
+		set_cosmetic_tag = RHE_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = FRK
+		}
+		set_cosmetic_tag = FRK_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = HES
+		}
+		set_cosmetic_tag = HES_Unified_north_central_europe
+	}		
+	if = {
+		limit = {
+			tag = SAX
+		}
+		set_cosmetic_tag = SAX_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = BAD
+		}
+		set_cosmetic_tag = BAD_Unified_north_central_europe
+	}		
+	if = {
+		limit = {
+			tag = WUT
+		}
+		set_cosmetic_tag = WUT_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = NEA
+		}
+		set_cosmetic_tag = NEA_Unified_north_central_europe
+	}		
+	if = {
+		limit = {
+			tag = BAV
+		}
+		set_cosmetic_tag = BAV_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = CZE
+		}
+		set_cosmetic_tag = CZE_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = MOV
+		}
+		set_cosmetic_tag = MOV_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = LIZ
+		}
+		set_cosmetic_tag = LIZ_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = GRA
+		}
+		set_cosmetic_tag = GRA_Unified_north_central_europe
+	}	
+	if = {
+		limit = {
+			tag = VIE
+		}
+		set_cosmetic_tag = VIE_Unified_north_central_europe
+	}	
+}
+
+
+get_europe_south_central_europe_tag = {
+	if = {
+		limit = {
+			tag = SWI
+		}
+		set_cosmetic_tag = SWI_Unified_south_central_europe
+	}
+	if = {
+		limit = {
+			tag = GRL
+		}
+		set_cosmetic_tag = GRL_Unified_south_central_europe
+	}	
+	if = {
+		limit = {#GENERIC
+			tag = VNC
+		}
+		set_cosmetic_tag = VNC_Unified_south_central_europe
+	}	
+	if = {
+		limit = {
+			tag = EMI
+		}
+		set_cosmetic_tag = EMI_Unified_south_central_europe
+	}	
+	if = {
+		limit = {
+			tag = MEZ
+		}
+		set_cosmetic_tag = MEZ_Unified_south_central_europe
+	}	
+	if = {
+		limit = {
+			tag = SAR
+		}
+		set_cosmetic_tag = SAR_Unified_south_central_europe
+	}	
+}
+
+
+
+
+get_europe_central_europe_tag = {
+	if = {
+		limit = {
+			tag = DEN
+		}
+		set_cosmetic_tag = DEN_Unified_central_europe
+	}
+	if = {
+		limit = {
+			tag = SCH
+		}
+		set_cosmetic_tag = SCH_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = WIL
+		}
+		set_cosmetic_tag = WIL_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = BRN
+		}
+		set_cosmetic_tag = BRN_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = BRM
+		}
+		set_cosmetic_tag = BRM_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = WES
+		}
+		set_cosmetic_tag = WES_Unified_central_europe
+	}		
+	if = {
+		limit = {
+			tag = RHI
+		}
+		set_cosmetic_tag = RHI_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = RHE
+		}
+		set_cosmetic_tag = RHE_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = FRK
+		}
+		set_cosmetic_tag = FRK_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = HES
+		}
+		set_cosmetic_tag = HES_Unified_central_europe
+	}		
+	if = {
+		limit = {
+			tag = SAX
+		}
+		set_cosmetic_tag = SAX_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = BAD
+		}
+		set_cosmetic_tag = BAD_Unified_central_europe
+	}		
+	if = {
+		limit = {
+			tag = WUT
+		}
+		set_cosmetic_tag = WUT_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = NEA
+		}
+		set_cosmetic_tag = NEA_Unified_central_europe
+	}		
+	if = {
+		limit = {
+			tag = BAV
+		}
+		set_cosmetic_tag = BAV_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = CZE
+		}
+		set_cosmetic_tag = CZE_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = MOV
+		}
+		set_cosmetic_tag = MOV_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = LIZ
+		}
+		set_cosmetic_tag = LIZ_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = GRA
+		}
+		set_cosmetic_tag = GRA_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = VIE
+		}
+		set_cosmetic_tag = VIE_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = SWI
+		}
+		set_cosmetic_tag = SWI_Unified_central_europe
+	}
+	if = {
+		limit = {
+			tag = GRL
+		}
+		set_cosmetic_tag = GRL_Unified_central_europe
+	}	
+	if = {
+		limit = {#KRENNIC
+			tag = VNC
+			has_country_flag = VNC_ending1
+		}
+		set_cosmetic_tag = VNC_Unified_central_europe
+	}	
+	if = {
+		limit = {#KRENNIC NOT HI ALIGNED
+			tag = VNC
+			has_country_flag = VNC_ending2
+		}
+		set_cosmetic_tag = VNC_Unified_central_europe2
+	}		
+	if = {
+		limit = {#CAROL HOLMES
+			tag = VNC
+			has_country_flag = VNC_ending3
+		}
+		set_cosmetic_tag = VNC_Unified_central_europe3
+	}	
+	if = {
+		limit = {#MILANA
+			tag = VNC
+			has_country_flag = VNC_ending4
+		}
+		set_cosmetic_tag = VNC_Unified_central_europe4
+	}			
+	if = {
+		limit = {#MILANA NO HI ALIGNED
+			tag = VNC
+			has_country_flag = VNC_ending5
+		}
+		set_cosmetic_tag = VNC_Unified_central_europe5
+	}		
+	if = {#MANNA
+		limit = {
+			tag = VNC
+			has_country_flag = VNC_ending6
+		}
+		set_cosmetic_tag = VNC_Unified_central_europe6
+	}	
+	if = {
+		limit = {
+			tag = EMI
+		}
+		set_cosmetic_tag = EMI_Unified_central_europe
+	}		
+	if = {
+		limit = {
+			tag = MEZ
+		}
+		set_cosmetic_tag = MEZ_Unified_central_europe
+	}	
+	if = {
+		limit = {
+			tag = SAR
+		}
+		set_cosmetic_tag = SAR_Unified_central_europe
+	}	
+}
+
+
+get_europe_west_europe_tag = {
+	if = {
+		limit = {
+			tag = PRP
+		}
+		set_cosmetic_tag = PRP_Unified_West_Europe
+	}
+	if = {
+		limit = {
+			tag = POR
+		}
+		set_cosmetic_tag = POR_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = NPF
+		}
+		set_cosmetic_tag = NPF_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = GAL
+		}
+		set_cosmetic_tag = GAL_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = ATU
+		}
+		set_cosmetic_tag = ATU_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = LEO
+		}
+		set_cosmetic_tag = LEO_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = BUR
+		}
+		set_cosmetic_tag = BUR_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = BSQ
+		}
+		set_cosmetic_tag = BSQ_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = ARA
+		}
+		set_cosmetic_tag = ARA_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = CAS
+		}
+		set_cosmetic_tag = CAS_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = VAL
+		}
+		set_cosmetic_tag = VAL_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = XAV
+		}
+		set_cosmetic_tag = XAV_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = CIU
+		}
+		set_cosmetic_tag = CIU_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = EXT
+		}
+		set_cosmetic_tag = EXT_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = ADA
+		}
+		set_cosmetic_tag = ADA_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = BRU
+		}
+		set_cosmetic_tag = BRU_Unified_West_Europe
+	}
+	if = {
+		limit = {
+			tag = NOW
+			has_government = anocracy
+		}
+		set_cosmetic_tag = NOW_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = NOW
+			has_government = autocracy
+		}
+		set_cosmetic_tag = NOW_Unified_West_Europe2
+	}		
+	if = {
+		limit = {
+			tag = CAL
+		}
+		set_cosmetic_tag = CAL_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = SMM
+		}
+		set_cosmetic_tag = SMM_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = CHA
+		}
+		set_cosmetic_tag = CHA_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = ALS
+		}
+		set_cosmetic_tag = ALS_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = ANF
+		}
+		set_cosmetic_tag = ANF_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = PCC
+		}
+		set_cosmetic_tag = PCC_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = PRS
+		}
+		set_cosmetic_tag = PRS_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = NRM
+		}
+		set_cosmetic_tag = NRM_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = ORL
+		}
+		set_cosmetic_tag = ORL_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = BRE
+		}
+		set_cosmetic_tag = BRE_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = NAN
+		}
+		set_cosmetic_tag = NAN_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = RHO
+		}
+		set_cosmetic_tag = RHO_Unified_West_Europe
+	}		
+	if = {
+		limit = {
+			tag = AQU
+		}
+		set_cosmetic_tag = AQU_Unified_West_Europe
+	}	
+	if = {
+		limit = {
+			tag = OCC
+		}
+		set_cosmetic_tag = OCC_Unified_West_Europe
+	}
+	if = {
+		limit = {
+			tag = PRO
+		}
+		set_cosmetic_tag = PRO_Unified_West_Europe
+	}	
+}
+
+get_europe_unification_tag = {
+	if = {
+		limit = {
+			tag = PRP
+		}
+		set_cosmetic_tag = PRP_Unified_Europe
+	}
+	if = {
+		limit = {
+			tag = POR
+		}
+		set_cosmetic_tag = POR_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = NPF
+		}
+		set_cosmetic_tag = NPF_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = GAL
+		}
+		set_cosmetic_tag = GAL_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = ATU
+		}
+		set_cosmetic_tag = ATU_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = LEO
+		}
+		set_cosmetic_tag = LEO_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = BUR
+		}
+		set_cosmetic_tag = BUR_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = BSQ
+		}
+		set_cosmetic_tag = BSQ_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = ARA
+		}
+		set_cosmetic_tag = ARA_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = CAS
+		}
+		set_cosmetic_tag = CAS_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = VAL
+		}
+		set_cosmetic_tag = VAL_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = XAV
+		}
+		set_cosmetic_tag = XAV_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = CIU
+		}
+		set_cosmetic_tag = CIU_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = EXT
+		}
+		set_cosmetic_tag = EXT_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = ADA
+		}
+		set_cosmetic_tag = ADA_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = BRU
+		}
+		set_cosmetic_tag = BRU_Unified_Europe
+	}
+	if = {
+		limit = {
+			tag = NOW
+			has_government = anocracy
+		}
+		set_cosmetic_tag = NOW_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = NOW
+			has_government = autocracy
+		}
+		set_cosmetic_tag = NOW_Unified_Europe2
+	}	
+	if = {
+		limit = {
+			tag = CAL
+		}
+		set_cosmetic_tag = CAL_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = SMM
+		}
+		set_cosmetic_tag = SMM_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = CHA
+		}
+		set_cosmetic_tag = CHA_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = ALS
+		}
+		set_cosmetic_tag = ALS_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = ANF
+		}
+		set_cosmetic_tag = ANF_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = PCC
+		}
+		set_cosmetic_tag = PCC_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = PRS
+		}
+		set_cosmetic_tag = PRS_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = NRM
+		}
+		set_cosmetic_tag = NRM_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = ORL
+		}
+		set_cosmetic_tag = ORL_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = BRE
+		}
+		set_cosmetic_tag = BRE_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = NAN
+		}
+		set_cosmetic_tag = NAN_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = RHO
+		}
+		set_cosmetic_tag = RHO_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = AQU
+		}
+		set_cosmetic_tag = AQU_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = OCC
+		}
+		set_cosmetic_tag = OCC_Unified_Europe
+	}
+	if = {
+		limit = {
+			tag = PRO
+		}
+		set_cosmetic_tag = PRO_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = DEN
+		}
+		set_cosmetic_tag = DEN_Unified_Europe
+	}
+	if = {
+		limit = {
+			tag = SCH
+		}
+		set_cosmetic_tag = SCH_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = WIL
+		}
+		set_cosmetic_tag = WIL_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = BRN
+		}
+		set_cosmetic_tag = BRN_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = BRM
+		}
+		set_cosmetic_tag = BRM_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = WES
+		}
+		set_cosmetic_tag = WES_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = RHI
+		}
+		set_cosmetic_tag = RHI_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = RHE
+		}
+		set_cosmetic_tag = RHE_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = FRK
+		}
+		set_cosmetic_tag = FRK_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = HES
+		}
+		set_cosmetic_tag = HES_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = SAX
+		}
+		set_cosmetic_tag = SAX_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = BAD
+		}
+		set_cosmetic_tag = BAD_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = WUT
+		}
+		set_cosmetic_tag = WUT_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = NEA
+		}
+		set_cosmetic_tag = NEA_Unified_Europe
+	}		
+	if = {
+		limit = {
+			tag = BAV
+		}
+		set_cosmetic_tag = BAV_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = CZE
+		}
+		set_cosmetic_tag = CZE_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = MOV
+		}
+		set_cosmetic_tag = MOV_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = LIZ
+		}
+		set_cosmetic_tag = LIZ_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = GRA
+		}
+		set_cosmetic_tag = GRA_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = VIE
+		}
+		set_cosmetic_tag = VIE_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = SWI
+		}
+		set_cosmetic_tag = SWI_Unified_Europe
+	}
+	if = {
+		limit = {
+			tag = GRL
+		}
+		set_cosmetic_tag = GRL_Unified_Europe
+	}		
+	if = {
+		limit = {#KRENNIC
+			tag = VNC
+			has_country_flag = VNC_ending1
+		}
+		set_cosmetic_tag = VNC_Unified_Europe
+	}	
+	if = {
+		limit = {#KRENNIC NOT HI ALIGNED
+			tag = VNC
+			has_country_flag = VNC_ending2
+		}
+		set_cosmetic_tag = VNC_Unified_Europe2
+	}		
+	if = {
+		limit = {#CAROL HOLMES
+			tag = VNC
+			has_country_flag = VNC_ending3
+		}
+		set_cosmetic_tag = VNC_Unified_Europe3
+	}	
+	if = {
+		limit = {#MILANA
+			tag = VNC
+			has_country_flag = VNC_ending4
+		}
+		set_cosmetic_tag = VNC_Unified_Europe4
+	}			
+	if = {
+		limit = {#MILANA NO HI ALIGNED
+			tag = VNC
+			has_country_flag = VNC_ending5
+		}
+		set_cosmetic_tag = VNC_Unified_Europe5
+	}		
+	if = {#MANNA
+		limit = {
+			tag = VNC
+			has_country_flag = VNC_ending6
+		}
+		set_cosmetic_tag = VNC_Unified_Europe6
+	}	
+	if = {
+		limit = {
+			tag = EMI
+		}
+		set_cosmetic_tag = EMI_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = MEZ
+		}
+		set_cosmetic_tag = MEZ_Unified_Europe
+	}	
+	if = {
+		limit = {
+			tag = SAR
+		}
+		set_cosmetic_tag = SAR_Unified_Europe
+	}	
+}

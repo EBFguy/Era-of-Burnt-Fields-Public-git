@@ -1,0 +1,2386 @@
+technologies = {
+	### EXOSKELETON TECH ###
+	exoskeleton2045 = {
+		#Pre Mark 7 Exoskeleton
+		enable_equipments = {
+			exoskeleton_equipment_0
+		}
+		enable_subunits = {
+			exoskeleton
+		}
+		path = {
+			leads_to_tech = exoskeleton2050
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = -2
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	exoskeleton2050 = {
+		#Mark 7 Exoskeleton
+		enable_equipments = {
+			exoskeleton_equipment_1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2058
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2058
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 0
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2058 = {
+		#Mark 8 Light Variant Exoskeleton
+		enable_equipments = {
+			light_exoskeleton_equipment_0
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2062_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2062_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 3
+				y = 2
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2062_0 = {
+		#Enhanced Hydraulic Cooling System
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2068_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2068_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 2
+				y = 4
+			}
+		}
+		xor = {
+			lightexoskeleton2062_1
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2062_1 = {
+		#On Board Bolt Stress Management AI
+		exoskeleton = {
+			reliability_factor = 0.02
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2068_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2068_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2062_0
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 4
+				y = 4
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2068_0 = {
+		#Repair Kit Standardisation
+		exoskeleton = {
+			reliability_factor = 0.05
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2071
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 2
+				y = 6
+			}
+		}
+		xor = {
+			lightexoskeleton2068_1
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2068_1 = {
+		#Automated Trauma Evac Harness
+		exoskeleton = {
+			casualty_trickleback = 0.05
+
+			max_strength = 0.02
+		}
+
+		
+		path = {
+			leads_to_tech = lightexoskeleton2071
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2068_0
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 4
+				y = 6
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2071 = {
+		#Mark 9 Light Variant Exoskeleton
+		enable_equipments = {
+			light_exoskeleton_equipment_1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2075_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2075_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2071
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 3
+				y = 8
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2075_0 = {
+		#Defused Lunar Titanium Replacement Alloy
+		exoskeleton = {
+			max_strength = 0.10
+			defense = 0.10
+			max_organisation = 2
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2080_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2080_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2075_1
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2075_1 = {
+		#Low Intensity Radiant Active Denial System
+		exoskeleton = {
+			suppression_factor = 0.10
+			defense = 0.05
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2080_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2080_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2075_0
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 4
+				y = 10
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2080_0 = {
+		#Improved Drug Intake Veins
+		exoskeleton = {
+			maximum_speed = 0.2
+			max_organisation = 5
+			casualty_trickleback = 0.04
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2082
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2080_1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 2
+				y = 12
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2080_1 = {
+		#Automated Trauma Override Harness
+		exoskeleton = {
+			casualty_trickleback = -0.15
+			soft_attack = 0.2
+			max_strength = 0.3
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2082
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2080_0
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 4
+				y = 12
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2082 = {
+		#Mark 10 Light Variant Exoskeleton
+		enable_equipments = {
+			light_exoskeleton_equipment_2
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2084_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2084_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2082
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 3
+				y = 14
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2084_0 = {
+		#Automatic Servo Overclocking
+		exoskeleton = {
+			casualty_trickleback = -0.1
+			soft_attack = 0.05
+			ap_attack = 0.05
+			maximum_speed = 0.1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2086_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2086_0
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2084_1
+		}
+		research_cost = 1.5
+		start_year = 2084
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 2
+				y = 16
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2084_1 = {
+		#Emergency Spine Functionality Replacement Module
+		exoskeleton = {
+			max_strength = 0.2
+			casualty_trickleback = 0.2
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2086_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightexoskeleton2086_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2084_0
+		}
+		research_cost = 1.5
+		start_year = 2084
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 4
+				y = 16
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2086_0 = {
+		#Individual Artificial Control Override Protocols
+		exoskeleton = {
+			soft_attack = 0.15
+			max_strength = 0.1
+		}
+		path = {
+			leads_to_tech = infantry_weapons2050
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2086_1
+		}
+		research_cost = 1.5
+		start_year = 2086
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 2
+				y = 18
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lightexoskeleton2086_1 = {
+		#Mass Command Control Battle Protocols
+		exoskeleton = {
+			initiative = 0.1
+			defense = 0.15
+			max_strength = -0.1
+		}
+		path = {
+			leads_to_tech = infantry_weapons2050
+			research_cost_coeff = 1
+		}
+		xor = {
+			lightexoskeleton2086_0
+		}
+		research_cost = 1.5
+		start_year = 2086
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 4
+				y = 18
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2058 = {
+		#Mark 8 Heavy Variant Exoskeleton
+		enable_equipments = {
+			heavy_exoskeleton_equipment_0
+		}
+		enable_subunits = {
+			heavy_exoskeletons
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2062_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2062_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 13
+				y = 2
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2062_0 = {
+		#Exoskeleton Support Frame
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2068_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2068_1
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavyexoskeleton2062_1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 12
+				y = 4
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2062_1 = {
+		#Improved Servo Reliability 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		XOR = {
+			heavyexoskeleton2062_0
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2068_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2068_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 14
+				y = 4
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2068_0 = {
+		#Heightened Physique Requirements
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2071
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavyexoskeleton2068_1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 12
+				y = 6
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2068_1 = {
+		#Lunar Titanium Replacement Alloy Crusting
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		XOR = {
+			heavyexoskeleton2068_0
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2071
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 14
+				y = 6
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2071 = {
+		#Mark 9 Heavy Variant Exoskeleton
+		enable_equipments = {
+			heavy_exoskeleton_equipment_1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2075_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2075_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 13
+				y = 8
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2075_0 = {
+		#Total Lockdown Armour
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2080_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2080_1
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavyexoskeleton2075_1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 12
+				y = 10
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2075_1 = {
+		#Precision Servos 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		XOR = {
+			heavyexoskeleton2075_0
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2080_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2080_0
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 14
+				y = 10
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2080_0 = {
+		#The Saviour Protocols
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2082
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavyexoskeleton2080_1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 12
+				y = 12
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2080_1 = {
+		#Automated Destruction Protocol
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		XOR = {
+			heavyexoskeleton2080_0
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2082
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 14
+				y = 12
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2082 = {
+		#Mark 10 Heavy Variant Exoskeleton
+		enable_equipments = {
+			heavy_exoskeleton_equipment_2
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2084_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2084_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 13
+				y = 14
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2084_0 = {
+		#AI Enhanced Automatic Shielding
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2086_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2086_1
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavyexoskeleton2084_1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 12
+				y = 16
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2084_1 = {
+		#AI Enhanced Automatic Aiming
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2086_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyexoskeleton2086_1
+			research_cost_coeff = 1
+		}
+		XOR = {
+			heavyexoskeleton2084_0
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 14
+				y = 16
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2086_0 = {
+		#Permanent Readiness Command
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		XOR = {
+			heavyexoskeleton2086_1
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 12
+				y = 18
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	heavyexoskeleton2086_1 = {
+		#Soldiers of Nirvana Protocol 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		XOR = {
+			heavyexoskeleton2086_0
+		}
+		research_cost = 1.5
+		start_year = 2058
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 14
+				y = 18
+			}
+		}
+		categories = {
+			exoskeleton_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	###ANDROID TECH###
+	android2045 = {
+		#Model 3 Combat Android
+		enable_equipments = {
+			android_equipment_0
+		}
+		enable_subunits = {
+			android
+		}
+		path = {
+			leads_to_tech = android2050
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = -2
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2050 = {
+		#Model 4 Combat Android
+		enable_equipments = {
+			android_equipment_1
+		}
+		path = {
+			leads_to_tech = android2060
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 0
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2060 = {
+		#Model 5 Combat Android
+		enable_equipments = {
+			android_equipment_1
+		}
+		path = {
+			leads_to_tech = android2064_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2064_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 2
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2064_0 = {
+		#Widened Move set Range
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2070_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2070_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2064_1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 4
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2064_1 = {
+		#Silenced Servo Movement
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2070_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2070_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2064_0
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 4
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2070_0 = {
+		#Hydraulic Maximum Load Improvements
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2072
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2070_1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 6
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2070_1 = {
+		#Automatic Heavy Damage Retreat Order
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2072
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2070_0
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 6
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2072 = {
+		#Model 6 Combat Android
+		enable_equipments = {
+			android_equipment_2
+		}
+		path = {
+			leads_to_tech = android2076_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2076_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 8
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2076_0 = {
+		#Target Importance Ranger Module
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2080_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2080_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2076_1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 10
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2076_1 = {
+		#Greater Emotional Spectrum Analysis Module
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2080_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2080_0
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2076_0
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 10
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2080_0 = {
+		#Individualised Command Structure
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2082
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2080_1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 12
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2080_1 = {
+		#Hivemind Command Structure
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2082
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2080_0
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 12
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2082 = {
+		#Model 7 Combat Android
+		enable_equipments = {
+			android_equipment_2
+		}
+		path = {
+			leads_to_tech = android2084_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2084_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 14
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2084_0 = {
+		#Artificial Neuron Structure 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2086_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2086_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2084_1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 16
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2084_1 = {
+		#Shared Battle Experience Structure
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = android2086_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = android2086_0
+			research_cost_coeff = 1
+		}
+		xor = {
+			android2084_0
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 16
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2086_0 = {
+		#Artificially Induced Electro Chemical Addiction
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		xor = {
+			android2086_1
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 18
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	android2086_1 = {
+		#Artificially Induced Electro Chemical Withdrawal
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		xor = {
+			android2086_0
+		}
+		research_cost = 1.5
+		start_year = 2045
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 18
+			}
+		}
+		categories = {
+			android_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### EXOSUIT TECH ###
+	exosuit2063 = {
+		#Experimental Exosuit
+		enable_equipments = {
+			exosuit_equipment_0
+		}
+		path = {
+			leads_to_tech = exosuit2065
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = -2
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	exosuit2065 = {
+		#Mark 1 Exosuit
+		enable_equipments = {
+			exosuit_equipment_1
+		}
+		path = {
+			leads_to_tech = exosuit2068
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 0
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2068 = {
+		#Mark 2 Exosuit
+		enable_equipments = {
+			exosuit_equipment_2
+		}
+		path = {
+			leads_to_tech = exosuit2071
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 2
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2071 = {
+		#Mark 3 Exosuit
+		enable_equipments = {
+			exosuit_equipment_3
+		}
+		path = {
+			leads_to_tech = exosuit2074_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = exosuit2074_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2071
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 4
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2074_0 = {
+		#Metamaterial Long Distance Camo 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = exosuit2077_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = exosuit2077_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2074_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 6
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2074_1 = {
+		#Improved Assault Servos 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = exosuit2077_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = exosuit2077_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2074_0
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 6
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2077_0 = {
+		#Artificial Muscle Enhancement 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = exosuit2081
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2077_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 8
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2077_1 = {
+		#Kinetic-Resistant Armor
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = exosuit2081
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2077_0
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 8
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2081 = {
+		#Mark 4 Exosuit
+		enable_equipments = {
+			exosuit_equipment_4
+		}
+		path = {
+			leads_to_tech = exosuit2085_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = exosuit2085_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 10
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2085_0 = {
+		#Compulsory Neural Link  
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = exosuit2087_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = exosuit2087_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2085_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 12
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2085_1 = {
+		#Double Body Cardiovascular System
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = exosuit2087_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = exosuit2087_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2085_0
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 12
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2087_0 = {
+		#Complete Synthesis of Body and Exosuit 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2087_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 14
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	exosuit2087_1 = {
+		#The Husk Sack Protocol
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		xor = {
+			exosuit2087_0
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 14
+			}
+		}
+		categories = {
+			exosuit_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	### CIMS TECH ###
+	cims2030 = {
+		#Prototype CIMS
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2050
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = -2
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	cims2050 = {
+		#Experimental CIMS
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2060
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 0
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cims2060 = {
+		#Modern CIMS
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2063_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2063_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2063_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2063_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2060
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 2
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cims2063_0 = {
+		#Direct Nervous System Link Connector
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2068
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		xor = {
+			cims2063_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 5
+				y = 4
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2063_1 = {
+		#Perfected Global Positioning System
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2068
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 4
+			}
+		}
+		xor = {
+			cims2063_0
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2063_2 = {
+		#Live Voice Modulator
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2068
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		xor = {
+			cims2063_3
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 4
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2063_3 = {
+		#Dopamine Shock Module
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2068
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 11
+				y = 4
+			}
+		}
+		xor = {
+			cims2063_2
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2068 = {
+		#Performance Enhancer Distributor Module
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2071_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2071_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2071_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2071_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 6
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2071_0 = {
+		#Thalasin
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2076
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		xor = {
+			cims2071_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 5
+				y = 8
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2071_1 = {
+		#Emotional Dampener Module
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2076
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 8
+			}
+		}
+		xor = {
+			cims2071_0
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2071_2 = {
+		#Zicoprine
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2076
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		xor = {
+			cims2071_3
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 8
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2071_3 = {
+		#Automated Vitamin Supplement Injector
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2076
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 11
+				y = 8
+			}
+		}
+		xor = {
+			cims2071_2
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2076 = {
+		#Immediate Gene Treater and Enhancer Module
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = cims2080_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2080_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2080_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cims2080_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 8
+				y = 10
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2080_0 = {
+		#Skeletal-Muscle Hardening Treatment
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2063
+		xor = {
+			cims2080_1
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 5
+				y = 12
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2080_1 = {
+		#Theokeran
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 7
+				y = 12
+			}
+		}
+		xor = {
+			cims2080_0
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2080_2 = {
+		#Improved Ocular Sensory Intake Treatment 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2063
+		xor = {
+			cims2080_3
+		}
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 9
+				y = 12
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cims2080_3 = {
+		#Tetratensin
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2063
+		folder = {
+			name = hardware_folder
+			position = {
+				x = 11
+				y = 12
+			}
+		}
+		xor = {
+			cims2080_2
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

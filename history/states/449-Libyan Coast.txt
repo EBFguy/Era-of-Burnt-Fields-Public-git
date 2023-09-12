@@ -1,0 +1,21 @@
+
+state={
+	id=449
+	name="STATE_449" # El Agheila
+	manpower = 429400
+	
+	state_category = enclave
+
+	history={
+		add_core_of = LIB
+		owner = LIB
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1041 1198 4047 4057 10046 10117 12088 
+	}
+}

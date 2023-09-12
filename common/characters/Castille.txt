@@ -1,0 +1,15 @@
+characters = {
+	CAS_Dmitriy_Gradskiy = {
+		name = "Dmitriy Gradskiy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAS/CAS_Portrait_Dmitriy_Gradskiy.png"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_classic_oligarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_DMITRIY_GRADSKIY_DESC"
+		}
+	}
+}

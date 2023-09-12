@@ -1,0 +1,656 @@
+defined_text = {
+	name = GetSubIdeologyLoc
+	text = {
+		trigger = { has_government = technoutopianism }
+		localization_key = "[GetSubIdeologyLoctechnoutopianism]"
+	}
+	text = {
+		trigger = { has_government = securocracy }
+		localization_key = "[GetSubIdeologyLocSecurocracy]"
+	}
+	text = {
+		trigger = { has_government = ultranationalism }
+		localization_key = "[GetSubIdeologyLocUltranationalism]"
+	}
+	text = {
+		trigger = { has_government = fascist }
+		localization_key = "[GetSubIdeologyLocfascism]"
+	}
+	text = {
+		trigger = { has_government = autocracy }
+		localization_key = "[GetSubIdeologyLocautocracy]"
+	}
+	text = {
+		trigger = { has_government = anocracy }
+		localization_key = "[GetSubIdeologyLocAuthoritarianDemocracy]"
+	}
+	text = {
+		trigger = { has_government = conservatism }
+		localization_key = "[GetSubIdeologyLocConservatism]"
+	}
+	text = {
+		trigger = { has_government = liberal_conservatism }
+		localization_key = "[GetSubIdeologyLocLiberalConservatism]"
+	}
+	text = {
+		trigger = { has_government = liberalism }
+		localization_key = "[GetSubIdeologyLocLiberalism]"
+	}
+	text = {
+		trigger = { has_government = progressivism }
+		localization_key = "[GetSubIdeologyLocProgressivism]"
+	}
+	text = {
+		trigger = { has_government = libertarian_socialism }
+		localization_key = "[GetSubIdeologyLocLibertarianSocialism]"
+	}
+	text = {
+		trigger = { has_government = authoritarian_socialism }
+		localization_key = "[GetSubIdeologyLocAuthoritarianSocialism]"
+	}
+	text = {
+		trigger = { has_government = totalitarian_socialism }
+		localization_key = "[GetSubIdeologyLocTotalitarianSocialism]"
+	}
+	text = {
+		trigger = { has_government = reductivism }
+		localization_key = "[GetSubIdeologyLocReductivism]"
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLoctechnoutopianism
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_technoutopianism_subtype }
+		localization_key = technoutopianism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_noosphere_project_subtype }
+		localization_key = technoutopianism_noosphere_project_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_esoteric_technoutopianism_subtype }
+		localization_key = technoutopianism_esoteric_technoutopianism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_machine_controlled_society_subtype }
+		localization_key = technoutopianism_machine_controlled_society_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_EOHs_transmission_subtype }
+		localization_key = technoutopianism_EOHs_transmission_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_panekism_subtype }
+		localization_key = technoutopianism_panekism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_technoligarchy_subtype }
+		localization_key = technoutopianism_technoligarchy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_technocracy_subtype }
+		localization_key = technoutopianism_technocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_singular_dictatorship_subtype }
+		localization_key = technoutopianism_singular_dictatorship_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_laboratory_state_subtype }
+		localization_key = technoutopianism_laboratory_state_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_richford_system_subtype }
+		localization_key = technoutopianism_richford_system_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_transhumanism_with_national_socialist_characteristics_subtype }
+		localization_key = technoutopianism_transhumanism_with_national_socialist_characteristics_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_transhumanism_subtype }
+		localization_key = technoutopianism_transhumanism_subtype
+	}			
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_scientific_socialism_subtype }
+		localization_key = technoutopianism_scientific_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = technoutopianism_ad_astra_subtype }
+		localization_key = technoutopianism_ad_astra_subtype
+	}				
+	text = {
+		localization_key = technoutopianism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocSecurocracy
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_securocracy_subtype }
+		localization_key = securocracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_greater_russian_system_left_subtype }
+		localization_key = securocracy_greater_russian_system_left_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_greater_russian_system_subtype }
+		localization_key = securocracy_greater_russian_system_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_greater_russian_system_centre_subtype }
+		localization_key = securocracy_greater_russian_system_centre_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_greater_russian_system_right_subtype }
+		localization_key = securocracy_greater_russian_system_right_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_absolute_corporatocracy_subtype }
+		localization_key = securocracy_absolute_corporatocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_habeo_ideam_directorate_subtype }
+		localization_key = securocracy_habeo_ideam_directorate_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_habeo_ideam_directorate_holmes_subtype }
+		localization_key = securocracy_habeo_ideam_directorate_holmes_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_ultrastatism_subtype }
+		localization_key = securocracy_ultrastatism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_military_vanguardism_subtype }
+		localization_key = securocracy_military_vanguardism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = securocracy_automated_state_subtype }
+		localization_key = securocracy_automated_state_subtype
+	}	
+	text = {
+		localization_key = securocracy
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocUltranationalism
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_ultranationalism_subtype }
+		localization_key = ultranationalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_ultramilitarism_subtype }
+		localization_key = ultranationalism_ultramilitarism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_fundamentalism_subtype }
+		localization_key = ultranationalism_fundamentalism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = ultranationalism_catholic_fundamentalism_subtype }
+		localization_key = ultranationalism_catholic_fundamentalism_subtype
+	}	
+	text = {
+		localization_key = ultranationalism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocfascism
+	text = {
+		trigger = { has_country_leader_ideology = fascist_fascism_subtype }
+		localization_key = fascist
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascist_neo_fascism_subtype }
+		localization_key = fascist_neo_fascism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascist_corporatism_subtype }
+		localization_key = fascist_corporatism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = fascist_religious_fascism_subtype }
+		localization_key = fascist_religious_fascism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = fascist_national_socialism_subtype }
+		localization_key = fascist_national_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = fascist_esoteric_fascism_subtype }
+		localization_key = fascist_esoteric_fascism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = fascist_stratocratic_fascism_subtype }
+		localization_key = fascist_stratocratic_fascism_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = fascist_national_socialism_with_transhuman_characteristics_subtype }
+		localization_key = fascist_national_socialism_with_transhuman_characteristics_subtype
+	}			
+	text = {
+		trigger = { has_country_leader_ideology = fascist_european_neo_federalism_subtype }
+		localization_key = fascist_european_neo_federalism_subtype
+	}
+	text = {
+		localization_key = fascist
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocautocracy
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_autocracy_subtype }
+		localization_key = autocracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_military_junta_subtype }
+		localization_key = autocracy_military_junta_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_absolute_monarchy_subtype }
+		localization_key = autocracy_absolute_monarchy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_technocratic_despotism_subtype }
+		localization_key = autocracy_technocratic_despotism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_absolute_theocracy_subtype }
+		localization_key = autocracy_absolute_theocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_corporatocracy_subtype }
+		localization_key = autocracy_corporatocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_banditry_subtype }
+		localization_key = autocracy_banditry_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_military_dictatorship_subtype }
+		localization_key = autocracy_military_dictatorship_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_civlian_dictatorship_subtype }
+		localization_key = autocracy_civlian_dictatorship_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_neo_baathism_subtype }
+		localization_key = autocracy_neo_baathism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_occupation_authority_subtype }
+		localization_key = autocracy_occupation_authority_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_national_military_company_subtype }
+		localization_key = autocracy_national_military_company_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_iranian_secularism_subtype }
+		localization_key = autocracy_iranian_secularism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = autocracy_papal_theocracy_subtype }
+		localization_key = autocracy_papal_theocracy_subtype
+	}
+	text = {
+		localization_key = autocracy
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocAuthoritarianDemocracy
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_anocracy_subtype }
+		localization_key = anocracy
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_semi_constitutional_monarchy_subtype }
+		localization_key = anocracy_semi_constitutional_monarchy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_controlled_democracy_subtype }
+		localization_key = anocracy_controlled_democracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_technocratic_democracy_subtype }
+		localization_key = anocracy_technocratic_democracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_traditional_oligarchy_subtype }
+		localization_key = anocracy_traditional_oligarchy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_stratocracy_subtype }
+		localization_key = anocracy_stratocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_one_party_dominant_democracy_subtype }
+		localization_key = anocracy_one_party_dominant_democracy_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_transitional_democracy_subtype }
+		localization_key = anocracy_transitional_democracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_provisional_government_subtype }
+		localization_key = anocracy_provisional_government_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_militaristic_libertarianism_subtype }
+		localization_key = anocracy_militaristic_libertarianism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_soldiers_democracy_subtype }
+		localization_key = anocracy_soldiers_democracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_cyber_stratocracy_subtype }
+		localization_key = anocracy_cyber_stratocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_catholic_religious_democracy_subtype }
+		localization_key = anocracy_catholic_religious_democracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = anocracy_eurostructure_subtype }
+		localization_key = anocracy_eurostructure_subtype
+	}	
+	text = {
+		localization_key = anocracy
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocConservatism
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_conservatism_subtype }
+		localization_key = conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_neoconservative_subtype }
+		localization_key = conservatism_neoconservative_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_paleoconservative_subtype }
+		localization_key = conservatism_paleoconservative_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_conservative_theocracy_subtype }
+		localization_key = conservatism_conservative_theocracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_national_conservative_subtype }
+		localization_key = conservatism_national_conservative_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_euroconservatism_subtype }
+		localization_key = conservatism_euroconservatism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_classic_oligarchy_subtype }
+		localization_key = conservatism_classic_oligarchy_subtype
+	}	
+	text = {
+		localization_key = conservatism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocLiberalConservatism
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_liberal_conservatism_subtype }
+		localization_key = liberal_conservatism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberal_conservatism_eurocentrism_subtype }
+		localization_key = liberal_conservatism_eurocentrism_subtype
+	}
+	text = {
+		localization_key = liberal_conservatism
+	}
+}
+
+
+defined_text = {
+	name = GetSubIdeologyLocLiberalism
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_liberalism_subtype }
+		localization_key = liberalism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_neoliberal_subtype }
+		localization_key = liberalism_neoliberal_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_christian_democrat_subtype }
+		localization_key = liberalism_christian_democrat_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_social_liberal_subtype }
+		localization_key = liberalism_social_liberal_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_national_liberalism_subtype }
+		localization_key = liberalism_national_liberalism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_cyberdemocracy_subtype }
+		localization_key = liberalism_cyberdemocracy_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_euroliberalism_subtype }
+		localization_key = liberalism_euroliberalism_subtype
+	}		
+	text = {
+		localization_key = liberalism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocProgressivism
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_progressivism_subtype }
+		localization_key = progressivism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_liberal_socialism_subtype }
+		localization_key = progressivism_liberal_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_social_democracy_subtype }
+		localization_key = progressivism_social_democracy_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = progressivism_europrogressivism_subtype }
+		localization_key = progressivism_europrogressivism_subtype
+	}	
+	text = {
+		localization_key = progressivism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocLibertarianSocialism
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_libertarian_socialism_subtype }
+		localization_key = libertarian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_anarcho_communist_subtype }
+		localization_key = libertarian_socialism_anarcho_communist_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_market_socialism_subtype }
+		localization_key = libertarian_socialism_market_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_eco_socialism_subtype }
+		localization_key = libertarian_socialism_eco_socialism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_utopian_socialism_subtype }
+		localization_key = libertarian_socialism_utopian_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_democratic_socialism_subtype }
+		localization_key = libertarian_socialism_democratic_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_syndicalism_subtype }
+		localization_key = libertarian_socialism_syndicalism_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_united_front_subtype }
+		localization_key = libertarian_socialism_united_front_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_left_wing_nationalism_subtype }
+		localization_key = libertarian_socialism_left_wing_nationalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_religious_socialism_subtype }
+		localization_key = libertarian_socialism_religious_socialism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = libertarian_socialism_soul_of_the_worker_subtype }
+		localization_key = libertarian_socialism_soul_of_the_worker_subtype
+	}
+	text = {
+		localization_key = libertarian_socialism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocAuthoritarianSocialism
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_authoritarian_socialism_subtype }
+		localization_key = authoritarian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_stratocratic_communism_subtype }
+		localization_key = authoritarian_socialism_stratocratic_communism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_neo_maoism_subtype }
+		localization_key = authoritarian_socialism_neo_maoism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_neo_stalinlist_subtype }
+		localization_key = authoritarian_socialism_neo_stalinlist_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype }
+		localization_key = authoritarian_socialism_xi_jinping_pragmatic_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_absolute_eco_socialism_subtype }
+		localization_key = authoritarian_socialism_absolute_eco_socialism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_absolute_peoples_theoracy_subtype }
+		localization_key = authoritarian_socialism_absolute_peoples_theoracy_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_marxism_subtype }
+		localization_key = authoritarian_socialism_marxism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_african_communism_subtype }
+		localization_key = authoritarian_socialism_african_communism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_guevarism_subtype }
+		localization_key = authoritarian_socialism_guevarism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = authoritarian_socialism_national_communism_subtype }
+		localization_key = authoritarian_socialism_national_communism_subtype
+	}
+
+	text = {
+		localization_key = authoritarian_socialism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocTotalitarianSocialism
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_totalitarian_socialism_subtype }
+		localization_key = totalitarian_socialism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_peoples_mandate_of_heaven_subtype }
+		localization_key = totalitarian_socialism_peoples_mandate_of_heaven_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_juche_subtype }
+		localization_key = totalitarian_socialism_juche_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_total_collectivism_subtype }
+		localization_key = totalitarian_socialism_total_collectivism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_left_communism_subtype }
+		localization_key = totalitarian_socialism_left_communism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_ultra_maoism_subtype }
+		localization_key = totalitarian_socialism_ultra_maoism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_legionary_communism_subtype }
+		localization_key = totalitarian_socialism_legionary_communism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = totalitarian_socialism_aristocratic_communism_subtype }
+		localization_key = totalitarian_socialism_aristocratic_communism_subtype
+	}
+	text = {
+		localization_key = totalitarian_socialism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocReductivism
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_reductivism_subtype }
+		localization_key = reductivism
+	}
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_neo_feudalism_subtype }
+		localization_key = reductivism_neo_feudalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_primitivism_subtype }
+		localization_key = reductivism_primitivism_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_fatalism_subtype }
+		localization_key = reductivism_fatalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_barbetites_subtype }
+		localization_key = reductivism_barbetites_subtype
+	}	
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_burned_fields_subtype }
+		localization_key = reductivism_burned_fields_subtype
+	}		
+	text = {
+		trigger = { has_country_leader_ideology = reductivism_dedigitism_subtype }
+		localization_key = reductivism_dedigitism_subtype
+	}
+	
+	text = {
+		localization_key = reductivism
+	}
+}

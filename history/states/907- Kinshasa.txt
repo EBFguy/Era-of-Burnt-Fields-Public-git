@@ -1,0 +1,26 @@
+
+state={
+	id=907
+	name="STATE_907"
+	manpower = 10
+	
+	state_category = rural
+	
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			5117 3 
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		12925 5117 8219
+	}
+}

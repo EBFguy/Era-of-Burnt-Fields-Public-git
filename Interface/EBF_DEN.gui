@@ -1,0 +1,76 @@
+guiTypes = {
+	containerWindowType = {
+		name = "DEN_regional_resistance_container"
+		size = { width = 100%% height = 550 }
+
+		iconType = {
+			name = "DEN_regional_resistance_denmark_map_normal"
+			position = { x = 125 y = 1 }
+			spriteType = GFX_DEN_regional_resistance_denmark_normal
+		}
+		iconType = {
+			name = "DEN_regional_resistance_denmark_map_broken"
+			position = { x = 125 y = 1 }
+			spriteType = GFX_DEN_regional_resistance_denmark_broken
+		}
+		iconType = {
+			name = "DEN_regional_resistance_map_all"
+			position = { x = 125 y = 0 }
+			spriteType = GFX_DEN_regional_resistance_map_all
+			frame = 991
+			pdx_tooltip = DEN_regional_resistance_map_all_tt
+		}
+
+		containerWindowType = {
+			name = "DEN_regional_resistance_map_container"
+			position = { x = 125 y = 0 }
+			size = { width = 400 height = 238 }
+
+			gridboxtype = {
+				name = "DEN_regional_resistance_map_grid"
+				slotsize = { width = 0 height = 0 }
+			}
+		}
+
+		containerWindowType = {
+			name = "DEN_regional_resistance_faction_container"
+			position = { x = 65 y = 250 }
+			size = { width = 400 height = 238 }
+
+			gridboxtype = {
+				name = "DEN_regional_resistance_faction_grid"
+				slotsize = { width = 0 height = 0 }
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "DEN_regional_resistance_map_entry"
+
+		iconType = {
+			name = "DEN_regional_resistance_map_button"
+			spriteType = GFX_DEN_regional_resistance_map_1
+			pdx_tooltip = DEN_regional_resistance_map_button_tt
+		}
+	}
+
+	containerWindowType = {
+		name = "DEN_regional_resistance_faction_entry"
+
+		iconType = {
+			name = "DEN_regional_resistance_faction_icon"
+			spriteType = GFX_DEN_regional_resistance_faction_icon_2
+			pdx_tooltip = DEN_regional_resistance_faction_icon_tt
+		}
+		iconType = {
+			name = "DEN_regional_resistance_faction_bar"
+			spriteType = GFX_DEN_regional_resistance_power_bar_1
+			frame = 100
+		}
+		iconType = {
+			name = "DEN_regional_resistance_faction_bar_frame"
+			spriteType = GFX_DEN_regional_resistance_power_bar
+			pdx_tooltip = DEN_regional_resistance_faction_icon_tt
+		}
+	}
+} 

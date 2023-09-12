@@ -1,0 +1,12 @@
+focus_tree = {
+	id = EBF_NOW_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NOW
+		}
+	}
+	default = no
+	shared_focus = NOW_our_new_duty
+}

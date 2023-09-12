@@ -1,0 +1,586 @@
+﻿add_namespace = russia_tree_one
+add_namespace = russia_tree_one_collapse
+add_namespace = russia_tree_two
+add_namespace = russia_flavour_events
+
+#RUSSIA_TREE_ONE
+country_event = {
+	id = russia_tree_one.1 #News Report at Seven
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.1"}
+	title = russia_tree_one.1.t
+	desc = russia_tree_one.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.1.a
+		add_stability = -0.15
+	}
+}
+
+country_event = {
+	id = russia_tree_one.2 #Emergency Meeting at Eight
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.2"}
+	title = russia_tree_one.2.t
+	desc = russia_tree_one.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.2.a
+		add_stability = 0.05
+	}
+}
+
+country_event = {
+	id = russia_tree_one.3 #Emergency Communique
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.3"}
+	title = russia_tree_one.3.t
+	desc = russia_tree_one.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.3.a
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = russia_tree_one.4 #Personal Directives
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.4"}
+	title = russia_tree_one.4.t
+	desc = russia_tree_one.4.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.4.a
+		custom_effect_tooltip = RUS_unlock_kazakhstan_deccat
+		add_political_power = 25
+		set_country_flag = RUS_kazakhstan_deccat_unlocked
+		set_variable = { RUS_KAZ_forces_strength = 0.2 }
+		set_variable = { RUS_KAZ_forces_strength_show = 20 }
+		set_variable = { RUS_KAZ_nikitins_suspicions = 0.15 }
+		set_variable = { RUS_KAZ_nikitins_suspicions_show = 15 }
+		activate_mission = EBF_RUS_countdown_to_final_offensive
+		activate_mission = EBF_RUS_zakharovs_next_move
+	}
+}
+
+country_event = {
+	id = russia_tree_one.5 #Report on the Suppression of Local Resistance Groups in the Interim Authority
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.5"}
+	title = russia_tree_one.5.t
+	desc = russia_tree_one.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.5.a
+		custom_effect_tooltip = RUS_unlock_kazakhstan_decisions
+		set_country_flag = RUS_kazakhstan_decisions_unlocked
+	}
+}
+
+country_event = {
+	id = russia_tree_one.6 #Murder on the Steppes
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.6"}
+	title = russia_tree_one.6.t
+	desc = russia_tree_one.6.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.6.a
+		set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.15 }
+		EBF_KAZ_increase_kazakh_forces_strength = yes		
+	}
+}
+
+country_event = {
+	id = russia_tree_one.7 #Meeting of Legends
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.7"}
+	title = russia_tree_one.7.t
+	desc = russia_tree_one.7.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.7.a
+		set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.2 }
+		EBF_KAZ_increase_nikitins_suspicions = yes
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = russia_tree_one.8 #Report on the Three Individuals of Interest
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.8"}
+	title = russia_tree_one.8.t
+	desc = russia_tree_one.8.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.8.a
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = russia_tree_one.9 #The Cruel General
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.9"}
+	title = russia_tree_one.9.t
+	desc = russia_tree_one.9.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.9.a
+		add_manpower = 1000
+		add_war_support = 0.01
+	}
+}
+
+country_event = {
+	id = russia_tree_one.10 #An All-nighter and a Discovery
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.10"}
+	title = russia_tree_one.10.t
+	desc = russia_tree_one.10.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.10.a
+		set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.1 }
+		EBF_KAZ_increase_kazakh_forces_strength = yes
+	}
+}
+
+country_event = {
+	id = russia_tree_one.11 #Ally or Foe?
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.11"}
+	title = russia_tree_one.11.t
+	desc = russia_tree_one.11.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.11.a
+	}
+}
+
+country_event = {
+	id = russia_tree_one.12 #Secondary Report on the Three Individuals of Interest
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.12"}
+	title = russia_tree_one.12.t
+	desc = russia_tree_one.12.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.12.a
+		custom_effect_tooltip = RUS_pick_carefully_tt
+	}
+}
+
+country_event = {
+	id = russia_tree_one.13 #After Action Report: A Dinner with Wine
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.13"}
+	title = russia_tree_one.13.t
+	desc = russia_tree_one.13.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.13.a
+		set_temp_variable = { temp_RUS_KAZ_forces_strength = 0.1 }
+		EBF_KAZ_increase_kazakh_forces_strength = yes		
+		custom_effect_tooltip = osipov_starts_stronger_tt
+		set_country_flag = osipov_first_lieutenant
+		add_political_power = 75
+	}
+}
+
+country_event = {
+	id = russia_tree_one.14 #After Action Report: A Reaffirment of Loyalties
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.14"}
+	title = russia_tree_one.14.t
+	desc = russia_tree_one.14.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.14.a
+		set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions = 0.10 }
+		EBF_KAZ_increase_nikitins_suspicions = yes
+		custom_effect_tooltip = sudoplatov_starts_stronger_tt
+		set_country_flag = sudoplatov_first_lieutenant
+		add_political_power = 75
+	}
+}
+
+country_event = {
+	id = russia_tree_one.15 #After Action Report: A Saviour's Proper Reward
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.15"}
+	title = russia_tree_one.15.t
+	desc = russia_tree_one.15.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.15.a
+		custom_effect_tooltip = damian_starts_stronger_tt
+		set_country_flag = damian_first_lieutenant
+		add_political_power = 75
+	}
+}
+
+country_event = {
+	id = russia_tree_one.16 #The Last Battle of Valeriy Zakharov
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.16"}
+	title = russia_tree_one.16.t
+	desc = russia_tree_one.16.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.16.a
+		add_political_power = 100
+	}
+}
+
+country_event = {
+	id = russia_tree_one.17 #The Victor’s March Home
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.17"}
+	title = russia_tree_one.17.t
+	desc = russia_tree_one.17.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.17.a
+		country_event = {
+			id = russia_tree_one.18
+		}
+		hidden_effect = {
+			402 = {
+				remove_core_of = KAZ
+			}
+			587 = {
+				remove_core_of = KAZ
+			}
+			404 = {
+				remove_core_of = KAZ
+			}
+			589 = {
+				remove_core_of = KAZ
+			}
+			586 = {
+				remove_core_of = KAZ
+			}
+			402 = {
+				add_core_of = RUS
+			}
+			587 = {
+				add_core_of = RUS
+			}
+			404 = {
+				add_core_of = RUS
+			}
+			589 = {
+				add_core_of = RUS
+			}
+			586 = {
+				add_core_of = RUS
+			}
+		}
+		annex_country = {
+			target = KAZ
+		}
+		remove_ideas = RUS_kazakh_pacification
+		
+	}
+}
+
+country_event = {
+	id = russia_tree_one.18 #The Victor’s Leave
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.18"}
+	title = russia_tree_one.18.t
+	desc = russia_tree_one.18.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.18.a
+		custom_effect_tooltip = victors_leave_tt
+		hidden_effect = {	
+			RUS_Pavel_Nikitin = {
+				remove_advisor_role = {
+					slot = person_of_influence
+				}
+			}
+			RUS_Nikifor_Kovalev = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = autocracy_military_junta_subtype
+						expire = "2999.1.1.1"
+					}
+				}
+			}			
+		}
+	}
+}
+
+country_event = {
+	id = russia_tree_one.19 #A Shameful retreat
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.19"}
+	title = russia_tree_one.19.t
+	desc = russia_tree_one.19.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.19.a
+		country_event = {
+			id = russia_tree_one.20
+		}	
+		annex_country = {
+			target = KAZ
+		}	
+		hidden_effect = {
+			586 = {
+				set_demilitarized_zone = yes
+			}
+			589 = {
+				set_demilitarized_zone = yes
+			}
+			404 = {
+				set_demilitarized_zone = yes
+			}
+			remove_ideas = RUS_kazakh_pacification
+			KAZ = {
+				drop_cosmetic_tag = yes
+				set_politics = {
+					ruling_party = conservatism
+					elections_allowed = no
+					last_election = "1935.12.17"
+					election_frequency = 48
+				} 
+			}
+		}
+	}
+}
+
+country_event = {
+	id = russia_tree_one.20 #A Friend’s Tears
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.20"}
+	title = russia_tree_one.20.t
+	desc = russia_tree_one.20.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.20.a
+		custom_effect_tooltip = friends_tears_tt
+		hidden_effect = {	
+			RUS_Pavel_Nikitin = {
+				remove_advisor_role = {
+					slot = person_of_influence
+				}
+			}
+			RUS_Nikifor_Kovalev = {
+				add_country_leader_role = {
+					promote_leader = yes
+					country_leader = {
+						ideology = autocracy_military_junta_subtype
+						expire = "2999.1.1.1"
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = russia_tree_one.21 #The Final Death Knell
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.21"}
+	title = russia_tree_one.21.t
+	desc = {
+		text = russia_tree_one.21.d
+		trigger = {
+			has_completed_focus = RUS_his_fall
+		}
+	}
+	desc = {
+		text = russia_tree_one.21.d2
+		trigger = {
+			has_completed_focus = RUS_an_undesired_victory
+		}
+	}	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.21.a
+		EBF_RUS_tree_two = yes
+	}
+}
+
+country_event = {
+	id = russia_tree_one.22 #The Final Battle begins
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one.22"}
+	title = russia_tree_one.22.t
+	desc = russia_tree_one.22.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one.22.a
+		if = {
+			limit = {
+				OR = {
+					check_variable = {
+						var = RUS_KAZ_forces_strength
+						value = RUS_KAZ_kazakh_forces_strength
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = RUS_KAZ_forces_strength
+						value = 0.75
+						compare = greater_than_or_equals
+					}					
+				}	
+			}
+			complete_national_focus = RUS_an_undesired_victory
+			else = {
+				complete_national_focus = RUS_his_fall
+			}
+		}
+	}
+}
+
+#russia_tree_one_collapse
+
+country_event = {
+	id = russia_tree_one_collapse.1 #No More Games, Nikitin calls Zakharov informing he has gathered enough evidence to trial Chkalov for treason and tells him to come back
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one_collapse.1"}
+	title = russia_tree_one_collapse.1.t
+	desc = russia_tree_one_collapse.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one_collapse.1.a
+		set_country_flag = RUS_government_collapse
+		hidden_effect = {
+			load_focus_tree = EBF_Russia_collapse_tree
+		}
+		country_event = {
+			id = russia_tree_one_collapse.2
+			hours = 12
+		}
+	}
+}
+
+country_event = {
+	id = russia_tree_one_collapse.2 #The Return, Zakharov is making his way back and has already made enough calls all across Russia to get Chkalov removed for treason
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one_collapse.2"}
+	title = russia_tree_one_collapse.2.t
+	desc = russia_tree_one_collapse.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one_collapse.2.a
+		country_event = {
+			id = russia_tree_one_collapse.3
+			hours = 1
+		}
+		hidden_effect = {
+			annex_country = {
+				target = KAZ
+			}
+			KAZ = {
+				RUS_Valeriy_Zakharov = { set_nationality = RUS }		
+			}		
+			RUS_Valeriy_Zakharov = {
+				remove_country_leader_role = {
+					ideology = autocracy_occupation_authority_subtype
+				}
+				add_country_leader_role = {
+					country_leader = {
+						ideology = anocracy_provisional_government_subtype
+						expire = "2999.10.20"
+						desc = POLITICS_RUS_COUP_VALERIY_ZAKHAROV
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = russia_tree_one_collapse.3 #It All Ended Before it Could Begin, Zakharov makes his way to the Kremlin and has Chkalov arrested and put in a black sack. Game Loss
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_one_collapse.3"}
+	title = russia_tree_one_collapse.3.t
+	desc = russia_tree_one_collapse.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_one_collapse.3.a
+		EBF_RUS_tree_one_fail = YES
+	}
+}
+
+
+#russia_flavour_events
+
+country_event = {
+	id = russia_flavour_events.1 #Chechnya Rising
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_flavour_events.1"}
+	title = russia_flavour_events.1.t
+	desc = russia_flavour_events.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_flavour_events.1.a
+	}
+}
+
+country_event = {
+	id = russia_flavour_events.2 #The New East
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_flavour_events.2"}
+	title = russia_flavour_events.2.t
+	desc = russia_flavour_events.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_flavour_events.2.a
+	}
+}
+
+country_event = {
+	id = russia_flavour_events.3 #Give Our Freedom Back!
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_flavour_events.3"}
+	title = russia_flavour_events.3.t
+	desc = russia_flavour_events.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_flavour_events.3.a
+	}
+}
+
+#russia_tree_two
+
+country_event = {
+	id = russia_tree_two.0 #The Liberation Front
+	immediate = {log = "[GetDateText]: [Root.GetName]: event russia_tree_two.0"}
+	title = russia_tree_two.0.t
+	desc = russia_tree_two.0.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russia_tree_two.0.a
+		custom_effect_tooltip = kazakhstan_rising_up_tt
+		hidden_effect = {
+			586 = {
+				set_demilitarized_zone = no
+			}
+			589 = {
+				set_demilitarized_zone = no
+			}
+			404 = {
+				set_demilitarized_zone = no
+			}
+			KAZ = {
+				transfer_state = 589
+				transfer_state = 586
+				transfer_state = 404
+				declare_war_on = {
+					target = RUS
+					type = annex_everything
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=385
+	name="STATE_385"
+	manpower = 7050483
+	
+	state_category = town
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1414 3471 4274 4347 4826 7398 7721 7865 10151 10305 10625 12183 12553 
+	}
+}

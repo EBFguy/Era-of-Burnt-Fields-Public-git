@@ -1,0 +1,108 @@
+
+get_north_korea_tag = {
+	if = {
+		limit = {
+			original_tag = DPK
+		}
+		drop_cosmetic_tag = YES
+	}
+	if = {
+		limit = {
+			original_tag = HAM
+		}
+		set_cosmetic_tag = HAM_north_korea
+	}	
+	if = {
+		limit = {
+			original_tag = PYO
+		}
+		set_cosmetic_tag = PYO_north_korea
+	}	
+	if = {
+		limit = {
+			original_tag = HWA
+		}
+		set_cosmetic_tag = PYO_north_korea
+	}	
+	if = {
+		limit = {
+			original_tag = JUC
+		}
+		set_cosmetic_tag = JUC_north_korea
+	}	
+}
+
+
+get_south_korea_tag = {
+	if = {
+		limit = {
+			original_tag = KOR
+		}
+		set_cosmetic_tag = KOR_south_korea
+	}
+	if = {
+		limit = {
+			original_tag = JEO
+		}
+		set_cosmetic_tag = JEO_south_korea
+	}	
+	if = {
+		limit = {
+			original_tag = BUS
+		}
+		set_cosmetic_tag = BUS_south_korea
+	}	
+}
+
+get_full_korea_tag = {
+	if = {
+		limit = {
+			original_tag = DPK
+		}
+		
+	}
+	if = {
+		limit = {
+			original_tag = HAM
+		}
+		set_cosmetic_tag = HAM_korea
+	}	
+	if = {
+		limit = {
+			original_tag = PYO
+		}
+		set_cosmetic_tag = PYO_korea
+	}	
+	if = {
+		limit = {
+			original_tag = HWA
+		}
+		set_cosmetic_tag = PYO_korea
+	}	
+	if = {
+		limit = {
+			original_tag = JUC
+		}
+		set_cosmetic_tag = JUC_korea
+	}	
+	if = {
+		limit = {
+			original_tag = KOR
+		}
+		set_cosmetic_tag = KOR_korea
+	}
+	if = {
+		limit = {
+			original_tag = JEO
+		}
+		set_cosmetic_tag = JEO_korea
+	}	
+	if = {
+		limit = {
+			original_tag = BUS
+		}
+		set_cosmetic_tag = BUS_korea
+	}
+}
+
+

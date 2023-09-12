@@ -1,0 +1,27 @@
+EBF_russia_debug_decisions = {
+	icon = generic_research
+	allowed = {
+		tag = RUS
+	}
+	visible = {
+		is_debug = yes
+	}
+	visible_when_empty = YES
+	priority = 10000
+}
+
+EBF_RUS_kazakhstan_pacification_decisions = {
+	icon = generic_research
+	scripted_gui = RUS_GUI_Kazakh_Paci_Decision_GUI
+	allowed = {
+		tag = RUS
+	}
+#	visible = {
+#		has_country_flag = RUS_kazakhstan_deccat_unlocked
+#		NOT = {
+#			has_country_flag = RUS_government_collapse
+#		}
+#	}
+	visible_when_empty = yes
+	priority = 100000000
+}

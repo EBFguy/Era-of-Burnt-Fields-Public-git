@@ -1,0 +1,24 @@
+
+state={
+	id=1153
+	name="STATE_1153"
+	manpower = 10
+	
+	state_category = large_town
+
+	history={
+		add_core_of = SCF
+		owner = SCF
+		victory_points = { 6300 1 }
+		buildings = {
+			infrastructure = 4
+			6300 = {
+				naval_base = 5
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		6300
+	}
+}

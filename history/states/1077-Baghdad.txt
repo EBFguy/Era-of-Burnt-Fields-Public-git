@@ -1,0 +1,28 @@
+
+state={
+	id=1077
+	name="STATE_1077"
+	manpower = 2957364
+	local_supplies = 0.0 
+	state_category = town
+
+	history={
+		add_core_of = BAG
+		owner = BAG
+		add_core_of = IRQ
+		victory_points = {
+			2097 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2 
+		}
+		
+		
+	}
+
+	provinces={
+		2097 12855 78
+	}
+}

@@ -1,0 +1,56 @@
+# 1) TITLE
+# 2) INITIALS
+# 3) DESCRIPTION
+
+################
+### 1) TITLE ###
+################
+
+defined_text = {
+	name = Megacity_get_name
+	text = {
+		trigger = {
+			OR ={
+				state = 126
+				state = 924
+				state = 925
+			}
+		}
+		localization_key = megacity_name.1
+	}
+}
+
+###################
+### 2) IMAGE ###
+###################
+
+defined_text = {
+	name = EBFgetmegacityimage
+	text = { #
+		trigger = { 			
+			OR ={
+				state = 126
+				state = 924
+				state = 925
+			}
+	 	}
+		localization_key = "GFX_megacity_img_1"
+	}
+}
+
+######################
+### 3) EFFETCS ###
+######################
+defined_text = {
+	name = Megacity_get_effect
+	text = {
+		trigger = {
+			OR ={
+				state = 126
+				state = 924
+				state = 925
+			}
+		}
+		localization_key = megacity_effects.1
+	}
+}

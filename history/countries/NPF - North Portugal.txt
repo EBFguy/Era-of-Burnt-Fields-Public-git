@@ -1,0 +1,86 @@
+﻿capital = 180
+
+# Vacant
+recruit_character = NPF_Generic_Vacant_psi
+recruit_character = NPF_Generic_Vacant_pi_0
+recruit_character = NPF_Generic_Vacant_pi_1
+recruit_character = NPF_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 0
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 31
+    authoritarian_socialism = 50
+    totalitarian_socialism = 19
+    reductivism = 0
+}
+
+recruit_character = NPF_Cid_Guerra
+recruit_character = NPF_Ivo_Santoro
+
+add_ideas = {
+
+    #LAWS#
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_state_atheism
+    EBF_registered_voting
+    EBF_state_press
+    EBF_state_controlled_unions
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+    #ECON LAWS#
+    EBF_limited_exports
+    EBF_decent_minimum_wage
+    EBF_10_hours
+    EBF_primary_human_model
+    #MIL LAWS#
+    EBF_service_by_requirement
+    EBF_minimal_training
+    EBF_militarised_policing
+    EBF_rules_of_engagement
+    #SOC DEV#
+    EBF_secondary_schooling
+    EBF_widespread_poverty
+    EBF_economic_collapse
+    EBF_political_interference
+    EBF_manufactory_lines
+    EBF_cronyism
+
+    #MINISTERS#
+    NPF_Ivo_Santoro_min
+
+    #IDEAS#
+    NPF_processo_revolucionario
+    NPF_ramshackle_army
+
+}
+
+add_ideas = {
+    Free_Internet_member
+}

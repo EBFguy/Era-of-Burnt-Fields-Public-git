@@ -1,0 +1,20 @@
+
+state={
+	id=514
+	name="STATE_514" # Algerian Desert
+	manpower = 1214224
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = NGR
+		owner = NGR		
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		10758 10780 10805 10917 8035 1956 4913 7939 8028 
+	}
+}

@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_MC_name_plate"
+		texturefile = "gfx/interface/EBF_megacities/Megacity_Name.dds"
+	}
+
+	spriteType = {
+		name = "GFX_megacity_img_1"
+		texturefile = "gfx/interface/EBF_megacities/images/megacity_img_1.dds"
+	}
+
+}
+

@@ -1,0 +1,11 @@
+EBF_shanghai_pact_korea = {
+	icon = generic_research
+	allowed = {
+		is_korean_warlord_nation = yes
+	}
+	available = {
+		has_global_flag = EBF_shanghai_pact_korea_collapse_ongoing
+	}
+	visible_when_empty = YES
+	priority = 1
+}

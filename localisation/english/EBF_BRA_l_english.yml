@@ -1,0 +1,115 @@
+﻿l_english:
+ #NAME#
+ BRA:0 "Brazil"
+ BRA_DEF:0 "The Federative Republic of Brazil"
+ BRA_ADJ:0 "Brazilan"
+
+ #COSMETICS#
+ BRA_monarchy:0 "Empire of Brazil"
+ BRA_monarchy_DEF:0 "The Empire of Brazil"
+ BRA_monarchy_ADJ:0 "Brazilan" 
+
+ #PARTIES
+ BRA_technoutopianism_party:0 "BND"
+ BRA_technoutopianism_party_long:0 "Brazilian New Dawn" 
+ BRA_ultranationalism_party:0 "NRP"
+ BRA_ultranationalism_party_long:0 "National Revival Party" 
+ BRA_fascist_party:0 "BSO"
+ BRA_fascist_party_long:0 "Brazilian Society of Officers"
+ BRA_autocracy_party:0 "Imperial Society"
+ BRA_autocracy_party_long:0 "Brazilian Imperial Society" 
+ BRA_anocracy_party:0 "NRC"
+ BRA_anocracy_party_long:0 "National Rejuvenation Council"
+ BRA_conservatism_party:0 "Brazllian Labour Party"
+ BRA_conservatism_party_long:0 "Brazllian Labour Party" 
+ BRA_liberalism_party:0 "Guardians"
+ BRA_liberalism_party_long:0 "Guardians of the Republic"
+ BRA_libertarian_socialism_party:0 "NWP"
+ BRA_libertarian_socialism_party_long:0 "New Worker's Party" 
+ BRA_authoritarian_socialism_party:0 "WWC"
+ BRA_authoritarian_socialism_party_long:0 "Warriors of the Worker's Cause" 
+
+ BRA_prov_council_party_long:0 "The Provisional Council of Brazilian Democracy"
+ BRA_prov_council_party:0 "Provisional Council"
+ BRA_guardians_unity_party_long:0 "The Unity Party"
+ BRA_guardians_unity_party:0 "Unity Party"
+ BRA_guardians_social_democrat_party_long:0 "Brazillian Social Democratic Party"
+ BRA_guardians_social_democrat_party:0 "BSDP"
+ BRA_guardians_social_democrat_party_long:0 "Brazillian Social Democratic Party"
+ BRA_guardians_social_democrat_party:0 "BSDP" 
+
+ BRA_BSO_fascist_party_long:0 "Popular Representation Party"
+ BRA_BSO_fascist_party:0 "PRP"
+
+ BRA_BND_auth_dem_long:0 "Brazillian New Dawn - Mainstream"
+ BRA_BND_auth_dem:0 "BND - Mainstream"
+ BRA_BND_despot_long:0 "Brazillian New Dawn - Pragmatists"
+ BRA_BND_despot:0 "BND - Pragmatists"
+ BRA_BND_techno_long:0 "Brazillian New Dawn - Orthodox"
+ BRA_BND_techno:0 "BND - Orthodox"
+  
+ BRA_IS_despot_long:0 "The Imperial Regency"
+ BRA_IS_despot:0 "Imperial Regency"
+ BRA_IS_empire_despot_long:0 "Imperial Regressive Party"
+ BRA_IS_empire_despot:0 "The Imperial Regressive Party"
+ BRA_IS_empire_authdem_long:0 "Imperial Progressive Party"
+ BRA_IS_empire_authdem:0 "The Imperial Progressive Party"
+ 
+
+ BRA_vanguard_autocracy_party_long:0 "Imperial Restoration Vanguard"
+ BRA_vanguard_autocracy_party:0 "IRV"
+
+ #CHARACHTERS#
+ #STARTING
+ BRA_Romeu_Delgado:0 "Romeu Delgado"
+ POLITICS_ROMEU_DELGADO_DESC:0 "§YProvisional President of the Republic§!\n§W--------------§!\n"
+ BRA_WWC_Cells:0 "WWC Cells"
+ BRA_Yago_Lobo:0 "Yago Lobo"
+ POLITICS_YAGO_LOBO_DESC:0 "§YProvisional President of the Republic§!\n§W--------------§!\n"
+ POLITICS_YAGO_LOBO_TRANS_DEMOCRAT_DESC:0 "§YInterim President of the Republic§!\n§W--------------§!\n"
+ POLITICS_YAGO_LOBO_TRANS_DEMOCRAT_BSO_DESC:0 "§YInterim President of the Republic§!\n§W--------------§!\n"
+
+ BRA_Rejuvenation_Council:0 "The Rejuvenation Council"
+ POLITICS_REJUVENATION_COUNCIL_DESC:0 "§YA Body in Chaos§!\n§W--------------§!\n"
+
+ #BND
+ BRA_Erasmo_Blauschwert:0 "Erasmo Blauschwert"
+ POLITICS_ERASMO_BLASCHWERT_TECHNOCRATIC_DEMOCRACY_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\nBefore and after the tragedies of the 21st century, people saw brazillians as passionate, romantic, full of warm and emotion, even if It all stood above their ability to reason. But inside the crowd of cordial men and women stood one with a cold heart, a focused mind and the will to grasp to every opportunity life had given to him.\n\nBorn in 2031, Erasmo Blauschwert was born in a wealthy family during the dictatorial period of Brazil, but he was different from other children from his age : He was ruthless, emotionless, empathy wasnt present in the empty husk that was Blauschwert, and that made him quickly rise through the ranks of Brazil's politics, where he felt only one emotion : Anger and disgust for the rotten institutions that hindered the growth and wasted the potential of the grand nation.\n\nFor years Erasmo would wait in the shadows, occupying various government roles thanks to his connections, be it as a senator, deputy or minister, until Yago finally was caught by surprise, and the fragile house of cards he built crumbled\n\nNow few things stand between Erasmo and the New Dawn he has chased for decades, and he will do whathever it takes to reach it."
+ POLITICS_ERASMO_BLASCHWERT_TECHNOCRACTIC_autocracy_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\n"
+ POLITICS_ERASMO_BLASCHWERT_TECHNOCRACY_DESC:0 "§YAkã of Brazil§!\n§W--------------§!\n"
+
+ #Imperial Society
+ BRA_Lourenco_Di_Mattia:0 "Lourenço Di Mattia"
+ POLITICS_ISAIAS_REZENDE_DESC:0 "§YImperial Regent§!\n§W--------------§!\n"
+ BRA_Pablo_I:0 "Pablo I"
+ POLITICS_PABLO_I_SEMI_DESC:0 "§YEmperor of Brazil§!\n§W--------------§!\n"
+ POLITICS_PABLO_I_ABSOLUTE_MON_DESC:0 "§YEmperor of Brazil§!\n§W--------------§!\n"
+
+ #BSO
+ BRA_Cesar_Vaz:0 "Cesar Vaz"
+ POLITICS_CESAR_VAZ_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\n"
+ BRA_Nelson_Capela:0 "Nelson Capela"
+ POLITICS_NELSON_CAPELA_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\nCrime Lord, Murderer, Fascist, Paramilitary, Terrorist and Psychopath, these are just one of the few things people call the individual known as Nelson Capela, by far one of the most feared and influential individual in the brazillian far-right.\n\nNelson's past is mysterious, but It is believed that he was born to an environment as miserable as it was violent, where he got himself involved with paramilitary organizations with ties to the Military Police of Rio de Janeiro, where he would assassinate and brutalize leftists and drug addicts, as he grew into a commander of his own death squad.\n\nCapela would collaborate with the Bolsonaro Regime and escape justice for years, hiding himself in the Northeast to escape the persecution from Watanabe's Regime, becoming one of the most wanted men during the regime.\n\nNow, he continued his meteoric rise to power, now occupying the most important position in the entirety of Brazil.\n\nThe Devil of Rio now rules absolute, and under his rule\n\n§Rblood will be shed.§!"
+
+ #DEMOCRATS
+ BRA_Rosa_Sa:0 "Rosa Sá"
+ POLITICS_ROSA_SA_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\n"
+ BRA_Conrado_Karpowicz:0 "Conrado Karpowicz"
+ POLITICS_CONRADO_KARPOWICZ_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\n"
+ BRA_Daniel_Sarney:0 "Daniel Sarney"
+ POLITICS_DANIEL_SARNEY_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\n"
+ BRA_Isaias_Rezende:0 "Isaias Rezende"
+ POLITICS_ISAIAS_REZENDE_DESC:0 "§YPresident of the Republic§!\n§W--------------§!\n"
+
+ 
+ #IDEAS#
+ BRA_delgados_neglect:0 "Delgado's Neglect"
+ BRA_delgados_neglect_desc:0 "Delgado has seen many things, he has seen the country's governing bodies change a million times already, and he has grown disillusioned and cynical of Brazil's capacity to grow, simply barely doing what's necessary to keep the country from falling apart\n\nYet, even in that part he failed, since now many protest against the NRC's neglect of the populance."
+ BRA_unbound_radicalism:0 "Unbound Radicalism"
+ BRA_unbound_radicalism_desc:0 "Mainstream Political Parties failed with Brazil. The progressive turned his back to the people, the liberal made shady deals for his own benefit, the conservative engaged in the most debauched and degenerate lifestyle as the values they supposedly defended slowly crumbled away in a society where all tried to get the better of others, and where everyone lived in misery. These repeated failures and broken promises were hidden away with promises of success and even more shallow promises.But it all would come crashing down.\n\nNow the people do not trust the democrat anymore, for their betrayl is ingrained in their minds, instead, the polarized populance turn to more radical parties for the Salvation of the Country.In these increasingly esoteric and unorthodox political ideologies, will the populance find the solution for this den of shattered hopes or will they find more ruin?"
+ BRA_cordial_men:0 "The Cordial Men"
+ BRA_cordial_men_desc:0 "'The Brazillian Way', or 'Jeitinho Brasileiro' is a term coined to describe the social and political situation which Brazil finds itself in ever since the dawn of the First Brazillian Republic. It describes how brazillians, from the highest ranking politician to the most miserable of working class men will try to get over the ones below and above them with every card they have in hand, it describes how ingrained the culture of little corruptions are in Brazillian Society. With that, Brazil's opportunity for steady economic growth and even the possibility of them becoming a superpower has been completly wasted with greedy politicians and an easily swayed populance trying to get the better for themselves in any deal possible, with the potential of the nation suffering with that."
+
+ #EVENT#
+
+ #MISC#

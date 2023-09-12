@@ -1,0 +1,18 @@
+﻿l_english:
+ #NAMES#
+ CUB:0 "Reconstruction Government of Cuba"
+ CUB_DEF:0 "The Reconstruction Government of Cuba"
+ CUB_ADJ:0 "Cuban"
+  
+ #PARTIES#
+ HIS_autocracy_party:0 "Cuban Party"
+ HIS_autocracy_party_long:0 "The Cuban Party"
+
+ #CHARACHTERS#
+ CUB_Alejandro_Cambeiro:0 "Alejandro Cambeiro"
+ POLITICS_ALEJANDRO_CAMBEIRO_DESC:0 "Cambeiro used to be an idealist. He once fought without fear for the Cuban Communist Party and stood bravely as one of its most staunch supporters. He would proudly announce tp the world that he was one of the many members of the party despite how young he was, and he had dreams of a true socialist paradise in the Caribbean\n\nHowever, like most dreams, it all broke down once reality came knocking on the door.\n\nAlejandro saw the true corruption and wickedness that ran deep withim the communist party, and the idealist young man was now a cynical pragmatist, plotting in the dark to save Cuba from the claws of inefficient. And so with some muscle and brains, the Communist Party's iron grip over Cuba was no more, and Cambeiro could finally achieve his new dream. A dream of a Caribbean Utopia, free of ideologies that hinder absolute progress."
+
+ #IDEAS# 
+ CUB_Damnatio_Memoriae:0 "Damnatio Memoriae"
+ CUB_Apolitical_Strongman:0 "Apolitical Strongmen"
+ CUB_The_Fading_Chokehold:0 "Fading Chokehold"

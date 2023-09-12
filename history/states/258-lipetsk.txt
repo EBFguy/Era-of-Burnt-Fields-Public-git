@@ -1,0 +1,24 @@
+
+state={
+	id=258
+	name="STATE_258"
+	manpower = 1854852
+	
+	state_category = town
+	local_supplies = 0.0 
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+		}
+		
+		victory_points = {
+			6398 1
+		}
+	}
+
+	provinces={
+		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 
+	}
+}

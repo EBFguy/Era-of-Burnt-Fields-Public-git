@@ -1,0 +1,26 @@
+
+state={
+	id=365
+	name="STATE_365"
+	manpower = 15682973
+	
+	state_category = city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 2
+			11975 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		638 7118 7612 9949 10394 10437 10465 11975 
+	}
+}

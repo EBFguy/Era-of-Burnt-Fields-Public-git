@@ -1,0 +1,36 @@
+
+state={
+	id=923
+	name="STATE_923" # Shanghai
+	manpower = 227508088
+	
+	state_category = megalopolis
+	
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = {
+			7014 30
+		}
+		victory_points = {
+			10076 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		12076 7014 12052 10034 10076 
+	}
+}

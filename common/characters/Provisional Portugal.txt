@@ -1,0 +1,15 @@
+characters = {
+	PRP_Aleixo_Luz = {
+		name = "Aleixo Luz"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRP/Portrait_PRP_Aleixo_Luz.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_religious_fascism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ALEIXO_LUZ_DESC"
+		}
+	}
+}

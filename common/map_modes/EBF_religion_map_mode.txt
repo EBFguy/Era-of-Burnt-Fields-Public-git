@@ -1,0 +1,417 @@
+scripted_map_modes = {
+	ebf_religion_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { alpha_temp = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 1 } #Catholic
+						}
+					}
+		 			set_temp_variable = { red = 0.824 }
+		 			set_temp_variable = { green = 0.785 }
+		 			set_temp_variable = { blue = 0.488 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 2 } #Atheist
+						}
+					}
+		 			set_temp_variable = { red = 0.6 }
+		 			set_temp_variable = { green = 0.6 }
+		 			set_temp_variable = { blue = 0.6 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+				
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 3 } #Chinese Folk Sects
+						}
+					}
+		 			set_temp_variable = { red = 0.70 }
+		 			set_temp_variable = { green = 0.04 }
+		 			set_temp_variable = { blue = 0.196 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}							
+				
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 4 } #Protestant Christianity
+						}
+					}
+		 			set_temp_variable = { red = 0.160 }
+		 			set_temp_variable = { green = 0.094 }
+		 			set_temp_variable = { blue = 0.801 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+				
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 5 } #Hessenite Protestantism
+						}
+					}
+		 			set_temp_variable = { red = 0.788 }
+		 			set_temp_variable = { green = 0.890 }
+		 			set_temp_variable = { blue = 0.901 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 6 } #Orthodox Christianity
+						}
+					}
+		 			set_temp_variable = { red = 0.776 }
+		 			set_temp_variable = { green = 0.262 }
+		 			set_temp_variable = { blue = 0.937 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+				
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 7 } #New Creed Catholicism
+						}
+					}
+		 			set_temp_variable = { red = 0.203 }
+		 			set_temp_variable = { green = 0.2 }
+		 			set_temp_variable = { blue = 0.137 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+				
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 8 } #Shintoism
+						}
+					}
+		 			set_temp_variable = { red = 0.964 }
+		 			set_temp_variable = { green = 0.023 }
+		 			set_temp_variable = { blue = 0.043 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 9 } #Muism
+						}
+					}
+		 			set_temp_variable = { red = 0.607 }
+		 			set_temp_variable = { green = 0.733 }
+		 			set_temp_variable = { blue = 0.294 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 10 } #Mahayana Buddhism
+						}
+					}
+		 			set_temp_variable = { red = 0.937 }
+		 			set_temp_variable = { green = 0.929 }
+		 			set_temp_variable = { blue = 0.725 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 11 } #Sunni Islam
+						}
+					}
+		 			set_temp_variable = { red = 0 }
+		 			set_temp_variable = { green = 0.464 }
+		 			set_temp_variable = { blue = 0.0 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 12 } #Missing Data
+						}
+					}
+					set_temp_variable = { red = 0 }
+					set_temp_variable = { green = 0 }
+					set_temp_variable = { blue = 0 }	
+					set_temp_variable = { highlighted = 1.0 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 13 } #Mormon Christianity
+						}
+					}
+		 			set_temp_variable = { red = 0.437 }
+		 			set_temp_variable = { green = 0.429 }
+		 			set_temp_variable = { blue = 0.825 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 14 } #Shia Islam
+						}
+					}
+		 			set_temp_variable = { red = 0 }
+		 			set_temp_variable = { green = 0.664 }
+		 			set_temp_variable = { blue = 0.0 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 15 } #Ibadi Islam
+						}
+					}
+		 			set_temp_variable = { red = 0 }
+		 			set_temp_variable = { green = 0.764 }
+		 			set_temp_variable = { blue = 0.3 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 16 } #Theravada Buddhism
+						}
+					}
+		 			set_temp_variable = { red = 0.837 }
+		 			set_temp_variable = { green = 0.829 }
+		 			set_temp_variable = { blue = 0.725 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 17 } #Hiloni Judaism
+						}
+					}
+		 			set_temp_variable = { red = 0.3 }
+		 			set_temp_variable = { green = 0.5 }
+		 			set_temp_variable = { blue = 0.725 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 18 } #Miaphysite Christianity
+						}
+					}
+		 			set_temp_variable = { red = 0.676 }
+		 			set_temp_variable = { green = 0.262 }
+		 			set_temp_variable = { blue = 0.937 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}																																			
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 19 } #Cult of the Sahara
+						}
+					}
+		 			set_temp_variable = { red = 0.807 }
+		 			set_temp_variable = { green = 0.686 }
+		 			set_temp_variable = { blue = 0.552 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 20 } #Hinduism
+						}
+					}
+		 			set_temp_variable = { red = 0.870 }
+		 			set_temp_variable = { green = 0.439 }
+		 			set_temp_variable = { blue = 0.062 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 21 } #Bengali Big Three
+						}
+					}
+		 			set_temp_variable = { red = 0.286 }
+		 			set_temp_variable = { green = 0.388 }
+		 			set_temp_variable = { blue = 0.407 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 22 } #Vietnamese Folk Religion
+						}
+					}
+		 			set_temp_variable = { red = 0.870 }
+		 			set_temp_variable = { green = 0.168 }
+		 			set_temp_variable = { blue = 0.062 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 23 } #Juche Religion
+						}
+					}
+		 			set_temp_variable = { red = 0.317 }
+		 			set_temp_variable = { green = 0.043 }
+		 			set_temp_variable = { blue = 0.043 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+				
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 24 } #Parousia Religion
+						}
+					}
+		 			set_temp_variable = { red = 0.341 }
+		 			set_temp_variable = { green = 0.459 }
+		 			set_temp_variable = { blue = 0.549 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 25 } #Megachurch Religion
+						}
+					}
+		 			set_temp_variable = { red = 0.259 }
+		 			set_temp_variable = { green = 0.471 }
+		 			set_temp_variable = { blue = 0.8 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 26 } #Adeodatus's Papal Church
+						}
+					}
+					set_temp_variable = { red = 0.839 }
+					set_temp_variable = { green = 0.788 }
+					set_temp_variable = { blue = 0.31 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 27 } #Brazil Church
+						}
+					}
+					set_temp_variable = { red = 0.648 }
+					set_temp_variable = { green = 0.72 }
+					set_temp_variable = { blue = 0.361 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 28 } #Santa Muerte
+						}
+					}
+					set_temp_variable = { red = 0.588 }
+					set_temp_variable = { green = 0.525 }
+					set_temp_variable = { blue = 0.325 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 29 } #Lucius
+						}
+					}
+					set_temp_variable = { red = 0.854 }
+					set_temp_variable = { green = 0.647 }
+					set_temp_variable = { blue = 0.125 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 30 } #Unalligned Catholics
+						}
+					}
+					set_temp_variable = { red = 0.717 }
+					set_temp_variable = { green = 0.639 }
+					set_temp_variable = { blue = 0.533 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 31 } #Independent Orthodoxy
+						}
+					}
+					set_temp_variable = { red = 0.44 }
+					set_temp_variable = { green = 0.231 }
+					set_temp_variable = { blue = 0.949 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 32 } # Sergius II's Orthodoxy
+						}
+					}
+					set_temp_variable = { red = 0.729 }
+					set_temp_variable = { green = 0.51 }
+					set_temp_variable = { blue = 0.878 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { religion = 33 } # Mefodiy II's Orthodoxy
+						}
+					}
+					set_temp_variable = { red = 0.682 }
+					set_temp_variable = { green = 0.165 }
+					set_temp_variable = { blue = 0.839 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else = {
+		 			set_temp_variable = { red = 0.5 }
+		 			set_temp_variable = { green = 0.5 }
+		 			set_temp_variable = { blue = 0.5 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+			}
+		}
+		far_text = none
+		near_text = state
+		update_daily = no
+	}
+}

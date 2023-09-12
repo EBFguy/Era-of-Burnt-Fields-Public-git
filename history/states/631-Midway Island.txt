@@ -1,0 +1,20 @@
+state=
+{
+	id=631
+	name="STATE_631"
+	manpower=10983	
+	state_category = tiny_island
+
+	history={
+		add_core_of = UKR
+		owner = UKR
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		13052 9463 9479 453 11452 486 472
+	}
+}

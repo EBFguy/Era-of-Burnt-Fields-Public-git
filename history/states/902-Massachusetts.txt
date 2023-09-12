@@ -1,0 +1,25 @@
+state={
+	id=902
+	name="STATE_902"
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		715 718 908 3710 
+	}
+	manpower=15507908
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

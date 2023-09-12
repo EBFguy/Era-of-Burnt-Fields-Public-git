@@ -1,0 +1,133 @@
+characters = {
+	DEN_Niels_Christensen = {
+		name = DEN_Niels_Christensen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/Portrait_DEN_Niels_Christensen.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_authoritarian_socialism_subtype 
+			expire = "2082.10.20"
+			desc = "POLITICS_NIELS_CHRISTENSEN_DESC"
+			traits = { DEN_drunkard }
+		}	
+	}
+
+	DEN_Frederik_Voldb = {
+		name = DEN_Frederik_Voldb
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/Portrait_DEN_Frederik_Voldby.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_market_socialism_subtype 
+			expire = "2082.10.20"
+			desc = "POLITICS_FREDERIK_VOLDB_DESC"
+			traits = { }
+		}	
+	}
+
+
+	DEN_Anders_Pedersen = {
+		name = DEN_Anders_Pedersen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DEN/Portrait_DEN_Anders_Pedersen.dds"
+			}
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_totalitarian_socialism_subtype 
+			expire = "2082.10.20"
+			desc = "POLITICS_ANDERS_PEDERSON_DESC"
+			traits = { }
+		}	
+	}
+
+
+	DEN_Tobias_Lippert = {
+		name = DEN_Tobias_Lippert
+		portraits = {
+			civilian = {
+				small = "GFX_idea_DEN_Tobias_Lippert"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = DEN_Tobias_Lippert_min
+			allowed = { original_tag = DEN }
+			traits = {
+				minister_chronic_meddler
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	DEN_Mads_Christian_Dahl = {
+		name = DEN_Mads_Christian_Dahl
+		portraits = {
+			civilian = {
+				small = "GFX_idea_DEN_Mads_Christian_Dahl"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = DEN_Mads_Christian_Dahl_min
+			allowed = { original_tag = DEN }
+			traits = {
+				minister_economic_reformist
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	DEN_Simon_Schmidt = {
+		name = DEN_Simon_Schmidt
+		portraits = {
+			civilian = {
+				small = "GFX_idea_DEN_Simon_Schmidt"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = DEN_Simon_Schmidt_min
+			allowed = { original_tag = DEN }
+			traits = {
+				minister_smoothtalking_socialist
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	DEN_Mads_Olsen = {
+		name = DEN_Mads_Olsen
+		portraits = {
+			civilian = {
+				small = "GFX_idea_DEN_Mads_Olsen"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = DEN_Mads_Olsen_min
+			allowed = { original_tag = DEN }
+			traits = {
+				minister_smoothtalking_socialist
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	
+}

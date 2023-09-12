@@ -1,0 +1,28 @@
+state={
+	id=492
+	name="STATE_492"
+	
+	state_category = rural
+
+	history={
+		add_core_of = PER
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		
+		victory_points = {
+			2210 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		2182 2210 2225 5202 12953 13086 13175 
+	}
+	manpower=17753076
+	buildings_max_level_factor=1.000
+}

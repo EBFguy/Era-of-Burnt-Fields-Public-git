@@ -1,0 +1,1380 @@
+ideas = {
+
+	EBF_conscription = { 
+		law = yes
+
+		EBF_scraping_the_barrel = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 8 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 150 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 180 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 210 }
+				set_variable = { EBF_conscription_law_cost^8 = 0 }
+				set_variable = { EBF_conscription_law_cost^7 = -30 }
+				set_variable = { EBF_conscription_law_cost^6 = -60 }
+				set_variable = { EBF_conscription_law_cost^5 = -90 }
+				set_variable = { EBF_conscription_law_cost^4 = -120 }
+				set_variable = { EBF_conscription_law_cost^3 = -150 }
+				set_variable = { EBF_conscription_law_cost^2 = -180 }
+				set_variable = { EBF_conscription_law_cost^1 = -210 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				conscription = 0.25 
+				industrial_capacity_factory = -0.4 
+				industrial_capacity_dockyard = -0.4
+				production_speed_buildings_factor = -0.4 
+				training_time_factor = 0.5 
+				political_power_gain = -0.3 
+				army_morale_factor = -0.25 
+				research_speed_factor = -0.15
+				stability_factor = -0.25
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_all_adults_serve = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 7 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 150 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 180 }
+				set_variable = { EBF_conscription_law_cost^8 = -30 }
+				set_variable = { EBF_conscription_law_cost^7 = 0 }
+				set_variable = { EBF_conscription_law_cost^6 = -30 }
+				set_variable = { EBF_conscription_law_cost^5 = -60 }
+				set_variable = { EBF_conscription_law_cost^4 = -90 }
+				set_variable = { EBF_conscription_law_cost^3 = -90 }
+				set_variable = { EBF_conscription_law_cost^2 = -150 }
+				set_variable = { EBF_conscription_law_cost^1 = -180 }
+			}
+
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				conscription = 0.2 
+				industrial_capacity_factory = -0.3 
+				industrial_capacity_dockyard = -0.3 
+				production_speed_buildings_factor = -0.3 
+				training_time_factor = 0.3 
+				political_power_gain = -0.25 
+				army_morale_factor = -0.2 
+				research_speed_factor = -0.1
+				stability_factor = -0.2
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_service_by_requirement = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 6 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 150 }
+				set_variable = { EBF_conscription_law_cost^8 = -60 }
+				set_variable = { EBF_conscription_law_cost^7 = -30 }
+				set_variable = { EBF_conscription_law_cost^6 = 0 }
+				set_variable = { EBF_conscription_law_cost^5 = -30 }
+				set_variable = { EBF_conscription_law_cost^4 = -60 }
+				set_variable = { EBF_conscription_law_cost^3 = -90 }
+				set_variable = { EBF_conscription_law_cost^2 = -120 }
+				set_variable = { EBF_conscription_law_cost^1 = -150 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				conscription = 0.1 
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1 
+				production_speed_buildings_factor = -0.1 
+				training_time_factor = 0.2 
+				political_power_gain = -0.2 
+				army_morale_factor = -0.15 
+				research_speed_factor = -0.05
+				stability_factor = -0.15
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_four_year_draft = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 5 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 120 }
+				set_variable = { EBF_conscription_law_cost^8 = -90 }
+				set_variable = { EBF_conscription_law_cost^7 = -60 }
+				set_variable = { EBF_conscription_law_cost^6 = -30 }
+				set_variable = { EBF_conscription_law_cost^5 = 0 }
+				set_variable = { EBF_conscription_law_cost^4 = -30 }
+				set_variable = { EBF_conscription_law_cost^3 = -60 }
+				set_variable = { EBF_conscription_law_cost^2 = -90 }
+				set_variable = { EBF_conscription_law_cost^1 = -120 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				conscription = 0.05 
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.05 
+				training_time_factor = 0.1 
+				political_power_gain = -0.15 
+				stability_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_two_year_draft = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 4 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 90 }
+				set_variable = { EBF_conscription_law_cost^8 = -120 }
+				set_variable = { EBF_conscription_law_cost^7 = -90 }
+				set_variable = { EBF_conscription_law_cost^6 = -60 }
+				set_variable = { EBF_conscription_law_cost^5 = -30 }
+				set_variable = { EBF_conscription_law_cost^4 = 0 }
+				set_variable = { EBF_conscription_law_cost^3 = -30 }
+				set_variable = { EBF_conscription_law_cost^2 = -60 }
+				set_variable = { EBF_conscription_law_cost^1 = -90 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				conscription = 0.025 
+				political_power_gain = -0.1 
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_one_year_draft = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 3 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 150 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 60 }
+				set_variable = { EBF_conscription_law_cost^8 = -150 }
+				set_variable = { EBF_conscription_law_cost^7 = -120 }
+				set_variable = { EBF_conscription_law_cost^6 = -90 }
+				set_variable = { EBF_conscription_law_cost^5 = -60 }
+				set_variable = { EBF_conscription_law_cost^4 = -30 }
+				set_variable = { EBF_conscription_law_cost^3 = 0 }
+				set_variable = { EBF_conscription_law_cost^2 = -30 }
+				set_variable = { EBF_conscription_law_cost^1 = -60 }
+			}
+                  
+			modifier = {
+				conscription = 0.015
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_volunteer_only = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 2 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 180 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 150 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 0 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 30 }
+				set_variable = { EBF_conscription_law_cost^8 = -180 }
+				set_variable = { EBF_conscription_law_cost^7 = -150 }
+				set_variable = { EBF_conscription_law_cost^6 = -120 }
+				set_variable = { EBF_conscription_law_cost^5 = -90 }
+				set_variable = { EBF_conscription_law_cost^4 = -60 }
+				set_variable = { EBF_conscription_law_cost^3 = -30 }
+				set_variable = { EBF_conscription_law_cost^2 = 0 }
+				set_variable = { EBF_conscription_law_cost^1 = -30 }
+			}
+                  
+			modifier = {
+				conscription = 0.012 
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_disarmed_nation = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+
+			on_add = {
+				set_variable = { EBF_conscription_current_law = 1 }
+				set_variable = { EBF_conscription_law_cost_var^8 = 210 }
+				set_variable = { EBF_conscription_law_cost_var^7 = 180 }
+				set_variable = { EBF_conscription_law_cost_var^6 = 150 }
+				set_variable = { EBF_conscription_law_cost_var^5 = 120 }
+				set_variable = { EBF_conscription_law_cost_var^4 = 90 }
+				set_variable = { EBF_conscription_law_cost_var^3 = 60 }
+				set_variable = { EBF_conscription_law_cost_var^2 = 30 }
+				set_variable = { EBF_conscription_law_cost_var^1 = 0 }
+				set_variable = { EBF_conscription_law_cost^8 = -210 }
+				set_variable = { EBF_conscription_law_cost^7 = -180 }
+				set_variable = { EBF_conscription_law_cost^6 = -150 }
+				set_variable = { EBF_conscription_law_cost^5 = -120 }
+				set_variable = { EBF_conscription_law_cost^4 = -90 }
+				set_variable = { EBF_conscription_law_cost^3 = -60 }
+				set_variable = { EBF_conscription_law_cost^2 = -30 }
+				set_variable = { EBF_conscription_law_cost^1 = 0 }
+			}
+                  
+			modifier = {
+				conscription = 0.01 
+				stability_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	EBF_training_standards = { 
+		law = yes
+
+		EBF_no_training = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+			on_add = {
+				set_variable = { EBF_training_standard_current_law = 1 }
+				set_variable = { EBF_training_standard_cost_var^5 = 120 }
+				set_variable = { EBF_training_standard_cost_var^4 = 90 }
+				set_variable = { EBF_training_standard_cost_var^3 = 60 }
+				set_variable = { EBF_training_standard_cost_var^2 = 30 }
+				set_variable = { EBF_training_standard_cost_var^1 = 0 }
+				set_variable = { EBF_training_standard_cost^5 = -120 }
+				set_variable = { EBF_training_standard_cost^4 = -90 }
+				set_variable = { EBF_training_standard_cost^3 = -60 }
+				set_variable = { EBF_training_standard_cost^2 = -30 }
+				set_variable = { EBF_training_standard_cost^1 = 0 }
+			}
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = -0.20 
+				army_defence_factor = -0.20 
+				army_org_factor = -0.20 
+				minimum_training_level = -0.2 
+				mobilization_speed = 2.00 
+				training_time_army_factor = -1.00 
+				air_accidents_factor = 0.2
+				air_weather_penalty = 0.2 
+				static_anti_air_hit_chance_factor = -0.2 
+				experience_gain_army_factor = -0.1 
+				experience_gain_air_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_minimal_training = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+
+			on_add = {
+				set_variable = { EBF_training_standard_current_law = 2 }
+				set_variable = { EBF_training_standard_cost_var^5 = 90 }
+				set_variable = { EBF_training_standard_cost_var^4 = 60 }
+				set_variable = { EBF_training_standard_cost_var^3 = 30 }
+				set_variable = { EBF_training_standard_cost_var^2 = 0 }
+				set_variable = { EBF_training_standard_cost_var^1 = 30 }
+				set_variable = { EBF_training_standard_cost^5 = -90 }
+				set_variable = { EBF_training_standard_cost^4 = -60 }
+				set_variable = { EBF_training_standard_cost^3 = -30 }
+				set_variable = { EBF_training_standard_cost^2 = 0 }
+				set_variable = { EBF_training_standard_cost^1 = -30 }
+			}
+                  
+			modifier = {
+				army_attack_factor = -0.10 
+				army_defence_factor = -0.10 
+				army_org_factor = -0.10 
+				minimum_training_level = -0.1 
+				mobilization_speed = 1.00 
+				training_time_army_factor = -0.50 
+				air_accidents_factor = 0.1 
+				air_weather_penalty = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_basic_training = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_training_standard_current_law = 3 }
+				set_variable = { EBF_training_standard_cost_var^5 = 60 }
+				set_variable = { EBF_training_standard_cost_var^4 = 30 }
+				set_variable = { EBF_training_standard_cost_var^3 = 0 }
+				set_variable = { EBF_training_standard_cost_var^2 = 30 }
+				set_variable = { EBF_training_standard_cost_var^1 = 60 }
+				set_variable = { EBF_training_standard_cost^5 = -60 }
+				set_variable = { EBF_training_standard_cost^4 = -30 }
+				set_variable = { EBF_training_standard_cost^3 = 0 }
+				set_variable = { EBF_training_standard_cost^2 = -30 }
+				set_variable = { EBF_training_standard_cost^1 = -60 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_combat_schooling = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_training_standard_current_law = 4 }
+				set_variable = { EBF_training_standard_cost_var^5 = 30 }
+				set_variable = { EBF_training_standard_cost_var^4 = 0 }
+				set_variable = { EBF_training_standard_cost_var^3 = 30 }
+				set_variable = { EBF_training_standard_cost_var^2 = 60 }
+				set_variable = { EBF_training_standard_cost_var^1 = 90 }
+				set_variable = { EBF_training_standard_cost^5 = -30 }
+				set_variable = { EBF_training_standard_cost^4 = 0 }
+				set_variable = { EBF_training_standard_cost^3 = -30 }
+				set_variable = { EBF_training_standard_cost^2 = -60 }
+				set_variable = { EBF_training_standard_cost^1 = -90 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = 0.05 
+				army_defence_factor = 0.05 
+				minimum_training_level = 0.1 
+				mobilization_speed = -0.20 
+				air_accidents_factor = -0.05 
+				air_weather_penalty = -0.05 
+				static_anti_air_hit_chance_factor = 0.1 
+				experience_gain_army_factor = 0.05 
+				experience_gain_air_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_advanced_schooling = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_training_standard_current_law = 5 }
+				set_variable = { EBF_training_standard_cost_var^5 = 0 }
+				set_variable = { EBF_training_standard_cost_var^4 = 30 }
+				set_variable = { EBF_training_standard_cost_var^3 = 60 }
+				set_variable = { EBF_training_standard_cost_var^2 = 90 }
+				set_variable = { EBF_training_standard_cost_var^1 = 120 }
+				set_variable = { EBF_training_standard_cost^5 = 0 }
+				set_variable = { EBF_training_standard_cost^4 = -30 }
+				set_variable = { EBF_training_standard_cost^3 = -60 }
+				set_variable = { EBF_training_standard_cost^2 = -90 }
+				set_variable = { EBF_training_standard_cost^1 = -120 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = 0.125 
+				army_defence_factor = 0.125 
+				army_org_factor = 0.1 
+				minimum_training_level = 0.2 
+				mobilization_speed = -0.40 
+				training_time_army_factor = 0.20 
+				air_accidents_factor = -0.1
+				air_weather_penalty = -0.1 
+				static_anti_air_hit_chance_factor = 0.15 
+				experience_gain_army_factor = 0.1 
+				experience_gain_air_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	EBF_policing = { 
+		law = yes
+
+		EBF_no_policing = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_policing_current_law = 1 }
+				set_variable = { EBF_policing_cost_var^6 = 150 }
+				set_variable = { EBF_policing_cost_var^5 = 120 }
+				set_variable = { EBF_policing_cost_var^4 = 90 }
+				set_variable = { EBF_policing_cost_var^3 = 60 }
+				set_variable = { EBF_policing_cost_var^2 = 30 }
+				set_variable = { EBF_policing_cost_var^1 = 0 }
+				set_variable = { EBF_policing_cost^6 = -150 }
+				set_variable = { EBF_policing_cost^5 = -120 }
+				set_variable = { EBF_policing_cost^4 = -90 }
+				set_variable = { EBF_policing_cost^3 = -60 }
+				set_variable = { EBF_policing_cost^2 = -30 }
+				set_variable = { EBF_policing_cost^1 = 0 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_community_outreach = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_policing_current_law = 2 }
+				set_variable = { EBF_policing_cost_var^6 = 120 }
+				set_variable = { EBF_policing_cost_var^5 = 90 }
+				set_variable = { EBF_policing_cost_var^4 = 60 }
+				set_variable = { EBF_policing_cost_var^3 = 30 }
+				set_variable = { EBF_policing_cost_var^2 = 0 }
+				set_variable = { EBF_policing_cost_var^1 = 30 }
+				set_variable = { EBF_policing_cost^6 = -120 }
+				set_variable = { EBF_policing_cost^5 = -90 }
+				set_variable = { EBF_policing_cost^4 = -60 }
+				set_variable = { EBF_policing_cost^3 = -30 }
+				set_variable = { EBF_policing_cost^2 = 0 }
+				set_variable = { EBF_policing_cost^1 = -30 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = 0.1 
+				encryption_factor = 0.06 
+				decryption_factor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_ordinary_policing  = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_policing_current_law = 3 }
+				set_variable = { EBF_policing_cost_var^6 = 90 }
+				set_variable = { EBF_policing_cost_var^5 = 60 }
+				set_variable = { EBF_policing_cost_var^4 = 30 }
+				set_variable = { EBF_policing_cost_var^3 = 0 }
+				set_variable = { EBF_policing_cost_var^2 = 30 }
+				set_variable = { EBF_policing_cost_var^1 = 60 }
+				set_variable = { EBF_policing_cost^6 = -90 }
+				set_variable = { EBF_policing_cost^5 = -60 }
+				set_variable = { EBF_policing_cost^4 = -30 }
+				set_variable = { EBF_policing_cost^3 = 0 }
+				set_variable = { EBF_policing_cost^2 = -30 }
+				set_variable = { EBF_policing_cost^1 = -60 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_intimidation_policing = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_policing_current_law = 4 }
+				set_variable = { EBF_policing_cost_var^6 = 60 }
+				set_variable = { EBF_policing_cost_var^5 = 30 }
+				set_variable = { EBF_policing_cost_var^4 = 0 }
+				set_variable = { EBF_policing_cost_var^3 = 30 }
+				set_variable = { EBF_policing_cost_var^2 = 60 }
+				set_variable = { EBF_policing_cost_var^1 = 90 }
+				set_variable = { EBF_policing_cost^6 = -60 }
+				set_variable = { EBF_policing_cost^5 = -30 }
+				set_variable = { EBF_policing_cost^4 = 0 }
+				set_variable = { EBF_policing_cost^3 = -30 }
+				set_variable = { EBF_policing_cost^2 = -60 }
+				set_variable = { EBF_policing_cost^1 = -90 }
+			}
+			
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.02 
+				encryption_factor = 0.03 
+				decryption_factor = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_heavily_armed_policing = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_policing_current_law = 5 }
+				set_variable = { EBF_policing_cost_var^6 = 30 }
+				set_variable = { EBF_policing_cost_var^5 = 0 }
+				set_variable = { EBF_policing_cost_var^4 = 30 }
+				set_variable = { EBF_policing_cost_var^3 = 60 }
+				set_variable = { EBF_policing_cost_var^2 = 90 }
+				set_variable = { EBF_policing_cost_var^1 = 120 }
+				set_variable = { EBF_policing_cost^6 = -30 }
+				set_variable = { EBF_policing_cost^5 = 0 }
+				set_variable = { EBF_policing_cost^4 = -30 }
+				set_variable = { EBF_policing_cost^3 = -60 }
+				set_variable = { EBF_policing_cost^2 = -90 }
+				set_variable = { EBF_policing_cost^1 = -120 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.05
+				encryption_factor = 0.05 
+				decryption_factor = 0.05 
+				resistance_activity = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_militarised_policing = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_policing_current_law = 6 }
+				set_variable = { EBF_policing_cost_var^6 = 0 }
+				set_variable = { EBF_policing_cost_var^5 = 30 }
+				set_variable = { EBF_policing_cost_var^4 = 60 }
+				set_variable = { EBF_policing_cost_var^3 = 90 }
+				set_variable = { EBF_policing_cost_var^2 = 120 }
+				set_variable = { EBF_policing_cost_var^1 = 150 }
+				set_variable = { EBF_policing_cost^6 = 0 }
+				set_variable = { EBF_policing_cost^5 = -30 }
+				set_variable = { EBF_policing_cost^4 = -60 }
+				set_variable = { EBF_policing_cost^3 = -90 }
+				set_variable = { EBF_policing_cost^2 = -120 }
+				set_variable = { EBF_policing_cost^1 = -150 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.1 
+				encryption_factor = 0.05 
+				decryption_factor = 0.06 
+				resistance_activity = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+
+	EBF_military_supervision = { 
+		law = yes
+
+		EBF_no_restrictions = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_supervision_current_law = 6 }
+				set_variable = { EBF_military_supervision_cost_var^6 = 0 }
+				set_variable = { EBF_military_supervision_cost_var^5 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^4 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^3 = 90 }
+				set_variable = { EBF_military_supervision_cost_var^2 = 120 }
+				set_variable = { EBF_military_supervision_cost_var^1 = 150 }
+				set_variable = { EBF_military_supervision_cost^6 = 0 }
+				set_variable = { EBF_military_supervision_cost^5 = -30 }
+				set_variable = { EBF_military_supervision_cost^4 = -60 }
+				set_variable = { EBF_military_supervision_cost^3 = -90 }
+				set_variable = { EBF_military_supervision_cost^2 = -120 }
+				set_variable = { EBF_military_supervision_cost^1 = -150 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = 0.10
+				experience_gain_factor = -0.20 
+				war_support_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_minimal_supervision = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_supervision_current_law = 5 }
+				set_variable = { EBF_military_supervision_cost_var^6 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^5 = 0 }
+				set_variable = { EBF_military_supervision_cost_var^4 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^3 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^2 = 90 }
+				set_variable = { EBF_military_supervision_cost_var^1 = 120 }
+				set_variable = { EBF_military_supervision_cost^6 = -30 }
+				set_variable = { EBF_military_supervision_cost^5 = 0 }
+				set_variable = { EBF_military_supervision_cost^4 = -30 }
+				set_variable = { EBF_military_supervision_cost^3 = -60 }
+				set_variable = { EBF_military_supervision_cost^2 = -90 }
+				set_variable = { EBF_military_supervision_cost^1 = -120 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = 0.05 
+				experience_gain_factor = -0.10  
+				war_support_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_military_police = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_supervision_current_law = 4 }
+				set_variable = { EBF_military_supervision_cost_var^6 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^5 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^4 = 0 }
+				set_variable = { EBF_military_supervision_cost_var^3 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^2 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^1 = 90 }
+				set_variable = { EBF_military_supervision_cost^6 = -60 }
+				set_variable = { EBF_military_supervision_cost^5 = -30 }
+				set_variable = { EBF_military_supervision_cost^4 = 0 }
+				set_variable = { EBF_military_supervision_cost^3 = -30 }
+				set_variable = { EBF_military_supervision_cost^2 = -60 }
+				set_variable = { EBF_military_supervision_cost^1 = -90 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_rules_of_engagement = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_supervision_current_law = 3 }
+				set_variable = { EBF_military_supervision_cost_var^6 = 90 }
+				set_variable = { EBF_military_supervision_cost_var^5 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^4 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^3 = 0 }
+				set_variable = { EBF_military_supervision_cost_var^2 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^1 = 60 }
+				set_variable = { EBF_military_supervision_cost^6 = -90 }
+				set_variable = { EBF_military_supervision_cost^5 = -60 }
+				set_variable = { EBF_military_supervision_cost^4 = -30 }
+				set_variable = { EBF_military_supervision_cost^3 = 0 }
+				set_variable = { EBF_military_supervision_cost^2 = -30 }
+				set_variable = { EBF_military_supervision_cost^1 = -60 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = -0.025 
+				experience_gain_factor = 0.05 
+				war_support_factor = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_modernised_rules_of_war = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_supervision_current_law = 2 }
+				set_variable = { EBF_military_supervision_cost_var^6 = 120 }
+				set_variable = { EBF_military_supervision_cost_var^5 = 90 }
+				set_variable = { EBF_military_supervision_cost_var^4 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^3 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^2 = 0 }
+				set_variable = { EBF_military_supervision_cost_var^1 = 30 }
+				set_variable = { EBF_military_supervision_cost^6 = -120 }
+				set_variable = { EBF_military_supervision_cost^5 = -90 }
+				set_variable = { EBF_military_supervision_cost^4 = -60 }
+				set_variable = { EBF_military_supervision_cost^3 = -30 }
+				set_variable = { EBF_military_supervision_cost^2 = 0 }
+				set_variable = { EBF_military_supervision_cost^1 = -30 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = -0.05
+				experience_gain_factor = 0.1 
+				war_support_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_ethical_battlefield_supervision = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_supervision_current_law = 1 }
+				set_variable = { EBF_military_supervision_cost_var^6 = 150 }
+				set_variable = { EBF_military_supervision_cost_var^5 = 120 }
+				set_variable = { EBF_military_supervision_cost_var^4 = 90 }
+				set_variable = { EBF_military_supervision_cost_var^3 = 60 }
+				set_variable = { EBF_military_supervision_cost_var^2 = 30 }
+				set_variable = { EBF_military_supervision_cost_var^1 = 0 }
+				set_variable = { EBF_military_supervision_cost^6 = -150 }
+				set_variable = { EBF_military_supervision_cost^5 = -120 }
+				set_variable = { EBF_military_supervision_cost^4 = -90 }
+				set_variable = { EBF_military_supervision_cost^3 = -60 }
+				set_variable = { EBF_military_supervision_cost^2 = -30 }
+				set_variable = { EBF_military_supervision_cost^1 = 0 }
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				army_attack_factor = -0.10 
+				experience_gain_factor = 0.2 
+				war_support_factor = 0.075
+			}
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	EBF_military_ethos = {
+		EBF_ground_forces_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 7 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				experience_gain_army_factor = 0.25
+				experience_gain_army_unit_factor = 0.1
+				experience_loss_factor = 0.1
+				added_military_ip_ground = 10
+			}
+			cancel_if_invalid = no
+		}			
+
+		EBF_naval_forces_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 6 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				experience_gain_navy_factor = 0.25
+				experience_gain_navy_unit_factor = 0.1
+				navy_max_range_factor = 0.25
+				added_military_ip_navy = 10
+			}
+			cancel_if_invalid = no
+		}	
+
+		EBF_air_forces_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 5 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				experience_gain_air_factor = 0.25
+				air_ace_generation_chance_factor = 0.1
+				air_range_factor = 0.25
+				added_military_ip_air = 10
+			}
+			cancel_if_invalid = no
+		}
+
+		EBF_special_forces_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 4 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				special_forces_training_time_factor = -0.1
+				special_forces_cap = 0.25
+				added_military_ip_air = 5
+				added_military_ip_navy = 5
+				added_military_ip_ground = 5
+			}
+			cancel_if_invalid = no
+		}
+
+		EBF_military_research_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 3 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				research_speed_factor = 0.1
+				research_sharing_per_country_bonus_factor = 0.5
+				production_lack_of_resource_penalty_factor = 0.1 
+				added_military_ip_research = 15
+			}
+			cancel_if_invalid = no
+		}
+
+		EBF_civil_services_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 2 }
+			}
+
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				misc_energy_consumption_reducers = 15
+				misc_food_consumption_reducers = 15
+				ecodecay_national_monthly_decay_minus = 5
+				added_military_ip_civil_services = 10
+			}
+			cancel_if_invalid = no
+		}
+
+		EBF_neutral_ethos = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethos_current_law = 1 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+				added_military_ip = 25
+			}
+			cancel_if_invalid = no
+		}
+	}
+
+	EBF_military_ethics = {
+		EBF_banned_wmds_ethics = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethics_current_law = 3 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+			}
+			cancel_if_invalid = no
+		}
+		EBF_restricted_wmds_ethics = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethics_current_law = 2 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+			}
+			cancel_if_invalid = no
+		}
+		EBF_unrestricted_wmds_ethics = {
+					
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+			on_add = {
+				set_variable = { EBF_military_ethics_current_law = 1 }
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+					
+			modifier = {
+			}
+			cancel_if_invalid = no
+		}
+	}
+}
+	

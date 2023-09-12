@@ -1,0 +1,240 @@
+﻿defined_text = {
+	name = GetLoserAllies
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = EBF_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = EBF_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+
+defined_text = {
+	name = GetWinnerAllies
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = EBF_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = EBF_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+
+defined_text = {
+	name = GetLoserAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = EBF_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = EBF_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+
+defined_text = {
+	name = GetWinnerAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = EBF_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = EBF_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+
+
+defined_text = {
+	name = GetWarStatus
+	text = {
+		trigger = {
+			has_global_flag = war_won
+		}
+		localization_key = EBF_PEACE_POPUP_WAR_CONCLUSION
+	}
+	text = {
+		trigger = {
+			has_global_flag = war_continuing
+		}
+		localization_key = EBF_PEACE_POPUP_WAR_CONTINUING
+	}
+}
+
+
+#### PUT YOUR VARIOUS CATEGORIES/TRIGGERS IN HERE ###
+
+# Refer to the winning country's tag like so "global_event_target:winning_country"
+# and the losing country's tag like so "global_event_target:losing_country"
+
+defined_text = {
+	name = GetWarConclusionLoc
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				is_european_warlord_nation = yes
+			}
+			event_target:winning_country = {
+				is_european_warlord_nation = yes
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_WAR_CONCLUSION_EUROPE
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				is_british_warlord_nation = yes
+			}
+			event_target:winning_country = {
+				is_british_warlord_nation = yes
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_WAR_CONCLUSION_BRITAIN
+	}
+	text = {
+		localization_key = EBF_PEACE_POPUP_WAR_CONCLUSION_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetWarContinuationLoc
+	text = {
+		localization_key = EBF_PEACE_POPUP_WAR_CONTINUING_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetFlavor
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = NOW
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_NOW_AVA
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = NOW
+			}
+			has_global_flag = EBF_Unicorn_War_done
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_NOW
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = BRU
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_BRU_AVA
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = BRU
+			}
+			has_global_flag = EBF_Unicorn_War_done
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_BRU
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = OCC
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_OCC
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = LON
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_LON
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = VNC
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_VNC
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = PHI
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_PHI
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = BIF
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_BIF
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ULS
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_ULS
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = ULS
+				has_ruling_party = {
+					has_government = ultranationalism
+				}
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_SONS_OF_IRELAND
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = IRE
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_IRE
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = IRE
+			}
+			event_target:winning_country = {
+				original_tag = BIF
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_IRE_BRITISH
+	}
+	text = {
+		trigger = {
+			event_target:losing_country = {
+				original_tag = IRE
+			}
+			event_target:winning_country = {
+				original_tag = ULS
+			}
+		}
+		localization_key = EBF_PEACE_POPUP_FLAVOR_IRE_SONS
+	}
+	text = {
+		localization_key = EBF_PEACE_POPUP_FLAVOR_DEFAULT
+	}
+}

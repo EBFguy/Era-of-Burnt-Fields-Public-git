@@ -1,0 +1,92 @@
+﻿l_english:
+ #NAMES#
+
+ NEZ:0 ""
+ NEZ_DEF:0 ""
+ NEZ_ADJ:0 "Anarchic"   
+
+ #COSMETICS#
+
+
+ #PARTIES#
+ NEZ_reductivism_party:0 "§RANARCHY§!"
+ NEZ_reductivism_party_long:0 "§RANARCHY§!"    
+ #CHARACHTERS#
+ SAH_Anarchy:0 ""
+ POLITICS_SAH_ANARCHY_DESC:0 "§YThe Silent Sands§!\n§W--------------§!\n"
+
+ NEZ_anarchy:0 ""
+ POLITICS_NEZ_ANARCHY_DESC:0 "§YThe Irradiated Wastes§!\n§W--------------§!\n"
+
+ #IDEAS# 
+
+ #MISC# 
+
+
+ ##ANARCHY SECTION##
+ anarchy_box_1_header_txt:0 "Population Statistics"
+  anarchy_box_2_header_txt:0 "Status"
+
+ EBF_category_header_GRE_txt:0 "§TMan's Desecration: The Poles§!"
+ EBF_anarchy_box_one_GRN_txt:0 "§RNo Human or Animal Life Possible On Surface§!"
+ EBF_anarchy_box_two_GRN_txt:0 "§YXL-33 Seeding since 2050§!"
+ EBF_anarchy_box_three_GRN_title:0 "Proliferation"
+ EBF_anarchy_box_three_GRN_txt:0 "§YXL33-PF Proliferation Percentage: 98%§!"
+ EBF_anarchy_box_four_GRN_title:0 "XL33-PF Poisoning Symptoms"
+ EBF_anarchy_box_four_GRN_txt:0 "§RMuscle Lock Up, Unconsciousness, Death in 32 Hours, Incurable§!"
+ EBF_anarchy_main_GRN_txt:0 "Exerpt from: §Y'Desecration of Nature, Our Failures'§!,\nPublished: §Y2059§!, Written by: §YDr. Jackson Hall§!\n\nAs the Second Cold War slowed down, European scientists turned against their American allies; for the first time in decades they worked side by side with their Chinese counterparts to save what little of our Polar regions remained. For years they slaved away in labs in the desperate hope of finding salvation.\n\nFor all their hard work they came back, with a Faustian bargain. To save our remaining ice caps and to stop the ever-oncoming storm of water they presented, XL33-PF, a scientific miracle that hardens the very ionic bonds themselves. The cost of their deal was plain: to save the world, the Human world, we must at last destroy the last great empty places of this world, and mankind took it. Yet again placing ourselves, our greed over the wild places, over the Earth."
+
+
+ EBF_category_header_SAH_txt:0 "§TThe Great Desert: The Sahara§!"
+ EBF_anarchy_box_one_SAH_txt:0 "§RSub-One Million and Dwindling§!"
+ EBF_anarchy_box_two_SAH_txt:0 "§RAnnual Tempreture: 45 °C§!\n§RHotest Tempreture: 67 °C§!"
+ EBF_anarchy_box_three_SAH_title:0 "Smuggling"
+ EBF_anarchy_box_three_SAH_txt:0 "§RDrugs, People, Political Prisoners, Weapons, Classified Documents§!"
+ EBF_anarchy_box_four_SAH_title:0 "Trivia"
+ EBF_anarchy_box_four_SAH_txt:0 "§YThe Children of the Sahara is a terrorist group in over 200 states§!"
+ EBF_anarchy_main_SAH_txt:0 "Exerpt from: §YUN State of Global Climate: 2039§!,\nPublished: §Y2039§!, Section Written by: §YDr. Andrew Rees§!\n\nAs previously stated in the 2043 Executive Action Plan for North Africa, the rise of temperatures in North Africa has resulted in the complete collapse of Social Order in the region. While North African nations still claim to have control over these regions and actively bring order to them, that is a lie that all the world can see through. There is no order. There is no stability. The recent failure of the 2042 UN Monetary Plan to help support these failing nations has only served to worsen the problems present in this region. With no hope forthcoming for these nations I fear that this so-called "Red Zone" will only continue to expand into the greater desert. Centuries of cultural history, people and communities will be wiped out in mere decades without immediate support from Western nations."
+
+ EBF_category_header_MAF_txt:0 "§TThe Great Mistake§!"
+ EBF_anarchy_box_one_MAF_txt:0 "§REstimated below 50 Million\nFormely Over 200 Million§!"
+ EBF_anarchy_box_two_MAF_txt:0 "§RNanomachines Cloud Seeding Since 2051§!"
+ EBF_anarchy_box_three_MAF_title:0 "Chemical Makeup"
+ EBF_anarchy_box_three_MAF_txt:0 "Derivative of Agent Orange, §Rfurther details classified§!"
+ EBF_anarchy_box_four_MAF_title:0 "Symptoms"
+ EBF_anarchy_box_four_MAF_txt:0 "§RRash, Chemical Burns, Necrosis, Birth Defects, Death§!"
+ EBF_anarchy_main_MAF_txt:0 "Exerpt from: §YLUALABA EVENT(15026071), Notes Section§!,\nWritten: §Y2051§!, Leaked: §Y2059§!, §YTwo months after Lualaba Event§!\n\nWho the fuck thought creating nanomachines in the middle of fucking Central Africa was a good idea? The fucking committee has been hounding me for weeks about this and what the fuck am I supposed to say, that a black site project creating a new kind of WMD wasn't even known by the Director of the CIA him fuckingself? And second, who on God's green Earth thought putting that thing into this was a good idea? We know it does to living things and still, somebody approved its use inside an autonomous weapon. I want everybody on this, we need to know who approved of this fucking thing.\n\nIf Kyle was still alive I would have spared the Martians the trouble of killing him.\n\n-§YCIA Director Clarence James§!"
+ 
+ EBF_category_header_NEZ_txt:0 "§TIndia and Pakistan Nuclear Ruins§!"
+ EBF_anarchy_box_one_NEZ_txt:0 "§RNo Known Permanent Populations§!"
+ EBF_anarchy_box_two_NEZ_txt:0 "§RAreas of High Radiation Intensity After 2037 Nuclear Exchange§!"
+ EBF_anarchy_box_three_NEZ_title:0 "Time till Habitability"
+ EBF_anarchy_box_three_NEZ_txt:0 "§Y~150 Years before Radiation Levels Return to Safe Levels§!"
+ EBF_anarchy_box_four_NEZ_title:0 "Trivia"
+ EBF_anarchy_box_four_NEZ_txt:0 "§Y~200 Million People Died in the Week the Bombs Dropped§!"
+ EBF_anarchy_main_NEZ_txt:0 "Exerpt from: §YThe Burning on the Kashmir§!,\nPublished: §Y2038§!, Written by: §YAbhijit Sen§!\n\nFor years my homeland of India bickered with Pakistan over resources and land; a common occurrence since they both gained independence from the British Empire. Sometimes they'd brawl over the border: other times they'd argue over the river. But in the end, they always fought. It was in the 2030s when the fighting became hotter, resources were beginning to dwindle even back then and Kashmir was ripe for oil extraction, so they fought over it, over and over.\n\nSoon enough the fighting got fiercer and words were replaced with weapons. Until one day, somebody made the final move. Nobody knows who fired first, but someone did, and the other side responded in kind, Millions were gone in an instant. I was in America at the time but I'll always remember those Seven Minutes of Humiliation in 2037."
+
+ EBF_category_header_IEZ_txt:0 "§TZagros Mountains Nuclear Zone§!"
+ EBF_anarchy_box_one_IEZ_txt:0 "§RUnknown§!"
+ EBF_anarchy_box_two_IEZ_txt:0 "§RDetonation of Five Nuclear Bombs to stop Saudi advance§!"
+ EBF_anarchy_box_three_IEZ_title:0 "Remaining Stockpile as of [?IRA.year_detonation]"
+ EBF_anarchy_box_three_IEZ_txt:0 "§YAn estimated five other Nuclear Bombs are still held by Iran§!"
+ EBF_anarchy_box_four_IEZ_title:0 "Trivia"
+ EBF_anarchy_box_four_IEZ_txt:0 "§YErfan Qaedi was killed 72 minutes after the first detonation§!"
+ EBF_anarchy_main_IEZ_txt:0 "Exerpt from: §YErfan Qaedi's Final Notes§!,\nWritten: §YTwelve Minutes After First Detonation§!,\n\nFor years my homeland of India bickered with Pakistan over resources and land; a common occurrence since they both gained independence from the British Empire. Sometimes they'd brawl over the border: other times they'd argue over the river. But in the end, they always fought. It was in the 2030s when the fighting became hotter, resources were beginning to dwindle even back then and Kashmir was ripe for oil extraction, so they fought over it, over and over.\n\nSoon enough the fighting got fiercer and words were replaced with weapons. Until one day, somebody made the final move. Nobody knows who fired first, but someone did, and the other side responded in kind, Millions were gone in an instant. I was in America at the time but I'll always remember those Seven Minutes of Humiliation in 2037."
+
+ EBF_category_header_japan_txt: "§TThe Niigata Incident§!"
+ EBF_anarchy_box_one_japan_txt: "Suistare"
+ EBF_anarchy_box_two_japan_txt: "Suistare"
+ EBF_anarchy_box_three_japan_title: "Suistare"
+ EBF_anarchy_box_three_japan_txt: "Suistare"
+ EBF_anarchy_box_four_japan_title: "Suistare"
+ EBF_anarchy_box_four_japan_txt: "Suistare"
+ EBF_anarchy_main_japan_txt: "Suistare"
+
+ EBF_category_header_nagasaki_txt: "§TThe Nagasaki Bombing§!"
+ EBF_anarchy_box_one_nagasaki_txt: "Suistare"
+ EBF_anarchy_box_two_nagasaki_txt: "Suistare"
+ EBF_anarchy_box_three_nagasaki_title: "Suistare"
+ EBF_anarchy_box_three_nagasaki_txt: "Suistare"
+ EBF_anarchy_box_four_nagasaki_title: "Suistare"
+ EBF_anarchy_box_four_nagasaki_txt: "Suistare"
+ EBF_anarchy_main_nagasaki_txt: "Suistare"

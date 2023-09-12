@@ -1,0 +1,24 @@
+
+state={
+	id=136
+	name="STATE_136"
+	manpower = 495974
+	
+	state_category = town
+
+	local_supplies = 0.0 
+	history={
+		add_core_of = SCO
+		owner = SCO
+		
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+		}
+		
+	}
+
+	provinces={
+		200 3150 11055 11136 11207 
+	}
+}

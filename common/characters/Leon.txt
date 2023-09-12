@@ -1,0 +1,15 @@
+characters = {
+	LEO_Aimar_Gistaín = {
+		name = "Aimar Gistaín"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LEO/Portrait_LEO_Aimar_Gistaín.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_traditional_oligarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FERHAT_ABBAS_DESC"
+		}
+	}
+}

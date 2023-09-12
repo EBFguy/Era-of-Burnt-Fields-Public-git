@@ -1,0 +1,15 @@
+characters = {
+	SEC_FREED = {
+		name = SEC_FREED
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_machine_controlled_society_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FREED_DESC"
+		}
+	}
+}

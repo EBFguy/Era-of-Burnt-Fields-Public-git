@@ -1,0 +1,22 @@
+state={
+	id=735
+	name="STATE_735"
+
+	state_category = town
+
+	history={
+		add_core_of = RHO
+		owner = RHO
+		
+		
+		buildings = {
+			infrastructure = 4		
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		764 6609 9603 11573 
+	}
+	manpower=2253759
+	buildings_max_level_factor=1.000
+}

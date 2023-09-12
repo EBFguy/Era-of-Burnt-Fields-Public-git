@@ -1,0 +1,33 @@
+
+state={
+	id=671
+	name="STATE_671"
+	manpower = 104401114
+	
+	state_category = large_city
+
+
+	history={
+		add_core_of = TRI
+		owner = TRI
+		
+		victory_points = {
+			4075 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			1185 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1185 1248 1302 4075 4119 4255 4379 4397 4529 7229 7280 9988 10016 10075 10103 10129 10137 10180 10309 11909 11936 12075 12297 12319 
+	}
+}

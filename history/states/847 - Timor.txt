@@ -1,0 +1,27 @@
+state={
+	id=847
+	name="STATE_847"
+
+	history={
+		add_core_of = TIM
+		owner = TIM
+		
+		buildings = {
+			infrastructure = 3
+			1355 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1339 4358 1355 12206
+	}
+	manpower=3460200
+	buildings_max_level_factor=1
+	state_category="town"
+	local_supplies = 0.0 
+}

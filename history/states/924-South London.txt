@@ -1,0 +1,19 @@
+state={
+	id=924
+	name="STATE_924"
+	manpower=10
+	
+	state_category = megalopolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = SEC
+		owner = SEC
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		13306 13296 13305 13304 11333 13297
+	}
+}

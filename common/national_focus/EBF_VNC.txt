@@ -1,0 +1,25 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_new_venice_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VNC
+		}
+	}
+	default = no
+	shared_focus = VNC_end_new_years_on_the_shining_island
+}
+
+focus_tree = {
+	id = EBF_new_venice_italy_invasion_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VNC
+		}
+	}
+	default = no
+}

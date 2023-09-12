@@ -1,0 +1,21 @@
+﻿l_english:
+ #NAMES#
+ ARG:0 "Argentina"
+ ARG_DEF:0 "The Argentine Republic"
+ ARG_ADJ:0 "Argentine"
+
+ NRG:0 "People's Revolutionary Army"
+ NRG_DEF:0 "The People's Revolutionary Army"
+ NRG_ADJ:0 "Argentine" 
+
+ #COSMETICS#
+ #PARTIES#
+ #CHARACHTERS#
+ ARG_Agustin_Riba:0 "Agustin Riba"
+ POLITICS_AGUSTIN_RIBA_DESC:0 "§YPresident of the Argentine Nation§!\n§W--------------§!\n"
+ NRG_Radomiro_Tejero:0 "Radomiro Tejero"
+ POLITICS_RADOMIRO_TEJERO_DESC:0 "§YLeader of the People's Revolutionary Army§!\n§W--------------§!\n"
+ #IDEAS# 
+ ARG_la_guerra_de_tucuman:0 "La Guerra de Tucumán"
+ ARG_el_gobierno_de_reconstruccion_nacional:0 "El Gobierno de Reconstrucción Nacional"
+ #MISC# 

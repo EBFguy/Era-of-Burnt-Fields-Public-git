@@ -1,0 +1,144 @@
+characters = {
+	PRC_Xi_Jinping = {
+		name = PRC_Xi_Jinping
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/Portrait_PRC_Xi_Jinping.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_XI_JINPING_DESC"
+			traits = { }
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_totalitarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_XI_JINPING_DESC"
+			traits = { }
+		}
+		country_leader = {
+			ideology = conservatism_conservatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_XI_JINPING_DESC"
+			traits = { }
+		}
+	}
+
+	PRC_Disorganized = {
+		name = PRC_Disorganized
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/PRC/.dds"
+				#small = ""
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2082.10.20"
+			traits = { }
+		}
+		country_leader = {
+			ideology = progressivism_progressivism_subtype
+			expire = "2082.10.20"
+			traits = { }
+		}
+		country_leader = {
+			ideology = liberalism_liberalism_subtype
+			expire = "2082.10.20"
+			traits = { }
+		}
+		country_leader = {
+			ideology = ultranationalism_ultranationalism_subtype
+			expire = "2082.10.20"
+			traits = { }
+		}
+	}
+
+	PRC_Zhao_Yan = {
+		name = PRC_Zhao_Yan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/Portrait_PRC_Zhao_Yan.dds"
+				#small = ""
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_technocracy_subtype
+			expire = "2082.10.20"
+			traits = { }
+		}
+	}
+
+	PRC_Zhao_Zixuan = {
+		name = PRC_Zhao_Zixuan
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/PRC/.dds"
+				small = "GFX_idea_PRC_Zhao_Zixuan"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = PRC_Zhao_Zixuan_min
+			allowed = { original_tag = PRC }
+			traits = {
+				minister_smoothtalking_social_climber
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	PRC_Wu_Baihao = {
+		name = PRC_Wu_Baihao
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/PRC/.dds"
+				small = "GFX_idea_PRC_Wu_Baihao"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = PRC_Wu_Baihao_min
+			allowed = { original_tag = PRC }
+			traits = {
+				minister_grey_eminence
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	PRC_Song_Xinxun = {
+		name = PRC_Song_Xinxun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/Portrait_PRC_Song_Xinxun.dds"
+				small = "GFX_idea_PRC_Song_Xinxun"
+			}
+		}
+		country_leader = {
+			ideology = securocracy_military_vanguardism_subtype
+			expire = "2082.10.20"
+			traits = { }
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = PRC_Song_Xinxun_min
+			allowed = { original_tag = PRC }
+			traits = {
+				minister_nationalist_fanatic
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

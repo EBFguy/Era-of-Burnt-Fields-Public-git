@@ -1,0 +1,260 @@
+﻿# #EXAMPLE DIVISION TEMPLATES
+
+# division_template = {
+# 	name = "Infantry"
+# 	regiments = {
+# 		infantry = { x = 0 y = 0 }
+# 		infantry = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		infantry = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "early adoption exoskeleton Infantry"
+# 	regiments = {
+# 		exoskeleton = { x = 0 y = 0 }
+# 		exoskeleton = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "early adoption heavy exoskeleton Infantry"
+# 	regiments = {
+# 		heavy_exoskeleton = { x = 0 y = 0 }
+# 		heavy_exoskeleton = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "medium adoption exoskeleton Infantry"
+# 	regiments = {
+# 		exoskeleton = { x = 0 y = 0 }
+# 		exoskeleton = { x = 0 y = 1 }
+# 		exoskeleton = { x = 0 y = 2 }
+# 		exoskeleton = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "medium adoption heavy exoskeleton Infantry"
+# 	regiments = {
+# 		heavy_exoskeleton = { x = 0 y = 0 }
+# 		heavy_exoskeleton = { x = 0 y = 1 }
+# 		heavy_exoskeleton = { x = 0 y = 2 }
+# 		heavy_exoskeleton = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "late adoption exoskeleton Infantry"
+# 	regiments = {
+# 		exoskeleton = { x = 0 y = 0 }
+# 		exoskeleton = { x = 0 y = 1 }
+# 		exoskeleton = { x = 0 y = 2 }
+# 		exoskeleton = { x = 1 y = 0 }
+# 		exoskeleton = { x = 1 y = 1 }
+# 		exoskeleton = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "late adoption heavy exoskeleton Infantry"
+# 	regiments = {
+# 		heavy_exoskeleton = { x = 0 y = 0 }
+# 		heavy_exoskeleton = { x = 0 y = 1 }
+# 		heavy_exoskeleton = { x = 0 y = 2 }
+# 		heavy_exoskeleton = { x = 1 y = 0 }
+# 		exoskeleton = { x = 1 y = 1 }
+# 		exoskeleton = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "total adoption exoskeleton Infantry"
+# 	regiments = {
+# 		exoskeleton = { x = 0 y = 0 }
+# 		exoskeleton = { x = 0 y = 1 }
+# 		exoskeleton = { x = 0 y = 2 }
+# 		exoskeleton = { x = 1 y = 0 }
+# 		exoskeleton = { x = 1 y = 1 }
+# 		exoskeleton = { x = 1 y = 2 }
+# 		exoskeleton = { x = 2 y = 0 }
+# 		exoskeleton = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "total adoption heavy exoskeleton Infantry"
+# 	regiments = {
+# 		heavy_exoskeleton = { x = 0 y = 0 }
+# 		heavy_exoskeleton = { x = 0 y = 1 }
+# 		heavy_exoskeleton = { x = 0 y = 2 }
+# 		heavy_exoskeleton = { x = 1 y = 0 }
+# 		heavy_exoskeleton = { x = 1 y = 1 }
+# 		exoskeleton = { x = 1 y = 2 }
+# 		exoskeleton = { x = 2 y = 0 }
+# 		exoskeleton = { x = 2 y = 1 }
+# 		exoskeleton = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "early adoption exosuits"
+# 	regiments = {
+# 		exosuit = { x = 0 y = 0 }
+# 		elite_infantry = { x = 0 y = 1 }
+# 		elite_infantry = { x = 0 y = 2 }
+# 		elite_infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 		infantry = { x = 2 y = 0 }
+# 		infantry = { x = 2 y = 1 }
+# 		exosuit = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "Garrison/milita"
+# 	regiments = {
+# 		light_infantry = { x = 0 y = 0 }
+# 		light_infantry = { x = 0 y = 1 }
+# 		light_infantry = { x = 1 y = 0 }
+# 		light_infantry = { x = 1 y = 1 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "pure MBT Division"
+# 	regiments = {
+# 		MBT = { x = 1 y = 0 }
+# 		MBT = { x = 1 y = 1 }
+# 		MBT = { x = 1 y = 2 }
+# 		MBT = { x = 2 y = 0 }
+# 		MBT = { x = 2 y = 1 }
+# 		MBT = { x = 2 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "MBT Division"
+# 	regiments = {
+# 		MBT = { x = 0 y = 0 }
+# 		MBT = { x = 0 y = 1 }
+#         MBT = { x = 0 y = 2 }
+#         infantry = { x = 1 y = 0 }
+# 		infantry = { x = 1 y = 1 }
+# 		infantry = { x = 1 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "armoured Division"
+# 	regiments = {
+# 		MBT = { x = 0 y = 0 }
+# 		MBT = { x = 0 y = 1 }
+#         MBT = { x = 0 y = 2 }
+#         motorized = { x = 1 y = 0 }
+# 		motorized = { x = 1 y = 1 }
+# 		motorized = { x = 1 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "APC/mechanized division"
+# 	regiments = {
+# 		mechanized = { x = 0 y = 0 }
+# 		mechanized = { x = 0 y = 1 }
+# 		mechanized = { x = 0 y = 2 }
+# 		mechanized = { x = 1 y = 0 }
+# 		mechanized = { x = 1 y = 1 }
+# 		mechanized = { x = 1 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "IFV/motorized division"
+# 	regiments = {
+# 		motorized = { x = 0 y = 0 }
+# 		motorized = { x = 0 y = 1 }
+# 		motorized = { x = 0 y = 2 }
+# 		motorized = { x = 1 y = 0 }
+# 		motorized = { x = 1 y = 1 }
+# 		motorized = { x = 1 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "elites"
+# 	regiments = {
+# 		elite_infantry = { x = 0 y = 0 }
+# 		elite_infantry = { x = 0 y = 1 }
+# 		elite_infantry = { x = 0 y = 2 }
+# 		elite_infantry = { x = 0 y = 3 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "marine division"
+# 	regiments = {
+# 		marine = { x = 0 y = 0 }
+# 		marine = { x = 0 y = 1 }
+#         marine = { x = 1 y = 0 }
+#         marine = { x = 1 y = 1 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "mountaineer division"
+# 	regiments = {
+# 		mountaineers = { x = 0 y = 0 }
+# 		mountaineers = { x = 0 y = 1 }
+#         mountaineers = { x = 0 y = 2 }
+# 	}
+# }
+
+# division_template = {
+# 	name = "Paratroopers"
+
+# 	regiments = {
+# 		paratrooper = { x = 0 y = 0 }
+# 		paratrooper = { x = 0 y = 1 }
+#         paratrooper = { x = 0 y = 2 }
+# 	}
+# }

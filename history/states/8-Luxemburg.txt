@@ -1,0 +1,26 @@
+state=
+{
+	id=8
+	name="STATE_8"
+	
+	state_category = town
+	
+	manpower = 426422
+
+	history=
+	{
+		add_core_of = NOW
+		owner = NOW
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		victory_points = { 6583 5 }
+		
+	}
+	local_supplies = 0.0 
+	provinces=
+	{
+6583 	}
+}

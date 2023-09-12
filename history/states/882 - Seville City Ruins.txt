@@ -1,0 +1,28 @@
+state={
+	id=882
+	name="STATE_882"
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = SEV
+		owner = SEV
+		victory_points = {
+			7183 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
+
+		}
+		
+
+	}
+
+	provinces={
+		1048 7183
+	}
+	manpower=1662292
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,101 @@
+﻿l_english:
+ #NAMES#
+ 
+ IRA:0 "Iran"
+ IRA_DEF:0 "The Secular Republic of Iran"
+ IRA_ADJ:0 "Iranian"
+
+ BAG:0 "Baghdad Government"
+ BAG_DEF:0 "The Liberated Iraqi Republic in Baghdad"
+ BAG_ADJ:0 "Iraqi"  
+
+ SRY:0 "Republic of Free Syria"
+ SRY_DEF:0 "The Republic of Free Syria"
+ SRY_ADJ:0 "Syrian"  
+
+ #COSMETICS#
+
+ #BAG_iraq
+ BAG_iraq:0 "Liberated Iraqi Republic"
+ BAG_iraq_DEF:0 "The Liberated Iraqi Republic"
+ BAG_iraq_ADJ:0 "Iraqi"
+
+ #SRY_syria
+ SRY_syria:0 "Syria"
+ SRY_syria_DEF:0 "The Liberated Syrian Republic"
+ SRY_syria_ADJ:0 "Iraqi"
+
+ #SAU_iran
+ SAU_iran:0 "Enforced Liberation Zones of the Arabian Peninsula"
+ SAU_iran_DEF:0 "The Enforced Liberation Zones of the Arabian Peninsula"
+ SAU_iran_ADJ:0 "Arabian"
+
+ #LEB_iran
+ LEB_iran:0 "Lebanon"
+ LEB_iran_DEF:0 "The Freed Lebanese Republic"
+ LEB_iran_ADJ:0 "Lebanese"
+
+ #JOR_iran
+ JOR_iran:0 "Jordan"
+ JOR_iran_DEF:0 "The Jordan Settlements"
+ JOR_iran_ADJ:0 "Jordan"
+
+ #UAE_iran
+ UAE_iran:0 "Gulf Trading Alliance"
+ UAE_iran_DEF:0 "The Gulf Trading Alliance"
+ UAE_iran_ADJ:0 "Gulf Arab"
+
+ #YEM_iran
+ YEM_iran:0 "South Sector Fleet"
+ YEM_iran_DEF:0 "The Iranian South Sector Fleet"
+ YEM_iran_ADJ:0 "Iranian"
+ 
+ #PARTIES#
+ IRA_technoutopianism_party:0 "ILP - Extreme"
+ IRA_technoutopianism_party_long:0 "Iranian Liberation Party - Extreme" 
+ IRA_securocracy_party:0 ""
+ IRA_securocracy_party_long:0 ""
+ IRA_ultranationalism_party:0 "Protectors of the Faith"
+ IRA_ultranationalism_party_long:0 "Protectors of the Faith"
+ IRA_fascist_party:0 "IAF"
+ IRA_fascist_party_long:0 "Iranian Armed Forces"
+ IRA_autocracy_party:0 "ILP - Hardliner"
+ IRA_autocracy_party_long:0 "Iranian Liberation Party - Hardliner" 
+ IRA_anocracy_party:0 "ILP - Moderate"
+ IRA_anocracy_party_long:0 "Iranian Liberation Party - Hardliner"
+ IRA_conservatism_party:0 "Progress Party"
+ IRA_conservatism_party_long:0 "Progress Party" 
+ IRA_liberalism_party:0 "NLP"
+ IRA_liberalism_party_long:0 "National Labour Party"
+ IRA_libertarian_socialism_party:0 "NLP - Left"
+ IRA_libertarian_socialism_party_long:0 "National Labour Party - Left" 
+ IRA_authoritarian_socialism_party:0 ""
+ IRA_authoritarian_socialism_party_long:0 "" 
+ IRA_totalitarian_socialism_party:0 ""
+ IRA_totalitarian_socialism_party_long:0 "" 
+ IRA_reductivism_party:0 ""
+ IRA_reductivism_party_long:0 ""
+
+ #CHARACHTERS#
+ IRA_Erfan_Qaedi:0 "Erfan Qaedi"
+ POLITICS_ERFAN_QAEDI_DESC:0 "§YPresident of Iran§!\n§W--------------§!\n"
+
+ IRA_Nader_Raisi:0 "Nader Raisi"
+ POLITICS_NADER_RAISI_DESC:0 "§YPresident of Iran§!\n§W--------------§!\n"
+
+ IRA_Taraneh_Hossein:0 "Taraneh Hoessein"
+ POLITICS_TARANEH_HOSSEIN_DESC:0 "§YSupreme Leader of Iran§!\n§W--------------§!\n"
+
+ IRA_Abbas_Qajar:0 "Abbas Qajar"
+ POLITICS_ABBAS_QAJAR_DESC:0 "§YPresident of Iran§!\n§W--------------§!\n"
+
+ #IDEAS# 
+ IRA_the_fires_of_liberation:0 "The Fires of Liberation"
+ IRA_cost_of_change:0 "The Costs of Change"
+ IRA_disperced_command:0 "Disperced Command"
+ IRA_legacy_of_the_burning_of_tehran:0 "Legacy of the Burning of Tehran"
+
+
+ #TRAITS#
+
+ #MISC# 

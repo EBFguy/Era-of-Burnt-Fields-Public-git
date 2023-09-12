@@ -1,0 +1,43 @@
+﻿capital = 846
+
+# Vacant
+recruit_character = ACE_Generic_Vacant_psi
+recruit_character = ACE_Generic_Vacant_pi_0
+recruit_character = ACE_Generic_Vacant_pi_1
+recruit_character = ACE_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 7
+    securocracy = 7
+    ultranationalism = 7
+    fascist = 7
+    autocracy = 7
+    anocracy = 7
+    conservatism = 7
+    liberal_conservatism = 8
+    liberalism = 7
+    progressivism = 7
+    libertarian_socialism = 7
+    authoritarian_socialism = 8
+    totalitarian_socialism = 7
+    reductivism = 7
+}

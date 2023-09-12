@@ -1,0 +1,21 @@
+
+state={
+	id=1014
+	name="STATE_1014" # Jabalpur
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = CID
+		owner = CID
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		10872 12781 10030 7619 4883 4950 12799 4953 
+	}
+}

@@ -1,0 +1,25 @@
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=30919
+	local_supplies = 0.0 
+	state_category = enclave
+	history={
+		add_core_of = GIB
+		owner = GIB
+		victory_points = { 4135 10 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4135 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+		
+	}
+	provinces={
+		4135 13228
+	}
+}

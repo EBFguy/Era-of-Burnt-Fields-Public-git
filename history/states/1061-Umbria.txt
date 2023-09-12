@@ -1,0 +1,21 @@
+
+state={
+	id=1061
+	name="STATE_1061"
+	manpower = 902304
+	
+	state_category = town
+
+	history={
+		add_core_of = EMI
+		owner = EMI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	local_supplies = 0.0
+	provinces={
+		3885 9794 6926 11790
+	}
+}

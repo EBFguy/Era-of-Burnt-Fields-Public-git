@@ -1,0 +1,32 @@
+
+state={
+	id=153
+	name="STATE_153"
+	manpower = 2394837
+	
+	state_category = town
+	local_supplies = 0.0 
+	history={
+		add_core_of = LIZ
+		owner = LIZ
+		victory_points = {
+			673 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+		}
+		
+
+		1938.3.12 = {
+			
+			
+			
+		}
+	}
+
+	provinces={
+		671 673 3675 6678 6680 9633 9636 11618 11634 
+	}
+}

@@ -1,0 +1,31 @@
+#######################################
+# Social Development custom modifiers #
+#######################################
+
+EBF_OCC_unity_tick_change = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+OCC_workers_house_tick_array = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+OCC_workers_house_tick_arrayone = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+OCC_workers_house_tick_arraytwo = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}

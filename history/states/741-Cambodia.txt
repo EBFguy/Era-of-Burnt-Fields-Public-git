@@ -1,0 +1,19 @@
+state={
+	id=741
+	name="STATE_741"
+	history = {
+		add_core_of = TRI
+		owner = TRI
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+	provinces={
+		1324 1620 4251 4302 4330 4596 4639 7645 10204 10467 12167 12260 12447 12460 12475 12133 1423 13046
+	}
+	local_supplies = 0.0 
+	manpower=45647261
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

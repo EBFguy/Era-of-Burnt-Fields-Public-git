@@ -1,0 +1,71 @@
+on_actions = {
+
+    # Anarchy tag monthly pulse
+	on_monthly_GRN = {
+		effect = {
+            EBF_assorted_monthly_pulses = YES
+		}
+	}
+
+    on_weekly_GRN = {
+        effect = {
+            EBF_assorted_weekly_pulses = YES
+		}
+    }
+
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {   # Execute if YUC captures South Yucatan
+                    tag = YUC
+                    FROM = { tag = ZAP }
+                    FROM.FROM = {
+                        state = 474
+                        NOT = {
+                            has_global_flag = YUC_ZAP_start_conflict_over
+                        }
+                    }
+                }
+                JAP = {
+                    ZAP = {
+                        white_peace = YUC
+                    }
+                    YUC = {
+                        transfer_state = 1072
+                        transfer_state = 474
+                    }
+                }
+            }
+        }            
+
+        effect = {
+            if = {
+                limit = {   # Execute if GCC captures takes one of Iran's states
+                    OR = {
+                        tag = SAU
+                        tag = IRQ
+                        tag = SYR
+                        tag = UAE
+                        tag = OMA
+                        tag = YEM
+                    }
+                    
+                    FROM = { tag = IRA }
+                    FROM.FROM = {
+                        OR = {
+                            state = 1098
+                            state = 421
+                            state = 417
+                        }
+                        NOT = {
+                            has_global_flag = EBF_GMEW_great_middle_east_war_over
+                        }
+                    }
+                }
+                IRA = {
+                    EBF_GMEW_GCC_victory_effects = yes
+                }
+            }
+        }      
+    }
+}

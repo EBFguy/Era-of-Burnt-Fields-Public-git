@@ -1,0 +1,586 @@
+#FOR EASE OF ACCESS SOCDEV MONTHLY STUFF IS DONE IN ASSORTED_PULSES.TXT SCRIPTED EFFECTS FILE
+EBF_socdev_change_academic_level_var = { 
+	if = {
+		limit = {
+			check_variable = { temp_socdev_change < 0 }
+		}
+		add_to_variable = { EBF_socdev_academic_level_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_academic_level_var_minus
+	}
+	else = {
+		add_to_variable = { EBF_socdev_academic_level_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_academic_level_var_inc
+	}
+}
+
+EBF_worsen_academic_level_socdev = {
+	if = {
+		limit = { has_idea = EBF_basic_literacy }
+		swap_ideas = {
+			remove_idea = EBF_basic_literacy
+			add_idea = EBF_mass_illiteracy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_primary_schooling }
+		swap_ideas = {
+			remove_idea = EBF_primary_schooling
+			add_idea = EBF_basic_literacy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_secondary_schooling }
+		swap_ideas = {
+			remove_idea = EBF_secondary_schooling
+			add_idea = EBF_primary_schooling
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_tertiary_schooling }
+		swap_ideas = {
+			remove_idea = EBF_tertiary_schooling
+			add_idea = EBF_secondary_schooling
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_mass_illiteracy_eradicated }
+		swap_ideas = {
+			remove_idea = EBF_mass_illiteracy_eradicated
+			add_idea = EBF_tertiary_schooling
+		}
+	}
+}
+
+EBF_increase_academic_level_socdev = {
+	if = {
+		limit = { has_idea = EBF_mass_illiteracy }
+		swap_ideas = {
+			remove_idea = EBF_mass_illiteracy
+			add_idea = EBF_basic_literacy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_basic_literacy }
+		swap_ideas = {
+			remove_idea = EBF_basic_literacy
+			add_idea = EBF_primary_schooling
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_primary_schooling }
+		swap_ideas = {
+			remove_idea = EBF_primary_schooling
+			add_idea = EBF_secondary_schooling
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_secondary_schooling }
+		swap_ideas = {
+			remove_idea = EBF_secondary_schooling
+			add_idea = EBF_tertiary_schooling
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_tertiary_schooling }
+		swap_ideas = {
+			remove_idea = EBF_tertiary_schooling
+			add_idea = EBF_mass_illiteracy_eradicated
+		}
+	}
+}
+
+EBF_socdev_change_poverty_rate_var = { 
+	if = {
+		limit = {
+			check_variable = { temp_socdev_change < 0 }
+		}
+		add_to_variable = { EBF_socdev_poverty_rate_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_poverty_rate_var_minus
+	}
+	else = {
+		add_to_variable = { EBF_socdev_poverty_rate_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_poverty_rate_var_inc
+	}
+	log = "academic lev chn [GetDateText]: Main Socdev: [?EBF_socdev_poverty_rate_var]"
+}
+
+EBF_worsen_poverty_rate_socdev = {
+	if = {
+		limit = { has_idea = EBF_rampant_poverty }
+		swap_ideas = {
+			remove_idea = EBF_rampant_poverty
+			add_idea = EBF_overwhelming_poverty
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_widespread_poverty }
+		swap_ideas = {
+			remove_idea = EBF_widespread_poverty
+			add_idea = EBF_rampant_poverty
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_significant_poverty }
+		swap_ideas = {
+			remove_idea = EBF_significant_poverty
+			add_idea = EBF_widespread_poverty
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_minor_poverty }
+		swap_ideas = {
+			remove_idea = EBF_minor_poverty
+			add_idea = EBF_significant_poverty
+		}
+	}
+}
+
+EBF_increase_poverty_rate_socdev = {
+	if = {
+		limit = { has_idea = EBF_overwhelming_poverty }
+		swap_ideas = {
+			remove_idea = EBF_overwhelming_poverty
+			add_idea = EBF_rampant_poverty
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_rampant_poverty }
+		swap_ideas = {
+			remove_idea = EBF_rampant_poverty
+			add_idea = EBF_widespread_poverty
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_widespread_poverty }
+		swap_ideas = {
+			remove_idea = EBF_widespread_poverty
+			add_idea = EBF_significant_poverty
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_significant_poverty }
+		swap_ideas = {
+			remove_idea = EBF_significant_poverty
+			add_idea = EBF_minor_poverty
+		}
+	}
+}
+
+EBF_socdev_change_economic_health_var = { 
+	if = {
+		limit = {
+			check_variable = { temp_socdev_change < 0 }
+		}
+		add_to_variable = { EBF_socdev_economic_health_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_economic_health_var_minus
+	}
+	else = {
+		add_to_variable = { EBF_socdev_economic_health_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_economic_health_var_inc
+	}
+	log = "academic lev chn [GetDateText]: Main Socdev: [?EBF_socdev_economic_health_var]"
+}
+
+EBF_worsen_economic_health_socdev = {
+	if = {
+		limit = { has_idea = EBF_economic_collapse }
+		swap_ideas = {
+			remove_idea = EBF_economic_collapse
+			add_idea = EBF_no_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_economic_panic }
+		swap_ideas = {
+			remove_idea = EBF_economic_panic
+			add_idea = EBF_economic_collapse
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_underperforming_economy }
+		swap_ideas = {
+			remove_idea = EBF_underperforming_economy
+			add_idea = EBF_economic_panic
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_stagnating_economy }
+		swap_ideas = {
+			remove_idea = EBF_stagnating_economy
+			add_idea = EBF_underperforming_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_middling_consumer_confidence }
+		swap_ideas = {
+			remove_idea = EBF_middling_consumer_confidence
+			add_idea = EBF_stagnating_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_strong_consumer_health }
+		swap_ideas = {
+			remove_idea = EBF_strong_consumer_health
+			add_idea = EBF_middling_consumer_confidence
+		}
+	}
+}
+
+EBF_increase_economic_health_socdev = {
+	if = {
+		limit = { has_idea = EBF_no_economy }
+		swap_ideas = {
+			remove_idea = EBF_no_economy
+			add_idea = EBF_economic_collapse
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_economic_collapse }
+		swap_ideas = {
+			remove_idea = EBF_economic_collapse
+			add_idea = EBF_economic_panic
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_economic_panic }
+		swap_ideas = {
+			remove_idea = EBF_economic_panic
+			add_idea = EBF_underperforming_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_underperforming_economy }
+		swap_ideas = {
+			remove_idea = EBF_underperforming_economy
+			add_idea = EBF_stagnating_economy
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_stagnating_economy }
+		swap_ideas = {
+			remove_idea = EBF_stagnating_economy
+			add_idea = EBF_middling_consumer_confidence
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_middling_consumer_confidence }
+		swap_ideas = {
+			remove_idea = EBF_middling_consumer_confidence
+			add_idea = EBF_strong_consumer_health
+		}
+	}
+}
+
+EBF_socdev_change_army_professionalism_var = { 
+	if = {
+		limit = {
+			check_variable = { temp_socdev_change < 0 }
+		}
+		add_to_variable = { EBF_socdev_army_professionalism_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_army_professionalism_var_minus
+	}
+	else = {
+		add_to_variable = { EBF_socdev_army_professionalism_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_army_professionalism_var_inc
+	}
+	log = "academic lev chn [GetDateText]: Main Socdev: [?EBF_socdev_army_professionalism_var]"
+}
+
+EBF_worsen_army_professionalism_socdev = {
+	if = {
+		limit = { has_idea = EBF_untrained_conscripts }
+		swap_ideas = {
+			remove_idea = EBF_untrained_conscripts
+			add_idea = EBF_disorganised_militia
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_hastily_trained_conscripts }
+		swap_ideas = {
+			remove_idea = EBF_hastily_trained_conscripts
+			add_idea = EBF_untrained_conscripts
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_military_widespread_corruption }
+		swap_ideas = {
+			remove_idea = EBF_military_widespread_corruption
+			add_idea = EBF_hastily_trained_conscripts
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_political_interference }
+		swap_ideas = {
+			remove_idea = EBF_political_interference
+			add_idea = EBF_military_widespread_corruption
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_professional_army }
+		swap_ideas = {
+			remove_idea = EBF_professional_army
+			add_idea = EBF_political_interference
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_spartan_professionalism }
+		swap_ideas = {
+			remove_idea = EBF_spartan_professionalism
+			add_idea = EBF_professional_army
+		}
+	}
+}
+
+EBF_increase_army_professionalism_socdev = {
+	if = {
+		limit = { has_idea = EBF_disorganised_militia }
+		swap_ideas = {
+			remove_idea = EBF_disorganised_militia
+			add_idea = EBF_untrained_conscripts
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_untrained_conscripts }
+		swap_ideas = {
+			remove_idea = EBF_untrained_conscripts
+			add_idea = EBF_hastily_trained_conscripts
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_hastily_trained_conscripts }
+		swap_ideas = {
+			remove_idea = EBF_hastily_trained_conscripts
+			add_idea = EBF_military_widespread_corruption
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_military_widespread_corruption }
+		swap_ideas = {
+			remove_idea = EBF_military_widespread_corruption
+			add_idea = EBF_political_interference
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_political_interference }
+		swap_ideas = {
+			remove_idea = EBF_political_interference
+			add_idea = EBF_professional_army
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_professional_army }
+		swap_ideas = {
+			remove_idea = EBF_professional_army
+			add_idea = EBF_spartan_professionalism
+		}
+	}
+}
+
+EBF_socdev_change_industrial_equipment_var = { 
+	if = {
+		limit = {
+			check_variable = { temp_socdev_change < 0 }
+		}
+		add_to_variable = { EBF_socdev_industrial_equipment_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_industrial_equipment_var_minus
+	}
+	else = {
+		add_to_variable = { EBF_socdev_industrial_equipment_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_industrial_equipment_var_inc
+	}
+	log = "academic lev chn [GetDateText]: Main Socdev: [?EBF_socdev_industrial_equipment_var]"
+}
+
+EBF_worsen_industrial_equipment_socdev = {
+	if = {
+		limit = { has_idea = EBF_power_tools }
+		swap_ideas = {
+			remove_idea = EBF_power_tools
+			add_idea = EBF_non_powered_tools
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_manufactory_lines }
+		swap_ideas = {
+			remove_idea = EBF_manufactory_lines
+			add_idea = EBF_power_tools
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_industrial_equipment_use }
+		swap_ideas = {
+			remove_idea = EBF_industrial_equipment_use
+			add_idea = EBF_manufactory_lines
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_exoskeleton_assisted_production }
+		swap_ideas = {
+			remove_idea = EBF_exoskeleton_assisted_production
+			add_idea = EBF_industrial_equipment_use
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_cutting_edge_exoskeletons }
+		swap_ideas = {
+			remove_idea = EBF_cutting_edge_exoskeletons
+			add_idea = EBF_exoskeleton_assisted_production
+		}
+	}
+}
+
+EBF_increase_industrial_equipment_socdev = {
+	if = {
+		limit = { has_idea = EBF_non_powered_tools }
+		swap_ideas = {
+			remove_idea = EBF_non_powered_tools
+			add_idea = EBF_power_tools
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_power_tools }
+		swap_ideas = {
+			remove_idea = EBF_power_tools
+			add_idea = EBF_manufactory_lines
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_manufactory_lines }
+		swap_ideas = {
+			remove_idea = EBF_manufactory_lines
+			add_idea = EBF_industrial_equipment_use
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_industrial_equipment_use }
+		swap_ideas = {
+			remove_idea = EBF_industrial_equipment_use
+			add_idea = EBF_exoskeleton_assisted_production
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_exoskeleton_assisted_production }
+		swap_ideas = {
+			remove_idea = EBF_exoskeleton_assisted_production
+			add_idea = EBF_cutting_edge_exoskeletons
+		}
+	}
+}
+
+EBF_socdev_change_administrative_efficiency_var = { 
+	if = {
+		limit = {
+			check_variable = { temp_socdev_change < 0 }
+		}
+		add_to_variable = { EBF_socdev_administrative_efficiency_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_administrative_efficiency_var_minus
+	}
+	else = {
+		add_to_variable = { EBF_socdev_administrative_efficiency_var = temp_socdev_change }
+		custom_effect_tooltip = EBF_socdev_change_administrative_efficiency_var_inc
+	}
+	log = "academic lev chn [GetDateText]:  Main Socdev: [?EBF_socdev_administrative_efficiency_var]"
+}
+
+EBF_worsen_administrative_efficiency_socdev = {
+	if = {
+		limit = { has_idea = EBF_ineffectual_administration }
+		swap_ideas = {
+			remove_idea = EBF_ineffectual_administration
+			add_idea = EBF_nonexistent_administration
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_widespread_corruption }
+		swap_ideas = {
+			remove_idea = EBF_widespread_corruption
+			add_idea = EBF_ineffectual_administration
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_cronyism }
+		swap_ideas = {
+			remove_idea = EBF_cronyism
+			add_idea = EBF_widespread_corruption
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_functional_administration }
+		swap_ideas = {
+			remove_idea = EBF_functional_administration
+			add_idea = EBF_cronyism
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_streamlined_administration }
+		swap_ideas = {
+			remove_idea = EBF_streamlined_administration
+			add_idea = EBF_functional_administration
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_ai_assisted_administration }
+		swap_ideas = {
+			remove_idea = EBF_ai_assisted_administration
+			add_idea = EBF_streamlined_administration
+		}
+	}
+}
+
+EBF_increase_administrative_efficiency_socdev = {
+	if = {
+		limit = { has_idea = EBF_nonexistent_administration }
+		swap_ideas = {
+			remove_idea = EBF_nonexistent_administration
+			add_idea = EBF_ineffectual_administration
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_ineffectual_administration }
+		swap_ideas = {
+			remove_idea = EBF_ineffectual_administration
+			add_idea = EBF_widespread_corruption
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_widespread_corruption }
+		swap_ideas = {
+			remove_idea = EBF_widespread_corruption
+			add_idea = EBF_cronyism
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_cronyism }
+		swap_ideas = {
+			remove_idea = EBF_cronyism
+			add_idea = EBF_functional_administration
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_functional_administration }
+		swap_ideas = {
+			remove_idea = EBF_functional_administration
+			add_idea = EBF_streamlined_administration
+		}
+	}
+	else_if = {
+		limit = { has_idea = EBF_streamlined_administration }
+		swap_ideas = {
+			remove_idea = EBF_streamlined_administration
+			add_idea = EBF_ai_assisted_administration
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

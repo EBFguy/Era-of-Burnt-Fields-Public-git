@@ -1,0 +1,40 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_Russia_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	shared_focus = RUS_aftermath_december_emergency_decree
+}
+
+focus_tree = {
+	id = EBF_Russia_collapse_tree #EMPTY TREE
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+}
+
+focus_tree = {
+	id = EBF_Russia_tree_two
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	shared_focus = RUS_russias_new_paradigm
+	shared_focus = RUS_formless_ideology_given_form
+	shared_focus = RUS_controlled_outburst
+}

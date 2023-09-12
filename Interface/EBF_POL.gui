@@ -1,0 +1,129 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "EBF_Poland_GUI_Opener"
+		position = { x = 1849 y = 689 }
+		size = { width = 75 height = 75 }
+	
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window2_1b_border"
+		}
+
+		buttonType = {
+			name = "EBF_Poland_GUI_Opener_Button"
+			position = { x = 20 y = 20 }
+
+			spriteType = "GFX_POL_GUI_Opener_Button"
+		}
+	}
+
+
+	containerWindowType = {
+
+		name = "EBF_Poland_GUI_Main"
+		position = { x = 550 y = 100 }
+		size = { width = 1126 height = 805 }
+		moveable = yes
+		clipping = no
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window2_1b_border"
+		}
+
+		containerWindowType = {
+			name = "EBF_Poland_GUI_Closer"
+			position = { x = 1117 y = 0 }
+			size = { width = 75 height = 75 }
+	
+			background = {
+				name = "Background"
+				spriteType = "GFX_tiled_window2_1b_border"
+			}
+	
+			buttonType = {
+				name = "EBF_Poland_GUI_Closer_Button"
+				position = { x = -20 y = -20 }
+				orientation = CENTER
+	
+				spriteType = GFX_POL_GUI_Opener_Button
+			}
+		}
+
+
+		containerWindowType = {
+			name = "EBF_Poland_PIP_Main"
+			position = { x = 16 y = 15 }
+
+			iconType = {
+				name = "PIP_Frame"
+				spriteType = "GFX_POL_PIP_GUI_Frame"
+				alwaystransparent = yes
+			}
+			 
+		}
+
+		buttonType = {
+			name = "Button_1_grey"
+			position = { x = 23 y = 26 }
+
+			spriteType = "GFX_POL_GUI_Button_Grey"
+		}
+
+
+		buttonType = {
+			name = "Button_2_grey"
+			position = { x = 385 y = 26 }
+
+			spriteType = "GFX_POL_GUI_Button_Grey"
+		}
+
+
+		buttonType = {
+			name = "Button_3_grey"
+			position = { x = 747 y = 26 }
+
+			spriteType = "GFX_POL_GUI_Button_Grey"
+		}
+
+		iconType = {
+			name = "Button_1_green"
+			position = { x = 23 y = 26 }
+
+			spriteType = "GFX_POL_GUI_Button_Clicked"
+		}
+
+		iconType = {
+			name = "Button_2_green"
+			position = { x = 385 y = 26 }
+
+			spriteType = "GFX_POL_GUI_Button_Clicked"
+		}
+
+		iconType = {
+			name = "Button_3_green"
+			position = { x = 747 y = 26 }
+
+			spriteType = "GFX_POL_GUI_Button_Clicked"
+		}
+
+		
+
+		iconType = {
+			name = "PIP_Columns"
+			spriteType = "GFX_POL_PIP_GUI_Columns"
+			alwaystransparent = yes
+
+			position = { x = 18 y = 104 }
+		}
+
+		iconType = {
+			name = "PIP_Sidebar"
+			spriteType = "GFX_POL_PIP_GUI_Sidebar"
+			alwaystransparent = yes
+
+			position = { x = 932 y = 104 }
+		}
+	}
+}

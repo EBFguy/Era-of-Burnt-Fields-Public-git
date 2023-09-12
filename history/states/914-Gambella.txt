@@ -1,0 +1,23 @@
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		add_core_of = ETH
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		7912 
+	}
+	manpower=1134761
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

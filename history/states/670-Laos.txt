@@ -1,0 +1,24 @@
+state={
+	id=670
+	name="STATE_670"
+	manpower = 16600472
+	
+	state_category = town
+
+	history={
+		add_core_of = TRI
+		owner = TRI
+		
+		victory_points = {
+			1464 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1464 1507 4339 4568 4613 7075 7103 7218 7356 9961 10330 10356 10456 10496 12332 12392 12433 
+	}
+}

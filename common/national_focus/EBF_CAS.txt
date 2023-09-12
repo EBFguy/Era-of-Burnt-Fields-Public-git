@@ -1,0 +1,29 @@
+#Castille Intro Tree
+
+focus_tree = {
+	id = EBF_CAS_intro_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAS
+		}
+	}
+	default = no
+	shared_focus = CAS_Russian_Parnassus_in_Scattering
+}
+
+#Castille Election Tree
+
+focus_tree = {
+	id = EBF_CAS_election_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CAS
+		}
+	}
+	default = no
+	shared_focus = CAS_Shuffling_the_Deck
+}

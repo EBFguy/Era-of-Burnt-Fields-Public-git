@@ -1,0 +1,22 @@
+state={
+	id=911
+	name="STATE_911"
+
+	history={
+		add_core_of = ETH
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4995 12757 12812 13278 13279 13280 13281 13291 13292 13293 13294
+	}
+	manpower=14907836
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

@@ -1,0 +1,62 @@
+
+
+defined_text = {
+	name = OCCgethousefaction
+	text = {
+		trigger = { check_variable = { t_index = 0 } }
+		localization_key = OCC_workers_hall_faction_0
+	}
+	text = {
+		trigger = { check_variable = { t_index = 1 } }
+		localization_key = OCC_workers_hall_faction_1
+	}
+	text = {
+		trigger = { check_variable = { t_index = 2 } }
+		localization_key = OCC_workers_hall_faction_2
+	}
+}
+
+
+defined_text = {
+	name = OCC_workers_house_unity_var_change_get
+	text = {
+		trigger = {
+			set_temp_variable = { EBF_OCC_unity_change_loc = EBF_OCC_unity_tick_change }
+			add_to_temp_variable = { EBF_OCC_unity_change_loc = modifier@EBF_OCC_unity_tick_change }
+		}
+		localization_key = EBF_OCC_get_real_unity_tick_txt
+	}
+}
+
+defined_text = {
+	name = OCC_workers_house_favre_var_change_get
+	text = {
+		trigger = {
+			set_temp_variable = { OCC_workers_house_tick_array_loc = OCC_workers_house_tick_array^0 }
+			add_to_temp_variable = { OCC_workers_house_tick_array_loc = modifier@OCC_workers_house_tick_array }
+		}
+		localization_key = EBF_OCC_get_real_favre_tick_txt
+	}
+}
+
+defined_text = {
+	name = OCC_workers_house_urilla_var_change_get
+	text = {
+		trigger = {
+			set_temp_variable = { OCC_workers_house_tick_array_loc = OCC_workers_house_tick_array^1 }
+			add_to_temp_variable = { OCC_workers_house_tick_array_loc = modifier@OCC_workers_house_tick_arrayone }
+		}
+		localization_key = EBF_OCC_get_real_urilla_tick_txt
+	}
+}
+
+defined_text = {
+	name = OCC_workers_house_giorgio_var_change_get
+	text = {
+		trigger = {
+			set_temp_variable = { OCC_workers_house_tick_array_loc = OCC_workers_house_tick_array^2 }
+			add_to_temp_variable = { OCC_workers_house_tick_array_loc = modifier@OCC_workers_house_tick_arraytwo }
+		}
+		localization_key = EBF_OCC_get_real_giorgio_tick_txt
+	}
+}

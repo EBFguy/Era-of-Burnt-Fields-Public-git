@@ -1,0 +1,7 @@
+spriteTypes = {
+	# Backgrounds
+	spriteType = {
+		name = "GFX_EBF_InfoBox_BG"
+		textureFile = "gfx/interface/InfoBox/EBF_InfoBox.dds"
+	}
+}

@@ -1,0 +1,317 @@
+
+get_british_england_tag = {
+	if = {
+		limit = {
+			tag = DOV
+		}
+		set_cosmetic_tag = DOV_Unified_England
+	}
+	if = {
+		limit = {
+			tag = MER
+		}
+		set_cosmetic_tag = MER_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = CRN
+		}
+		set_cosmetic_tag = CRN_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = NRF
+		}
+		set_cosmetic_tag = NRF_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = YOR
+		}
+		set_cosmetic_tag = YOR_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = NER
+		}
+		set_cosmetic_tag = NER_Unified_England
+	}		
+	if = {
+		limit = {
+			tag = WLS
+		}
+		set_cosmetic_tag = WLS_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = WAL
+		}
+		set_cosmetic_tag = WAL_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = LON
+		}
+		set_cosmetic_tag = LON_Unified_England
+	}	
+	if = {
+		limit = {
+			tag = REM
+		}
+		set_cosmetic_tag = REM_Unified_England
+	}			
+}
+
+get_british_scotland_tag = {
+	if = {
+		limit = {
+			tag = SCF
+		}
+		set_cosmetic_tag = SCF_Unified_Scotland
+	}
+	if = {
+		limit = {
+			tag = SCO
+		}
+		set_cosmetic_tag = SCO_Unified_Scotland
+	}	
+	if = {
+		limit = {
+			tag = NSC
+		}
+		set_cosmetic_tag = NSC_Unified_Scotland
+	}	
+	if = {
+		limit = {
+			tag = SCT
+		}
+		set_cosmetic_tag = SCT_Unified_Scotland
+	}	
+}
+
+get_great_britain_tag = {
+	if = {
+		limit = {
+			tag = DOV
+		}
+		set_cosmetic_tag = DOV_Unified_Great_Britain
+	}
+	if = {
+		limit = {
+			tag = MER
+		}
+		set_cosmetic_tag = MER_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = CRN
+		}
+		set_cosmetic_tag = CRN_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = NRF
+		}
+		set_cosmetic_tag = NRF_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = YOR
+		}
+		set_cosmetic_tag = YOR_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = NER
+		}
+		set_cosmetic_tag = NER_Unified_Great_Britain
+	}		
+	if = {
+		limit = {
+			tag = WLS
+		}
+		set_cosmetic_tag = WLS_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = WAL
+		}
+		set_cosmetic_tag = WAL_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = LON
+			OR = {
+				has_country_flag = LON_Ending_1
+				NOT = {
+					has_country_flag = LON_Ending_1
+				}
+			}
+		}
+		set_cosmetic_tag = LON_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = LON
+			has_country_flag = LON_Ending_2
+		}
+		set_cosmetic_tag = LON_Unified_Great_Britain2
+	}	
+	if = {
+		limit = {
+			tag = LON
+			has_country_flag = LON_Ending_3
+		}
+		set_cosmetic_tag = LON_Unified_Great_Britain3
+	}			
+	if = {
+		limit = {
+			tag = REM
+		}
+		set_cosmetic_tag = REM_Unified_Great_Britain
+	}		
+	if = {
+		limit = {
+			tag = SCF
+		}
+		set_cosmetic_tag = SCF_Unified_Great_Britain
+	}
+	if = {
+		limit = {
+			tag = SCO
+		}
+		set_cosmetic_tag = SCO_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = NSC
+		}
+		set_cosmetic_tag = NSC_Unified_Great_Britain
+	}	
+	if = {
+		limit = {
+			tag = SCT
+		}
+		set_cosmetic_tag = SCT_Unified_Great_Britain
+	}	
+}
+
+get_british_isles_tag = {
+	if = {
+		limit = {
+			tag = DOV
+		}
+		set_cosmetic_tag = DOV_Unified_British_Isles
+	}
+	if = {
+		limit = {
+			tag = MER
+		}
+		set_cosmetic_tag = MER_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = CRN
+		}
+		set_cosmetic_tag = CRN_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = NRF
+		}
+		set_cosmetic_tag = NRF_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = YOR
+		}
+		set_cosmetic_tag = YOR_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = NER
+		}
+		set_cosmetic_tag = NER_Unified_British_Isles
+	}		
+	if = {
+		limit = {
+			tag = WLS
+		}
+		set_cosmetic_tag = WLS_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = WAL
+		}
+		set_cosmetic_tag = WAL_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = LON
+			has_country_flag = LON_Ending_1
+		}
+		set_cosmetic_tag = LON_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = LON
+			has_country_flag = LON_Ending_2
+		}
+		set_cosmetic_tag = LON_Unified_British_Isles2
+	}	
+	if = {
+		limit = {
+			tag = LON
+			has_country_flag = LON_Ending_3
+		}
+		set_cosmetic_tag = LON_Unified_British_Isles3
+	}		
+	if = {
+		limit = {
+			tag = REM
+		}
+		set_cosmetic_tag = REM_Unified_British_Isles
+	}		
+	if = {
+		limit = {
+			tag = SCF
+		}
+		set_cosmetic_tag = SCF_Unified_British_Isles
+	}
+	if = {
+		limit = {
+			tag = SCO
+		}
+		set_cosmetic_tag = SCO_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = NSC
+		}
+		set_cosmetic_tag = NSC_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = SCT
+		}
+		set_cosmetic_tag = SCT_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = IRE
+		}
+		set_cosmetic_tag = IRE_Unified_British_Isles
+	}		
+	if = {
+		limit = {
+			tag = BIF
+		}
+		set_cosmetic_tag = BIF_Unified_British_Isles
+	}	
+	if = {
+		limit = {
+			tag = ULS
+		}
+		set_cosmetic_tag = ULS_Unified_British_Isles
+	}		
+}

@@ -1,0 +1,16 @@
+characters = {
+	USA_elijah_solomon = {
+		name = USA_elijah_solomon
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_USA_Elijah_Solomon.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ELIJAH_SOLOMON_DESC"
+			traits = { USA_first_dictator }
+		}
+	}
+}

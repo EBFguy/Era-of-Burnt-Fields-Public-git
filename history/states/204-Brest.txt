@@ -1,0 +1,29 @@
+
+state={
+	id=204
+	name="STATE_204" # Bobruysk
+	manpower = 1506172
+	
+	state_category = rural
+	local_supplies = 0.0 
+	history={
+		add_core_of = BLR
+		owner = BLR
+		victory_points = {
+			3350 3
+		}
+		victory_points = {
+			11313 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+		
+	}
+
+	provinces={
+		304 331 360 386 3350 3759 6373 11313 
+	}
+}

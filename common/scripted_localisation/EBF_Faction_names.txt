@@ -1,0 +1,182 @@
+defined_text = {
+	name = GetFactionMembership
+	#SHANGHAI PACT
+	text = {#Master of East Asia
+		trigger = { has_idea = shanghai_pact_status_1 }
+		localization_key = shanghai_pact_status_1_tt
+	}
+	text = {#Independent Member
+		trigger = { has_idea = shanghai_pact_status_2  }
+		localization_key = shanghai_pact_status_2_tt
+	}
+	text = {#Assisted Member
+		trigger = { has_idea = shanghai_pact_status_3 }
+		localization_key = shanghai_pact_status_3_tt
+	}
+	text = {#Semi-Autonomous Governorship
+		trigger = { has_idea = shanghai_pact_status_4 }
+		localization_key = shanghai_pact_status_4_tt
+	}
+	text = {#Leader of WACDEP
+		trigger = { has_idea = wacdep_status_1 }
+		localization_key = wacdep_status_1_tt
+	}
+	text = {#Member of WACDEP
+		trigger = { has_idea = wacdep_status_2  }
+		localization_key = wacdep_status_2_tt
+	}
+	text = {#WACDEP Military Mission
+		trigger = { has_idea = wacdep_status_3 }
+		localization_key = wacdep_status_3_tt
+	}
+	text = {#Member of MPA
+		trigger = { has_idea = mpa_status_1 }
+		localization_key = mpa_status_1_tt
+	}	
+	text = {#Leader of cod
+		trigger = { has_idea = cod_status_1 }
+		localization_key = cod_status_1_tt
+	}
+	text = {#Contender to the Torch
+		trigger = { has_idea = cod_status_2  }
+		localization_key = cod_status_2_tt
+	}
+	text = {#member of the commonwealth
+		trigger = { has_idea = cod_status_3 }
+		localization_key = cod_status_3_tt
+	}	
+	text = {#COD military mission
+		trigger = { has_idea = cod_status_4 }
+		localization_key = cod_status_4_tt
+	}		
+	text = {#Leading Government of America
+		trigger = { has_idea = solomon_faction_status_1 }
+		localization_key = solomon_faction_status_1_tt
+	}
+	text = {#Special Administrative Zones
+		trigger = { has_idea = solomon_faction_status_2  }
+		localization_key = solomon_faction_status_2_tt
+	}
+	text = {#Self-Governing Zones
+		trigger = { has_idea = solomon_faction_status_3 }
+		localization_key = solomon_faction_status_3_tt
+	}		
+	text = {#Liberator
+		trigger = { has_idea = gulf_union_status_1 }
+		localization_key = gulf_union_status_1_tt
+	}
+	text = {#Indepndent
+		trigger = { has_idea = gulf_union_status_2  }
+		localization_key = gulf_union_status_2_tt
+	}
+	text = {#Dependent
+		trigger = { has_idea = gulf_union_status_3 }
+		localization_key = gulf_union_status_3_tt
+	}
+	text = {#Governate
+		trigger = { has_idea = gulf_union_status_4 }
+		localization_key = gulf_union_status_4_tt
+	}
+}
+
+defined_text = {
+	name = GetFactionMembershipdesc
+	#SHANGHAI PACT
+	text = {#Master of East Asia
+		trigger = { has_idea = shanghai_pact_status_1 }
+		localization_key = shanghai_pact_status_1_desc_tt
+	}
+	text = {#Independent Member
+		trigger = { has_idea = shanghai_pact_status_2  }
+		localization_key = shanghai_pact_status_2_desc_tt
+	}
+	text = {#Assisted Member
+		trigger = { has_idea = shanghai_pact_status_3 }
+		localization_key = shanghai_pact_status_3_desc_tt
+	}
+	text = {#Semi-Autonomous Governorship
+		trigger = { has_idea = shanghai_pact_status_4 }
+		localization_key = shanghai_pact_status_4_desc_tt
+	}
+	text = {#Leader of WACDEP
+		trigger = { has_idea = wacdep_status_1 }
+		localization_key = wacdep_status_1_desc_tt
+	}
+	text = {#Member of WACDEP
+		trigger = { has_idea = wacdep_status_2  }
+		localization_key = wacdep_status_2_desc_tt
+	}
+	text = {#WACDEP Military Mission
+		trigger = { has_idea = wacdep_status_3 }
+		localization_key = wacdep_status_3_desc_tt
+	}	
+	text = {#Member of MPA
+		trigger = { has_idea = mpa_status_1 }
+		localization_key = mpa_status_1_desc_tt
+	}		
+	text = {#Leader of cod
+		trigger = { has_idea = cod_status_1 }
+		localization_key = cod_status_1_desc_tt
+	}
+	text = {#Contender to the Torch
+		trigger = { has_idea = cod_status_2  }
+		localization_key = cod_status_2_desc_tt
+	}
+	text = {#member of the commonwealth
+		trigger = { has_idea = cod_status_3 }
+		localization_key = cod_status_3_desc_tt
+	}	
+	text = {#COD military mission
+		trigger = { has_idea = cod_status_4 }
+		localization_key = cod_status_4_desc_tt
+	}	
+	text = {#Leading Government of America
+		trigger = { has_idea = solomon_faction_status_1 }
+		localization_key = solomon_faction_status_1_desc_tt
+	}
+	text = {#Special Administrative Zones
+		trigger = { has_idea = solomon_faction_status_2  }
+		localization_key = solomon_faction_status_2_desc_tt
+	}
+	text = {#Self-Governing Zones
+		trigger = { has_idea = solomon_faction_status_3 }
+		localization_key = solomon_faction_status_3_desc_tt
+	}	
+	text = {#Liberator
+		trigger = { has_idea = gulf_union_status_1 }
+		localization_key = gulf_union_status_1_desc_tt
+	}
+	text = {#Indepndent
+		trigger = { has_idea = gulf_union_status_2  }
+		localization_key = gulf_union_status_2_desc_tt
+	}
+	text = {#Dependent
+		trigger = { has_idea = gulf_union_status_3 }
+		localization_key = gulf_union_status_3_desc_tt
+	}		
+	text = {#Governate
+		trigger = { has_idea = gulf_union_status_4 }
+		localization_key = gulf_union_status_4_desc_tt
+	}	
+}
+
+defined_text = {
+	name = GetFactionMembeship_icon
+	#SHANGHAI PACT
+	text = {#Master of East Asia
+		trigger = { has_idea = shanghai_pact_status_1 }
+		localization_key = shanghai_pact_status_1_icon
+	}
+	text = {#Independent Member
+		trigger = { has_idea = shanghai_pact_status_2  }
+		localization_key = shanghai_pact_status_2_icon
+	}
+	text = {#Assisted Member
+		trigger = { has_idea = shanghai_pact_status_3 }
+		localization_key = shanghai_pact_status_3_icon
+	}
+	text = {#Semi-Autonomous Governorship
+		trigger = { has_idea = shanghai_pact_status_4 }
+		localization_key = shanghai_pact_status_4_icon
+	}
+}

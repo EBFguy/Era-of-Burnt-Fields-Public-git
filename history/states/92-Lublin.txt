@@ -1,0 +1,40 @@
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		add_core_of = POL
+		owner = POL
+		victory_points = {
+			11399 5 
+		}
+		victory_points = {
+			3559 10
+		}
+		victory_points = {
+			9452 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+
+		}
+		
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+
+			}
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		3521 3559 6484 6580 9452 9521 9544 11399 11466 
+	}
+	manpower=3565622
+	buildings_max_level_factor=1.000
+	state_category=town
+}

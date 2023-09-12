@@ -1,0 +1,79 @@
+﻿VNC_self_defence = {
+	name = "Standard Self Defence Force"
+
+	for_countries = { VNC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Force %s. HI corporate Defence"
+
+	ordered = {
+		1 = { "Force %s. HI corporate Defence" }
+		2 = { "Force %s. HI corporate Defence" }
+		3 = { "Force %s. HI corporate Defence" }
+		4 = { "Force %s. HI corporate Defence" }
+		5 = { "Force %s. HI corporate Defence" }
+	}
+}
+
+VNC_elite_self_defence = {
+	name = "Elite Self Defence Force"
+
+	for_countries = { VNC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "motorized" }
+
+	fallback_name = "Force %s. HI Elite corporate Defence"
+
+	ordered = {
+		1 = { "Force %s. HI Elite corporate Defence" }
+		2 = { "Force %s. HI Elite corporate Defence" }
+		3 = { "Force %s. HI Elite corporate Defence" }
+		4 = { "Force %s. HI Elite corporate Defence" }
+		5 = { "Force %s. HI Elite corporate Defence" }
+	}
+}
+
+VNC_reserve_self_defence = {
+	name = "Reserve Self Defence Force"
+
+	for_countries = { VNC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Force %s. HI Reserve corporate Defence"
+
+	ordered = {
+		1 = { "Force %s. HI Reserve corporate Defence" }
+		2 = { "Force %s. HI Reserve corporate Defence" }
+		3 = { "Force %s. HI Reserve corporate Defence" }
+		4 = { "Force %s. HI Reserve corporate Defence" }
+		5 = { "Force %s. HI Reserve corporate Defence" }
+	}
+}
+
+VNC_tank_force = {
+	name = "New Venice Tank Force"
+
+	for_countries = { VNC }
+
+	can_use = { always = yes }
+
+	division_types = { "MBT" }
+
+	fallback_name = "Force %s. HI Tank Unit"
+
+	ordered = {
+		1 = { "Force %s. HI Tank Unit" }
+		2 = { "Force %s. HI Tank Unit" }
+		3 = { "Force %s. HI Tank Unit" }
+		4 = { "Force %s. HI Tank Unit" }
+		5 = { "Force %s. HI Tank Unit" }		
+	}
+}

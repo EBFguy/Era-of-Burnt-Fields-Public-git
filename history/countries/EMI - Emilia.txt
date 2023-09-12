@@ -1,0 +1,98 @@
+﻿capital = 161
+
+# Vacant
+recruit_character = EMI_Generic_Vacant_psi
+recruit_character = EMI_Generic_Vacant_pi_0
+recruit_character = EMI_Generic_Vacant_pi_1
+recruit_character = EMI_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = libertarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+load_focus_tree = EBF_Italian_Popular_Republic_starting_tree
+
+recruit_character = EMI_Giovanni_Marlobruno
+recruit_character = EMI_Gabriele_Bronte
+recruit_character = EMI_Migel_Marconi
+recruit_character = EMI_Carlo_Gallo
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 2
+    autocracy = 3
+    anocracy = 0
+    conservatism = 0
+    liberal_conservatism = 0
+    liberalism = 3
+    progressivism = 15
+    libertarian_socialism = 45
+    authoritarian_socialism = 25
+    totalitarian_socialism = 7
+    reductivism = 0
+}
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_dominant_party_state
+    EBF_suppressed_opposition
+    EBF_pluralism
+    EBF_elite_voting
+    EBF_censored_press
+    EBF_non_socialist_unions
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_closed_economy
+    EBF_decent_minimum_wage
+    EBF_8_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_ordinary_policing
+    EBF_minimal_training
+    EBF_militarised_policing
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_significant_poverty
+    EBF_underperforming_economy
+    EBF_military_widespread_corruption
+    EBF_exoskeleton_assisted_production
+    EBF_widespread_corruption
+
+    #MINISTERS
+    EMI_Marco_Cavalieri_min
+    EMI_Matteo_Sparati_min
+    EMI_Andrea_Angeli_min
+    EMI_MArtina_Noccioli_min
+
+    #BASE IDEAS
+    EMI_the_wants_of_the_hungry
+    EMI_partisans_and_brigands
+    EMI_the_isolated_revolution
+    EMI_unity_between_marxists
+}
+
+add_ideas = {
+    Free_Internet_member
+}

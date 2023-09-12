@@ -1,0 +1,122 @@
+characters = {
+	POR_Joao_Botelho = {
+		name =  POR_Joao_Botelho
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/Portrait_POR_Joao_Botelho.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_social_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Joao_Botelho_desc"
+		}
+	}
+	POR_Espiridiao_Rabelo = {
+		name = POR_Espiridiao_Rabelo
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POR_Espiridiao_Rabelo"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = POR_Espiridiao_Rabelo_min
+			allowed = { original_tag = POR }
+			traits = {
+				minister_jolly_drunkard
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	POR_Eduardo_Silveira = {
+		name = POR_Eduardo_Silveira
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POR_Eduardo_Silveira"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = POR_Eduardo_Silveira_min
+			allowed = { original_tag = POR }
+			traits = {
+				minister_well_meaning_trouble_maker
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	POR_Jose_Magalhaes = {
+		name = POR_Jose_Magalhaes
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POR_Jose_Magalhaes"
+			}
+			army = {
+				large = "gfx/leaders/POR/Portrait_POR_Jose_Magalhaes.dds"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard infantry_officer defensive_doctrine }
+			skill = 3
+    		attack_skill = 2
+ 			defense_skill = 4
+    		planning_skill = 4
+    		logistics_skill = 3
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = POR_Jose_Magalhaes_min
+			allowed = { original_tag = POR }
+			traits = {
+				minister_distrusting_general
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	POR_Pedro_Linhares = {
+		name = POR_Pedro_Linhares
+		portraits = {
+			civilian = {
+				small = "GFX_idea_POR_Pedro_Linhares"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = POR_Pedro_Linhares_min
+			allowed = { original_tag = POR }
+			traits = {
+				minister_pragmatic_utilitarian
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	POR_Isidoro_Prestes  = {
+		name = POR_Isidoro_Prestes
+		portraits = {
+			army = {
+				large = "gfx/leaders/POR/Portrait_POR_Isidoro_Prestes.dds"
+			}
+		}
+		corps_commander = {
+			traits = { old_guard panzer_leader aggressive_assaulter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+}

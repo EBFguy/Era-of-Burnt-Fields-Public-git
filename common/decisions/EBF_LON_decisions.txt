@@ -1,0 +1,17 @@
+EBF_LON_debug_decisions = {
+
+}
+
+EBF_LON_logic_consumption_decisions = {
+	EBF_LON_consumption_stats = {
+
+		icon = generic_research
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = general_this_is_not_decision
+				always = NO
+			}
+		}
+	}  
+}

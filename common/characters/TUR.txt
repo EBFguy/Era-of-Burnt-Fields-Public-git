@@ -1,0 +1,101 @@
+characters = {
+	TUR_Kemal_Yildirim	= {
+		name = TUR_Kemal_Yildirim
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_corporatocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_KEMAL_YILDRIM_DESC"
+		}	
+	}
+	TUR_Baris_Seven = {
+		name = TUR_Baris_Seven
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_1_subtype
+			expire = "2082.10.20"
+		}			
+		country_leader = {
+			ideology = autocracy_banditry_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_BARIS_SEVEN_DESC"
+		}	
+	}
+	TUR_Burak_Sabanci = {
+		name = TUR_Burak_Sabanci
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_ad_astra_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_BURAK_SABANCI_DESC"
+		}	
+	}
+	TUR_Mustafa_Koc = {
+		name = TUR_Mustafa_Koc
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = securocracy_automated_state_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MUSTAFA_KOC_DESC"
+		}	
+	}
+	TUR_Mehmet_Can_Yigit = {
+		name = TUR_Mehmet_Can_Yigit
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_stratocratic_communism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MEHMET_CAN_YIGIT_DESC"
+		}	
+	}
+	TUR_Unknown = {
+		name = TUR_Unknown
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_1_subtype
+			expire = "2082.10.20"
+		}	
+		country_leader = {
+			ideology = authoritarian_socialism_marxism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_TUR_UNKNOWN_DESC"
+		}
+	}
+	TUR_Secret = {
+		name = TUR_Secret
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_united_front_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_TUR_SECRET_DESC"
+		}	
+	}
+}

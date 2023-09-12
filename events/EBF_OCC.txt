@@ -1,0 +1,269 @@
+﻿add_namespace = OCC_starting_tree
+
+# The City of Salvation
+country_event = {
+	id = OCC_starting_tree.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.1" }
+	title = OCC_starting_tree.1.t
+	desc = OCC_starting_tree.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.1.a
+	}
+}
+
+# Screams From Within
+country_event = {
+	id = OCC_starting_tree.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.2" }
+	title = OCC_starting_tree.2.t
+	desc = OCC_starting_tree.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.2.a
+		country_event = { id = OCC_starting_tree.3  hours = 6}
+	}
+}
+
+# Screams From Without
+country_event = {
+	id = OCC_starting_tree.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.3" }
+	title = OCC_starting_tree.3.t
+	desc = OCC_starting_tree.3.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.3.a
+	}
+}
+
+# Mass-Producible Synthmeals, and Fun
+country_event = {
+	id = OCC_starting_tree.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.4" }
+	title = OCC_starting_tree.4.t
+	desc = OCC_starting_tree.4.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.4.a
+	}
+}
+
+# The Worker's Arise
+country_event = {
+	id = OCC_starting_tree.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.5" }
+	title = OCC_starting_tree.5.t
+	desc = OCC_starting_tree.5.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.5.a
+	}
+}
+
+# A Grand Opening
+country_event = {
+	id = OCC_starting_tree.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.6" }
+	title = OCC_starting_tree.6.t
+	desc = OCC_starting_tree.6.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.6.a
+		set_province_name = {
+			id = 6766
+			name = OCC_Eurocity_15
+		}
+		remove_ideas = OCC_our_eurocity
+		set_temp_variable = { t_change = 25 }
+		OCC_worker_house_change_unity = YES
+		hidden_effect = {
+			set_victory_points = {
+				province = 6766
+				value = 10
+			}
+			country_event = { id = OCC_starting_tree.7  hours = 6}
+		}
+	}
+}
+
+# A Grand Tragedy
+country_event = {
+	id = OCC_starting_tree.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.7" }
+	title = OCC_starting_tree.7.t
+	desc = OCC_starting_tree.7.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.7.a
+		set_temp_variable = { t_change = -50 }
+		OCC_worker_house_change_unity = YES
+		set_country_flag = OCC_utopia_crisis_begins
+		hidden_effect = {mark_focus_tree_layout_dirty = yes}
+		add_timed_idea = {
+			idea = OCC_utopia_crisis
+			days = 20
+		}
+		custom_effect_tooltip = OCC_utopia_crisis_event_tt
+	}
+}
+
+# The Supreme Politburo Emergency Session
+country_event = {
+	id = OCC_starting_tree.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.8" }
+	title = OCC_starting_tree.8.t
+	desc = OCC_starting_tree.8.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.8.a
+		country_event = { id = OCC_starting_tree.9  hours = 6}
+	}
+}
+
+# The Choice
+country_event = {
+	id = OCC_starting_tree.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.9" }
+	title = OCC_starting_tree.9.t
+	desc = OCC_starting_tree.9.desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			OCC = {
+				retire_character = OCC_Supreme_Politburo
+				promote_character = {
+					character = OCC_Nicolas_Favre
+					ideology = totalitarian_socialism_total_collectivism_subtype
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = OCC_starting_tree.9.a
+		set_country_flag = OCC_favre_chosen
+		complete_national_focus = OCC_stand_firm_to_vision
+		custom_effect_tooltip = OCC_favre_chosen_tt
+	}
+
+	option = {
+		name = OCC_starting_tree.9.b
+		complete_national_focus = OCC_new_vision_of_utopia
+		set_country_flag = OCC_napolitani_chosen
+		set_politics = {
+			ruling_party = technoutopianism
+		}
+		custom_effect_tooltip = OCC_napolitani_chosen_tt
+	}
+
+
+	option = {
+		name = OCC_starting_tree.9.c
+		set_country_flag = OCC_deniau_chosen
+		complete_national_focus = OCC_the_workers_cloth_brings_comfort
+		set_politics = {
+			ruling_party = libertarian_socialism
+		}
+		custom_effect_tooltip = OCC_deniau_chosen_tt
+	}
+}
+
+# For Hope, God, And Man
+country_event = {
+	id = OCC_starting_tree.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.10" }
+	title = OCC_starting_tree.10.t
+	desc = OCC_starting_tree.10.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.10.a
+		set_temp_variable = { t_change = 10 }
+		set_temp_variable = { t_index = 1 }
+		OCC_worker_house_change_values = YES
+		add_stability = 0.1
+	}
+}
+
+# A New Politburo
+country_event = {
+	id = OCC_starting_tree.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.11" }
+	title = OCC_starting_tree.11.t
+	desc = OCC_starting_tree.11.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.11.a
+		set_temp_variable = { t_change = 10 }
+		set_temp_variable = { t_index = 0 }
+		OCC_worker_house_change_values = YES
+		add_stability = 0.1
+	}
+}
+
+# Let the Research Begin
+country_event = {
+	id = OCC_starting_tree.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.12" }
+	title = OCC_starting_tree.12.t
+	desc = OCC_starting_tree.12.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.12.a
+		set_temp_variable = { t_change = 10 }
+		set_temp_variable = { t_index = 2 }
+		OCC_worker_house_change_values = YES
+		add_stability = 0.1
+	}
+}
+
+# The Crown of Occitania
+country_event = {
+	id = OCC_starting_tree.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event OCC_starting_tree.13" }
+	title = OCC_starting_tree.13.t
+	desc = { text = OCC_starting_tree.13.disc.a trigger = { has_country_flag = OCC_favre_chosen } }
+	desc = { text = OCC_starting_tree.13.disc.b trigger = { has_country_flag = OCC_napolitani_chosen } }
+	desc = { text = OCC_starting_tree.13.disc.c trigger = { has_country_flag = OCC_deniau_chosen } }
+
+	is_triggered_only = yes
+	
+	option = {
+		name = OCC_starting_tree.13.a
+		trigger = { has_country_flag = OCC_favre_chosen }
+	}
+
+	option = {
+		name = OCC_starting_tree.13.b
+		trigger = { has_country_flag = OCC_napolitani_chosen }
+	}
+
+	option = {
+		name = OCC_starting_tree.13.c
+		trigger = { has_country_flag = OCC_deniau_chosen }
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=746
+	name="STATE_746"
+	provinces={
+		1959 3427 4960 4986 10451 10854 12706 
+	}
+	state_category = rural
+	
+	
+	history=
+	{
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	local_supplies = 0.0 
+	manpower=12429737
+	buildings_max_level_factor=1.000
+}

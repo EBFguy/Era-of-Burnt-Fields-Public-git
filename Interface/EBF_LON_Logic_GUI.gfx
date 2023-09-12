@@ -1,0 +1,42 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_container"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_container.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_container"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_container.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_base_selected"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_base_selected.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_base_not_selected"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_base_not_selected.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_middle_selected"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_middle_selected.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_middle_not_selected"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_middle_not_selected.dds"
+	}
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_top_selected"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_top_selected.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_LON_GUI_logic_consump_top_not_selected"
+		texturefile = "gfx/interface/EBF_LON/logic_consump/LON_logic_consump_top_not_selected.dds"
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=479
+	name="STATE_479"
+	manpower = 8904960
+	
+	state_category = town
+	
+	history={
+		add_core_of = MNL
+		owner = MNL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			4956 10
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1952 2083 4956 5015 5021 12721 13088 
+	}
+	
+}

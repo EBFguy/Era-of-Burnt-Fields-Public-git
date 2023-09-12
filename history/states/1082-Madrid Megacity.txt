@@ -1,0 +1,28 @@
+state = {
+	id=1082
+	name="STATE_1082"
+
+	history={
+		add_core_of = CAS
+		owner = CAS
+		victory_points = {
+			3938 30
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 6
+
+		}
+
+
+	}
+	local_supplies = 0.0
+	provinces={
+		3938
+	}
+	manpower=7524398
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

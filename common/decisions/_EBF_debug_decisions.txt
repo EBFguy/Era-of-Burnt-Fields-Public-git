@@ -1,0 +1,125 @@
+EBF_debug_decisions = {
+
+	EBF_spawn_central_africa_tags = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			ALA = {
+				transfer_state = 297
+			}
+			MEK = {
+				transfer_state = 908
+			}
+			COG = {
+				transfer_state = 539
+				transfer_state = 796
+			}
+			GEM = {
+				transfer_state = 909
+			}
+			KIN = {
+				transfer_state = 907
+			}
+			LUA = {
+				transfer_state = 910
+			}
+			TAN = {
+				transfer_state = 906
+			}
+			AKA = {
+				transfer_state = 770
+			}
+			RAN = {
+				transfer_state = 919
+				transfer_state = 768
+				transfer_state = 769
+			}
+			IRT = {
+				transfer_state = 546
+			}
+			MOZ = {
+				transfer_state = 920
+			}
+			REE = {
+				transfer_state = 922
+				transfer_state = 921
+			}
+			MAP = {
+				transfer_state = 544
+			}
+			ZIM = {
+				transfer_state = 545
+			}
+			CNC = {
+				transfer_state = 538
+			}
+			LUS = {
+				transfer_state = 928
+			}
+			KAM = {
+				transfer_state = 929
+			}
+
+			ITU = {
+				transfer_state = 941
+			}		
+
+			KIV = {
+				transfer_state = 942
+			}		
+
+			BUK = {
+				transfer_state = 718
+			}	
+
+			DLK = {
+				transfer_state = 943
+			}		
+
+			KWI = {
+				transfer_state = 944
+			}		
+
+			DOU = {
+				transfer_state = 945
+			}			
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+
+
+	EBF_australian_civil_war = {
+
+		icon = generic_research
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			EBF_aussie_civil_war = yes
+		}
+	}	
+}

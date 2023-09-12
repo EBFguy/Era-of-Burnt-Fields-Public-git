@@ -1,0 +1,104 @@
+﻿capital = 527
+
+# Vacant
+recruit_character = DPK_Generic_Vacant_psi
+recruit_character = DPK_Generic_Vacant_pi_0
+recruit_character = DPK_Generic_Vacant_pi_1
+recruit_character = DPK_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+    infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    special_operations = 1
+
+    tech_support = 1
+
+    exoskeleton2045 = 1
+    exoskeleton2050 = 1
+    android2045 = 1
+    cims2030 = 1
+    cims2050 = 1
+    cims2060 = 1
+
+    MBT2040 = 1
+    MBT2050 = 1
+    IFV2040 = 1
+    IFV2050 = 1
+    APC2040 = 1
+    APC2050 = 1    
+}
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_convoys = 5
+oob = DPK_2061
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = authoritarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = DPK_Kwon_Gyeong_Su
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 10
+    fascist = 0
+    autocracy = 15
+    anocracy = 30
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 30
+    totalitarian_socialism = 5
+    reductivism = 10
+}
+
+add_ideas = {
+    shanghai_pact_status_3
+
+    DPK_echoes_of_juche
+    DPK_an_overzealous_old_guard
+    DPK_national_council_reorg_patriotic_korea
+}
+
+add_ideas = {
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_state_atheism
+    EBF_elite_voting
+    EBF_state_press
+    EBF_state_controlled_unions
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_limited_exports
+    EBF_no_minimum_wage
+    EBF_16_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_two_year_draft
+    EBF_minimal_training
+    EBF_heavily_armed_policing
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_primary_schooling
+    EBF_rampant_poverty
+    EBF_underperforming_economy
+    EBF_military_widespread_corruption
+    EBF_manufactory_lines
+    EBF_widespread_corruption
+}

@@ -1,0 +1,15 @@
+characters = {
+	ORL_Emmanuel_Antoinene = {
+		name = "Emmanuel Antoine"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ORL/Portrait_ORL_Emmanuel_Antoinene.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_absolute_monarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_EMMANUEL_ANTOINENE_DESC"
+		}
+	}
+}

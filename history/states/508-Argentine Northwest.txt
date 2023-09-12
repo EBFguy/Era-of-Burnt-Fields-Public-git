@@ -1,0 +1,28 @@
+
+state={
+	id=508
+	name="STATE_508"
+
+	history={
+		add_core_of = ARG
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		set_demilitarized_zone = yes
+		victory_points = {
+			8216 1 
+		}
+
+	}
+
+	provinces={
+		2136 8195 8216 8253 12928 12978 13335 13336 13337
+	}
+	manpower=4451253
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,32 @@
+state=
+{
+	id=177
+	name="STATE_177"
+	manpower = 528781
+	local_supplies = 0.0 
+	state_category = rural
+	
+	history=
+	{
+		add_core_of = VAL
+		owner = VAL
+		victory_points = {
+			9793 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			9793 = {
+				naval_base = 2
+			}
+			7114 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	provinces=
+	{
+7114 9793 9845 	}
+}

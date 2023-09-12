@@ -1,0 +1,24 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 6365276
+
+	state_category = city
+
+	history={
+		add_core_of = NEA
+		owner = NEA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			11544 10 
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		561 3474 9416 9572 11404 11529 11544 6421 3314
+	}
+}

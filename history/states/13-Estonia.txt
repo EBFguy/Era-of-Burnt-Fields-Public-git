@@ -1,0 +1,23 @@
+
+state={
+	id=13
+	name="STATE_13"
+	manpower = 1057071
+	
+	state_category = town
+	history={
+		add_core_of = ODO
+		owner = ODO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 2
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		83 308 3074 3174 6381 11291 
+	}
+}

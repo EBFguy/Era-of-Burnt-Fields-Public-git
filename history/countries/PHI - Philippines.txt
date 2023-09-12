@@ -1,0 +1,83 @@
+﻿capital = 873
+
+# Vacant
+recruit_character = PHI_Generic_Vacant_psi
+recruit_character = PHI_Generic_Vacant_pi_0
+recruit_character = PHI_Generic_Vacant_pi_1
+recruit_character = PHI_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = securocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 70
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 30
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+recruit_character = PHI_domonic_richford
+
+add_ideas = {
+
+    #POLITICAL
+    EBF_one_party_state
+    EBF_underground_opposition
+    EBF_state_atheism
+    EBF_no_voting
+    EBF_state_press
+    EBF_outlawed_unions
+    EBF_closed_borders
+
+    #ECONOMY
+    EBF_export_focus
+    EBF_trinket_minimum_wage
+    EBF_14_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_ordinary_policing
+    EBF_basic_training
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_tertiary_schooling
+    EBF_rampant_poverty
+    EBF_stagnating_economy
+    EBF_political_interference
+    EBF_industrial_equipment_use
+    EBF_functional_administration
+
+    
+    PHI_under_habeo_ideam
+    PHI_broken_archipelago
+    PHI_golden_city
+    PHI_nothing_can_stop_progress
+    PHI_those_bound_to_past
+}
+add_ideas = {
+    Habeo_Ideam_Network_Member
+}

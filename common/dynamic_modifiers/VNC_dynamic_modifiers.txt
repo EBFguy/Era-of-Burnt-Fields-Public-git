@@ -1,0 +1,11 @@
+VNC_new_venice_shining_island_on_sea_dynmod = {
+	#GENERAL
+	political_power_gain = political_power_gain_VNC_new_venice
+	conscription_factor = conscription_factor_gain_VNC_new_venice
+	stability_factor = stability_factor_gain_VNC_new_venice
+	research_speed_factor = research_speed_factor_VNC_new_venice
+	max_fuel_factor = max_fuel_factor_gain_VNC_new_venice
+	#SPECIAL
+	production_speed_buildings_factor = production_speed_buildings_factor_VNC_new_venice
+	industrial_capacity_factory = industrial_capacity_factory_VNC_new_venice
+}

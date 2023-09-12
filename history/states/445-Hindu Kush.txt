@@ -1,0 +1,23 @@
+
+state={
+	id=445
+	name="STATE_445" # Quetta
+	manpower = 45693981
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = PAK
+		owner = PAK
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1107 4990 7975 8044 
+	}
+}

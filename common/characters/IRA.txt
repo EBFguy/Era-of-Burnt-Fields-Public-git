@@ -1,0 +1,55 @@
+characters = {
+	IRA_Erfan_Qaedi = {
+		name = IRA_Erfan_Qaedi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_iranian_secularism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ERFAN_QAEDI_DESC"
+		}
+	}
+	IRA_Nader_Raisi = {
+		name = IRA_Nader_Raisi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_controlled_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NADER_RAISI_DESC"
+		}
+	}
+	IRA_Taraneh_Hossein = {
+		name = IRA_Taraneh_Hossein
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_esoteric_technoutopianism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_TARANEH_HOSSEIN_DESC"
+		}
+	}
+
+	IRA_Abbas_Qajar = {
+		name = IRA_Abbas_Qajar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ABBAS_QAJAR_DESC"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=971
+	name="STATE_971"
+
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		10599 4854 709 751 5205
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

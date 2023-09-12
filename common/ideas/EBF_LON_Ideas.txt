@@ -1,0 +1,82 @@
+ideas = {
+	country = {
+		LON_curious_case = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LON_curious_case"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				research_speed_factor = 0.25
+				stability_factor = -0.2
+				no_compliance_gain = 1
+			}
+		}
+		LON_barebones_nation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LON_barebones_nation"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_gain = -0.5
+				custom_modifier_tooltip = cannot_train_units_tt
+			}
+		}	
+		LON_neural_reaching_critical_levels = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LON_neural_reaching_critical_levels"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				research_speed_factor = -0.3
+				decryption_factor = -0.5
+			}
+		}
+		broken_london = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea broken_london"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				conscription_factor = -0.15
+				industry_repair_factor = -0.1
+				industrial_capacity_factory = -0.1
+			}
+		}					
+	}
+}

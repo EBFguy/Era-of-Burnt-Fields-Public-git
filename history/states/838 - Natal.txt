@@ -1,0 +1,24 @@
+state={
+	id=838
+	name="STATE_838" # Natal
+	manpower = 3962157
+	
+	state_category = city
+
+
+	history={
+		add_core_of = SAF
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+		}
+		
+	}
+
+	provinces={
+		7900 1494 8178
+	}
+	local_supplies = 0.0 
+}

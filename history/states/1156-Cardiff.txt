@@ -1,0 +1,19 @@
+
+state={
+	id=1156
+	name="STATE_1156"
+	state_category = megalopolis
+	history = {
+		add_core_of = WAL
+		owner = WAL
+		victory_points = {
+			6378 15 
+		}
+	}
+	provinces={
+		6378 13479 13480 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

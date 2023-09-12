@@ -1,0 +1,27 @@
+state=
+{
+	id=638
+	name="STATE_638"
+	state_category = small_island
+	manpower=399720
+	history=
+	{
+		add_core_of = USA
+		owner = USA
+		
+		buildings = {
+			infrastructure = 3
+			12140 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12140 1
+		 }
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		12140
+	}
+}

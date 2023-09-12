@@ -1,0 +1,27 @@
+
+state={
+	id=133
+	name="STATE_133" # Lanark
+	manpower = 1120933
+	local_supplies = 0.0 
+	state_category = city
+
+	history={
+		add_core_of = SCT
+		owner = SCT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 4
+			anti_air_building = 1
+			6395 = {
+				naval_base = 2
+			}
+
+		}
+	}
+
+	provinces={
+		6350 6395 9237 9350 11218 
+	}
+}

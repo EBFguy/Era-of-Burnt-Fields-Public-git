@@ -1,0 +1,307 @@
+DEN_regional_resistance_initial = {
+	custom_effect_tooltip = DEN_regional_resistance_initial_tt
+
+	set_country_flag = DEN_regional_resistance_unlocked
+
+	# because zerojack gets confused
+	# these are the regions (i give them ids of 1-5)
+	set_variable = { DEN_region_capital = 1 }
+	set_variable = { DEN_region_central_jutland = 2 }
+	set_variable = { DEN_region_north_jutland = 3 }
+	set_variable = { DEN_region_south_denmark = 4 }
+	set_variable = { DEN_region_zealand = 5 }
+
+	var:DEN_region_capital = {
+		set_variable = { DEN_regional_resistance_map_x = 214 } # gui x position of the region
+		set_variable = { DEN_regional_resistance_map_y = 122 } # gui y position of the region
+
+		set_variable = { DEN_regional_resistance_faction = 1 } # which faction is in control of the region
+	}
+	var:DEN_region_central_jutland = {
+		set_variable = { DEN_regional_resistance_map_x = 1 }
+		set_variable = { DEN_regional_resistance_map_y = 69 }
+
+		set_variable = { DEN_regional_resistance_faction = 1 }
+	}
+	var:DEN_region_north_jutland = {
+		set_variable = { DEN_regional_resistance_map_x = 59 }
+		set_variable = { DEN_regional_resistance_map_y = 1 }
+
+		set_variable = { DEN_regional_resistance_faction = 3 }
+	}
+	var:DEN_region_south_denmark = {
+		set_variable = { DEN_regional_resistance_map_x = 1 }
+		set_variable = { DEN_regional_resistance_map_y = 141 }
+
+		set_variable = { DEN_regional_resistance_faction = 2 }
+	}
+	var:DEN_region_zealand = {
+		set_variable = { DEN_regional_resistance_map_x = 160 }
+		set_variable = { DEN_regional_resistance_map_y = 138 }
+
+		set_variable = { DEN_regional_resistance_faction = 1 }
+	}
+
+	clear_array = DEN_regional_resistance_faction_array
+
+	# these are the factions (i give them ids of 1-4)
+	set_variable = { DEN_faction_administration = 1 }
+	set_variable = { DEN_faction_military = 2 }
+	set_variable = { DEN_faction_holger_danske = 3 }
+	set_variable = { DEN_faction_stability = 4 }
+
+	add_to_array = { DEN_regional_resistance_faction_array = DEN_faction_administration }
+	add_to_array = { DEN_regional_resistance_faction_array = DEN_faction_military }
+	add_to_array = { DEN_regional_resistance_faction_array = DEN_faction_holger_danske }
+	add_to_array = { DEN_regional_resistance_faction_array = DEN_faction_stability }
+
+	var:DEN_faction_administration = {
+		set_variable = { DEN_regional_resistance_faction_power = 45 } # how much power (bar) the faction has
+		set_variable = { DEN_regional_resistance_faction_x = 0 } # x position of the faction logo
+		set_variable = { DEN_regional_resistance_faction_y = 0 } # y position of the faction logo
+		set_variable = { DEN_regional_resistance_faction_x2 = 15 } # x position of the faction bar
+		set_variable = { DEN_regional_resistance_faction_y2 = 90 } # y position of the faction bar
+		set_variable = { DEN_regional_resistance_faction_x3 = 14 } # x position of the faction bar frame
+		set_variable = { DEN_regional_resistance_faction_y3 = 94 } # y position of the faction bar frame
+	}
+	var:DEN_faction_military = {
+		set_variable = { DEN_regional_resistance_faction_power = 35 }
+		set_variable = { DEN_regional_resistance_faction_x = 100 }
+		set_variable = { DEN_regional_resistance_faction_y = 37 }
+		set_variable = { DEN_regional_resistance_faction_x2 = 115 }
+		set_variable = { DEN_regional_resistance_faction_y2 = 127 }
+		set_variable = { DEN_regional_resistance_faction_x3 = 114 }
+		set_variable = { DEN_regional_resistance_faction_y3 = 130 }
+	}
+	var:DEN_faction_holger_danske = {
+		set_variable = { DEN_regional_resistance_faction_power = 20 }
+		set_variable = { DEN_regional_resistance_faction_x = 200 }
+		set_variable = { DEN_regional_resistance_faction_y = 37 }
+		set_variable = { DEN_regional_resistance_faction_x2 = 215 }
+		set_variable = { DEN_regional_resistance_faction_y2 = 127 }
+		set_variable = { DEN_regional_resistance_faction_x3 = 214 }
+		set_variable = { DEN_regional_resistance_faction_y3 = 130 }
+	}
+	var:DEN_faction_stability = {
+		set_variable = { DEN_regional_resistance_faction_power = 70 }
+		set_variable = { DEN_regional_resistance_faction_x = 300 }
+		set_variable = { DEN_regional_resistance_faction_y = 0 }
+		set_variable = { DEN_regional_resistance_faction_x2 = 315 }
+		set_variable = { DEN_regional_resistance_faction_y2 = 90 }
+		set_variable = { DEN_regional_resistance_faction_x3 = 314 }
+		set_variable = { DEN_regional_resistance_faction_y3 = 94 }
+	}
+
+	DEN_regional_resistance_reload = yes
+}
+
+DEN_regional_resistance_broken = {
+	custom_effect_tooltip = DEN_regional_resistance_broken_tt
+
+	clear_array = DEN_regional_resistance_map_array
+
+	add_to_array = { DEN_regional_resistance_map_array = DEN_region_capital }
+	add_to_array = { DEN_regional_resistance_map_array = DEN_region_central_jutland }
+	add_to_array = { DEN_regional_resistance_map_array = DEN_region_north_jutland }
+	add_to_array = { DEN_regional_resistance_map_array = DEN_region_south_denmark }
+	add_to_array = { DEN_regional_resistance_map_array = DEN_region_zealand }
+
+	set_country_flag = DEN_regional_resistance_broken
+
+	DEN_regional_resistance_map_reload = yes
+}
+
+DEN_regional_resistance_normal = {
+	clear_array = DEN_regional_resistance_map_array
+
+	clr_country_flag = DEN_regional_resistance_broken
+
+	DEN_regional_resistance_reload = yes
+}
+
+DEN_regional_resistance_map_reload = {
+	for_each_loop = {
+		array = DEN_regional_resistance_map_array
+		value = v1
+
+		set_variable = { v1:DEN_regional_resistance_map_frame = 99 }
+		multiply_variable = { v1:DEN_regional_resistance_map_frame = 10 }
+		add_to_variable = { v1:DEN_regional_resistance_map_frame = v1:DEN_regional_resistance_faction }
+	}
+
+	DEN_regional_resistance_reload = yes
+}
+
+DEN_regional_resistance_reload = {
+	add_to_variable = { DEN_regional_resistance_dirty = 1 }
+}
+
+DEN_regional_resistance_map_faction_change = {
+	if = {
+		limit = {
+			is_in_array = { DEN_regional_resistance_map_array = temp_region }
+			is_in_array = { DEN_regional_resistance_faction_array = temp_faction }
+		}
+		custom_effect_tooltip = DEN_regional_resistance_map_faction_change_tt
+
+		set_variable = { temp_region:DEN_regional_resistance_faction = temp_faction }
+
+		DEN_regional_resistance_map_reload = yes
+	}
+}
+
+DEN_regional_resistance_faction_power_change = {
+	if = {
+		limit = {
+			is_in_array = { DEN_regional_resistance_faction_array = temp_faction }
+		}
+		set_temp_variable = { temp_total = temp_faction:DEN_regional_resistance_faction_power }
+		set_temp_variable = { temp_before = temp_total }
+		set_temp_variable = { temp_after = temp_total }
+		add_to_temp_variable = { temp_total = temp_value }
+
+		if = {
+			limit = {
+				check_variable = { temp_total > 100 }
+			}
+			subtract_from_temp_variable = { temp_total = 100 }
+			subtract_from_temp_variable = { temp_value = temp_total }
+		}
+		else_if = {
+			limit = {
+				check_variable = { temp_total < 0 }
+			}
+			subtract_from_temp_variable = { temp_value = temp_total }
+		}
+
+		add_to_temp_variable = { temp_after = temp_value }
+
+		if = {
+			limit = {
+				check_variable = { temp_faction = 4 }
+			}
+			custom_effect_tooltip = DEN_regional_resistance_faction_power_change_stability_tt
+
+			set_variable = { temp_faction:DEN_regional_resistance_faction_power = temp_after }
+		}
+		else = {
+			custom_effect_tooltip = DEN_regional_resistance_faction_power_change_other_tt
+
+			set_variable = { temp_faction:DEN_regional_resistance_faction_power = temp_after }
+
+			if = {
+				limit = {
+					NOT = {
+						check_variable = { temp_value = 0 }
+					}
+				}
+				clear_variable = temp_array_total
+
+				for_each_loop = {
+					array = DEN_regional_resistance_faction_array
+
+					if = {
+						limit = {
+							NOT = {
+								check_variable = { v = 4 }
+							}
+						}
+						if = {
+							limit = {
+								NOT = {
+									check_variable = { v = temp_faction }
+								}
+								NOT = {
+									AND = {
+										check_variable = { temp_value > 0 }
+										check_variable = { v:DEN_regional_resistance_faction_power = 0 }
+									}
+								}
+							}
+							add_to_temp_array = { temp_array = v }
+						}
+
+						add_to_temp_variable = { temp_array_total = v:DEN_regional_resistance_faction_power }
+					}
+				}
+
+				while_loop_effect = {
+					limit = {
+						NOT = {
+							check_variable = { temp_array_total = 100 }
+						}
+					}
+
+					set_temp_variable = { temp_adjust = 100 }
+					subtract_from_temp_variable = { temp_adjust = temp_array_total }
+					divide_temp_variable = { temp_adjust = temp_array^num }
+					multiply_temp_variable = { temp_adjust = 100 }
+					round_temp_variable = temp_adjust
+					divide_temp_variable = { temp_adjust = 100 }
+
+					for_each_loop = {
+						array = temp_array
+
+						add_to_variable = { v:DEN_regional_resistance_faction_power = temp_adjust }
+
+						if = {
+							limit = {
+								check_variable = { v:DEN_regional_resistance_faction_power > 99.9 }
+								check_variable = { temp_value < 0 }
+							}
+							set_variable = { v:DEN_regional_resistance_faction_power = 100 }
+							remove_from_temp_array = { temp_array = v }
+						}
+						else_if = {
+							limit = {
+								check_variable = { v:DEN_regional_resistance_faction_power < 0.1 }
+								check_variable = { temp_value > 0 }
+							}
+							set_variable = { v:DEN_regional_resistance_faction_power = 0 }
+							remove_from_temp_array = { temp_array = v }
+						}
+					}
+
+					set_temp_variable = { temp_array_total = 0 }
+
+					for_each_loop = {
+						array = DEN_regional_resistance_faction_array
+
+						if = {
+							limit = {
+								NOT = {
+									check_variable = { v = 4 }
+								}
+							}
+							add_to_temp_variable = { temp_array_total = v:DEN_regional_resistance_faction_power }
+						}
+					}
+
+					if = {
+						limit = {
+							OR = {
+								AND = {
+									check_variable = { temp_array_total > 99.9 }
+									check_variable = { temp_array_total < 100 }
+								}
+								AND = {
+									check_variable = { temp_array_total < 100.1 }
+									check_variable = { temp_array_total > 100 }
+								}
+							}
+						}
+						set_temp_variable = { temp_adjust = 100 }
+						subtract_from_temp_variable = { temp_adjust = temp_array_total }
+
+						set_temp_variable = { temp_target = temp_array^0 }
+						add_to_variable = { temp_target:DEN_regional_resistance_faction_power = temp_adjust }
+
+						set_temp_variable = { temp_array_total = 100 }
+					}
+				}
+			}
+		}
+
+		DEN_regional_resistance_reload = yes
+	}
+}

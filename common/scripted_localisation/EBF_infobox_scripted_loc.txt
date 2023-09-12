@@ -1,0 +1,65 @@
+defined_text = {
+	name = GetInfoBoxMainText
+	text = { #
+		trigger = { check_variable = { var_Infobox_Page = 0 } }
+		localization_key = "[GetInfoBoxNationalText]"
+	}
+	text = {
+		trigger = { check_variable = { var_Infobox_Page = 1 } }
+		localization_key = EBF_infobox_global_lore_text
+	}	
+	text = {
+		trigger = { check_variable = { var_Infobox_Page = 2 } }
+		localization_key = EBF_infobox_encyclopedia_lore_text
+	}	
+	text = {
+		trigger = { check_variable = { var_Infobox_Page = 3 } }
+		localization_key = EBF_infobox_mod_Info_lore_text 
+	}				
+}
+
+defined_text = {
+	name = GetInfoBoxNationalText
+	text = {
+		trigger = { tag = RUS }
+		localization_key = EBF_RUS_infobox_national_lore_text
+	}	
+	text = {
+		trigger = { tag = BRA }
+		localization_key = EBF_BRA_infobox_national_lore_text
+	}		
+	text = {
+		trigger = { tag = USA }
+		localization_key = EBF_USA_infobox_national_lore_text
+	}	
+	text = {
+		trigger = { tag = VNC }
+		localization_key = EBF_VNC_infobox_national_lore_text
+	}		
+	text = {
+		localization_key = EBF_infobox_national_lore_text_misc
+	}		
+}
+
+defined_text = {
+	name = GetInfoBoxCloseText
+	text = {
+		trigger = { tag = RUS }
+		localization_key = EBF_RUS_infobox_close_text
+	}	
+	text = {
+		trigger = { tag = BRA }
+		localization_key = EBF_BRA_infobox_close_text
+	}		
+	text = {
+		trigger = { tag = USA }
+		localization_key = EBF_USA_infobox_close_text
+	}		
+	text = {
+		trigger = { tag = VNC }
+		localization_key = EBF_VNC_infobox_close_text
+	}	
+	text = {
+		localization_key = EBF_infobox_close_text_misc
+	}		
+}

@@ -1,0 +1,67 @@
+spritetypes = {
+	spriteType = {
+		name = "GFX_warlord_europe_box"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_box.dds"
+	}
+	spriteType = {
+		name = "GFX_warlord_europe_contender_box"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_contender_box.dds"
+	}
+	spriteType = {
+		name = "GFX_warlord_europe_picture_frame"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_picture_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_warlord_europe_legitimacy_icon"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_legitimacy_icon.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_warlord_europe_chaos_icon"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_chaos_icon.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_warlord_europe_header"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_header.dds"
+	}
+	spriteType = {
+		name = "GFX_warlord_europe_tab_icon"
+		texturefile = "gfx/interface/EBF_warlord/warlord_europe_tab_icon.dds"
+		noOfFrames = 2
+	}
+
+	progressbartype = {
+		name = "GFX_warlord_europe_legitimacy_bar"
+		textureFile1 = "gfx/interface/EBF_warlord/warlord_europe_legitimacy_bar.dds"
+		textureFile2 = "gfx/interface/EBF_warlord/warlord_europe_bar.dds"
+		size = { x = 287 y = 33 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_warlord_europe_chaos_bar"
+		textureFile1 = "gfx/interface/EBF_warlord/warlord_europe_chaos_bar.dds"
+		textureFile2 = "gfx/interface/EBF_warlord/warlord_europe_bar.dds"
+		size = { x = 287 y = 33 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	progressbartype = {
+		name = "GFX_warlord_europe_contender_chaos_bar"
+		textureFile1 = "gfx/interface/EBF_warlord/warlord_europe_contender_chaos_bar.dds"
+		textureFile2 = "gfx/interface/EBF_warlord/warlord_europe_bar.dds"
+		size = { x = 287 y = 33 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_warlord_europe_contender_supplies_bar"
+		textureFile1 = "gfx/interface/EBF_warlord/warlord_europe_contender_supplies_bar.dds"
+		textureFile2 = "gfx/interface/EBF_warlord/warlord_europe_bar.dds"
+		size = { x = 287 y = 33 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1073
+	name="STATE_1073"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = YUC
+		owner = YUC
+		add_core_of = ZAP
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		13399 12715
+	}
+	
+}

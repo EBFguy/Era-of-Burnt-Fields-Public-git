@@ -1,0 +1,98 @@
+﻿capital = 31
+
+# Vacant
+recruit_character = OCC_Generic_Vacant_psi
+recruit_character = OCC_Generic_Vacant_pi_0
+recruit_character = OCC_Generic_Vacant_pi_1
+recruit_character = OCC_Generic_Vacant_pi_2
+
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = totalitarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 18
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 0
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 25
+    authoritarian_socialism = 0
+    totalitarian_socialism = 57
+    reductivism = 0
+}
+
+recruit_character = OCC_Supreme_Politburo
+recruit_character = OCC_Supreme_Politburo_minister
+recruit_character = OCC_Nicolas_Favre
+recruit_character = OCC_Urilla_Deniau
+recruit_character = OCC_Giorgio_Napolitani
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_state_atheism
+    EBF_elite_voting
+    EBF_state_press
+    EBF_state_controlled_unions
+    EBF_closed_borders
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_closed_economy
+    EBF_trinket_minimum_wage
+    EBF_14_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_one_year_draft
+    EBF_intimidation_policing
+    EBF_basic_training
+    EBF_minimal_supervision
+
+    #SOCDEV
+    EBF_tertiary_schooling
+    EBF_rampant_poverty
+    EBF_middling_consumer_confidence
+    EBF_military_widespread_corruption
+    EBF_industrial_equipment_use
+    EBF_cronyism
+
+    #MINISTERS
+    OCC_Supreme_Politburo_minister_min
+    OCC_Nicolas_Favre_min
+    OCC_Urilla_Deniau_min
+    OCC_Giorgio_Napolitani_min
+    
+ 
+    #BASE IDEAS
+    OCC_the_powers_of_supreme_politburo
+    OCC_issues_of_workplace_revolutionism
+    OCC_growing_power_games
+    OCC_our_eurocity
+
+}
+
+add_ideas = {
+    Free_Internet_member
+}
+

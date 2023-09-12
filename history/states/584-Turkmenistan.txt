@@ -1,0 +1,27 @@
+state={
+	id=584
+	name="STATE_584"
+
+	history={
+		add_core_of = FAD
+		owner = FAD
+		
+		victory_points = {
+			12333 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		4563 10406 7563 7477 10359 1593 12359 10510 4599 7635 12491 12333 6760
+	}
+	manpower=5415473
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

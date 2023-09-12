@@ -1,0 +1,22 @@
+
+state={
+	id=1058
+	name="STATE_1058"
+	manpower = 10
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = AME
+		owner = AME
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+	}
+	local_supplies = 0.0
+	provinces={
+		13262 13265 5083 13378 13371 13373 13370
+	}
+}

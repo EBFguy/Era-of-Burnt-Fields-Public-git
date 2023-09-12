@@ -1,0 +1,26 @@
+
+state={
+	id=33
+	name="STATE_33"
+	manpower = 1366588
+	
+	state_category = town
+
+	history={
+		add_core_of = SIA
+		owner = SIA
+		victory_points = {
+			651 1
+		}
+		
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		651 3621 3626 6648 6651 11869 
+	}
+}

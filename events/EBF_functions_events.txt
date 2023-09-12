@@ -1,0 +1,727 @@
+﻿add_namespace = socdev_events
+add_namespace = ordi_events
+add_namespace = other_operational_events
+
+#socdev_events
+country_event = {
+	id = socdev_events.4101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4101"}
+	title = socdev_events.4101.t
+	desc = socdev_events.4101.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4101.a	
+		EBF_increase_academic_level_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4102
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4102"}
+	title = socdev_events.4102.t
+	desc = socdev_events.4102.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4102.a	
+		EBF_worsen_academic_level_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4201
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4201"}
+	title = socdev_events.4201.t
+	desc = socdev_events.4201.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4201.a	
+		EBF_increase_poverty_rate_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4202
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4202"}
+	title = socdev_events.4202.t
+	desc = socdev_events.4202.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4202.a	
+		EBF_worsen_poverty_rate_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4301
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4301"}
+	title = socdev_events.4301.t
+	desc = socdev_events.4301.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4301.a	
+		EBF_increase_economic_health_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4302
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4302"}
+	title = socdev_events.4302.t
+	desc = socdev_events.4302.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4302.a	
+		EBF_worsen_economic_health_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4401
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4401"}
+	title = socdev_events.4401.t
+	desc = socdev_events.4401.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4401.a	
+		EBF_increase_army_professionalism_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4402
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4402"}
+	title = socdev_events.4402.t
+	desc = socdev_events.4402.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4402.a	
+		EBF_worsen_army_professionalism_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4501
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4501"}
+	title = socdev_events.4501.t
+	desc = socdev_events.4501.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4501.a	
+		EBF_increase_industrial_equipment_socdev = yes
+	}
+}
+
+
+country_event = {
+	id = socdev_events.4502
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4502"}
+	title = socdev_events.4502.t
+	desc = socdev_events.4502.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4502.a	
+		EBF_worsen_industrial_equipment_socdev = yes
+	}
+}
+
+country_event = {
+	id = socdev_events.4601
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4601"}
+	title = socdev_events.4601.t
+	desc = socdev_events.4601.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4601.a	
+		EBF_increase_administrative_efficiency_socdev = yes
+	}
+}
+
+
+country_event = {
+	id = socdev_events.4602
+	immediate = {log = "[GetDateText]: [Root.GetName]: event socdev_events.4602"}
+	title = socdev_events.4602.t
+	desc = socdev_events.4602.d
+	is_triggered_only = yes
+	
+	option = {
+		name = socdev_events.4602.a	
+		EBF_worsen_administrative_efficiency_socdev = yes
+	}
+}
+
+country_event = {
+	id = ordi_events.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ordi_events.1"}
+	title = ordi_events.1.t
+	desc = ordi_events.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.1.a	
+		add_ideas = EBF_energy_outage_stage_1
+		custom_effect_tooltip = EBF_energy_outage_beginning_TT
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.2
+				days = 8
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = ordi_events.2
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.2"
+		EBF_get_energy_consump = YES
+	}
+	title = {
+		text = ordi_events.t.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	title = ordi_events.2.t
+	desc = {
+		text = ordi_events.d.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	desc = ordi_events.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.2.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer > resource@electricity }
+		}
+		swap_ideas = {
+			remove_idea = EBF_energy_outage_stage_1
+			add_idea = EBF_energy_outage_stage_2
+		}
+		set_variable = {
+			EBF_ordi_1_outage_2_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.3
+				days = 8
+			}
+		}
+		clear_variable = needed_energy_consumption_emer
+	}
+	option = {
+		name = ordi_events.energycrisisresolved.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+		EBF_outage_crisis_resolved = YES
+		clear_variable = needed_energy_consumption_emer
+	}
+}
+
+country_event = {
+	id = ordi_events.3
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.3"
+		EBF_get_energy_consump = YES
+	}
+	title = {
+		text = ordi_events.t.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	title = ordi_events.3.t
+	desc = {
+		text = ordi_events.d.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	desc = ordi_events.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.3.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer > resource@electricity }
+		}
+		swap_ideas = {
+			remove_idea = EBF_energy_outage_stage_2
+			add_idea = EBF_energy_outage_stage_3
+		}
+		set_variable = {
+			EBF_ordi_1_outage_3_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.4
+				days = 8
+			}
+		}
+		clear_variable = needed_energy_consumption_emer
+	}
+	option = {
+		name = ordi_events.energycrisisresolved.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+		EBF_outage_crisis_resolved = YES
+		clear_variable = needed_energy_consumption_emer
+	}
+}
+
+country_event = {
+	id = ordi_events.4
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.4"
+		EBF_get_energy_consump = YES
+	}
+	title = {
+		text = ordi_events.t.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	title = ordi_events.4.t
+	desc = {
+		text = ordi_events.d.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	desc = ordi_events.4.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.4.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer > resource@electricity }
+		}
+		swap_ideas = {
+			remove_idea = EBF_energy_outage_stage_3
+			add_idea = EBF_energy_outage_stage_4
+		}
+		set_variable = {
+			EBF_ordi_1_outage_4_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.5
+				days = 8
+			}
+		}
+		clear_variable = needed_energy_consumption_emer
+	}
+	option = {
+		name = ordi_events.energycrisisresolved.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+		EBF_outage_crisis_resolved = YES
+		clear_variable = needed_energy_consumption_emer
+	}
+}
+
+country_event = {
+	id = ordi_events.5
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.5"
+		EBF_get_energy_consump = YES
+	}
+	title = {
+		text = ordi_events.t.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	title = ordi_events.5.t
+	desc = {
+		text = ordi_events.d.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	desc = ordi_events.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.5.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer > resource@electricity }
+		}
+		swap_ideas = {
+			remove_idea = EBF_energy_outage_stage_4
+			add_idea = EBF_energy_outage_stage_5
+		}
+		set_variable = {
+			EBF_ordi_1_outage_5_ON = 2
+		}
+		custom_effect_tooltip = EBF_energy_outage_stage_5_reached_TT
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.6
+				days = 8
+			}
+		}
+		clear_variable = needed_energy_consumption_emer
+	}
+	option = {
+		name = ordi_events.energycrisisresolved.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+		EBF_outage_crisis_resolved = YES
+		clear_variable = needed_energy_consumption_emer
+	}
+}
+
+country_event = {
+	id = ordi_events.6
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.6"
+		EBF_get_energy_consump = YES
+	}
+	title = {
+		text = ordi_events.t.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	title = ordi_events.6.t
+	desc = {
+		text = ordi_events.d.energycrisisresolved
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+	}
+	desc = ordi_events.6.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.6.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer > resource@electricity }
+		}
+		add_stability = -0.1
+		add_war_support = -0.1
+		add_political_power = -25
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.6
+				days = 8
+			}
+		}
+		clear_variable = needed_energy_consumption_emer
+	}
+	option = {
+		name = ordi_events.energycrisisresolved.a	
+		trigger = {
+			check_variable = { needed_energy_consumption_emer < resource@electricity }
+		}
+		EBF_outage_crisis_resolved = YES
+		
+	}
+}
+
+country_event = {
+	id = ordi_events.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ordi_events.7"}
+	title = ordi_events.7.t
+	desc = ordi_events.7.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.7.a	
+		add_ideas = EBF_food_famine_stage_1
+		custom_effect_tooltip = EBF_food_famine_beginning_TT
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.8
+				days = 8
+			}
+		}
+
+	}
+}
+
+country_event = {
+	id = ordi_events.8
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.8"
+		EBF_get_food_consump = YES
+	}
+	title = {
+		text = ordi_events.t.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	title = ordi_events.8.t
+	desc = {
+		text = ordi_events.d.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	desc = ordi_events.8.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.8.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer > resource@food }
+		}
+		swap_ideas = {
+			remove_idea = EBF_food_famine_stage_1
+			add_idea = EBF_food_famine_stage_2
+		}
+		set_variable = {
+			EBF_ordi_2_famine_2_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.9
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = ordi_events.foodcrisisresolved.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+		EBF_famine_crisis_resolved = YES
+	}
+}
+
+country_event = {
+	id = ordi_events.9
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.9"
+		EBF_get_food_consump = YES
+	}
+	title = {
+		text = ordi_events.t.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	title = ordi_events.9.t
+	desc = {
+		text = ordi_events.d.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	desc = ordi_events.9.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.9.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer > resource@food }
+		}
+		swap_ideas = {
+			remove_idea = EBF_food_famine_stage_2
+			add_idea = EBF_food_famine_stage_3
+		}
+		set_variable = {
+			EBF_ordi_2_famine_3_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.10
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = ordi_events.foodcrisisresolved.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+		EBF_famine_crisis_resolved = YES
+	}
+}
+
+country_event = {
+	id = ordi_events.10
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.10"
+		EBF_get_food_consump = YES
+	}
+	title = {
+		text = ordi_events.t.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	title = ordi_events.10.t
+	desc = {
+		text = ordi_events.d.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	desc = ordi_events.10.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.10.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer > resource@food }
+		}
+		swap_ideas = {
+			remove_idea = EBF_food_famine_stage_3
+			add_idea = EBF_food_famine_stage_4
+		}
+		set_variable = {
+			EBF_ordi_2_famine_4_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.11
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = ordi_events.foodcrisisresolved.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+		EBF_famine_crisis_resolved = YES
+	}
+}
+
+country_event = {
+	id = ordi_events.11
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.11"
+		EBF_get_food_consump = YES
+	}
+	title = {
+		text = ordi_events.t.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	title = ordi_events.11.t
+	desc = {
+		text = ordi_events.d.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	desc = ordi_events.11.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.11.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer > resource@food }
+		}
+		swap_ideas = {
+			remove_idea = EBF_food_famine_stage_4
+			add_idea = EBF_food_famine_stage_5
+		}
+		set_variable = {
+			EBF_ordi_2_famine_5_ON = 2
+		}
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.12
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = ordi_events.foodcrisisresolved.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+		EBF_famine_crisis_resolved = YES
+	}
+}
+
+country_event = {
+	id = ordi_events.12
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event ordi_events.11"
+		EBF_get_food_consump = YES
+	}
+	title = {
+		text = ordi_events.t.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	title = ordi_events.12.t
+	desc = {
+		text = ordi_events.d.foodcrisisresolved
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+	}
+	desc = ordi_events.12.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ordi_events.12.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer > resource@food }
+		}
+		add_stability = -0.1
+		add_war_support = -0.1
+		add_political_power = -25
+		hidden_effect = {
+			country_event = {
+				id = ordi_events.12
+				days = 8
+			}
+		}
+	}
+	option = {
+		name = ordi_events.foodcrisisresolved.a	
+		trigger = {
+			check_variable = { needed_food_consumption_emer < resource@food }
+		}
+		EBF_famine_crisis_resolved = YES
+	}
+}
+
+
+
+
+country_event = {
+	id = other_operational_events.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event other_operational_events.1"}
+	title = other_operational_events.1.t
+	desc = sother_operational_events.1.d
+	is_triggered_only = yes
+	hidden = YES
+	
+	option = {
+		name = other_operational_events.1.a	
+		clr_country_flag = EBF_energy_consump_action_taken
+
+	}
+}
+
+

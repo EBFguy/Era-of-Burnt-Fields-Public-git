@@ -1,0 +1,193 @@
+characters = {
+	BRU_Stefan_Weiss = {
+		name = BRU_Stefan_Weiss
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRU/Portrait_BRU_Stefan_Weiss.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_eurostructure_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { BRU_the_last_dreamer }
+		}
+	}
+
+	BRU_Zach_Philips = {
+		name = BRU_Zach_Philips
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_stratocratic_fascism_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Patrick_Darcey = {
+		name = BRU_Patrick_Darcey
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+				small = "GFX_idea_BRU_Patrick_Darcey"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = BRU_Patrick_Darcey_min
+			allowed = { original_tag = BRU }
+			traits = {
+				minister_isolated_suspect
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	BRU_Josiane_Blanc = {
+		name = BRU_Josiane_Blanc
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_euroconservatism_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Magdi_Leonard_Kyenge = {
+		name = BRU_Magdi_Leonard_Kyenge
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism_eurocentrism_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Sigmund_Meyer = {
+		name = BRU_Sigmund_Meyer
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_euroliberalism_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Anna_Koen = {
+		name = BRU_Anna_Koen
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_europrogressivism_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Adriana_Rubio = {
+		name = BRU_Adriana_Rubio
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_market_socialism_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Jasper_Dijk = {
+		name = BRU_Jasper_Dijk
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/BRU/.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_technocracy_subtype
+			expire = "2082.10.20"
+			desc = x
+			traits = { }
+		}
+	}
+
+	BRU_Alincia_Brune = {
+		name = BRU_Alincia_Brune
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/PRC/.dds"
+				small = "GFX_idea_BRU_Alincia_Brune"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = BRU_Alincia_Brune_min
+			allowed = { original_tag = BRU }
+			traits = {
+				minister_sidestepping_politician
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	BRU_Liesbeth_Martens = {
+		name = BRU_Liesbeth_Martens
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/PRC/.dds"
+				small = "GFX_idea_BRU_Liesbeth_Martens"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = BRU_Liesbeth_Martens_min
+			allowed = { original_tag = BRU }
+			traits = {
+				minister_apolitical_figurehead
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

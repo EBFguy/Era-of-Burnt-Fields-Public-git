@@ -1,0 +1,194 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "VNC_GUI_corporate_politics_Decision_GUI"
+		size = { width = 525 height = 800 }
+		position = { x = 100 y = 0 }
+
+		iconType = {
+			name = "Info"
+			spriteType = "GFX_PRC_GUI_infobutton"
+			position = { x = 380 y = -63 }
+			pdx_tooltip = VNC_great_hall_info_tt
+		}
+		#KRENNIC PORTRAIT
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_krennic_control"
+			spriteType = "GFX_VNC_GUI_corporate_politics_control_block"
+			position = { x = 13 y = 2 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_krennic_neutral"
+			spriteType = "GFX_VNC_GUI_corporate_politics_neutral_block"
+			position = { x = 13 y = 2 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_krennic_coup"
+			spriteType = "GFX_VNC_GUI_corporate_politics_coup_block"
+			position = { x = 13 y = 2 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_krennic_portrait"
+			spriteType = "GFX_VNC_GUI_corporate_politics_portrait_Krennic"
+			position = { x = 15 y = 4 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_GUI_krennic_portrait_tt"
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_Krennic_bar"
+			spriteType = "GFX_VNC_GUI_corporate_Politics_Krennic_Bar"
+			position = { x = 15 y = 152 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_Krennic_bar_tt"
+		}
+
+		#MANNA PORTRAIT
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Manna_control"
+			spriteType = "GFX_VNC_GUI_corporate_politics_control_block"
+			position = { x = 15 y = 190 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Manna_neutral"
+			spriteType = "GFX_VNC_GUI_corporate_politics_neutral_block"
+			position = { x = 15 y = 190 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Manna_coup"
+			spriteType = "GFX_VNC_GUI_corporate_politics_coup_block"
+			position = { x = 15 y = 190 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Manna_portrait"
+			spriteType = "GFX_VNC_GUI_corporate_politics_portrait_Manna"
+			position = { x = 17 y = 192 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_GUI_Manna_portrait_tt"
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_Manna_bar"
+			spriteType = "GFX_VNC_GUI_corporate_Politics_Manna_Bar"
+			position = { x = 17 y = 340 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_Manna_bar_tt"
+		}
+
+		#MILLANA PORTRAIT
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Milana_control"
+			spriteType = "GFX_VNC_GUI_corporate_politics_control_block"
+			position = { x = 15 y = 378 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Milana_neutral"
+			spriteType = "GFX_VNC_GUI_corporate_politics_neutral_block"
+			position = { x = 15 y = 378 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Milana_coup"
+			spriteType = "GFX_VNC_GUI_corporate_politics_coup_block"
+			position = { x = 15 y = 378 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Milana_portrait"
+			spriteType = "GFX_VNC_GUI_corporate_politics_portrait_milana"
+			position = { x = 17 y = 380 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_GUI_Milana_portrait_tt"
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_Milana_bar"
+			spriteType = "GFX_VNC_GUI_corporate_Politics_Milana_Bar"
+			position = { x = 17 y = 528 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_Milana_bar_tt"
+		}
+
+		#HOLMMES PORTRAIT
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Holmes_control"
+			spriteType = "GFX_VNC_GUI_corporate_politics_control_block"
+			position = { x = 17 y = 566 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Holmes_neutral"
+			spriteType = "GFX_VNC_GUI_corporate_politics_neutral_block"
+			position = { x = 17 y = 566 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Holmes_coup"
+			spriteType = "GFX_VNC_GUI_corporate_politics_coup_block"
+			position = { x = 17 y = 566 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_GUI_Holmes_portrait"
+			spriteType = "GFX_VNC_GUI_corporate_politics_portrait_holmes"
+			position = { x = 19 y = 568 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_GUI_Holmes_portrait_tt"
+		}
+
+		iconType = {
+			name = "VNC_GUI_corporate_politics_Holmes_bar"
+			spriteType = "GFX_VNC_GUI_corporate_Politics_Holmes_Bar"
+			position = { x = 19 y = 716 }
+			pdx_tooltip = "VNC_GUI_corporate_politics_Holmes_bar_tt"
+		}
+
+		containerwindowtype = {
+			name = "cap_container"
+			position = { x = 0 y = 0 }
+			iconType = {
+				name = "VNC_GUI_corporate_politics_Krennic_bar_cap"
+				spriteType = "GFX_VNC_GUI_corporate_alert_bar"
+				position = { x = 0 y = 153 }
+				pdx_tooltip = "VNC_GUI_corporate_politics_bar_cap_tt"
+			}
+
+			iconType = {
+				name = "VNC_GUI_corporate_politics_Manna_bar_cap"
+				spriteType = "GFX_VNC_GUI_corporate_alert_bar"
+				position = { x = 0 y = 341 }
+				pdx_tooltip = "VNC_GUI_corporate_politics_bar_cap_tt"
+			}
+
+			iconType = {
+				name = "VNC_GUI_corporate_politics_Milana_bar_cap"
+				spriteType = "GFX_VNC_GUI_corporate_alert_bar"
+				position = { x = 0 y = 529 }
+				pdx_tooltip = "VNC_GUI_corporate_politics_bar_cap_tt"
+			}
+
+			iconType = {
+				name = "VNC_GUI_corporate_politics_Holmes_bar_cap"
+				spriteType = "GFX_VNC_GUI_corporate_alert_bar"
+				position = { x = 0 y = 717 }
+				pdx_tooltip = "VNC_GUI_corporate_politics_bar_cap_tt"
+			}
+		}
+	}
+} 

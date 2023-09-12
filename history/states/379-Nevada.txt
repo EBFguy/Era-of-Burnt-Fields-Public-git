@@ -1,0 +1,21 @@
+
+state={
+	id=379
+	name="STATE_379"
+	manpower = 6333029
+	
+	state_category = rural
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		4521 4607 4736 4816 7879 10422 12134 12399 12425 
+	}
+}

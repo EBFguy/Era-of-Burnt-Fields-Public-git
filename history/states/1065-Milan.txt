@@ -1,0 +1,25 @@
+state={
+	id=1065
+	name="STATE_1065"
+	manpower = 1403773
+	local_supplies = 0.0 
+	state_category = metropolis
+
+	history={
+		add_core_of = PIE
+		owner = PIE
+		victory_points = {
+			3780 25
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		
+	}
+
+	provinces={
+		607 3780 9584
+	}
+}

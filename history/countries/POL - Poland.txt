@@ -1,0 +1,77 @@
+﻿capital = 10
+
+# Vacant
+recruit_character = POL_Generic_Vacant_psi
+recruit_character = POL_Generic_Vacant_pi_0
+recruit_character = POL_Generic_Vacant_pi_1
+recruit_character = POL_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+#Characters
+
+recruit_character = POL_Antoni_Kaminski
+recruit_character = POL_Kazimierz_August_Czartoryski
+recruit_character = POL_Aster_Nyx
+recruit_character = POL_Alex_Freyer
+recruit_character = POL_Ksawery_Krasnostawski
+recruit_character = POL_Ignacy_Kilinski
+recruit_character = POL_Waldemar_Panek
+recruit_character = POL_Maciej_Sobota
+recruit_character = POL_Jan_Zaleski
+recruit_character = POL_Ludwik_Eidrigevicius
+recruit_character = POL_Zygmunt_Emerling
+
+promote_character = {
+    character = POL_Antoni_Kaminski
+    ideology = anocracy_transitional_democracy_subtype
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "2056.11.7"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 3
+    autocracy = 7
+    anocracy = 11
+    conservatism = 14
+    liberal_conservatism = 21
+    liberalism = 14
+    liberalism_2 = 20
+    progressivism = 0
+    libertarian_socialism = 10
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+add_ideas = {
+    Free_Internet_member
+
+    #Base Ideas
+
+    POL_A_Humanitarian_Catastrophe
+    POL_Abusive_Economic_Relationship
+    POL_All_For_Me_None_For_Thee
+    POL_Destroyed_Coastline
+    POL_The_Bulwark_Of_Europe
+    POL_Two_Polands_A_State_Of_Limbo
+    POL_Unrepresentative_Democracy
+}

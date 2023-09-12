@@ -1,0 +1,869 @@
+is_european_warlord_nation = {
+	OR = {
+		###WESTERN EUROPE
+		##IBERIA
+		#PORTUGAL
+		tag = PRP
+		tag = POR
+		tag = NPF
+		#SPAIN
+		tag = GAL
+		tag = ATU
+		tag = LEO
+		tag = BUR
+		tag = BSQ
+		tag = ARA
+		tag = CAT
+		tag = CAS
+		tag = VAL
+		tag = XAV
+		tag = CIU
+		tag = EXT
+		tag = ADA
+		tag = SEV
+		tag = MLA
+		tag = GIB
+		##FRANCO-LOWCOUNTRIES
+		#LOW COUNTRIES
+		tag = BRU
+		tag = NOW
+		tag = CAL
+		#FRANCE
+		tag = SMM
+		tag = CHA
+		tag = ALS
+		tag = ANF
+		tag = PCC
+		tag = PRS
+		tag = NRM
+		tag = ORL
+		tag = BRE
+		tag = NAN
+		tag = RHO
+		tag = AQU
+		tag = OCC
+		tag = PRO
+		###CENTRAL EUROPE
+		##NORTH CENTRAL EUROPE
+		#GERMANY
+		tag = DEN
+		tag = SCH
+		tag = WIL
+		tag = BRN
+		tag = BRM
+		tag = PLB
+		tag = WES
+		tag = RHI
+		tag = RHE
+		tag = FRK
+		tag = HES
+		tag = SAX
+		tag = BAD
+		tag = WUT
+		tag = NEA
+		tag = BAV
+		tag = CZE
+		tag = MOV
+		#AUSTRIA
+		tag = LIZ
+		tag = GRA
+		tag = VIE
+		##SOUTH CENTRAL EUROPE
+		#SWISS
+		tag = SWI
+		tag = GRL
+		#ITALY
+		tag = PIE
+		tag = VNC
+		tag = EMI
+		tag = MEZ
+		tag = SAR
+	}
+}
+
+is_european_warlord_nation_western_europe = {
+	OR = {
+		###WESTERN EUROPE
+		##IBERIA
+		#PORTUGAL
+		tag = PRP
+		tag = POR
+		tag = NPF
+		#SPAIN
+		tag = GAL
+		tag = ATU
+		tag = LEO
+		tag = BUR
+		tag = BSQ
+		tag = ARA
+		tag = CAT
+		tag = CAS
+		tag = VAL
+		tag = XAV
+		tag = CIU
+		tag = EXT
+		tag = ADA
+		tag = SEV
+		tag = MLA
+		tag = GIB
+		##FRANCO-LOWCOUNTRIES
+		#LOW COUNTRIES
+		tag = BRU
+		tag = NOW
+		tag = CAL
+		#FRANCE
+		tag = SMM
+		tag = CHA
+		tag = ALS
+		tag = ANF
+		tag = PCC
+		tag = PRS
+		tag = NRM
+		tag = ORL
+		tag = BRE
+		tag = NAN
+		tag = RHO
+		tag = AQU
+		tag = OCC
+		tag = PRO
+	}
+}
+
+is_european_warlord_nation_iberia = {
+	OR = {
+		##IBERIA
+		#PORTUGAL
+		tag = PRP
+		tag = POR
+		tag = NPF
+		#SPAIN
+		tag = GAL
+		tag = ATU
+		tag = LEO
+		tag = BUR
+		tag = BSQ
+		tag = ARA
+		tag = CAT
+		tag = CAS
+		tag = VAL
+		tag = XAV
+		tag = CIU
+		tag = EXT
+		tag = ADA
+		tag = SEV
+		tag = MLA
+		tag = GIB
+	}
+}
+
+is_european_warlord_nation_franco_lowcountries = {
+	OR = {
+		##FRANCO-LOWCOUNTRIES
+		#LOW COUNTRIES
+		tag = BRU
+		tag = NOW
+		tag = CAL
+		#FRANCE
+		tag = SMM
+		tag = CHA
+		tag = ALS
+		tag = ANF
+		tag = PCC
+		tag = PRS
+		tag = NRM
+		tag = ORL
+		tag = BRE
+		tag = NAN
+		tag = RHO
+		tag = AQU
+		tag = OCC
+		tag = PRO
+	}
+}
+
+is_european_warlord_nation_central_europe = {
+	OR = {
+		###CENTRAL EUROPE
+		##NORTH CENTRAL EUROPE
+		#GERMANY
+		tag = DEN
+		tag = SCH
+		tag = WIL
+		tag = BRN
+		tag = BRM
+		tag = PLB
+		tag = WES
+		tag = RHI
+		tag = RHE
+		tag = FRK
+		tag = HES
+		tag = SAX
+		tag = BAD
+		tag = WUT
+		tag = NEA
+		tag = BAV
+		tag = CZE
+		tag = MOV
+		#AUSTRIA
+		tag = LIZ
+		tag = GRA
+		tag = VIE
+		##SOUTH CENTRAL EUROPE
+		#SWISS
+		tag = SWI
+		tag = GRL
+		#ITALY
+		tag = PIE
+		tag = VNC
+		tag = EMI
+		tag = MEZ
+		tag = SAR
+	}
+}
+
+is_european_warlord_nation_north_central_europe = {
+	OR = {
+		##NORTH CENTRAL EUROPE
+		#GERMANY
+		tag = DEN
+		tag = SCH
+		tag = WIL
+		tag = BRN
+		tag = BRM
+		tag = PLB
+		tag = WES
+		tag = RHI
+		tag = RHE
+		tag = FRK
+		tag = HES
+		tag = SAX
+		tag = BAD
+		tag = WUT
+		tag = NEA
+		tag = BAV
+		tag = CZE
+		tag = MOV
+		#AUSTRIA
+		tag = LIZ
+		tag = GRA
+		tag = VIE
+	}
+}
+
+is_european_warlord_nation_south_central_europe = {
+	OR = {
+		##SOUTH CENTRAL EUROPE
+		#SWISS
+		tag = SWI
+		tag = GRL
+		#ITALY
+		tag = PIE
+		tag = VNC
+		tag = EMI
+		tag = MEZ
+		tag = SAR
+	}
+}
+
+european_warlord_states = {
+	AND = {
+		###WESTERN EUROPE
+		##IBERIA
+		#PORTUGAL
+		owns_state = 112
+		owns_state = 179
+		owns_state = 181
+		owns_state = 724
+		owns_state = 795
+		#SPAIN
+		owns_state = 41
+		owns_state = 117
+		owns_state = 118
+		owns_state = 165
+		owns_state = 166
+		owns_state = 167
+		owns_state = 168
+		owns_state = 169
+		owns_state = 170
+		owns_state = 171
+		owns_state = 172
+		owns_state = 173
+		owns_state = 174
+		owns_state = 175
+		owns_state = 176
+		owns_state = 788
+		owns_state = 789
+		owns_state = 790
+		owns_state = 791
+		owns_state = 792
+		owns_state = 793
+		owns_state = 794
+		owns_state = 881
+		owns_state = 882
+		##FRANCO-LOWCOUNTRIES
+		#LOW COUNTRIES
+		owns_state = 6
+		owns_state = 8
+		owns_state = 29
+		owns_state = 34
+		owns_state = 36 
+		owns_state = 858 
+		owns_state = 859
+		owns_state = 861
+		#FRANCE
+		owns_state = 7
+		owns_state = 14
+		owns_state = 15
+		owns_state = 16
+		owns_state = 17
+		owns_state = 18
+		owns_state = 19
+		owns_state = 20
+		owns_state = 21
+		owns_state = 22
+		owns_state = 23
+		owns_state = 24
+		owns_state = 25
+		owns_state = 26
+		owns_state = 27	
+		owns_state = 28
+		owns_state = 30
+		owns_state = 31
+		owns_state = 32
+		owns_state = 33
+		owns_state = 735
+		owns_state = 785
+		owns_state = 806
+		owns_state = 857
+		owns_state = 860
+		owns_state = 862
+		owns_state = 863
+		owns_state = 864
+		###CENTRAL EUROPE
+		##NORTH CENTRAL EUROPE
+		#GERMANY
+		owns_state = 9
+		owns_state = 35
+		owns_state = 37
+		owns_state = 42
+		owns_state = 50
+		owns_state = 51
+		owns_state = 52
+		owns_state = 53
+		owns_state = 54
+		owns_state = 55
+		owns_state = 56
+		owns_state = 57
+		owns_state = 58
+		owns_state = 59
+		owns_state = 60
+		owns_state = 61
+		owns_state = 62
+		owns_state = 64
+		owns_state = 65
+		owns_state = 72
+		owns_state = 74
+		owns_state = 75
+		owns_state = 69
+		owns_state = 99
+		owns_state = 865
+		owns_state = 866
+		owns_state = 867
+		owns_state = 868
+		owns_state = 869
+		owns_state = 870
+		owns_state = 883
+		#AUSTRIA
+		owns_state = 4
+		owns_state = 152
+		owns_state = 153
+		owns_state = 871
+		owns_state = 872
+		##SOUTH CENTRAL EUROPE
+		#SWISS
+		owns_state = 3
+		owns_state = 151
+		owns_state = 891
+		#ITALY
+		owns_state = 1
+		owns_state = 2
+		owns_state = 39
+		owns_state = 114
+		owns_state = 115
+		owns_state = 116
+		owns_state = 117
+		owns_state = 156
+		owns_state = 157
+		owns_state = 158
+		owns_state = 159
+		owns_state = 160
+		owns_state = 161
+		owns_state = 162
+		owns_state = 874
+		owns_state = 892
+	}
+}
+
+european_warlord_states_western_europe = {
+	AND = {
+		###WESTERN EUROPE
+		##IBERIA
+		#PORTUGAL
+		owns_state = 112
+		owns_state = 179
+		owns_state = 181
+		owns_state = 724
+		owns_state = 795
+		#SPAIN
+		owns_state = 41
+		owns_state = 117
+		owns_state = 118
+		owns_state = 165
+		owns_state = 166
+		owns_state = 167
+		owns_state = 168
+		owns_state = 169
+		owns_state = 170
+		owns_state = 171
+		owns_state = 172
+		owns_state = 173
+		owns_state = 174
+		owns_state = 175
+		owns_state = 176
+		owns_state = 788
+		owns_state = 789
+		owns_state = 790
+		owns_state = 791
+		owns_state = 792
+		owns_state = 793
+		owns_state = 794
+		owns_state = 881
+		owns_state = 882
+		##FRANCO-LOWCOUNTRIES
+		#LOW COUNTRIES
+		owns_state = 6
+		owns_state = 8
+		owns_state = 29
+		owns_state = 34
+		owns_state = 36 
+		owns_state = 858 
+		owns_state = 859
+		owns_state = 861
+		#FRANCE
+		owns_state = 7
+		owns_state = 14
+		owns_state = 15
+		owns_state = 16
+		owns_state = 17
+		owns_state = 18
+		owns_state = 19
+		owns_state = 20
+		owns_state = 21
+		owns_state = 22
+		owns_state = 23
+		owns_state = 24
+		owns_state = 25
+		owns_state = 26
+		owns_state = 27	
+		owns_state = 28
+		owns_state = 30
+		owns_state = 31
+		owns_state = 32
+		owns_state = 33
+		owns_state = 735
+		owns_state = 785
+		owns_state = 806
+		owns_state = 857
+		owns_state = 860
+		owns_state = 862
+		owns_state = 863
+		owns_state = 864
+	}
+}
+
+european_warlord_states_iberia = {
+	AND = {
+		###WESTERN EUROPE
+		##IBERIA
+		#PORTUGAL
+		owns_state = 112
+		owns_state = 179
+		owns_state = 181
+		owns_state = 724
+		owns_state = 795
+		#SPAIN
+		owns_state = 41
+		owns_state = 117
+		owns_state = 118
+		owns_state = 165
+		owns_state = 166
+		owns_state = 167
+		owns_state = 168
+		owns_state = 169
+		owns_state = 170
+		owns_state = 171
+		owns_state = 172
+		owns_state = 173
+		owns_state = 174
+		owns_state = 175
+		owns_state = 176
+		owns_state = 788
+		owns_state = 789
+		owns_state = 790
+		owns_state = 791
+		owns_state = 792
+		owns_state = 793
+		owns_state = 794
+		owns_state = 881
+		owns_state = 882
+	}
+}
+
+european_warlord_states_lowcountries = {
+	AND = {
+		##FRANCO-LOWCOUNTRIES
+		#LOW COUNTRIES
+		owns_state = 6
+		owns_state = 8
+		owns_state = 29
+		owns_state = 34
+		owns_state = 36 
+		owns_state = 858 
+		owns_state = 859
+		owns_state = 861
+		#FRANCE
+		owns_state = 7
+		owns_state = 14
+		owns_state = 15
+		owns_state = 16
+		owns_state = 17
+		owns_state = 18
+		owns_state = 19
+		owns_state = 20
+		owns_state = 21
+		owns_state = 22
+		owns_state = 23
+		owns_state = 24
+		owns_state = 25
+		owns_state = 26
+		owns_state = 27	
+		owns_state = 28
+		owns_state = 30
+		owns_state = 31
+		owns_state = 32
+		owns_state = 33
+		owns_state = 735
+		owns_state = 785
+		owns_state = 806
+		owns_state = 857
+		owns_state = 860
+		owns_state = 862
+		owns_state = 863
+		owns_state = 864
+	}
+}
+
+european_warlord_states_central_europe = {
+	AND = {
+		###CENTRAL EUROPE
+		##NORTH CENTRAL EUROPE
+		#GERMANY
+		owns_state = 9
+		owns_state = 35
+		owns_state = 37
+		owns_state = 42
+		owns_state = 50
+		owns_state = 51
+		owns_state = 52
+		owns_state = 53
+		owns_state = 54
+		owns_state = 55
+		owns_state = 56
+		owns_state = 57
+		owns_state = 58
+		owns_state = 59
+		owns_state = 60
+		owns_state = 61
+		owns_state = 62
+		owns_state = 64
+		owns_state = 65
+		owns_state = 72
+		owns_state = 74
+		owns_state = 75
+		owns_state = 69
+		owns_state = 99
+		owns_state = 865
+		owns_state = 866
+		owns_state = 867
+		owns_state = 868
+		owns_state = 869
+		owns_state = 870
+		owns_state = 883
+		#AUSTRIA
+		owns_state = 4
+		owns_state = 152
+		owns_state = 153
+		owns_state = 871
+		owns_state = 872
+		##SOUTH CENTRAL EUROPE
+		#SWISS
+		owns_state = 3
+		owns_state = 151
+		owns_state = 891
+		#ITALY
+		owns_state = 1
+		owns_state = 2
+		owns_state = 39
+		owns_state = 114
+		owns_state = 115
+		owns_state = 116
+		owns_state = 117
+		owns_state = 156
+		owns_state = 157
+		owns_state = 158
+		owns_state = 159
+		owns_state = 160
+		owns_state = 161
+		owns_state = 162
+		owns_state = 874
+		owns_state = 892
+	}
+}
+
+european_warlord_states_north_central_europe = {
+	AND = {
+		##NORTH CENTRAL EUROPE
+		#GERMANY
+		owns_state = 9
+		owns_state = 35
+		owns_state = 37
+		owns_state = 42
+		owns_state = 50
+		owns_state = 51
+		owns_state = 52
+		owns_state = 53
+		owns_state = 54
+		owns_state = 55
+		owns_state = 56
+		owns_state = 57
+		owns_state = 58
+		owns_state = 59
+		owns_state = 60
+		owns_state = 61
+		owns_state = 62
+		owns_state = 64
+		owns_state = 65
+		owns_state = 72
+		owns_state = 74
+		owns_state = 75
+		owns_state = 69
+		owns_state = 99
+		owns_state = 865
+		owns_state = 866
+		owns_state = 867
+		owns_state = 868
+		owns_state = 869
+		owns_state = 870
+		owns_state = 883
+		#AUSTRIA
+		owns_state = 4
+		owns_state = 152
+		owns_state = 153
+		owns_state = 871
+		owns_state = 872
+	}
+}
+
+european_warlord_states_south_central_europe = {
+	AND = {
+		##SOUTH CENTRAL EUROPE
+		#SWISS
+		owns_state = 3
+		owns_state = 151
+		owns_state = 891
+		#ITALY
+		owns_state = 1
+		owns_state = 2
+		owns_state = 39
+		owns_state = 114
+		owns_state = 115
+		owns_state = 116
+		owns_state = 117
+		owns_state = 156
+		owns_state = 157
+		owns_state = 158
+		owns_state = 159
+		owns_state = 160
+		owns_state = 161
+		owns_state = 162
+		owns_state = 874
+		owns_state = 892
+	}
+}
+
+is_british_warlord_nation = {
+	OR = {
+		#London
+		tag = LON
+		tag = REM
+		tag = SEC
+		#South England
+		tag = DOV
+		tag = MER
+		tag = CRN
+		tag = NRF
+		#North England
+		tag = YOR
+		tag = NER
+		#Scotland
+		tag = SCF
+		tag = SCO
+		tag = NSC
+		tag = SCT
+		#Wales
+		tag = WLS
+		tag = WAL
+		#Ireland
+		tag = IRE
+		tag = BIF
+		tag = ULS
+	}
+}
+
+is_british_scottish_warlord_nation = {
+	OR = {
+		tag = SCF
+		tag = SCO
+		tag = NSC
+		tag = SCT
+	}
+}
+
+is_british_english_warlord_nation = {
+	OR = {
+		#London
+		tag = LON
+		tag = REM
+		tag = SEC	
+		#South England
+		tag = DOV
+		tag = MER
+		tag = CRN
+		tag = NRF
+		#North England
+		tag = YOR
+		tag = NER
+		#Wales
+		tag = WLS
+		tag = WAL		
+	}
+}
+
+british_warlord_states = {
+	AND = {
+		#England
+		owns_state = 123
+		owns_state = 125
+		owns_state = 127
+		owns_state = 128
+		owns_state = 129
+		owns_state = 130
+		owns_state = 131
+		owns_state = 132
+		owns_state = 338
+		owns_state = 851
+		owns_state = 854
+		owns_state = 855
+		owns_state = 856
+		owns_state = 924
+		owns_state = 925
+		owns_state = 926
+		owns_state = 927
+		#WALES
+		owns_state = 122
+		owns_state = 850
+		#Scottish
+		owns_state = 120
+		owns_state = 121
+		owns_state = 133
+		owns_state = 136
+		owns_state = 852
+		#Ireland
+		owns_state = 113
+		owns_state = 119
+		owns_state = 134
+		owns_state = 135
+		owns_state = 848
+		owns_state = 849
+		owns_state = 853
+	}
+}
+
+british_scottish_warlord_states = {
+	AND = {
+		#Scottish
+		owns_state = 120
+		owns_state = 121
+		owns_state = 133
+		owns_state = 136
+		owns_state = 852
+	}
+}
+
+british_english_warlord_states = {
+	AND = {
+		#England
+		owns_state = 123
+		owns_state = 125
+		owns_state = 127
+		owns_state = 128
+		owns_state = 129
+		owns_state = 130
+		owns_state = 131
+		owns_state = 132
+		owns_state = 338
+		owns_state = 851
+		owns_state = 854
+		owns_state = 855
+		owns_state = 856
+		owns_state = 924
+		owns_state = 925
+		owns_state = 926
+		owns_state = 927
+		#WALES
+		owns_state = 122
+		owns_state = 850
+	}
+}
+
+great_britain_warlord_states = {
+	AND = {
+		#England
+		owns_state = 123
+		owns_state = 125
+		owns_state = 127
+		owns_state = 128
+		owns_state = 129
+		owns_state = 130
+		owns_state = 131
+		owns_state = 132
+		owns_state = 338
+		owns_state = 851
+		owns_state = 854
+		owns_state = 855
+		owns_state = 856
+		owns_state = 924
+		owns_state = 925
+		owns_state = 926
+		owns_state = 927
+		#WALES
+		owns_state = 122
+		owns_state = 850
+		#Scottish
+		owns_state = 120
+		owns_state = 121
+		owns_state = 133
+		owns_state = 136
+		owns_state = 852
+	}
+}

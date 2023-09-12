@@ -1,0 +1,50 @@
+add_namespace = BRU_Intro
+
+
+
+
+
+
+
+
+country_event = { #A Quiet Meeting
+	id = BRU_Intro.1 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRU_Intro.1"}
+	title = BRU_Intro.1.t
+	desc = BRU_Intro.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = BRU_Intro.1.a
+		add_stability = 0.05
+		add_war_support = 0.075
+	}
+}
+
+country_event = { #An Extra Meal
+	id = BRU_Intro.2 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRU_Intro.2"}
+	title = BRU_Intro.2.t
+	desc = BRU_Intro.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = BRU_Intro.2.a
+		add_stability = 0.05
+		add_manpower = 2500
+	}
+}
+
+country_event = { #Fighting The Old-Fashioned Way
+	id = BRU_Intro.3 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BRU_Intro.3"}
+	title = BRU_Intro.3.t
+	desc = BRU_Intro.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = BRU_Intro.3.a
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+}

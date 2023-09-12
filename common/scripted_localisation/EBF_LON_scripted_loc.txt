@@ -1,0 +1,12 @@
+
+
+defined_text = {
+	name = EBF_LON_get_real_routines
+	text = {
+		trigger = {
+			set_temp_variable = { EBF_LON_total_real_routines = EBF_LON_logic_routines }
+			add_to_temp_variable = { EBF_LON_total_real_routines = EBF_LON_added_routines }
+		}
+		localization_key = EBF_LON_get_real_routines_txt
+	}
+}

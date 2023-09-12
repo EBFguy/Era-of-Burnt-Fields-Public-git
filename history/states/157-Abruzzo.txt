@@ -1,0 +1,25 @@
+
+state={
+	id=157
+	name="STATE_157"
+	manpower = 4310307
+	local_supplies = 0.0 
+	state_category = city
+
+	history={
+		add_core_of = MEZ
+		owner = MEZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6831 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+
+	provinces={
+		3966 3923 6831 963
+	}
+}

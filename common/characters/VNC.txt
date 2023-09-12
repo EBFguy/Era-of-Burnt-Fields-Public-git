@@ -1,0 +1,181 @@
+characters = {
+	VNC_harold_krennic = {
+		name = VNC_harold_krennic
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/VNC/Portrait_VNC_Harold_Krennic.dds"
+				small = "GFX_idea_VNC_Harold_Krennic"
+			}
+		}
+		country_leader = {
+			ideology = securocracy_habeo_ideam_directorate_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_HAROLD_KRENNIC_DESC"
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = VNC_harold_krennic_min
+			allowed = { original_tag = VNC }
+			traits = {
+				minister_humiliated_leader
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	VNC_damian_richard = {
+		name = VNC_damian_richard
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VNC_Damian_Richard"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = VNC_damian_richard_min
+			allowed = { original_tag = VNC }
+			traits = {
+				minister_uncompromising_careerist
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	VNC_milana_marcello = {
+		name = VNC_milana_marcello
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VNC_Milana_Marcello"
+				large = "gfx/leaders/VNC/Portrait_VNC_Milana_Marcello.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_european_neo_federalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MILANA_MARCELLO_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = VNC_milana_marcello_min
+			allowed = { original_tag = VNC }
+			traits = {
+				minister_iron_willed_fighter
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	VNC_niccolo_manna = {
+		name = VNC_niccolo_manna
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VNC_Niccolo_Manna"
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_corporatocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NICCOLO_MANNA_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = VNC_niccolo_manna_min
+			allowed = { original_tag = VNC }
+			traits = {
+				minister_vain_collaborator
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	VNC_carol_holmes = {
+		name = VNC_carol_holmes
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VNC_Carol_Holmes"
+				large = "gfx/leaders/VNC/Portrait_VNC_carol_holmes.dds"
+			}
+		}
+		country_leader = {
+			ideology = securocracy_habeo_ideam_directorate_holmes_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CAROL_HOLMES_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = VNC_carol_holmes_min
+			allowed = { original_tag = VNC }
+			traits = {
+				minister_cruel_logistician
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	VNC_nino_cattani = {
+		name = VNC_nino_cattani
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VNC_Niccolo_Manna"
+				large = "gfx/leaders/VNC/Portrait_VNC_Niccolo_Manna.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_2_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NINO_CATTANI_DESC"
+		}
+		country_leader = {
+			ideology = anocracy_controlled_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NINO_CATTANI_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = VNC_nino_cattani_min
+			allowed = { original_tag = VNC }
+			traits = {
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}		
+	VNC_antonio_cassetti = {
+		name = VNC_antonio_cassetti
+		portraits = {
+			civilian = {
+				small = "GFX_idea_VNC_Niccolo_Manna"
+				large = "gfx/leaders/VNC/Portrait_VNC_Niccolo_Manna.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_one_party_dominant_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ANTONIO_CASSETTI_DESC"
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = VNC_antonio_cassetti_min
+			allowed = { original_tag = VNC }
+			traits = {
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+}

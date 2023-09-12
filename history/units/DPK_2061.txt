@@ -1,0 +1,187 @@
+﻿division_template = {
+	name = "Inmin Haebang Bobyeong" # People's Liberation Infantry, infantry Force
+	division_names_group = VNC_self_defence
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Jiyeogbang-Wisalyeongbu" #Regional Defense Command, reserve infantry
+	division_names_group = VNC_reserve_self_defence
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Gigyehwa Sadan" #Mechanised Division, Mechanised infantry
+	division_names_group = VNC_reserve_self_defence
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Gigabsadan" #Armoured Division, Armoured infantry
+	division_names_group = VNC_reserve_self_defence
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "PLA Forces: Korea" #Armoured Division, Armoured infantry
+	division_names_group = VNC_reserve_self_defence
+	regiments = {
+		MBT = { x = 0 y = 0 }
+		MBT = { x = 0 y = 1 }
+		MBT = { x = 0 y = 2 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+		elite_infantry = { x = 2 y = 0 }
+		elite_infantry = { x = 2 y = 1 }
+	}
+	priority = 2
+	is_locked = yes
+}
+
+units = {
+	#Regional Defence Soldiers
+	division = {
+		location = "4052"
+		division_template = "Jiyeogbang-Wisalyeongbu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "7125"
+		division_template = "Jiyeogbang-Wisalyeongbu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "6922"
+		division_template = "Jiyeogbang-Wisalyeongbu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "4056"
+		division_template = "Jiyeogbang-Wisalyeongbu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	#Soldiers
+	division = {
+		location = "4052"
+		division_template = "Inmin Haebang Bobyeong"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "7125"
+		division_template = "Inmin Haebang Bobyeong"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "11948"
+		division_template = "Inmin Haebang Bobyeong"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "10083"
+		division_template = "Inmin Haebang Bobyeong"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "959"
+		division_template = "Inmin Haebang Bobyeong"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	division = {
+		location = "6922"
+		division_template = "Inmin Haebang Bobyeong"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	#Mechanised
+	division = {
+		location = "11992"
+		division_template = "Gigyehwa Sadan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	division = {
+		location = "6928"
+		division_template = "Gigyehwa Sadan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}	
+	#Tanks
+	division = {
+		location = "4052"
+		division_template = "Gigabsadan"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	#PLA
+	division = {
+		location = "6944"
+		division_template = "PLA Forces: Korea"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		location = "852"
+		division_template = "PLA Forces: Korea"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		location = "4056"
+		division_template = "PLA Forces: Korea"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	division = {
+		location = "12089"
+		division_template = "PLA Forces: Korea"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+}

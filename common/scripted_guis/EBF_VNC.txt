@@ -1,0 +1,144 @@
+scripted_gui = {
+
+	VNC_GUI_corporate_politics_Paci_Decision_GUI = {
+		context_type = decision_category
+		window_name = "VNC_GUI_corporate_politics_Decision_GUI"
+
+		visible = {
+			tag = VNC
+		}
+
+		effects = {
+
+		}
+
+		triggers = {
+			#KRENNIC
+
+			VNC_GUI_corporate_politics_GUI_krennic_control_visible = {
+				has_country_flag = VNC_corporate_krennic_in_control
+			}
+
+			VNC_GUI_corporate_politics_GUI_krennic_neutral_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_krennic_in_control
+					has_country_flag = VNC_corporate_krennic_coup_attempt
+				}
+			}
+
+			VNC_GUI_corporate_politics_GUI_krennic_coup_visible = {
+				has_country_flag = VNC_corporate_krennic_coup_attempt
+			}
+
+			VNC_GUI_corporate_politics_Krennic_bar_cap_visible = {
+			 	NOT = {
+			 		has_country_flag = VNC_corporate_krennic_in_control
+			 	}
+			}
+
+			#MANNA
+
+			VNC_GUI_corporate_politics_GUI_Manna_control_visible = {
+				has_country_flag = VNC_corporate_manna_in_control
+			}
+
+			VNC_GUI_corporate_politics_GUI_Manna_neutral_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_manna_in_control
+					has_country_flag = VNC_corporate_manna_coup_attempt
+				}
+			}
+
+			VNC_GUI_corporate_politics_GUI_Manna_coup_visible = {
+				has_country_flag = VNC_corporate_manna_coup_attempt
+			}
+
+			VNC_GUI_corporate_politics_Manna_bar_cap_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_Milana_in_control
+				}
+			}
+
+			#MILANA
+
+			VNC_GUI_corporate_politics_GUI_Milana_control_visible = {
+				has_country_flag = VNC_corporate_Milana_in_control
+			}
+
+			VNC_GUI_corporate_politics_GUI_Milana_neutral_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_milana_in_control
+					has_country_flag = VNC_corporate_milana_coup_attempt
+				}
+			}
+
+			VNC_GUI_corporate_politics_GUI_Milana_coup_visible = {
+				has_country_flag = VNC_corporate_Milana_coup_attempt
+			}
+
+			VNC_GUI_corporate_politics_Milana_bar_cap_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_Milana_in_control
+				}
+			}
+
+			#HOLMES
+
+			VNC_GUI_corporate_politics_GUI_Holmes_control_visible = {
+				has_country_flag = VNC_corporate_holmes_in_control
+			}
+
+			VNC_GUI_corporate_politics_GUI_Holmes_neutral_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_holmes_in_control
+					has_country_flag = VNC_corporate_holmes_coup_attempt
+				}
+			}
+
+			VNC_GUI_corporate_politics_GUI_Holmes_coup_visible = {
+				has_country_flag = VNC_corporate_holmes_coup_attempt
+			}
+
+			VNC_GUI_corporate_politics_Holmes_bar_cap_visible = {
+				NOT = {
+					has_country_flag = VNC_corporate_holmes_in_control
+				}
+			}
+
+		}
+
+		properties = {
+			VNC_GUI_corporate_politics_Krennic_bar = {
+				frame = VNC_corporate_power^0
+			}
+
+			VNC_GUI_corporate_politics_Milana_bar = {
+				frame = VNC_corporate_power^1
+			}			
+
+			VNC_GUI_corporate_politics_Holmes_bar = {
+				frame = VNC_corporate_power^2
+			}
+
+			VNC_GUI_corporate_politics_Manna_bar = {
+				frame = VNC_corporate_power^3
+			}
+
+			VNC_GUI_corporate_politics_Krennic_bar_cap = {
+				x = VNC_corporate_power_bar_cap_var
+			}
+
+			VNC_GUI_corporate_politics_Milana_bar_cap = {
+				x = VNC_corporate_power_bar_cap_var
+			}			
+
+			VNC_GUI_corporate_politics_Holmes_bar_cap = {
+				x = VNC_corporate_power_bar_cap_var
+			}
+
+			VNC_GUI_corporate_politics_Manna_bar_cap = {
+				x = VNC_corporate_power_bar_cap_var
+			}
+		}
+	}
+}

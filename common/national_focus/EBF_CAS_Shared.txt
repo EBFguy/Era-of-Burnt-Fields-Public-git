@@ -1,0 +1,438 @@
+#Castille Intro Tree
+
+shared_focus = {
+	id = CAS_Russian_Parnassus_in_Scattering
+	icon = x
+	cost = 7
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Russian_Parnassus_in_Scattering"
+	}
+}
+
+shared_focus = {
+	id = CAS_Calling_out_for_the_Militia
+	icon = x
+	cost = 7
+	x = -3
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Calling_out_for_the_Militia"
+	}
+	relative_position_id = CAS_Russian_Parnassus_in_Scattering
+	prerequisite = { 
+		focus = CAS_Russian_Parnassus_in_Scattering 
+	}
+}
+
+shared_focus = {
+	id = CAS_Form_The_Russian_Guard_Corps
+	mutually_exclusive = { 
+		focus = CAS_Not_A_Duty_For_The_Youth 
+	}
+	icon = x
+	cost = 7
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Form_The_Russian_Guard_Corps"
+	}
+	relative_position_id = CAS_Calling_out_for_the_Militia
+	prerequisite = { 
+		focus = CAS_Calling_out_for_the_Militia 
+	}
+}
+
+shared_focus = {
+	id = CAS_Not_A_Duty_For_The_Youth
+	mutually_exclusive = {
+		focus = CAS_Form_The_Russian_Guard_Corps 
+	}
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Not_A_Duty_For_The_Youth"
+	}
+	relative_position_id = CAS_Calling_out_for_the_Militia
+	prerequisite = { 
+		focus = CAS_Calling_out_for_the_Militia 
+	}
+}
+
+shared_focus = {
+	id = CAS_Enstate_Stricter_Trainings
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Enstate_Stricter_Trainings"
+	}
+	relative_position_id = CAS_Not_A_Duty_For_The_Youth
+	prerequisite = {
+		focus = CAS_Form_The_Russian_Guard_Corps
+		focus = CAS_Not_A_Duty_For_The_Youth
+	}
+}
+
+shared_focus = {
+	id = CAS_The_Cracked_Government
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Cracked_Government"
+	}
+	relative_position_id = CAS_Russian_Parnassus_in_Scattering
+	prerequisite = {
+		focus = CAS_Russian_Parnassus_in_Scattering
+	}
+}
+
+shared_focus = {
+	id = CAS_The_White_Coats
+	mutually_exclusive = {
+		focus = CAS_The_Ravaging_Xenophobes
+	}
+	icon = x
+	cost = 7
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_White_Coats"
+	}
+	relative_position_id = CAS_The_Cracked_Government
+	prerequisite = {
+		focus = CAS_The_Cracked_Government
+	}
+}
+
+shared_focus = {
+	id = CAS_The_Ravaging_Xenophobes
+	mutually_exclusive = {
+		focus = CAS_The_White_Coats
+	}
+	icon = x
+	cost = 7
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Ravaging_Xenophobes"
+	}
+	relative_position_id = CAS_The_Cracked_Government
+	prerequisite = {
+		focus = CAS_The_Cracked_Government
+	}
+}
+shared_focus = {
+	id = CAS_The_Boiling_Pot_of_Madrid
+	icon = x
+	cost = 7
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Boiling_Pot_of_Madrid"
+	}
+	relative_position_id = CAS_The_Cracked_Government
+	prerequisite = {
+		focus = CAS_The_White_Coats
+		focus = CAS_The_Ravaging_Xenophobes
+	}
+}
+
+shared_focus = {
+	id = CAS_Lifeline_of_the_State
+	icon = x
+	cost = 7
+	x = 3
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Lifeline_of_the_State"
+	}
+	relative_position_id = CAS_Russian_Parnassus_in_Scattering
+	prerequisite = {
+		focus = CAS_Russian_Parnassus_in_Scattering
+	}
+}
+
+shared_focus = {
+	id = CAS_Equal_Share_in_Economy
+	mutually_exclusive = {
+		focus = CAS_The_Oligarchic_Model
+	}
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Equal_Share_in_Economy"
+	}
+	relative_position_id = CAS_Lifeline_of_the_State
+	prerequisite = {
+		focus = CAS_Lifeline_of_the_State
+	}
+}
+
+shared_focus = {
+	id = CAS_The_Oligarchic_Model
+	mutually_exclusive = {
+		focus = CAS_Equal_Share_in_Economy
+	}
+	icon = x
+	cost = 7
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Oligarchic_Model"
+	}
+	relative_position_id = CAS_Lifeline_of_the_State
+	prerequisite = {
+		focus = CAS_Lifeline_of_the_State
+	}
+}
+
+shared_focus = {
+	id = CAS_Counting_Our_Rubies
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Counting_Our_Rubies"
+	}
+	relative_position_id = CAS_Equal_Share_in_Economy
+	prerequisite = {
+		focus = CAS_Equal_Share_in_economy
+		focus = CAS_The_Oligarchic_Model
+	}
+}
+
+shared_focus = {
+	id = CAS_Only_Fair_People_will_Save_Russia
+	mutually_exclusive = {
+		focus = CAS_Only_a_Firm_Hand_will_Save_Russia
+	}
+	icon = x
+	cost = 7
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Only_Fair_People_will_Save_Russia"
+	}
+	relative_position_id = CAS_The_Boiling_Pot_of_Madrid
+	prerequisite = {
+		focus = CAS_Enstate_Stricter_Trainings
+	}
+	prerequisite = {
+		focus = CAS_The_Boiling_Pot_of_Madrid
+	}
+	prerequisite = {
+		focus = CAS_Counting_Our_Rubies
+	}
+}
+
+shared_focus = {
+	id = CAS_Only_a_Firm_Hand_will_Save_Russia
+	mutually_exclusive = {
+		focus = CAS_Only_a_Firm_Hand_will_Save_Russia
+	}
+	icon = x
+	cost = 7
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Only_a_Firm_Hand_will_Save_Russia"
+	}
+	relative_position_id = CAS_The_Boiling_Pot_of_Madrid
+	prerequisite = {
+		focus = CAS_Enstate_Stricter_Trainings
+	}
+	prerequisite = {
+		focus = CAS_The_Boiling_Pot_of_Madrid
+	}
+	prerequisite = {
+		focus = CAS_Counting_Our_Rubies
+	}
+}
+
+shared_focus = {
+	id = CAS_Staring_at_the_Sun
+	icon = x
+	cost = 7
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Staring_at_the_Sun"
+		load_focus_tree = EBF_CAS_election_tree
+	}
+	relative_position_id = CAS_The_Boiling_Pot_of_Madrid
+	prerequisite = {
+		focus = CAS_Only_Fair_People_will_Save_Russia
+		focus = CAS_Only_a_Firm_Hand_will_Save_Russia
+	}
+}
+
+#Castille Election Tree
+
+shared_focus = {
+	id = CAS_Shuffling_the_Deck
+	icon = x
+	cost = 7
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Shuffling_the_Deck"
+	}
+}
+
+shared_focus = {
+	id = CAS_The_Pyramids_Foundation
+	mutually_exclusive = {
+		focus = CAS_The_Pyramids_Head
+	}
+	icon = x
+	cost = 7
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Pyramids_Foundation"
+	}
+	relative_position_id = CAS_Shuffling_the_Deck
+	prerequisite = {
+		focus = CAS_Shuffling_the_Deck
+	}
+}
+
+shared_focus = {
+	id = CAS_We_will_Never_Die
+	icon = x
+	cost = 7
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_We_will_Never_Die"
+	}
+	relative_position_id = CAS_The_Pyramids_Foundation
+	prerequisite = {
+		focus = CAS_The_Pyramids_Foundation
+	}
+}
+
+shared_focus = {
+	id = CAS_Our_Love_Our_Dreams
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Our_Love_Our_Dreams"
+	}
+	relative_position_id = CAS_The_Pyramids_Foundation
+	prerequisite = {
+		focus = CAS_The_Pyramids_Foundation
+	}
+}
+
+shared_focus = {
+	id = CAS_Yes_Future
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Yes_Future"
+	}
+	relative_position_id = CAS_Our_Love_Our_Dreams
+	prerequisite = {
+		focus = CAS_We_will_Never_Die
+	}
+	prerequisite = {
+		focus = CAS_Our_Love_Our_Dreams
+	}
+}
+
+shared_focus = {
+	id = CAS_The_Pyramids_Head
+	mutually_exclusive = {
+		focus = CAS_The_Pyramids_foundation
+	}
+	icon = x
+	cost = 7
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Pyramids_Head"
+	}
+	relative_position_id = CAS_Shuffling_the_Deck
+	prerequisite = {
+		focus = CAS_Shuffling_the_Deck
+	}
+}
+
+shared_focus = {
+	id = CAS_When_We_Return
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_When_We_Return"
+	}
+	relative_position_id = CAS_The_Pyramids_Head
+	prerequisite = {
+		focus = CAS_The_Pyramids_Head
+	}
+}
+
+shared_focus = {
+	id = CAS_Everything_will_be_Different
+	icon = x
+	cost = 7
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Everything_will_be_Different"
+	}
+	relative_position_id = CAS_The_Pyramids_Head
+	prerequisite = {
+		focus = CAS_The_Pyramids_Head
+	}
+}
+
+shared_focus = {
+	id = CAS_Russia_Forever
+	icon = x
+	cost = 7
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_Russia_Forever"
+	}
+	relative_position_id = CAS_When_We_Return
+	prerequisite = {
+		focus = CAS_When_We_Return
+	}
+	prerequisite = {
+		focus = CAS_Everything_will_be_Different
+	}
+}
+
+shared_focus = {
+	id = CAS_The_Election_Day
+	icon = x
+	cost = 7
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAS_The_Election_Day"
+	}
+	relative_position_id = CAS_Russia_Forever
+	prerequisite = {
+		focus = CAS_Yes_Future
+		focus = CAS_Russia_Forever
+	}
+}

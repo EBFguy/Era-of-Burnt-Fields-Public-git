@@ -1,0 +1,25 @@
+state={
+	id=96
+	name="STATE_96"
+	manpower = 1050329
+	
+	state_category = rural
+	
+	history={
+		add_core_of = BLR
+		owner = BLR
+		victory_points = {
+			406 1
+		}
+		
+		buildings = {
+			infrastructure = 4
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		233 277 358 406 6340 9341 11391 
+	}
+}

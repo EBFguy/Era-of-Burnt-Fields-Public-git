@@ -1,0 +1,40 @@
+characters = {
+	AQU_Lucius_IV = {
+		name = AQU_Lucius_IV
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AQU/Portrait_AQU_Lucius_IV.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_papal_theocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_LUCIUS_IV_DESC"
+		}
+	}
+
+	AQU_Simone_Dupont = {
+		name = AQU_Simone_Dupont
+		portraits = {
+			civilian = {
+				small = "GFX_idea_OCC_Nicolas_Favre"
+				large = "gfx/leaders/OCC/Portrait_OCC_Nicolas_Favre.dds"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = AQU_Simone_Dupont_min
+			allowed = { original_tag = DEN }
+			traits = { minister_old_dogmatist }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_total_collectivism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NICOLAS_FAVRE_DESC"
+		}
+	}
+}

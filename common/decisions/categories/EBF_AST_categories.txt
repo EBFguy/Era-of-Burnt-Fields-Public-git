@@ -1,0 +1,17 @@
+EBF_AST_australia_civil_war_decisions = {
+	icon = generic_research
+	allowed = {
+		OR = {
+			tag = AST
+			tag = CST
+			tag = PRT
+			tag = STM
+			tag = CDF
+		}
+	}
+	visible = {
+		has_global_flag = EBF_AUSTRALIAN_CIVIL_WAR_ONGOING
+	}
+	visible_when_empty = YES
+	priority = 1
+}

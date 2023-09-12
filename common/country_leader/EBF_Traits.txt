@@ -1,0 +1,239 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+	
+	USA_first_dictator = {
+		random = no
+		political_power_factor = 0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	IRE_great_unifier = {
+		random = no
+		political_power_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	DEN_drunkard = {
+		random = no
+		administrative_efficiency_monthly_rate = -10
+		trade_opinion_factor = 0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	NOW_mother_of_european_forces = {
+		special_forces_attack_factor = 0.1
+		special_forces_defence_factor = 0.1
+		random = no
+	}	
+
+	minister_well_connected = {
+		opinion_gain_monthly_factor = 0.1
+		decryption_factor = 0.05
+		supply_consumption_factor = -0.05
+		random = no
+	}
+
+	minister_quiet_yes_man = {
+		political_power_factor = 0.05
+		random = no
+	}	
+
+	minister_distrusting_general = {
+		war_support_factor = 0.05
+		decryption_factor = 0.1
+		random = no
+	}		
+
+	minister_neurologist_turned_minister = {
+		research_speed_factor = 0.1
+		political_power_factor = -0.05
+		random = no
+	}		
+	
+	minister_friendly_techie = {
+		political_power_factor = 0.05
+		research_speed_factor = 0.1
+		random = no
+	}	
+
+	minister_cold_machine = {
+		political_power_factor = -0.05
+		random = no
+	}		
+
+	minister_uncompromising_careerist = {
+		political_power_cost = -0.05 
+		political_power_factor = -0.075
+		random = no
+	}		
+	
+	minister_iron_willed_fighter = {
+		fascist_acceptance = 15 	
+		army_attack_factor = 0.05		
+		random = no
+	}
+
+	minister_vain_collaborator = {
+		stability_factor = 0.05
+		party_popularity_stability_factor = 0.025	
+		random = no
+	}
+
+	minister_cruel_logistician = {
+		army_leader_start_logistics_level = 1 
+		army_fuel_capacity_factor = 0.05
+		random = no
+	}
+
+	minister_old_guard = {
+		political_power_gain = -0.05
+		stability_factor = 0.05
+		random = no
+	}
+
+	minister_pragmatic_utilitarian = {
+		drift_defence_factor = 0.05
+		random = no
+	}	
+
+	minister_old_fighter_boy = {
+		air_ace_bonuses_factor = 0.1 
+		air_attack_factor = 0.05
+		random = no
+	}	
+
+	minister_well_meaning_trouble_maker = {
+		political_power_factor = -0.05 
+		industrial_capacity_factory = 0.025
+		random = no
+	}
+
+	minister_humiliated_leader = {
+		stability_factor = -0.05
+		political_power_factor = 0.05	
+		random = no
+	}
+
+	minister_jolly_drunkard = {
+		stability_factor = 0.05
+		political_power_factor = 0.05
+	}
+
+	NOW_the_aged = {
+		army_morale_factor = 0.05
+		random = no
+	}
+
+	NOW_the_lad = {
+		army_morale_factor = 0.1 
+		experience_gain_army_unit_factor = 0.1
+		random = no
+	}
+
+	NOW_the_lost = {
+		land_night_attack = 0.05
+		river_crossing_factor = 0.2
+		random = no
+	}
+
+	NOW_the_cold = {
+		acclimatization_cold_climate_gain_factor = 0.05
+		random = no
+	}
+
+	minister_old_dogmatist = {
+		political_power_factor = 0.05	
+		random = no
+	}
+
+	minister_crazed_fanatic = {
+		army_morale_factor = 0.05
+		war_stability_factor = 0.075
+		random = no
+	}
+
+	minister_connected_false_scientist = {
+		research_speed_factor = -0.1
+		stability_factor = 0.025
+		random = no
+	}
+
+	minister_economic_reformist = {
+		poverty_rate_monthly_rate = 2
+		administrative_efficiency_monthly_rate = 2
+		stability_factor = 0.05
+		random = no
+	}
+
+	minister_smoothtalking_socialist = {
+		opinion_gain_monthly_same_ideology_factor = 0.05
+		random = no
+	}
+
+	minister_chronic_meddler = {
+		stability_factor = -0.05
+		administrative_efficiency_monthly_rate = -5
+		political_power_gain = 0.05
+		random = no
+	}
+
+	minister_careless_commander = {
+		
+		random = no
+	}
+
+	minister_smoothtalking_social_climber = {
+		
+		random = no
+	}
+
+	minister_grey_eminence = {
+		political_power_factor = 0.3
+		random = no
+	}
+
+	minister_nationalist_fanatic = {
+		army_org_factor = 0.1
+		army_core_attack_factor = 0.1
+		random = no
+	}
+
+	minister_sidestepping_politician = {
+		administrative_efficiency_monthly_rate = -5
+		political_power_gain = 0.05
+		random = no
+	}
+
+	minister_isolated_suspect = {
+		army_morale_factor = -0.1
+		experience_gain_army_unit_factor = -0.1
+		random = no
+	}
+
+	minister_apolitical_figurehead = {
+		army_morale_factor = 0.05
+		political_power_gain = -0.025
+		random = no
+	}
+
+	BRU_the_last_dreamer = {
+		stability_factor = 0.15
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

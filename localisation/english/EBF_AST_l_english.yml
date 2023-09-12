@@ -1,0 +1,127 @@
+﻿l_english:
+ #NAME#
+ AST:0 "Australia"
+ AST_DEF:0 "The Republic of Australia"
+ AST_ADJ:0 "Australian"
+
+ CST:0 "People's Republics of Australia"
+ CST_DEF:0 "The United People's Republics of Australia"
+ CST_ADJ:0 "Australian"    
+
+ PRT:0 "Australians For Democracy"
+ PRT_DEF:0 "The Front of Australians For Democracy"
+ PRT_ADJ:0 "Australian"     
+
+ STM:0 "Society for the Transendence of Political Theory"
+ STM_DEF:0 "The Society for the Transendence of Modern Political Theory"
+ STM_ADJ:0 "Australian"  
+
+ CDF:0 "COD Australian Expedition"
+ CDF_DEF:0 "The Commonwealth of Democracies Australian Expeditionary Force"
+ CDF_ADJ:0 "International Forces"  
+
+ OUT:0 ""
+ OUT_DEF:0 ""
+ OUT_ADJ:0 "Australian Outback"  
+
+ #COSMETIC TAGS 
+ CST_ACW_victory:0 "United People's Republics of Australia"
+ CST_ACW_victory_DEF:0 "The United People's Republics of Australia"
+ CST_ACW_victory_ADJ:0 "Australian"  
+ PRT_ACW_victory:0 "Australian Federal Republic"
+ PRT_ACW_victory_DEF:0 "The Australian Federal Republic"
+ PRT_ACW_victory_ADJ:0 "Australian"  
+ STM_ACW_victory:0 "Transendent Australia"
+ STM_ACW_victory_DEF:0 "The Transendent Existence of Australia"
+ STM_ACW_victory_ADJ:0 "Australian"  
+ CDF_ACW_victory:0 "Australian Mandate"
+ CDF_ACW_victory_DEF:0 "The Commonwealth Australian Mandate"
+ CDF_ACW_victory_ADJ:0 "Australian"  
+
+ #PARTIES
+ AST_technoutopianism_party:0 "STMPT"
+ AST_technoutopianism_party_long:0 "Society for the Transendence of Modern Political Theory" 
+ AST_securocracy_party:0 "Disorganised"
+ AST_securocracy_party_long:0 "Disorganised"
+ AST_ultranationalism_party:0 "Disorganised"
+ AST_ultranationalism_party_long:0 "Disorganised"
+ AST_fascist_party:0 "Disorganised"
+ AST_fascist_party_long:0 "Disorganised"
+ AST_autocracy_party:0 "ADF"
+ AST_autocracy_party_long:0 "Australian Defence Force" 
+ AST_anocracy_party:0 "NUP"
+ AST_anocracy_party_long:0 "National Union Party"
+ AST_conservatism_party:0 "NUP - Democratic Conservatives"
+ AST_conservatism_party_long:0 "National Union Party - Democratic Conservatives" 
+ AST_liberalism_party:0 "NUP - Democratic Liberals"
+ AST_liberalism_party_long:0 "National Union Party - Democratic Liberals" 
+ AST_libertarian_socialism_party:0 "Resist"
+ AST_libertarian_socialism_party_long:0 "Resist" 
+ AST_authoritarian_socialism_party:0 "Australian Congress"
+ AST_authoritarian_socialism_party_long:0 "Australian Congress" 
+ AST_totalitarian_socialism_party:0 "Disorganised"
+ AST_totalitarian_socialism_party_long:0 "Disorganised" 
+ AST_reductivism_party:0 "Disorganised"
+ AST_reductivism_party_long:0 "Disorganised" 
+
+
+ 
+ #PARTY NAME CHANGES
+ AST_GAA_party:0 "GAA"
+ AST_GAA_party_long:0 "Government for all Australians"
+ AST_lib_postNUP_party:0 "Popular Party"
+ AST_lib_postNUP_party_long:0 "The Popular Party"
+ AST_con_postNUP_party:0 "New Conservatives"
+ AST_con_postNUP_party_long:0 "The New Conservatives"
+ AST_authdem_postNUP_party:0 "Patriot Party"
+ AST_authdem_postNUP_party_long:0 "The Patriot Party"
+ AST_authdem_Parliament_party:0 "Parliament Leadership"
+ AST_authdem_Parliament_party_long:0 "The Australian Parliament Leadership"
+
+ #AUSTRALIA CIVIL WAR
+ CST_authoritarian_socialism_party:0 "Australian Congress"
+ CST_authoritarian_socialism_party_long:0 "Australian Congress" 
+ PRT_liberalism_party:0 "Democracy Front"
+ PRT_liberalism_party_long:0 "Democracy Front" 
+
+ #CHARACHTERS#
+ AST_Roger_Floyd:0 "Roger Floyd"
+ POLITICS_ROGER_FLOYD_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+ AST_Joshua_Stone:0 "Joshua Stone"
+ POLITICS_JOSHUA_STONE_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+ AST_Jasper_Reid:0 "Jasper Reid"
+ POLITICS_JASPER_REID_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+ AST_Sonny_Mussett:0 "Sonny Mussett"
+ POLITICS_SONNY_MUSSETT_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+ AST_Fletcher_Nguyen:0 "Fletcher Nguyen"
+ POLITICS_FLETCHER_NGUYEN_CANADA_DESC:0 "§YProvisional Prime Minister of Australia§!\n§W--------------§!\n"
+ AST_Australian_Parliament:0 "Australian Parliament"
+ POLITICS_AUSTRALIAN_PARLIAMENT_DESC:0 "§YAustralian Legislature§!\n§W--------------§!\n"
+ AST_Andrew_Collins:0 "Andrew Collins"
+ POLITICS_ANDREW_COLLINS_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+ AST_Logan_Wright:0 "Logan Wright"
+ POLITICS_LOGAN_WRIGHT_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+ AST_Gemma_Watson:0 "Gemma Watson"
+ POLITICS_GEMMA_WATSON_DESC:0 "§YPrime Minister of Australia§!\n§W--------------§!\n"
+
+
+
+ #CIVIL WAR FACTIONS
+ CST_Chloe_Davies:0 "Chloe Davies"
+ POLITICS_CHOLE_DAVIES_DESC:0 "§YChairwoman of the Australian Congress§!\n§W--------------§!\n"
+ PRT_Ella_O_Brien:0 "Ella O'Brien"
+ POLITICS_ELLA_O_BRIEN_DESC:0 "§YLeader Of Australian Democracy§!\n§W--------------§!\n"
+ STM_Dylan_Russel:0 "Dylan Russel"
+ POLITICS_DYLAN_RUSSEL_DESC:0 "§YChairman of STMPT§!\n§W--------------§!\n"
+ CDF_Nixon_Evans:0 "Nixon Evans"
+ POLITICS_NIXON_EVANS_DESC:0 "§YCommander of the Commonwealth Expeditionary Forces§!\n§W--------------§!\n"
+
+ #IDEAS#
+ AST_pacific_bastion:0 "The Pacific Bastion"
+ AST_the_grave_decades:0 "The Grave Decades"
+ AST_growing_authoritarianism:0 "Growing Authoritarianism"
+ AST_a_liberal_conservative_laughingstock:0 "A Liberal-Conservative Laughinstock"
+ AST_floyds_ambitions:0 "Floyd's Ambitions"
+
+ #MISC#
+ AST_floyds_ambitions_tt:0 "§RFloyd's growing authoritarian tendencies will only grow worse if he keeps getting his way§!"

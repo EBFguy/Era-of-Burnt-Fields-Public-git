@@ -1,0 +1,32 @@
+state={
+	id=881
+	name="STATE_881"
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = MLA
+		owner = MLA
+		victory_points = {
+			9979 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
+			9979 = {
+				naval_base = 2
+
+			}
+
+		}
+		
+
+	}
+
+	provinces={
+		9979
+	}
+	manpower=1662292
+	buildings_max_level_factor=1.000
+	state_category=city
+}

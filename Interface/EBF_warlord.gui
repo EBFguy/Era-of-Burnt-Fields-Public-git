@@ -1,0 +1,184 @@
+guiTypes = {
+	containerWindowType = {
+		name = "EBF_warlord_europe_epoch_container"
+		size = { width = 100%% height = 700 }
+
+		instantTextboxType = {
+			name = "EBF_warlord_europe_epoch_counter"
+			position = { x = 0 y = 0 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_epoch_counter
+			maxWidth = 500
+			format = center
+		}
+		instantTextboxType = {
+			name = "EBF_warlord_europe_epoch_title"
+			position = { x = 0 y = 50 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_epoch_title
+			maxWidth = 500
+			format = center
+		}
+
+		containerWindowType = {
+			name = "EBF_warlord_europe_epoch_grid_container"
+			position = { x = 0 y = 150 }
+			size = { width = 400 height = 500 }
+
+			gridBoxType = {
+				name = "EBF_warlord_europe_epoch_grid"
+				slotsize = { width = 0 height = 0 }
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "EBF_warlord_europe_epoch_1_container"
+		size = { width = 400 height = 500 }
+
+		iconType = {
+			name = "EBF_warlord_europe_box"
+			position = { x = -7 y = 0 }
+			spriteType = GFX_warlord_europe_box
+		}
+		instantTextboxType = {
+			name = "EBF_warlord_europe_legitimacy_title"
+			position = { x = 5 y = 10 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_legitimacy_title
+			maxWidth = 175
+			format = left
+		}
+		buttonType = {
+			name = "EBF_warlord_europe_legitimacy_icon"
+			position = { x = 5 y = 50 }
+			spriteType = GFX_warlord_europe_legitimacy_icon
+			scale = 0.75
+		}
+		iconType = {
+			name = "EBF_warlord_europe_legitimacy_bar"
+			position = { x = 185 y = 50 }
+			spriteType = GFX_warlord_europe_legitimacy_bar
+			pdx_tooltip = EBF_warlord_europe_legitimacy_bar_tt
+		}
+		iconType = {
+			name = "EBF_warlord_europe_legitimacy_picture_frame"
+			position = { x = 155 y = 100 }
+			spriteType = GFX_warlord_europe_picture_frame
+		}
+		instantTextboxType = {
+			name = "EBF_warlord_europe_chaos_title"
+			position = { x = 5 y = 210 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_chaos_title
+			maxWidth = 175
+			format = left
+		}
+		buttonType = {
+			name = "EBF_warlord_europe_chaos_icon"
+			position = { x = 5 y = 250 }
+			spriteType = GFX_warlord_europe_chaos_icon
+			scale = 0.75
+		}
+		iconType = {
+			name = "EBF_warlord_europe_chaos_bar"
+			position = { x = 185 y = 250 }
+			spriteType = GFX_warlord_europe_chaos_bar
+			pdx_tooltip = EBF_warlord_europe_chaos_bar_tt
+		}
+		iconType = {
+			name = "EBF_warlord_europe_chaos_picture_frame"
+			position = { x = 155 y = 300 }
+			spriteType = GFX_warlord_europe_picture_frame
+		}
+	}
+
+	containerWindowType = {
+		name = "EBF_warlord_europe_epoch_2_container"
+		size = { width = 400 height = 500 }
+
+		iconType = {
+			name = "EBF_warlord_europe_box"
+			position = { x = -7 y = 0 }
+			spriteType = GFX_warlord_europe_contender_box
+		}
+		iconType = {
+			name = "EBF_warlord_europe_contender_header"
+			position = { x = -7 y = 5 }
+			spriteType = GFX_warlord_europe_header
+		}
+		instantTextboxType = {
+			name = "EBF_warlord_europe_contender_title"
+			position = { x = 5 y = 5 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_contender_title
+			maxWidth = 225
+			format = left
+		}
+
+		gridBoxType = {
+			name = "EBF_warlord_europe_contender_grid"
+			position = { x = 5 y = 40 }
+			size = { width = 300 height = 35 }
+			slotsize = { width = 60 height = 35 }
+			max_slots_horizontal = 8
+			add_horizontal = yes
+			format = UPPER_LEFT
+		}
+
+		iconType = {
+			name = "EBF_warlord_europe_contender_chaos_header"
+			position = { x = -7 y = 160 }
+			spriteType = GFX_warlord_europe_header
+		}
+		instantTextboxType = {
+			name = "EBF_warlord_europe_contender_chaos_title"
+			position = { x = 5 y = 160 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_chaos_title
+			maxWidth = 175
+			format = left
+		}
+		iconType = {
+			name = "EBF_warlord_europe_contender_chaos_bar"
+			position = { x = 100 y = 220 }
+			spriteType = GFX_warlord_europe_contender_chaos_bar
+			frame = 75
+		}
+		iconType = {
+			name = "EBF_warlord_europe_contender_supplies_header"
+			position = { x = -7 y = 285 }
+			spriteType = GFX_warlord_europe_header
+		}
+		instantTextboxType = {
+			name = "EBF_warlord_europe_contender_supplies_title"
+			position = { x = 5 y = 285 }
+			font = "hoi_36header"
+			text = EBF_warlord_europe_supplies_title
+			maxWidth = 175
+			format = left
+		}
+		iconType = {
+			name = "EBF_warlord_europe_contender_supplies_bar"
+			position = { x = 100 y = 345 }
+			spriteType = GFX_warlord_europe_contender_supplies_bar
+			frame = 25
+		}
+	}
+
+	containerWindowType = {
+		name = "EBF_warlord_europe_contender_entry"
+
+		buttonType = {
+			name = "EBF_warlord_europe_contender_flag"
+			position = { x = 6 y = 8 }
+			quadTextureSprite = GFX_flag_small2
+		}
+		iconType ={
+			name = "EBF_warlord_europe_contender_flag_frame"
+			position = { x = 3 y = 6 }
+			spriteType = GFX_small_flag_frame_thin
+			alwaystransparent = yes
+		}	
+	}
+} 

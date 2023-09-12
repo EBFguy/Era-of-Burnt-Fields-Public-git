@@ -1,0 +1,21 @@
+
+state={
+	id=1084
+	name="STATE_1084"
+	manpower=334551
+
+	state_category = town
+	local_supplies = 0.0
+	history={
+		add_core_of = BLA
+		owner = BLA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		12901
+	}
+	
+}

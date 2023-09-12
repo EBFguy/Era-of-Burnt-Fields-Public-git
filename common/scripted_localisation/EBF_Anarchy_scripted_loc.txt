@@ -1,0 +1,416 @@
+defined_text = {
+	name = GetAnarchyPicture_icon
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_india"
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_sahara"
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_greenland"
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_middle_africa"
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_zagros"
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_japan"
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = "GFX_anarchy_picture_anarchy_nagasaki"
+	}
+}
+
+defined_text = {
+	name = GetAnarchyCategoryHeader
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_category_header_NEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_category_header_SAH_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_category_header_GRE_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_category_header_MAF_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_category_header_IEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_category_header_japan_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_category_header_nagasaki_txt
+	}
+}
+
+defined_text = {
+	name = GetAnarchyBoxOneText
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_box_one_NEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_box_one_SAH_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_box_one_GRN_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_box_one_MAF_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_box_one_IEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_box_one_japan_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_box_one_nagasaki_txt
+	}
+}
+
+
+defined_text = {
+	name = GetAnarchyBoxTwoText
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_box_two_NEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_box_two_SAH_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_box_two_GRN_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_box_two_MAF_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_box_two_IEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_box_two_japan_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_box_two_nagasaki_txt
+	}
+}
+
+defined_text = {
+	name = GetAnarchyBoxThreeTitle
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_box_three_NEZ_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_box_three_SAH_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_box_three_GRN_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_box_three_MAF_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_box_three_IEZ_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_box_three_japan_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_box_three_nagasaki_title
+	}
+}
+
+defined_text = {
+	name = GetAnarchyBoxThreeText
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_box_three_NEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_box_three_SAH_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_box_three_GRN_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_box_three_MAF_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_box_three_IEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_box_three_japan_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_box_three_nagasaki_txt
+	}
+}
+
+defined_text = {
+	name = GetAnarchyBoxFourTitle
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_box_four_NEZ_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_box_four_SAH_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_box_four_GRN_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_box_four_MAF_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_box_four_IEZ_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_box_four_japan_title
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_box_four_nagasaki_title
+	}
+}
+
+defined_text = {
+	name = GetAnarchyBoxFourText
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_box_four_NEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_box_four_SAH_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_box_four_GRN_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_box_four_MAF_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_box_four_IEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_box_four_japan_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_box_four_nagasaki_txt
+	}
+}
+
+defined_text = {
+	name = GetAnarchyViewMainText
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 1 }
+		}
+		localization_key = EBF_anarchy_main_NEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 2 }
+		}
+		localization_key = EBF_anarchy_main_SAH_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 3 }
+		}
+		localization_key = EBF_anarchy_main_GRN_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 4 }
+		}
+		localization_key = EBF_anarchy_main_MAF_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 5 }
+		}
+		localization_key = EBF_anarchy_main_IEZ_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 6 }
+		}
+		localization_key = EBF_anarchy_main_japan_txt
+	}
+	text = {
+		trigger = {
+			check_variable = { EBF_anarchy_type = 7 }
+		}
+		localization_key = EBF_anarchy_main_nagasaki_txt
+	}
+}
+
+

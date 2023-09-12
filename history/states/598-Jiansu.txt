@@ -1,0 +1,25 @@
+
+state={
+	id=598
+	name="STATE_598"
+	
+	state_category = city
+
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		1001 1029 1076 1121 1161 4001 4005 4031 4082 4123 4148 7025 7181 7200 9956 11973 12055 12067 13144 
+	}
+	local_supplies = 0.0 
+	manpower=180297235
+	buildings_max_level_factor=1.000
+}

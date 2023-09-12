@@ -1,0 +1,25 @@
+state= {
+	id=1131
+	name="STATE_1131"
+	manpower = 2942823
+
+	state_category = city
+
+	history=
+	{
+		add_core_of = DEN
+		owner = DEN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces= {
+		6393 3260 3305
+	}
+}

@@ -1,0 +1,27 @@
+﻿l_english:
+ #NAMES#
+ NPF:0 "RFP"
+ NPF_DEF:0 "Revolutionary Front of Portugal"
+ NPF_ADJ:0 "North Portuguese"
+
+ #CHARACTERS#
+ NPF_Cid_Guerra:0 "Cid Guerra"
+ POLITICS_Cid_Guerra_desc:0 "§YGeneral of the Armed Forces Movement§!\n§W--------------§!\"
+ NPF_Ivo_Santoro:0 "Ivo Santoro"
+ NPF_Ivo_Santoro_min_desc:0 "§YChairman of the Provisional Politburo\nAuthoritarian Socialism\nPragmatic Utilitarian§!\n--------------\n§L§!"
+
+ #IDEAS#
+ NPF_processo_revolucionario:0 "Processo Revolucionário Em Curso"
+ NPF_ramshackle_army:0 "Ramshackle Army"
+
+ ##IDEAS DESC##
+ NPF_processo_revolucionario_desc:0 "Ever since the creation of the United Front the municipalities administered by it have undergone the so-called “Revolutionary Process in Course”. What this has currently entailed is the aggressive and often inefficient takeover of individual farms and small-business and their rapid redistribution to worker coops, as can be expected, this has generated a great deal of angst from the now destitute ‘petit bourgeoisie’. The Process is also meant to entail the restructuring of the structures of governance, but this has been largely ignored due to a lack of party cadres and loyal party officials to fill the positions needed to reform said systems. Overall the lack of direction in the Process has caused a great deal of problems, with individual party officials often applying their own interpretations of the process rather than following any kind of party line, and the AMF often taking issues into their own hands thus completely ignoring state and party apparatus. The Process must be reformed and given direction if it is to instate any semblance of communism in Northern Portugal."
+ NPF_ramshackle_army_desc:0 "Although the Armed Forces Movement originally consisted solely of army soldiers, thus giving it a semblance of professionalism and quality, it has had to integrate and assimilate several militias and armed worker bands to be able to effectively keep control of its current area. This has reduced the majority of the revolutionary forces to badly trained, ill-equipped militias that hold more loyalty towards their homes and families than for “communism” or the “revolution”. This will have to be changed if the revolution is to succeed."
+
+ #PARTIES#
+ NPF_libertarian_socialism_party:0 "CRF - M"
+ NPF_libertarian_socialism_party_long:0 "Consolidated Revolutionary Front - Moderates"
+ NPF_authoritarian_socialism_party:0 "CRF - O"
+ NPF_authoritarian_socialism_party_long:0 "Consolidated Revolutionary Front - Orthodox"
+ NPF_totalitarian_socialism_party:0 "CRF - LF"
+ NPF_totalitarian_socialism_party_long:0 "Consolidated Revolutionary Front - Left Faction"

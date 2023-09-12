@@ -1,0 +1,49 @@
+﻿l_english:
+ #NAME#
+ REM:0 "Remains"
+ REM_DEF:0 "Those Who Remain"
+ REM_ADJ:0 "British" 
+ #PARTIES
+ REM_technoutopianism_party:0 "Unknown"
+ REM_technoutopianism_party_long:0 "Unknown" 
+ REM_securocracy_party:0 "Unknown"
+ REM_securocracy_party_long:0 "Unknown"
+ REM_ultranationalism_party:0 "Unknown"
+ REM_ultranationalism_party_long:0 "Unknown"
+ REM_fascist_party:0 "Unknown"
+ REM_fascist_party_long:0 "Unknown"
+ REM_autocracy_party:0 "Unknown"
+ REM_autocracy_party_long:0 "Unknown" 
+ REM_anocracy_party:0 "Unknown"
+ REM_anocracy_party_long:0 "Unknown"
+ REM_conservatism_party:0 "Unknown"
+ REM_conservatism_party_long:0 "Unknown" 
+ REM_liberalism_party:0 "Unknown"
+ REM_liberalism_party_long:0 "Unknown" 
+ REM_libertarian_socialism_party:0 "Unknown"
+ REM_libertarian_socialism_party_long:0 "Unknown" 
+ REM_authoritarian_socialism_party:0 "Unknown"
+ REM_authoritarian_socialism_party_long:0 "Unknown" 
+ REM_totalitarian_socialism_party:0 "Unknown"
+ REM_totalitarian_socialism_party_long:0 "Unknown" 
+ REM_reductivism_party:0 "The People"
+ REM_reductivism_party_long:0 "The People" 
+ #CHARACHTERS#
+ REM_cliff_haynes:0 "Cliff Haynes"
+ POLITICS_CLIFF_HAYNES_DESC:0 "§YLeader of the Forsaken§!\n§W--------------§!\n"
+
+
+ #FOCUSES#
+
+ 
+ 
+
+ #IDEAS#
+ REM_those_who_have_been_forsaken:0 "Those Who Have Been Forsaken"
+
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#

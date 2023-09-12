@@ -1,0 +1,24 @@
+
+state={
+	id=401
+	name="STATE_401"
+	manpower = 6858362
+	
+	state_category = rural
+
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+		}
+		
+		victory_points = {
+			6502 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		410 452 499 3490 3551 6339 6430 6473 6502 6574 9337 9447 9473 9577 11321 11421 11458 464
+	}
+}

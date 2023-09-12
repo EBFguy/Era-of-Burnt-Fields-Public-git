@@ -1,0 +1,7 @@
+﻿l_english:
+ mbt_engineer:0 "Armored Engineer Company"
+ robo_engineer:0 "Mechanical Engineer Company"
+  
+ category_engineer:0 "All Engineer Companies"
+ category_biological:0 "All Primarily Biological Battalions"
+ category_mechanical:0 "All Primarily Mechanical Battalions"

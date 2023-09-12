@@ -1,0 +1,25 @@
+state={
+	id=685
+	name="STATE_685"
+	manpower = 39467
+	
+	state_category = enclave
+
+	history={
+		add_core_of = CAM
+		owner = CAM
+		victory_points = {
+			7617 5 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 6
+			7617 = {
+				naval_base = 3
+			}
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={ 7617 }
+}

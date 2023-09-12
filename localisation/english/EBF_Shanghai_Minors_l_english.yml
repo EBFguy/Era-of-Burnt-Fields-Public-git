@@ -1,0 +1,245 @@
+﻿l_english:
+ #NAMES#
+
+ DPK:0 "People's Republic of Korea"
+ DPK_DEF:0 "The People's Republic of Korea"
+ DPK_ADJ:0 "Korean"
+
+ MON:0 "Mongolia"
+ MON_DEF:0 "The Mongolian People's Republic"
+ MON_ADJ:0 "Mongolian"
+
+ ASS:0 "East Indian Industrial Zone"
+ ASS_DEF:0 "The East Indian Industrial Zone"
+ ASS_ADJ:0 "East Indian"
+
+ MYA:0 "Myanmar"
+ MYA_DEF:0 "The Unitary People's State of Myanmar"
+ MYA_ADJ:0 "Myanma"
+
+ TRI:0 "South East Asian People's Federation"
+ TRI_DEF:0 "The People's Federation of Vietnam, Cambodia, Laos and Thailand"
+ TRI_ADJ:0 "South East Asian"
+
+ MAL:0 "Malaysia"
+ MAL_DEF:0 "The Liberated Peoples' Republic of Malaysia"
+ MAL_ADJ:0 "Malayan"
+
+ AFG:0 "Afghanistan"
+ AFG_DEF:0 "The People's Republic of Afghanistan"
+ AFG_ADJ:0 "Afghan"
+
+ CIN:0 "Democratic Republic of Indonesia"
+ CIN_DEF:0 "The Democratic Republic of Indonesia"
+ CIN_ADJ:0 "West Indonesian" 
+
+ DPK_ultranationalism_party:0 "KRG"
+ DPK_ultranationalism_party_long:0 "The Korean Red Guard"
+ DPK_autocracy_party:0 "PLA - K"
+ DPK_autocracy_party_long:0 "People's Liberation Army Detachment in Korea" 
+ DPK_anocracy_party:0 "LFKP"
+ DPK_anocracy_party_long:0 "Liberation Forces of the Korean Peninsula"
+ DPK_libertarian_socialism_party:0 "SPK"
+ DPK_libertarian_socialism_party_long:0 "Socialist Party of Korea" 
+ DPK_authoritarian_socialism_party:0 "CPK"
+ DPK_authoritarian_socialism_party_long:0 "Communist Party of Korea" 
+ DPK_totalitarian_socialism_party:0 "Juche"
+ DPK_totalitarian_socialism_party_long:0 "The Party of Juche" 
+ DPK_reductivism_party:0 "NCRNPK"
+ DPK_reductivism_party_long:0 "National Council for the Reorganisation of Non-Patriotic Korea"  
+
+ AFG_ultranationalism_party:0 "Anthqam"
+ AFG_ultranationalism_party_long:0 "Anthqam (Revenge)"
+ AFG_autocracy_party:0 "AAGC"
+ AFG_autocracy_party_long:0 "Afghan Assistance and Guidance Council" 
+ AFG_libertarian_socialism_party:0 "PRA"
+ AFG_libertarian_socialism_party_long:0 "Popular Revolutionaries of Afghanistan" 
+ AFG_authoritarian_socialism_party:0 "PRPA"
+ AFG_authoritarian_socialism_party_long:0 "Pan-Revolutionary Party of Afghanistan" 
+
+ MON_authoritarian_socialism_party:0 "RRMPP"
+ MON_authoritarian_socialism_party_long:0 "Reformed Revolutionary Mongolian People's Party"  
+
+ ASS_securocracy_party:0 "CREC"
+ ASS_securocracy_party_long:0 "Central Resource Extraction Command"
+ ASS_autocracy_party:0 "BMA"
+ ASS_autocracy_party_long:0 "Bengal Military Authority" 
+ ASS_anocracy_party:0 "SoEB"
+ ASS_anocracy_party_long:0 "State owned Enterprises in Bengal"
+ ASS_authoritarian_socialism_party:0 "BIRK"
+ ASS_authoritarian_socialism_party_long:0 "Bengal Industrial Ruling Committee" 
+ ASS_totalitarian_socialism_party:0 "The Red Legion"
+ ASS_totalitarian_socialism_party_long:0 "The Red Legion in Bengal" 
+
+ TRI_securocracy_party:0 "TFUSEA"
+ TRI_securocracy_party_long:0 "The Four-Union Council of South East Asian People" 
+
+ MYA_autocracy_party:0 "UCM"
+ MYA_autocracy_party_long:0 "Union of the Cultures of Myanmar" 
+ MYA_anocracy_party:0 "ONG"
+ MYA_anocracy_party_long:0 "Office of National Governance"
+
+ MAL_libertarian_socialism_party:0 "PPM"
+ MAL_libertarian_socialism_party_long:0 "People's Party of Malaysia"  
+
+ CIN_authoritarian_socialism_party:0 "ICP"
+ CIN_authoritarian_socialism_party_long:0 "Indonesian Communist Party"  
+ #CHARACHTERS#
+ DPK_Kwon_Gyeong_Su:0 "Kwon Gyeong-Su"
+ POLITICS_KWON_GYEONG_SU_DESC:0 "§YGeneral Secretary of the Communist Party of Korea§!\n§W--------------§!\n"
+ MON_Hutagt_Ankhbayar:0 "Hutagt Ankhbayar"
+ POLITICS_HUTAGT_ANKHBAYAR_DESC:0 "§YGeneral Secretary of Mongolia§!\n§W--------------§!\n"
+ AFG_Marwaan_al_Miah:0 "Marwaan al-Miah"
+ POLITICS_MARWAAN_AL_MIAH_DESC:0 "§YChairman of the Pan-Revolutionary Party§!\n§W--------------§!\n"
+ ASS_Hou_Huili:0 "Hou Huili"
+ POLITICS_HOU_HUILI_DESC:0 "§YGovernor of Bengal§!\n§W--------------§!\n"
+ TRI_Bai_Jinhai:0 "Bai Jinhai"
+ POLITICS_BAI_JINHAI_DESC:0 "§YChairman of the Four Union Council§!\n§W--------------§!\n"
+ MYA_Thakin_Wa_Shwe:0 "Thakin Wa Shwe"
+ POLITICS_THAKIN_WA_SHWE_DESC:0 "§YChairman of the Union of Cultures§!\n§W--------------§!\n"
+ MAL_Raaid_Mohamad:0 "Raaid Mohamad"
+ POLITICS_RAAID_MOHAMAD_DESC:0 "§YChairman of the People's Party of Malaysia§!\n§W--------------§!\n"
+ CIN_Wijonarko_Zixin:0 "Wijonarko Zixin"
+ POLITICS_WIJONARKO_ZIXIN_DESC:0 "§YChairman of the Indonesian Communist Party§!\n§W--------------§!\n"
+
+
+ #TRAITS#
+
+ #IDEAS# 
+ DPK_echoes_of_juche:0 "The Echoes of Juche"
+ DPK_an_overzealous_old_guard:0 "An Overzealous Old Guard"
+ DPK_national_council_reorg_patriotic_korea:0 "The National Council for the Reorganisation of Non-Patriotic Korea"
+ MON_pure_red_regime:0 "A Pure Red Regime"
+ MON_small_land_of_paradise:0 "A Small Land of Paradise"
+ AFG_strife_inwards_strife_outwards:0 "Strife Inwards, Strife Outwards"
+ AFG_help_from_shanghai:0 "Help from Shanghai"
+ ASS_forgotten_conquest:0 "The Forgotten Conquest"
+ ASS_what_remains_to_be_exploited:0 "What Remains to be Exploited"
+ TRI_shadows_across_the_jungle:0 "Shadows Across the Jungle"
+ TRI_permanence_of_impermanence:0 "The Permanence of Impermanence"
+ TRI_executors_efforts:0 "The Executor's Efforts"
+ MYA_ghost_of_the_duke:0 "Ghost of the Duke"
+ MYA_wa_shwes_pleasures:0 "Wa Shwe's Pleasures"
+ MAL_south_east_stronghold:0 "The South East Stronghold"
+ MAL_fallen_city:0 "The Fallen City"
+ CIN_broken_and_sunken:0 "Broken and Sunken"
+ CIN_war_that_never_ended:0 "A War That Never Ended"
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC# 
+
+
+ #KOREAN COLLAPSE
+
+
+ #DPK_korean_civil_war
+ DPK_korean_civil_war:0 "Pyongyang Government"
+ DPK_korean_civil_war_DEF:0 "The Pyongyang Government"
+ DPK_korean_civil_war_ADJ:0 "North Korean" 
+
+ HAM:0 "N.K. Army Detachment"
+ HAM_DEF:0 "The People's Liberation Army in Korea Detachment - North Korea Sector"
+ HAM_ADJ:0 "Sino-Korean"
+
+ HAM_north_korea:0 "PLA North Korea"
+ HAM_north_korea_DEF:0 "The People's Liberation Army in North Korea"
+ HAM_north_korea_ADJ:0 "Sino-Korean"
+
+ HAM_korea:0 "People's Liberation Army in Korea"
+ HAM_korea_DEF:0 "The People's Liberation Army in Korea"
+ HAM_korea_ADJ:0 "Sino-Korean"
+
+ JUC:0 "Children of Juche"
+ JUC_DEF:0 "The Children of Juche"
+ JUC_ADJ:0 "North Korean"
+
+ JUC_north_korea:0 "Republic of Juche"
+ JUC_north_korea_DEF:0 "The Republic of Juche"
+ JUC_north_korea_ADJ:0 "North Korean" 
+
+ JUC_korea:0 "Democratic People's Republic of Korea"
+ JUC_korea_DEF:0 "The Democratic People's Republic of Korea"
+ JUC_korea_ADJ:0 "Korean"
+
+ PYO:0 "Korean Red Guard"
+ PYO_DEF:0 "The Korean Red Guard"
+ PYO_ADJ:0 "North Korean" 
+
+ PYO_north_korea:0 "National Redoubt"
+ PYO_north_korea_DEF:0 "The National Redoubt"
+ PYO_north_korea_ADJ:0 "North Korean" 
+
+ PYO_korea:0 "Korean Protectorate"
+ PYO_korea_DEF:0 "The Korean Protectorate"
+ PYO_korea_ADJ:0 "Korean"  
+
+ HWA:0 "Hwanghae Committee"
+ HWA_DEF:0 "The Hwanghae Committee"
+ HWA_ADJ:0 "North Korean"  
+
+ HWA_north_korea:0 "North Korean Committee"
+ HWA_north_korea_DEF:0 "The North Korean Committee"
+ HWA_north_korea_ADJ:0 "North Korean"  
+
+ HWA_korea:0 "People's Democratic Republic of Korea"
+ HWA_korea_DEF:0 "The People's Democratic Republic of Korea"
+ HWA_korea_ADJ:0 "Korean" 
+
+ KOR:0 "Liberation Forces of Korea"
+ KOR_DEF:0 "The Liberation Forces of Korea"
+ KOR_ADJ:0 "South Korean"   
+
+ KOR_south_korea:0 "Liberated Territory of Korea"
+ KOR_south_korea_DEF:0 "The Liberated Territory of Korea"
+ KOR_south_korea_ADJ:0 "South Korean"  
+
+ KOR_korea:0 "Republic of Korea"
+ KOR_korea_DEF:0 "The Republic of Korea"
+ KOR_korea_ADJ:0 "Korean"  
+
+ BUS:0 "S.K. Army Detachment"
+ BUS_DEF:0 "The People's Liberation Army in Korea Detachment - South Korea Sector"
+ BUS_ADJ:0 "South Korean"    
+
+ BUS_south_korea:0 "South Korean Pacification Zone"
+ BUS_south_korea_DEF:0 "The People's Liberation Army in Korea Detachment - South Korea Pacificaion Zone"
+ BUS_south_korea_ADJ:0 "South Korean"    
+
+ BUS_korea:0 "Korean Pacification Zone"
+ BUS_korea_DEF:0 "The People's Liberation Army in Korea Detachment"
+ BUS_korea_ADJ:0 "Korean"    
+
+ JEO:0 "National Council Territories"
+ JEO_DEF:0 "The National Council for the Reorganisation of Non-Patriotic Korea"
+ JEO_ADJ:0 "South Korean"     
+
+ JEO_south_korea:0 "Territories of Non-Patriotic Korea"
+ JEO_south_korea_DEF:0 "The Reorganisation Territories of Non-Patriotic Korea"
+ JEO_south_korea_ADJ:0 "South Korean"     
+
+ JEO_korea:0 "Government of Korean Reorganisation"
+ JEO_korea_DEF:0 "The Government of Korean Reorganisation"
+ JEO_korea_ADJ:0 "Korean" 
+
+ #Mongolian Collapse
+ WON:0 "Mongol Veterancy Committee"
+ WON_DEF:0 "The Mongol Veterancy Committee"
+ WON_ADJ:0 "Sino-Mongol"   
+
+ DOR:0 "Dornod Government"
+ DOR_DEF:0 "The Dornod Government"
+ DOR_ADJ:0 "East Mongol"   
+
+ NMO:0 "Far Reaches Command"
+ NMO_DEF:0 "The Sino-Mongol Far Reaches Military Command"
+ NMO_ADJ:0 "North Mongol"   
+
+ GOB:0 "Gobi Free Riders"
+ GOB_DEF:0 "The Gobi Free Riders"
+ GOB_ADJ:0 "Mongol Free Riders"   
+
+
+

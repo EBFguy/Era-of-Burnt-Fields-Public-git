@@ -1,0 +1,27 @@
+
+state={
+	id=1157
+	name="STATE_1157"
+	state_category = megalopolis
+	history = {
+		add_core_of = NER
+		owner = NER
+		victory_points = {
+			13513 30 
+		}
+		buildings = {
+			infrastructure = 3
+			13513 = {
+				naval_base = 6
+
+			}
+
+		}
+	}
+	provinces={
+		13512 13513 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

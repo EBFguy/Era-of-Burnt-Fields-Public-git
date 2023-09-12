@@ -1,0 +1,51 @@
+﻿l_english:
+ #SKELETON CONTENT ONLY PLEASE
+ #NAME#
+ SAF:0 "South Africa"
+ SAF_DEF:0 "The People's Republic of South Africa"
+ SAF_ADJ:0 "South African"
+
+ CAP:0 "Cape Republic"
+ CAP_DEF:0 "The Cape Republic"
+ CAP_ADJ:0 "South African"
+ #PARTIES
+ SAF_technoutopianism_party:0 "DISORGANISED"
+ SAF_technoutopianism_party_long:0 "DISORGANISED" 
+ SAF_securocracy_party:0 "DISORGANISED"
+ SAF_securocracy_party_long:0 "DISORGANISED"
+ SAF_ultranationalism_party:0 "DISORGANISED"
+ SAF_ultranationalism_party_long:0 "DISORGANISED"
+ SAF_fascist_party:0 "DISORGANISED"
+ SAF_fascist_party_long:0 "DISORGANISED"
+ SAF_autocracy_party:0 "DISORGANISED"
+ SAF_autocracy_party_long:0 "DISORGANISED" 
+ SAF_anocracy_party:0 "DISORGANISED"
+ SAF_anocracy_party_long:0 "DISORGANISED"
+ SAF_conservatism_party:0 "IFP"
+ SAF_conservatism_party_long:0 "Inkatha Freedom Party" 
+ SAF_liberalism_party:0 "DA"
+ SAF_liberalism_party_long:0 "Democratic Alliance" 
+ SAF_libertarian_socialism_party:0 "ANC"
+ SAF_libertarian_socialism_party_long:0 "African National Congress" 
+ SAF_authoritarian_socialism_party:0 "EFF"
+ SAF_authoritarian_socialism_party_long:0 "Economic Freedom Fighers" 
+ SAF_totalitarian_socialism_party:0 "DISORGANISED"
+ SAF_totalitarian_socialism_party_long:0 "DISORGANISED" 
+ SAF_reductivism_party:0 "DISORGANISED"
+ SAF_reductivism_party_long:0 "DISORGANISED" 
+ #CHARACHTERS#
+ SAF_lesego_hadebe:0 "Impisi Dalingcebo"
+ POLITICS_LESEGO_HADEBE_DESC:0 "§YPresident for South Africa§!\n§W--------------§!\n"
+
+ CAP_piet_Jager:0 "Piet De Jager"
+ POLITICS_PIET_JAGER_DESC:0 "§YPrime-Minister for Cape§!\n§W--------------§!\n"
+ 
+ 
+
+ #IDEAS#
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#

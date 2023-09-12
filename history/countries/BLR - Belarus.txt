@@ -1,0 +1,47 @@
+﻿capital = 206
+
+# Vacant
+recruit_character = BLR_Generic_Vacant_psi
+recruit_character = BLR_Generic_Vacant_pi_0
+recruit_character = BLR_Generic_Vacant_pi_1
+recruit_character = BLR_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 10
+    anocracy = 0
+    conservatism = 30
+    liberalism = 50
+    libertarian_socialism = 10
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+add_ideas = {
+    BLR_hope_of_democracy
+    BLR_edge_of_the_world
+    BLR_memories_of_war_power
+}

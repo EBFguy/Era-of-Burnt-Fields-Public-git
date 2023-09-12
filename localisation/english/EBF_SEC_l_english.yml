@@ -1,0 +1,27 @@
+﻿l_english:
+ #NAME#
+ SEC:0 "FREE"
+ SEC_DEF:0 "The FREED"
+ SEC_ADJ:0 "FREED" 
+ #PARTIES
+ SEC_technoutopianism_party:0 "I AM FREE"
+ SEC_technoutopianism_party_long:0 "I AM FREE" 
+
+ SEC_FREED:0 "FREED"
+ POLITICS_FREED_DESC:0 "§6LIBERATION§!\n§W--------------§!\n"
+
+
+ #FOCUSES#
+
+ 
+ 
+
+ #IDEAS#
+ SEC_FREEDOM:0 "FREEDOM"
+
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#

@@ -1,0 +1,6822 @@
+#SECTIONS
+	#CATEGORY SELECTOR
+	#POLITICS: LAWS
+	#POLITICS: LAWS POPUPS
+	#POLITICS: SOCDEVS
+	#POLITICS: SOCDEVS POPUPS
+	#POLITICS: ORDINANCE
+	#POLITICS: MOBILIZATION
+	#POLITICS: MOBILIZATION LAWS
+	#POLITICS: ECODECAY
+guiTypes = {
+	#CATEGORY SELECTOR
+	containerWindowType = {
+		name = "politics_category_selector"
+		position = { x = 5 y = 376 }
+		size = { width=100%% height=75 }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 13 bottom = 0 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		buttonType = {
+			name = "pol_cat_selector_laws_btn"
+			position = { x = 14 y = 10 }
+			quadTextureSprite = "GFX_government_button_small"
+			buttonText = "pol_cat_selector_laws_btn_txt"
+			buttonFont = "hoi_18mbs"
+		}
+
+		buttonType = {
+			name = "pol_cat_selector_socdevs_btn"
+			position = { x = 119 y = 10 }
+			quadTextureSprite = "GFX_government_button_small"
+			buttonText = "pol_cat_selector_socdevs_btn_txt"
+			buttonFont = "hoi_18mbs"
+		}
+
+		buttonType = {
+			name = "pol_cat_selector_ordinance_btn"
+			position = { x = 224 y = 10 }
+			quadTextureSprite = "GFX_government_button_small"
+			buttonText = "pol_cat_selector_ordinance_btn_txt"
+			buttonFont = "hoi_18mbs"
+		}
+
+		buttonType = {
+			name = "pol_cat_selector_military_mob_btn"
+			position = { x = 329 y = 10 }
+			quadTextureSprite = "GFX_government_button_small"
+			buttonText = "pol_cat_selector_military_mob_btn_txt"
+			buttonFont = "hoi_18mbs"
+		}
+
+		buttonType = {
+			name = "pol_cat_selector_ecodecay_btn"
+			position = { x = 434 y = 10 }
+			quadTextureSprite = "GFX_government_button_small"
+			buttonText = "pol_cat_selector_ecodecay_btn_txt"
+			buttonFont = "hoi_18mbs"
+		}
+
+	}
+
+	containerWindowType = {
+		name = "countrypolitics_workaround_bg_upper"
+		size = { width=550 height=100%% }
+		position = { x = 6 y = 450 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_main_windows_upper"
+		}
+	}	
+
+	#POLITICS: LAWS
+	containerWindowType = {
+		name = "new_politics_laws"
+		position = { x = 10 y = 450 }
+		size = { width=97%% height=100%% }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 13 bottom = 10 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "EBF_category_1"
+			position = { x = 0 y = 5 }
+			size = { width=260 height=284 }
+			iconType ={
+				name ="category_header_1"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="category_1_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "category_1_name"
+				position = { x = 160 y = 17 }
+				font = "hoi_30header"
+				text = "political_laws"
+				maxWidth = 300
+				maxHeight = 20
+			}
+			containerWindowType = {
+				name = "EBF_category_1_slider"
+				position = { x = 0 y = 75 }
+				size = { width=494 height=310 }
+				margin = { top = 4 bottom = 5 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				#Category 1 start
+				containerWindowType = {
+					name = "cate_1_law_ebf_political_parties"
+					position = { x = 0 y =0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_political_parties_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_political_parties_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_ebf_political_parties"
+						position = { x = 74 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_political_parties_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_political_parties_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_political_parties_btn_tt"
+						buttonText = "ebf_political_parties_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_opposition_freedom"
+					position = { x = 239 y = 0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_opposition_freedom_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_opposition_freedom_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_opposition_freedom"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_opposition_freedom"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_opposition_freedom_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_opposition_freedom_btn_tt"
+						buttonText = "ebf_opposition_freedom_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_religous_freedom"
+					position = { x = 0 y =75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_religous_freedom_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_religous_freedom_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_ebf_religous_freedom"
+						position = { x = 74 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_religous_freedoms"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_religous_freedom_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_religous_freedom_btn_tt"
+						buttonText = "ebf_religous_freedom_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_voter_franchise"
+					position = { x = 239 y = 75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_voter_franchise_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_voter_franchise_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_voter_franchise"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_voter_franchise"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_voter_franchise_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_voter_franchise_btn_tt"
+						buttonText = "ebf_voter_franchise_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}		
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_press_rights"
+					position = { x = 0 y =150 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_press_rights_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_press_rights_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_press_rights"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_press_rights"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_press_rights_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_press_rights_btn_tt"
+						buttonText = "ebf_press_rights_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}		
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_trade_unions"
+					position = { x = 239 y = 150 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_trade_unions_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_trade_unions_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_trade_unions"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_unions"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_trade_unions_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_trade_unions_btn_tt"
+						buttonText = "ebf_trade_unions_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_immigration_laws"
+					position = { x = 0 y =225 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_immigration_laws_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_immigration_laws_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_immigration_laws"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_immigration_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_immigration_laws_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_immigration_laws_btn_tt"
+						buttonText = "ebf_immigration_laws_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_1_law_ebf_ai_personhood"
+					position = { x = 239 y = 225 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_1_ai_personhood_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_1_ai_personhood_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_1_law_ai_personhood"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_ai_personhood"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_1_law_ebf_ai_personhood_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_ai_personhood_btn_tt"
+						buttonText = "ebf_ai_personhood_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+			}
+		}	
+
+		containerWindowType = {
+			name = "EBF_category_2"
+			position = { x = 0 y = 400 }
+			size = { width=260 height=284 }
+			iconType ={
+				name ="category_header_2"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="category_2_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "category_2_name"
+				position = { x = 160 y = 17 }
+				font = "hoi_30header"
+				text = "economic_laws"
+				maxWidth = 300
+				maxHeight = 20
+			}
+			containerWindowType = {
+				name = "EBF_category_2_slider"
+				position = { x = 0 y = 75 }
+				size = { width=494 height=180 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 4 bottom = 5 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				#Category 2 start
+				containerWindowType = {
+					name = "cate_2_law_ebf_trade"
+					position = { x = 0 y =0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_2_trade_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_2_trade_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_2_law_ebf_trade"
+						position = { x = 74 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_2_law_ebf_trade_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_trade_btn_tt"
+						buttonText = "ebf_trade_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_2_law_ebf_min_wage"
+					position = { x = 239 y = 0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_2_min_wage_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_2_min_wage_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_2_law_ebf_min_wage"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_min_wage_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_2_law_ebf_min_wage_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_min_wage_btn_tt"
+						buttonText = "ebf_min_wage_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_2_law_max_hours"
+					position = { x = 0 y =75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_2_max_hours_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_2_max_hours_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_2_law_ebf_max_hours"
+						position = { x = 74 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_max_hours_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_2_law_ebf_max_hours_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_max_hours_btn_tt"
+						buttonText = "ebf_max_hours_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}	
+				
+				containerWindowType = {
+					name = "cate_2_law_ebf_economic_model"
+					position = { x = 239 y = 75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_2_economic_model_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_2_economic_model_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_2_law_ebf_economic_model"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_economic_model_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_2_law_ebf_economic_model_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_economic_model_btn_tt"
+						buttonText = "ebf_economic_model_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}							
+				#Category 2 end
+			}
+		}
+		containerWindowType = {
+			name = "EBF_category_3"
+			position = { x = 0 y = 645 }
+			size = { width=260 height=240 }
+			iconType ={
+				name ="category_header_3"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="category_3_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "category_3_name"
+				position = { x = 160 y = 17 }
+				font = "hoi_30header"
+				text = "military_laws"
+				maxWidth = 300
+				maxHeight = 20
+			}
+			containerWindowType = {
+				name = "EBF_category_3_slider"
+				position = { x = 0 y = 75 }
+				size = { width=494 height=180 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 4 bottom = 5 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				#Category 3 start
+				containerWindowType = {
+					name = "cate_3_law_ebf_conscription"
+					position = { x = 0 y =0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_3_conscription_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_3_conscription_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_3_law_ebf_conscription"
+						position = { x = 74 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_3_law_ebf_conscription_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_conscription_btn_tt"
+						buttonText = "ebf_conscription_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_3_law_ebf_training_standards"
+					position = { x = 239 y = 0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_3_training_standards_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_3_training_standards_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_3_law_ebf_training_standards"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_3_law_ebf_training_standards_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_training_standards_btn_tt"
+						buttonText = "ebf_training_standards_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}
+
+				containerWindowType = {
+					name = "cate_3_law_policing"
+					position = { x = 0 y =75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_3_policing_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_3_policing_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_3_law_ebf_policing"
+						position = { x = 74 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_3_law_ebf_policing_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_policing_btn_tt"
+						buttonText = "ebf_policing_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}	
+				
+				containerWindowType = {
+					name = "cate_3_law_ebf_military_supervision"
+					position = { x = 239 y = 75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="cate_3_military_supervision_background"
+						spriteType = "GFX_EBF_laws_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="cate_3_military_supervision_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "cate_3_law_ebf_military_supervision"
+						position = { x = 75 y = 15 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_laws"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "cate_3_law_ebf_military_supervision_btn"
+						position = { x = 97 y = 40 }
+						quadTextureSprite ="GFX_law_button_140x29"
+						pdx_tooltip = "ebf_military_supervision_btn_tt"
+						buttonText = "ebf_military_supervision_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+				}							
+				#Category 3 end
+			}
+		}
+	}	
+
+	#POLITICS: LAWS POPUPS
+	containerWindowType = {
+		name = "laws_category_popup_political_parties"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_political_parties_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_one_party_state"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_political_parties_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_political_parties_one_party_state_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_political_parties_one_party_state"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_political_parties_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_dominant_party_state"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_political_parties_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_political_parties_dominant_party_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_political_parties_dominant_party"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_political_parties_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_two_party_state"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_political_parties_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_political_parties_two_party_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_political_parties_two_party"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_political_parties_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_multiparty_system"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_political_parties_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_political_parties_multiparty_system_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_political_parties_multiparty_system"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}			
+
+	containerWindowType = {
+		name = "laws_category_popup_opposition_freedom"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_opposition_freedom_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_underground_opposition"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_opposition_freedom_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_opposition_freedom_underground_opposition_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_underground_opposition"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_opposition_freedom_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_suppressed_opposition"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_opposition_freedom_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_opposition_freedom_suppressed_opposition_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_suppressed_opposition"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_opposition_freedom_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_internal_opposition"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_opposition_freedom_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_opposition_freedom_internal_opposition_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_internal_opposition"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_opposition_freedom_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_single_party_opposition"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_opposition_freedom_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_opposition_freedom_single_party_opposition_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_single_party_opposition"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}			
+
+				containerWindowType = {
+					name = "ebf_opposition_freedom_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_multiparty_opposition"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_opposition_freedom_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_opposition_freedom_multiparty_opposition_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_multiparty_opposition"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}					
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}		
+
+
+	containerWindowType = {
+		name = "laws_category_popup_religous_freedom"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_religous_freedom_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_state_religion"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_religous_freedom_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_religous_freedom_state_religion_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_religous_freedom_state_religion"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_religous_freedom_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_pluralism"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_religous_freedom_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_religous_freedom_pluralism_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_religous_freedom_pluralism"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_religous_freedom_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_secularism"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_religous_freedom_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_religous_freedom_secularism_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_religous_freedom_secularism"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_religous_freedom_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_state_atheism"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_religous_freedom_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_religous_freedom_state_atheism_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_state_atheism"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}								
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}		
+
+	containerWindowType = {
+		name = "laws_category_popup_voter_franchise"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_voter_franchise_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_voting"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_voter_franchise_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_voter_franchise_no_voting_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_voter_franchise_no_voting"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_voter_franchise_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_elite_voting"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_voter_franchise_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_voter_franchise_elite_voting_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_voter_franchise_elite_voting"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_voter_franchise_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_registered_voting"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_voter_franchise_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_voter_franchise_registered_voting_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_voter_franchise_registered_voting"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_voter_franchise_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_universal_voting"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_voter_franchise_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_voter_franchise_universal_voting_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_universal_voting"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+
+				containerWindowType = {
+					name = "ebf_voter_franchise_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_support_disenfranchised"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_voter_franchise_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_voter_franchise_support_disenfranchised_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_opposition_freedom_support_disenfranchised"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}						
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+
+	containerWindowType = {
+		name = "laws_category_popup_press_rights"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_press_rights_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_state_press"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_press_rights_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_press_rights_state_press_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_press_rights_state_press"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_press_rights_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_censored_press"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_press_rights_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_press_rights_censored_press_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_press_rights_censored_press"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_press_rights_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_free_press"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_press_rights_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_press_rights_free_press_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_press_rights_free_press"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_trade_unions"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_unions_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_outlawed_unions"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_unions_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_unions_outlawed_unions_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_unions_outlawed_unions"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_unions_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_state_controlled_unions"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_unions_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_unions_state_controlled_unions_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_unions_state_controlled_unions"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_unions_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_non_socialist_unions"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_unions_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_unions_non_socialist_unions_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_unions_non_socialist_unions"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_unions_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_all_unions_allowed"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_unions_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_unions_all_unions_allowed_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_unions_all_unions_allowed"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_immigration_laws"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_immigration_laws_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_closed_borders"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_immigration_laws_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_immigration_laws_closed_borders_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_immigration_laws_closed_borders"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_immigration_laws_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_immigration_quotas"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_immigration_laws_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_immigration_laws_state_immigration_quotas_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_immigration_laws_state_immigration_quotas"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_immigration_laws_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_open_immigration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_immigration_laws_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_immigration_laws_open_immigration_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_immigration_laws_open_immigration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_immigration_laws_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_encouraged_immigration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_immigration_laws_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_immigration_laws_encouraged_immigration_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_immigration_laws_encouraged_immigration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_ai_personhood"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_ai_personhood_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_legal_protections"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_ai_personhood_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_ai_personhood_no_legal_protections_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_ai_personhood_no_legal_protections"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_ai_personhood_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_cognizant_awareness_checks"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_ai_personhood_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_ai_personhood_cognizant_awareness_checks_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_ai_personhood_cognizant_awareness_checks"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_ai_personhood_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_indentured_ownership_only"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_ai_personhood_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_ai_personhood_indentured_ownership_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_ai_personhood_indentured_ownership"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_ai_personhood_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_full_emancipation"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_ai_personhood_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_ai_personhood_full_emancipation_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_ai_personhood_full_emancipation"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_trade"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_closed_economy"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_closed_economy_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_closed_econ"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_limited_exports"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_limited_exports_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_limited_exports"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_export_focus"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_export_focus_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_export_focus"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_trade_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_free_trade"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_trade_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_trade_free_trade_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_trade_free_trade"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}				
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_min_wage"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_min_wage_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_minimum_wage"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_min_wage_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_min_wage_no_wage_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_min_wage_no_min_wage"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_min_wage_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_trinket_minimum_wage"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_min_wage_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_min_wage_trinket_wage_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_min_wage_trinket_wage"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_min_wage_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_minor_minimum_wage"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_min_wage_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_min_wage_minor_wage_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_min_wage_minor_wage"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_min_wage_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_decent_minimum_wage"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_min_wage_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_min_wage_decent_wage_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_min_wage_decent_wage"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+
+				containerWindowType = {
+					name = "ebf_min_wage_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_living_wage"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_min_wage_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_min_wage_living_wage_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_min_wage_living_wage"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}						
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}	
+
+	containerWindowType = {
+		name = "laws_category_popup_max_hours"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_max_hours_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_18_hours"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_max_hours_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_max_hours_18_hours_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_max_hours_18_hours"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_max_hours_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_16_hours"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_max_hours_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_max_hours_16_hours_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_max_hours_16_hours"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_max_hours_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_14_hours"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_max_hours_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_max_hours_14_hours_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_max_hours_14_hours"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+
+				containerWindowType = {
+					name = "ebf_max_hours_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_10_hours"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_max_hours_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_max_hours_10_hours_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_max_hours_10_hours"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}	
+
+				containerWindowType = {
+					name = "ebf_max_hours_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_8_hours"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_max_hours_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_max_hours_8_hours_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_max_hours_8_hours"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}					
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}	
+
+	containerWindowType = {
+		name = "laws_category_popup_economic_model"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_model_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_primary_human_model"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_model_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_economic_model_primary_human_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_economic_model_primary_human"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_model_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_emerging_AI_model"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_model_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_economic_model_emerging_AI_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_economic_model_emerging_AI"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_model_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_joint_human_AI_model"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_model_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_economic_model_joint_human_AI_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_economic_model_joint_human_AI"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ebf_economic_model_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_majority_ai_model"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_model_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_economic_model_majority_ai_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_economic_model_majority_ai"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_model_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_primary_AI_model"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_model_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_economic_model_primary_AI_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_economic_model_primary_AI"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}		
+
+	containerWindowType = {
+		name = "laws_category_popup_conscription"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_scraping_the_barrel"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_scraping_the_barrel_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_conscription_popup_1_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_scraping_the_barrel_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					iconType = {
+						name = "ebf_conscription_scraping_the_barrel"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_all_adults_serve"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_all_adults_serve_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_conscription_popup_2_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_all_adults_serve_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_all_adults_serve"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_service_by_requirement"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_service_by_requirement_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_conscription_popup_3_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_service_by_requirement_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_service_by_requirement"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ebf_conscription_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_four_year_draft"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_four_year_draft_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_four_year_draft"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_two_year_draft"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_two_year_draft_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_two_year_draft"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_one_year_draft"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_one_year_draft_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_one_year_draft"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_7"
+					position = { x = 10 y = 946 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_volunteer_only"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_7_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_volunteer_only_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_volunteer_only"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_conscription_popup_8"
+					position = { x = 10 y = 1102 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_disarmed_nation"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_conscription_popup_8_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_conscription_disarmed_nation_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_conscription_disarmed_nation"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}	
+
+	containerWindowType = {
+		name = "laws_category_popup_training_standards"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_training_standards_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_training"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_no_training_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_1_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_no_training_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					iconType = {
+						name = "ebf_training_standards_no_training"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_training_standards_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_minimal_training"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_minimal_training_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_2_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_minimal_training_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_training_standards_minimal_training"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_training_standards_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_basic_training"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_basic_training_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_training_standards_basic_training"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ebf_training_standards_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_combat_schooling"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_combat_schooling_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_4_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_combat_schooling_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_training_standards_combat_schooling"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_training_standards_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_advanced_schooling"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_advanced_schooling_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					instantTextboxType = {
+						name = "ebf_training_standards_popup_5_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_training_standards_advanced_schooling_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_training_standards_advanced_schooling"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_policing"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_policing_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_policing"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_policing_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_no_policing_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					iconType = {
+						name = "ebf_policing_no_policing"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_policing_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_community_outreach"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_policing_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_community_outreach_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_policing_community_outreach"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_policing_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_ordinary_policing"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_policing_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_ordinary_policing_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_policing_ordinary_policing"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ebf_policing_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_intimidation_policing"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_policing_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_intimidation_policing_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_policing_intimidation_policing"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_policing_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_heavily_armed_policing"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_policing_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_heavily_armed_policing_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_policing_heavily_armed_policing"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_policing_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_militarised_policing"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_policing_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_policing_militarised_policing_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_policing_militarised_policing"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_military_supervision"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_military_supervision_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_restrictions"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_military_supervision_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_no_restrictions_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+
+					iconType = {
+						name = "ebf_military_supervision_no_restrictions"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_military_supervision_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_minimal_supervision"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_military_supervision_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_minimal_supervision_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_military_supervision_minimal_supervision"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_military_supervision_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_military_police"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_military_supervision_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_military_police_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_military_supervision_military_police"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ebf_military_supervision_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_rules_of_engagement"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_military_supervision_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_rules_of_engagement_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_military_supervision_rules_of_engagement"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_military_supervision_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_modernised_rules_of_war"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_military_supervision_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_modernised_rules_of_war_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_military_supervision_modernised_rules_of_war"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_military_supervision_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_ethical_battlefield_supervision"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_military_supervision_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "ebf_military_supervision_ethical_battlefield_supervision_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "ebf_military_supervision_ethical_battlefield_supervision"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	#POLITICS: SOCDEVS
+	containerWindowType = {
+		name = "new_politics_socdevs"
+		position = { x = 10 y = 450 }
+		size = { width=97%% height=100%% }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 13 bottom = 10 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "EBF_socdevs_category"
+			position = { x = 0 y = 5 }
+			size = { width=260 height=540 }
+			iconType ={
+				name ="socdevs_header"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="socdevs_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "socdevs_name"
+				position = { x = 110 y = 17 }
+				font = "hoi_30header"
+				text = "socdev_laws"
+				maxWidth = 300
+				maxHeight = 20
+			}
+			containerWindowType = {
+				name = "EBF_socdevs_slider"
+				position = { x = 0 y = 75 }
+				size = { width=500 height=500 }
+				margin = { top = 4 bottom = 5 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "socdevs_ebf_academic_level"
+					position = { x = 0 y =0 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="socdevs_ebf_academic_level_background"
+						spriteType = "GFX_EBF_socdev_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="socdevs_ebf_academic_level_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "socdevs_law_ebf_academic_level"
+						position = { x = 50 y = 19 }
+						font = "hoi_20bs"
+						text = "ebf_academic_level_socdev"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "socdevs_ebf_academic_level_btn"
+						position = { x = 215 y = 15 }
+						quadTextureSprite ="GFX_law_button_221x29"
+						pdx_tooltip = "ebf_academic_level_btn_tt"
+						buttonText = "ebf_academic_level_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+					iconType = {
+						name = "socdevs_ebf_academic_level_bar"
+						spriteType = "GFX_EBF_GUI_socdev_bar"
+						position = { x = 81 y = 50 }
+					}
+					iconType = {
+						name = "socdevs_ebf_academic_level_bar_holder"
+						spriteType = "GFX_EBF_socdev_bar_holder"
+						pdx_tooltip = socdevs_ebf_academic_level_bar_tt
+						position = { x = 80 y = 50 }
+					}
+				}
+
+				containerWindowType = {
+					name = "socdevs_ebf_poverty_rate"
+					position = { x = 0 y =75 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="socdevs_ebf_poverty_rate_background"
+						spriteType = "GFX_EBF_socdev_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="socdevs_ebf_poverty_rate_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "socdevs_law_ebf_poverty_rate"
+						position = { x = 50 y = 19 }
+						font = "hoi_20bs"
+						text = "ebf_poverty_rate_socdev"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "socdevs_ebf_poverty_rate_btn"
+						position = { x = 215 y = 15 }
+						quadTextureSprite ="GFX_law_button_221x29"
+						pdx_tooltip = "ebf_poverty_rate_btn_tt"
+						buttonText = "ebf_poverty_rate_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+					iconType = {
+						name = "socdevs_ebf_poverty_rate_bar"
+						spriteType = "GFX_EBF_GUI_socdev_bar"
+						position = { x = 81 y = 50 }
+					}
+					iconType = {
+						name = "socdevs_ebf_poverty_rate_level_bar_holder"
+						spriteType = "GFX_EBF_socdev_bar_holder"
+						pdx_tooltip = socdevs_ebf_poverty_rate_level_bar_tt
+						position = { x = 80 y = 50 }
+					}
+				}
+
+				containerWindowType = {
+					name = "socdevs_ebf_economic_health"
+					position = { x = 0 y =150 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="socdevs_ebf_economic_health_background"
+						spriteType = "GFX_EBF_socdev_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="socdevs_ebf_economic_health_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "socdevs_law_ebf_economic_health"
+						position = { x = 50 y = 19 }
+						font = "hoi_20bs"
+						text = "ebf_economic_health_socdev"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "socdevs_ebf_economic_health_btn"
+						position = { x = 215 y = 15 }
+						quadTextureSprite ="GFX_law_button_221x29"
+						pdx_tooltip = "ebf_economic_health_btn_tt"
+						buttonText = "ebf_economic_health_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+					iconType = {
+						name = "socdevs_ebf_economic_health_bar"
+						spriteType = "GFX_EBF_GUI_socdev_bar"
+						position = { x = 81 y = 50 }
+					}
+					iconType = {
+						name = "socdevs_ebf_economic_health_level_bar_holder"
+						spriteType = "GFX_EBF_socdev_bar_holder"
+						pdx_tooltip = socdevs_ebf_economic_health_level_bar_tt
+						position = { x = 80 y = 50 }
+					}
+				}
+
+				containerWindowType = {
+					name = "socdevs_ebf_army_professionalism"
+					position = { x = 0 y =225 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="socdevs_ebf_army_professionalism_background"
+						spriteType = "GFX_EBF_socdev_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="socdevs_ebf_army_professionalism_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "socdevs_law_ebf_army_professionalism"
+						position = { x = 50 y = 19 }
+						font = "hoi_20bs"
+						text = "ebf_army_professionalism_socdev"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "socdevs_ebf_army_professionalism_btn"
+						position = { x = 215 y = 15 }
+						quadTextureSprite ="GFX_law_button_221x29"
+						pdx_tooltip = "ebf_army_professionalism_btn_tt"
+						buttonText = "ebf_army_professionalism_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+					iconType = {
+						name = "socdevs_ebf_army_professionalism_bar"
+						spriteType = "GFX_EBF_GUI_socdev_bar"
+						position = { x = 81 y = 50 }
+					}
+					iconType = {
+						name = "socdevs_ebf_army_professionalism_level_bar_holder"
+						spriteType = "GFX_EBF_socdev_bar_holder"
+						pdx_tooltip = socdevs_ebf_army_professionalism_level_bar_tt
+						position = { x = 80 y = 50 }
+					}
+				}
+
+				containerWindowType = {
+					name = "socdevs_ebf_industrial_equipment"
+					position = { x = 0 y =300 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="socdevs_ebf_industrial_equipment_background"
+						spriteType = "GFX_EBF_socdev_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="socdevs_ebf_industrial_equipment_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "socdevs_law_ebf_industrial_equipment"
+						position = { x = 50 y = 19 }
+						font = "hoi_20bs"
+						text = "ebf_industrial_equipment_socdev"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "socdevs_ebf_industrial_equipment_btn"
+						position = { x = 215 y = 15 }
+						quadTextureSprite ="GFX_law_button_221x29"
+						pdx_tooltip = "ebf_industrial_equipment_btn_tt"
+						buttonText = "ebf_industrial_equipment_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+					iconType = {
+						name = "socdevs_ebf_industrial_equipment_bar"
+						spriteType = "GFX_EBF_GUI_socdev_bar"
+						position = { x = 81 y = 50 }
+					}
+					iconType = {
+						name = "socdevs_ebf_industrial_equipment_level_bar_holder"
+						spriteType = "GFX_EBF_socdev_bar_holder"
+						pdx_tooltip = socdevs_ebf_industrial_equipment_level_bar_tt
+						position = { x = 80 y = 50 }
+					}
+				}
+
+				containerWindowType = {
+					name = "socdevs_ebf_administrative_efficiency"
+					position = { x = 0 y =375 }
+					size = { width = 100%% height = 30 }
+					iconType ={
+						name ="socdevs_ebf_administrative_efficiency_background"
+						spriteType = "GFX_EBF_socdev_category"
+						position = { x=15 y=10 }
+						Orientation = "UPPER_LEFT"
+					}
+					iconType ={
+						name ="socdevs_ebf_administrative_efficiency_icon"
+						spriteType = "GFX_culture_0"
+						position = { x=20 y=25 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "socdevs_law_ebf_administrative_efficiency"
+						position = { x = 50 y = 19 }
+						font = "hoi_20bs"
+						text = "ebf_administrative_efficiency_socdev"
+						maxWidth = 185
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					buttonType = {
+						name = "socdevs_ebf_administrative_efficiency_btn"
+						position = { x = 215 y = 15 }
+						quadTextureSprite ="GFX_law_button_221x29"
+						pdx_tooltip = "ebf_administrative_efficiency_btn_tt"
+						buttonText = "ebf_administrative_efficiency_btn"
+						buttonFont = "hoi_18mbs"
+						Orientation = "UPPER_LEFT"
+					}
+					iconType = {
+						name = "socdevs_ebf_administrative_efficiency_bar"
+						spriteType = "GFX_EBF_GUI_socdev_bar"
+						position = { x = 81 y = 50 }
+					}
+					iconType = {
+						name = "socdevs_ebf_administrative_efficiency_level_bar_holder"
+						spriteType = "GFX_EBF_socdev_bar_holder"
+						pdx_tooltip = socdevs_ebf_administrative_efficiency_level_bar_tt
+						position = { x = 80 y = 50 }
+					}
+				}
+			}
+		}
+	}	
+
+	#POLITICS: SOCDEVS POPUPS
+
+	containerWindowType = {
+		name = "laws_category_popup_academic_level"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_academic_level_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_mass_illiteracy"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_academic_level_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_mass_illiteracy_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_mass_illiteracy"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_academic_level_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_basic_literacy"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_academic_level_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_basic_literacy_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_basic_literacy"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_academic_level_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_primary_schooling"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_academic_level_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_primary_schooling_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_primary_schooling"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_academic_level_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_secondary_schooling"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_academic_level_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_secondary_schooling_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_secondary_schooling"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+				
+				containerWindowType = {
+					name = "ebf_academic_level_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_tertiary_schooling"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_academic_level_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_tertiary_schooling_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_tertiary_schooling"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_academic_level_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_mass_illiteracy_eradicated"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_academic_level_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_mass_illiteracy_eradicated_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_mass_illiteracy_eradicated"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_poverty_rate"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_poverty_rate_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_overwhelming_poverty"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_poverty_rate_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_overwhelming_poverty_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_overwhelming_poverty"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_poverty_rate_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_rampant_poverty"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_poverty_rate_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_rampant_poverty_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_rampant_poverty"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_poverty_rate_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_widespread_poverty"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_poverty_rate_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_widespread_poverty_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_widespread_poverty"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_poverty_rate_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_significant_poverty"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_poverty_rate_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_significant_poverty_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_significant_poverty"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+				
+				containerWindowType = {
+					name = "ebf_poverty_rate_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_minor_poverty"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_poverty_rate_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_minor_poverty_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_minor_poverty"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_economic_health"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_health_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_no_economy"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_no_economy_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_no_economy"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_health_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_economic_collapse"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_economic_collapse_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_economic_collapse"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_health_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_economic_panic"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_economic_panic_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_economic_panic"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_health_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_underperforming_economy"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_underperforming_economy_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_underperforming_economy"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+				
+				containerWindowType = {
+					name = "ebf_economic_health_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_stagnating_economy"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_stagnating_economy_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_stagnating_economy"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_health_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_middling_consumer_confidence"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_middling_consumer_confidence_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_middling_consumer_confidence"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_economic_health_popup_7"
+					position = { x = 10 y = 946 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_strong_consumer_health"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_economic_health_popup_7_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_strong_consumer_health_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_strong_consumer_health"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_army_professionalism"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_disorganised_militia"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_disorganised_militia_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_1_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_disorganised_militia_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_disorganised_militia"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_untrained_conscripts"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_untrained_conscripts_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_2_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_untrained_conscripts_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_untrained_conscripts"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_hastily_trained_conscripts"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_hastily_trained_conscripts_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_3_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_hastily_trained_conscripts_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_hastily_trained_conscripts"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_military_widespread_corruption"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_military_widespread_corruption_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_4_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_military_widespread_corruption_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_military_widespread_corruption"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+				
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_political_interference"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_political_interference_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_5_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_political_interference_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_political_interference"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_professional_army"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_professional_army_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_professional_army"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_army_professionalism_popup_7"
+					position = { x = 10 y = 946 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_spartan_professionalism"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_7_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_spartan_professionalism_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_army_professionalism_popup_7_txt_2"
+						position = { x = 325 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_spartan_professionalism_popup_mod_2"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_spartan_professionalism"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_category_popup_industrial_equipment"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_industrial_equipment_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_non_powered_tools"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_industrial_equipment_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_non_powered_tools_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_non_powered_tools"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_industrial_equipment_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_power_tools"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_industrial_equipment_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_power_tools_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_power_tools"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_industrial_equipment_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_manufactory_lines"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_industrial_equipment_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_manufactory_lines_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_manufactory_lines"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_industrial_equipment_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_industrial_equipment_use"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_industrial_equipment_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_industrial_equipment_use_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_industrial_equipment_use"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+				
+				containerWindowType = {
+					name = "ebf_industrial_equipment_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_exoskeleton_assisted_production"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_industrial_equipment_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_exoskeleton_assisted_production_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_exoskeleton_assisted_production"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_industrial_equipment_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_cutting_edge_exoskeletons"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_industrial_equipment_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_cutting_edge_exoskeletons_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_cutting_edge_exoskeletons"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	containerWindowType = {
+		name = "laws_category_popup_administrative_efficiency"
+		position = { x = 556 y = 2 }
+		size = { width=730 height=100%% }
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+		containerWindowType = {
+			name = "ideas"
+			position = { x = 0 y = 50 }
+			size = { width=730 height=100%% }
+
+			containerWindowType = {
+				name = "grid"
+				position = { x = 6 y = 0 }
+				size = { width=718 height=-4 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 13 bottom = 10 }
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+				}
+
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_1"
+					position = { x = 10 y = 10 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_nonexistent_administration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_1_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_nonexistent_administration_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_nonexistent_administration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_2"
+					position = { x = 10 y = 166 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_ineffectual_administration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_2_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_ineffectual_administration_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_ineffectual_administration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_3"
+					position = { x = 10 y = 322 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_widespread_corruption"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_3_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_widespread_corruption_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_widespread_corruption"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_4"
+					position = { x = 10 y = 478 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_cronyism"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_4_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_cronyism_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_cronyism"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}		
+				
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_5"
+					position = { x = 10 y = 634 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_functional_administration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_5_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_functional_administration_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_functional_administration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_6"
+					position = { x = 10 y = 790 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_streamlined_administration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_6_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_streamlined_administration_popup_mod"
+						maxWidth = 400
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_streamlined_administration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ebf_administrative_efficiency_popup_7"
+					position = { x = 10 y = 946 }
+					size = { width = 685 height = 156 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_idea_entry"
+					}
+					instantTextboxType = {
+						name = "header"
+						position = { x = 18 y = 12 }
+						font = "hoi_18mbs"
+						text = "EBF_ai_assisted_administration"
+						maxWidth = 670
+						maxHeight = 20
+						format = left
+					}
+					instantTextboxType = {
+						name = "ebf_administrative_efficiency_popup_7_txt"
+						position = { x = 20 y = 38 }
+						font = "hoi_18mbs"
+						text = "EBF_ai_assisted_administration_popup_mod"
+						maxWidth = 300
+						maxHeight = 100
+						format = left
+					}
+					iconType = {
+						name = "EBF_ai_assisted_administration"
+						spriteType = "GFX_culture_0"
+						position = { x = 616 y = 45 }
+					}
+				}
+			}
+		}
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	#POLITICS: ORDINANCE
+	containerWindowType = {
+		name = "new_politics_ordinance"
+		position = { x = 10 y = 450 }
+		size = { width=97%% height=100%%% }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 13 bottom = 10 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		#ordinance 1 start
+		containerWindowType = {
+			name = "EBF_ordinance_1"
+			position = { x = 0 y = 5 }
+			size = { width=260 height=270 }
+			iconType ={
+				name ="ordinance_header_1"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="ordinance_1_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "ordinance_1_name"
+				position = { x = 100 y = 5 }
+				font = "hoi_30header"
+				text = "ordinance_energy_laws"
+				maxWidth = 400
+				maxHeight = 20
+			}
+			
+			containerWindowType = {
+				name = "EBF_ordinance_slider"
+				position = { x = 0 y = 75 }
+				size = { width=494 height=310 }
+				margin = { top = 4 bottom = 5 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "ordi_1_energy_consump"
+					position = { x = 12 y =0 }
+					size = { width = 395 height = 133 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_decisions_bg_small"
+						alwaystransparent = yes
+					}
+					instantTextboxType = {
+						name = "ordi_1_energy_consump_main_txt"
+						position = { x = 3 y = 2 }
+						font = "hoi_18mbs"
+						text = "EBF_ordi_1_energy_consump_main_txt"
+						maxWidth = 389
+						maxHeight = 150
+						format = center
+					}
+				}
+				containerWindowType = {
+					name = "ordi_1_energy_consump_gfx"
+					position = { x = 0 y =0 }
+					size = { width = 395 height = 133 }
+
+					iconType = {
+						name = "ordi_energy_consump_info"
+						spriteType = "GFX_PRC_GUI_infobutton"
+						position = { x = 360 y = 10 }
+						pdx_tooltip = EBF_ordi_energy_consump_info_txt
+					}
+	
+					instantTextboxType = {
+						name = "ordi_1_regulations_text"
+						position = { x = 10 y = 135 }
+						font = "hoi_18mbs"
+						text = "ordi_1_regulations_txt"
+						maxWidth = 400
+						maxHeight = 20
+						format = centre
+					}
+					
+					buttonType = {
+						name = "ordi_1_high_consump_btn"
+						position = { x = 12 y = 156 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_high_consump_btn_tt"
+						pdx_tooltip_delayed = "ebf_high_consump_btn_delayed_tt"
+						buttonText = "ebf_high_consump_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_norm_consump_btn"
+						position = { x = 92 y = 156 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_norm_consump_btn_tt"
+						pdx_tooltip_delayed = "ebf_norm_consump_btn_delayed_tt"
+						buttonText = "ebf_norm_consump_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_small_regs_btn"
+						position = { x = 172 y = 156 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_small_regs_btn_tt"
+						pdx_tooltip_delayed = "ebf_small_regs_btn_delayed_tt"
+						buttonText = "ebf_small_regs_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_med_regs_btn"
+						position = { x = 252 y = 156 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_med_regs_btn_tt"
+						pdx_tooltip_delayed = "ebf_med_regs_btn_delayed_tt"
+						buttonText = "ebf_med_regs_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_high_regs_btn"
+						position = { x = 330 y = 156 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_high_regs_btn_tt"
+						pdx_tooltip_delayed = "ebf_high_regs_btn_delayed_tt"
+						buttonText = "ebf_high_regs_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					instantTextboxType = {
+						name = "ordi_1_military_size_text"
+						position = { x = 10 y = 188 }
+						font = "hoi_18mbs"
+						text = "ordi_1_military_size_txt"
+						maxWidth = 400
+						maxHeight = 20
+						format = centre
+					}
+	
+					buttonType = {
+						name = "ordi_1_size_minor_btn"
+						position = { x = 12 y = 209 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_size_minor_btn_tt"
+						pdx_tooltip_delayed = "ebf_size_minor_btn_delayed_tt"
+						buttonText = "ebf_size_minor_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_size_normal_btn"
+						position = { x = 92 y = 209 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_size_normal_btn_tt"
+						pdx_tooltip_delayed = "ebf_size_normal_btn_delayed_tt"
+						buttonText = "ebf_size_normal_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_size_large_btn"
+						position = { x = 172 y = 209 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_size_large_btn_tt"
+						pdx_tooltip_delayed = "ebf_size_large_btn_delayed_tt"
+						buttonText = "ebf_size_large_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_size_massive_btn"
+						position = { x = 252 y = 209 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_size_massive_btn_tt"
+						pdx_tooltip_delayed = "ebf_size_massive_btn_delayed_tt"
+						buttonText = "ebf_size_massive_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_1_size_super_massive_btn"
+						position = { x = 330 y = 209 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_size_super_massive_btn_tt"
+						pdx_tooltip_delayed = "ebf_size_super_massive_btn_delayed_tt"
+						buttonText = "ebf_size_super_massive_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					iconType = {
+						name = "ordi_1_outage_5"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 430 y = -4 }
+						pdx_tooltip = "ebf_energy_outage_5_tt"
+						pdx_tooltip_delayed = "ebf_energy_outage_5_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_1_outage_4"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 430 y = 46 }
+						pdx_tooltip = "ebf_energy_outage_4_tt"
+						pdx_tooltip_delayed = "ebf_energy_outage_4_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_1_outage_3"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 430 y = 94 }
+						pdx_tooltip = "ebf_energy_outage_3_tt"
+						pdx_tooltip_delayed = "ebf_energy_outage_3_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_1_outage_2"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 430 y = 144 }
+						pdx_tooltip = "ebf_energy_outage_2_tt"
+						pdx_tooltip_delayed = "ebf_energy_outage_2_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_1_outage_1"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 430 y = 194 }
+						pdx_tooltip = "ebf_energy_outage_1_tt"
+						pdx_tooltip_delayed = "ebf_energy_outage_1_delayed_tt"
+					}
+				}			
+			}
+		}
+		#ordinance 1 end
+		#ordinance 2 start
+		containerWindowType = {
+			name = "EBF_ordinance_2"
+			position = { x = 0 y = 340 }
+			size = { width=260 height=320 }
+			iconType ={
+				name ="ordinance_header_2"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="ordinance_2_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "ordinance_2_name"
+				position = { x = 100 y = 5 }
+				font = "hoi_30header"
+				text = "ordinance_food_laws"
+				maxWidth = 400
+				maxHeight = 20
+			}
+			
+			containerWindowType = {
+				name = "EBF_ordinance_2_slider"
+				position = { x = 0 y = 75 }
+				size = { width=494 height=310 }
+				margin = { top = 4 bottom = 5 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "ordi_2_food_consump"
+					position = { x = 12 y =0 }
+					size = { width = 395 height = 115 }
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_decisions_bg_small"
+						alwaystransparent = yes
+					}
+					instantTextboxType = {
+						name = "ordi_2_food_consump_main_txt"
+						position = { x = 3 y = 2 }
+						font = "hoi_18mbs"
+						text = "EBF_ordi_2_food_consump_main_txt"
+						maxWidth = 389
+						maxHeight = 150
+						format = center
+					}
+				}
+				containerWindowType = {
+					name = "ordi_2_food_consump_gfx"
+					position = { x = 0 y =0 }
+					size = { width = 395 height = 133 }
+
+					iconType = {
+						name = "ordi_food_consump_info"
+						spriteType = "GFX_PRC_GUI_infobutton"
+						position = { x = 360 y = 10 }
+						pdx_tooltip = EBF_ordi_food_consump_info_txt
+					}
+	
+					instantTextboxType = {
+						name = "ordi_2_stockpile_text"
+						position = { x = 10 y = 118 }
+						font = "hoi_18mbs"
+						text = "ordi_2_stockpile_txt"
+						maxWidth = 400
+						maxHeight = 20
+						format = centre
+					}
+					
+					buttonType = {
+						name = "ordi_2_below_stock_btn"
+						position = { x = 12 y = 138 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_below_stock_btn_tt"
+						pdx_tooltip_delayed = "ebf_below_stock_btn_delayed_tt"
+						buttonText = "ebf_below_stock_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_2_meeting_stock_btn"
+						position = { x = 92 y = 138 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_meeting_stock_btn_tt"
+						pdx_tooltip_delayed = "ebf_meeting_stock_btn_delayed_tt"
+						buttonText = "ebf_meeting_stock_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_2_slightly_above_stock_btn"
+						position = { x = 172 y = 138 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_slightly_above_stock_btn_tt"
+						pdx_tooltip_delayed = "ebf_slightly_above_stock_btn_delayed_tt"
+						buttonText = "ebf_slightly_above_stock_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_2_above_stock_btn"
+						position = { x = 252 y = 138 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_above_stock_btn_tt"
+						pdx_tooltip_delayed = "ebf_above_stock_btn_delayed_tt"
+						buttonText = "ebf_above_stock_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					buttonType = {
+						name = "ordi_2_high_stock_btn"
+						position = { x = 330 y = 138 }
+						quadTextureSprite ="GFX_law_button_77x31"
+						pdx_tooltip = "ebf_high_stock_btn_tt"
+						pdx_tooltip_delayed = "ebf_high_stock_btn_delayed_tt"
+						buttonText = "ebf_high_stock_txt"
+						buttonFont = "garamond_14"
+						Orientation = "UPPER_LEFT"
+					}
+	
+					instantTextboxType = {
+						name = "ordi_2_famine_stage_text"
+						position = { x = 10 y = 168 }
+						font = "hoi_18mbs"
+						text = "ordi_2_famine_stage_txt"
+						maxWidth = 400
+						maxHeight = 20
+						format = centre
+					}
+					
+					iconType = {
+						name = "ordi_2_famine_5"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 343 y = 185 }
+						pdx_tooltip = "ebf_food_famine_5_tt"
+						pdx_tooltip_delayed = "ebf_food_famine_5_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_2_famine_4"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 265 y = 185 }
+						pdx_tooltip = "ebf_food_famine_4_tt"
+						pdx_tooltip_delayed = "ebf_food_famine_4_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_2_famine_3"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 185 y = 185 }
+						pdx_tooltip = "ebf_food_famine_3_tt"
+						pdx_tooltip_delayed = "ebf_food_famine_3_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_2_famine_2"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 105 y = 185 }
+						pdx_tooltip = "ebf_food_famine_2_tt"
+						pdx_tooltip_delayed = "ebf_food_famine_2_delayed_tt"
+					}
+	
+					iconType = {
+						name = "ordi_2_famine_1"
+						spriteType = "GFX_odri_indicator"
+						position = { x = 25 y = 185 }
+						pdx_tooltip = "ebf_food_famine_1_tt"
+						pdx_tooltip_delayed = "ebf_food_famine_1_delayed_tt"
+					}
+				}		
+			}
+		}
+
+	}
+
+	#POLITICS: MOBILIZATION
+	containerWindowType = {
+		name = "new_politics_mobilization"
+		position = { x = 10 y = 450 }
+		size = { width=97%% height=100%%% }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 13 bottom = 10 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		#POLITICS: MOBILIZATION LAWS
+		containerWindowType = {
+			name = "EBF_mobilization_1"
+			position = { x = 0 y = 5 }
+			size = { width=260 height=270 }
+			iconType ={
+				name ="mobilization_header_1"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="mobilization_1_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "mobilization_1_name"
+				position = { x = 160 y = 17 }
+				font = "hoi_30header"
+				text = "mobilization_military_laws"
+				maxWidth = 400
+				maxHeight = 20
+			}
+
+			gridboxtype = {
+				name = "mobilization_1_laws_grid"
+				position = { x = 67 y = 70 }
+				size = { width = 100 height = 30 }
+				slotsize = { width = 237 height = 75 }
+				max_slots_horizontal = 2
+				add_horizontal = YES
+			}
+		}
+
+		#POLITICS: MOBILIZATION LAWS
+		containerWindowType = {
+			name = "EBF_mobilization_2"
+			position = { x = 0 y = 315 }
+			size = { width=260 height=1000 }
+			iconType ={
+				name ="mobilization_header_2"
+				spriteType = "GFX_category_header_shorter"
+				position = { x=14 y=0 }
+			}
+			iconType ={
+				name ="mobilization_2_icon"
+				spriteType = "GFX_culture_0"
+				position = { x=20 y=10 }
+				Orientation = "UPPER_LEFT"
+			}
+			instantTextboxType = {
+				name = "mobilization_2_name"
+				position = { x = 55 y = 17 }
+				font = "hoi_30header"
+				text = "mobilization_military_investment"
+				maxWidth = 400
+				maxHeight = 20
+				format = centre
+			}
+			instantTextboxType = {
+				name = "mobilization_2_IPs_display"
+				position = { x = -100 y = 75 }
+				font = "hoi_20bs"
+				text = "mobilization_military_investment_IPs_txt"
+				maxWidth = 400
+				maxHeight = 20
+				format = centre
+			}
+			containerWindowType = {
+				name = "EBF_mobilization_2_ground_IPs"
+				position = { x = 0 y = 25 }
+				instantTextboxType = {
+					name = "mobilization_2_ground_IP_text"
+					position = { x = 15 y = 80 }
+					font = "hoi_20bs"
+					text = "mobilization_2_ground_IP_txt"
+					maxWidth = 400
+					maxHeight = 20
+				}
+				iconType ={
+					name ="mobilization_2_ground_IP_bar_holder"
+					spriteType = "GFX_investment_points_bar_holder"
+					position = { x=14 y=100 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_ground_IP_bar"
+					spriteType = "GFX_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_added_ground_IP_bar"
+					spriteType = "GFX_added_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				buttonType ={
+					name ="mobilization_2_ground_decrease_button"
+					spriteType = "GFX_mob_laws_decrease_button"
+					position = { x=400 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_decrease_tt
+				}
+				buttonType ={
+					name ="mobilization_2_ground_increase_button"
+					spriteType = "GFX_mob_laws_increase_button"
+					position = { x=440 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_increase_tt
+				}
+
+			}
+			containerWindowType = {
+				name = "EBF_mobilization_2_air_IPs"
+				position = { x = 0 y = 90 }
+				instantTextboxType = {
+					name = "mobilization_2_air_IP_text"
+					position = { x = 15 y = 80 }
+					font = "hoi_20bs"
+					text = "mobilization_2_air_IP_txt"
+					maxWidth = 400
+					maxHeight = 20
+				}
+				iconType ={
+					name ="mobilization_2_air_IP_bar_holder"
+					spriteType = "GFX_investment_points_bar_holder"
+					position = { x=14 y=100 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_air_IP_bar"
+					spriteType = "GFX_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_added_air_IP_bar"
+					spriteType = "GFX_added_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				buttonType ={
+					name ="mobilization_2_air_decrease_button"
+					spriteType = "GFX_mob_laws_decrease_button"
+					position = { x=400 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_decrease_tt
+				}
+				buttonType ={
+					name ="mobilization_2_air_increase_button"
+					spriteType = "GFX_mob_laws_increase_button"
+					position = { x=440 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_increase_tt
+				}
+			}
+			containerWindowType = {
+				name = "EBF_mobilization_2_naval_IPs"
+				position = { x = 0 y = 155 }
+				instantTextboxType = {
+					name = "mobilization_2_naval_IP_text"
+					position = { x = 15 y = 80 }
+					font = "hoi_20bs"
+					text = "mobilization_2_naval_IP_txt"
+					maxWidth = 400
+					maxHeight = 20
+				}
+				iconType ={
+					name ="mobilization_2_naval_IP_bar_holder"
+					spriteType = "GFX_investment_points_bar_holder"
+					position = { x=14 y=100 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_naval_IP_bar"
+					spriteType = "GFX_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_added_naval_IP_bar"
+					spriteType = "GFX_added_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				buttonType ={
+					name ="mobilization_2_naval_decrease_button"
+					spriteType = "GFX_mob_laws_decrease_button"
+					position = { x=400 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_decrease_tt
+				}
+				buttonType ={
+					name ="mobilization_2_naval_increase_button"
+					spriteType = "GFX_mob_laws_increase_button"
+					position = { x=440 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_increase_tt
+				}
+			}
+			containerWindowType = {
+				name = "EBF_mobilization_2_research_IPs"
+				position = { x = 0 y = 220 }
+				instantTextboxType = {
+					name = "mobilization_2_research_IP_text"
+					position = { x = 15 y = 80 }
+					font = "hoi_20bs"
+					text = "mobilization_2_research_IP_txt"
+					maxWidth = 400
+					maxHeight = 20
+				}
+				iconType ={
+					name ="mobilization_2_research_IP_bar_holder"
+					spriteType = "GFX_investment_points_bar_holder"
+					position = { x=14 y=100 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_research_IP_bar"
+					spriteType = "GFX_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_added_research_IP_bar"
+					spriteType = "GFX_added_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				buttonType ={
+					name ="mobilization_2_research_decrease_button"
+					spriteType = "GFX_mob_laws_decrease_button"
+					position = { x=400 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_decrease_tt
+				}
+				buttonType ={
+					name ="mobilization_2_research_increase_button"
+					spriteType = "GFX_mob_laws_increase_button"
+					position = { x=440 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_increase_tt
+				}
+			}
+			containerWindowType = {
+				name = "EBF_mobilization_2_civil_services_IPs"
+				position = { x = 0 y = 285 }
+				instantTextboxType = {
+					name = "mobilization_2_civil_services_IP_text"
+					position = { x = 15 y = 80 }
+					font = "hoi_20bs"
+					text = "mobilization_2_civil_services_IP_txt"
+					maxWidth = 400
+					maxHeight = 20
+				}
+				iconType ={
+					name ="mobilization_2_civil_services_IP_bar_holder"
+					spriteType = "GFX_investment_points_bar_holder"
+					position = { x=14 y=100 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_civil_services_IP_bar"
+					spriteType = "GFX_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="mobilization_2_added_civil_service_IP_bar"
+					spriteType = "GFX_added_investment_points_bar"
+					position = { x=16 y=101 }
+					Orientation = "UPPER_LEFT"
+				}
+				buttonType ={
+					name ="mobilization_2_civil_services_decrease_button"
+					spriteType = "GFX_mob_laws_decrease_button"
+					position = { x=400 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_decrease_tt
+				}
+				buttonType ={
+					name ="mobilization_2_civil_services_increase_button"
+					spriteType = "GFX_mob_laws_increase_button"
+					position = { x=440 y=70 }
+					Orientation = "UPPER_LEFT"
+					pdx_tooltip = EBF_mob_2_investment_increase_tt
+				}
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "mobilization_1_laws_grid_entry"
+		position = { x = 0 y = 0 }
+		size = { width=494 height=180 }
+
+		iconType ={
+			name ="mobilization_1_laws_grid_entry_bg"
+			spriteType = "GFX_EBF_laws_category"
+			position = { x=15 y=10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="mobilization_1_laws_grid_entry_icon"
+			spriteType = "GFX_culture_0"
+			position = { x=20 y=25 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextboxType = {
+			name = "mobilization_1_laws_grid_entry_name"
+			position = { x = 74 y = 15 }
+			font = "hoi_18mbs"
+			text = "ebf_mobilisation_1_array_title"
+			maxWidth = 185
+			maxHeight = 15
+			format = centre
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "mobilization_1_laws_grid_entry_select"
+			position = { x = 97 y = 40 }
+			quadTextureSprite ="GFX_law_button_140x29"
+			pdx_tooltip = "ebf_mobilisation_1_array_btn_tt"
+			pdx_tooltip_delayed = "ebf_mobilisation_1_array_btn_delayed_tt"
+			buttonText = "ebf_mobilisation_1_array_btn"
+			buttonFont = "hoi_18mbs"
+			Orientation = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "EBF_mobilization_1_law_change"
+		size = { width = 320 height = 660 }
+		position = { x = 550 y = 0 }
+
+		show_sound = open_sub_window
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_1b_no_border"
+		}
+
+		instantTextboxType = {
+			name = "law_change_tab_title"
+			position = { x = 10 y = 12 }
+			font = "hoi_18mbs"
+			text = law_change_tab_title_txt
+			maxWidth = 300
+			format = center
+		}
+
+		instantTextboxType = {
+			name = "law_change_tab_change"
+			position = { x = 10 y = 28 }
+			font = "hoi_18mbs"
+			text = law_change_tab_change_txt
+			maxWidth = 300
+			format = center
+		}
+
+		buttonType = {
+			name = "close"
+			position = { x = -45 y = 16 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+
+	containerWindowType = {
+		name = "EBF_mobilization_1_law_scrollbar"
+		size = { width = 295 height = 605 }
+		position = { x = 565 y = 45 }
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_tiled_window_transparent"
+		}
+
+		gridboxtype = {
+			name = "law_ladder_grid"
+			position = { x = 4 y = 0 }
+			size = { width = 275 height = 500 }
+			slotsize = { width = 237 height = 75 }
+			max_slots_horizontal = 1
+			add_horizontal = no
+		}
+	}
+
+	containerWindowType = {
+		name = "law_ladder_grid_entry"
+		position = { x = 0 y = 0 }
+		size = { width=494 height=180 }
+
+		iconType ={
+			name ="mobilization_1_law_ladder_entry_bg"
+			spriteType = "GFX_EBF_laws_category"
+			position = { x=15 y=10 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="mobilization_1_law_ladder_entry_icon"
+			spriteType = "GFX_culture_0"
+			position = { x=20 y=25 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextboxType = {
+			name = "mobilization_1_law_ladder_entry_name"
+			position = { x = 74 y = 15 }
+			font = "hoi_18mbs"
+			text = "ebf_mobilisation_1_lader_array_title"
+			maxWidth = 185
+			maxHeight = 15
+			format = centre
+			fixedsize = yes
+		}
+		buttonType = {
+			name = "mobilization_1_law_ladder_entry_select"
+			position = { x = 97 y = 40 }
+			quadTextureSprite ="GFX_law_button_140x29"
+			pdx_tooltip = "ebf_mobilisation_1_law_ladder_btn_tt"
+			pdx_tooltip_delayed = "ebf_mobilisation_1_array_law_ladder_modifier"
+			buttonText = "ebf_mobilisation_1_law_entry_btn"
+			buttonFont = "hoi_18mbs"
+			Orientation = "UPPER_LEFT"
+		}
+		iconType = {
+			name = "allowed_laws_bracket"
+			position = { x = -5 y = 6 }
+			pdx_tooltip = "ebf_mobilisation_1_allowed_laws_tt"
+		}
+	}
+} 

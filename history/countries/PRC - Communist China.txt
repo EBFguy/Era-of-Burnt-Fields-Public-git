@@ -1,0 +1,127 @@
+﻿capital = 608
+
+# Vacant
+recruit_character = PRC_Generic_Vacant_psi
+recruit_character = PRC_Generic_Vacant_pi_0
+recruit_character = PRC_Generic_Vacant_pi_1
+recruit_character = PRC_Generic_Vacant_pi_2
+
+# Starting tech
+set_technology = {
+    infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    exoskeleton2045 = 1
+    exoskeleton2050 = 1
+    android2045 = 1
+    cims2030 = 1
+    cims2050 = 1
+    cims2060 = 1
+    MBT2040 = 1
+    MBT2050 = 1
+    MBT2062 = 1
+    IFV2040 = 1
+    IFV2050 = 1
+    IFV2062 = 1
+    APC2040 = 1
+    APC2050 = 1
+    APC2062 = 1
+    
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 20
+    securocracy = 18
+    ultranationalism = 3
+    conservatism = 12
+    liberalism = 1
+    progressivism = 2
+    libertarian_socialism = 2
+    authoritarian_socialism = 25
+    totalitarian_socialism = 17
+}
+
+recruit_character = PRC_Xi_Jinping
+recruit_character = PRC_Disorganized
+recruit_character = PRC_Zhao_Zixuan
+recruit_character = PRC_Wu_Baihao
+recruit_character = PRC_Song_Xinxun
+recruit_character = PRC_Zhao_Yan
+
+create_faction = Shanghai_Pact
+add_to_faction = MON
+add_to_faction = DPK
+add_to_faction = ASS
+add_to_faction = MYA 
+add_to_faction = TRI
+add_to_faction = MAL
+add_to_faction = SIN
+add_to_faction = ACE
+add_to_faction = AFG
+add_to_faction = CIN
+set_global_flag = PRC_Shanghai_Pact_Exists
+
+add_ideas = {
+    Peoples_Connection_member
+}
+
+add_ideas = {
+    shanghai_pact_status_1
+
+    #IDEAS
+    PRC_shanghai_dam
+    PRC_winner_of_the_cold_war
+    PRC_fisher_king
+    PRC_population_crisis
+
+    #MINISTERS
+    PRC_Generic_Vacant_psi_min
+    PRC_Zhao_Zixuan_min
+    PRC_Wu_Baihao_min
+    PRC_Song_Xinxun_min
+
+    #LAWS
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_secularism
+    EBF_no_voting
+    EBF_censored_press
+    EBF_state_controlled_unions
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+    #econ
+    EBF_free_trade
+    EBF_decent_minimum_wage
+    EBF_10_hours
+    EBF_primary_human_model
+    #military
+    EBF_two_year_draft
+    EBF_combat_schooling
+    EBF_ordinary_policing
+    EBF_modernised_rules_of_war
+    #socdev
+    EBF_tertiary_schooling
+    EBF_minor_poverty
+    EBF_stagnating_economy
+    EBF_political_interference
+    EBF_exoskeleton_assisted_production
+    EBF_functional_administration
+}
+
+for_each_scope_loop = {
+	array = PRC.faction_members
+	add_ideas = Peoples_Connection_member
+}
+

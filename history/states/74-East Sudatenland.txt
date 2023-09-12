@@ -1,0 +1,26 @@
+state=
+{
+	id=74
+	name="STATE_74"
+	manpower = 1186322
+	
+	state_category = rural
+	
+	
+	history= {
+		add_core_of = CSL
+		owner = CSL
+		victory_points = {
+			3583 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces= {
+		421 3414 3583 6485
+ 	}
+}

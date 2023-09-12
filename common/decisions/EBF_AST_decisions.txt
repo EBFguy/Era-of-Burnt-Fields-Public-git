@@ -1,0 +1,27 @@
+EBF_AST_australia_civil_war_decisions = {
+	EBF_unify_australia = {
+
+		icon = generic_research
+
+		available = {
+			has_war = no
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EBF_AUSTRALIAN_CIVIL_WAR_COMPLETE
+			clr_global_flag = EBF_AUSTRALIAN_CIVIL_WAR_ONGOING
+			get_australia_tag = yes
+			get_australia_event = yes
+			ROOT = {
+
+			}
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+}

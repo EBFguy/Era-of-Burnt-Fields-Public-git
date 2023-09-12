@@ -1,0 +1,80 @@
+##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
+guiTypes = {
+
+	containerWindowType = {
+		name = "super_event_GUI"
+		
+		# This is so that when you drag around the super window, the next time a super is triggered, it will always spawn in the center
+		position = { x= -20 y= -6000 }
+		show_position = { x = -20 y = 20 }
+		hide_position = { x= -20 y= -6000 }
+		animation_time = 1
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		size = { width = 580 height = 410 }
+		Orientation = center
+		Origo = center
+		moveable = yes
+		clipping = no
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_window_transparent"
+		} 
+
+		iconType = {
+			name = "EBF_SE_image"
+			position = { x= 31 y = 68 }
+			alwaystransparent = yes
+			scale = 1.1
+		}
+		iconType = {
+			name = "EBF_superevent_screen_GUI"
+			spriteType ="GFX_superevent_screen_GUI"
+			position = { x= 0 y = 0 }
+			alwaystransparent = yes
+			scale = 1.1
+		}
+
+		iconType = {
+			name = "EBF_superevent_screen_overlay_GUI"
+			spriteType ="GFX_superevent_screen_overlay_GUI"
+			position = { x= 30 y = 67 }
+			alwaystransparent = yes
+			scale = 1.1
+		}
+		
+		instantTextBoxType = {
+			name = "EBF_super_event_title"
+			position = { x = 0 y = 20 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "[EBFSuperEventTitle]"
+			maxWidth = 580
+			maxHeight = 24
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "EBF_super_event_desc"
+			position = { x= 80 y = -165 }
+			font = "hoi_18mbs"
+			text = "[EBFSuperEventDesc]"
+			maxWidth = 400
+			maxHeight = 173
+			fixedsize = yes
+			format = center
+			Orientation = lower_left
+		}
+	
+
+		buttonType = {
+			name = "EBF_super_event_option"
+			text = "[EBFSuperEventOption]"
+			shortcut = "ESCAPE"
+			position = { x = -125 y = 156 }
+			quadTextureSprite ="GFX_superevent_button_GUI"
+			buttonFont = "newsfeed_body"
+			Orientation = center
+		}
+	}
+}

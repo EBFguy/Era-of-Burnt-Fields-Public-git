@@ -1,0 +1,108 @@
+ideas = {
+	country = {
+		#Belarus
+		BLR_hope_of_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BLR_hope_of_democracy"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		BLR_edge_of_the_world = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BLR_edge_of_the_world"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		BLR_memories_of_war_power = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BLR_memories_of_war_power"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}		
+		#Ukraine
+		UKR_voitenkos_legacy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea UKR_voitenkos_legacy"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		UKR_scars_from_war_two_decades_past = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea UKR_scars_from_war_two_decades_past"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+		UKR_never_another_war = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BLR_hope_of_democracy"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			}
+		}
+	}
+}

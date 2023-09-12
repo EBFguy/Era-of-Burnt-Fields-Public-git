@@ -1,0 +1,25 @@
+state={
+	id=757
+	name="STATE_757"
+	provinces={
+		1991 2014 2098 4900 5033 8121 12807 
+	}
+	manpower=5965834
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		add_core_of = PRC
+		owner = PRC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			5033 5 
+		}
+		
+
+	}
+	local_supplies = 0.0 
+}

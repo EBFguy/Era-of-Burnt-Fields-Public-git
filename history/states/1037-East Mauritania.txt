@@ -1,0 +1,22 @@
+
+state={
+	id=1037
+	name="STATE_1037" # Mauritania
+	manpower = 10
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = MAU
+		owner = MAU		
+		add_core_of = WMU
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1962 10771 1897
+	}
+}

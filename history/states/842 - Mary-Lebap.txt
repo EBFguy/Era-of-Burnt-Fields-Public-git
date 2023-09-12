@@ -1,0 +1,24 @@
+state={
+	id=842
+	name="STATE_842"
+
+	history={
+		add_core_of = TRK
+		owner = TRK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+
+	}
+
+	provinces={
+		756 1632 4482 4549 4958 5003 7491 7560 7924 8099 9605 10357 10414 10742 
+	}
+	manpower=1064523
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies = 0.0 
+}

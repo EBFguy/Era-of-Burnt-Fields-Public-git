@@ -1,0 +1,15 @@
+OCC_custom_cost_has_more_power_than = {
+	check_variable = {
+		var = OCC_workers_house_unity_var_check
+		value = OCC_workers_house_unity_var
+		compare = less_than_or_equals
+	}
+}
+
+OCC_custom_cost_has_more_unity_than = {
+	check_variable = {
+		var = OCC_workers_house_unity_var_check
+		value = OCC_workers_house_unity_var
+		compare = less_than_or_equals
+	}
+}

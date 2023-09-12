@@ -1,0 +1,30 @@
+
+state={
+	id=161
+	name="STATE_161"
+	manpower = 4633024
+	
+	state_category = large_city
+	local_supplies = 0.0 
+
+	history={
+		add_core_of = EMI
+		owner = EMI
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			782 = {
+				naval_base = 2
+			}
+		}
+		
+	}
+
+	provinces={
+		782 3773 3976 6606 6790 6985 9752 9924 11734 11726
+	}
+}

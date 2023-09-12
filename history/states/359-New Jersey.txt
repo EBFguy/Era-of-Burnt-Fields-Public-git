@@ -1,0 +1,25 @@
+
+state={
+	id=359
+	name="STATE_359"
+	manpower = 21791306
+	
+	state_category = large_city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 7
+			air_base = 4
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		9801 9864 11740 11900 
+	}
+	
+}

@@ -1,0 +1,112 @@
+﻿division_template = {
+	name = "Standard Self Defence Force" # infantry Force
+	division_names_group = VNC_self_defence
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	is_locked = yes
+}
+
+division_template = {
+	name = "Elite Self Defence Force" # infantry IFVs
+	division_names_group = VNC_elite_self_defence
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+	}
+	priority = 2
+	is_locked = yes
+}
+
+division_template = {
+	name = "Reserve Self Defence Force" #infantry reserve
+	division_names_group = VNC_reserve_self_defence
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+	is_locked = yes
+}
+
+division_template = {
+	name = "New Venice Tank Force" #elite divs + tanks :stuff:
+	division_names_group = VNC_tank_force
+	regiments = {
+		elite_infantry = { x = 0 y = 0 }
+		elite_infantry = { x = 0 y = 1 }
+		elite_infantry = { x = 0 y = 2 }
+		elite_infantry = { x = 1 y = 0 }
+		elite_infantry = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+	}
+	priority = 2
+	is_locked = yes
+}
+
+
+units = {
+	division = {
+		location = "13251"
+		division_template = "New Venice Tank Force"
+		name = "HI Security Force: Krennic"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {
+		location = "6661"
+		division_template = "Elite Self Defence Force"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		location = "3776"
+		division_template = "Standard Self Defence Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		location = "11587"
+		division_template = "Standard Self Defence Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		location = "11568"
+		division_template = "Standard Self Defence Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		location = "3657"
+		division_template = "Standard Self Defence Force"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		location = "11598"
+		division_template = "Reserve Self Defence Force"
+		start_experience_factor = 0
+		start_equipment_factor = 0.6
+	}	
+	division = {
+		location = "11584"
+		division_template = "Reserve Self Defence Force"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}

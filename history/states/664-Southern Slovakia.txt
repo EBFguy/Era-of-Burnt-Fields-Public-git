@@ -1,0 +1,33 @@
+state={
+	id=664
+	name="STATE_664"
+	manpower = 4543817
+	
+	state_category = town
+	
+	history={
+		add_core_of = SLO
+		owner = SLO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		victory_points = {
+			6573 1 
+		}
+		
+		
+
+		1939.3.14 = {
+			
+			
+			
+			
+			
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3565 3716 6561 6573 9537 11679 
+	}
+}

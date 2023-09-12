@@ -1,0 +1,101 @@
+scripted_map_modes = {
+	ebf_network_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = country
+			color = {
+				set_temp_variable = { alpha_temp = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							has_idea = AmericaNet_member
+						}
+					}
+		 			set_temp_variable = { red = 0 }
+		 			set_temp_variable = { green = 0.27 }
+		 			set_temp_variable = { blue = 0.40 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_idea = Peoples_Connection_member
+						}
+					}
+		 			set_temp_variable = { red = 0.70 }
+		 			set_temp_variable = { green = 0.04 }
+		 			set_temp_variable = { blue = 0.196 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_idea = Free_Internet_member
+						}
+					}
+		 			set_temp_variable = { red = 0.15 }
+		 			set_temp_variable = { green = 0.15 }
+		 			set_temp_variable = { blue = 0.50 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							has_idea = UEN_member
+						}
+					}
+		 			set_temp_variable = { red = 0.117 }
+		 			set_temp_variable = { green = 0.27 }
+		 			set_temp_variable = { blue = 0.164 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							has_idea = RevNet_member
+						}
+					}
+		 			set_temp_variable = { red = 0.9 }
+		 			set_temp_variable = { green = 0.549 }
+		 			set_temp_variable = { blue = 0.533 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							has_idea = Habeo_Ideam_Network_Member
+						}
+					}
+		 			set_temp_variable = { red = 0.309 }
+		 			set_temp_variable = { green = 0.220 }
+		 			set_temp_variable = { blue = 0.286 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}		
+				
+				else_if = {
+					limit = {
+						FROM = {
+							has_idea = commonet_Member
+						}
+					}
+		 			set_temp_variable = { red = 0.639 }
+		 			set_temp_variable = { green = 0.2 }
+		 			set_temp_variable = { blue = 0.2 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}	
+				
+				else = {
+		 			set_temp_variable = { red = 0.5 }
+		 			set_temp_variable = { green = 0.5 }
+		 			set_temp_variable = { blue = 0.5 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+			}
+		}
+		far_text = country
+		near_text = none
+		update_daily = no
+	}
+}

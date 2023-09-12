@@ -1,0 +1,260 @@
+﻿add_namespace = DEN_starting_tree
+
+# Fairytale Gone Bust
+country_event = {
+	id = DEN_starting_tree.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.1" }
+	title = DEN_starting_tree.1.t
+	desc = DEN_starting_tree.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.1.a
+	}
+}
+
+# The Briefing Room
+country_event = {
+	id = DEN_starting_tree.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.2" }
+	title = DEN_starting_tree.2.t
+	desc = DEN_starting_tree.2.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.2.a
+		DEN_regional_resistance_initial = yes
+	}
+}
+
+# NOT NAMED
+country_event = {
+	id = DEN_starting_tree.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.3" }
+	title = DEN_starting_tree.3.t
+	desc = DEN_starting_tree.3.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.3.a
+		add_stability = 0.05
+		add_political_power = 10
+	}
+}
+
+# The Lay Off
+country_event = {
+	id = DEN_starting_tree.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.4" }
+	title = DEN_starting_tree.4.t
+	desc = DEN_starting_tree.4.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.4.a
+		set_temp_variable = { temp_socdev_change = 5 }
+		EBF_socdev_change_administrative_efficiency_var = YES
+
+	}
+}
+
+# Refilling an Arsenal
+country_event = {
+	id = DEN_starting_tree.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.5" }
+	title = DEN_starting_tree.5.t
+	desc = DEN_starting_tree.5.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.5.a
+		set_temp_variable = { temp_socdev_change = 5 }
+		EBF_socdev_change_army_professionalism_var = YES
+		99 = {
+			set_demilitarized_zone = NO
+		}
+		set_temp_variable = { temp_faction = DEN_faction_military }
+		set_temp_variable = { temp_value = 2.5 }
+		DEN_regional_resistance_faction_power_change = yes
+
+		## Second OOB
+	}
+}
+
+#  A Demagogue’s Day to Day
+country_event = {
+	id = DEN_starting_tree.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.6" }
+	title = DEN_starting_tree.6.t
+	desc = DEN_starting_tree.6.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.6.a
+		add_stability = 0.1
+		add_political_power = 30
+		swap_ideas = {
+			remove_idea = DEN_Holger_Danske
+			add_idea = DEN_Holger_Danske_1
+		}
+	}
+}
+
+#  Lokalfred, Verdensfred
+country_event = {
+	id = DEN_starting_tree.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.7" }
+	title = DEN_starting_tree.7.t
+	desc = DEN_starting_tree.7.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.7.a
+		add_ideas = DEN_martial_law_declared
+		add_political_power = 20
+	}
+}
+
+#  The Briefing Room, Act II
+country_event = {
+	id = DEN_starting_tree.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.8" }
+	title = DEN_starting_tree.8.t
+	desc = DEN_starting_tree.8.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.8.a
+		DEN_regional_resistance_broken = yes
+	}
+}
+
+#  Freezing the Treasury
+country_event = {
+	id = DEN_starting_tree.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.9" }
+	title = DEN_starting_tree.9.t
+	desc = DEN_starting_tree.9.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.9.a
+		add_ideas = DEN_treasury_frozen
+		add_political_power = 20
+		add_stability = -0.05
+		hidden_effect = {
+			country_lock_all_division_template = yes
+		}
+		set_temp_variable = { temp_faction = DEN_faction_administration }
+		set_temp_variable = { temp_value = -10 }
+		DEN_regional_resistance_faction_power_change = yes
+	}
+}
+
+#  “Tunes of War”
+country_event = {
+	id = DEN_starting_tree.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.10" }
+	title = DEN_starting_tree.10.t
+	desc = DEN_starting_tree.10.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.10.a
+		remove_ideas = DEN_treasury_frozen
+		#TODO allow recruitment of divisions
+		set_temp_variable = { temp_faction = DEN_faction_military }
+		set_temp_variable = { temp_value = -2.5 }
+		DEN_regional_resistance_faction_power_change = yes
+		set_temp_variable = { temp_faction = DEN_faction_stability }
+		set_temp_variable = { temp_value = -2.5 }
+		DEN_regional_resistance_faction_power_change = yes
+		add_political_power = 40
+		set_temp_variable = { temp_socdev_change = 50 }
+		EBF_socdev_change_economic_health_var = YES
+	}
+}
+
+#  Pit of Snakes
+country_event = {
+	id = DEN_starting_tree.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.11" }
+	title = DEN_starting_tree.11.t
+	desc = DEN_starting_tree.11.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.11.a
+		add_stability = -0.25
+		add_political_power = 5
+		set_temp_variable = { temp_socdev_change = 25 }
+		EBF_socdev_change_economic_health_var = YES
+		hidden_effect = {
+			country_lock_all_division_template = NO
+		}
+		swap_ideas = {
+			remove_idea = DEN_treasury_frozen
+			add_idea = DEN_food_struggles
+		}
+	}
+}
+
+#  A Stroll Downtown
+country_event = {
+	id = DEN_starting_tree.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.12" }
+	title = DEN_starting_tree.12.t
+	desc = DEN_starting_tree.12.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.12.a
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = -0.05
+		}
+		set_temp_variable = { temp_faction = DEN_faction_administration }
+		set_temp_variable = { temp_value = -3 }
+		DEN_regional_resistance_faction_power_change = yes
+	}
+}
+
+#  UNNAME
+country_event = {
+	id = DEN_starting_tree.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event DEN_starting_tree.13" }
+	title = DEN_starting_tree.13.t
+	desc = DEN_starting_tree.13.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = DEN_starting_tree.13.a
+		add_political_power = -80
+		add_stability = -0.10
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = -0.05
+		}
+		set_temp_variable = { temp_socdev_change = -50 }
+		EBF_socdev_change_administrative_efficiency_var = YES
+		set_temp_variable = { temp_socdev_change = -5 }
+		EBF_socdev_change_economic_health_var = YES
+		custom_effect_tooltip = DEN_starting_tree13_tt
+		hidden_effect = {
+			load_focus_tree = EBF_denmark_election_tree
+		}
+	}
+}

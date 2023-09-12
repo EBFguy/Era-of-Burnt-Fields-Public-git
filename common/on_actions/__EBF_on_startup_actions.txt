@@ -1,0 +1,176 @@
+on_actions = {#FIRST FILE LOADED FOR SIMPLICITY
+    on_startup = {
+        effect = {    
+            every_country = {
+                limit = { is_in_faction_with = IRA }
+                add_to_array = { global.IRA_GU_faction = THIS }
+                add_to_array = { global.GU_contender = THIS }
+                add_to_war = {
+                    targeted_alliance = IRA
+                    enemy = SAU
+                }
+            }
+            every_country = {
+                limit = { is_in_faction_with = SAU }
+                add_to_array = { global.SAU_GCC_faction = THIS }
+                add_to_array = { global.GCC_contender = THIS }
+                every_country = {
+                    limit = { is_in_faction_with = IRA }
+                    add_to_war = {
+                        targeted_alliance = IRA
+                        enemy = PREV
+                    }
+                }
+            }
+            every_country = {
+                limit = { is_in_faction_with = IRA }
+                every_country = {
+                    limit = { is_in_faction_with = SAU }
+                    add_to_war = {
+                        targeted_alliance = SAU
+                        enemy = PREV
+                    }
+                }
+            }   
+            every_country = {
+                add_ideas = EBF_energy_outage_stage_0
+                add_ideas = EBF_energy_consump_norm
+                add_ideas = EBF_neutral_ethos
+            }
+            GRN = { #START UP PAIN
+                EBF_assorted_monthly_pulses = YES
+                EBF_assorted_weekly_pulses = YES
+            }
+            228 = {
+				add_dynamic_modifier = { 
+					modifier = donbas_autonomous_republic
+				} 
+			}
+            227 = {
+				add_dynamic_modifier = { 
+					modifier = donbas_autonomous_republic
+				} 
+			}
+
+            39 = {
+                remove_core_of = VNC
+            }
+
+            160 = {
+                remove_core_of = VNC
+            }  
+
+            1067 = {
+                remove_core_of = VNC
+            }  
+
+            159 = {
+                remove_core_of = VNC
+            }  
+
+            VNC = {
+                set_variable = {VNC_force_cap^0 = 5}
+                set_variable = {VNC_force_cap^1 = 2}
+                set_variable = {VNC_force_cap^2 = 7}
+                set_variable = {VNC_force_cap^3 = 1}
+                set_division_force_allow_recruiting = {
+                    division_template = "Standard Self Defence Force"
+                }
+                set_division_force_allow_recruiting = {
+                    division_template = "Elite Self Defence Force"
+                }
+                set_division_force_allow_recruiting = {
+                    division_template = "Reserve Self Defence Force"
+                }
+                set_division_template_cap = { 
+                    division_template = "Standard Self Defence Force" 
+                    division_cap = VNC_force_cap^0
+                }
+                set_division_template_cap = { 
+                    division_template = "Elite Self Defence Force" 
+                    division_cap = VNC_force_cap^1
+                }
+                set_division_template_cap = { 
+                    division_template = "Reserve Self Defence Force" 
+                    division_cap = VNC_force_cap^2
+                }
+                set_division_template_cap = { 
+                    division_template = "New Venice Tank Force" 
+                    division_cap = VNC_force_cap^3
+                }
+            }
+
+            OCC = {
+                OCC_worker_house_init_values = yes
+            }
+            
+
+
+            USA = {
+                add_named_threat = {
+                    threat = 5
+                    name = usa_aftermath_of_september_7
+                }
+            }  
+            
+            PRC = {
+                add_named_threat = {
+                    threat = 10
+                    name = prc_wanning_superpower
+                }
+            }   
+            
+            BRU = {
+                add_named_threat = {
+                    threat = 10
+                    name = ERU_collapse_of_eurofed
+                }
+            }        
+
+            RUS = {
+                add_named_threat = {
+                    threat = 5
+                    name = RUS_suspension_of_democracy
+                }
+            } 
+
+            BRA = {
+                country_event = { #June 12th
+                    id = brazil_skeleton.1
+                    days = 162 
+                }
+                country_event = { #December 18th
+                    id = brazil_skeleton.2
+                    days = 351 
+                }
+                country_event = { #Febuary 7th 2062
+                    id = brazil_skeleton.3
+                    days = 402 
+                }
+            }
+
+            AST = {
+                country_event = { #May 9th
+                    id = commonwealth_skeleton.1000
+                    days = 128 
+                }
+            }
+
+            PHI = {
+                country_event = { #8 October 2064, Phi revolution
+                    id = PHI_skeleton.1
+                    days = 1376  
+                }
+            }
+
+			JAP = {
+				JAP_setup_starting_tags = yes
+			}
+
+			# Global effects here
+			ANA = {
+				warlord_europe_initial = yes
+			}
+        }
+    }
+}

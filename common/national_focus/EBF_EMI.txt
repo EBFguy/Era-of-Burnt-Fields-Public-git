@@ -1,0 +1,13 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_Italian_Popular_Republic_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EMI
+		}
+	}
+	default = no
+	shared_focus = EMI_Raise_the_Curtain
+}

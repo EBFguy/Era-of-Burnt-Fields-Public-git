@@ -1,0 +1,321 @@
+#Shared Focuses
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	CHAPTER 1: BEGINNING CHAPTER
+#	PHASE 0: BEGINNING TREE
+
+#############
+# CHAPTER 1 #
+#############
+
+# PHASE 0 #
+shared_focus = { #
+	id = OCC_the_city_communism_was_found
+	icon = GFX_focus_the_city_communism_was_found
+	cost = 14
+	x = 8
+	y = 0
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.1  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_tale_collective_failure
+	icon = GFX_focus_tale_collective_failure
+	cost = 14
+	x = 0
+	y = 1
+	prerequisite = {
+		focus = OCC_the_city_communism_was_found
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.2  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_secure_the_grounds
+	icon = GFX_focus_secure_the_grounds
+	cost = 7
+	x = -2
+	y = 2
+	prerequisite = {
+		focus = OCC_tale_collective_failure
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		add_stability = 0.1
+		add_political_power = 25
+	}
+}
+
+shared_focus = { #
+	id = OCC_theatrics_for_the_workers
+	icon = GFX_focus_theatrics_for_the_workers
+	cost = 7
+	x = -2
+	y = 3
+	prerequisite = {
+		focus = OCC_secure_the_grounds
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.4  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_call_upon_the_members
+	icon = GFX_focus_call_upon_the_members
+	cost = 7
+	x = 0
+	y = 2
+	prerequisite = {
+		focus = OCC_tale_collective_failure
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.5  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_politburo_undivided
+	icon = GFX_focus_politburo_undivided
+	cost = 7
+	x = 0
+	y = 3
+	prerequisite = {
+		focus = OCC_call_upon_the_members
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		set_temp_variable = { t_change = 10 }
+		OCC_worker_house_change_unity = YES
+	}
+}
+
+shared_focus = { #
+	id = OCC_ambitions_laid_to_rest
+	icon = GFX_focus_ambitions_laid_to_rest
+	cost = 7
+	x = 2
+	y = 2
+	prerequisite = {
+		focus = OCC_tale_collective_failure
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		set_temp_variable = { t_change = -4 }
+		set_temp_variable = { t_index = 0 }
+		OCC_worker_house_change_tick_values = YES
+		set_temp_variable = { t_change = -2 }
+		set_temp_variable = { t_index = 1 }
+		OCC_worker_house_change_tick_values = YES
+		set_temp_variable = { t_change = -5 }
+		set_temp_variable = { t_index = 2 }
+		OCC_worker_house_change_tick_values = YES
+	}
+}
+
+shared_focus = { #
+	id = OCC_smiles_and_pleasantries
+	icon = GFX_focus_smiles_and_pleasantries
+	cost = 7
+	x = 2
+	y = 3
+	prerequisite = {
+		focus = OCC_ambitions_laid_to_rest
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		remove_ideas = OCC_growing_power_games
+	}
+}
+
+shared_focus = { #
+	id = OCC_awaken_common_workers
+	icon = GFX_focus_awaken_common_workers
+	cost = 14
+	x = 0
+	y = 4
+	prerequisite = {
+		focus = OCC_smiles_and_pleasantries
+	}
+	prerequisite = {
+		focus = OCC_politburo_undivided
+	}
+	prerequisite = {
+		focus = OCC_theatrics_for_the_workers
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.5  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_find_your_utopia
+	icon = GFX_focus_find_your_utopia
+	cost = 7
+	x = 0
+	y = 5
+	prerequisite = {
+		focus = OCC_awaken_common_workers
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.6  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_utopia_in_flames
+	icon = GFX_focus_utopia_in_flames
+	cost = 7
+	x = 0
+	y = 7
+	allow_branch = {
+		has_country_flag = OCC_utopia_crisis_begins
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.8 hours = 6 }
+	}
+}
+
+shared_focus = { #
+	id = OCC_the_workers_cloth_brings_comfort
+	icon = GFX_focus_the_workers_cloth_brings_comfort
+	cost = 0
+	x = -3
+	y = 8
+	available = {
+		always = NO
+	}
+	prerequisite = {
+		focus = OCC_utopia_in_flames
+	}
+	mutually_exclusive = {
+		focus = OCC_stand_firm_to_vision
+	}
+	mutually_exclusive = {
+		focus = OCC_new_vision_of_utopia
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		custom_effect_tooltip = OCC_the_workers_cloth_brings_comfort_tt
+	}
+}
+
+shared_focus = { #
+	id = OCC_their_salvation_comes_at_last
+	icon = GFX_focus_their_salvation_comes_at_last
+	cost = 7
+	x = -4
+	y = 9
+	prerequisite = {
+		focus = OCC_the_workers_cloth_brings_comfort
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.10  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_stand_firm_to_vision
+	icon = GFX_focus_stand_firm_to_vision
+	cost = 0
+	x = 0
+	y = 8
+	prerequisite = {
+		focus = OCC_utopia_in_flames
+	}
+	available = {
+		always = NO
+	}
+	mutually_exclusive = {
+		focus = OCC_the_workers_cloth_brings_comfort
+	}
+	mutually_exclusive = {
+		focus = OCC_new_vision_of_utopia
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		custom_effect_tooltip = OCC_stand_firm_to_vision_tt
+	}
+}
+
+shared_focus = { #
+	id = OCC_vision_will_return
+	icon = GFX_focus_vision_will_return
+	cost = 7
+	x = 0
+	y = 9
+	prerequisite = {
+		focus = OCC_stand_firm_to_vision
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.11  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_new_vision_of_utopia
+	icon = GFX_focus_new_vision_of_utopia
+	cost = 0
+	x = 3
+	y = 8
+	prerequisite = {
+		focus = OCC_utopia_in_flames
+	}
+	available = {
+		always = NO
+	}
+	mutually_exclusive = {
+		focus = OCC_stand_firm_to_vision
+	}
+	mutually_exclusive = {
+		focus = OCC_the_workers_cloth_brings_comfort
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		custom_effect_tooltip = OCC_new_vision_of_utopia_tt
+	}
+}
+
+shared_focus = { #
+	id = OCC_new_day_dawns
+	icon = GFX_focus_new_day_dawns
+	cost = 7
+	x = 4
+	y = 9
+	prerequisite = {
+		focus = OCC_new_vision_of_utopia
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.12  hours = 6}
+	}
+}
+
+shared_focus = { #
+	id = OCC_chair_occupied
+	icon = GFX_focus_chair_occupied
+	cost = 7
+	x = 0
+	y = 10
+	prerequisite = {
+		focus = OCC_new_day_dawns
+		focus = OCC_vision_will_return
+		focus = OCC_their_salvation_comes_at_last
+	}
+	relative_position_id = OCC_the_city_communism_was_found
+	completion_reward = {
+		country_event = { id = OCC_starting_tree.13  hours = 6}
+	}
+}

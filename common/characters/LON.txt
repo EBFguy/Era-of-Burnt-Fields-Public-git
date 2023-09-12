@@ -1,0 +1,87 @@
+characters = {
+	LON_EO12_Echo = {
+		name = LON_EO12_Echo
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_Echo_Animated_LON"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_machine_controlled_society_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_E012_ECHO_DESC"
+		}
+	}
+	LON_ewan_campbell = {
+		name = LON_ewan_campbell
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = LON_ewan_campbell_min
+			allowed = { original_tag = LON }
+			traits = { minister_friendly_techie }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	LON_defence_strategy_routines = {
+		name = LON_defence_strategy_routines
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = LON_defence_strategy_routines_min
+			allowed = { original_tag = LON }
+			traits = { minister_cold_machine}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	LON_outreach_strategy_routines = {
+		name = LON_outreach_strategy_routines
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = LON_outreach_strategy_routines_min
+			allowed = { original_tag = LON }
+			traits = { minister_cold_machine}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	LON_localnet_overseer_routines = {
+		name = LON_localnet_overseer_routines
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = LON_localnet_overseer_routines_min
+			allowed = { original_tag = LON }
+			traits = { minister_cold_machine}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+}

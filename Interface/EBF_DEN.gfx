@@ -1,0 +1,128 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_faction_icon_1"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/administration.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_faction_icon_2"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/army.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_faction_icon_3"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/holger_danske.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_faction_icon_4"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/stability.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_power_bar"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/power_bar.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_short_power_bar"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/short_power_bar.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_denmark_broken"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/denmark_broken.png"
+	}
+	spriteType = {
+		name = "GFX_DEN_regional_resistance_denmark_normal"
+		textureFile = "gfx/interface/EBF_DEN/regional_resistance/denmark_normal.png"
+	}
+
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_power_bar_1"
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/power_bar_administration.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/power_bar_empty.png"
+		size = { x = 43 y = 160 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_power_bar_2"
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/power_bar_military.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/short_power_bar_empty.png"
+		size = { x = 43 y = 121 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_power_bar_3"
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/power_bar_rebels.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/short_power_bar_empty.png"
+		size = { x = 43 y = 121 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_power_bar_4"
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/power_bar_stability.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/power_bar_empty.png"
+		size = { x = 43 y = 160 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = no
+	}
+
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_map_1"
+		color = { 0.040 0.048 0 0 }
+		colortwo = { 0 0 0 0 }
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/capital.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/colour.png"
+		size = { x = 40 y = 48 }
+		effectFile = "gfx/FX/DEN_shader_1.lua"
+		steps = 2000
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_map_2"
+		color = { 0.159 0.093 0 0 }
+		colortwo = { 0 0 0 0 }
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/central_jutland.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/colour.png"
+		size = { x = 159 y = 93 }
+		effectFile = "gfx/FX/DEN_shader_1.lua"
+		steps = 2000
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_map_3"
+		color = { 0.079 0.090 0 0 }
+		colortwo = { 0 0 0 0 }
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/north_jutland.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/colour.png"
+		size = { x = 79 y = 90 }
+		effectFile = "gfx/FX/DEN_shader_1.lua"
+		steps = 2000
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_map_4"
+		color = { 0.163 0.096 0 0 }
+		colortwo = { 0 0 0 0 }
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/south_denmark.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/colour.png"
+		size = { x = 163 y = 96 }
+		effectFile = "gfx/FX/DEN_shader_1.lua"
+		steps = 2000
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_map_5"
+		color = { 0.087 0.077 0 0 }
+		colortwo = { 0 0 0 0 }
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/zealand.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/colour.png"
+		size = { x = 87 y = 77 }
+		effectFile = "gfx/FX/DEN_shader_1.lua"
+		steps = 2000
+	}
+	progressbartype = {
+		name = "GFX_DEN_regional_resistance_map_all"
+		color = { 0.255 0.238 0 0 }
+		colortwo = { 0 0 0 0 }
+		textureFile1 = "gfx/interface/EBF_DEN/regional_resistance/all.png"
+		textureFile2 = "gfx/interface/EBF_DEN/regional_resistance/colour.png"
+		size = { x = 255 y = 238 }
+		effectFile = "gfx/FX/DEN_shader_1.lua"
+		steps = 2000
+	}
+}

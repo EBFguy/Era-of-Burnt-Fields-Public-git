@@ -1,0 +1,22 @@
+
+state={
+	id=633
+	name="STATE_633"
+	manpower=267166
+	
+	state_category = small_island
+
+	history={
+		add_core_of = PAP
+		owner = PAP
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		13042 12315 4468 7512 7487
+	}
+}

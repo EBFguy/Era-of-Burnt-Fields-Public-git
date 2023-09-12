@@ -1,0 +1,15 @@
+characters = {
+	REM_cliff_haynes = {
+		name = REM_cliff_haynes
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = reductivism_fatalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CLIFF_HAYNES_DESC"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=890
+	name="STATE_890"
+	manpower = 21056
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = MAG
+		owner = MAG		
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		10875 5012 7979 4920 13270 13271 10779 1095 12711 10749
+	}
+}

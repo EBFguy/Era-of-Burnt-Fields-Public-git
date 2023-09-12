@@ -1,0 +1,26 @@
+
+state={
+	id=1
+	name="STATE_1" # Corsica
+	manpower = 467150
+	
+	state_category = town
+
+	history={
+		add_core_of = SAR
+		owner = SAR
+		victory_points = { 3838 1 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			3838 = {
+				naval_base = 3
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3838 9851 11804 
+	}
+}

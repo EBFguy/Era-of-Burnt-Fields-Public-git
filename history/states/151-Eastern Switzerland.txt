@@ -1,0 +1,26 @@
+
+state={
+	id=151
+	name="STATE_151"
+	manpower = 9293909
+	local_supplies = 0.0 
+	
+	state_category = large_city
+
+	history={
+		add_core_of = GRL
+		owner = GRL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		victory_points = {
+			663 10 
+		}
+		
+	}
+
+	provinces={
+		658 661 663 3641 3660 3662 9600 11601 11623 
+	}
+}

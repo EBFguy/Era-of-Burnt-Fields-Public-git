@@ -1,0 +1,25 @@
+state={
+	id=1066
+	name="STATE_1066"
+	manpower = 473116
+	local_supplies = 0.0 
+	state_category = pastoral
+
+	history={
+		add_core_of = PIE
+		owner = PIE
+		victory_points = {
+			778 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+	}
+
+	provinces={
+		611 9745 778
+	}
+}

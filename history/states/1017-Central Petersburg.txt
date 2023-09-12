@@ -1,0 +1,31 @@
+
+state={
+	id=1017
+	name="STATE_1017"
+	manpower = 10
+	
+	state_category = metropolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = RUS
+		owner = RUS
+		victory_points = {
+			13316 30.0
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 6
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 10
+			13316 ={
+				naval_base = 10
+				coastal_bunker = 5
+			}
+		}
+	}
+
+	provinces={
+		13316 13318 13319 13315
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	NRM_Chloé_Cuvier = {
+		name = "Chloé Cuvier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRM/Portrait_NRM_Chloé_Cuvier.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_laboratory_state_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CHLOÉ_CUVIER_DESC"
+		}
+	}
+}

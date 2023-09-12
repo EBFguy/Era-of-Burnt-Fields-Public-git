@@ -1,0 +1,107 @@
+﻿l_english:
+ #NAME#
+ JAP:0 "Japan"
+ JAP_DEF:0 "The State of Japan"
+ JAP_ADJ:0 "Japanese"
+
+ JAP_EOH:0 "EOH"
+ JAP_EOH_DEF:0 "The End of Humanity Transmission"
+ JAP_EOH_ADJ:0 "Eohite"
+
+ PRJ:0 "People's Republic of Japan"
+ PRJ_DEF:0 "The People's Republic of Japan"
+ PRJ_ADJ:0 "Japanese" 
+
+ SHI:0 "Shikoku"
+ SHI_DEF:0 "The Republic of Shikoku"
+ SHI_ADJ:0 "Japanese" 
+
+ NRJ:0 "National Republic of Japan"
+ NRJ_DEF:0 "The National Republic of Japan"
+ NRJ_ADJ:0 "Japanese" 
+
+ SCE:0 "Scions of the End"
+ SCE_DEF:0 "The Scions of the End"
+ SCE_ADJ:0 "Japanese" 
+
+ TVN:0 "Venerators"
+ TVN_DEF:0 "The Venerators"
+ TVN_ADJ:0 "Japanese" 
+
+ INT:0 "Interlinked"
+ INT_DEF:0 "The Interlinked"
+ INT_ADJ:0 "Japanese" 
+
+ VEA:0 "Voice of the Earth"
+ VEA_DEF:0 "The Voice of the Earth"
+ VEA_ADJ:0 "Japanese" 
+
+
+ #COSMETICS
+ EOH_forlorn_children:0 "Forlorn Children"
+ EOH_forlorn_children_DEF:0 "The Forlorn Children"
+ EOH_forlorn_children_ADJ:0 "Children of EOH" 
+
+ #PARTIES
+ EOH_technoutopianism_party:0 "EOHs Transmission"
+ EOH_technoutopianism_party_long:0 "The End of Humanity Transmission" 
+
+ JAP_liberalism_party:0 "CDPJ"
+ JAP_liberalism_party_long:0 "Constitutional Democratic Party of Japan" 
+
+ PRJ_libertarian_socialism_party:0 "JCP"
+ PRJ_libertarian_socialism_party_long:0 "Japanese Communist Party" 
+ PRJ_authoritarian_socialism_party:0 "TJCP"
+ PRJ_authoritarian_socialism_party_long:0 "True Japanese Communist Party" 
+ PRJ_totalitarian_socialism_party:0 "JCP - Hardliners"
+ PRJ_totalitarian_socialism_party_long:0 "True Japanese Communist Party - Hardliners" 
+
+ SHI_anocracy_party:0 "IPP"
+ SHI_anocracy_party_long:0 "Isolation & Protection Party"
+
+ NRJ_autocracy_party:0 "NRG"
+ NRJ_autocracy_party_long:0 "National Revitalization Government"
+
+ SCE_technoutopianism_party:0 "Children of Humanity"
+ SCE_technoutopianism_party_long:0 "The Children of Humanity" 
+
+ TVN_technoutopianism_party:0 "Venerators of the Transmissions"
+ TVN_technoutopianism_party_long:0 "The Venerators of the Transmissions" 
+
+ INT_technoutopianism_party:0 "Interlinked"
+ INT_technoutopianism_party_long:0 "Interlinked" 
+
+ VEA_reductivism_party:0 "Children of the Earth"
+ VEA_reductivism_party_long:0 "The Children of the Earth" 
+ #CHARACHTERS#
+ JAP_Uranishi_Yukichi:0 "Uranishi Yukichi"
+ POLITICS_URANISHI_YUKICHI_DESC:0 "§YPrime Minister of Japan§!\n§W--------------§!\n"
+ JAP_end_of_humanity:0 "EOH"
+ JAP_end_of_humanity_desc:0 "§YFractured Artifical Intelligence§!\n§W--------------§!\n"
+ PRJ_Okimoto_Shuichi:0 "Okimoto Shuichi"
+ POLITICS_OKIMOTO_SHICHI_DESC:0 "§YGeneral Secretary of The Japanese Communist Party§!\n§W--------------§!\n"
+ SHI_Yukawa_Namika:0 "Yukawa Namika"
+ POLITICS_YUKAWA_NAMIKA_DESC:0 "§YProtector of the Peace§!\n§W--------------§!\n"
+ NRJ_Matsuyama_Kojiro:0 "Matsuyama Kojiro"
+ POLITICS_MATSUYAMA_KOJIRO_DESC:0 "§YPresident of Japan§!\n§W--------------§!\n"
+ SCE_Tominaga_Akko:0 "Tominaga Akko"
+ POLITICS_TOMINAGA_AKKO_DESC:0 "§YFirst Child of the Transmission§!\n§W--------------§!\n"
+ TVN_Hashira_Tango:0 "Hashira Tango"
+ POLITICS_HASHIRRA_TANGO_DESC:0 "§YHis Most Noble Collector and Archiver of the Great One's Transmissions§!\n§W--------------§!\n"
+ INT_Interconnection_AI:0 "Interlinked"
+ POLITICS_INTERCONNECTION_AI_DESC:0 "§6Within Wires, Interlinked§!\n§W--------------§!\n"
+ VEA_Uesato_Tokutomi:0 "Uesato Tokutomi"
+ POLITICS_UESATO_TOKUTOMI_AI_DESC:0 "§6The Earth's Guide§!\n§W--------------§!\n"
+
+ #FOCUSES#
+
+ 
+ 
+
+ #IDEAS#
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#

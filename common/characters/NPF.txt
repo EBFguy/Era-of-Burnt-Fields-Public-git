@@ -1,0 +1,35 @@
+characters = {
+	NPF_Cid_Guerra = {
+		name = NPF_Cid_Guerra
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NPF/Portrait_NPF_Cid_Guerra.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_marxism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_Cid_Guerra_desc"
+		}
+	}
+	NPF_Ivo_Santoro = {
+		name = NPF_Ivo_Santoro
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = NPF_Ivo_Santoro_min
+			allowed = { original_tag = NPF }
+			traits = {
+				minister_pragmatic_utilitarian
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	ATU_Julio_Durán = {
+		name = "Julio Durán"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ATU/Portrait_ATU_Julio_Durán.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_fundamentalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JULIO_DURAN_DESC"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+state={
+	id=604
+	name="STATE_604"
+
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		victory_points = {
+			7940 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		4914 4964 7940 8018 8037 12899 13390 
+	}
+	manpower=4136595
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

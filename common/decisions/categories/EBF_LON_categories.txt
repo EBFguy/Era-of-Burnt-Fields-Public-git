@@ -1,0 +1,24 @@
+EBF_LON_debug_decisions = {
+	icon = generic_research
+	allowed = {
+		tag = LON
+	}
+	visible = {
+		is_debug = yes
+	}
+	visible_when_empty = YES
+	priority = 1
+}
+
+EBF_LON_logic_consumption_decisions = {
+	icon = generic_research
+	scripted_gui = LON_Logic_Consumption_Decision_GUI
+	allowed = {
+		tag = LON
+	}
+#	visible = {
+#		has_country_flag = EBF_LON_logic_consumption_unlocked
+#	}
+	visible_when_empty = yes
+	priority = 100000000
+}	

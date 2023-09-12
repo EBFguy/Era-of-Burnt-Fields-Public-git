@@ -1,0 +1,27 @@
+state={
+	id=795
+	name="STATE_795"
+	
+	history={
+		add_core_of = POR
+		owner = POR
+		victory_points = {
+			924 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+
+	}
+
+	provinces={
+		844 3926 11768 924
+	}
+	manpower=297453
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies = 0.0 
+}

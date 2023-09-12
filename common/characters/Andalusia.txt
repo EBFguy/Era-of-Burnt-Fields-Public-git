@@ -1,0 +1,15 @@
+characters = {
+	ADA_Bruno_Martínez = {
+		name = "Bruno Martínez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ADA/Portrait_ADA_Bruno_Martínez.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_BRUNO_MARTINEZ_DESC"
+		}
+	}
+}

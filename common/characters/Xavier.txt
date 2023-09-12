@@ -1,0 +1,15 @@
+characters = {
+	XAV_Xavier = {
+		name = "Xavier"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/XAV/Portrait_XAV_Xavier.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_autocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_XAVIER_DESC"
+		}
+	}
+}

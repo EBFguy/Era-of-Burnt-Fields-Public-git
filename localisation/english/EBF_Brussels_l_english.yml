@@ -1,0 +1,118 @@
+﻿l_english:
+ #PARTIES
+ BRU_anocracy_party:0 "ESG - Stefan Alliance"
+ BRU_anocracy_party_long:0 "European Standard Government - Stefan Alliance"
+ BRU_fascism_party:0 "Philips' Armed Forces"
+ BRU_fascism_party_long:0 "Philips' Armed Forces"
+ BRU_autocracy_party:0 "CAFFF"
+ BRU_autocracy_party_long:0 "Combines Armed Forces of the European Federation"
+ BRU_conservatism_party:0 "ESG - EuroConservatives"
+ BRU_conservatism_party_long:0 "European Standard Government - EuroConservatives"
+ BRU_liberal_conservatism_party:0 "ESG - EuroCentrists"
+ BRU_liberal_conservatism_party_long:0 "European Standard Government - EuroCentrists"
+ BRU_liberalism_party:0 "ESG - EuroLiberals"
+ BRU_liberalism_party_long:0 "European Standard Government - EuroLiberals"
+ BRU_progressivism_party:0 "ESG - EuroProgressives"
+ BRU_progressivism_party_long:0 "European Standard Government - EuroProgressives"
+ BRU_libertarian_socialism_party:0 "Noncompliants - PEP"
+ BRU_libertarian_socialism_party_long:0 "Noncompliants - People's European Party"
+ BRU_technoutopianism_party:0 "Noncompliants - UGVP"
+ BRU_technoutopianism_party_long:0 "Noncompliants - Unity and Good Values Party"
+
+ #CHARACHTERS#
+ BRU_Stefan_Weiss:0 "Stefan Weiss"
+ BRU_Zach_Philips:0 "Zach Philips"
+ BRU_Patrick_Darcey:0 "Patrick Darcey"
+ BRU_Josiane_Blanc:0 "Josiane Blanc"
+ BRU_Magdi_Leonard_Kyenge:0 "Magdi-Léonard Kyenge"
+ BRU_Sigmund_Meyer:0 "Sigmund Meyer"
+ BRU_Anna_Koen:0 "Anna Koen"
+ BRU_Adriana_Rubio:0 "Adriana Rubio"
+ BRU_Jasper_Dijk:0 "Jasper Dijk"
+ BRU_Alincia_Brune:0 "Alincia Brune"
+ BRU_Liesbeth_Martens:0 "Liesbeth Martens"
+
+ BRU_the_last_dreamer:0 "The Last Dreamer"
+
+ BRU_Alincia_Brune_min_desc:0 "§YVice-President of the European Federation\nEuroStructure\nSidestepping Politician§!\n\n\n\n\n\n\nGFX_idea_BRU_Alincia_Brune_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ BRU_Patrick_Darcey_min_desc:0 "§YChief of Staff of the European Armed Forces\nEuroStructure\nIsolated Suspect§!\n\n\n\n\n\n\nGFX_idea_BRU_Patrick_Darcey_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ BRU_Generic_Vacant_pi_1_min_desc:0 "§YPrime Minister of the European Federation§!"
+ BRU_Liesbeth_Martens_min_desc:0 "§YHero of the Federation\nEuroStructure\nApolitical Figurehead§!\n\n\n\n\n\n\nGFX_idea_BRU_Liesbeth_Martens_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+
+ #IDEAS#
+ BRU_A_Long_Gone_Federation:0 "A Long Gone Federation"
+ BRU_A_Long_Gone_Federation_desc:0 ""
+ BRU_Against_The_Wall:0 "Against the Wall"
+ BRU_Against_The_Wall_desc:0 ""
+ BRU_The_Eurostructure:0 "The EuroStructure"
+ BRU_The_Eurostructure_desc:0 " "
+ BRU_A_Call_To_Civility: "A Call To Civility"
+ BRU_A_Call_To_Civility_desc: " "
+ BRU_Showing_Our_Might: "Showing Our Might"
+ BRU_Showing_Our_Might_desc: " "
+ BRU_A_Campaign_Of_Hope: "A Campaign Of Hope "
+ BRU_A_Campaign_Of_Hope_desc: " "
+ BRU_Grit_Against_The_Pain: "Grit Against The Pain"
+ BRU_Grit_Against_The_Pain_desc: " "
+ BRU_Fight_For_Europe: "Fight For Europe"
+ BRU_Fight_For_Europe_desc: " "
+ BRU_Fight_For_Europe2: "Fight For Europe"
+ BRU_Fight_For_Europe2_desc: " "
+
+
+
+
+
+
+
+ #FOCUSES# 
+
+ BRU_Last_Cough_Of_Sick_Man: "The Last Cough Of Sick Man"
+ BRU_Last_Cough_Of_Sick_Man_desc: ""
+ BRU_A_Dream_Past: "A Dream Past"
+ BRU_A_Dream_Past_desc: ""
+ BRU_The_Old_Industries: "The Old Industries"
+ BRU_The_Old_Industries_desc: ""
+ BRU_Were_All_Europeans: "We're All European"
+ BRU_Were_All_Europeans_desc: ""
+ BRU_The_Might_Of_Europes_Heart: "The Might Of Europe's Heart"
+ BRU_The_Might_Of_Europes_Heart_desc: ""
+ BRU_The_Might_Of_Europeans: "The Might Of Europeans"
+ BRU_The_Might_Of_Europeans_desc: ""
+ BRU_A_Dream_Now: "A Dream Now"
+ BRU_A_Dream_Now_desc: ""
+ BRU_Keep_On_Going: "Keep On Going"
+ BRU_Keep_On_Going_desc: ""
+ BRU_Europe_Lives_With_Us: "Europe Lives With Us"
+ BRU_Europe_Lives_With_Us_desc: ""
+ BRU_Grit_Against_The_Pain: "Grit Against The Pain"
+ BRU_Grit_Against_The_Pain_desc: ""
+ BRU_Fight_For_Europe: "Fight For Europe"
+ BRU_Fight_For_Europe_desc: ""
+ BRU_A_Dream_To_Fight: "A Dream To Fight"
+ BRU_A_Dream_To_Fight_desc: ""
+
+ #EVENTS# 
+
+ BRU_Intro.1.t: "A Quiet Meeting"
+ BRU_Intro.1.d: "kitty :D"
+ BRU_Intro.1.a: "doggy :D"
+
+ BRU_Intro.2.t: "An Extra Meal"
+ BRU_Intro.2.d: "kitty :D"
+ BRU_Intro.2.a: "doggy :D"
+
+ BRU_Intro.3.t: "Fighting The Old-Fashioned Way"
+ BRU_Intro.3.d: "kitty :D"
+ BRU_Intro.3.a: "doggy :D"
+ 
+
+
+
+
+
+
+
+
+ #MISC#
+

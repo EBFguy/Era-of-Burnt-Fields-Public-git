@@ -1,0 +1,2814 @@
+## Variables!!!! Many of them!!!!!!!!!
+## Starting Religions, Cultures and ecodecay!!!!
+#Example:
+
+#Example State
+# set_variable = { 0.religion = ? }	The "0." Corresponds to the state in question, whilst the "=?" corresponds to the desired religion, for a list of religions look in EBF_Extrainfo_l_english.yml
+# set_variable = { 0.culture = ? }	^ for a list of cultures look in EBF_Extrainfo_l_english.yml
+# set_variable = { 0.ecodecay = ? }	 ^ for a list of ecodecays look in EBF_Extrainfo_l_english.yml
+EBF_setup_statelore = {
+
+	###CULTURES###
+
+	#Yankee Culture
+	set_variable = { 358.culture = 1 }	
+	set_variable = { 359.culture = 1 }	
+	set_variable = { 360.culture = 1 }
+	set_variable = { 361.culture = 1 }	
+	set_variable = { 901.culture = 1 }	
+	set_variable = { 936.culture = 1 }
+	set_variable = { 948.culture = 1 }
+	set_variable = { 969.culture = 1 }
+	set_variable = { 970.culture = 1 }
+
+	#Hapai Culture
+	set_variable = { 923.culture = 2 } 
+
+	#Jilu Culture
+	set_variable = { 608.culture = 3 } 
+	set_variable = { 609.culture = 3 } 
+	set_variable = { 614.culture = 3 } 
+
+	#Corsican Culture
+	set_variable = { 1.culture = 4 } 
+
+	#Northern Italian Culture
+	set_variable = { 2.culture = 5 }
+	set_variable = { 39.culture = 5 }
+	set_variable = { 158.culture = 5 }
+	set_variable = { 159.culture = 5 }
+	set_variable = { 160.culture = 5 }
+	set_variable = { 161.culture = 5 }
+	set_variable = { 162.culture = 5 }
+	set_variable = { 892.culture = 5 }
+	set_variable = { 1060.culture = 5 }
+	set_variable = { 1061.culture = 5 }
+	set_variable = { 1063.culture = 5 }
+	set_variable = { 1065.culture = 5 }
+	set_variable = { 1066.culture = 5 }
+	set_variable = { 1067.culture = 5 }
+
+	#Swiss Culture
+	set_variable = { 3.culture = 6 }
+	set_variable = { 151.culture = 6 }
+	set_variable = { 891.culture = 6 }
+
+	#Austrian Culture
+	set_variable = { 4.culture = 7 }
+	set_variable = { 152.culture = 7 }
+	set_variable = { 153.culture = 7 }
+	set_variable = { 871.culture = 7 }
+	set_variable = { 872.culture = 7 }
+
+	#Polish Culture
+	set_variable = { 5.culture = 8 }
+	set_variable = { 10.culture = 8 }
+	set_variable = { 63.culture = 8 }
+	set_variable = { 66.culture = 8 }
+	set_variable = { 67.culture = 8 }
+	set_variable = { 68.culture = 8 }
+	set_variable = { 85.culture = 8 }
+	set_variable = { 86.culture = 8 }
+	set_variable = { 87.culture = 8 }
+	set_variable = { 88.culture = 8 }
+	set_variable = { 90.culture = 8 }
+	set_variable = { 92.culture = 8 }
+	set_variable = { 97.culture = 8 }
+	set_variable = { 98.culture = 8 }
+	set_variable = { 762.culture = 8 }
+	set_variable = { 807.culture = 8 }
+
+	#Benelux Disporia Culture
+	set_variable = { 6.culture = 9 }
+	set_variable = { 8.culture = 9 }
+	set_variable = { 29.culture = 9 }
+	set_variable = { 34.culture = 9 }
+	set_variable = { 35.culture = 9 }
+	set_variable = { 36.culture = 9 }
+	set_variable = { 54.culture = 9 }
+	set_variable = { 858.culture = 9 }
+	set_variable = { 859.culture = 9 }
+	set_variable = { 861.culture = 9 }
+
+	#Scottish Culture
+	set_variable = { 120.culture = 10 }
+	set_variable = { 121.culture = 10 }
+	set_variable = { 133.culture = 10 }
+	set_variable = { 136.culture = 10 }
+	set_variable = { 852.culture = 10 }
+
+	#North English
+	set_variable = { 129.culture = 11 }
+	set_variable = { 130.culture = 11 }
+	set_variable = { 131.culture = 11 }
+	set_variable = { 132.culture = 11 }
+	set_variable = { 851.culture = 11 }
+	set_variable = { 854.culture = 11 }
+	set_variable = { 855.culture = 11 }
+	set_variable = { 927.culture = 11 }	
+
+	#South English
+	set_variable = { 123.culture = 12 }	
+	set_variable = { 125.culture = 12 }	
+	set_variable = { 127.culture = 12 }	
+	set_variable = { 128.culture = 12 }	
+	set_variable = { 338.culture = 12 }	
+	set_variable = { 856.culture = 12 }	
+	set_variable = { 926.culture = 12 }	
+
+	#Londoner
+	set_variable = { 126.culture = 13 }		
+	set_variable = { 924.culture = 13 }	
+	set_variable = { 925.culture = 13 }	
+
+	#Welsh
+	set_variable = { 850.culture = 14 }		
+	set_variable = { 122.culture = 14 }	
+
+	#Irish		
+	set_variable = { 113.culture = 15 }	
+	set_variable = { 134.culture = 15 }
+	set_variable = { 135.culture = 15 }
+	set_variable = { 849.culture = 15 }	
+
+	#Ulster		
+	set_variable = { 119.culture = 16 }	
+	set_variable = { 848.culture = 16 }		
+	set_variable = { 853.culture = 16 }
+
+	#Faroese		
+	set_variable = { 337.culture = 17 }	
+
+	#Icelandic		
+	set_variable = { 100.culture = 18 }		
+
+	#MISSING DATA		
+
+
+	#French	
+	set_variable = { 7.culture = 20 }
+	set_variable = { 15.culture = 20 }
+	set_variable = { 16.culture = 20 }
+	set_variable = { 17.culture = 20 }
+	set_variable = { 18.culture = 20 }
+	set_variable = { 19.culture = 20 }
+	set_variable = { 23.culture = 20 }
+	set_variable = { 24.culture = 20 }
+	set_variable = { 25.culture = 20 }
+	set_variable = { 26.culture = 20 }
+	set_variable = { 27.culture = 20 }
+	set_variable = { 28.culture = 20 }
+	set_variable = { 30.culture = 20 }
+	set_variable = { 33.culture = 20 }
+	set_variable = { 785.culture = 20 }
+	set_variable = { 806.culture = 20 }
+	set_variable = { 857.culture = 20 }
+	set_variable = { 860.culture = 20 }
+	set_variable = { 862.culture = 20 }
+	set_variable = { 863.culture = 20 }
+
+	#Breton	
+	set_variable = { 14.culture = 21 }
+
+	#Sardinian	
+	set_variable = { 114.culture = 22 }	
+
+	#Southern Italian	
+	set_variable = { 117.culture = 23 }	
+	set_variable = { 156.culture = 23 }	
+	set_variable = { 157.culture = 23 }	
+	set_variable = { 1062.culture = 23 }	
+	set_variable = { 1064.culture = 23 }	
+
+	#Sicilian	
+	set_variable = { 115.culture = 24 }	
+
+	#New Venetian	
+	set_variable = { 874.culture = 25 }	
+
+	#Spanish	
+	set_variable = { 41.culture = 26 }	
+	set_variable = { 166.culture = 26 }	
+	set_variable = { 168.culture = 26 }	
+	set_variable = { 170.culture = 26 }	
+	set_variable = { 174.culture = 26 }	
+	set_variable = { 175.culture = 26 }	
+	set_variable = { 176.culture = 26 }
+	set_variable = { 41.culture = 26 }	
+	set_variable = { 788.culture = 26 }	
+	set_variable = { 790.culture = 26 }		
+	set_variable = { 791.culture = 26 }			
+	set_variable = { 793.culture = 26 }	
+	set_variable = { 794.culture = 26 }
+	set_variable = { 1082.culture = 26 }
+
+	#Catalan	
+	set_variable = { 177.culture = 27 }	
+	set_variable = { 165.culture = 27 }		
+	set_variable = { 167.culture = 27 }		
+	set_variable = { 794.culture = 27 }
+
+	#Basque	
+	set_variable = { 172.culture = 28 }	
+	set_variable = { 792.culture = 28 }	
+
+	#Galician	
+	set_variable = { 171.culture = 29 }	
+
+	#Andalusian	
+	set_variable = { 118.culture = 30 }	
+	set_variable = { 169.culture = 30 }
+	set_variable = { 173.culture = 30 }
+	set_variable = { 789.culture = 30 }	
+	set_variable = { 881.culture = 30 }	
+	set_variable = { 882.culture = 30 }
+
+	#Portuguese	
+	set_variable = { 112.culture = 31 }
+	set_variable = { 179.culture = 31 }
+	set_variable = { 180.culture = 31 }
+	set_variable = { 181.culture = 31 }
+	set_variable = { 697.culture = 31 }
+	set_variable = { 698.culture = 31 }		
+	set_variable = { 795.culture = 31 }
+	set_variable = { 1080.culture = 31 }
+	set_variable = { 1081.culture = 31 }	
+	
+	#Bavarian	
+	set_variable = { 52.culture = 32 }
+	set_variable = { 53.culture = 32 }
+	set_variable = { 867.culture = 32 }
+	
+	#Czech	
+	set_variable = { 9.culture = 33 }
+	set_variable = { 72.culture = 33 }
+	set_variable = { 74.culture = 33 }
+	set_variable = { 75.culture = 33 }
+	set_variable = { 69.culture = 33 }	
+	set_variable = { 883.culture = 33 }
+
+	#Swarbian	
+	set_variable = { 50.culture = 34 }
+	set_variable = { 866.culture = 34 }	
+
+	#Rhinelander	
+	set_variable = { 42.culture = 35 }
+	set_variable = { 51.culture = 35 }	
+	set_variable = { 55.culture = 35 }
+	set_variable = { 865.culture = 35 }
+	set_variable = { 868.culture = 35 }
+
+	#Danish	
+	set_variable = { 37.culture = 36 }
+	set_variable = { 99.culture = 36 }	
+	set_variable = { 1131.culture = 36 }	
+	set_variable = { 1132.culture = 36 }	
+	set_variable = { 1133.culture = 36 }	
+	set_variable = { 1134.culture = 36 }	
+
+	#Norwegian	
+	set_variable = { 110.culture = 37 }	
+	set_variable = { 142.culture = 37 }	
+	set_variable = { 143.culture = 37 }	
+	set_variable = { 144.culture = 37 }	
+
+	#Sami	
+	set_variable = { 666.culture = 38 }		
+	set_variable = { 722.culture = 38 }	
+
+	#Swedish	
+	set_variable = { 38.culture = 39 }
+	set_variable = { 124.culture = 39 }
+	set_variable = { 138.culture = 39 }
+	set_variable = { 139.culture = 39 }	
+	set_variable = { 140.culture = 39 }
+	set_variable = { 141.culture = 39 }
+	set_variable = { 145.culture = 39 }
+	set_variable = { 880.culture = 39 }	
+
+	#Hungarian	
+	set_variable = { 43.culture = 40 }
+	set_variable = { 154.culture = 40 }
+	set_variable = { 155.culture = 40 }	
+	set_variable = { 664.culture = 40 }
+	set_variable = { 884.culture = 40 }
+
+	#Slovakian	
+	set_variable = { 70.culture = 41 }	
+	set_variable = { 71.culture = 41 }
+
+	#Bulgarian	
+	set_variable = { 77.culture = 42 }
+	set_variable = { 48.culture = 42 }
+	set_variable = { 211.culture = 42 }	
+	set_variable = { 212.culture = 42 }
+	set_variable = { 801.culture = 42 }
+
+	#Greek	
+	set_variable = { 47.culture = 43 }	
+	set_variable = { 164.culture = 43 }
+	set_variable = { 182.culture = 43 }	
+	set_variable = { 184.culture = 43 }	
+	set_variable = { 185.culture = 43 }	
+	set_variable = { 186.culture = 43 }
+	set_variable = { 187.culture = 43 }
+	set_variable = { 731.culture = 43 }	
+	set_variable = { 805.culture = 43 }	
+
+	#Albanian	
+	set_variable = { 44.culture = 44 }	
+	set_variable = { 802.culture = 44 }	
+
+	#Slovenian	
+	set_variable = { 102.culture = 45 }
+	set_variable = { 736.culture = 45 }	
+
+	#Croatian
+	set_variable = { 103.culture = 46 }	
+	set_variable = { 109.culture = 46 }	
+	set_variable = { 163.culture = 46 }
+
+	#Serbian
+	set_variable = { 45.culture = 47 }	
+	set_variable = { 107.culture = 47 }	
+	set_variable = { 108.culture = 47 }	
+	set_variable = { 764.culture = 47 }		
+	set_variable = { 803.culture = 47 }	
+
+	#Macedonian
+	set_variable = { 106.culture = 48 }	
+
+	#Montenegrin
+	set_variable = { 105.culture = 49 }	
+
+	#Bosniak
+	set_variable = { 104.culture = 50 }
+	set_variable = { 804.culture = 50 }
+
+	#Romanian
+	set_variable = { 46.culture = 51 }	
+	set_variable = { 76.culture = 51 }
+	set_variable = { 79.culture = 51 }
+	set_variable = { 81.culture = 51 }
+	set_variable = { 82.culture = 51 }
+	set_variable = { 83.culture = 51 }
+	set_variable = { 84.culture = 51 }
+	set_variable = { 885.culture = 51 }
+
+	#Moldovan
+	set_variable = { 78.culture = 52 }	
+
+	#Ukrainian
+	set_variable = { 73.culture = 53 }
+	set_variable = { 80.culture = 53 }	
+	set_variable = { 89.culture = 53 }
+	set_variable = { 91.culture = 53 }
+	set_variable = { 93.culture = 53 }
+	set_variable = { 192.culture = 53 }
+	set_variable = { 193.culture = 53 }
+	set_variable = { 196.culture = 53 }
+	set_variable = { 197.culture = 53 }
+	set_variable = { 198.culture = 53 }
+	set_variable = { 199.culture = 53 }
+	set_variable = { 200.culture = 53 }
+	set_variable = { 201.culture = 53 }
+	set_variable = { 202.culture = 53 }
+	set_variable = { 203.culture = 53 }
+	set_variable = { 221.culture = 53 }
+	set_variable = { 225.culture = 53 }
+	set_variable = { 226.culture = 53 }
+	set_variable = { 259.culture = 53 }
+	set_variable = { 631.culture = 53 }
+	set_variable = { 766.culture = 53 }
+	set_variable = { 834.culture = 53 }
+
+	#Belarusian
+	set_variable = { 94.culture = 54 }	
+	set_variable = { 95.culture = 54 }	
+	set_variable = { 96.culture = 54 }	
+	set_variable = { 194.culture = 54 }	
+	set_variable = { 204.culture = 54 }	
+	set_variable = { 206.culture = 54 }	
+	set_variable = { 207.culture = 54 }	
+	set_variable = { 241.culture = 54 }	
+
+	#Lithuanian
+	set_variable = { 11.culture = 55 }
+	set_variable = { 188.culture = 55 }
+	set_variable = { 189.culture = 55 }
+	set_variable = { 784.culture = 55 }	
+	set_variable = { 814.culture = 55 }
+	set_variable = { 815.culture = 55 }	
+
+	#Latvian
+	set_variable = { 12.culture = 56 }
+	set_variable = { 190.culture = 56 }	
+	set_variable = { 808.culture = 56 }
+	set_variable = { 809.culture = 56 }
+	set_variable = { 810.culture = 56 }
+
+	#Estonian
+	set_variable = { 13.culture = 57 }
+	set_variable = { 191.culture = 57 }
+	set_variable = { 811.culture = 57 }
+	set_variable = { 812.culture = 57 }	
+	set_variable = { 813.culture = 57 }
+
+	#Finnish
+	set_variable = { 111.culture = 58 }	
+	set_variable = { 148.culture = 58 }
+	set_variable = { 149.culture = 58 }
+	set_variable = { 150.culture = 58 }
+
+	#Maltese
+	set_variable = { 116.culture = 59 }	
+
+	#Turkish
+	set_variable = { 49.culture = 60 }
+	set_variable = { 183.culture = 60 }
+	set_variable = { 339.culture = 60 }
+	set_variable = { 340.culture = 60 }
+	set_variable = { 341.culture = 60 }	
+	set_variable = { 342.culture = 60 }
+	set_variable = { 343.culture = 60 }
+	set_variable = { 344.culture = 60 }
+	set_variable = { 345.culture = 60 }
+	set_variable = { 346.culture = 60 }
+	set_variable = { 347.culture = 60 }
+	set_variable = { 348.culture = 60 }
+	set_variable = { 349.culture = 60 }
+	set_variable = { 353.culture = 60 }
+	set_variable = { 354.culture = 60 }
+	set_variable = { 355.culture = 60 }
+	set_variable = { 356.culture = 60 }
+	set_variable = { 797.culture = 60 }	
+	set_variable = { 798.culture = 60 }
+
+	#Kurdish
+	set_variable = { 350.culture = 61 }	
+	set_variable = { 352.culture = 61 }
+	set_variable = { 421.culture = 61 }
+	set_variable = { 800.culture = 61 }
+	set_variable = { 835.culture = 61 }
+	set_variable = { 1076.culture = 61 }
+	set_variable = { 1098.culture = 61 }
+
+	#Armenian
+	set_variable = { 230.culture = 62 }	
+	set_variable = { 841.culture = 62 }
+
+	#Georgian
+	set_variable = { 231.culture = 63 }		
+
+	#Abkhazian
+	set_variable = { 826.culture = 64 }		
+
+	#Azerbaijani
+	set_variable = { 229.culture = 65 }		
+	set_variable = { 419.culture = 65 }	
+
+	#Syrian
+	set_variable = { 554.culture = 66 }
+	set_variable = { 677.culture = 66 }		
+	set_variable = { 680.culture = 66 }
+	set_variable = { 799.culture = 66 }
+	set_variable = { 1079.culture = 66 }
+
+	#Lebanese
+	set_variable = { 553.culture = 67 }	
+
+	#Iraqi
+	set_variable = { 291.culture = 68 }	
+	set_variable = { 656.culture = 68 }	
+	set_variable = { 675.culture = 68 }		
+	set_variable = { 676.culture = 68 }	
+	set_variable = { 1077.culture = 68 }	
+	set_variable = { 1078.culture = 68 }	
+
+	#Japanese
+	set_variable = { 282.culture = 69 }
+	set_variable = { 526.culture = 69 }
+	set_variable = { 529.culture = 69 }
+	set_variable = { 530.culture = 69 }
+	set_variable = { 531.culture = 69 }
+	set_variable = { 532.culture = 69 }
+	set_variable = { 533.culture = 69 }
+	set_variable = { 534.culture = 69 }
+	set_variable = { 535.culture = 69 }
+	set_variable = { 536.culture = 69 }		
+	set_variable = { 645.culture = 69 }
+	set_variable = { 727.culture = 69 }
+	set_variable = { 931.culture = 69 }
+	set_variable = { 932.culture = 69 }
+	set_variable = { 1034.culture = 69 }
+	set_variable = { 1035.culture = 69 }
+	set_variable = { 1036.culture = 69 }
+	set_variable = { 1101.culture = 69 }
+	set_variable = { 1102.culture = 69 }
+	set_variable = { 1103.culture = 69 }
+	set_variable = { 1104.culture = 69 }
+	set_variable = { 1105.culture = 69 }
+	set_variable = { 1106.culture = 69 }
+	set_variable = { 1107.culture = 69 }
+	set_variable = { 1108.culture = 69 }
+	set_variable = { 1109.culture = 69 }
+	set_variable = { 1110.culture = 69 }
+	set_variable = { 1111.culture = 69 }
+	set_variable = { 1112.culture = 69 }
+	set_variable = { 1113.culture = 69 }
+	set_variable = { 1114.culture = 69 }
+	set_variable = { 1115.culture = 69 }
+	set_variable = { 1116.culture = 69 }
+	set_variable = { 1117.culture = 69 }
+	set_variable = { 1118.culture = 69 }
+	set_variable = { 1119.culture = 69 }
+	set_variable = { 1120.culture = 69 }
+	set_variable = { 1121.culture = 69 }
+	set_variable = { 1122.culture = 69 }
+	set_variable = { 1123.culture = 69 }
+	set_variable = { 1124.culture = 69 }
+	set_variable = { 1125.culture = 69 }
+	set_variable = { 1126.culture = 69 }
+	set_variable = { 1127.culture = 69 }
+	set_variable = { 1128.culture = 69 }
+	set_variable = { 1129.culture = 69 }
+	set_variable = { 1130.culture = 69 }
+
+	#North Korean
+	set_variable = { 527.culture = 70 }	
+	set_variable = { 1039.culture = 70 }
+	set_variable = { 1040.culture = 70 }
+	set_variable = { 1041.culture = 70 }
+	set_variable = { 1042.culture = 70 }
+	set_variable = { 1044.culture = 70 }
+
+	#Australian
+	set_variable = { 285.culture = 71 }	
+	set_variable = { 517.culture = 71 }	
+	set_variable = { 518.culture = 71 }
+	set_variable = { 519.culture = 71 }
+	set_variable = { 520.culture = 71 }
+	set_variable = { 521.culture = 71 }
+	set_variable = { 522.culture = 71 }
+	set_variable = { 674.culture = 71 }
+	set_variable = { 1050.culture = 71 }
+	set_variable = { 1051.culture = 71 }
+	set_variable = { 1052.culture = 71 }
+	set_variable = { 1053.culture = 71 }
+	set_variable = { 1054.culture = 71 }
+	set_variable = { 1055.culture = 71 }
+
+	#New Zealander
+	set_variable = { 284.culture = 72 }	
+	set_variable = { 643.culture = 72 }	
+	set_variable = { 723.culture = 72 }
+
+	#Moroccan
+	set_variable = { 178.culture = 73 }	
+	set_variable = { 290.culture = 73 }	
+	set_variable = { 461.culture = 73 }	
+	set_variable = { 462.culture = 73 }	
+	set_variable = { 699.culture = 73 }	
+	set_variable = { 783.culture = 73 }	
+	set_variable = { 890.culture = 73 }	
+
+	#Algerian
+	set_variable = { 459.culture = 74 }	
+	set_variable = { 460.culture = 74 }	
+	set_variable = { 513.culture = 74 }	
+
+	#Tunisian
+	set_variable = { 458.culture = 75 }		
+	set_variable = { 665.culture = 75 }
+
+	#Libyan
+	set_variable = { 273.culture = 76 }
+	set_variable = { 448.culture = 76 }		
+	set_variable = { 449.culture = 76 }	
+	set_variable = { 450.culture = 76 }	
+	set_variable = { 451.culture = 76 }	
+	set_variable = { 661.culture = 76 }	
+	set_variable = { 662.culture = 76 }	
+	set_variable = { 663.culture = 76 }	
+
+	#Egyptian
+	set_variable = { 446.culture = 77 }
+	set_variable = { 447.culture = 77 }
+	set_variable = { 452.culture = 77 }	
+	set_variable = { 453.culture = 77 }
+	set_variable = { 456.culture = 77 }
+	set_variable = { 457.culture = 77 }
+	set_variable = { 552.culture = 77 }	
+
+	#Sudanese
+	set_variable = { 551.culture = 78 }	
+
+	#South Sudanese
+	set_variable = { 549.culture = 79 }		
+
+	#Eritrean
+	set_variable = { 550.culture = 80 }		
+
+	#Tigrayans
+	set_variable = { 913.culture = 81 }	
+
+	#Oromo
+	set_variable = { 271.culture = 82 }	
+	set_variable = { 914.culture = 82 }
+	set_variable = { 915.culture = 82 }
+	set_variable = { 916.culture = 82 }
+
+	#Afar
+	set_variable = { 912.culture = 83 }	
+
+	#Amhara
+	set_variable = { 917.culture = 84 }	
+	set_variable = { 918.culture = 84 }		
+
+	#Somali
+	set_variable = { 268.culture = 85 }
+	set_variable = { 269.culture = 85 }
+	set_variable = { 559.culture = 85 }
+	set_variable = { 911.culture = 85 }		
+	
+	#Kazakh
+	set_variable = { 402.culture = 86 }	
+	set_variable = { 404.culture = 86 }	
+	set_variable = { 406.culture = 86 }	
+	set_variable = { 407.culture = 86 }	
+	set_variable = { 583.culture = 86 }	
+	set_variable = { 586.culture = 86 }	
+	set_variable = { 587.culture = 86 }	
+	set_variable = { 588.culture = 86 }	
+	set_variable = { 589.culture = 86 }	
+	set_variable = { 590.culture = 86 }	
+	set_variable = { 618.culture = 86 }
+	set_variable = { 1070.culture = 86 }
+
+	#Turkmen
+	set_variable = { 584.culture = 87 }		
+	set_variable = { 832.culture = 87 }
+	set_variable = { 842.culture = 87 }
+
+	#Uzbeki
+	set_variable = { 405.culture = 88 }	
+	set_variable = { 585.culture = 88 }
+	set_variable = { 823.culture = 88 }
+	set_variable = { 830.culture = 88 }
+	set_variable = { 897.culture = 88 }
+
+	#Karakalpaks
+	set_variable = { 831.culture = 89 }
+	set_variable = { 843.culture = 89 }		
+
+	#Tajik
+	set_variable = { 742.culture = 90 }	
+
+	#Kyrgyz
+	set_variable = { 732.culture = 91 }
+	set_variable = { 844.culture = 91 }		
+
+	#Vietnamese
+	set_variable = { 286.culture = 92 }	
+	set_variable = { 671.culture = 92 }
+	set_variable = { 1026.culture = 92 }	
+
+	#Laotian
+	set_variable = { 670.culture = 93 }		
+	set_variable = { 1027.culture = 93 }
+
+	#Khmer
+	set_variable = { 741.culture = 94 }	
+	set_variable = { 1025.culture = 94 }		
+
+	#Thai
+	set_variable = { 289.culture = 95 }	
+	set_variable = { 724.culture = 95 }	
+
+	#Bhutanese
+	set_variable = { 324.culture = 96 }		
+
+	#Nepalese
+	set_variable = { 323.culture = 97 }		
+	set_variable = { 836.culture = 97 }	
+
+	#Yemeni
+	set_variable = { 293.culture = 98 }
+	set_variable = { 659.culture = 98 }		
+	set_variable = { 1087.culture = 98 }
+	set_variable = { 1088.culture = 98 }
+	set_variable = { 1089.culture = 98 }
+	set_variable = { 1090.culture = 98 }
+	set_variable = { 1091.culture = 98 }
+	set_variable = { 1092.culture = 98 }
+	set_variable = { 1093.culture = 98 }
+
+	#Omani
+	set_variable = { 294.culture = 99 }	
+
+	#Gulf Arab
+	set_variable = { 658.culture = 100 }		
+	set_variable = { 765.culture = 100 }
+	set_variable = { 1074.culture = 100 }
+	set_variable = { 1075.culture = 100 }
+	set_variable = { 1096.culture = 100 }
+	set_variable = { 1097.culture = 100 }
+
+	#Dixie
+	set_variable = { 362.culture = 101 }
+	set_variable = { 363.culture = 101 }
+	set_variable = { 364.culture = 101 }
+	set_variable = { 365.culture = 101 }
+	set_variable = { 366.culture = 101 }
+	set_variable = { 367.culture = 101 }
+	set_variable = { 368.culture = 101 }
+	set_variable = { 369.culture = 101 }
+	set_variable = { 370.culture = 101 }
+	set_variable = { 371.culture = 101 }
+	set_variable = { 372.culture = 101 }
+	set_variable = { 690.culture = 101 }
+	set_variable = { 693.culture = 101 }	
+	set_variable = { 816.culture = 101 }
+	set_variable = { 960.culture = 101 }
+	set_variable = { 961.culture = 101 }
+	set_variable = { 962.culture = 101 }
+	set_variable = { 963.culture = 101 }
+	set_variable = { 981.culture = 101 }
+	set_variable = { 982.culture = 101 }
+	set_variable = { 983.culture = 101 }
+	set_variable = { 984.culture = 101 }
+	set_variable = { 985.culture = 101 }
+	set_variable = { 986.culture = 101 }
+
+	#Hijazi
+	set_variable = { 679.culture = 102 }	
+	set_variable = { 1095.culture = 102 }	
+
+	#Najdi
+	set_variable = { 292.culture = 103 }
+	set_variable = { 678.culture = 103 }	
+	set_variable = { 1094.culture = 103 }	
+	
+	#Israeli Jews
+	set_variable = { 454.culture = 104 }	
+
+	#Levantine Arabs
+	set_variable = { 455.culture = 105 }		
+
+	#Persian
+	set_variable = { 266.culture = 106 }	
+	set_variable = { 411.culture = 106 }
+	set_variable = { 412.culture = 106 }		
+	set_variable = { 413.culture = 106 }	
+	set_variable = { 414.culture = 106 }	
+	set_variable = { 416.culture = 106 }	
+	set_variable = { 417.culture = 106 }	
+	set_variable = { 418.culture = 106 }	
+	set_variable = { 420.culture = 106 }		
+	set_variable = { 1099.culture = 106 }		
+	set_variable = { 1100.culture = 106 }		
+
+	#Balochi
+	set_variable = { 410.culture = 107 }
+	set_variable = { 444.culture = 107 }	
+	
+	#Pashtun
+	set_variable = { 267.culture = 108 }	
+	set_variable = { 415.culture = 108 }
+	set_variable = { 442.culture = 108 }
+	set_variable = { 445.culture = 108 }
+	set_variable = { 1012.culture = 108 }
+
+	#Kashmiri
+	set_variable = { 441.culture = 109 }		
+	set_variable = { 787.culture = 109 }	
+	set_variable = { 1011.culture = 109 }
+
+	#Sindhi
+	set_variable = { 443.culture = 110 }	
+
+	#Punjabi
+	set_variable = { 440.culture = 111 }	
+
+	#Mongolian
+	set_variable = { 330.culture = 112 }
+	set_variable = { 817.culture = 112 }
+	set_variable = { 818.culture = 112 }
+	set_variable = { 819.culture = 112 }
+	set_variable = { 820.culture = 112 }	
+
+	#Min
+	set_variable = { 591.culture = 113 }
+	set_variable = { 593.culture = 113 }
+	set_variable = { 595.culture = 113 }
+	set_variable = { 728.culture = 113 }	
+
+	#Yue
+	set_variable = { 592.culture = 114 }
+	set_variable = { 594.culture = 114 }	
+	set_variable = { 599.culture = 114 }
+
+	#Zhūjiāng Chéng
+	set_variable = { 326.culture = 115 }
+	set_variable = { 729.culture = 115 }	
+	set_variable = { 930.culture = 115 }
+
+	#Wu
+	set_variable = { 596.culture = 116 }	
+	set_variable = { 613.culture = 116 }
+	set_variable = { 749.culture = 116 }
+
+	#Novorossiyan
+	set_variable = { 227.culture = 117 }	
+	set_variable = { 228.culture = 117 }		
+
+	#Russian
+	set_variable = { 40.culture = 118 }
+	set_variable = { 137.culture = 118 }
+	set_variable = { 146.culture = 118 }
+	set_variable = { 195.culture = 118 }
+	set_variable = { 205.culture = 118 }			
+	set_variable = { 208.culture = 118 }	
+	set_variable = { 209.culture = 118 }	
+	set_variable = { 210.culture = 118 }
+	set_variable = { 213.culture = 118 }
+	set_variable = { 214.culture = 118 }
+	set_variable = { 217.culture = 118 }
+	set_variable = { 218.culture = 118 }
+	set_variable = { 219.culture = 118 }
+	set_variable = { 220.culture = 118 }
+	set_variable = { 222.culture = 118 }		
+	set_variable = { 223.culture = 118 }			
+	set_variable = { 224.culture = 118 }	
+	set_variable = { 232.culture = 118 }
+	set_variable = { 233.culture = 118 }
+	set_variable = { 234.culture = 118 }
+	set_variable = { 235.culture = 118 }
+	set_variable = { 236.culture = 118 }
+	set_variable = { 237.culture = 118 }
+	set_variable = { 238.culture = 118 }
+	set_variable = { 239.culture = 118 }
+	set_variable = { 240.culture = 118 }			
+	set_variable = { 242.culture = 118 }	
+	set_variable = { 243.culture = 118 }			
+	set_variable = { 244.culture = 118 }
+	set_variable = { 245.culture = 118 }
+	set_variable = { 246.culture = 118 }
+	set_variable = { 247.culture = 118 }
+	set_variable = { 248.culture = 118 }
+	set_variable = { 249.culture = 118 }
+	set_variable = { 250.culture = 118 }
+	set_variable = { 251.culture = 118 }
+	set_variable = { 252.culture = 118 }
+	set_variable = { 253.culture = 118 }
+	set_variable = { 254.culture = 118 }	
+	set_variable = { 255.culture = 118 }
+	set_variable = { 256.culture = 118 }
+	set_variable = { 257.culture = 118 }
+	set_variable = { 258.culture = 118 }
+	set_variable = { 260.culture = 118 }			
+	set_variable = { 263.culture = 118 }	
+	set_variable = { 264.culture = 118 }
+	set_variable = { 265.culture = 118 }
+	set_variable = { 351.culture = 118 }
+	set_variable = { 397.culture = 118 }
+	set_variable = { 398.culture = 118 }
+	set_variable = { 399.culture = 118 }
+	set_variable = { 400.culture = 118 }
+	set_variable = { 401.culture = 118 }
+	set_variable = { 403.culture = 118 }
+	set_variable = { 408.culture = 118 }
+	set_variable = { 409.culture = 118 }
+	set_variable = { 537.culture = 118 }
+	set_variable = { 555.culture = 118 }
+	set_variable = { 560.culture = 118 }
+	set_variable = { 561.culture = 118 }
+	set_variable = { 563.culture = 118 }
+	set_variable = { 565.culture = 118 }
+	set_variable = { 566.culture = 118 }
+	set_variable = { 567.culture = 118 }
+	set_variable = { 568.culture = 118 }
+	set_variable = { 569.culture = 118 }
+	set_variable = { 570.culture = 118 }
+	set_variable = { 571.culture = 118 }
+	set_variable = { 572.culture = 118 }
+	set_variable = { 573.culture = 118 }
+	set_variable = { 578.culture = 118 }
+	set_variable = { 579.culture = 118 }
+	set_variable = { 580.culture = 118 }
+	set_variable = { 581.culture = 118 }
+	set_variable = { 582.culture = 118 }
+	set_variable = { 650.culture = 118 }
+	set_variable = { 651.culture = 118 }
+	set_variable = { 652.culture = 118 }
+	set_variable = { 653.culture = 118 }
+	set_variable = { 654.culture = 118 }
+	set_variable = { 655.culture = 118 }
+	set_variable = { 657.culture = 118 }
+	set_variable = { 763.culture = 118 }
+	set_variable = { 827.culture = 118 }
+	set_variable = { 828.culture = 118 }
+	set_variable = { 829.culture = 118 }
+	set_variable = { 833.culture = 118 }
+	set_variable = { 1015.culture = 118 }
+	set_variable = { 1016.culture = 118 }
+	set_variable = { 1017.culture = 118 }
+	set_variable = { 1018.culture = 118 }
+	set_variable = { 1019.culture = 118 }
+	set_variable = { 1020.culture = 118 }
+	set_variable = { 1021.culture = 118 }
+	set_variable = { 1022.culture = 118 }
+	set_variable = { 1023.culture = 118 }	
+	
+	#Siber-Russian
+	set_variable = { 516.culture = 119 }
+	set_variable = { 562.culture = 119 }
+	set_variable = { 575.culture = 119 }
+	set_variable = { 576.culture = 119 }
+	set_variable = { 574.culture = 119 }
+	set_variable = { 577.culture = 119 }
+	set_variable = { 637.culture = 119 }	
+	set_variable = { 644.culture = 119 }
+	set_variable = { 822.culture = 119 }
+	set_variable = { 824.culture = 119 }
+
+	#Mexican
+	set_variable = { 277.culture = 120 }
+	set_variable = { 474.culture = 120 }
+	set_variable = { 475.culture = 120 }
+	set_variable = { 476.culture = 120 }
+	set_variable = { 477.culture = 120 }
+	set_variable = { 478.culture = 120 }
+	set_variable = { 479.culture = 120 }
+	set_variable = { 480.culture = 120 }
+	set_variable = { 481.culture = 120 }
+	set_variable = { 482.culture = 120 }
+	set_variable = { 483.culture = 120 }	
+	set_variable = { 484.culture = 120 }
+	set_variable = { 485.culture = 120 }
+	set_variable = { 1072.culture = 120 }
+	set_variable = { 1073.culture = 120 }
+
+	#Colombian
+	set_variable = { 306.culture = 121 }
+	set_variable = { 486.culture = 121 }
+	set_variable = { 493.culture = 121 }	
+
+	#Venezuelan
+	set_variable = { 307.culture = 122 }
+	set_variable = { 488.culture = 122 }
+	set_variable = { 489.culture = 122 }
+	set_variable = { 691.culture = 122 }
+	set_variable = { 695.culture = 122 }
+
+	#Ecuadorian
+	set_variable = { 305.culture = 123 }	
+	set_variable = { 490.culture = 123 }
+	set_variable = { 649.culture = 123 }	
+
+	#Peruvian
+	set_variable = { 303.culture = 124 }
+	set_variable = { 491.culture = 124 }
+	set_variable = { 492.culture = 124 }	
+	set_variable = { 494.culture = 124 }
+
+	#Bolivian
+	set_variable = { 302.culture = 125 }
+	set_variable = { 487.culture = 125 }
+
+	#Argentine
+	set_variable = { 278.culture = 126 }
+	set_variable = { 299.culture = 126 }
+	set_variable = { 508.culture = 126 }
+	set_variable = { 509.culture = 126 }
+	set_variable = { 510.culture = 126 }
+	set_variable = { 511.culture = 126 }
+	set_variable = { 512.culture = 126 }
+	set_variable = { 720.culture = 126 }
+	set_variable = { 893.culture = 126 }
+	set_variable = { 894.culture = 126 }	
+	set_variable = { 895.culture = 126 }
+	set_variable = { 898.culture = 126 }
+	set_variable = { 1038.culture = 126 }
+
+	#Paraguayan
+	set_variable = { 301.culture = 127 }	
+	set_variable = { 688.culture = 127 }
+	set_variable = { 899.culture = 127 }	
+	set_variable = { 1083.culture = 127 }	
+	set_variable = { 1084.culture = 127 }	
+	set_variable = { 1085.culture = 127 }	
+	set_variable = { 1086.culture = 127 }	
+
+	#Chilean
+	set_variable = { 279.culture = 128 }
+	set_variable = { 506.culture = 128 }
+	set_variable = { 507.culture = 128 }
+	set_variable = { 840.culture = 128 }
+
+	#Uraguayan
+	set_variable = { 300.culture = 129 }	
+
+	#Amazonian
+	set_variable = { 280.culture = 130 }	
+	set_variable = { 495.culture = 130 }	
+	set_variable = { 875.culture = 130 }	
+	set_variable = { 876.culture = 130 }	
+	set_variable = { 877.culture = 130 }	
+	set_variable = { 878.culture = 130 }	
+	set_variable = { 879.culture = 130 }
+	set_variable = { 896.culture = 130 }	
+	set_variable = { 1056.culture = 130 }
+	set_variable = { 1057.culture = 130 }
+	set_variable = { 1058.culture = 130 }
+	set_variable = { 1059.culture = 130 }	
+
+	#Sulista
+	set_variable = { 502.culture = 131 }	
+	set_variable = { 503.culture = 131 }	
+
+	#Brazilian
+	set_variable = { 496.culture = 132 }
+	set_variable = { 497.culture = 132 }
+	set_variable = { 498.culture = 132 }
+	set_variable = { 499.culture = 132 }
+	set_variable = { 500.culture = 132 }
+	set_variable = { 501.culture = 132 }
+	set_variable = { 504.culture = 132 }
+	set_variable = { 505.culture = 132 }
+
+	#Guyanan
+	set_variable = { 309.culture = 133 }	
+	set_variable = { 310.culture = 133 }	
+	set_variable = { 687.culture = 133 }	
+
+	#Karelian
+	set_variable = { 147.culture = 134 }
+	set_variable = { 215.culture = 134 }
+	set_variable = { 216.culture = 134 }
+	
+	#Buryats
+	set_variable = { 564.culture = 135 }	
+
+	#Tuvan
+	set_variable = { 329.culture = 136 }		
+
+	#Komi
+	set_variable = { 262.culture = 137 }	
+	set_variable = { 825.culture = 137 }	
+
+	#Chechen
+	set_variable = { 821.culture = 138 }	
+
+	#Saxon
+	set_variable = { 60.culture = 139 }	
+	set_variable = { 65.culture = 139 }		
+
+	#Hanoverian
+	set_variable = { 56.culture = 140 }
+	set_variable = { 57.culture = 140 }
+	set_variable = { 59.culture = 140 }
+	set_variable = { 869.culture = 140 }
+	set_variable = { 870.culture = 140 }	
+	
+	#Schleswig
+	set_variable = { 58.culture = 141 }	
+
+	#Brandenburger
+	set_variable = { 61.culture = 142 }	
+	set_variable = { 62.culture = 142 }	
+	set_variable = { 64.culture = 142 }		
+	set_variable = { 630.culture = 142 }
+
+	#Kikuyu
+	set_variable = { 547.culture = 143 }		
+
+	#Baganda
+	set_variable = { 548.culture = 144 }		
+
+	#Sara
+	set_variable = { 774.culture = 145 }	
+	set_variable = { 889.culture = 145 }		
+
+	#Hausa
+	set_variable = { 514.culture = 146 }	
+	set_variable = { 558.culture = 146 }		
+	set_variable = { 781.culture = 146 }	
+
+	#Fon
+	set_variable = { 776.culture = 147 }	
+
+	#Ewe
+	set_variable = { 777.culture = 148 }		
+
+	#Mossi
+	set_variable = { 778.culture = 149 }		
+
+	#Akan
+	set_variable = { 274.culture = 150 }	
+	set_variable = { 779.culture = 150 }	
+
+	#Bambara
+	set_variable = { 556.culture = 151 }		
+
+	#Fula
+	set_variable = { 296.culture = 152 }		
+	set_variable = { 557.culture = 152 }		
+	set_variable = { 780.culture = 152 }	
+	set_variable = { 886.culture = 152 }	
+	set_variable = { 1037.culture = 152 }	
+	
+	#Kpelle
+	set_variable = { 298.culture = 153 }	
+
+	#Temne
+	set_variable = { 700.culture = 154 }
+	
+	#Wolof
+	set_variable = { 272.culture = 155 }	
+	set_variable = { 701.culture = 155 }	
+	set_variable = { 702.culture = 155 }
+		
+	#Ovambo
+	set_variable = { 541.culture = 156 }	
+	set_variable = { 704.culture = 156 }
+
+	#Tswana
+	set_variable = { 542.culture = 157 }	
+	set_variable = { 275.culture = 157 }	
+	set_variable = { 1028.culture = 157 }	
+	
+	#Zulu
+	set_variable = { 838.culture = 158 }	
+	
+	#Xhosa
+	set_variable = { 719.culture = 159 }
+	
+	#Cape
+	set_variable = { 681.culture = 160 }		
+	set_variable = { 839.culture = 160 }
+	
+	#Sotho
+	set_variable = { 837.culture = 161 }	
+
+	#Malagasy
+	set_variable = { 543.culture = 162 }	
+	set_variable = { 706.culture = 162 }
+	set_variable = { 707.culture = 162 }
+	set_variable = { 708.culture = 162 }
+	set_variable = { 709.culture = 162 }	
+
+	#Cuban
+	set_variable = { 315.culture = 163 }		
+
+	#Hispaniolan
+	set_variable = { 318.culture = 164 }	
+	set_variable = { 319.culture = 164 }
+	
+	#Jamaican
+	set_variable = { 689.culture = 165 }		
+
+	#Puerto Rican
+	set_variable = { 686.culture = 166 }		
+
+	#Caribbean
+	set_variable = { 308.culture = 167 }
+	set_variable = { 692.culture = 167 }		
+	set_variable = { 694.culture = 167 }
+	set_variable = { 696.culture = 167 }
+
+	#Panaman
+	set_variable = { 304.culture = 168 }	
+	set_variable = { 685.culture = 168 }
+
+	#Costa Rican
+	set_variable = { 316.culture = 169 }	
+	
+	#Nicaraguan
+	set_variable = { 317.culture = 170 }	
+
+	#Honduran
+	set_variable = { 312.culture = 171 }	
+
+	#El Salvadorian
+	set_variable = { 314.culture = 172 }		
+
+	#Guatemalan
+	set_variable = { 313.culture = 173 }	
+
+	#Belizean
+	set_variable = { 311.culture = 174 }	
+
+	#Pacifican
+	set_variable = { 933.culture = 175 }	
+	set_variable = { 934.culture = 175 }	
+
+	#Atlantican
+	set_variable = { 900.culture = 176 }	
+	set_variable = { 905.culture = 176 }	
+	set_variable = { 935.culture = 176 }	
+	set_variable = { 937.culture = 176 }	
+	set_variable = { 938.culture = 176 }	
+	set_variable = { 939.culture = 176 }	
+	set_variable = { 940.culture = 176 }	
+	set_variable = { 947.culture = 176 }	
+
+	#Steel Belt
+	set_variable = { 261.culture = 177 }		
+	set_variable = { 373.culture = 177 }
+	set_variable = { 393.culture = 177 }	
+	set_variable = { 394.culture = 177 }
+	set_variable = { 395.culture = 177 }
+	set_variable = { 396.culture = 177 }
+	set_variable = { 971.culture = 177 }
+	set_variable = { 972.culture = 177 }
+	set_variable = { 973.culture = 177 }
+	set_variable = { 974.culture = 177 }
+	set_variable = { 975.culture = 177 }
+	set_variable = { 976.culture = 177 }
+	set_variable = { 977.culture = 177 }
+	set_variable = { 978.culture = 177 }
+	set_variable = { 979.culture = 177 }
+
+	#Corn Belt
+	set_variable = { 373.culture = 178 }
+	set_variable = { 383.culture = 178 }
+	set_variable = { 384.culture = 178 }
+	set_variable = { 389.culture = 178 }	
+	set_variable = { 390.culture = 178 }
+	set_variable = { 391.culture = 178 }
+	set_variable = { 392.culture = 178 }
+	set_variable = { 987.culture = 178 }
+	set_variable = { 998.culture = 178 }
+	set_variable = { 989.culture = 178 }
+	set_variable = { 990.culture = 178 }
+	set_variable = { 997.culture = 178 }
+	set_variable = { 988.culture = 178 }
+	set_variable = { 1000.culture = 178 }
+	set_variable = { 1001.culture = 178 }
+
+	#South Western
+	set_variable = { 374.culture = 179 }
+	set_variable = { 375.culture = 179 }	
+	set_variable = { 376.culture = 179 }
+	set_variable = { 377.culture = 179 }
+	set_variable = { 946.culture = 179 }
+	set_variable = { 949.culture = 179 }
+	set_variable = { 953.culture = 179 }
+	set_variable = { 954.culture = 179 }
+	set_variable = { 955.culture = 179 }
+	set_variable = { 956.culture = 179 }
+	set_variable = { 957.culture = 179 }
+	set_variable = { 958.culture = 179 }
+	set_variable = { 959.culture = 179 }
+	set_variable = { 999.culture = 179 }
+
+	#Rockies
+	set_variable = { 380.culture = 180 }
+	set_variable = { 381.culture = 180 }
+	set_variable = { 382.culture = 180 }	
+	set_variable = { 387.culture = 180 }
+	set_variable = { 388.culture = 180 }
+	set_variable = { 966.culture = 180 }
+	set_variable = { 995.culture = 180 }
+	set_variable = { 996.culture = 180 }
+	
+	#Pacific
+	set_variable = { 378.culture = 181 }
+	set_variable = { 379.culture = 181 }
+	set_variable = { 385.culture = 181 }
+	set_variable = { 386.culture = 181 }
+	set_variable = { 463.culture = 181 }
+	set_variable = { 950.culture = 181 }
+	set_variable = { 951.culture = 181 }
+	set_variable = { 952.culture = 181 }
+	set_variable = { 964.culture = 181 }
+	set_variable = { 965.culture = 181 }
+	set_variable = { 967.culture = 181 }
+	set_variable = { 968.culture = 181 }
+	set_variable = { 992.culture = 181 }
+	set_variable = { 993.culture = 181 }
+	set_variable = { 994.culture = 181 }
+
+	#Quebecois
+	set_variable = { 466.culture = 182 }	
+	set_variable = { 468.culture = 182 }
+
+	#Canadian
+	set_variable = { 276.culture = 183 }	
+	set_variable = { 331.culture = 183 }	
+	set_variable = { 332.culture = 183 }
+	set_variable = { 464.culture = 183 }	
+	set_variable = { 465.culture = 183 }	
+	set_variable = { 467.culture = 183 }	
+	set_variable = { 469.culture = 183 }
+	set_variable = { 470.culture = 183 }	
+	set_variable = { 471.culture = 183 }		
+	set_variable = { 472.culture = 183 }	
+	set_variable = { 473.culture = 183 }	
+	set_variable = { 682.culture = 183 }
+	set_variable = { 683.culture = 183 }
+	set_variable = { 703.culture = 183 }
+	set_variable = { 730.culture = 183 }	
+	set_variable = { 739.culture = 183 }	
+	set_variable = { 740.culture = 183 }	
+
+	#Formosan
+	set_variable = { 524.culture = 184 }				
+
+	#Bengali
+	set_variable = { 430.culture = 185 }
+	set_variable = { 431.culture = 185 }
+	set_variable = { 432.culture = 185 }	
+	set_variable = { 434.culture = 185 }	
+
+	#New Hindustani
+	set_variable = { 426.culture = 186 }
+	set_variable = { 428.culture = 186 }
+	set_variable = { 435.culture = 186 }
+	set_variable = { 436.culture = 186 }
+	set_variable = { 437.culture = 186 }
+	set_variable = { 438.culture = 186 }
+	set_variable = { 1013.culture = 186 }
+	set_variable = { 1014.culture = 186 }
+
+	#Old Hindustani
+	set_variable = { 433.culture = 187 }
+	set_variable = { 439.culture = 187 }
+
+	#Marathi
+	set_variable = { 427.culture = 188 }
+	set_variable = { 429.culture = 188 }		
+
+	#Telugu
+	set_variable = { 424.culture = 189 }		
+
+	#Kannadiga
+	set_variable = { 321.culture = 190 }
+	set_variable = { 425.culture = 190 }
+
+	#Tamil
+	set_variable = { 320.culture = 191 }
+	set_variable = { 422.culture = 191 }
+	set_variable = { 423.culture = 191 }	
+
+	#Sinhalese
+	set_variable = { 281.culture = 192 }	
+
+	#Bamarr	
+	set_variable = { 288.culture = 193 }
+	set_variable = { 640.culture = 193 }	
+	set_variable = { 733.culture = 193 }	
+
+	#Xinan	
+	set_variable = { 325.culture = 194 }
+	set_variable = { 603.culture = 194 }
+	set_variable = { 620.culture = 194 }
+	set_variable = { 748.culture = 194 }
+	set_variable = { 747.culture = 194 }
+	set_variable = { 750.culture = 194 }		
+
+	#Gan	
+	set_variable = { 600.culture = 195 }
+
+	#Xiang	
+	set_variable = { 602.culture = 196 }	
+
+	#Jianghuai	
+	set_variable = { 598.culture = 197 }
+	set_variable = { 606.culture = 197 }	
+
+	#Zhongyuan	
+	set_variable = { 607.culture = 198 }	
+
+	#Jiaoliao	
+	set_variable = { 597.culture = 199 }	
+	set_variable = { 743.culture = 199 }
+	set_variable = { 745.culture = 199 }
+
+	#Jin	
+	set_variable = { 611.culture = 200 }	
+	set_variable = { 612.culture = 200 }
+	set_variable = { 615.culture = 200 }
+	set_variable = { 621.culture = 200 }
+	set_variable = { 622.culture = 200 }
+	set_variable = { 744.culture = 200 }
+	set_variable = { 746.culture = 200 }
+	set_variable = { 1068.culture = 200 }
+	
+	#Sichuanese	
+	set_variable = { 605.culture = 201 }	
+	set_variable = { 751.culture = 201 }	
+	set_variable = { 752.culture = 201 }
+	set_variable = { 753.culture = 201 }
+
+	#Hui	
+	set_variable = { 283.culture = 202 }	
+	set_variable = { 616.culture = 202 }
+	set_variable = { 754.culture = 202 }
+	set_variable = { 755.culture = 202 }
+	set_variable = { 756.culture = 202 }
+
+	#Tibetan	
+	set_variable = { 322.culture = 203 }	
+	set_variable = { 601.culture = 203 }	
+	set_variable = { 604.culture = 203 }	
+	set_variable = { 758.culture = 203 }
+	set_variable = { 757.culture = 203 }	
+
+	#Xibei	
+	set_variable = { 617.culture = 204 }
+	set_variable = { 760.culture = 204 }	
+
+	#Uyghur	
+	set_variable = { 287.culture = 205 }
+	set_variable = { 619.culture = 205 }
+	set_variable = { 759.culture = 205 }
+	set_variable = { 1069.culture = 205 }		
+	set_variable = { 1071.culture = 205 }		
+
+	#Dongbei	
+	set_variable = { 328.culture = 206 }
+	set_variable = { 610.culture = 206 }
+	set_variable = { 714.culture = 206 }
+	set_variable = { 715.culture = 206 }	
+	set_variable = { 716.culture = 206 }	
+	set_variable = { 717.culture = 206 }
+	set_variable = { 761.culture = 206 }
+
+	#Papuan	
+	set_variable = { 523.culture = 207 }
+	set_variable = { 633.culture = 207 }
+	set_variable = { 639.culture = 207 }	
+	set_variable = { 669.culture = 207 }
+
+	#Iloko	
+	set_variable = { 623.culture = 208 }
+
+	#Tagalog	
+	set_variable = { 327.culture = 209 }	
+	set_variable = { 624.culture = 209 }
+	set_variable = { 626.culture = 209 }
+
+	#Bisaya	
+	set_variable = { 625.culture = 210 }
+	set_variable = { 627.culture = 210 }	
+	set_variable = { 628.culture = 210 }
+
+	#Richfordian	
+	set_variable = { 873.culture = 211 }	
+
+	#Acehnese	
+	set_variable = { 846.culture = 212 }	
+
+	#Malay	
+	set_variable = { 336.culture = 213 }	
+	set_variable = { 672.culture = 213 }	
+	set_variable = { 333.culture = 213 }	
+
+	#Javanese	
+	set_variable = { 334.culture = 214 }	
+	set_variable = { 335.culture = 214 }	
+	set_variable = { 667.culture = 214 }
+	set_variable = { 684.culture = 214 }
+	set_variable = { 710.culture = 214 }
+	set_variable = { 1024.culture = 214 }
+	
+	#Sulawesi	
+	set_variable = { 673.culture = 215 }	
+
+	#Ambon-Timor	
+	set_variable = { 721.culture = 216 }	
+	set_variable = { 738.culture = 216 }	
+	set_variable = { 847.culture = 216 }
+	set_variable = { 668.culture = 216 }
+	
+	#Austronesian
+	set_variable = { 270.culture = 217 }
+	set_variable = { 634.culture = 217 }
+	set_variable = { 635.culture = 217 }	
+	set_variable = { 636.culture = 217 }
+	set_variable = { 638.culture = 217 }
+	set_variable = { 641.culture = 217 }
+	set_variable = { 646.culture = 217 }
+	set_variable = { 647.culture = 217 }
+	set_variable = { 711.culture = 217 }
+	set_variable = { 712.culture = 217 }
+	set_variable = { 713.culture = 217 }
+	set_variable = { 725.culture = 217 }
+	set_variable = { 726.culture = 217 }
+	set_variable = { 734.culture = 217 }
+	set_variable = { 737.culture = 217 }
+
+	#Hawaiian
+	set_variable = { 629.culture = 218 }
+	set_variable = { 642.culture = 218 }
+	
+	#Occitan
+	set_variable = { 20.culture = 219 }	
+	set_variable = { 21.culture = 219 }	
+	set_variable = { 22.culture = 219 }	
+	set_variable = { 31.culture = 219 }	
+	set_variable = { 32.culture = 219 }	
+	set_variable = { 735.culture = 219 }	
+	set_variable = { 864.culture = 219 }
+
+	#New Englander
+	set_variable = { 357.culture = 220 }
+	set_variable = { 902.culture = 220 }
+	set_variable = { 903.culture = 220 }
+	set_variable = { 904.culture = 220 }	
+	set_variable = { 980.culture = 220 }	
+
+	#Sino Korean
+	set_variable = { 1049.culture = 221 }				
+
+	#South Korean
+	set_variable = { 525.culture = 222 }		
+	set_variable = { 1043.culture = 222 }		
+	set_variable = { 1045.culture = 222 }	
+	set_variable = { 1046.culture = 222 }			
+	set_variable = { 1047.culture = 222 }		
+	set_variable = { 1048.culture = 222 }		
+
+	###RELIGIONS###
+
+	#1. Healed Catholic Religion	### DO NOT USE
+
+	#Atheist
+	set_variable = { 873.religion = 2 }	
+	set_variable = { 874.religion = 2 }
+	
+	set_variable = { 282.religion = 2 }
+	set_variable = { 526.religion = 2 }
+	set_variable = { 530.religion = 2 }
+	set_variable = { 531.religion = 2 }
+	set_variable = { 532.religion = 2 }
+	set_variable = { 533.religion = 2 }
+	set_variable = { 534.religion = 2 }
+	set_variable = { 535.religion = 2 }
+	set_variable = { 536.religion = 2 }
+	set_variable = { 645.religion = 2 }
+	set_variable = { 727.religion = 2 }
+	set_variable = { 931.religion = 2 }
+	set_variable = { 1034.religion = 2 }
+	set_variable = { 1035.religion = 2 }
+	set_variable = { 1036.religion = 2 }
+	set_variable = { 1102.religion = 2 }
+	set_variable = { 1103.religion = 2 }
+	set_variable = { 1104.religion = 2 }
+	set_variable = { 1106.religion = 2 }
+	set_variable = { 1107.religion = 2 }
+	set_variable = { 1108.religion = 2 }
+	set_variable = { 1109.religion = 2 }
+	set_variable = { 1110.religion = 2 }
+	set_variable = { 1112.religion = 2 }
+	set_variable = { 1113.religion = 2 }
+	set_variable = { 1114.religion = 2 }
+	set_variable = { 1115.religion = 2 }
+	set_variable = { 1116.religion = 2 }
+	set_variable = { 1117.religion = 2 }
+	set_variable = { 1118.religion = 2 }
+	set_variable = { 1123.religion = 2 }
+	set_variable = { 1124.religion = 2 }
+	set_variable = { 1125.religion = 2 }
+	set_variable = { 1126.religion = 2 }
+	set_variable = { 1127.religion = 2 }
+	set_variable = { 1128.religion = 2 }
+	set_variable = { 1129.religion = 2 }
+	set_variable = { 1130.religion = 2 }
+
+	#Chinese Folk Religion
+	set_variable = { 283.religion = 3 }
+	set_variable = { 325.religion = 3 }
+	set_variable = { 326.religion = 3 }
+	set_variable = { 328.religion = 3 }
+	set_variable = { 524.religion = 3 }
+	set_variable = { 591.religion = 3 }
+	set_variable = { 592.religion = 3 }
+	set_variable = { 593.religion = 3 }
+	set_variable = { 594.religion = 3 }
+	set_variable = { 595.religion = 3 }
+	set_variable = { 596.religion = 3 }
+	set_variable = { 597.religion = 3 }
+	set_variable = { 598.religion = 3 }
+	set_variable = { 599.religion = 3 }
+	set_variable = { 600.religion = 3 }
+	set_variable = { 602.religion = 3 }
+	set_variable = { 603.religion = 3 }
+	set_variable = { 604.religion = 3 }
+	set_variable = { 605.religion = 3 }
+	set_variable = { 606.religion = 3 }
+	set_variable = { 607.religion = 3 }
+	set_variable = { 608.religion = 3 }
+	set_variable = { 609.religion = 3 }
+	set_variable = { 610.religion = 3 }
+	set_variable = { 611.religion = 3 }
+	set_variable = { 612.religion = 3 }
+	set_variable = { 613.religion = 3 }
+	set_variable = { 614.religion = 3 }
+	set_variable = { 615.religion = 3 }
+	set_variable = { 616.religion = 3 }
+	set_variable = { 620.religion = 3 }
+	set_variable = { 621.religion = 3 }
+	set_variable = { 622.religion = 3 }
+	set_variable = { 714.religion = 3 }
+	set_variable = { 715.religion = 3 }
+	set_variable = { 716.religion = 3 }
+	set_variable = { 717.religion = 3 }
+	set_variable = { 728.religion = 3 }
+	set_variable = { 729.religion = 3 }
+	set_variable = { 743.religion = 3 }
+	set_variable = { 744.religion = 3 }
+	set_variable = { 745.religion = 3 }
+	set_variable = { 746.religion = 3 }
+	set_variable = { 747.religion = 3 }
+	set_variable = { 748.religion = 3 }
+	set_variable = { 749.religion = 3 }
+	set_variable = { 750.religion = 3 }
+	set_variable = { 751.religion = 3 }
+	set_variable = { 752.religion = 3 }
+	set_variable = { 753.religion = 3 }
+	set_variable = { 754.religion = 3 }
+	set_variable = { 755.religion = 3 }
+	set_variable = { 756.religion = 3 }
+	set_variable = { 761.religion = 3 }
+	set_variable = { 923.religion = 3 }
+	set_variable = { 930.religion = 3 }
+	set_variable = { 1049.religion = 3 }
+	set_variable = { 1068.religion = 3 }
+
+	#Protestant Religion
+	set_variable = { 6.religion = 4 }	
+	set_variable = { 8.religion = 4 }	
+	set_variable = { 12.religion = 4 }	
+	set_variable = { 13.religion = 4 }	
+	set_variable = { 29.religion = 4 }	
+	set_variable = { 34.religion = 4 }
+	set_variable = { 35.religion = 4 }	
+	set_variable = { 36.religion = 4 }		
+	set_variable = { 37.religion = 4 }	
+	set_variable = { 38.religion = 4 }	
+	set_variable = { 42.religion = 4 }	
+	set_variable = { 50.religion = 4 }	
+	set_variable = { 51.religion = 4 }	
+	set_variable = { 54.religion = 4 }	
+	set_variable = { 56.religion = 4 }		
+	set_variable = { 57.religion = 4 }
+	set_variable = { 58.religion = 4 }	
+	set_variable = { 59.religion = 4 }		
+	set_variable = { 60.religion = 4 }	
+	set_variable = { 61.religion = 4 }	
+	set_variable = { 62.religion = 4 }	
+	set_variable = { 64.religion = 4 }	
+	set_variable = { 65.religion = 4 }	
+	set_variable = { 99.religion = 4 }	
+	set_variable = { 100.religion = 4 }	
+	set_variable = { 110.religion = 4 }	
+	set_variable = { 111.religion = 4 }	
+	set_variable = { 120.religion = 4 }	
+	set_variable = { 121.religion = 4 }	
+	set_variable = { 122.religion = 4 }	
+	set_variable = { 123.religion = 4 }	
+	set_variable = { 124.religion = 4 }	
+	set_variable = { 125.religion = 4 }	
+	set_variable = { 126.religion = 4 }	
+	set_variable = { 127.religion = 4 }	
+	set_variable = { 128.religion = 4 }	
+	set_variable = { 129.religion = 4 }	
+	set_variable = { 130.religion = 4 }	
+	set_variable = { 131.religion = 4 }	
+	set_variable = { 132.religion = 4 }	
+	set_variable = { 133.religion = 4 }	
+	set_variable = { 136.religion = 4 }	
+	set_variable = { 138.religion = 4 }	
+	set_variable = { 139.religion = 4 }
+	set_variable = { 140.religion = 4 }
+	set_variable = { 141.religion = 4 }		
+	set_variable = { 142.religion = 4 }	
+	set_variable = { 143.religion = 4 }	
+	set_variable = { 144.religion = 4 }	
+	set_variable = { 145.religion = 4 }	
+	set_variable = { 148.religion = 4 }	
+	set_variable = { 149.religion = 4 }	
+	set_variable = { 150.religion = 4 }	
+	set_variable = { 151.religion = 4 }	
+	set_variable = { 190.religion = 4 }	
+	set_variable = { 191.religion = 4 }	
+	set_variable = { 261.religion = 4 }	
+	set_variable = { 270.religion = 4 }
+	set_variable = { 274.religion = 4 }	
+	set_variable = { 275.religion = 4 }		
+	set_variable = { 276.religion = 4 }	
+	set_variable = { 280.religion = 4 }
+	set_variable = { 284.religion = 4 }
+	set_variable = { 285.religion = 4 }	
+	set_variable = { 298.religion = 4 }
+	set_variable = { 299.religion = 4 }
+	set_variable = { 308.religion = 4 }
+	set_variable = { 309.religion = 4 }	
+	set_variable = { 311.religion = 4 }	
+	set_variable = { 312.religion = 4 }	
+	set_variable = { 313.religion = 4 }	
+	set_variable = { 314.religion = 4 }	
+	set_variable = { 316.religion = 4 }	
+	set_variable = { 317.religion = 4 }	
+	set_variable = { 331.religion = 4 }	
+	set_variable = { 332.religion = 4 }	
+	set_variable = { 337.religion = 4 }	
+	set_variable = { 338.religion = 4 }	
+	set_variable = { 357.religion = 4 }	
+	set_variable = { 360.religion = 4 }	
+	set_variable = { 361.religion = 4 }
+	set_variable = { 362.religion = 4 }	
+	set_variable = { 363.religion = 4 }	
+	set_variable = { 364.religion = 4 }	
+	set_variable = { 365.religion = 4 }	
+	set_variable = { 367.religion = 4 }	
+	set_variable = { 368.religion = 4 }	
+	set_variable = { 369.religion = 4 }	
+	set_variable = { 370.religion = 4 }	
+	set_variable = { 372.religion = 4 }		
+	set_variable = { 373.religion = 4 }	
+	set_variable = { 374.religion = 4 }	
+	set_variable = { 377.religion = 4 }	
+	set_variable = { 379.religion = 4 }	
+	set_variable = { 381.religion = 4 }	
+	set_variable = { 382.religion = 4 }	
+	set_variable = { 383.religion = 4 }	
+	set_variable = { 384.religion = 4 }	
+	set_variable = { 385.religion = 4 }	
+	set_variable = { 386.religion = 4 }	
+	set_variable = { 388.religion = 4 }	
+	set_variable = { 389.religion = 4 }	
+	set_variable = { 390.religion = 4 }	
+	set_variable = { 391.religion = 4 }	
+	set_variable = { 392.religion = 4 }	
+	set_variable = { 393.religion = 4 }	
+	set_variable = { 394.religion = 4 }	
+	set_variable = { 395.religion = 4 }	
+	set_variable = { 396.religion = 4 }	
+	set_variable = { 463.religion = 4 }	
+	set_variable = { 464.religion = 4 }	
+	set_variable = { 467.religion = 4 }	
+	set_variable = { 469.religion = 4 }	
+	set_variable = { 470.religion = 4 }	
+	set_variable = { 471.religion = 4 }	
+	set_variable = { 472.religion = 4 }	
+	set_variable = { 473.religion = 4 }	
+	set_variable = { 487.religion = 4 }
+	set_variable = { 495.religion = 4 }
+	set_variable = { 500.religion = 4 }
+	set_variable = { 501.religion = 4 }
+	set_variable = { 504.religion = 4 }
+	set_variable = { 505.religion = 4 }
+	set_variable = { 517.religion = 4 }	
+	set_variable = { 518.religion = 4 }
+	set_variable = { 519.religion = 4 }
+	set_variable = { 520.religion = 4 }
+	set_variable = { 521.religion = 4 }
+	set_variable = { 522.religion = 4 }
+	set_variable = { 523.religion = 4 }
+	set_variable = { 541.religion = 4 }		
+	set_variable = { 542.religion = 4 }		
+	set_variable = { 543.religion = 4 }	
+	set_variable = { 547.religion = 4 }	
+	set_variable = { 629.religion = 4 }
+	set_variable = { 630.religion = 4 }
+	set_variable = { 633.religion = 4 }
+	set_variable = { 634.religion = 4 }
+	set_variable = { 635.religion = 4 }
+	set_variable = { 636.religion = 4 }
+	set_variable = { 638.religion = 4 }
+	set_variable = { 639.religion = 4 }
+	set_variable = { 641.religion = 4 }
+	set_variable = { 642.religion = 4 }
+	set_variable = { 643.religion = 4 }
+	set_variable = { 653.religion = 4 }
+	set_variable = { 646.religion = 4 }
+	set_variable = { 647.religion = 4 }
+	set_variable = { 666.religion = 4 }	
+	set_variable = { 669.religion = 4 }
+	set_variable = { 674.religion = 4 }
+	set_variable = { 681.religion = 4 }		
+	set_variable = { 682.religion = 4 }	
+	set_variable = { 683.religion = 4 }	
+	set_variable = { 685.religion = 4 }
+	set_variable = { 687.religion = 4 }
+	set_variable = { 689.religion = 4 }
+	set_variable = { 692.religion = 4 }
+	set_variable = { 696.religion = 4 }
+	set_variable = { 703.religion = 4 }
+	set_variable = { 704.religion = 4 }
+	set_variable = { 706.religion = 4 }		
+	set_variable = { 707.religion = 4 }	
+	set_variable = { 708.religion = 4 }		
+	set_variable = { 709.religion = 4 }		
+	set_variable = { 711.religion = 4 }	
+	set_variable = { 712.religion = 4 }	
+	set_variable = { 713.religion = 4 }				
+	set_variable = { 719.religion = 4 }		
+	set_variable = { 720.religion = 4 }
+	set_variable = { 725.religion = 4 }
+	set_variable = { 726.religion = 4 }
+	set_variable = { 723.religion = 4 }
+	set_variable = { 734.religion = 4 }
+	set_variable = { 737.religion = 4 }
+	set_variable = { 739.religion = 4 }	
+	set_variable = { 740.religion = 4 }		
+	set_variable = { 808.religion = 4 }	
+	set_variable = { 809.religion = 4 }	
+	set_variable = { 810.religion = 4 }	
+	set_variable = { 811.religion = 4 }	
+	set_variable = { 812.religion = 4 }	
+	set_variable = { 813.religion = 4 }	
+	set_variable = { 816.religion = 4 }	
+	set_variable = { 837.religion = 4 }		
+	set_variable = { 838.religion = 4 }		
+	set_variable = { 839.religion = 4 }		
+	set_variable = { 848.religion = 4 }	
+	set_variable = { 850.religion = 4 }	
+	set_variable = { 851.religion = 4 }	
+	set_variable = { 852.religion = 4 }	
+	set_variable = { 854.religion = 4 }	
+	set_variable = { 855.religion = 4 }	
+	set_variable = { 856.religion = 4 }	
+	set_variable = { 858.religion = 4 }	
+	set_variable = { 859.religion = 4 }	
+	set_variable = { 861.religion = 4 }	
+	set_variable = { 865.religion = 4 }	
+	set_variable = { 866.religion = 4 }	
+	set_variable = { 869.religion = 4 }	
+	set_variable = { 870.religion = 4 }
+	set_variable = { 877.religion = 4 }
+	set_variable = { 878.religion = 4 }
+	set_variable = { 879.religion = 4 }
+	set_variable = { 880.religion = 4 }	
+	set_variable = { 891.religion = 4 }	
+	set_variable = { 896.religion = 4 }	
+	set_variable = { 899.religion = 4 }
+	set_variable = { 905.religion = 4 }	
+	set_variable = { 914.religion = 4 }
+	set_variable = { 915.religion = 4 }
+	set_variable = { 916.religion = 4 }
+	set_variable = { 924.religion = 4 }	
+	set_variable = { 925.religion = 4 }	
+	set_variable = { 926.religion = 4 }	
+	set_variable = { 927.religion = 4 }
+	set_variable = { 935.religion = 4 }	
+	set_variable = { 937.religion = 4 }	
+	set_variable = { 938.religion = 4 }	
+	set_variable = { 940.religion = 4 }	
+	set_variable = { 950.religion = 4 }
+	set_variable = { 956.religion = 4 }
+	set_variable = { 957.religion = 4 }
+	set_variable = { 958.religion = 4 }
+	set_variable = { 959.religion = 4 }
+	set_variable = { 960.religion = 4 }
+	set_variable = { 963.religion = 4 }
+	set_variable = { 984.religion = 4 }
+	set_variable = { 985.religion = 4 }
+	set_variable = { 964.religion = 4 }
+	set_variable = { 967.religion = 4 }
+	set_variable = { 968.religion = 4 }
+	set_variable = { 971.religion = 4 }
+	set_variable = { 973.religion = 4 }
+	set_variable = { 974.religion = 4 }
+	set_variable = { 976.religion = 4 }
+	set_variable = { 977.religion = 4 }
+	set_variable = { 978.religion = 4 }
+	set_variable = { 979.religion = 4 }
+	set_variable = { 980.religion = 4 }
+	set_variable = { 981.religion = 4 }
+	set_variable = { 983.religion = 4 }
+	set_variable = { 987.religion = 4 }
+	set_variable = { 988.religion = 4 }
+	set_variable = { 989.religion = 4 }
+	set_variable = { 990.religion = 4 }
+	set_variable = { 991.religion = 4 }
+	set_variable = { 993.religion = 4 }
+	set_variable = { 997.religion = 4 }
+	set_variable = { 998.religion = 4 }
+	set_variable = { 1000.religion = 4 }
+	set_variable = { 1001.religion = 4 }
+	set_variable = { 1028.religion = 4 }
+	set_variable = { 1050.religion = 4 }
+	set_variable = { 1051.religion = 4 }
+	set_variable = { 1052.religion = 4}
+	set_variable = { 1053.religion = 4 }
+	set_variable = { 1054.religion = 4 }
+	set_variable = { 1055.religion = 4 }
+	set_variable = { 1056.religion = 4 }
+	set_variable = { 1057.religion = 4 }
+	set_variable = { 1058.religion = 4 }
+	set_variable = { 1059.religion = 4 }
+	set_variable = { 1131.religion = 4 }	
+	set_variable = { 1132.religion = 4 }	
+	set_variable = { 1133.religion = 4 }	
+	set_variable = { 1134.religion = 4 }	
+
+	#Hessenite Protestantism
+	set_variable = { 55.religion = 5 }	
+	set_variable = { 867.religion = 5 }		
+	set_variable = { 868.religion = 5 }			
+
+	#Healed Orthodox Christianity, DO NOT USE
+
+	#New Creed Catholicism
+	set_variable = { 790.religion = 7 }	
+
+	#Shintoism
+	set_variable = { 529.religion = 8 }
+	set_variable = { 932.religion = 8 }
+	set_variable = { 1105.religion = 8 }
+	set_variable = { 1101.religion = 8 }
+	set_variable = { 1111.religion = 8 }
+	set_variable = { 1119.religion = 8 }
+	set_variable = { 1120.religion = 8 }
+	set_variable = { 1121.religion = 8 }
+	set_variable = { 1122.religion = 8 }
+
+	#Muism
+	set_variable = { 525.religion = 9 }		
+	set_variable = { 527.religion = 9 }	
+	set_variable = { 1039.religion = 9 }	
+	set_variable = { 1040.religion = 9 }	
+	set_variable = { 1041.religion = 9 }	
+	set_variable = { 1043.religion = 9 }	
+	set_variable = { 1044.religion = 9 }	
+	set_variable = { 1045.religion = 9 }	
+	set_variable = { 1046.religion = 9 }	
+	set_variable = { 1047.religion = 9 }	
+	set_variable = { 1048.religion = 9 }	
+
+	#Mahayana Buddhism
+	set_variable = { 322.religion = 10 }
+	set_variable = { 329.religion = 10 }
+	set_variable = { 330.religion = 10 }
+	set_variable = { 601.religion = 10 }
+	set_variable = { 757.religion = 10 }
+	set_variable = { 758.religion = 10 }	
+	set_variable = { 817.religion = 10 }
+	set_variable = { 818.religion = 10 }
+	set_variable = { 819.religion = 10 }	
+	set_variable = { 820.religion = 10 }
+
+	#Sunni Islam
+	set_variable = { 44.religion = 11 }
+	set_variable = { 49.religion = 11 }
+	set_variable = { 183.religion = 11 }
+	set_variable = { 232.religion = 11 }
+	set_variable = { 267.religion = 11 }
+	set_variable = { 268.religion = 11 }
+	set_variable = { 269.religion = 11 }
+	set_variable = { 271.religion = 11 }
+	set_variable = { 272.religion = 11 }
+	set_variable = { 273.religion = 11 }
+	set_variable = { 287.religion = 11 }
+	set_variable = { 290.religion = 11 }
+	set_variable = { 292.religion = 11 }
+	set_variable = { 296.religion = 11 }
+	set_variable = { 333.religion = 11 }
+	set_variable = { 334.religion = 11 }
+	set_variable = { 335.religion = 11 }
+	set_variable = { 336.religion = 11 }
+	set_variable = { 339.religion = 11 }
+	set_variable = { 340.religion = 11 }
+	set_variable = { 341.religion = 11 }
+	set_variable = { 342.religion = 11 }
+	set_variable = { 343.religion = 11 }
+	set_variable = { 344.religion = 11 }
+	set_variable = { 345.religion = 11 }
+	set_variable = { 346.religion = 11 }
+	set_variable = { 347.religion = 11 }
+	set_variable = { 348.religion = 11 }
+	set_variable = { 349.religion = 11 } 
+	set_variable = { 350.religion = 11 }
+	set_variable = { 352.religion = 11 }
+	set_variable = { 353.religion = 11 }
+	set_variable = { 354.religion = 11 }
+	set_variable = { 355.religion = 11 }
+	set_variable = { 356.religion = 11 }
+	set_variable = { 402.religion = 11 }
+	set_variable = { 404.religion = 11 }
+	set_variable = { 405.religion = 11 }
+	set_variable = { 410.religion = 11 }
+	set_variable = { 415.religion = 11 }
+	set_variable = { 440.religion = 11 }
+	set_variable = { 441.religion = 11 }
+	set_variable = { 442.religion = 11 }
+	set_variable = { 443.religion = 11 }
+	set_variable = { 444.religion = 11 }
+	set_variable = { 445.religion = 11 }
+	set_variable = { 446.religion = 11 }
+	set_variable = { 447.religion = 11 }
+	set_variable = { 448.religion = 11 }
+	set_variable = { 449.religion = 11 }
+	set_variable = { 450.religion = 11 }
+	set_variable = { 451.religion = 11 }
+	set_variable = { 452.religion = 11 }
+	set_variable = { 453.religion = 11 }
+	set_variable = { 455.religion = 11 }
+	set_variable = { 456.religion = 11 }
+	set_variable = { 457.religion = 11 }
+	set_variable = { 458.religion = 11 }
+	set_variable = { 459.religion = 11 }
+	set_variable = { 460.religion = 11 }
+	set_variable = { 461.religion = 11 }
+	set_variable = { 462.religion = 11 }
+	set_variable = { 513.religion = 11 }
+	set_variable = { 514.religion = 11 }
+	set_variable = { 549.religion = 11 }
+	set_variable = { 550.religion = 11 }
+	set_variable = { 551.religion = 11 }
+	set_variable = { 552.religion = 11 }
+	set_variable = { 553.religion = 11 }
+	set_variable = { 554.religion = 11 }
+	set_variable = { 556.religion = 11 }
+	set_variable = { 557.religion = 11 }
+	set_variable = { 558.religion = 11 }
+	set_variable = { 559.religion = 11 }
+	set_variable = { 584.religion = 11 }
+	set_variable = { 585.religion = 11 }
+	set_variable = { 586.religion = 11 }
+	set_variable = { 587.religion = 11 }
+	set_variable = { 589.religion = 11 }
+	set_variable = { 617.religion = 11 }
+	set_variable = { 618.religion = 11 }
+	set_variable = { 619.religion = 11 }
+	set_variable = { 656.religion = 11 }
+	set_variable = { 658.religion = 11 }
+	set_variable = { 659.religion = 11 }
+	set_variable = { 661.religion = 11 }
+	set_variable = { 662.religion = 11 }
+	set_variable = { 663.religion = 11 }
+	set_variable = { 665.religion = 11 }
+	set_variable = { 667.religion = 11 }
+	set_variable = { 668.religion = 11 }
+	set_variable = { 672.religion = 11 }
+	set_variable = { 673.religion = 11 }
+	set_variable = { 676.religion = 11 }
+	set_variable = { 677.religion = 11 }
+	set_variable = { 678.religion = 11 }
+	set_variable = { 679.religion = 11 }
+	set_variable = { 680.religion = 11 }
+	set_variable = { 684.religion = 11 }
+	set_variable = { 699.religion = 11 }
+	set_variable = { 700.religion = 11 }
+	set_variable = { 701.religion = 11 }
+	set_variable = { 710.religion = 11 }		
+	set_variable = { 732.religion = 11 }
+	set_variable = { 742.religion = 11 }
+	set_variable = { 759.religion = 11 }
+	set_variable = { 760.religion = 11 }
+	set_variable = { 765.religion = 11 }
+	set_variable = { 774.religion = 11 }
+	set_variable = { 778.religion = 11 }
+	set_variable = { 780.religion = 11 }
+	set_variable = { 781.religion = 11 }
+	set_variable = { 783.religion = 11 }
+	set_variable = { 787.religion = 11 }
+	set_variable = { 797.religion = 11 }
+	set_variable = { 798.religion = 11 }
+	set_variable = { 799.religion = 11 }
+	set_variable = { 800.religion = 11 }
+	set_variable = { 802.religion = 11 }
+	set_variable = { 805.religion = 11 }
+	set_variable = { 821.religion = 11 }
+	set_variable = { 823.religion = 11 }
+	set_variable = { 830.religion = 11 }
+	set_variable = { 831.religion = 11 }
+	set_variable = { 832.religion = 11 }
+	set_variable = { 835.religion = 11 }
+	set_variable = { 842.religion = 11 }
+	set_variable = { 843.religion = 11 }
+	set_variable = { 844.religion = 11 }
+	set_variable = { 845.religion = 11 }
+	set_variable = { 846.religion = 11 }
+	set_variable = { 889.religion = 11 }
+	set_variable = { 890.religion = 11 }
+	set_variable = { 897.religion = 11 }
+	set_variable = { 911.religion = 11 }
+	set_variable = { 912.religion = 11 }
+	set_variable = { 1011.religion = 11 }
+	set_variable = { 1012.religion = 11 }
+	set_variable = { 1024.religion = 11 }		
+	set_variable = { 1037.religion = 11 }
+	set_variable = { 1069.religion = 11 }
+	set_variable = { 1070.religion = 11 }
+	set_variable = { 1071.religion = 11 }
+	set_variable = { 1074.religion = 11 }
+	set_variable = { 1075.religion = 11 }
+	set_variable = { 1076.religion = 11 }	
+	set_variable = { 1079.religion = 11 }
+	set_variable = { 1087.religion = 11 }
+	set_variable = { 1088.religion = 11 }
+	set_variable = { 1089.religion = 11 }
+	set_variable = { 1092.religion = 11 }
+	set_variable = { 1093.religion = 11 }
+	set_variable = { 1094.religion = 11 }		
+	set_variable = { 1095.religion = 11 }
+	
+	#MISSING DATA		
+
+	#Mormonism	
+	set_variable = { 380.religion = 13 }	
+	set_variable = { 387.religion = 13 }
+	set_variable = { 965.religion = 13 }
+	set_variable = { 966.religion = 13 }
+	set_variable = { 995.religion = 13 }
+	set_variable = { 996.religion = 13 }
+
+	#Shia Islam	
+	set_variable = { 229.religion = 14 }
+	set_variable = { 266.religion = 14 }
+	set_variable = { 291.religion = 14 }
+	set_variable = { 293.religion = 14 }
+	set_variable = { 411.religion = 14 }
+	set_variable = { 412.religion = 14 }	
+	set_variable = { 413.religion = 14 }	
+	set_variable = { 414.religion = 14 }
+	set_variable = { 416.religion = 14 }
+	set_variable = { 417.religion = 14 }
+	set_variable = { 418.religion = 14 }
+	set_variable = { 419.religion = 14 }
+	set_variable = { 420.religion = 14 }
+	set_variable = { 421.religion = 14 }
+	set_variable = { 675.religion = 14 }
+	set_variable = { 1077.religion = 14 }
+	set_variable = { 1078.religion = 14 }
+	set_variable = { 1090.religion = 14 }
+	set_variable = { 1091.religion = 14 }
+	set_variable = { 1098.religion = 14 }
+	set_variable = { 1099.religion = 14 }
+	set_variable = { 1100.religion = 14 }
+
+	#Ibadi Islam	
+	set_variable = { 294.religion = 15 }	
+	set_variable = { 1096.religion = 15 }	
+	set_variable = { 1097.religion = 15 }	
+
+	#Theravada Buddhism
+	set_variable = { 281.religion = 16 }
+	set_variable = { 288.religion = 16 }
+	set_variable = { 289.religion = 16 }
+	set_variable = { 422.religion = 16 }
+	set_variable = { 640.religion = 16 }
+	set_variable = { 650.religion = 16 }
+	set_variable = { 670.religion = 16 }
+	set_variable = { 733.religion = 16 }
+	set_variable = { 724.religion = 16 }
+	set_variable = { 741.religion = 16 }	
+	set_variable = { 1025.religion = 16 }	
+	set_variable = { 1027.religion = 16 }
+
+	#Hiloni Judaism
+	set_variable = { 454.religion = 17 }	
+
+	#Miaphysite Christianity
+	set_variable = { 230.religion = 18 }
+	set_variable = { 841.religion = 18 }
+	set_variable = { 913.religion = 18 }	
+	set_variable = { 917.religion = 18 }
+	set_variable = { 918.religion = 18 }	
+
+	#Cult of the Sahara
+	set_variable = { 886.religion = 19 }		
+
+	#Hinduism
+	set_variable = { 320.religion = 20 }
+	set_variable = { 321.religion = 20 }
+	set_variable = { 323.religion = 20 }
+	set_variable = { 423.religion = 20 }
+	set_variable = { 424.religion = 20 }
+	set_variable = { 425.religion = 20 }	
+	set_variable = { 426.religion = 20 }
+	set_variable = { 427.religion = 20 }
+	set_variable = { 428.religion = 20 }
+	set_variable = { 429.religion = 20 }
+	set_variable = { 433.religion = 20 }
+	set_variable = { 435.religion = 20 }
+	set_variable = { 436.religion = 20 }
+	set_variable = { 437.religion = 20 }
+	set_variable = { 438.religion = 20 }
+	set_variable = { 439.religion = 20 }
+	set_variable = { 1013.religion = 20 }
+	set_variable = { 1014.religion = 20 }
+
+	#Bengali Big Three
+	set_variable = { 324.religion = 21 }
+	set_variable = { 430.religion = 21 }
+	set_variable = { 431.religion = 21 }	
+	set_variable = { 432.religion = 21 }
+	set_variable = { 434.religion = 21 }
+	set_variable = { 836.religion = 21 }
+
+	#Vietnamese Folk Religion
+	set_variable = { 286.religion = 22 }
+	set_variable = { 671.religion = 22 }	
+	set_variable = { 1026.religion = 22 }
+
+	#Juche
+	set_variable = { 1042.religion = 23 }	
+
+	#American Parousia Convent
+	set_variable = { 693.religion = 24 }		
+	set_variable = { 690.religion = 24 }	
+	set_variable = { 936.religion = 24 }		
+	set_variable = { 962.religion = 24 }		
+
+	#American Megachurches
+	set_variable = { 371.religion = 25 }	
+	set_variable = { 366.religion = 25 }
+	set_variable = { 375.religion = 25 }
+	set_variable = { 933.religion = 25 }
+	set_variable = { 934.religion = 25 }	
+	set_variable = { 939.religion = 25 }	
+	set_variable = { 947.religion = 25 }	
+	set_variable = { 952.religion = 25 }	
+	set_variable = { 961.religion = 25 }	
+	set_variable = { 972.religion = 25 }	
+	set_variable = { 982.religion = 25 }	
+	set_variable = { 986.religion = 25 }	
+	set_variable = { 999.religion = 25 }	
+
+	#Papal Church
+	set_variable = { 1.religion = 26 }
+	set_variable = { 2.religion = 26 }
+	set_variable = { 3.religion = 26 }
+	set_variable = { 4.religion = 26 }
+	set_variable = { 9.religion = 26 }
+	set_variable = { 15.religion = 26 }
+	set_variable = { 16.religion = 26 }
+	set_variable = { 17.religion = 26 }
+	set_variable = { 20.religion = 26 }
+	set_variable = { 27.religion = 26 }
+	set_variable = { 28.religion = 26 }
+	set_variable = { 32.religion = 26 }
+	set_variable = { 39.religion = 26 }
+	set_variable = { 69.religion = 26 }
+	set_variable = { 70.religion = 26 }
+	set_variable = { 71.religion = 26 }
+	set_variable = { 75.religion = 26 }
+	set_variable = { 102.religion = 26 }
+	set_variable = { 112.religion = 26 }
+	set_variable = { 113.religion = 26 }
+	set_variable = { 114.religion = 26 }
+	set_variable = { 115.religion = 26 }
+	set_variable = { 116.religion = 26 }
+	set_variable = { 117.religion = 26 }
+	set_variable = { 118.religion = 26 }
+	set_variable = { 119.religion = 26 }
+	set_variable = { 134.religion = 26 }
+	set_variable = { 135.religion = 26 }
+	set_variable = { 155.religion = 26 }
+	set_variable = { 156.religion = 26 }
+	set_variable = { 157.religion = 26 }
+	set_variable = { 158.religion = 26 }
+	set_variable = { 159.religion = 26 }
+	set_variable = { 160.religion = 26 }
+	set_variable = { 161.religion = 26 }
+	set_variable = { 162.religion = 26 }
+	set_variable = { 166.religion = 26 }
+	set_variable = { 169.religion = 26 }
+	set_variable = { 173.religion = 26 }
+	set_variable = { 174.religion = 26 }
+	set_variable = { 175.religion = 26 }
+	set_variable = { 177.religion = 26 }
+	set_variable = { 178.religion = 26 }
+	set_variable = { 180.religion = 26 }
+	set_variable = { 181.religion = 26 }
+	set_variable = { 277.religion = 26 }
+	set_variable = { 278.religion = 26 }
+	set_variable = { 300.religion = 26 }
+	set_variable = { 302.religion = 26 }
+	set_variable = { 304.religion = 26 }
+	set_variable = { 305.religion = 26 }
+	set_variable = { 306.religion = 26 }
+	set_variable = { 327.religion = 26 }
+	set_variable = { 359.religion = 26 }
+	set_variable = { 358.religion = 26 }
+	set_variable = { 474.religion = 26 }
+	set_variable = { 475.religion = 26 }
+	set_variable = { 476.religion = 26 }
+	set_variable = { 477.religion = 26 }
+	set_variable = { 478.religion = 26 }
+	set_variable = { 485.religion = 26 }
+	set_variable = { 493.religion = 26 }
+	set_variable = { 508.religion = 26 }
+	set_variable = { 509.religion = 26 }
+	set_variable = { 510.religion = 26 }
+	set_variable = { 511.religion = 26 }
+	set_variable = { 623.religion = 26 }
+	set_variable = { 624.religion = 26 }
+	set_variable = { 625.religion = 26 }
+	set_variable = { 626.religion = 26 }
+	set_variable = { 627.religion = 26 }
+	set_variable = { 628.religion = 26 }
+	set_variable = { 664.religion = 26 }
+	set_variable = { 698.religion = 26 }
+	set_variable = { 697.religion = 26 }
+	set_variable = { 702.religion = 26 }
+	set_variable = { 721.religion = 26 }
+	set_variable = { 730.religion = 26 }
+	set_variable = { 735.religion = 26 }
+	set_variable = { 736.religion = 26 }
+	set_variable = { 738.religion = 26 }
+	set_variable = { 784.religion = 26 }
+	set_variable = { 789.religion = 26 }
+	set_variable = { 791.religion = 26 }
+	set_variable = { 793.religion = 26 }
+	set_variable = { 795.religion = 26 }
+	set_variable = { 794.religion = 26 }
+	set_variable = { 814.religion = 26 }
+	set_variable = { 847.religion = 26 }
+	set_variable = { 849.religion = 26 }
+	set_variable = { 857.religion = 26 }
+	set_variable = { 864.religion = 26 }
+	set_variable = { 871.religion = 26 }
+	set_variable = { 872.religion = 26 }
+	set_variable = { 881.religion = 26 }
+	set_variable = { 882.religion = 26 }
+	set_variable = { 883.religion = 26 }
+	set_variable = { 892.religion = 26 }
+	set_variable = { 894.religion = 26 }
+	set_variable = { 895.religion = 26 }
+	set_variable = { 893.religion = 26 }
+	set_variable = { 898.religion = 26 }
+	set_variable = { 900.religion = 26 }
+	set_variable = { 970.religion = 26 }
+	set_variable = { 1060.religion = 26 }
+	set_variable = { 1061.religion = 26 }
+	set_variable = { 1062.religion = 26 }
+	set_variable = { 1063.religion = 26 }
+	set_variable = { 1064.religion = 26 }
+	set_variable = { 1065.religion = 26 }
+	set_variable = { 1066.religion = 26 }
+	set_variable = { 1067.religion = 26 }
+	set_variable = { 1072.religion = 26 }
+	set_variable = { 1073.religion = 26 }
+	set_variable = { 1081.religion = 26 }
+	set_variable = { 1082.religion = 26 }
+	set_variable = { 1086.religion = 26 }
+	set_variable = { 1135.religion = 26 }
+
+	#Brazil Church
+	set_variable = { 301.religion = 27 }
+	set_variable = { 310.religion = 27 }
+	set_variable = { 496.religion = 27 }
+	set_variable = { 497.religion = 27 }
+	set_variable = { 498.religion = 27 }
+	set_variable = { 499.religion = 27 }
+	set_variable = { 502.religion = 27 }
+	set_variable = { 503.religion = 27 }
+	set_variable = { 875.religion = 27 }
+	set_variable = { 876.religion = 27 }
+	set_variable = { 1083.religion = 27 }
+	set_variable = { 1084.religion = 27 }
+	set_variable = { 1085.religion = 27 }
+
+	#Santa Muerte
+	set_variable = { 479.religion = 28 }
+	set_variable = { 480.religion = 28 }
+	set_variable = { 481.religion = 28 }
+	set_variable = { 482.religion = 28 }
+	set_variable = { 483.religion = 28 }
+	set_variable = { 484.religion = 28 }
+	set_variable = { 949.religion = 28 }
+
+	#Lucius
+	set_variable = { 5.religion = 29 }
+	set_variable = { 7.religion = 29 }
+	set_variable = { 10.religion = 29 }
+	set_variable = { 11.religion = 29 }
+	set_variable = { 14.religion = 29 }
+	set_variable = { 18.religion = 29 }
+	set_variable = { 19.religion = 29 }
+	set_variable = { 21.religion = 29 }
+	set_variable = { 22.religion = 29 }
+	set_variable = { 23.religion = 29 }
+	set_variable = { 24.religion = 29 }
+	set_variable = { 25.religion = 29 }
+	set_variable = { 26.religion = 29 }
+	set_variable = { 30.religion = 29 }
+	set_variable = { 31.religion = 29 }
+	set_variable = { 33.religion = 29 }
+	set_variable = { 41.religion = 29 }
+	set_variable = { 43.religion = 29 }
+	set_variable = { 52.religion = 29 }
+	set_variable = { 53.religion = 29 }
+	set_variable = { 63.religion = 29 }
+	set_variable = { 66.religion = 29 }
+	set_variable = { 67.religion = 29 }
+	set_variable = { 68.religion = 29 }
+	set_variable = { 72.religion = 29 }
+	set_variable = { 74.religion = 29 }
+	set_variable = { 85.religion = 29 }
+	set_variable = { 86.religion = 29 }
+	set_variable = { 87.religion = 29 }
+	set_variable = { 88.religion = 29 }
+	set_variable = { 90.religion = 29 }
+	set_variable = { 92.religion = 29 }
+	set_variable = { 97.religion = 29 }
+	set_variable = { 98.religion = 29 }
+	set_variable = { 119.religion = 29 }
+	set_variable = { 152.religion = 29 }
+	set_variable = { 153.religion = 29 }
+	set_variable = { 154.religion = 29 }
+	set_variable = { 165.religion = 29 }
+	set_variable = { 167.religion = 29 }
+	set_variable = { 168.religion = 29 }
+	set_variable = { 170.religion = 29 }
+	set_variable = { 171.religion = 29 }
+	set_variable = { 172.religion = 29 }
+	set_variable = { 176.religion = 29 }
+	set_variable = { 179.religion = 29 }
+	set_variable = { 188.religion = 29 }
+	set_variable = { 189.religion = 29 }
+	set_variable = { 318.religion = 29 }
+	set_variable = { 319.religion = 29 }
+	set_variable = { 466.religion = 29 }
+	set_variable = { 507.religion = 29 }
+	set_variable = { 512.religion = 29 }
+	set_variable = { 688.religion = 29 }
+	set_variable = { 762.religion = 29 }
+	set_variable = { 785.religion = 29 }
+	set_variable = { 788.religion = 29 }
+	set_variable = { 792.religion = 29 }
+	set_variable = { 806.religion = 29 }
+	set_variable = { 807.religion = 29 }
+	set_variable = { 815.religion = 29 }
+	set_variable = { 853.religion = 29 }
+	set_variable = { 860.religion = 29 }
+	set_variable = { 862.religion = 29 }
+	set_variable = { 863.religion = 29 }
+	set_variable = { 884.religion = 29 }
+	set_variable = { 946.religion = 29 }
+	set_variable = { 1038.religion = 29 }
+	set_variable = { 1080.religion = 29 }
+
+	#Unaligned Caths
+	set_variable = { 279.religion = 30 }
+	set_variable = { 303.religion = 30 }
+	set_variable = { 315.religion = 30 }
+	set_variable = { 376.religion = 30 }
+	set_variable = { 378.religion = 30 }
+	set_variable = { 307.religion = 30 }
+	set_variable = { 465.religion = 30 }
+	set_variable = { 468.religion = 30 }
+	set_variable = { 486.religion = 30 }
+	set_variable = { 488.religion = 30 }
+	set_variable = { 489.religion = 30 }
+	set_variable = { 490.religion = 30 }
+	set_variable = { 491.religion = 30 }
+	set_variable = { 492.religion = 30 }
+	set_variable = { 951.religion = 30 }
+	set_variable = { 494.religion = 30 }
+	set_variable = { 506.religion = 30 }
+	set_variable = { 548.religion = 30 }
+	set_variable = { 649.religion = 30 }
+	set_variable = { 686.religion = 30 }
+	set_variable = { 691.religion = 30 }
+	set_variable = { 694.religion = 30 }
+	set_variable = { 695.religion = 30 }
+	set_variable = { 776.religion = 30 }
+	set_variable = { 777.religion = 30 }
+	set_variable = { 779.religion = 30 }
+	set_variable = { 840.religion = 30 }
+	set_variable = { 901.religion = 30 }
+	set_variable = { 902.religion = 30 }
+	set_variable = { 903.religion = 30 }
+	set_variable = { 904.religion = 30 }
+	set_variable = { 948.religion = 30 }
+	set_variable = { 951.religion = 30 }
+	set_variable = { 953.religion = 30 }
+	set_variable = { 954.religion = 30 }
+	set_variable = { 955.religion = 30 }
+	set_variable = { 969.religion = 30 }
+	set_variable = { 975.religion = 30 }
+	set_variable = { 992.religion = 30 }
+	set_variable = { 994.religion = 30 }
+	
+	#Independent Orthodoxy
+	set_variable = { 95.religion = 31 }
+	set_variable = { 96.religion = 31 }
+	set_variable = { 103.religion = 31 }
+	set_variable = { 104.religion = 31 }
+	set_variable = { 109.religion = 31 }
+	set_variable = { 163.religion = 31 }
+	set_variable = { 196.religion = 31 }
+	set_variable = { 200.religion = 31 }
+	set_variable = { 204.religion = 31 }
+	set_variable = { 206.religion = 31 }
+	set_variable = { 207.religion = 31 }
+	set_variable = { 231.religion = 31 }
+	set_variable = { 241.religion = 31 }
+	set_variable = { 516.religion = 31 }
+	set_variable = { 562.religion = 31 }
+	set_variable = { 574.religion = 31 }
+	set_variable = { 575.religion = 31 }
+	set_variable = { 576.religion = 31 }
+	set_variable = { 644.religion = 31 }
+	set_variable = { 637.religion = 31 }
+	set_variable = { 804.religion = 31 }
+	set_variable = { 822.religion = 31 }
+	set_variable = { 824.religion = 31 }
+
+	#Sergius II’s Orthodoxy
+	set_variable = { 40.religion = 32 }
+	set_variable = { 45.religion = 32 }
+	set_variable = { 107.religion = 32 }
+	set_variable = { 137.religion = 32 }
+	set_variable = { 146.religion = 32 }
+	set_variable = { 147.religion = 32 }
+	set_variable = { 195.religion = 32 }
+	set_variable = { 205.religion = 32 }
+	set_variable = { 208.religion = 32 }
+	set_variable = { 209.religion = 32 }
+	set_variable = { 210.religion = 32 }
+	set_variable = { 213.religion = 32 }
+	set_variable = { 214.religion = 32 }
+	set_variable = { 215.religion = 32 }
+	set_variable = { 216.religion = 32 }
+	set_variable = { 217.religion = 32 }
+	set_variable = { 218.religion = 32 }
+	set_variable = { 219.religion = 32 }
+	set_variable = { 222.religion = 32 }
+	set_variable = { 223.religion = 32 }
+	set_variable = { 224.religion = 32 }
+	set_variable = { 227.religion = 32 }
+	set_variable = { 228.religion = 32 }
+	set_variable = { 233.religion = 32 }
+	set_variable = { 234.religion = 32 }
+	set_variable = { 235.religion = 32 }
+	set_variable = { 236.religion = 32 }
+	set_variable = { 237.religion = 32 }
+	set_variable = { 238.religion = 32 }
+	set_variable = { 239.religion = 32 }
+	set_variable = { 242.religion = 32 }
+	set_variable = { 243.religion = 32 }
+	set_variable = { 244.religion = 32 }
+	set_variable = { 245.religion = 32 }
+	set_variable = { 246.religion = 32 }
+	set_variable = { 247.religion = 32 }
+	set_variable = { 248.religion = 32 }
+	set_variable = { 249.religion = 32 }
+	set_variable = { 250.religion = 32 }
+	set_variable = { 251.religion = 32 }
+	set_variable = { 252.religion = 32 }
+	set_variable = { 253.religion = 32 }
+	set_variable = { 254.religion = 32 }
+	set_variable = { 255.religion = 32 }
+	set_variable = { 256.religion = 32 }
+	set_variable = { 257.religion = 32 }
+	set_variable = { 258.religion = 32 }
+	set_variable = { 260.religion = 32 }
+	set_variable = { 262.religion = 32 }
+	set_variable = { 263.religion = 32 }
+	set_variable = { 264.religion = 32 }
+	set_variable = { 265.religion = 32 }
+	set_variable = { 351.religion = 32 }
+	set_variable = { 397.religion = 32 }
+	set_variable = { 398.religion = 32 }
+	set_variable = { 399.religion = 32 }
+	set_variable = { 400.religion = 32 }
+	set_variable = { 401.religion = 32 }
+	set_variable = { 403.religion = 32 }
+	set_variable = { 408.religion = 32 }
+	set_variable = { 409.religion = 32 }
+	set_variable = { 537.religion = 32 }
+	set_variable = { 560.religion = 32 }
+	set_variable = { 561.religion = 32 }
+	set_variable = { 563.religion = 32 }
+	set_variable = { 565.religion = 32 }
+	set_variable = { 564.religion = 32 }
+	set_variable = { 566.religion = 32 }
+	set_variable = { 567.religion = 32 }
+	set_variable = { 568.religion = 32 }
+	set_variable = { 569.religion = 32 }
+	set_variable = { 570.religion = 32 }
+	set_variable = { 571.religion = 32 }
+	set_variable = { 572.religion = 32 }
+	set_variable = { 573.religion = 32 }
+	set_variable = { 577.religion = 32 }
+	set_variable = { 578.religion = 32 }
+	set_variable = { 579.religion = 32 }
+	set_variable = { 580.religion = 32 }
+	set_variable = { 581.religion = 32 }
+	set_variable = { 582.religion = 32 }
+	set_variable = { 651.religion = 32 }
+	set_variable = { 652.religion = 32 }
+	set_variable = { 653.religion = 32 }
+	set_variable = { 654.religion = 32 }
+	set_variable = { 655.religion = 32 }
+	set_variable = { 657.religion = 32 }
+	set_variable = { 722.religion = 32 }
+	set_variable = { 763.religion = 32 }
+	set_variable = { 764.religion = 32 }
+	set_variable = { 825.religion = 32 }
+	set_variable = { 826.religion = 32 }
+	set_variable = { 827.religion = 32 }
+	set_variable = { 828.religion = 32 }
+	set_variable = { 829.religion = 32 }
+	set_variable = { 833.religion = 32 }
+	set_variable = { 1015.religion = 32 }
+	set_variable = { 1016.religion = 32 }
+	set_variable = { 1017.religion = 32 }
+	set_variable = { 1018.religion = 32 }
+	set_variable = { 1018.religion = 32 }
+	set_variable = { 1019.religion = 32 }
+	set_variable = { 1020.religion = 32 }
+	set_variable = { 1021.religion = 32 }
+	set_variable = { 1022.religion = 32 }
+	set_variable = { 1023.religion = 32 }
+
+	#Mefodiy II’s Orthodoxy
+	set_variable = { 46.religion = 33 }
+	set_variable = { 47.religion = 33 }
+	set_variable = { 48.religion = 33 }
+	set_variable = { 73.religion = 33 }
+	set_variable = { 76.religion = 33 }
+	set_variable = { 77.religion = 33 }
+	set_variable = { 78.religion = 33 }
+	set_variable = { 79.religion = 33 }
+	set_variable = { 80.religion = 33 }
+	set_variable = { 81.religion = 33 }
+	set_variable = { 82.religion = 33 }
+	set_variable = { 83.religion = 33 }
+	set_variable = { 84.religion = 33 }
+	set_variable = { 89.religion = 33 }
+	set_variable = { 91.religion = 33 }
+	set_variable = { 93.religion = 33 }
+	set_variable = { 94.religion = 33 }
+	set_variable = { 105.religion = 33 }
+	set_variable = { 106.religion = 33 }
+	set_variable = { 108.religion = 33 }
+	set_variable = { 164.religion = 33 }
+	set_variable = { 182.religion = 33 }
+	set_variable = { 184.religion = 33 }
+	set_variable = { 185.religion = 33 }
+	set_variable = { 186.religion = 33 }
+	set_variable = { 187.religion = 33 }
+	set_variable = { 192.religion = 33 }
+	set_variable = { 193.religion = 33 }
+	set_variable = { 194.religion = 33 }
+	set_variable = { 197.religion = 33 }
+	set_variable = { 198.religion = 33 }
+	set_variable = { 199.religion = 33 }
+	set_variable = { 201.religion = 33 }
+	set_variable = { 202.religion = 33 }
+	set_variable = { 203.religion = 33 }
+	set_variable = { 211.religion = 33 }
+	set_variable = { 212.religion = 33 }
+	set_variable = { 220.religion = 33 }
+	set_variable = { 221.religion = 33 }
+	set_variable = { 225.religion = 33 }
+	set_variable = { 226.religion = 33 }
+	set_variable = { 240.religion = 33 }
+	set_variable = { 259.religion = 33 }
+	set_variable = { 406.religion = 33 }
+	set_variable = { 407.religion = 33 }
+	set_variable = { 583.religion = 33 }
+	set_variable = { 588.religion = 33 }
+	set_variable = { 590.religion = 33 }
+	set_variable = { 631.religion = 33 }
+	set_variable = { 731.religion = 33 }
+	set_variable = { 766.religion = 33 }
+	set_variable = { 801.religion = 33 }
+	set_variable = { 803.religion = 33 }
+	set_variable = { 834.religion = 33 }
+	set_variable = { 885.religion = 33 }
+
+
+	every_state = {
+		if = {
+			limit = {
+				is_owned_by = ANA
+			}
+			add_dynamic_modifier = { modifier = EBF_ecodecay_1 }
+			set_variable = { religion = 12 }
+			set_variable = { culture = 19 }
+		}
+	}
+	
+	###ECODACY###
+
+	#PUT YOUR DYN MODS HERE
+	873 = { add_dynamic_modifier = { modifier = EBF_ecodecay_0 } }
+	874 = { add_dynamic_modifier = { modifier = EBF_ecodecay_0 } }
+
+	every_state = {
+		limit = {
+			NOT = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_0
+				}
+			}
+		}
+		set_variable = { ecodecay_value = 25 }
+	}
+
+	every_state = {
+		limit = {
+			NOT = {
+				OR = {
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_0
+					}
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_1
+					}
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_2
+					}
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_3
+					}
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_4
+					}
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_5
+					}
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_6
+					}
+				}
+			}
+		}
+		add_dynamic_modifier = { modifier = EBF_ecodecay_6 }
+	}
+
+	every_state = {
+		if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_0
+				}
+			}
+			set_variable = {
+				ecodecay_level = 0
+			}
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_1
+				}
+			}
+			set_variable = {
+				ecodecay_level = 1
+			}
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_2
+				}
+			}
+			set_variable = {
+				ecodecay_level = 2
+			}
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_3
+				}
+			}
+			set_variable = {
+				ecodecay_level = 3
+			}
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_4
+				}
+			}
+			set_variable = {
+				ecodecay_level = 4
+			}
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_5
+				}
+			}
+			set_variable = {
+				ecodecay_level = 5
+			}
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = {
+					modifier = EBF_ecodecay_6
+				}
+			}
+			set_variable = {
+				ecodecay_level = 6
+			}
+		}
+	}
+}

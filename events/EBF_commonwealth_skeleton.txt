@@ -1,0 +1,737 @@
+﻿add_namespace = commonwealth_skeleton
+add_namespace = australia_skeleton_canada
+add_namespace = australia_skeleton_novic
+
+#commonwealth_skeleton
+country_event = { #Australian Election
+	id = commonwealth_skeleton.1000
+	immediate = {log = "[GetDateText]: [Root.GetName]: event commonwealth_skeleton.1000"}
+	title = commonwealth_skeleton.1000.t
+	desc = commonwealth_skeleton.1000.d
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth_skeleton.1000.a
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 45
+			conservatism = 20
+			liberalism = 25
+			libertarian_socialism = 5
+			authoritarian_socialism = 0
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		every_country = { news_event = news_event.67 }	
+	}
+}
+
+country_event = {
+	id = commonwealth_skeleton.2 #HAWAII SITUATION OUTCOME
+	immediate = {log = "[GetDateText]: [Root.GetName]: event commonwealth_skeleton.2"}
+	title = commonwealth_skeleton.2.t
+	desc = commonwealth_skeleton.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth_skeleton.2.a #CANADIAN VICTORY
+		set_global_flag = EBF_hawaii_situation_canadian_victory
+		every_country = { news_event = { id = news_event.56 } }
+		
+		AST = {
+			country_event = {
+				id = australia_skeleton_canada.1
+				days = 26
+			}
+		}
+		
+	}
+	option = {
+		name = commonwealth_skeleton.2.b #BOTH FAIL
+		set_global_flag = EBF_hawaii_situation_no_victory
+		every_country = { news_event = { id = news_event.54 } }
+
+		AST = {
+			country_event = {
+				id = australia_skeleton_novic.1
+				days = 26
+			}
+		}
+
+		ICE = {
+			country_event = { #Reykjavík Conference announcement
+				id = commonwealth_skeleton.3 #1 December 2062
+				days = 119  
+			}	
+			country_event = { #Reykjavík Conference and Agreement outcome
+				id = commonwealth_skeleton.4 #23 January 2063
+				days = 172 
+			}			
+		}
+	}
+	option = {
+		name = commonwealth_skeleton.2.c #AUSTRALIAN VICTORY
+	}
+}
+
+country_event = {
+	id = commonwealth_skeleton.3 #Reykjavík Conference announcement
+	immediate = {log = "[GetDateText]: [Root.GetName]: event commonwealth_skeleton.3"}
+	title = commonwealth_skeleton.3.t
+	desc = commonwealth_skeleton.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth_skeleton.3.a
+		every_country = { news_event = { id = news_event.75 } }	
+	}
+}
+
+country_event = {
+	id = commonwealth_skeleton.4 #Reykjavík Conference announcement
+	immediate = {log = "[GetDateText]: [Root.GetName]: event commonwealth_skeleton.4"}
+	title = commonwealth_skeleton.4.t
+	desc = commonwealth_skeleton.4.d
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth_skeleton.4.a
+		random_list = {
+			45 = { #MILD REFORMS
+				every_country = { news_event = { id = news_event.76 } }
+				AST = {
+					country_event = { #NUP COLLAPSE
+						id = australia_skeleton_novic.3 #12 August 2063
+						days = 201  
+					}						
+				}
+				set_global_flag = EBF_commonwealth_mild_reforms
+			}
+			35 = {#HEFTY REFORMS
+				every_country = { news_event = { id = news_event.77 } }
+				set_global_flag = EBF_commonwealth_hefty_reforms
+			}			
+			20 = {#SIGNIFICANT REFORMS
+				every_country = { news_event = { id = news_event.78 } }
+				set_global_flag = EBF_commonwealth_significant_reforms
+				country_event = { #redish hue time
+					id = commonwealth_skeleton.5 #18 Aug 2067
+					days = 1668 
+				}		
+				country_event = { #federation day
+					id = commonwealth_skeleton.6 #january 5th 2068
+					days = 1808 
+				}	
+			}	
+		}
+		AST = {
+			country_event = { #2064 AUSTRALIAN ELECTIONS
+				id = australia_skeleton_novic.4 #8 September 2064
+				days = 594  
+			}	
+		}	
+	}
+}
+
+country_event = {
+	id = commonwealth_skeleton.5 #redish hue time
+	immediate = {log = "[GetDateText]: [Root.GetName]: event commonwealth_skeleton.5"}
+	title = commonwealth_skeleton.5.t
+	desc = commonwealth_skeleton.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth_skeleton.5.a
+		every_country = {
+			limit = { 
+				OR = {
+					is_in_faction_with = CAN
+					is_in_faction_with = AST
+					tag = AST
+					tag = CAN
+				}
+			}
+			set_cosmetic_tag = commonwealth_hue_colour
+		}
+	}
+}
+
+country_event = {
+	id = commonwealth_skeleton.6 #Federation day
+	immediate = {log = "[GetDateText]: [Root.GetName]: event commonwealth_skeleton.6"}
+	title = commonwealth_skeleton.6.t
+	desc = commonwealth_skeleton.6.d
+	is_triggered_only = yes
+	
+	option = {
+		name = commonwealth_skeleton.6.a
+		EBF_federation_formation = YES
+		CAN = {
+			set_cosmetic_tag = Federation_Common_Nations
+		}
+	}
+}
+
+
+#australia_skeleton_canada
+#australia_skeleton_canada
+country_event = { #JOSHUA STONE TAKES CONTROL
+	id = australia_skeleton_canada.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_canada.1"}
+	title = australia_skeleton_canada.1.t
+	desc = australia_skeleton_canada.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = australia_skeleton_canada.1.a
+		promote_character = {
+			character = AST_Joshua_Stone
+			ideology = anocracy_provisional_government_subtype
+		}
+		remove_ideas = AST_floyds_ambitions
+		country_event = {
+			id = australia_skeleton_canada.2
+			days = 60
+		}		
+	}
+}
+
+country_event = { #JOSHUA STONE TAKES CONTROL
+	id = australia_skeleton_canada.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_canada.2"}
+	title = australia_skeleton_canada.2.t
+	desc = australia_skeleton_canada.2.d
+	is_triggered_only = yes
+
+	immediate = {
+		if = {
+			limit = {
+				NOT = { check_variable = { AST_aussie_PM_counter = 4 } }
+			}
+			country_event = {
+				id = australia_skeleton_canada.2
+				days = 171
+			}	
+		}		
+		else = {
+			country_event = {
+				id = australia_skeleton_canada.3
+				days = 5
+			}	
+		}
+	}
+	
+	option = {
+		name = australia_skeleton_canada.2.a
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_leader = {
+						character = AST_Joshua_Stone
+						ruling_only = yes
+					}
+					has_country_flag = AST_joshua_NUP_cycle
+				}
+			}
+		}
+		promote_character = {
+			character = AST_Joshua_Stone
+			ideology = anocracy_provisional_government_subtype
+		}
+		set_politics = { ruling_party = anocracy }
+		add_to_variable = { AST_aussie_PM_counter = 1 }
+		set_country_flag = AST_joshua_NUP_cycle
+	}
+
+	option = {
+		name = australia_skeleton_canada.2.b
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_leader = {
+						character = AST_Roger_Floyd
+						ruling_only = yes
+					}					
+					has_country_flag = AST_joshua_NUP_cycle
+				}
+
+			}
+		}
+		promote_character = {
+			character = AST_Roger_Floyd
+			ideology = anocracy_provisional_government_subtype
+		}
+		set_politics = { ruling_party = anocracy }
+		add_to_variable = { AST_aussie_PM_counter = 1 }
+		set_country_flag = AST_floyd_NUP_cycle
+	}
+
+	option = {
+		name = australia_skeleton_canada.2.c
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_leader = {
+						character = AST_Jasper_Reid
+						ruling_only = yes
+					}
+					has_country_flag = AST_reid_NUP_cycle
+				}
+			}
+		}
+		set_politics = { ruling_party = conservatism }
+		add_to_variable = { AST_aussie_PM_counter = 1 }
+		set_country_flag = AST_reid_NUP_cycle
+	}
+
+	option = {
+		name = australia_skeleton_canada.2.e
+		trigger = {
+			NOT = {
+				OR = {
+					has_country_leader = {
+						character = AST_Sonny_Mussett
+						ruling_only = yes
+					}
+					has_country_flag = AST_mussett_NUP_cycle
+				}
+			}
+		}
+		set_politics = { ruling_party = liberalism }
+		add_to_variable = { AST_aussie_PM_counter = 1 }
+		set_country_flag = AST_mussett_NUP_cycle
+	}
+}
+
+country_event = { #FLETCHER COMES
+	id = australia_skeleton_canada.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_canada.3"}
+	title = australia_skeleton_canada.3.t
+	desc = australia_skeleton_canada.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = australia_skeleton_canada.3.a
+		set_politics = {
+			ruling_party = ultranationalism
+			long_name = AST_GAA_party_long
+			name = AST_GAA_party
+		}
+		country_event = {
+			id = australia_skeleton_canada.4
+			days = 30
+		}		
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = 0.65
+		}
+		every_country = { news_event = news_event.64 }	
+	}
+}
+
+country_event = { #Australian Civil War begins
+	id = australia_skeleton_canada.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_canada.4"}
+	title = australia_skeleton_canada.4.t
+	desc = australia_skeleton_canada.4.d
+	is_triggered_only = yes
+	
+	option = {
+		name = australia_skeleton_canada.4.a
+		EBF_aussie_civil_war = YES	
+		GRN = {
+			country_event = {
+				id = australia_skeleton_canada.5
+				days = 1951
+			}
+		}
+
+	}
+}
+
+country_event = { #Australian Civil War intervention check
+	id = australia_skeleton_canada.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_canada.5"}
+	title = australia_skeleton_canada.5.t
+	desc = australia_skeleton_canada.5.d
+	is_triggered_only = yes
+	hidden = YES
+	
+	option = {
+		name = australia_skeleton_canada.5.a
+        trigger = { has_global_flag = EBF_AUSTRALIAN_CIVIL_WAR_ONGOING }
+		EBF_aussie_civil_war_intervention = YES
+	}
+}
+
+country_event = { #Australian Civil War intervention check
+	id = australia_skeleton_novic.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_novic.1"}
+	title = australia_skeleton_novic.1.t
+	desc = australia_skeleton_novic.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = australia_skeleton_novic.1.a
+		promote_character = {
+			character = AST_Joshua_Stone
+			ideology = anocracy_provisional_government_subtype
+		}
+		remove_ideas = AST_floyds_ambitions
+		country_event = {
+			id = australia_skeleton_novic.2
+			days = 60
+		}
+	}
+}
+
+country_event = { #NUP Internal War
+	id = australia_skeleton_novic.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_novic.2"}
+	title = australia_skeleton_novic.2.t
+	desc = australia_skeleton_novic.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = australia_skeleton_novic.2.a
+		random_list = {
+			50 ={
+				set_politics = { ruling_party = conservatism }
+				set_popularities = {
+					technoutopianism = 0
+					securocracy = 0
+					ultranationalism = 0
+					fascist = 0
+					autocracy = 5
+					anocracy = 5
+					conservatism = 40
+					liberalism = 30
+					libertarian_socialism = 10
+					authoritarian_socialism = 10
+					totalitarian_socialism = 0
+					reductivism = 0
+				}
+				set_country_flag = EBF_AST_novic_condem_NUP
+			}
+			50 = {
+				set_politics = { ruling_party = liberalism }
+				set_popularities = {
+					technoutopianism = 0
+					securocracy = 0
+					ultranationalism = 0
+					fascist = 0
+					autocracy = 5
+					anocracy = 5
+					conservatism = 30
+					liberalism = 40
+					libertarian_socialism = 10
+					authoritarian_socialism = 10
+					totalitarian_socialism = 0
+					reductivism = 0
+				}
+				set_country_flag = EBF_AST_novic_libdem_NUP
+			}
+		}
+	}
+}
+
+country_event = { #NUP collapse
+	id = australia_skeleton_novic.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_novic.3"}
+	title = australia_skeleton_novic.3.t
+	desc = australia_skeleton_novic.3.d
+	is_triggered_only = yes
+
+	option = {
+		name = australia_skeleton_novic.3.a
+		promote_character = {
+			character = AST_Australian_Parliament
+			ideology = anocracy_provisional_government_subtype
+		}
+		set_politics = {
+			ruling_party = anocracy
+			long_name = AST_authdem_Parliament_party_long
+			name = AST_authdem_Parliament_party
+		}
+		set_party_name = {
+			ideology = liberalism
+			long_name = AST_lib_postNUP_party_long
+			name = AST_lib_postNUP_party
+		}
+		set_party_name = {
+			ideology = conservatism
+			long_name = AST_con_postNUP_party_long
+			name = AST_con_postNUP_party
+		}
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 75
+			conservatism = 0
+			liberalism = 0
+			libertarian_socialism = 10
+			authoritarian_socialism = 10
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+	}
+}
+
+country_event = { #September 2064 Australian Elections
+	id = australia_skeleton_novic.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event australia_skeleton_novic.4"}
+	title = australia_skeleton_novic.4.t
+	desc = australia_skeleton_novic.4.d
+	is_triggered_only = yes
+
+	immediate = {
+		AST_Joshua_Stone = {
+			remove_country_leader_role = {
+				ideology = anocracy_provisional_government_subtype
+			}
+		}
+		add_country_leader_role = {
+			character = AST_Joshua_Stone
+			promote_leader = yes
+			country_leader = {
+				ideology = anocracy_controlled_democracy_subtype
+			}
+		}
+		set_politics = {
+			ruling_party = anocracy
+			long_name = AST_authdem_postNUP_party_long
+			name = AST_authdem_postNUP_party
+		}
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.a #NUP jasper Reid
+		trigger = {
+			NOT = {
+				has_global_flag = EBF_commonwealth_mild_reforms
+			}
+		}
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 15
+			conservatism = 38
+			liberalism = 23
+			libertarian_socialism = 14
+			authoritarian_socialism = 5
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		every_country = { news_event = news_event.79 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.b #NUP Sonny Mussett
+		trigger = {
+			NOT = {
+				has_global_flag = EBF_commonwealth_mild_reforms
+			}
+		}
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 15
+			conservatism = 23
+			liberalism = 38
+			libertarian_socialism = 14
+			authoritarian_socialism = 5
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+		every_country = { news_event = news_event.80 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.c #Gemma Watson
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 15
+			conservatism = 18
+			liberalism = 10
+			libertarian_socialism = 52
+			authoritarian_socialism = 0
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = libertarian_socialism
+		}
+		every_country = { news_event = news_event.81 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.d #Joshua Stone
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 10
+			anocracy = 51
+			conservatism = 20
+			liberalism = 10
+			libertarian_socialism = 9
+			authoritarian_socialism = 0
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = anocracy
+		}
+		every_country = { news_event = news_event.82 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.e #Joshua Stone
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 10
+			anocracy = 51
+			conservatism = 20
+			liberalism = 10
+			libertarian_socialism = 9
+			authoritarian_socialism = 0
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = anocracy
+		}
+		every_country = { news_event = news_event.82 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.f #Andrew Collins
+		trigger = { has_global_flag = EBF_commonwealth_mild_reforms }
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 15
+			conservatism = 38
+			liberalism = 23
+			libertarian_socialism = 14
+			authoritarian_socialism = 5
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = conservatism
+		}
+		every_country = { news_event = news_event.83 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.g #Logan Wright
+		trigger = { has_global_flag = EBF_commonwealth_mild_reforms }
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 15
+			conservatism = 23
+			liberalism = 38
+			libertarian_socialism = 14
+			authoritarian_socialism = 5
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+		every_country = { news_event = news_event.84 }	
+		country_event = { #2067 AUSTRALIAN ELECTIONS
+			id = australia_skeleton_novic.5 #8 May 2067
+			days = 972  
+		}	
+	}
+
+	option = {
+		name = australia_skeleton_novic.4.h #coup
+		trigger = { 
+			has_global_flag = EBF_commonwealth_significant_reforms 
+			NOT ={
+				has_global_flag = EBF_AST_military_coup_happened
+			}
+		}
+		set_popularities = {
+			technoutopianism = 0
+			securocracy = 0
+			ultranationalism = 0
+			fascist = 0
+			autocracy = 5
+			anocracy = 15
+			conservatism = 23
+			liberalism = 38
+			libertarian_socialism = 14
+			authoritarian_socialism = 5
+			totalitarian_socialism = 0
+			reductivism = 0
+		}
+		set_politics = {
+			ruling_party = autocracy
+		}
+		set_global_flag = EBF_AST_military_coup_happened
+		every_country = { news_event = news_event.85 }	
+
+	}
+}

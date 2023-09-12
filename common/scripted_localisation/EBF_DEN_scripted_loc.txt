@@ -1,0 +1,140 @@
+defined_text = {
+	name = GetDENRegionalResistanceFactionBarFrameIcon
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { v = 1 }
+				check_variable = { v = 4 }
+			}
+		}
+		localization_key = GFX_DEN_regional_resistance_power_bar
+	}
+	text = {
+		localization_key = GFX_DEN_regional_resistance_short_power_bar
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceFactionPowerText
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = DEN_regional_resistance_faction_power_stability
+	}
+	text = {
+		localization_key = DEN_regional_resistance_faction_power_other
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceRegionNameContext1
+	text = {
+		trigger = {
+			set_temp_variable = { DEN_regional_resistance_region_id = v }
+		}
+		localization_key = "[GetDENRegionalResistanceRegionName]"
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceRegionNameContext2
+	text = {
+		trigger = {
+			set_temp_variable = { DEN_regional_resistance_region_id = temp_region }
+		}
+		localization_key = "[GetDENRegionalResistanceRegionName]"
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceRegionName
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_region_id = 1 }
+		}
+		localization_key = DEN_regional_resistance_region_name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_region_id = 2 }
+		}
+		localization_key = DEN_regional_resistance_region_name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_region_id = 3 }
+		}
+		localization_key = DEN_regional_resistance_region_name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_region_id = 4 }
+		}
+		localization_key = DEN_regional_resistance_region_name_4
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_region_id = 5 }
+		}
+		localization_key = DEN_regional_resistance_region_name_5
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceFactionNameContext1
+	text = {
+		trigger = {
+			set_temp_variable = { DEN_regional_resistance_faction_id = v:DEN_regional_resistance_faction }
+		}
+		localization_key = "[GetDENRegionalResistanceFactionName]"
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceFactionNameContext2
+	text = {
+		trigger = {
+			set_temp_variable = { DEN_regional_resistance_faction_id = v }
+		}
+		localization_key = "[GetDENRegionalResistanceFactionName]"
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceFactionNameContext3
+	text = {
+		trigger = {
+			set_temp_variable = { DEN_regional_resistance_faction_id = temp_faction }
+		}
+		localization_key = "[GetDENRegionalResistanceFactionName]"
+	}
+}
+
+defined_text = {
+	name = GetDENRegionalResistanceFactionName
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_faction_id = 1 }
+		}
+		localization_key = DEN_regional_resistance_faction_name_1
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_faction_id = 2 }
+		}
+		localization_key = DEN_regional_resistance_faction_name_2
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_faction_id = 3 }
+		}
+		localization_key = DEN_regional_resistance_faction_name_3
+	}
+	text = {
+		trigger = {
+			check_variable = { DEN_regional_resistance_faction_id = 4 }
+		}
+		localization_key = DEN_regional_resistance_faction_name_4
+	}
+}

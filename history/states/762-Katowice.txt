@@ -1,0 +1,29 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		9427 11430 11413 9412 11398 417 442 3410
+	}
+	manpower=1000000
+	
+	state_category = city
+	history={
+		add_core_of = POL
+		owner = POL
+		victory_points = {
+			11430 20
+		}
+		victory_points = {
+			442 5
+		}
+		victory_points = {
+			417 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+}

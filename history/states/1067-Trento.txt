@@ -1,0 +1,24 @@
+state={
+	id=1067
+	name="STATE_1067"
+	manpower = 473116
+	local_supplies = 0.0 
+	state_category = pastoral
+
+	history={
+		add_core_of = VNC
+		owner = VNC
+		victory_points = {
+			11598 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+	}
+
+	provinces={
+		6631 9598 11598 656
+	}
+}

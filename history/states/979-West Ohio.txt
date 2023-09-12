@@ -1,0 +1,25 @@
+state={
+	id=979
+	name="STATE_979"
+	
+	local_supplies = 0.0 
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 6
+
+		}
+
+	}
+
+	provinces={
+		11791 11760 9775 11890 4601 11776 831
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

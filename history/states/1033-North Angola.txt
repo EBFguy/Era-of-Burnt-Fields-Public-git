@@ -1,0 +1,24 @@
+
+state={
+	id=1033
+	name="STATE_1033"
+	manpower = 10
+	
+	state_category = megalopolis
+	
+	local_supplies = 0.0 
+	history={
+		victory_points = {
+			8248 1 
+		}
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13032 12981 8248
+	}
+}

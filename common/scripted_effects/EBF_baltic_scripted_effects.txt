@@ -1,0 +1,117 @@
+get_baltic_tag = {
+	if = {
+		limit = {
+			tag = EST
+		}
+		set_cosmetic_tag = EST_united_baltic
+	}
+	if = {
+		limit = {
+			tag = ODO
+		}
+		set_cosmetic_tag = ODO_united_baltic
+	}	
+	if = {
+		limit = {
+			tag = BLT
+		}
+		set_cosmetic_tag = BLT_united_baltic
+	}	
+	if = {
+		limit = {
+			tag = LAT
+		}
+		set_cosmetic_tag = LAT_united_baltic
+	}	
+	if = {
+		limit = {
+			tag = BAU
+		}
+		set_cosmetic_tag = BAU_united_baltic
+	}
+	if = {
+		limit = {
+			tag = LIT
+		}
+		set_cosmetic_tag = LIT_united_baltic
+	}	
+	if = {
+		limit = {
+			tag = MAR
+		}
+		set_cosmetic_tag = MAR_united_baltic
+	}	
+}
+
+get_baltic_event = {
+	if = {
+		limit = {
+			tag = EST
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.13
+			}
+		}
+	}
+	if = {
+		limit = {
+			tag = ODO
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.14
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = BLT
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.15
+			}
+		}
+	}		
+	if = {
+		limit = {
+			tag = LAT
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.16
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = BAU
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.17
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = LIT
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.18
+			}
+		}
+	}	
+	if = {
+		limit = {
+			tag = MAR
+		}
+		every_country  = {
+			news_event = {
+				id = news_event.19
+			}
+		}
+	}	
+}

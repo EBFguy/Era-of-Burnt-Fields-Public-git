@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		SEC_FREEDOM = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SEC_FREEDOM"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+			}
+		}			
+	}
+}

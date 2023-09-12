@@ -1,0 +1,20 @@
+
+state={
+	id=994
+	name="STATE_994"
+	manpower = 10
+	
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		13307 9637 6861 3840
+	}
+}

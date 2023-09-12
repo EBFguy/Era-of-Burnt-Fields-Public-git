@@ -1,0 +1,21 @@
+
+state={
+	id=396
+	name="STATE_396"
+	manpower = 23939355
+	state_category = large_city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		870 4437 4531 6713 7551 9653 9654 9810 11637 
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=977
+	name="STATE_977"
+	manpower = 10
+	state_category = city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		
+		victory_points = {
+			12357 5 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1560 12456 12357 9657 926 4166 4834 703 4738
+	}
+}

@@ -1,0 +1,105 @@
+﻿l_english:
+ #NAME#
+ AMZ:0 "Warriors of the Worker's Cause"
+ AMZ_DEF:0 "The Warriors of the Worker's Cause"
+ AMZ_ADJ:0 "Brazilan"
+ #PARTIES
+ AMZ_technoutopianism_party:0 "Disorganised"
+ AMZ_technoutopianism_party_long:0 "Disorganised" 
+ AMZ_securocracy_party:0 "Corporate Resistance"
+ AMZ_securocracy_party_long:0 "Corporate Resistance"
+ AMZ_ultranationalism_party:0 "WWC - C"
+ AMZ_ultranationalism_party_long:0 "Warriors of the Worker's Cause - Commander Leadership"
+ AMZ_fascist_party:0 "MCA"
+ AMZ_fascist_party_long:0 "Military Command of the Amazon"
+ AMZ_autocracy_party:0 "MCA"
+ AMZ_autocracy_party_long:0 "Military Command of the Amazon" 
+ AMZ_anocracy_party:0 "MCA"
+ AMZ_anocracy_party_long:0 "Military Command of the Amazon"
+ AMZ_conservatism_party:0 "Disorganised"
+ AMZ_conservatism_party_long:0 "Disorganised" 
+ AMZ_liberalism_party:0 "Disorganised"
+ AMZ_liberalism_party_long:0 "Disorganised"
+ AMZ_libertarian_socialism_party:0 "WWC - L"
+ AMZ_libertarian_socialism_party_long:0 "Warriors of the Worker's Cause - Liberal Factions" 
+ AMZ_authoritarian_socialism_party:0 "WWC - A"
+ AMZ_authoritarian_socialism_party_long:0 "Warriors of the Worker's Cause - Authoritarian Factions" 
+ AMZ_totalitarian_socialism_party:0 "Disorganised"
+ AMZ_totalitarian_socialism_party_long:0 "Disorganised" 
+ AMZ_reductivism_party:0 "Disorganised"
+ AMZ_reductivism_party_long:0 "Disorganised" 
+
+ #CHARACHTERS#
+ AMZ_elisio_watanabe:0 "Elísio Watanabe"
+ POLITICS_ELISIO_WATANABE_DESC:0 "§YProvisional Governor of the WWC§!\n§W--------------§!\n"
+ AMZ_nilton_watanabe:0 "Nilton Watanabe"
+ AMZ_tomas_fraga:0 "Tomás Fraga"
+ AMZ_rafael_vidal:0 "Rafael Vidal"
+ AMZ_clara_salles:0 "Clara Salles"
+
+ AMZ_nilton_watanabe_min_desc:0 "§YGeneral Secretary of the WWC\nautocracy§!\n--------------\n"
+ AMZ_tomas_fraga_min_desc:0 "§YSecretary of the Economy\nLibertarian Socialism\nChronic Meddler§!\n\n\n\n\n\n\n£GFX_idea_AMZ_tomas_fraga_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ AMZ_rafael_vidal_min_desc:0 "§YCommander of the Partisans\nXi Jinping Pragmatism§!\n--------------\n"
+ AMZ_clara_salles_min_desc:0 "§YRepresentative of the People\nSocial Democracy\nChronic Meddler§!\n\n\n\n\n\n\n£GFX_idea_AMZ_clara_salles_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+
+ #FOCUSES#
+ AMZ_still_standing:0 "Still Standing..."
+ AMZ_gather_the_commanders:0 "Gather the Commanders"
+ AMZ_disciplining_the_men:0 "Disciplining the Men"
+ AMZ_organize_hunting_parties:0 "Organize Hunting Parties"
+ AMZ_mopping_up_resistance:0 "Mopping Up Resistance"
+ AMZ_a_bounty_on_reactionaries:0 "A Bounty on Reactionaries"
+ AMZ_strike_where_it_hurts:0 "Strike Where It Hurts"
+ AMZ_legitimizing_our_rule:0 "Legitimizing Our Rule"
+ AMZ_with_an_iron_fist:0 "With an Iron Fist"
+ AMZ_with_a_velvet_glove:0 "With a Velvet Glove"
+ AMZ_the_demobilization:0 "The De-Mobilization"
+ AMZ_learn_from_our_enemies:0 "Learn From Our Enemies"
+ AMZ_connecting_the_land:0 "Connecting the Land"
+ AMZ_the_skeletons_in_our_closet:0 "The Skeletons in Our Closet"
+
+ 
+
+ #IDEAS#
+ the_amazonian_disaster:0 "The Amazonian Disaster"
+ AMZ_remnants_of_BPR:0 "The Remnants of BPR"
+ AMZ_the_curupiras:0 "The Curupiras"
+
+ #DECISIONS#
+
+ #EVENT#
+ 
+ wwc.1.t: "A Crumbling Soul"
+ wwc.1.desc: ""
+ wwc.1.a: "..."
+ wwc.2.t: "Our Leaders"
+ wwc.2.desc: ""
+ wwc.2.a: "..."
+ wwc.3.t: "Operation Amazonas"
+ wwc.3.desc: ""
+ wwc.3.a: "..."
+ wwc.4.t: "Chase"
+ wwc.4.desc: ""
+ wwc.4.a: "..."
+ wwc.5.t: "The Fall of Peixoto Station"
+ wwc.5.desc: ""
+ wwc.5.a: "..."
+ wwc.6.t: "Soviet Attack"
+ wwc.6.desc: ""
+ wwc.6.a: "..."
+ wwc.7.t: "The Arrival"
+ wwc.7.desc: ""
+ wwc.7.a: "..."
+ wwc.8.t: "Blood in the Sand"
+ wwc.8.desc: ""
+ wwc.8.a: "..."
+ wwc.9.t: "The Donation"
+ wwc.9.desc: ""
+ wwc.9.a: "..."
+ wwc.10.t: "A Civillian WWC?"
+ wwc.10.desc: ""
+ wwc.10.a: "..."
+ 
+ 
+
+ #MISC#

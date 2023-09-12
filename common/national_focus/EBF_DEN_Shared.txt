@@ -1,0 +1,433 @@
+#Shared Focuses
+
+# Starting Focus #
+
+shared_focus = {
+	id = DEN_nights_in_copenhagen
+	icon = GFX_focus_nights_in_copenhagen
+	cost = 7
+	x = 8
+	y = 1
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.1
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_controlling_the_population
+	icon = GFX_focus_controlling_the_population
+	cost = 10
+	prerequisite = { focus = DEN_nights_in_copenhagen }
+	x = 0
+	y = 1
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.2
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_promises_to_population
+	icon = GFX_focus_Promises_to_population
+	cost = 7
+	prerequisite = { focus = DEN_controlling_the_population }
+	x = -4
+	y = 2
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.3
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_amend_medical_care
+	icon = GFX_focus_amend_medical_care
+	cost = 7
+	prerequisite = { focus = DEN_promises_to_population }
+	mutually_exclusive = { focus = DEN_reform_labour_laws }
+	x = -1
+	y = 1
+	relative_position_id = DEN_promises_to_population
+	completion_reward = {
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = 0.075
+		}
+		add_stability = 0.075
+		custom_effect_tooltip = EBF_DEN_the_people_will_remember
+		set_country_flag = EBF_DEN_amend_medical_care_promised
+	}
+}
+
+shared_focus = {
+	id = DEN_reform_labour_laws
+	icon = GFX_focus_reform_labour_laws
+	cost = 10
+	prerequisite = { focus = DEN_promises_to_population }
+	mutually_exclusive = { focus = DEN_amend_medical_care }
+	x = 1
+	y = 1
+	relative_position_id = DEN_promises_to_population
+	completion_reward = {
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = 0.075
+		}
+		add_stability = 0.075		
+		custom_effect_tooltip = EBF_DEN_the_people_will_remember
+		set_country_flag = EBF_DEN_reform_labour_laws_promised
+	}
+}
+
+shared_focus = {
+	id = DEN_breaking_the_bottleneck
+	icon = GFX_focus_breaking_the_bottleneck
+	cost = 21
+	prerequisite = { focus = DEN_reform_labour_laws  focus = DEN_amend_medical_care}
+	x = 0
+	y = 2
+	relative_position_id = DEN_promises_to_population
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.4
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_waking_the_giant
+	icon = GFX_focus_waking_the_giant
+	cost = 14
+	prerequisite = { focus = DEN_controlling_the_population }
+	x = -1
+	y = 2
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.5
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_specimen_of_sin
+	icon = GFX_focus_specimen_of_sin
+	cost = 10
+	prerequisite = { focus = DEN_controlling_the_population }
+	x = 1
+	y = 2
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.6
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_deputies_in_town
+	icon = GFX_focus_deputies_in_town
+	cost = 10
+	prerequisite = { focus = DEN_waking_the_giant }
+	prerequisite = { focus = DEN_specimen_of_sin }
+	x = 0
+	y = 3
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.7
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_regional_troubles
+	icon = GFX_focus_regional_troubles
+	cost = 21
+	prerequisite = { focus = DEN_deputies_in_town }
+	x = 0
+	y = 4
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.8
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_billing_the_population
+	icon = GFX_focus_billing_the_population
+	cost = 10
+	prerequisite = { focus = DEN_controlling_the_population }
+	x = 4
+	y = 2
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.9
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_downsizing_agriculture
+	icon = GFX_focus_downsizing_agriculture
+	cost = 10
+	prerequisite = { focus = DEN_billing_the_population }
+	mutually_exclusive = { focus = DEN_sub_standard_issue }
+	x = -1
+	y = 1
+	relative_position_id = DEN_billing_the_population
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.11
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_sub_standard_issue
+	icon = GFX_focus_sub_standard_issue
+	cost = 14
+	prerequisite = { focus = DEN_billing_the_population }
+	mutually_exclusive = { focus = DEN_downsizing_agriculture }
+	x = 1
+	y = 1
+	relative_position_id = DEN_billing_the_population
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.10
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_give_me_a_break
+	icon = GFX_focus_give_me_a_break
+	cost = 14
+	prerequisite = { focus = DEN_sub_standard_issue focus = DEN_downsizing_agriculture }
+	x = 0
+	y = 2
+	relative_position_id = DEN_billing_the_population
+	completion_reward = {
+		country_event = {
+			id = DEN_starting_tree.12
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_the_storied_stage
+	icon = GFX_focus_the_storied_stage
+	cost = 14
+	prerequisite = { focus = DEN_give_me_a_break }
+	prerequisite = { focus = DEN_regional_troubles }
+	prerequisite = { focus = DEN_breaking_the_bottleneck }
+	x = 0
+	y = 5
+	relative_position_id = DEN_nights_in_copenhagen
+	completion_reward = {
+		effect_tooltip = {
+			add_stability = 0.1
+			add_political_power = 40
+			#TODO +10% government legitimacy in all regions + stability
+		}
+		country_event = {
+			id = DEN_starting_tree.13
+		}
+	}
+}
+
+shared_focus = {
+	id = DEN_election_of_the_second_premier
+	icon = GFX_focus_election_of_the_second_premier
+	cost = 2
+	allow_branch = {
+		has_country_flag = REMOVE_ME
+	}
+	x = 8
+	y = 0
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_different_caliber
+	icon = GFX_focus_different_caliber
+	cost = 2
+	x = -3
+	y = 1
+	prerequisite = { focus = DEN_election_of_the_second_premier }
+	mutually_exclusive = { focus = DEN_the_puppet }
+	relative_position_id = DEN_election_of_the_second_premier
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_convincing_the_cabinet
+	icon = GFX_focus_convincing_the_cabinet
+	cost = 2
+	x = -1
+	y = 1
+	prerequisite = { focus = DEN_different_caliber }
+	relative_position_id = DEN_different_caliber
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_dealing_with_judas
+	icon = GFX_focus_dealing_with_judas
+	cost = 2
+	x = 1
+	y = 1
+	prerequisite = { focus = DEN_different_caliber }
+	relative_position_id = DEN_different_caliber
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_burying_some_evidence
+	icon = GFX_focus_burying_some_evidence
+	cost = 2
+	x = 0
+	y = 2
+	prerequisite = { focus = DEN_dealing_with_judas }
+	prerequisite = { focus = DEN_convincing_the_cabinet }
+	relative_position_id = DEN_different_caliber
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_the_puppet
+	icon = GFX_focus_the_puppet
+	cost = 2
+	x = 3
+	y = 1
+	prerequisite = { focus = DEN_election_of_the_second_premier }
+	mutually_exclusive = { focus = DEN_different_caliber }
+	relative_position_id = DEN_election_of_the_second_premier
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_intensify_self_sufficiency_programs
+	icon = GFX_focus_intensify_self_sufficiency_programs
+	cost = 2
+	x = -2
+	y = 1
+	prerequisite = { focus = DEN_the_puppet }
+	mutually_exclusive = { focus = DEN_intensify_investment_programs }
+	mutually_exclusive = { focus = DEN_intensify_infrastructure_programs }
+	relative_position_id = DEN_the_puppet
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_intensify_investment_programs
+	icon = GFX_focus_intensify_investment_programs
+	cost = 2
+	x = 0
+	y = 1
+	prerequisite = { focus = DEN_the_puppet }
+	mutually_exclusive = { focus = DEN_intensify_self_sufficiency_programs }
+	mutually_exclusive = { focus = DEN_intensify_infrastructure_programs }
+	relative_position_id = DEN_the_puppet
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_intensify_infrastructure_programs
+	icon = GFX_focus_intensify_infrastructure_programs
+	cost = 2
+	x = 2
+	y = 1
+	prerequisite = { focus = DEN_the_puppet }
+	mutually_exclusive = { focus = DEN_intensify_self_sufficiency_programs }
+	mutually_exclusive = { focus = DEN_intensify_investment_programs }
+	relative_position_id = DEN_the_puppet
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_ministerial_experience
+	icon = GFX_focus_ministerial_experience
+	cost = 2
+	x = -1
+	y = 2
+	prerequisite = { focus = DEN_intensify_infrastructure_programs focus = DEN_intensify_investment_programs focus = DEN_intensify_self_sufficiency_programs}
+	relative_position_id = DEN_the_puppet
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_gathering_support
+	#icon = GFX_focus_the_storied_stage
+	cost = 2
+	x = 1
+	y = 2
+	prerequisite = { focus = DEN_intensify_infrastructure_programs focus = DEN_intensify_investment_programs focus = DEN_intensify_self_sufficiency_programs}
+	relative_position_id = DEN_the_puppet
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = DEN_tip_toe_premier_elect
+	#icon = GFX_focus_the_storied_stage
+	cost = 2
+	x = 8
+	y = 4
+	prerequisite = { focus = DEN_gathering_support }
+	prerequisite = { focus = DEN_ministerial_experience }
+	prerequisite = { focus = DEN_burying_some_evidence }
+	completion_reward = {
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,253 @@
+scripted_gui = { #Stolen from TNO lol!
+	EBF_state_lore_button = {
+		window_name = "EBF_state_lore_button"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+		visible = {
+			is_in_array = { array = global.state_with_lore value = THIS.id }
+		}
+		effects = {
+			state_button_click = {
+				if = {
+					limit = {
+						check_variable = { ROOT.selected_lore_state = THIS.id }
+					}
+					ROOT = {
+						clear_array = lore_entries_onscreen
+						clear_variable = selected_lore
+						clear_variable = selected_lore_alt
+						clear_variable = selected_lore_state
+					}
+				}
+				else = {
+					clear_array = ROOT.lore_entries_onscreen
+					for_each_loop = {
+						array = lore_entries
+						add_to_array = { ROOT.lore_entries_onscreen = v }
+					}
+					set_variable = { ROOT.selected_lore_state = THIS.id }
+					ROOT = {
+						set_variable = { selected_lore = lore_entries_onscreen^0 }
+						set_variable = { selected_lore_alt = lore_entries_onscreen^0 }
+					}
+				}
+			}
+			state_button_right_click = {
+				ROOT = {
+					if = {
+						limit = {
+							has_country_flag = EBF_state_lore_mapicons_enabled
+						}
+						clr_country_flag = EBF_state_lore_mapicons_enabled
+					}
+					else = { set_country_flag = EBF_state_lore_mapicons_enabled }
+				}
+			}
+		}
+	}
+
+	EBF_state_lore = {
+		window_name = "EBF_state_lore"
+		context_type = player_context
+		visible = { has_variable = selected_lore }
+		dynamic_lists = {
+			lore_selection_grid = {
+				array = lore_entries_onscreen
+				entry_container = "EBF_lore_selection_entry"
+				index = sl_i
+				value = selected_lore
+			}
+		}
+		effects = {
+			close_btn_click = {
+				clear_array = lore_entries_onscreen
+				clear_variable = selected_lore
+				clear_variable = selected_lore_alt
+				clear_variable = selected_lore_state
+			}
+			entry_button_click = {
+				set_variable = { selected_lore = lore_entries_onscreen^sl_i }
+				set_variable = { selected_lore_alt = lore_entries_onscreen^sl_i  }
+			}
+		}
+		triggers = {
+			entry_button_click_enabled = { # The magic of temp vars
+				if = {
+					limit = {
+						check_variable = { selected_lore_alt = lore_entries_onscreen^sl_i }
+					}
+					set_temp_variable = { sl_grid_y = 17 }
+				}
+				else = { set_temp_variable = { sl_grid_y = 22 } }
+			}
+		}
+		properties = {
+			state_lore_image = {
+				image = "GFX_state_lore_img_[?selected_lore]"
+			}
+			entry_button = {
+				image = "[Statelore_Get_grid_entry_GFX]"
+			}
+			initials = {
+				y = sl_grid_y
+			}
+		}
+	}
+	
+	EBF_state_lore_mapicons = {
+		context_type = state_mapicon
+		window_name = "EBF_state_lore_mapicons"
+		visible = { ROOT = { has_country_flag = EBF_state_lore_mapicons_enabled } }
+		mapmode = default
+		mapicon_targets = {
+			target_array = global.state_with_lore
+		}
+		triggers = {
+			entry_amount_visible = {
+				check_variable = { FROM.lore_entries^num > 1 }
+			}
+		}
+		effects = {
+			state_lore_mapicon_click = {
+				clear_array = ROOT.lore_entries_onscreen
+				set_variable = { ROOT.selected_lore_state = FROM.id }
+				for_each_loop = {
+					array = lore_entries
+					add_to_array = { ROOT.lore_entries_onscreen = v }
+				}
+				ROOT = {
+					set_variable = { selected_lore = lore_entries_onscreen^0 }
+					set_variable = { selected_lore_alt = lore_entries_onscreen^0 }
+				}
+			}
+			state_lore_mapicon_right_click = {
+				ROOT = {
+					clr_country_flag = EBF_state_lore_mapicons_enabled
+				}
+			}
+		}
+	}
+
+	religion_screen = {
+		context_type = selected_state_context
+
+		window_name = "EBF_religion_container"
+		parent_window_token = selected_state_view 
+		dirty = religion
+
+		properties = {
+			religion_icon = {
+				image = "GFX_religion_[?religion]"
+			}
+		}
+	}
+
+	culture_screen = {
+		context_type = selected_state_context
+
+		window_name = "EBF_culture_container"
+		parent_window_token = selected_state_view 
+		dirty = culture
+
+		properties = {
+			culture_icon = {
+				image = "GFX_culture_[?culture]"
+			}
+		}
+	}
+
+	ecodecay_screen = {
+		context_type = selected_state_context
+		window_name = "EBF_ecodecay_container"
+		parent_window_token = selected_state_view 
+		dirty = ecodecay_dirty
+
+		properties = {
+			ecodecay_icon = {
+				image = "GFX_ecodecay_[?ecodecay_level]"
+			}
+			ecodecay_value = {
+				frame = ecodecay_value
+			}
+			ecodecay_icon2 = {
+				image = "GFX_ecodecay_[?ecodecay_level]"
+			}
+			ecodecay_value2 = {
+				frame = ecodecay_value
+			}
+		}
+
+		triggers = {
+			ecodecay_holder_visible = { NOT = { is_in_array = { array = global.state_with_lore value = THIS.id } } }
+			ecodecay_icon_visible = { NOT = { is_in_array = { array = global.state_with_lore value = THIS.id } } }
+			ecodecay_value_visible = { 
+				OR = {
+					NOT = { 
+						is_in_array = { 
+							array = global.state_with_lore value = THIS.id 
+						} 
+						check_variable = { ecodecay_level = 0 }
+					} 
+				}
+			}
+			ecodecay_bar_visible = { 
+				OR = {
+					NOT = { 
+						is_in_array = { 
+							array = global.state_with_lore value = THIS.id 
+						} 
+						check_variable = { ecodecay_level = 0 }
+					} 
+				}
+			}
+			ecodecay_Artificial_biosphere_visible = {
+				NOT = {
+					is_in_array = { 
+						array = global.state_with_lore value = THIS.id 
+					} 
+				}
+				check_variable = { ecodecay_level = 0 }
+			}
+
+			ecodecay_holder2_visible = { is_in_array = { array = global.state_with_lore value = THIS.id } } 
+			ecodecay_icon2_visible = { is_in_array = { array = global.state_with_lore value = THIS.id } } 
+			ecodecay_value2_visible = { 
+				is_in_array = { 
+					array = global.state_with_lore value = THIS.id 
+				} 
+				NOT = {
+					check_variable = { ecodecay_level = 0 }
+				}
+			} 
+			ecodecay_bar2_visible = { 
+				is_in_array = { 
+					array = global.state_with_lore value = THIS.id 
+				} 
+				NOT = {
+					check_variable = { ecodecay_level = 0 }
+				}
+			} 
+			ecodecay_Artificial_biosphere2_visible = {
+				is_in_array = { 
+					array = global.state_with_lore value = THIS.id 
+				} 
+				check_variable = { ecodecay_level = 0 }
+			}
+			
+		}
+	}
+
+	EBF_megacity_info = {
+		window_name = "EBF_megacity_info"
+		context_type = selected_state_context
+		parent_window_token = selected_state_view
+		visible = {
+			is_in_array = { array = global.state_with_megacity value = THIS.id }
+		}
+		properties = {
+			megacity_image = {
+				image = "[EBFgetmegacityimage]"
+			}
+		}
+	}
+}

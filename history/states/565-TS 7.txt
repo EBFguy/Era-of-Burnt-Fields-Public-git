@@ -1,0 +1,20 @@
+
+state={
+	id=565
+	name="STATE_565" # Bodaybo
+	manpower = 407688
+	state_category = rural
+
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1666 1761 4716 4762 4795 4835 4868 7736 7759 7854 10583 10654 12506 12538 12575 
+	}
+}

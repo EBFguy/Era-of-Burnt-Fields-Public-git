@@ -1,0 +1,708 @@
+spriteTypes = {
+
+	#GENERAL
+
+
+	SpriteType = { 
+		name = "GFX_at_weapons2059_medium" 
+		texturefile = "gfx/interface/technologies/at_weapons2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_me_weapons2059_medium" 
+		texturefile = "gfx/interface/technologies/me_weapons2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_armour2059_medium" 
+		texturefile = "gfx/interface/technologies/armour2059.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_sniper_weapons2059_medium" 
+		texturefile = "gfx/interface/technologies/sniper_weapons2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_superheavy_weapons2059_medium" 
+		texturefile = "gfx/interface/technologies/superheavy_weapons2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_ai_command2059_medium" 
+		texturefile = "gfx/interface/technologies/ai_command2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_grenade_weapons2059_medium" 
+		texturefile = "gfx/interface/technologies/grenade_weapons2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_rations2059_medium" 
+		texturefile = "gfx/interface/technologies/rations2059.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_special_operations_medium" 
+		texturefile = "gfx/interface/technologies/special_operations.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_special_operations2060_medium" 
+		texturefile = "gfx/interface/technologies/special_operations2060.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_expanded_special_operations2067_medium" 
+		texturefile = "gfx/interface/technologies/expanded_special_operations2067.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_expanded_special_operations2074_medium" 
+		texturefile = "gfx/interface/technologies/expanded_special_operations2074.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_expanded_special_operations2080_medium" 
+		texturefile = "gfx/interface/technologies/expanded_special_operations2080.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_advanced_special_operations2067_medium" 
+		texturefile = "gfx/interface/technologies/advanced_special_operations2067.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_advanced_special_operations2074_medium" 
+		texturefile = "gfx/interface/technologies/advanced_special_operations2074.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_advanced_special_operations2080_medium" 
+		texturefile = "gfx/interface/technologies/advanced_special_operations2080.dds" 
+	}
+
+
+
+	SpriteType = { 
+		name = "GFX_marines2059_medium" 
+		texturefile = "gfx/interface/technologies/marines2059.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_marines2067_medium" 
+		texturefile = "gfx/interface/technologies/marines2067.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_marines2074_medium" 
+		texturefile = "gfx/interface/technologies/marines2074.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_marines2080_medium" 
+		texturefile = "gfx/interface/technologies/marines2080.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_para2059_medium" 
+		texturefile = "gfx/interface/technologies/para2059.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_para2067_medium" 
+		texturefile = "gfx/interface/technologies/para2067.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_para2074_medium" 
+		texturefile = "gfx/interface/technologies/para2074.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_para2080_medium" 
+		texturefile = "gfx/interface/technologies/para2080.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_mount2059_medium" 
+		texturefile = "gfx/interface/technologies/mount2059.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_mount2067_medium" 
+		texturefile = "gfx/interface/technologies/mount2067.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_mount2074_medium" 
+		texturefile = "gfx/interface/technologies/mount2074.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_mount2080_medium" 
+		texturefile = "gfx/interface/technologies/mount2080.dds" 
+	}
+
+
+
+	SpriteType = { 
+		name = "GFX_MBT2062_0_2_medium" 
+		texturefile = "gfx/interface/technologies/MBT2062_0_2.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_MBT2062_0_0_medium" 
+		texturefile = "gfx/interface/technologies/MBT2062_0_0.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_MBT2062_0_1_medium" 
+		texturefile = "gfx/interface/technologies/MBT2062_0_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_MBT2062_1_2_medium" 
+		texturefile = "gfx/interface/technologies/MBT2062_1_2.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_MBT2062_1_0_medium" 
+		texturefile = "gfx/interface/technologies/MBT2062_1_0.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_MBT2062_1_1_medium" 
+		texturefile = "gfx/interface/technologies/MBT2062_1_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_heavyexoskeleton2062_1_medium" 
+		texturefile = "gfx/interface/technologies/heavyexoskeleton2062_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_lightexoskeleton2062_1_medium" 
+		texturefile = "gfx/interface/technologies/lightexoskeleton2062_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_heavyexoskeleton2062_0_medium" 
+		texturefile = "gfx/interface/technologies/heavyexoskeleton2062_0.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_lightexoskeleton2062_0_medium" 
+		texturefile = "gfx/interface/technologies/lightexoskeleton2062_0.dds" 
+	}
+	
+	SpriteType = { 
+		name = "GFX_drones2045_medium" 
+		texturefile = "gfx/interface/technologies/drones_2045.dds" 
+	}
+	
+	SpriteType = { 
+		name = "GFX_lightexoskeleton2068_1_medium" 
+		texturefile = "gfx/interface/technologies/lightexoskeleton2068_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_lightexoskeleton2068_0_medium" 
+		texturefile = "gfx/interface/technologies/lightexoskeleton2068_0.dds" 
+	}	
+
+	#Russia
+	SpriteType = { 
+		name = "GFX_RUS_infantry_weapons2040_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_infantry_weapons2040.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_RUS_infantry_weapons2050_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_infantry_weapons2050.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_infantry_weapons2059_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_infantry_weapons2059.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_infantry_weapons2068_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_infantry_weapons2068.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_infantry_weapons2076_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_infantry_weapons2076.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_infantry_weapons2081_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_infantry_weapons2081.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_MBT2040_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_MBT2040.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_MBT2050_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_MBT2050.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2050_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2050.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2055_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2055.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_fighterdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_fighterdrone2080.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_massfighterdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massfighterdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_massfighterdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massfighterdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_massfighterdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massfighterdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_massfighterdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massfighterdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_massfighterdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massfighterdrone2080.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2050_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2050.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2055_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2055.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_bomberdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_bomberdrone2080.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_massbomberdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massbomberdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_massbomberdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massbomberdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_massbomberdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massbomberdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_massbomberdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massbomberdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_massbomberdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_massbomberdrone2080.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_carrierdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_carrierdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_carrierdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_carrierdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_RUS_carrierdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_carrierdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_RUS_carrierdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/RUS/RUS_carrierdrone2080.dds" 
+	}	
+
+	#PRC
+
+	SpriteType = { 
+		name = "GFX_PRC_MBT2040_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_MBT2040.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_PRC_MBT2050_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_MBT2050.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_PRC_MBT2062_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_MBT2062.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_MBT2068_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_MBT2068.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_HT2074_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_HT2074.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2050_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_0.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2055_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_1.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_2.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_3.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_4.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_5.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_fighterdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_assault_drone_equipment_6.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2050_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_0.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2055_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_1.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_2.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_3.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_4.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_5.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_bomberdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_bomber_drone_equipment_6.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_carrierdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_drone_carrier_equipment_0.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_carrierdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_drone_carrier_equipment_1.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_PRC_carrierdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_drone_carrier_equipment_2.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_PRC_carrierdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_drone_carrier_equipment_3.dds" 
+	}
+
+
+	SpriteType = { 
+		name = "GFX_PRC_massbomberdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_kamikaze_drone_equipment_0.dds" 
+	}
+	
+	SpriteType = { 
+		name = "GFX_PRC_massbomberdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_kamikaze_drone_equipment_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_massbomberdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_kamikaze_drone_equipment_2.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_massbomberdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_kamikaze_drone_equipment_3.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_massbomberdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_kamikaze_drone_equipment_4.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_massfighterdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_mass_assault_drone_equipment_0.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_massfighterdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_mass_assault_drone_equipment_1.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRC_massfighterdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_mass_assault_drone_equipment_2.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_PRC_massfighterdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_mass_assault_drone_equipment_3.dds" 
+	}
+
+	SpriteType = { 
+		name = "GFX_PRC_massfighterdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/PRC/PRC_mass_assault_drone_equipment_4.dds" 
+	}
+
+	
+	
+	#USA
+
+	SpriteType = { 
+		name = "GFX_USA_exoskeleton2045_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_exoskeleton2045.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_exoskeleton2050_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_exoskeleton2050.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_lightexoskeleton2058_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_lightexoskeleton2058.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_heavyexoskeleton2058_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_heavyexoskeleton2058.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2050_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2050.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2055_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2055.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_fighterdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_fighterdrone2080.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_USA_massfighterdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massfighterdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_massfighterdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massfighterdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_massfighterdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massfighterdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_USA_massfighterdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massfighterdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_massfighterdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massfighterdrone2080.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2050_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2050.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2055_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2055.dds" 
+	}		
+
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_bomberdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_bomberdrone2080.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_USA_massbomberdrone2060_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massbomberdrone2060.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_massbomberdrone2065_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massbomberdrone2065.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_massbomberdrone2070_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massbomberdrone2070.dds" 
+	}	
+	
+	SpriteType = { 
+		name = "GFX_USA_massbomberdrone2075_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massbomberdrone2075.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_USA_massbomberdrone2080_medium" 
+		texturefile = "gfx/interface/technologies/USA/USA_massbomberdrone2080.dds" 
+	}	
+	
+}

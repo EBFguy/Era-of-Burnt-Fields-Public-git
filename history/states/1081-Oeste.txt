@@ -1,0 +1,25 @@
+state={
+	id=1081
+	name="STATE_1081"
+	local_supplies = 0.0
+	manpower=382540
+	state_category=rural
+	buildings_max_level_factor=1.000
+
+	provinces = {
+		3861 799 3798 11885
+	}
+
+	history = {
+		add_core_of = POR
+		owner = POR
+		victory_points = {
+			3798 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+}

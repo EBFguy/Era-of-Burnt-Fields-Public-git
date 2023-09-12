@@ -1,0 +1,30 @@
+
+state={
+	id=522
+	name="STATE_522"
+	
+	manpower = 2146329
+	state_category = rural
+	local_supplies = 0.0 
+	history={
+		add_core_of = AST
+		owner = AST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			1652 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			1652 3 
+		}
+		
+	}
+
+	provinces={
+		1652 2157 4630 5175 7453 8130 8228 8243 10983 11011 1526 10949 8200 12962 12990 12976 10969 2191 12948 10997 7608 1540 7579 1511 1498
+	}
+}

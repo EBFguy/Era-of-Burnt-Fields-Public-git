@@ -1,0 +1,15 @@
+characters = {
+	ALS_Ferdinand_Dubois = {
+		name = "Ferdinand Dubois"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALS/Portrait_ALS_Ferdinand_Dubois.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_controlled_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FERDINAND_DUBOIS_DESC"
+		}
+	}
+}

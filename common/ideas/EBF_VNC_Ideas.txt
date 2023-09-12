@@ -1,0 +1,107 @@
+ideas = {
+	country = {
+		VNC_beacon_habeo_ideam = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VNC_beacon_habeo_ideam"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = GFX_idea_VNC_beacon_habeo_ideam
+
+			targeted_modifier = {
+				tag = PHI
+				mic_to_target_factor = 0.05
+			}	
+			
+			targeted_modifier = {
+				tag = PHI
+				extra_trade_to_target_factor = 0.1
+			}			
+		}			
+		VNC_new_venice_shining_island_on_sea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VNC_new_venice_shining_island_on_sea"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_VNC_new_venice_shining_island_on_sea
+					  
+			modifier = {	
+			}
+		}	
+		VNC_the_new_venice_self_defence_force = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VNC_the_new_venice_self_defence_force"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_VNC_the_new_venice_self_defence_force
+					  
+			modifier = {	
+				conscription_factor = -0.2
+				custom_modifier_tooltip = VNC_the_new_venice_self_defence_force_tt
+			}
+		}		
+		VNC_no_home_of_ours = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VNC_no_home_of_ours"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_VNC_no_home_of_ours
+					  
+			modifier = {	
+				required_garrison_factor = 0.1
+				resistance_activity = 0.2
+				non_core_manpower = -0.8
+			}
+		}		
+		VNC_unified_vision = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VNC_unified_vision"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_gain = 0.25
+				stability_weekly = 0.025
+			}
+		}	
+
+		#IDEOLOGIES
+		VNC_autocracy_2 = {}
+		VNC_securocracy_2 = {}
+	}
+}

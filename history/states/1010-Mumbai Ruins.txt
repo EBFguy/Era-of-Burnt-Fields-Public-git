@@ -1,0 +1,20 @@
+
+state={
+	id=1010
+	name="STATE_1010"
+	manpower = 10
+	state_category = town
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1349
+	}
+}

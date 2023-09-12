@@ -1,0 +1,127 @@
+characters = {
+	MEX_Martin_Varela = {
+		name = MEX_Martin_Varela
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MEX_Martin_Varela.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_civlian_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MARTIN_VARELA_DESC"
+		}
+	}
+
+	MNL_El_Basilisco = {
+		name = MNL_El_Basilisco
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MNL_El_Basilisco.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultranationalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_EL_BASILISCO_DESC"
+		}
+	}
+
+	ZAP_Consejo_de_Comandancia_Zapatista = {
+		name = ZAP_Consejo_de_Comandancia_Zapatista
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_ZAP_Consejo_de_Comandancia_Zapatista.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_anarcho_communist_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ZAPATISTA_COUNCIL_DESC"
+		}
+	}
+
+	YUC_Matias_Yepes = {
+		name = YUC_Matias_Yepes
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_YUC_Matias_Yepes.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MATIAS_YEPES_DESC"
+		}
+	}
+
+	MWR_Eustacio_Manzanares = {
+		name = MWR_Eustacio_Manzanares
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MWR_Eustacio_Manzanares.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_national_communism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_EUSTACIO_MANZANRES_DESC"
+		}
+	}
+
+	MCN_Roman_Elvira = {
+		name = MCN_Roman_Elvira
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_MCN_Roman_Elvira.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_autocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ROMAN_ELVIRA_DESC"
+		}
+	}
+
+	SIL_Ovidio_Guzman = {
+		name = SIL_Ovidio_Guzman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_SIL_Ovidio_Guzman.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_banditry_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_OVIDIO_GUZMAN_DESC"
+		}
+	}
+
+	COM_Tatiana_Clouthier = {
+		name = COM_Tatiana_Clouthier
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_COM_Tatiana_Clouthier.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_stratocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_TATIANA_CLOUTHIER_DESC"
+		}
+	}
+
+	BAJ_Jaime_Olmeda = {
+		name = BAJ_Jaime_Olmeda
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEX/Portrait_BAJ_Jamie_Olmeda_.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_militaristic_libertarianism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JAIME_OLEMDA_DESC"
+		}
+	}	
+}

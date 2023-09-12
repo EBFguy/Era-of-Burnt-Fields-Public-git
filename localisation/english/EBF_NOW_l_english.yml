@@ -1,0 +1,102 @@
+﻿l_english:
+ #NAME#
+ NOW:0 "Unicorn Unit"
+ NOW_DEF:0 "The Special Forces Unit: Unicorns"
+ NOW_ADJ:0 "European Special Forces"
+
+ #COSMETIC TAGS 
+ NOW_Unified_Franco_Lowlands:0 "French Reconstruction Government"
+ NOW_Unified_Franco_Lowlands_DEF:0 "The French Reconstruction Government"
+ NOW_Unified_Franco_Lowlands_ADJ:0 "French"
+ NOW_Unified_Franco_Lowlands2:0 "French Mercenary State"
+ NOW_Unified_Franco_Lowlands2_DEF:0 "The French Mercenary State"
+ NOW_Unified_Franco_Lowlands2_ADJ:0 "Mercenaries"
+
+ NOW_Unified_West_Europe:0 "United States of West Europe"
+ NOW_Unified_West_Europe_DEF:0 "The United States of West Europe"
+ NOW_Unified_West_Europe_ADJ:0 "West European"
+ NOW_Unified_West_Europe2:0 "Unicornis"
+ NOW_Unified_West_Europe2_DEF:0 "The Unicornis Mercenary Unit"
+ NOW_Unified_West_Europe2_ADJ:0 "Mercenaries"
+
+ NOW_Unified_Europe:0 "United States of Europe"
+ NOW_Unified_Europe_DEF:0 "The United States of Europe"
+ NOW_Unified_Europe_ADJ:0 "European"
+ NOW_Unified_Europe2:0 "Unicornis Superior"
+ NOW_Unified_Europe2_DEF:0 "The Unicornis Superior Mercenary Unit"
+ NOW_Unified_Europe2_ADJ:0 "Mercenaries"
+ #PARTIES
+ NOW_anocracy_party:0 "UU - Central Command"
+ NOW_anocracy_party_long:0 "Unicorn Unit - Central Command"
+
+ #CHARACHTERS#
+ NOW_Ava_Smith:0 "Ava Smith"
+ POLITICS_AVA_SMITH_DESC:0 "§YThe Unicorn§!\n§W--------------§!\n"
+ NOW_Wiseman:0 "Wiseman"
+ NOW_Wiseman_min_desc:0 "§YResources Director\nSoldier's Democracy\nThe Aged§!\n\n\n\n\n\n\n£GFX_idea_RUS_grigoriy_sudoplatov_large\n\n\n\n\n\n\n\n§L--------------\n§!"
+ NOW_Baptiste:0 "Baptiste"
+ NOW_Baptiste_min_desc:0 "§YSon of The Unicorn\nSoldier's Democracy\nThe Lad§!\n\n\n\n\n\n\n£GFX_idea_RUS_grigoriy_sudoplatov_large\n\n\n\n\n\n\n\n§L--------------\n§!"
+ NOW_Ambrosius:0 "Ambrosius"
+ NOW_Ambrosius_min_desc:0 "§YSon of The Unicorn\nSoldier's Democracy\nThe Lost§!\n\n\n\n\n\n\n£GFX_idea_NOW_Ambrosius_large\n\n\n\n\n\n\n\n§L--------------\n§!"
+ NOW_Rutger:0 "Rutger"
+ NOW_Rutger_min_desc:0 "§YChief of the Forward Offensives\nSoldier's Democracy\nThe Cold§!\n\n\n\n\n\n\n£GFX_idea_RUS_grigoriy_sudoplatov_large\n\n\n\n\n\n\n\n§L--------------\n§!"
+
+
+ #FOCUSES#
+
+ NOW_our_new_duty: "Our New Duty"
+ NOW_our_new_duty_desc: "placeholder"
+ NOW_the_hope_of_the_morrow: "The Hope of the Morrow"
+ NOW_the_hope_of_the_morrow_desc: "placeholder"
+ NOW_forever_going_on: "Forever Going On"
+ NOW_forever_going_on_desc: "placeholder"
+ NOW_forever_remembering: "Forever Remembering"
+ NOW_forever_remembering_desc: "placeholder"
+ NOW_a_unicorns_speed: "A Unicorn's Speed"
+ NOW_a_unicorns_speed_desc: "placeholder"
+ NOW_a_mothers_love: "A Mother's Love"
+ NOW_a_mothers_love_desc: "placeholder"
+ NOW_the_memories_of_yesteryear: "The Memories of Yesteryear"
+ NOW_the_memories_of_yesteryear_desc: "placeholder"
+ NOW_greater_than_machines: "Greater Than Machines"
+ NOW_greater_than_machines_desc: "placeholder"
+ NOW_greater_than_soldiers: "Greater Than Soldiers"
+ NOW_greater_than_soldiers_desc: "placeholder"
+ NOW_a_band_of_humans: "A Band of Humans"
+ NOW_a_band_of_humans_desc: "placeholder"
+ NOW_a_fellowship_of_dreams: "A Fellowship of Dreams"
+ NOW_a_fellowship_of_dreams_desc: "placeholder"
+ NOW_the_fight_for_here_and_now: "The Fight for Here and Now"
+ NOW_the_fight_for_here_and_now_desc: "placeholder"
+
+ #IDEAS#
+ NOW_cause_of_all_soldiers_idea:0 "The Cause of all Soldiers"
+ NOW_the_might_of_unicorns_idea:0 "The Might of Unicorns"
+ NOW_a_unicorns_speed_idea: "$NOW_a_unicorns_speed$"
+ NOW_a_unicorns_speed_idea_desc: ""
+ NOW_a_mothers_love_idea: "$NOW_a_mothers_love$"
+ NOW_a_mothers_love_idea_desc: ""
+ NOW_do_you_hear_us_now: "Do You Hear Us Now?"
+ NOW_do_you_hear_us_now_desc: ""
+
+ #DECISIONS#
+
+ #EVENT#
+ now.1.t: "The Call of the Unicorn"
+ now.1.desc: "Four years of fighting has finally reached its apex. After making her way through Pomerania and North Germany fighting almost every single warlord to get to her designation Ava Smith has at last found her duty's end. For all the suffering her men and the countless other men in Europe's army has suffered she must succeed. Old Europe must die here."
+ now.1.a: "..."
+ now.2.t: "The Lad and the Lost"
+ now.2.desc: "Baptiste and Ambrosius. The Lad and The Lost. A French man who Ava took in from the streets of Paris and a Dutchman who saw his country transform into nothing. The two are Ava's greatest students and as such have become great Special Forces members. However, they often disagree over their teacher's ideals."
+ now.2.a: "..."
+ now.3.t: "An Ailing Epiphany"
+ now.3.desc: "After years of battle both before and after the collapse and Europe Ava's body is starting to fail even though she's only in her early 40s. But even so her belief in her epiphany, her ideal, will not falter, no matter what"
+ now.3.a: "..."
+ now.4.t: "A Chance for New Life"
+ now.4.desc: "Much like the rest of Europe Belgium is filled with countless millions of poor suffering people who have been damned to walk this blasted Earth and shattered Federation. With the arrival of the Unifcon Unit many of these people have taken the chance to join the Special Forces. Its recruitment is tough and unwavering causing many to fail."
+ now.4.a: "..."
+ now.5.t: "By Gun and Hammer"
+ now.5.desc: "Whilst founded primarily on Soldier's rights issues Ava is no fool and treats the average civilian inside her territory with the same respect of a soldier. Because of this she is both beloved by her soldiers and her newly adopted people."
+ now.5.a: "..."
+
+ #MISC#
+ NOW_mother_of_european_forces:0 "Mother of Modern European Special Forces"

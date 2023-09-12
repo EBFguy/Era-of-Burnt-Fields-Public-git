@@ -1,0 +1,8 @@
+﻿l_english:
+ feature_disabled:0 "§RFor Gameplay purposes manual use of this feature has been disabled for EBF.§!"
+ donbas_autonomous_republic:0 "Donbas Autonomous Republic"
+ donbas_autonomous_republic_desc:0 "Established following the 2030 Treaty of the Donbas, the Autonomous Republics of Luhansk and Donetsk are afforded extra rights and autonomy in comparison to other parts of Ukraine. This comes in the form of limiting Ukrainian army movements in the area and decreasing the amount of population that can be recruited into the Ukrainian Armed Forces. So far these measures have proven effective in calming separatist sentiments in the region."
+ cannot_train_units_tt:0 "§RCannot train units, disband units, or edit unit templates.§!"
+ new_focus_tree_tt:0 "§YA New Focus Tree has been unlocked§!"
+ focus_tree_changes_tt:0 "§YThe Focus Tree has Changed§!"
+ not_a_real_focus_tt:0 "§YThis is Not a Real Focus§!"

@@ -1,0 +1,21 @@
+
+state={
+	id=564
+	name="STATE_564" # Ulan Ude
+	manpower = 774138
+	state_category = rural
+
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1696 4705 4766 4837 7751 7816 7835 7860 10528 10658 12507 12644 
+	}
+}

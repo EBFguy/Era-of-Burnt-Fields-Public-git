@@ -1,0 +1,50 @@
+EBF_debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+	visible_when_empty = YES
+	priority = 0
+}
+
+EBF_central_asian_unification = {
+	icon = generic_research
+	allowed = {
+		is_central_asian_nation = yes
+	}
+	visible = {
+		NOT = {
+			has_global_flag = CENTRAL_ASIAN_UNIFICATION_DONE
+		}
+	}
+	visible_when_empty = YES
+	priority = 1000000
+}
+
+EBF_british_unification = {
+	icon = generic_research
+	allowed = {
+		is_british_warlord_nation = yes
+	}
+	visible = {
+		NOT = {
+			has_global_flag = BRITISH_UNIFICATION_DONE
+		}
+	}
+	visible_when_empty = YES
+	priority = 1000000
+}
+
+EBF_baltic_unification = {
+	icon = generic_research
+	allowed = {
+		is_baltic_warlord_nation = yes
+	}
+	visible = {
+		NOT = {
+			has_global_flag = BALTIC_UNIFICATION_DONE
+		}
+	}
+	visible_when_empty = YES
+	priority = 1000000
+}

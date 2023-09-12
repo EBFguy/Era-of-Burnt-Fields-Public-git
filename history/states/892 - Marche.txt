@@ -1,0 +1,28 @@
+
+state={
+	id=892
+	name="STATE_892"
+	manpower = 4310307
+	local_supplies = 0.0 
+	state_category = city
+
+	history={
+		add_core_of = EMI
+		owner = EMI
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+			}
+		}
+		
+	}
+
+	provinces={
+		925 967 9838 11861 3910
+	}
+}

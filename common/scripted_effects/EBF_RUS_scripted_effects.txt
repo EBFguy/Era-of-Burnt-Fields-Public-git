@@ -1,0 +1,176 @@
+EBF_KAZ_increase_russian_forces_strength = { 
+    subtract_from_variable = { RUS_KAZ_forces_strength = temp_RUS_KAZ_forces_strength}
+    clamp_variable = {
+        var = RUS_KAZ_forces_strength
+        min = 0
+        max = 1
+    }
+    set_temp_variable = { temp_RUS_KAZ_forces_strength_show = temp_RUS_KAZ_forces_strength}
+    multiply_temp_variable = { temp_RUS_KAZ_forces_strength_show = 100 } 
+    subtract_from_variable = { RUS_KAZ_forces_strength_show = temp_RUS_KAZ_forces_strength_show}
+    clamp_variable = {
+        var = RUS_KAZ_forces_strength_show
+        min = 0
+        max = 100
+    }     
+    custom_effect_tooltip = EBF_KAZ_boost_russian_forces_strength_tt 
+}
+
+EBF_KAZ_increase_kazakh_forces_strength = { 
+    add_to_variable = { RUS_KAZ_forces_strength = temp_RUS_KAZ_forces_strength}
+    clamp_variable = {
+        var = RUS_KAZ_forces_strength
+        min = 0
+        max = 1
+    }
+    set_temp_variable = { temp_RUS_KAZ_forces_strength_show = temp_RUS_KAZ_forces_strength}
+    multiply_temp_variable = { temp_RUS_KAZ_forces_strength_show = 100 } 
+    add_to_variable = { RUS_KAZ_forces_strength_show = temp_RUS_KAZ_forces_strength_show}
+    clamp_variable = {
+        var = RUS_KAZ_forces_strength_show
+        min = 0
+        max = 100
+    }     
+    custom_effect_tooltip = EBF_KAZ_boost_kazakh_forces_strength_tt
+}
+
+EBF_KAZ_increase_nikitins_suspicions = {
+    add_to_variable = { RUS_KAZ_nikitins_suspicions = temp_RUS_KAZ_nikitins_suspicions}
+    clamp_variable = {
+        var = RUS_KAZ_nikitins_suspicions
+        min = 0
+        max = 1
+    }
+    custom_effect_tooltip = EBF_KAZ_boost_nikitins_suspicions_tt
+    set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions_show = temp_RUS_KAZ_nikitins_suspicions}
+    multiply_temp_variable = { temp_RUS_KAZ_nikitins_suspicions_show = 100 } 
+    add_to_variable = { RUS_KAZ_nikitins_suspicions_show = temp_RUS_KAZ_nikitins_suspicions_show}
+    clamp_variable = {
+        var = RUS_KAZ_nikitins_suspicions_show
+        min = 0
+        max = 100
+    }
+}
+
+EBF_KAZ_decrease_nikitins_suspicions = {
+    subtract_from_variable = { RUS_KAZ_nikitins_suspicions = temp_RUS_KAZ_nikitins_suspicions}
+    clamp_variable = {
+        var = RUS_KAZ_nikitins_suspicions
+        min = 0
+        max = 1
+    }
+    set_temp_variable = { temp_RUS_KAZ_nikitins_suspicions_show = temp_RUS_KAZ_nikitins_suspicions}
+    multiply_temp_variable = { temp_RUS_KAZ_nikitins_suspicions_show = 100 } 
+    subtract_from_variable = { RUS_KAZ_nikitins_suspicions_show = temp_RUS_KAZ_nikitins_suspicions_show}
+    clamp_variable = {
+        var = RUS_KAZ_nikitins_suspicions_show
+        min = 0
+        max = 100
+    }    
+    custom_effect_tooltip = EBF_KAZ_minus_nikitins_suspicions_tt
+}
+
+EBF_RUS_tree_one_fail = {
+    hidden_effect = {
+        load_focus_tree = EBF_Russia_collapse_tree
+        annex_country = {
+            target = KAZ
+        }
+        KAZ = {
+            RUS_Valeriy_Zakharov = { set_nationality = RUS }		
+        }		
+        RUS_Valeriy_Zakharov = {
+            remove_country_leader_role = {
+                ideology = autocracy_occupation_authority_subtype
+            }
+            add_country_leader_role = {
+                country_leader = {
+                    ideology = anocracy_provisional_government_subtype
+                    expire = "2999.10.20"
+                    desc = POLITICS_RUS_COUP_VALERIY_ZAKHAROV
+                }
+            }
+            set_portraits = {
+                character = RUS_Valeriy_Zakharov
+                civilian = { large ="gfx/leaders/RUS/Portrait_RUS_Valeriy_Zakharov_post_coup.dds" }
+            } 
+        }
+        retire_character = RUS_Grigory_Chkalov
+        RUS_Valeriy_Zakharov = {
+            promote_character = yes
+        }
+        deactivate_advisor = RUS_Grigoriy_Sudoplatov_min
+        remove_ideas = {
+            RUS_vestigial_democracy
+            RUS_kazakh_pacification
+            RUS_december_emergency_decree
+            RUS_path_verdant_siberia
+        }
+        add_ideas = {
+            RUS_path_verdant_siberia
+        }
+    }
+    custom_effect_tooltip = tree_one_collapse_tt
+    set_cosmetic_tag = RUS_tree_one_coup    
+}
+
+EBF_RUS_tree_two = {
+    custom_effect_tooltip = final_death_knell_tt
+    remove_ideas = RUS_vestigial_democracy
+    hidden_effect = {
+        if = {
+            limit = {
+                has_completed_focus = RUS_an_undesired_victory	
+            }
+            country_event = {
+                id = russia_tree_two.0
+            }
+        }
+    }
+    hidden_effect = {
+        load_focus_tree = EBF_Russia_tree_two
+    }
+    news_event = {
+        id = news_event.12
+        hours = 10
+    }
+    hidden_effect = {
+        retire_character = RUS_REDACTED_sec
+        RUS_Grigory_Chkalov = {
+            add_country_leader_role = {
+                promote_leader = yes
+                country_leader = {
+                      ideology = securocracy_greater_russian_system_subtype
+                      expire = "2999.1.1.1"
+                    desc = POLITICS_SECUROCRACY_GRIGORY_CHKALOV_DESC
+                }
+            }				
+        }
+        set_portraits = {
+            character = RUS_Grigory_Chkalov
+            civilian = { large ="gfx/leaders/RUS/Portrait_RUS_Grigory_Chkalov_securocracy.dds" }
+        } 
+        set_popularities = {
+            technoutopianism = 5
+            securocracy = 25
+            ultranationalism = 10
+            fascist = 0
+            autocracy = 20
+            anocracy = 0
+            conservatism = 15
+            liberalism = 15
+            libertarian_socialism = 0
+            authoritarian_socialism = 0
+            totalitarian_socialism = 10
+            reductivism = 0
+        }
+        set_politics = {
+            ruling_party = securocracy
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+            long_name = RUS_PASS_party
+            name = RUS_PASS_party_long
+        }
+    }    
+}

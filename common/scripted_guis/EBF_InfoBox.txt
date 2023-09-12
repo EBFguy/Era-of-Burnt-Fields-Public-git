@@ -1,0 +1,61 @@
+scripted_gui = {
+
+	EBF_Infobox_Open = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "Infobox_Open_Container"
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+			Infobox_Icon_click = {
+				if = {
+					limit = { check_variable = { var_Infobox_Open = 0 } }
+					set_variable = { var_Infobox_Open = 1 }
+				}
+				else = {
+					set_variable = { var_Infobox_Open = 0 }
+				}
+			}
+		}
+	}
+
+	EBF_Infobox_Window = {
+		context_type = player_context
+		window_name = "Infobox_Window"
+
+		visible = {
+			is_ai = no
+			check_variable = { var_Infobox_Open = 1 }
+		}
+
+		effects = {
+			Infobox_Close_click = {
+				if = {
+					limit = { check_variable = { var_Infobox_Open = 0 } }
+					set_variable = { var_Infobox_Open = 1 }
+				}
+				else = {
+					set_variable = { var_Infobox_Open = 0 }
+				}
+			}
+			Infobox_National_Info_Button_click = {
+				set_variable = { var_Infobox_Page = 0 }
+			}		
+			Infobox_Global_Info_Button_click = {
+				set_variable = { var_Infobox_Page = 1 }
+			}
+			Infobox_encyclopedia_Info_Button_click = {
+				set_variable = { var_Infobox_Page = 2 }
+			}
+			Infobox_mod_Info_Button_click = {
+				set_variable = { var_Infobox_Page = 3 }
+			}										
+		}
+		properties = {
+			EBF_Infobox_player_flag = { image = "[This.GetFlag]" }
+		}		
+	}
+}

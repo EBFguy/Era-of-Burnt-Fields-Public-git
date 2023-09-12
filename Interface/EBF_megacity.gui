@@ -1,0 +1,37 @@
+guitypes = {
+	containerwindowtype = {
+		name = "EBF_megacity_info"
+		position = { x = 465 y = 370 }
+		size = { width = 190 height = 175 }
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_main_window"
+		} 
+		instantTextBoxType = {
+			name = "name"
+			position = { x = 10 y = 8 }
+			text = "[Megacity_get_name]"
+			font = "hoi_18mbs"
+			maxwidth = 170
+			maxheight = 100
+			format = centre
+			fixedsize = yes
+			text_color_code = Y
+		}
+		icontype = {
+			name = "megacity_image"
+			position = { x = 13 y = 45 }
+			spritetype = "GFX_megacity_img_1"
+		}
+		instantTextBoxType = {
+			name = "effects"
+			position = { x = 10 y = 125 }
+			text = "[Megacity_get_effect]"
+			font = "hoi_16mbs"
+			maxwidth = 170
+			maxheight = 100
+			format = centre
+			fixedsize = yes
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=960
+	name="STATE_960"
+	manpower = 10
+	
+	state_category = town
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		
+		victory_points = {
+			12489 1 
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		12778 12489 7543 10355 7485 12458 1503
+	}
+}

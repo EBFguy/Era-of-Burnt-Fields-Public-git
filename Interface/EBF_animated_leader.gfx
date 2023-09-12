@@ -1,0 +1,18 @@
+spriteTypes = {
+	frameAnimatedSpriteType = {
+		name = "GFX_Portrait_EOH_Animated_EOH"
+		texturefile = "gfx/leaders/EOH/Portrait_EOH_Animated_EOH.dds"
+		noOfFrames = 80
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes  
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Portrait_Echo_Animated_LON"
+		texturefile = "gfx/leaders/LON/Portrait_ECHO_Animated_LON.dds"
+		noOfFrames = 80
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes  
+	}	
+}

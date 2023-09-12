@@ -1,0 +1,24 @@
+state={
+	id=431
+	name="STATE_431"
+
+	history={
+		add_core_of = IND
+		owner = IND
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1609 4204 4644 7220 7537 7593 10077
+	}
+	manpower=199434399
+	buildings_max_level_factor=1.000
+	state_category=city
+}

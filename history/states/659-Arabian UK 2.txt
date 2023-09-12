@@ -1,0 +1,22 @@
+
+state={
+	id=659
+	name="STATE_659"
+	manpower = 12000142
+
+	state_category = town
+
+	history={
+		add_core_of = YEM
+		owner = YEM
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		2029 4976 12821 12894 13079 13445 13436 
+	}
+}

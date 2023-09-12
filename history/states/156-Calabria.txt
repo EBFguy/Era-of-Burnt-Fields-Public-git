@@ -1,0 +1,33 @@
+
+state={
+	id=156
+	name="STATE_156"
+
+	history={
+		add_core_of = MEZ
+		owner = MEZ
+		buildings = {
+			infrastructure = 3
+			dockyard = 4
+			fuel_silo = 1
+			air_base = 5
+
+		}
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3901 9990 10027 12066 12098 
+	}
+	manpower=4291470
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

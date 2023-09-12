@@ -1,0 +1,239 @@
+EBF_VNC_debug_decisions = {
+
+}
+
+EBF_VNC_shining_city_decisions = {
+
+}
+
+EBF_VNC_cyclical_politics_decisions = {
+	EBF_VNC_secure_our_power = {
+
+		icon = generic_research
+
+		cost = 15
+
+		days_remove = 7
+
+		complete_effect = {
+			EBF_VNC_get_own_variable = YES
+			set_temp_variable = { temp_faction_power = 5 }
+			add_to_temp_variable = { temp_faction_power = EBF_VNC_additional_faction_power }
+			EBF_VNC_change_corporate_power = yes
+		}
+	}
+
+	EBF_VNC_increase_our_connections = {
+
+		icon = generic_research
+
+		cost = 25
+
+		days_remove = 14
+
+		complete_effect = {
+			add_to_variable = { EBF_VNC_additional_faction_power = 2.5 }
+			custom_effect_tooltip = EBF_VNC_increase_our_connections_tt
+		}
+	}
+
+	EBF_VNC_spread_our_portfolio = {
+
+		icon = generic_research
+
+		cost = 15
+
+		days_remove = 7
+
+		complete_effect = {
+			add_to_variable = { EBF_VNC_faction_power_weekly = 1 }
+			custom_effect_tooltip = EBF_VNC_spread_our_portfolio_tt
+		}
+	}
+
+	EBF_VNC_we_make_our_moves = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			EBF_VNC_get_own_variable = YES
+			set_temp_variable = { temp_faction_power = 5 }
+			add_to_temp_variable = { temp_faction_power = EBF_VNC_faction_power_weekly }
+			EBF_VNC_change_corporate_power = yes
+		}
+	}	
+
+	EBF_VNC_krennic_moves = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			random_list = {
+				25 = {
+					set_temp_variable = { temp_selected_faction = 0 }
+					set_temp_variable = { temp_faction_power = 5 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				50 = {
+					set_temp_variable = { temp_selected_faction = 0 }
+					set_temp_variable = { temp_faction_power = 10 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				25 = {
+					set_temp_variable = { temp_selected_faction = 0 }
+					set_temp_variable = { temp_faction_power = 15 }
+					EBF_VNC_change_corporate_power = yes
+				}
+			}
+			hidden_effect = {
+				activate_mission = EBF_VNC_krennic_moves
+			}
+		}
+	}	
+
+	EBF_VNC_milana_moves = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			random_list = {
+				25 = {
+					set_temp_variable = { temp_selected_faction = 1 }
+					set_temp_variable = { temp_faction_power = 5 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				50 = {
+					set_temp_variable = { temp_selected_faction = 1 }
+					set_temp_variable = { temp_faction_power = 10 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				25 = {
+					set_temp_variable = { temp_selected_faction = 1 }
+					set_temp_variable = { temp_faction_power = 15 }
+					EBF_VNC_change_corporate_power = yes
+				}
+			}
+			hidden_effect = {
+				activate_mission = EBF_VNC_milana_moves
+			}
+		}
+	}	
+
+	EBF_VNC_holmes_moves = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			random_list = {
+				25 = {
+					set_temp_variable = { temp_selected_faction = 2 }
+					set_temp_variable = { temp_faction_power = 5 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				50 = {
+					set_temp_variable = { temp_selected_faction = 2 }
+					set_temp_variable = { temp_faction_power = 10 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				25 = {
+					set_temp_variable = { temp_selected_faction = 2 }
+					set_temp_variable = { temp_faction_power = 15 }
+					EBF_VNC_change_corporate_power = yes
+				}
+			}
+			hidden_effect = {
+				activate_mission = EBF_VNC_holmes_moves
+			}
+		}
+	}	
+
+	EBF_VNC_manna_moves = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 7
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			random_list = {
+				25 = {
+					set_temp_variable = { temp_selected_faction = 3 }
+					set_temp_variable = { temp_faction_power = 5 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				50 = {
+					set_temp_variable = { temp_selected_faction = 3 }
+					set_temp_variable = { temp_faction_power = 10 }
+					EBF_VNC_change_corporate_power = yes
+				}
+				25 = {
+					set_temp_variable = { temp_selected_faction = 3 }
+					set_temp_variable = { temp_faction_power = 15 }
+					EBF_VNC_change_corporate_power = yes
+				}
+			}
+			hidden_effect = {
+				activate_mission = EBF_VNC_manna_moves
+			}
+		}
+	}	
+
+
+}

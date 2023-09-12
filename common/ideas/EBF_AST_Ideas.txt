@@ -1,0 +1,82 @@
+ideas = {
+	country = {
+		AST_pacific_bastion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AST_pacific_bastion" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_morale_factor = 0.05
+				max_dig_in_factor = 0.25
+			}
+		}		
+		AST_the_grave_decades = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AST_the_grave_decades" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				stability_factor = -0.15
+				monthly_population = -0.05
+				production_speed_buildings_factor = -0.1 
+			}
+		}		
+		AST_growing_authoritarianism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AST_growing_authoritarianism" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				political_power_gain = 0.05
+				drift_defence_factor = 0.2
+				stability_factor = -0.05
+			}
+		}		
+		AST_a_liberal_conservative_laughingstock = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AST_a_liberal_conservative_laughingstock" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				drift_defence_factor = -0.05
+				political_power_gain = 0.025
+			}
+		}
+		AST_floyds_ambitions = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AST_floyds_ambitions" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				drift_defence_factor = -0.1
+				custom_modifier_tooltip = AST_floyds_ambitions_tt
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=1146
+	name="STATE_1146"
+
+	history={
+		add_core_of = MER
+		owner = MER
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		6270 7239 9297 13477 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

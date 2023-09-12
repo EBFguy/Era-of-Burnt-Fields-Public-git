@@ -1,0 +1,679 @@
+spriteTypes = {	
+
+	#### russia
+
+	SpriteType = {
+		name = "GFX_focus_aftermath_december_emergency_decree"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_aftermath_december_emergency_decree.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_i_am_president_tsar_and_premier"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_i_am_president_tsar_and_premier.dds"			
+	}		
+
+	SpriteType = {
+		name = "GFX_focus_business_matter_allies_make_world_round"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_business_matter_allies_make_world_round.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_his_fall"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_his_fall.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_bribe_the_intelligence_department"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_bribe_the_intelligence_department.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_the_kazakhstan_pacification"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_the_kazakhstan_pacification.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_but_first_clearing_house"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_but_first_clearing_house.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_careful_not_to_awake_the_beast"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_careful_not_to_awake_the_beast.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_a_few_displaced_crates"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_a_few_displaced_crates.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_double_the_efforts"
+		texturefile = "gfx/interface/goals/RUS/RUS_goal_double_the_efforts.dds"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_focus_The_Boldness_of_the_Few_will_Lead"
+		texturefile = "gfx/interface/goals/RUS/RUS_The_Boldness_of_the_Few_will_Lead.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_Organise_Meetings_With_the_Loyalists"
+		texturefile = "gfx/interface/goals/RUS/RUS_Organise_Meetings_With_the_Loyalists.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_In_A_Game_of_Influence_and_Control"
+		texturefile = "gfx/interface/goals/RUS/RUS_In_A_Game_of_Influence_and_Control.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_heart_of_the_army"
+		texturefile = "gfx/interface/goals/RUS/RUS_heart_of_the_army.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_trusted_minister"
+		texturefile = "gfx/interface/goals/RUS/RUS_trusted_minister.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_unforeseen_ally"
+		texturefile = "gfx/interface/goals/RUS/RUS_unforeseen_ally.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_Only_a_Heart_of_Unity_Will_Do"
+		texturefile = "gfx/interface/goals/RUS/RUS_Only_a_Heart_of_Unity_Will_Do.dds"			
+	}		
+
+	SpriteType = {
+		name = "GFX_focus_Only_a_Heart_of_War_Will_Do"
+		texturefile = "gfx/interface/goals/RUS/RUS_Only_a_Heart_of_War_Will_Do.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_Only_a_Heart_of_Science_Will_Do"
+		texturefile = "gfx/interface/goals/RUS/RUS_Only_a_Heart_of_Science_Will_Do.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_dangers_war_often_lead_unfortunate_deaths"
+		texturefile = "gfx/interface/goals/RUS/RUS_dangers_war_often_lead_unfortunate_deaths.dds"			
+	}	
+
+	#nnew venice
+
+	SpriteType = {
+		name = "GFX_focus_Overlook_the_Waters_into_Old_Venice"
+		texturefile = "gfx/interface/goals/VNC/VNC_Overlook_the_Waters_into_Old_Venice.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_new_orders_from_richford_city"
+		texturefile = "gfx/interface/goals/VNC/VNC_new_orders_from_richford_city.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_situation_with_selfdefence_force"
+		texturefile = "gfx/interface/goals/VNC/VNC_situation_with_selfdefence_force.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_courtship_of_three_interests"
+		texturefile = "gfx/interface/goals/VNC/VNC_courtship_of_three_interests.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_reinforce_mainland_divisions"
+		texturefile = "gfx/interface/goals/VNC/VNC_reinforce_mainland_divisions.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_no_better_place_protect_then_home"
+		texturefile = "gfx/interface/goals/VNC/VNC_no_better_place_protect_then_home.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_fine_dining_with_woman_with_gun"
+		texturefile = "gfx/interface/goals/VNC/VNC_fine_dining_with_woman_with_gun.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_refocus_wise_hall_initiative"
+		texturefile = "gfx/interface/goals/VNC/VNC_refocus_wise_hall_initiative.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_End_of_New_Years_on_the_Shining_Island"
+		texturefile = "gfx/interface/goals/VNC/VNC_The_End_of_New_Years_on_the_Shining_Island.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Manage_the_Collaborators"
+		texturefile = "gfx/interface/goals/VNC/VNC_Manage_the_Collaborators.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Art_Gazing_with_the_Money_Man"
+		texturefile = "gfx/interface/goals/VNC/VNC_Art_Gazing_with_the_Money_Man.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_richford_gift"
+		texturefile = "gfx/interface/goals/VNC/VNC_richfords_gift.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_prioritise_public_cities_infrastructure"
+		texturefile = "gfx/interface/goals/VNC/VNC_prioritise_public_cities_infrastructure.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_The_Greatest_Boon_of_Them_All"
+		texturefile = "gfx/interface/goals/VNC/VNC_The_Greatest_Boon_of_Them_All.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_A_Directors_Work_is_Never_Finished"
+		texturefile = "gfx/interface/goals/VNC/VNC_A_Directors_Work_is_Never_Finished.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Begin_Preliminary_Planning_for_Extra_Constructions"
+		texturefile = "gfx/interface/goals/VNC/VNC_Begin_Preliminary_Planning_for_Extra_Constructions.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Hasten_Operation_Shining_Island"
+		texturefile = "gfx/interface/goals/VNC/VNC_Hasten_Operation_Shining_Island.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Refocusing_the_Efforts_on_New_Venice"
+		texturefile = "gfx/interface/goals/VNC/VNC_Refocusing_the_Efforts_on_New_Venice.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Cruel_Logistics_with_the_Director"
+		texturefile = "gfx/interface/goals/VNC/VNC_Cruel_Logistics_with_the_Director.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_A_Mid_Point_Between_Wise_and_Unwise"
+		texturefile = "gfx/interface/goals/VNC/VNC_A_Mid_Point_Between_Wise_and_Unwise.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Harsh_Command_Will_Keep_Them_In_Line"
+		texturefile = "gfx/interface/goals/VNC/VNC_Harsh_Command_Will_Keep_Them_In_Line.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Formalise_The_Department_for_New_Venice"
+		texturefile = "gfx/interface/goals/VNC/VNC_Formalise_The_Department_for_New_Venice.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Formalise_The_Department_for_New_Venice"
+		texturefile = "gfx/interface/goals/VNC/VNC_Formalise_The_Department_for_New_Venice.dds"			
+	}
+
+	#PRC
+
+	SpriteType = {
+		name = "GFX_focus_the_broken_party"
+		texturefile = "gfx/interface/goals/PRC/PRC_the_broken_party.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_secure_party_maoists"
+		texturefile = "gfx/interface/goals/PRC/PRC_secure_party_maoists.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_keeping_the_red_flag_strong"
+		texturefile = "gfx/interface/goals/PRC/PRC_keeping_the_red_flag_strong.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_waning_days_pax_sinica"
+		texturefile = "gfx/interface/goals/PRC/PRC_waning_days_pax_sinica.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_maoist_mo_xianliang"
+		texturefile = "gfx/interface/goals/PRC/PRC_the_maoist_mo_xianliang.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_maoist_mo_xianliang"
+		texturefile = "gfx/interface/goals/PRC/PRC_the_maoist_mo_xianliang.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_centre_lai_xiaojian"
+		texturefile = "gfx/interface/goals/PRC/PRC_the_centre_lai_xiaojian.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_technocrat_fang_bao"
+		texturefile = "gfx/interface/goals/PRC/PRC_the_technocrat_fang_bao.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_broken_man"
+		texturefile = "gfx/interface/goals/PRC/PRC_broken_man.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_three_men_their_ways_to_fix"
+		texturefile = "gfx/interface/goals/PRC/PRC_three_men_their_ways_to_fix.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_all_sworn_to_do_nothing"
+		texturefile = "gfx/interface/goals/PRC/PRC_all_sworn_to_do_nothing.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_Turning_Economic_Theory"
+		texturefile = "gfx/interface/goals/PRC/PRC_Turning_Economic_Theory.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Into_Practical_Results"
+		texturefile = "gfx/interface/goals/PRC/PRC_Into_Practical_Results.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Matter_of_the_Party"
+		texturefile = "gfx/interface/goals/PRC/PRC_Matter_of_the_Party.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_The_Broken_World"
+		texturefile = "gfx/interface/goals/PRC/PRC_The_Broken_World.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_The_Broken_Pact"
+		texturefile = "gfx/interface/goals/PRC/PRC_The_Broken_Pact.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_strengths_of_democratic_way"
+		texturefile = "gfx/interface/goals/PRC/PRC_strengths_of_democratic_way.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_call_in_a_couple_favours"
+		texturefile = "gfx/interface/goals/PRC/PRC_call_in_a_couple_favours.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_A_Growing_Realisation"
+		texturefile = "gfx/interface/goals/PRC/PRC_A_Growing_Realisation.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_An_End_to_Rumination"
+		texturefile = "gfx/interface/goals/PRC/PRC_An_End_to_Rumination.dds"			
+	}
+
+	#DEN
+	SpriteType = {
+		name = "GFX_focus_nights_in_copenhagen"
+		texturefile = "gfx/interface/goals/DEN/DEN_nights_in_copenhagen.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_controlling_the_population"
+		texturefile = "gfx/interface/goals/DEN/DEN_controlling_the_population.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Promises_to_population"
+		texturefile = "gfx/interface/goals/DEN/DEN_Promises_to_population.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_amend_medical_care"
+		texturefile = "gfx/interface/goals/DEN/DEN_amend_medical_care.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_reform_labour_laws"
+		texturefile = "gfx/interface/goals/DEN/DEN_reform_labour_laws.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_breaking_the_bottleneck"
+		texturefile = "gfx/interface/goals/DEN/DEN_breaking_the_bottleneck.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_waking_the_giant"
+		texturefile = "gfx/interface/goals/DEN/DEN_waking_the_giant.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_specimen_of_sin"
+		texturefile = "gfx/interface/goals/DEN/DEN_specimen_of_sin.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_deputies_in_town"
+		texturefile = "gfx/interface/goals/DEN/DEN_deputies_in_town.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_regional_troubles"
+		texturefile = "gfx/interface/goals/DEN/DEN_regional_troubles.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_billing_the_population"
+		texturefile = "gfx/interface/goals/DEN/DEN_billing_the_population.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_downsizing_agriculture"
+		texturefile = "gfx/interface/goals/DEN/DEN_downsizing_agriculture.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_sub_standard_issue"
+		texturefile = "gfx/interface/goals/DEN/DEN_sub_standard_issue.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_give_me_a_break"
+		texturefile = "gfx/interface/goals/DEN/DEN_give_me_a_break.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_storied_stage"
+		texturefile = "gfx/interface/goals/DEN/DEN_the_storied_stage.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_election_of_the_second_premier"
+		texturefile = "gfx/interface/goals/DEN/DEN_election_of_the_second_premier.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_different_caliber"
+		texturefile = "gfx/interface/goals/DEN/DEN_different_caliber.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_convincing_the_cabinet"
+		texturefile = "gfx/interface/goals/DEN/DEN_convincing_the_cabinet.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_dealing_with_judas"
+		texturefile = "gfx/interface/goals/DEN/DEN_dealing_with_judas.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_burying_some_evidence"
+		texturefile = "gfx/interface/goals/DEN/DEN_burying_some_evidence.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_puppet"
+		texturefile = "gfx/interface/goals/DEN/DEN_the_puppet.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_intensify_self_sufficiency_programs"
+		texturefile = "gfx/interface/goals/DEN/DEN_intensify_self_sufficiency_programs.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_intensify_investment_programs"
+		texturefile = "gfx/interface/goals/DEN/DEN_intensify_investment_programs.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_intensify_infrastructure_programs"
+		texturefile = "gfx/interface/goals/DEN/DEN_intensify_infrastructure_programs.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ministerial_experience"
+		texturefile = "gfx/interface/goals/DEN/DEN_ministerial_experience.dds"			
+	}
+
+
+	#NOW
+
+	SpriteType = {
+		name = "GFX_focus_Forever_Going_On"
+		texturefile = "gfx/interface/goals/NOW/NOW_Forever_Going_On.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_a_band_of_humans"
+		texturefile = "gfx/interface/goals/NOW/NOW_a_band_of_humans.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_memories_of_yesteryear"
+		texturefile = "gfx/interface/goals/NOW/NOW_the_memories_of_yesteryear.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_fight_for_here_and_now"
+		texturefile = "gfx/interface/goals/NOW/NOW_the_fight_for_here_and_now.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_greater_than_soldier"
+		texturefile = "gfx/interface/goals/NOW/greater_than_soldier.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_a_mothers_love"
+		texturefile = "gfx/interface/goals/NOW/NOW_a_mothers_love.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_a_unicorns_speed"
+		texturefile = "gfx/interface/goals/NOW/NOW_a_unicorns_speed.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_forever_remembering"
+		texturefile = "gfx/interface/goals/NOW/NOW_forever_remembering.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_a_fellowship_of_dreams"
+		texturefile = "gfx/interface/goals/NOW/NOW_a_fellowship_of_dreams.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_hope_of_the_morrow"
+		texturefile = "gfx/interface/goals/NOW/NOW_the_hope_of_the_morrow.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_our_new_duty"
+		texturefile = "gfx/interface/goals/NOW/NOW_our_new_duty.dds"			
+	}
+
+	#LON
+
+	SpriteType = {
+		name = "GFX_focus_man_and_machine"
+		texturefile = "gfx/interface/goals/LON/LON_man_and_machine.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_deactivate_soft_stasis_routines"
+		texturefile = "gfx/interface/goals/LON/LON_deactivate_soft_stasis_routines.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_begin_network_scan"
+		texturefile = "gfx/interface/goals/LON/LON_begin_network_scan.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_take_action_against_south"
+		texturefile = "gfx/interface/goals/LON/LON_take_action_against_south.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_employ_sympathetic_protocols"
+		texturefile = "gfx/interface/goals/LON/LON_employ_sympathetic_protocols.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_showcase_kind_emotions"
+		texturefile = "gfx/interface/goals/LON/LON_showcase_kind_emotions.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_understanding_social_contract"
+		texturefile = "gfx/interface/goals/LON/LON_understanding_social_contract.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_seek_out_the_survivors"
+		texturefile = "gfx/interface/goals/LON/LON_seek_out_the_survivors.dds"			
+	}
+
+	#OCC
+
+	SpriteType = {
+		name = "GFX_focus_the_city_communism_was_found"
+		texturefile = "gfx/interface/goals/OCC/OCC_the_city_communism_was_found.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_tale_collective_failure"
+		texturefile = "gfx/interface/goals/OCC/OCC_tale_collective_failure.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_secure_the_grounds"
+		texturefile = "gfx/interface/goals/OCC/OCC_secure_the_grounds.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_call_upon_the_members"
+		texturefile = "gfx/interface/goals/OCC/OCC_call_upon_the_members.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_politburo_undivided"
+		texturefile = "gfx/interface/goals/OCC/OCC_politburo_undivided.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_awaken_common_workers"
+		texturefile = "gfx/interface/goals/OCC/OCC_awaken_common_workers.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_find_your_utopia"
+		texturefile = "gfx/interface/goals/OCC/OCC_find_your_utopia.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_chair_occupied"
+		texturefile = "gfx/interface/goals/OCC/OCC_chair_occupied.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_new_vision_of_utopia"
+		texturefile = "gfx/interface/goals/OCC/OCC_new_vision_of_utopia.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_stand_firm_to_vision"
+		texturefile = "gfx/interface/goals/OCC/OCC_stand_firm_to_vision.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_the_workers_cloth_brings_comfort"
+		texturefile = "gfx/interface/goals/OCC/OCC_the_workers_cloth_brings_comfort.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_utopia_in_flames"
+		texturefile = "gfx/interface/goals/OCC/OCC_utopia_in_flames.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_vision_will_return"
+		texturefile = "gfx/interface/goals/OCC/OCC_vision_will_return.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_new_day_dawns"
+		texturefile = "gfx/interface/goals/OCC/OCC_new_day_dawns.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_theatrics_for_the_workers"
+		texturefile = "gfx/interface/goals/OCC/OCC_theatrics_for_the_workers.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_smiles_and_pleasantries"
+		texturefile = "gfx/interface/goals/OCC/OCC_smiles_and_pleasantries.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_their_salvation_comes_at_last"
+		texturefile = "gfx/interface/goals/OCC/OCC_their_salvation_comes_at_last.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_ambitions_laid_to_rest"
+		texturefile = "gfx/interface/goals/OCC/OCC_ambitions_laid_to_rest.dds"			
+	}
+
+	#GENERICS
+	SpriteType = {
+		name = "GFX_focus_go_live_generic"
+		texturefile = "gfx/interface/goals/generic/GENERIC_go_live.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_supply_maps_generic"
+		texturefile = "gfx/interface/goals/generic/GENERIC_supply_maps.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_final_move_generic"
+		texturefile = "gfx/interface/goals/generic/GENERIC_final_move.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_marching_soldiers_generic"
+		texturefile = "gfx/interface/goals/generic/GENERIC_marching_soldiers.dds"			
+	}		
+
+	#BRU
+
+	SpriteType = {
+		name = "GFX_focus_A_Dream_Now"
+		texturefile = "gfx/interface/goals/BRU/BRU_A_Dream_Now.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_A_Dream_Past"
+		texturefile = "gfx/interface/goals/BRU/BRU_A_Dream_Past.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_The_Last_Cough_of_the_Sick_Man"
+		texturefile = "gfx/interface/goals/BRU/BRU_The_Last_Cough_of_the_Sick_Man.dds"			
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=428
+	name="STATE_428"
+	manpower = 112474115
+	
+	
+	state_category = town
+
+	history={
+		add_core_of = HIN
+		owner = HIN
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1061 1103 1144 1190 4064 4090 4132 7020 7207 10118 12037 12092 
+	}
+}

@@ -1,0 +1,26 @@
+state= {
+	id=1134
+	name="STATE_1134"
+	manpower = 10
+	
+	state_category = town
+
+	history=
+	{
+		add_core_of = DEN
+		owner = DEN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 2
+			394 = {
+				naval_base = 3
+			}
+		}
+		set_demilitarized_zone = YES
+	}
+
+	local_supplies = 0.0 
+	provinces=
+	{ 394 6235	}
+}

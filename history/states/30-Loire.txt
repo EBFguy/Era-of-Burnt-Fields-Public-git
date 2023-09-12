@@ -1,0 +1,28 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 4601629
+
+	state_category = large_town
+
+	history={
+		add_core_of = NAN
+		owner = NAN
+		victory_points = {
+			11465 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		503 9867 11465 11613 11616 6657
+	}
+}

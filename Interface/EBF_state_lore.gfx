@@ -1,0 +1,301 @@
+spritetypes = {
+
+	#OTHER LORE
+	spriteType = {
+		name = "GFX_extralore_icon_container"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/state_lore_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_extralore_icon_container"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/state_lore_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_religion_0"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_religion_1"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_religion_2"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_religion_3"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_0"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_1"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_2"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_3"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_4"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_5"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_6"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_7"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_8"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_9"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_10"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_11"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_12"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_13"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_14"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_15"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_16"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_17"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_18"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_19"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_20"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_21"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_culture_22"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_23"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_24"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_25"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_26"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_27"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_28"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_29"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_30"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_31"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_32"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_ecodecay_0"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ecodecay_1"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ecodecay_2"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ecodecay_3"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ecodecay_4"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ecodecay_5"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ecodecay_6"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	spritetype = {
+		name = "GFX_SL_state_button_bg"
+		texturefile = "gfx/interface/EBF_state_lore/state_button_bg.dds"
+	}
+	spritetype = {
+		name = "GFX_SL_state_book_button"
+		texturefile = "gfx/interface/EBF_state_lore/state_book_button.dds"
+	}
+	spritetype = {
+		name = "GFX_SL_title_underlay"
+		texturefile = "gfx/interface/EBF_state_lore/title_underlay.dds"
+	}
+	spritetype = {
+		name = "GFX_SL_grid_entry"
+		texturefile = "gfx/interface/EBF_state_lore/grid_entry.dds"
+	}
+	spritetype = {
+		name = "GFX_SL_grid_entry_de"
+		texturefile = "gfx/interface/EBF_state_lore/grid_entry_de.dds"
+	}
+	spritetype = {
+		name = "GFX_SL_mapicon_button"
+		texturefile = "gfx/interface/EBF_state_lore/sl_mapicon_button.dds"
+	}
+	
+	### IMAGES GO HERE ###
+
+	spritetype = {
+		name = "GFX_state_lore_img_1"
+		texturefile = "gfx/interface/EBF_state_lore/images/state_lore_img_1.dds"
+	}
+
+	spritetype = {
+		name = "GFX_state_lore_img_2"
+		texturefile = "gfx/interface/EBF_state_lore/images/state_lore_img_1.dds"
+	}
+
+	### ECODECAY ###
+
+	spritetype = {
+		name = "GFX_ecodecay_bg"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/EBF_ecodecay_bg.dds"
+	}	
+
+	spritetype = {
+		name = "GFX_ecodecay_bar"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/EBF_Ecodecay_bar.dds"
+	}	
+
+	spritetype = {
+		name = "GFX_ecodecay_value"
+		texturefile = "gfx/interface/EBF_state_lore/otherlore/EBF_Ecodecay_value.dds"
+	}	
+	
+	progressbartype = {
+		name = "GFX_ecodecay_value"
+		textureFile1 = "gfx/interface/EBF_state_lore/otherlore/EBF_Ecodecay_value.dds"
+		textureFile2 = "gfx/interface/EBF_state_lore/otherlore/EBF_Ecodecay_value_empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 209
+			y = 17
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}	
+}

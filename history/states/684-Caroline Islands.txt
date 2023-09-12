@@ -1,0 +1,21 @@
+
+state={
+	id=684
+	name="STATE_684"
+	manpower=42357
+	state_category = small_island
+
+	history={
+		add_core_of = CIN
+		owner = CIN
+		
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		13030 12243 7415 1404 2047 
+	}
+}

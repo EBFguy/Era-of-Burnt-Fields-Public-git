@@ -1,0 +1,98 @@
+﻿capital = 727
+
+# Vacant
+recruit_character = JAP_Generic_Vacant_psi
+recruit_character = JAP_Generic_Vacant_pi_0
+recruit_character = JAP_Generic_Vacant_pi_1
+recruit_character = JAP_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+oob = JAP_2061
+
+# Starting tech
+set_technology = {
+	infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    rations2059 = 1
+    special_operations = 1
+    para2059 = 1
+
+    #support folder
+    tech_support = 1
+
+    #hardware_folder
+    exoskeleton2045 = 1
+    exoskeleton2050 = 1
+    android2045 = 1
+    cims2030 = 1
+
+    #vehicles
+    MBT2040 = 1
+    MBT2050 = 1
+    IFV2040 = 1
+    IFV2050 = 1
+    APC2040 = 1
+    APC2050 = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = liberalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 0
+    conservatism = 0
+    liberal_conservatism = 0
+    liberalism = 100
+    progressivism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+country_event = { id = JAP_skeleton.1 days = 365 }
+
+recruit_character = JAP_Uranishi_Yukichi
+recruit_character = JAP_airi
+
+create_dynamic_country = {
+	original_tag = JAP
+
+	set_cosmetic_tag = JAP_EOH
+	save_global_event_target_as = JAP_EOH_tag
+
+	set_politics = {
+		ruling_party = technoutopianism
+	}
+	set_popularities = {
+		technoutopianism = 100
+	}
+
+	# workaround ignore
+	create_country_leader = {
+		name = JAP_end_of_humanity
+		desc = JAP_end_of_humanity_desc
+		picture = "GFX_Portrait_EOH_Animated_EOH"
+		ideology = technoutopianism_EOHs_transmission_subtype
+	}
+
+	transfer_state = 528
+	transfer_state = 932
+
+	load_oob = "JAP_EOH_2061"
+}

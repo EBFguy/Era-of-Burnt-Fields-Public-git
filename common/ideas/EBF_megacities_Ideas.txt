@@ -1,0 +1,33 @@
+ideas = {
+	hidden_ideas = {
+		megacity_LONDON_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_fallen_star_spangled_banner"}		
+			removal_cost = -1
+			
+			allowed = { 
+				always = no 
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			cancel = {
+				NOT = {
+					OR = {
+						owns_state = 126
+						owns_state = 925
+						owns_state = 924
+					}
+				}
+			}
+			
+			#picture = MTG_naval_treaty_adherent
+			
+			modifier = {	
+				political_power_gain = -0.05
+				research_speed_factor = -0.025
+			}
+		}	
+	}
+}

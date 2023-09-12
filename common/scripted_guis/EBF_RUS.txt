@@ -1,0 +1,30 @@
+scripted_gui = {
+
+	RUS_GUI_Kazakh_Paci_Decision_GUI = {
+		context_type = decision_category
+		window_name = "RUS_GUI_Kazakh_Paci_Decision_GUI"
+
+		visible = {
+			always = yes
+			tag = RUS
+		}
+
+		effects = {
+
+		}
+
+		triggers = {
+
+		}
+
+		properties = {
+			RUS_GUI_Kazakh_Paci_Nikitin_sus_Decision_GUI_Bar = {
+				frame = RUS_KAZ_nikitins_suspicions_show
+			}
+
+			GFX_RUS_GUI_Kazakh_Paci_Forces_Strength_Bar = {
+				frame = RUS_KAZ_forces_strength_show
+			}			
+		}
+	}
+}

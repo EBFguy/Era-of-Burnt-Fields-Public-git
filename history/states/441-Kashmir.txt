@@ -1,0 +1,22 @@
+
+state={
+	id=441
+	name="STATE_441"
+	manpower = 22554935
+	
+	state_category = rural
+
+	history={
+		add_core_of = KAS
+		owner = KAS
+		buildings = {
+			infrastructure = 2
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		5042 7273 7316 8005 10905 12754 12884 
+	}
+}

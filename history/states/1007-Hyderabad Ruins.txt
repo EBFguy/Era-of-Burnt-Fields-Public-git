@@ -1,0 +1,22 @@
+
+state={
+	id=1007
+	name="STATE_1007" # Sind
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 1
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		4003
+	}
+}

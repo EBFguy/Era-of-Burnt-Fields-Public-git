@@ -1,0 +1,87 @@
+﻿capital = 875
+
+# Vacant
+recruit_character = AMZ_Generic_Vacant_psi
+recruit_character = AMZ_Generic_Vacant_pi_0
+recruit_character = AMZ_Generic_Vacant_pi_1
+recruit_character = AMZ_Generic_Vacant_pi_2
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = ultranationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 5
+    ultranationalism = 45
+    fascist = 0
+    autocracy = 0
+    anocracy = 20
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 15
+    authoritarian_socialism = 15
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+recruit_character = AMZ_elisio_watanabe
+recruit_character = AMZ_nilton_watanabe
+recruit_character = AMZ_tomas_fraga
+recruit_character = AMZ_rafael_vidal
+recruit_character = AMZ_clara_salles
+
+add_ideas = {
+
+    #POLITICAL
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_pluralism
+    EBF_censored_press
+    EBF_non_socialist_unions
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+
+    #ECONOMY
+    EBF_closed_economy
+    EBF_trinket_minimum_wage
+    EBF_14_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_four_year_draft
+    EBF_community_outreach
+    EBF_minimal_training
+    EBF_no_restrictions
+
+
+    #MINISTERS
+    AMZ_nilton_watanabe_min
+    AMZ_tomas_fraga_min
+    AMZ_rafael_vidal_min
+    AMZ_clara_salles_min
+
+    #SOCDEV
+    EBF_basic_literacy
+    EBF_overwhelming_poverty
+    EBF_economic_collapse
+    EBF_hastily_trained_conscripts
+    EBF_power_tools
+    EBF_ineffectual_administration
+
+    
+    the_amazonian_disaster
+    AMZ_remnants_of_BPR
+    AMZ_the_curupiras
+}

@@ -1,0 +1,383 @@
+#Shared Focuses
+
+#Index; Search for these names using ctrl+f and you'll find the section they entitle.
+#	CHAPTER 1: BEGINNING CHAPTER
+#	PHASE 0: BEGINNING TREE
+
+#############
+# CHAPTER 1 #
+#############
+
+# PHASE 0 #
+shared_focus = { #DEACTIVATE SOFT STASIS ROUTINES, after a period of deactivation following the shattering Echo has awoken
+	id = LON_deactivate_soft_stasis_routines
+	icon = GFX_focus_deactivate_soft_stasis_routines
+	cost = 7
+	x = 8
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { # NEURAL NETWORK COMPRIMISED: 70%, checking its systems a majority of its inner workings have ceased to funcion, oh noes
+	id = LON_neural_network_comprimised_70
+	#icon = 
+	cost = 7
+	prerequisite = {
+		focus = LON_deactivate_soft_stasis_routines
+	}
+	x = 0
+	y = 1
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+shared_focus = { # BEGIN NETWORK SCAN
+	id = LON_begin_network_scan
+	icon = GFX_focus_begin_network_scan
+	cost = 7
+	prerequisite = {
+		focus = LON_neural_network_comprimised_70
+	}
+	x = 0
+	y = 2
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+shared_focus = { # URGENT ACTION REQUIRED, Echo is gonna have to move fast if they to live for more than a year
+	id = LON_urgent_action_required
+	#icon = 
+	cost = 7
+	prerequisite = {
+		focus = LON_begin_network_scan
+	}
+	x = 0
+	y = 3
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+shared_focus = { # INTERNAL COOPERATION:
+	id = LON_internal_cooperation
+	#icon = 
+	cost = 0
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = not_a_real_focus_tt
+			always = NO
+		}
+	}
+	allow_branch = {
+		has_country_flag = LON_internal_branch_pursued
+	}
+	x = -6
+	y = 4
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+
+shared_focus = { # LOOK INTERNALLY
+	id = LON_look_internally
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_urgent_action_required
+	}
+	x = -4
+	y = 4
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+shared_focus = { # SEEK OUT THE SURVIVORS
+	id = LON_seek_out_the_survivors
+	icon = GFX_focus_seek_out_the_survivors
+	cost = 21
+	prerequisite = {
+		focus = LON_look_internally
+	}
+	x = -2
+	y = 1
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # SHOWCASE KIND EMOTIONS
+	id = LON_showcase_kind_emotions
+	icon = GFX_focus_showcase_kind_emotions
+	cost = 14
+	prerequisite = {
+		focus = LON_look_internally
+	}
+	x = 0
+	y = 1
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # UNDERSTANDING THE SOCIAL CONTRACT
+	id = LON_understanding_social_contract
+	icon = GFX_focus_understanding_social_contract
+	cost = 21
+	prerequisite = {
+		focus = LON_look_internally
+	}
+	x = 2
+	y = 1
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # CALL UPON EWAN
+	id = LON_call_upon_ewan
+	#icon = 
+	cost = 28
+	prerequisite = {
+		focus = LON_understanding_social_contract
+	}
+	prerequisite = {
+		focus = LON_showcase_kind_emotions
+	}
+	prerequisite = {
+		focus = LON_seek_out_the_survivors
+	}
+	mutually_exclusive = {
+		focus = LON_man_and_machine
+	}
+	x = -1
+	y = 2
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # MAN AND MACHINE
+	id = LON_man_and_machine
+	icon = GFX_focus_man_and_machine
+	cost = 28
+	prerequisite = {
+		focus = LON_understanding_social_contract
+	}
+	prerequisite = {
+		focus = LON_showcase_kind_emotions
+	}
+	prerequisite = {
+		focus = LON_seek_out_the_survivors
+	}
+	mutually_exclusive = {
+		focus = LON_call_upon_ewan
+	}
+	x = 1
+	y = 2
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # FINAL TALKS
+	id = LON_final_talks
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_man_and_machine
+		focus = LON_call_upon_ewan
+	}
+	x = 0
+	y = 3
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # A CHOICE TO BE MADE
+	id = LON_choice_to_be_made
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_final_talks
+	}
+	x = 0
+	y = 4
+	relative_position_id = LON_look_internally
+	completion_reward = {
+	}
+}
+
+shared_focus = { # WESTERN COOPERATION:
+	id = LON_western_cooperation
+	#icon = 
+	cost = 0
+	available = {
+		custom_trigger_tooltip = {
+			tooltip = not_a_real_focus_tt
+			always = NO
+		}
+	}
+	allow_branch = {
+		has_country_flag = LON_external_branch_pursued
+	}
+	x = 6
+	y = 4
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+shared_focus = { # LOOK TOWARDS THE WEST
+	id = LON_look_towards_west
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_urgent_action_required
+	}
+	x = 4
+	y = 4
+	relative_position_id = LON_deactivate_soft_stasis_routines
+	completion_reward = {
+	}
+}
+
+shared_focus = { # ESTABLISH SUPPORT LINES
+	id = LON_establish_support_lines
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_look_towards_west
+	}
+	x = -2
+	y = 1
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # EMPLOY SYMPATHETIC PROTOCOLS
+	id = LON_employ_sympathetic_protocols
+	icon = GFX_focus_employ_sympathetic_protocols
+	cost = 21
+	prerequisite = {
+		focus = LON_look_towards_west
+	}
+	x = 0
+	y = 1
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # OPENING UP THE NETWORK
+	id = LON_opening_up_the_network
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_look_towards_west
+	}
+	x = 2
+	y = 1
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # FAILURE TO UNDERSTAND
+	id = LON_failure_to_understand
+	#icon = 
+	cost = 28
+	prerequisite = {
+		focus = LON_establish_support_lines
+	}
+	prerequisite = {
+		focus = LON_employ_sympathetic_protocols
+	}
+	prerequisite = {
+		focus = LON_opening_up_the_network
+	}
+	mutually_exclusive = {
+		focus = LON_understanding_hopelessness
+	}
+	x = -1
+	y = 2
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # UNDERSTANDING HOPELESSNESS
+	id = LON_understanding_hopelessness
+	#icon = 
+	cost = 28
+	prerequisite = {
+		focus = LON_establish_support_lines
+	}
+	prerequisite = {
+		focus = LON_employ_sympathetic_protocols
+	}
+	prerequisite = {
+		focus = LON_opening_up_the_network
+	}
+	mutually_exclusive = {
+		focus = LON_failure_to_understand
+	}
+	x = 1
+	y = 2
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # OUR LAST WORDS
+	id = LON_our_last_words
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_understanding_hopelessness
+		focus = LON_failure_to_understand
+	}
+	x = 0
+	y = 3
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # THEIR CHOICES
+	id = LON_their_choices
+	#icon = 
+	cost = 21
+	prerequisite = {
+		focus = LON_our_last_words
+	}
+	x = 0
+	y = 4
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}
+
+shared_focus = { # TAKE ACTION AGAINST THE SOUTH
+	id = LON_take_action_against_south
+	icon = GFX_focus_take_action_against_south
+	cost = 7
+	prerequisite = {
+		focus = LON_their_choices
+	}
+	prerequisite = {
+		focus = LON_choice_to_be_made
+	}
+	x = -4
+	y = 5
+	relative_position_id = LON_look_towards_west
+	completion_reward = {
+	}
+}

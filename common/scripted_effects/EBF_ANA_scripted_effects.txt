@@ -1,0 +1,174 @@
+EBF_anarchy_setup = {
+	every_owned_state = {
+		add_to_array = { global.anarchy_state_array = THIS }
+	}
+
+	# India - base tag itself
+	set_cosmetic_tag = ANA_India
+	set_variable = { EBF_anarchy_type = 1 }
+
+	# Sahara
+	create_dynamic_country = {
+		original_tag = ANA
+
+		set_cosmetic_tag = ANA_Sahara
+		save_global_event_target_as = anarchy_sahara
+		set_variable = { EBF_anarchy_type = 2 }
+
+		set_politics = {
+			ruling_party = reductivism
+			elections_allowed = no
+		}
+		set_popularities = {
+			reductivism = 100
+		}
+		create_country_leader = {
+			name = " "
+			picture = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			ideology = reductivism_burned_fields_subtype
+		}
+
+		transfer_state = 515
+		transfer_state = 767
+		transfer_state = 775
+		transfer_state = 782
+		transfer_state = 786
+		transfer_state = 887
+		transfer_state = 888
+	}
+
+	# Greenland
+	create_dynamic_country = {
+		original_tag = ANA
+
+		set_cosmetic_tag = ANA_Greenland
+		save_global_event_target_as = anarchy_greenland
+		set_variable = { EBF_anarchy_type = 3 }
+
+		set_politics = {
+			ruling_party = reductivism
+			elections_allowed = no
+		}
+		set_popularities = {
+			reductivism = 100
+		}
+		create_country_leader = {
+			name = " "
+			picture = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			ideology = reductivism_burned_fields_subtype
+		}
+
+		transfer_state = 101
+	}
+
+	# Africa Anarchy
+	create_dynamic_country = {
+		original_tag = ANA
+
+		set_cosmetic_tag = ANA_Africa
+		save_global_event_target_as = anarchy_africa
+		set_variable = { EBF_anarchy_type = 4 }
+
+		set_politics = {
+			ruling_party = reductivism
+			elections_allowed = no
+		}
+		set_popularities = {
+			reductivism = 100
+		}
+		create_country_leader = {
+			name = " "
+			picture = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			ideology = reductivism_burned_fields_subtype
+		}
+
+		transfer_state = 295
+		transfer_state = 297
+		transfer_state = 538
+		transfer_state = 539
+		transfer_state = 540
+		transfer_state = 544
+		transfer_state = 545
+		transfer_state = 546
+		transfer_state = 632
+		transfer_state = 648
+		transfer_state = 660
+		transfer_state = 718
+		transfer_state = 768
+		transfer_state = 769
+		transfer_state = 770
+		transfer_state = 771
+		transfer_state = 772
+		transfer_state = 773
+		transfer_state = 796
+		transfer_state = 906
+		transfer_state = 907
+		transfer_state = 908
+		transfer_state = 909
+		transfer_state = 910
+		transfer_state = 919
+		transfer_state = 920
+		transfer_state = 921
+		transfer_state = 922
+		transfer_state = 928
+		transfer_state = 929
+		transfer_state = 941
+		transfer_state = 942
+		transfer_state = 943
+		transfer_state = 944
+		transfer_state = 945
+		transfer_state = 1029
+		transfer_state = 1030
+		transfer_state = 1031
+		transfer_state = 1032
+		transfer_state = 1033
+	}
+
+	for_each_scope_loop = {
+		array = global.anarchy_state_array
+
+		remove_core_of = event_target:anarchy_sahara
+		remove_core_of = event_target:anarchy_greenland
+		remove_core_of = event_target:anarchy_africa
+		remove_core_of = ANA
+	}
+}
+
+ANA_anarchy_iran_effect = {
+	# Iran Anarchy
+	create_dynamic_country = {
+		original_tag = ANA
+
+		set_cosmetic_tag = ANA_Iran
+		save_global_event_target_as = anarchy_iran
+		set_variable = { EBF_anarchy_type = 5 }
+
+		set_politics = {
+			ruling_party = reductivism
+			elections_allowed = no
+		}
+		set_popularities = {
+			reductivism = 100
+		}
+		create_country_leader = {
+			name = " "
+			picture = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			ideology = reductivism_burned_fields_subtype
+		}
+
+		transfer_state = 417
+		transfer_state = 421
+		transfer_state = 1098
+	}
+
+	# remove cores dumdum
+	IRA = {
+		remove_state_core = 417
+		remove_state_core = 421
+		remove_state_core = 1098
+	}
+
+	add_to_array = { global.anarchy_state_array = 417 }
+	add_to_array = { global.anarchy_state_array = 421 }
+	add_to_array = { global.anarchy_state_array = 1098 }
+}

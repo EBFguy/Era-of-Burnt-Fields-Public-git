@@ -1,0 +1,19 @@
+warlord_europe_legitimacy_dynamic_modifier = {
+	enable = { always = yes }
+
+	political_power_factor = warlord_europe_legitimacy_political_power_factor
+	recruitable_population_factor = warlord_europe_legitimacy_recruitable_population_factor
+	resistance_growth = warlord_europe_legitimacy_resistance_growth
+	army_morale_factor = warlord_europe_legitimacy_army_morale_factor
+	non_core_manpower = warlord_europe_legitimacy_non_core_manpower
+}
+
+warlord_europe_chaos_dynamic_modifier = {
+	enable = { always = yes }
+
+	stability_factor = warlord_europe_chaos_stability_factor
+	army_core_defence_factor = warlord_europe_chaos_army_core_defence_factor
+	surrender_limit = warlord_europe_chaos_surrender_limit
+	army_core_attack_factor = warlord_europe_chaos_army_core_attack_factor
+	war_support_factor = warlord_europe_chaos_war_support_factor
+}

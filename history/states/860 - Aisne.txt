@@ -1,0 +1,26 @@
+
+state={
+	id=860
+	name="STATE_860"
+	manpower = 1503974
+	
+	state_category = town
+
+	history={
+		add_core_of = CHA
+		owner = CHA
+		victory_points = {
+			13011 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		13011 6545 3546 9472 3262
+	}
+}

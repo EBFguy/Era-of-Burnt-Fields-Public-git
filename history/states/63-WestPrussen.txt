@@ -1,0 +1,42 @@
+
+state={
+	id=63
+	name="STATE_63"
+	manpower = 1626733
+	
+	state_category = town
+
+	history={
+		add_core_of = POL
+		owner = POL
+		victory_points = {
+			6390 15
+		}
+		victory_points = {
+			9361 10
+		}
+		victory_points = {
+			6236 5
+		}
+		victory_points = {
+			9306 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			11372 = {
+				naval_base = 1
+			}
+			6282 = {
+				naval_base = 4
+
+			}
+			air_base = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		6282 6309 6334 6390 9252 9277 9306 9334 9361 11372 9387 6236 537
+	}
+}

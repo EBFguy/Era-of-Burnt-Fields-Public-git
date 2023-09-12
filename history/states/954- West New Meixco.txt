@@ -1,0 +1,22 @@
+
+state={
+	id=954
+	name="STATE_954"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		10645 12552 1972 10914 5044
+	}
+	
+}

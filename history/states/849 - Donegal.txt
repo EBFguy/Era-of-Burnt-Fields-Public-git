@@ -1,0 +1,24 @@
+
+state=
+{
+	id=849
+	name="STATE_849"
+	manpower = 218524
+	
+	state_category = pastoral
+
+	history=
+	{
+		add_core_of = IRE
+		owner = IRE
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces=
+	{
+337}
+local_supplies = 0.0 
+}

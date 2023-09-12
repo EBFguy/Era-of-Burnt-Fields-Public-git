@@ -1,0 +1,17 @@
+﻿l_english:
+ #NAME#
+ BRN:0 "Brandenburg"
+ BRN_DEF:0 "The Socialist Democratic Republic of Brandenburg"
+ BRN_ADJ:0 "East German"
+
+ #COSMETIC TAGS 
+
+ #PARTIES
+
+ #CHARACHTERS#
+ BRN_Abelard_Schmidt:0 "Abelard Schmidt"
+ POLITICS_ABELARD_SCHMIDT_DESC:0 "§YChairman of the Ruling Council§!\n§W--------------§!\n"
+
+ #IDEAS#
+
+ #MISC#

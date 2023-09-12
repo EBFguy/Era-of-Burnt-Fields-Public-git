@@ -1,0 +1,79 @@
+capital = 1083
+
+# Vacant
+recruit_character = BLA_Generic_Vacant_psi
+recruit_character = BLA_Generic_Vacant_pi_0
+recruit_character = BLA_Generic_Vacant_pi_1
+recruit_character = BLA_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = BLA_Alceu_Laguna
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 75
+    anocracy = 25
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+country_lock_all_division_template = yes
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_underground_opposition
+    EBF_pluralism
+    EBF_no_voting
+    EBF_state_press
+    EBF_all_unions_allowed
+    EBF_closed_borders
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_limited_exports
+    EBF_trinket_minimum_wage
+    EBF_10_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_basic_training
+    EBF_militarised_policing
+    EBF_minimal_supervision
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_significant_poverty
+    EBF_stagnating_economy
+    EBF_political_interference
+    EBF_industrial_equipment_use
+    EBF_cronyism
+
+}

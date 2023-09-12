@@ -1,0 +1,43 @@
+﻿capital = 882
+
+# Vacant
+recruit_character = SEV_Generic_Vacant_psi
+recruit_character = SEV_Generic_Vacant_pi_0
+recruit_character = SEV_Generic_Vacant_pi_1
+recruit_character = SEV_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = libertarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 9
+    conservatism = 4
+    liberalism = 4
+    libertarian_socialism = 50
+    authoritarian_socialism = 20
+    totalitarian_socialism = 10
+    reductivism = 3
+}
+
+#recruit_character = SEV_Seville_Commune

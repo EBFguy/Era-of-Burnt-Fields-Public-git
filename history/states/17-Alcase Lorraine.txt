@@ -1,0 +1,26 @@
+
+state={
+	id=17
+	name="STATE_17" # Lorraine
+	manpower = 3820319
+	
+	state_category = large_town
+
+	history={
+		add_core_of = ANF
+		owner = ANF
+		victory_points = {
+			9642 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		698 3646 3666 6698 9642 9658 11488 11642 
+	}
+}

@@ -1,0 +1,22 @@
+state= {
+	id=1137
+	name="STATE_1137"
+	manpower = 1052380
+	
+	state_category = town
+	local_supplies = 0.0 
+	history= {
+		add_core_of = CRN
+		owner = CRN
+		victory_points = { 6526 1 }
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+	}
+
+	provinces= {
+		6526 13463
+ 	}
+}

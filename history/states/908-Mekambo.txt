@@ -1,0 +1,22 @@
+state={
+	id=908
+	name="STATE_908"
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+	
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		10948 13210 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

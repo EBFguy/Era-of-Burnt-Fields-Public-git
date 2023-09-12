@@ -1,0 +1,655 @@
+defined_text = {
+	name = get_needed_energy_consumption_var
+	text = {
+		trigger = {
+			set_temp_variable = { needed_energy_consumption_tt = misc_energy_consumption_add }
+			add_to_temp_variable = { needed_energy_consumption_tt = modifier@misc_energy_consumption_add }
+			add_to_temp_variable = { needed_energy_consumption_tt = EBF_army_total_energy_needed }
+			add_to_temp_variable = { needed_energy_consumption_tt = EBF_state_population_energy_needed }
+			add_to_temp_variable = { needed_energy_consumption_tt = EBF_building_total_energy_needed }
+			subtract_from_temp_variable = { needed_energy_consumption_tt = misc_energy_consumption_reducers }
+			subtract_from_temp_variable = { needed_energy_consumption_tt = modifier@misc_energy_consumption_reducers }
+		}
+		localization_key = needed_energy_consumption_value_tt
+	}
+}
+
+defined_text = {
+	name = get_misc_energy_consumption_var
+	text = {
+		trigger = {
+			set_temp_variable = { misc_energy_consumption_tt = misc_energy_consumption_add }
+			add_to_temp_variable = { misc_energy_consumption_tt = modifier@misc_energy_consumption_add }
+		}
+		localization_key = misc_energy_consumption_value_tt
+	}
+}
+
+defined_text = {
+	name = get_reducing_energy_consumption_var
+	text = {
+		trigger = {
+			set_temp_variable = { misc_energy_consumption_reduction_tt = misc_energy_consumption_reducers }
+			add_to_temp_variable = { misc_energy_consumption_reduction_tt = modifier@misc_energy_consumption_reducers }
+		}
+		localization_key = misc_energy_consumption_reduction_value_tt
+	}
+}
+
+
+defined_text = {
+	name = EBFGetHasDoneActionConsump
+	text = {
+		trigger = {
+			has_country_flag = EBF_energy_consump_action_taken
+		}
+		localization_key = EBF_energy_consump_action_taken_tt
+	}
+}
+
+defined_text = {
+	name = EBFGetEnergyOutage5LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_1_outage_5_ON = 2 }
+		}
+		localization_key = ebf_energy_outage_5_tt_RED
+	}
+	text = {
+		localization_key = ebf_energy_outage_5_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetEnergyOutage4LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_1_outage_4_ON = 2 }
+		}
+		localization_key = ebf_energy_outage_4_tt_RED
+	}
+	text = {
+		localization_key = ebf_energy_outage_4_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetEnergyOutage3LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_1_outage_3_ON = 2 }
+		}
+		localization_key = ebf_energy_outage_3_tt_RED
+	}
+	text = {
+		localization_key = ebf_energy_outage_3_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetEnergyOutage2LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_1_outage_2_ON = 2 }
+		}
+		localization_key = ebf_energy_outage_2_tt_RED
+	}
+	text = {
+		localization_key = ebf_energy_outage_2_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetEnergyOutage1LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_1_outage_1_ON = 2 }
+		}
+		localization_key = ebf_energy_outage_1_tt_RED
+	}
+	text = {
+		localization_key = ebf_energy_outage_1_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFenergysizeminortextcolour
+	text = {
+		trigger = {
+			has_idea = EBF_energy_army_size_minor 
+		}
+		localization_key = ebf_size_minor_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_size_minor_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFenergysizenormaltextcolour
+	text = {
+		trigger = {
+			has_idea = EBF_energy_army_size_normal
+		}
+		localization_key = ebf_size_normal_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_size_normal_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFenergysizelargetextcolour
+	text = {
+		trigger = {
+			has_idea = EBF_energy_army_size_large
+		}
+		localization_key = ebf_size_large_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_size_large_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFenergysizemassivetextcolour
+	text = {
+		trigger = {
+			has_idea = EBF_energy_army_size_massive
+		}
+		localization_key = ebf_size_massive_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_size_massive_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFenergysizesupermassivetextcolour
+	text = {
+		trigger = {
+			has_idea = EBF_energy_army_size_super_massive
+		}
+		localization_key = ebf_size_super_massive_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_size_super_massive_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergyhighconsumptxt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_high
+		}
+		localization_key = ebf_high_consump_txt_GREEN
+	}
+	text = {
+		trigger = {
+			has_political_power < EBF_energy_consump_var^0
+		}
+		localization_key = ebf_high_consump_txt_RED
+	}
+	text = {
+		localization_key = ebf_high_consump_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergyhighconsumptt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_high
+		}
+		localization_key = ebf_high_consump_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_high_consump_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergyhighconsump_pptxt
+	text = {
+		trigger = {
+			has_political_power > EBF_energy_consump_var^0
+		}
+		localization_key = ebf_high_consump_pp_txt_NORM
+	}
+	text = {
+		localization_key = ebf_high_consump_pp_txt_RED
+	}
+}
+
+defined_text = {
+	name = EBFgetenergynormconsumptxt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_norm
+		}
+		localization_key = ebf_norm_consump_txt_GREEN
+	}
+	text = {
+		trigger = {
+			has_political_power < EBF_energy_consump_var^1
+		}
+		localization_key = ebf_norm_consump_txt_RED
+	}
+	text = {
+		localization_key = ebf_norm_consump_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergynormconsumptt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_norm
+		}
+		localization_key = ebf_norm_consump_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_norm_consump_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergynormconsump_pptxt
+	text = {
+		trigger = {
+			has_political_power > EBF_energy_consump_var^1
+		}
+		localization_key = ebf_norm_consump_pp_txt_NORM
+	}
+	text = {
+		localization_key = ebf_norm_consump_pp_txt_RED
+	}
+}
+
+defined_text = {
+	name = EBFgetenergysmallregtxt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_small_reg
+		}
+		localization_key = ebf_small_regs_txt_GREEN
+	}
+	text = {
+		trigger = {
+			has_political_power < EBF_energy_consump_var^2
+		}
+		localization_key = ebf_small_regs_txt_RED
+	}
+	text = {
+		localization_key = ebf_small_regs_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergynsmallregtt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_small_reg
+		}
+		localization_key = ebf_small_regs_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_small_regs_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergysmallreg_pptxt
+	text = {
+		trigger = {
+			has_political_power > EBF_energy_consump_var^2
+		}
+		localization_key = ebf_small_regs_pp_txt_NORM
+	}
+	text = {
+		localization_key = ebf_small_regs_pp_txt_RED
+	}
+}
+
+defined_text = {
+	name = EBFgetenergymedregtxt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_medium_reg
+		}
+		localization_key = ebf_med_regs_txt_GREEN
+	}
+	text = {
+		trigger = {
+			has_political_power < EBF_energy_consump_var^3
+		}
+		localization_key = ebf_med_regs_txt_RED
+	}
+	text = {
+		localization_key = ebf_med_regs_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergymedregtt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_medium_reg
+		}
+		localization_key = ebf_med_regs_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_med_regs_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergymedreg_pptxt
+	text = {
+		trigger = {
+			has_political_power > EBF_energy_consump_var^3
+		}
+		localization_key = ebf_med_regs_pp_txt_NORM
+	}
+	text = {
+		localization_key = ebf_med_regs_pp_txt_RED
+	}
+}
+
+defined_text = {
+	name = EBFgetenergyhighregtxt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_high_reg
+		}
+		localization_key = ebf_high_regs_txt_GREEN
+	}
+	text = {
+		trigger = {
+			has_political_power < EBF_energy_consump_var^4
+		}
+		localization_key = ebf_high_regs_txt_RED
+	}
+	text = {
+		localization_key = ebf_high_regs_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergyhighregtt
+	text = {
+		trigger = {
+			has_idea = EBF_energy_consump_high_reg
+		}
+		localization_key = ebf_high_regs_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_high_regs_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetenergyhighreg_pptxt
+	text = {
+		trigger = {
+			has_political_power > EBF_energy_consump_var^4
+		}
+		localization_key = ebf_high_regs_pp_txt_NORM
+	}
+	text = {
+		localization_key = ebf_high_regs_pp_txt_RED
+	}
+}
+
+defined_text = {
+	name = get_needed_food_consumption_var
+	text = {
+		trigger = {
+			set_temp_variable = { needed_food_consumption_tt = misc_food_consumption_add }
+			add_to_temp_variable = { needed_food_consumption_tt = modifier@misc_food_consumption_add }
+			add_to_temp_variable = { needed_food_consumption_tt = EBF_army_total_food_needed }
+			add_to_temp_variable = { needed_food_consumption_tt = EBF_state_population_food_needed }
+			subtract_from_temp_variable = { needed_food_consumption_tt = misc_food_consumption_reducers }
+			subtract_from_temp_variable = { needed_food_consumption_tt = modifier@misc_food_consumption_reducers }
+		}
+		localization_key = needed_food_consumption_value_tt
+	}
+}
+
+defined_text = {
+	name = get_misc_food_consumption_var
+	text = {
+		trigger = {
+			set_temp_variable = { misc_food_consumption_tt = misc_food_consumption_add }
+			add_to_temp_variable = { misc_food_consumption_tt = modifier@misc_food_consumption_add }
+		}
+		localization_key = misc_food_consumption_value_tt
+	}
+}
+
+defined_text = {
+	name = get_reducing_food_consumption_var
+	text = {
+		trigger = {
+			set_temp_variable = { misc_food_consumption_reduction_tt = misc_food_consumption_reducers }
+			add_to_temp_variable = { misc_food_consumption_reduction_tt = modifier@misc_food_consumption_reducers }
+		}
+		localization_key = misc_food_consumption_reduction_value_tt
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodbelowstockpiletxt
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_below
+		}
+		localization_key = ebf_below_stock_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_below_stock_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodbelowstockpilett
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_below
+		}
+		localization_key = ebf_below_stock_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_below_stock_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodmeetingstockpiletxt
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_meeting
+		}
+		localization_key = ebf_meeting_stock_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_meeting_stock_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodmeetingstockpilett
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_meeting
+		}
+		localization_key = ebf_meeting_stock_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_meeting_stock_btn_tt_NORM
+	}
+}
+
+
+defined_text = {
+	name = EBFgetfoodslightlyabovestockpiletxt
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_slightly_above
+		}
+		localization_key = ebf_slightly_above_stock_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_slightly_above_stock_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodslightlyabovestockpilett
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_slightly_above
+		}
+		localization_key = ebf_slightly_above_stock_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_slightly_above_stock_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodabovestockpiletxt
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_above
+		}
+		localization_key = ebf_above_stock_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_above_stock_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodabovestockpilett
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_above
+		}
+		localization_key = ebf_above_stock_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_above_stock_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodhighstockpiletxt
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_highly_above
+		}
+		localization_key = ebf_high_stock_txt_GREEN
+	}
+	text = {
+		localization_key = ebf_high_stock_txt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFgetfoodhighstockpilett
+	text = {
+		trigger = {
+			has_idea = EBF_food_stockpile_highly_above
+		}
+		localization_key = ebf_high_stock_btn_tt_GREEN
+	}
+	text = {
+		localization_key = ebf_high_stock_btn_tt_NORM
+	}
+}
+
+defined_text = {
+	name = EBFGetFoodFamine1LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_2_famine_1_ON = 2 }
+		}
+		localization_key = ebf_food_famine_1_tt_RED
+	}
+	text = {
+		localization_key = ebf_food_famine_1_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetFoodFamine2LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_2_famine_2_ON = 2 }
+		}
+		localization_key = ebf_food_famine_2_tt_RED
+	}
+	text = {
+		localization_key = ebf_food_famine_2_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetFoodFamine3LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_2_famine_3_ON = 2 }
+		}
+		localization_key = ebf_food_famine_3_tt_RED
+	}
+	text = {
+		localization_key = ebf_food_famine_3_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetFoodFamine4LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_2_famine_4_ON = 2 }
+		}
+		localization_key = ebf_food_famine_4_tt_RED
+	}
+	text = {
+		localization_key = ebf_food_famine_4_tt_GREEN
+	}
+}
+
+defined_text = {
+	name = EBFGetFoodFamine5LOC
+	text = {
+		trigger = {
+			check_variable = { EBF_ordi_2_famine_5_ON = 2 }
+		}
+		localization_key = ebf_food_famine_5_tt_RED
+	}
+	text = {
+		localization_key = ebf_food_famine_5_tt_GREEN
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

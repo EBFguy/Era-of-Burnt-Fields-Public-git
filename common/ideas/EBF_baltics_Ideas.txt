@@ -1,0 +1,241 @@
+ideas = {
+	country = {
+		the_baltic_concordant  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea the_baltic_concordant"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_the_baltic_concordant
+					  
+			modifier = {	
+				offensive_war_stability_factor = -0.15
+				industrial_capacity_factory = -0.1
+				lend_lease_tension = 1
+				request_lease_tension = 1				
+			}
+		}
+		BLT_blue_seas_ruled_by_blue_flag = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BLT_blue_seas_ruled_by_blue_flag"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_BLT_blue_seas_ruled_by_blue_flag
+					  
+			modifier = {	
+				convoy_escort_efficiency = 0.1
+				critical_receive_chance = -0.5
+				naval_coordination = 0.15
+			}
+		}
+		BLT_distant_defender_of_baltics  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BLT_distant_defender_of_baltics"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_BLT_distant_defender_of_baltics
+					  
+			modifier = {	
+				army_attack_factor = 0.15
+				custom_modifier_tooltip = BLT_distant_defender_of_baltics_tt
+			}
+		}
+		EST_we_shall_stand  = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea EST_we_shall_stand"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_core_defence_factor = 0.05				
+			}
+			targeted_modifier = {
+				tag = ODO
+				attack_bonus_against = 0.2
+			}
+		}
+		ODO_marching_the_beat_our_hearts = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ODO_marching_the_beat_our_hearts"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_morale_factor = 0.25
+				breakthrough_factor = 0.1
+			}	
+		}
+		ODO_everybody_a_warrior = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ODO_everybody_a_warrior"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				conscription_factor = 0.05
+				weekly_manpower = 1000 
+
+			}	
+		}
+
+		LAT_final_city = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LAT_final_city"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_core_defence_factor = 0.2
+				dig_in_speed_factor = 0.15
+			}	
+		}
+		LAT_rumblings_in_the_east = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LAT_rumblings_in_the_east"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_org_factor = -0.3
+				custom_modifier_tooltip = cannot_train_units_tt
+			}	
+		}	
+		
+		BAU_the_black_sheep = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BAU_the_black_sheep"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				trade_opinion_factor = -0.5
+				political_power_factor = -0.15
+			}	
+		}
+		BAU_soldiers_of_the_people_unite = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BAU_soldiers_of_the_people_unite"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				training_time_factor = -0.1
+			}	
+		}	
+		
+		LIT_broken_shards = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea LIT_broken_shards"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = -0.15
+				stability_factor = -0.1
+			}	
+		}
+		MAR_defenders_of_marijampole = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAR_defenders_of_marijampole"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MAR_defenders_of_marijampole
+					  
+			modifier = {	
+				army_core_defence_factor = 0.15
+			}	
+		}		
+
+	}
+}

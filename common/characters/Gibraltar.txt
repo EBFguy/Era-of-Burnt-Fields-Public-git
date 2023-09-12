@@ -1,0 +1,15 @@
+characters = {
+	GIB_Gibraltar_Commune = {
+		name = "Gibraltar Commune"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GIB/Portrait_GIB_Gibraltar_Commune.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FERHAT_ABBAS_DESC"
+		}
+	}
+}

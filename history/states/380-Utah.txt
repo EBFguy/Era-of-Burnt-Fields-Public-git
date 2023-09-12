@@ -1,0 +1,21 @@
+state= {
+	id=380
+	name="STATE_380"
+	manpower = 9288821
+	
+	state_category = rural
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	
+	}
+	local_supplies = 0.0 
+	provinces={
+		1740 1756 4668 4742 7764 7818 10662 12573 12699
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=36
+	name="STATE_36" #Belgian Luxembourg
+
+	history={
+		add_core_of = NOW
+		owner = NOW
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		9574 9418
+	}
+	manpower=518637
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

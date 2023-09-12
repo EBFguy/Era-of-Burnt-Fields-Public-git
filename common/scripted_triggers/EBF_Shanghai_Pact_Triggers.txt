@@ -1,0 +1,34 @@
+is_korean_warlord_nation = {
+	OR = {
+		#NORTH KOREA
+		original_tag = DPK
+		original_tag = HAM
+		original_tag = PYO
+		original_tag = HWA
+		original_tag = JUC
+		#SOUTH KOREA
+		original_tag = BUS
+		original_tag = JEO
+		original_tag = KOR
+	}
+}
+
+is_north_korean_warlord_nation = {
+	OR = {
+		#NORTH KOREA
+		original_tag = DPK
+		original_tag = HAM
+		original_tag = PYO
+		original_tag = HWA
+		original_tag = JUC
+	}
+}
+
+is_south_korean_warlord_nation = {
+	OR = {
+		#SOUTH KOREA
+		original_tag = BUS
+		original_tag = JEO
+		original_tag = KOR
+	}
+}

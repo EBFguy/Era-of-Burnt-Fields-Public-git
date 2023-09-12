@@ -1,0 +1,26 @@
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		add_core_of = ETH
+		owner = ETH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		2072 13282 13283
+	}
+	manpower=18017156
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

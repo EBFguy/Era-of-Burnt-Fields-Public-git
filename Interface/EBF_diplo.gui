@@ -1,0 +1,284 @@
+#SECTIONS
+	#IDEOLOGY - IDEOLOGY STUFF
+	#FACTIONS
+	#ANARCHY 
+guiTypes = {
+	#IDEOLOGY
+	containerWindowType = {
+		name = "countrypoliticsview_ideology_info"
+		position = { x = -220 y = 259 }
+		instantTextboxType = {
+			name = "ideology_gui"
+			position = { x = 316 y = 47 }
+			font = "hoi_16mbs"
+			text = "[GetSubIdeologyLoc]"
+			maxWidth = 150
+			maxHeight = 100
+			alwaystransparent=yes
+		}
+	}
+	containerWindowType = {
+		name = "countrydiplomacyview_ideology_info"
+		position = { x = 251 y = 133 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "ideology_gui"
+			position = { x = 5 y = 10 }
+			font = "hoi_16mbs"
+			text = "[GetSubIdeologyLoc]"
+			maxWidth = 215
+			maxHeight = 20
+			fixedsize = yes
+			alwaystransparent=yes
+		}
+	}
+	containerWindowType = {
+		name = "countrydiplomacyview_faction_info"
+		position = { x = 94 y = 0 }
+		iconType = {
+			name = "shanghai_pact_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_faction_icon_shanghai_pact
+			pdx_tooltip = shanghai_pact_faction_status_short_tt
+			pdx_tooltip_delayed = shanghai_pact_faction_status_tt
+		}				
+		iconType = {
+			name = "wacdep_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_culture_0
+			pdx_tooltip = wacdep_faction_status_short_tt
+			pdx_tooltip_delayed = wacdep_faction_status_tt
+		}	
+		iconType = {
+			name = "cod_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_faction_icon_Commonwealth_of_Democracies
+			pdx_tooltip = cod_faction_status_short_tt
+			pdx_tooltip_delayed = cod_faction_status_tt
+		}		
+		iconType = {
+			name = "mpa_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_culture_0
+			pdx_tooltip = mpa_faction_status_short_tt
+			pdx_tooltip_delayed = mpa_faction_status_tt
+		}		
+		iconType = {
+			name = "andes_faction_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_culture_0
+			pdx_tooltip = andes_faction_status_short_tt
+			pdx_tooltip_delayed = andes_faction_status_tt
+		}			
+		iconType = {
+			name = "central_asia_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_culture_0
+			pdx_tooltip = central_asia_faction_status_short_tt
+			pdx_tooltip_delayed = central_asia_faction_status_tt
+		}			
+		iconType = {
+			name = "gulf_union_faction_status"
+			position = {x=315 y=80}
+			spriteType = GFX_culture_0
+			pdx_tooltip = gulf_union_faction_status_short_tt
+			pdx_tooltip_delayed = gulf_union_faction_status_tt
+		}	
+		iconType = {
+			name = "current_faction_membership"
+			position = {x=364 y=60}
+			spriteType = GFX_culture_0
+			pdx_tooltip = "CURRENT_FACTION_MEMBERSHIP_SHORT_TT"
+			pdx_tooltip_delayed = "CURRENT_FACTION_MEMBERSHIP_TT"
+			scale = 0.75
+		}					
+	}	
+	#ANARCHY
+	containerWindowType = {
+		name = "countrydiplomacyview_anarchy_overlay"
+		position = { x = 0 y = 0 }
+		size = { width=550 height=100%% }
+		containerWindowType = {
+			name = "countrydiplomacyview_anarchy_lower_view"
+			position = { x = 0 y = 353 }
+			size = { width=555 height=100%% }
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_main_windows_upper"
+			}
+			containerWindowType = {
+				name = "countrydiplomacyview_anarchy_lower_view_main_text"
+				position = { x = 20 y = 250 }
+				size = { width=489 height=320 }
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_decisions_bg_small"
+				}
+				instantTextboxType = {
+					name = "anarchy_lower_view_text"
+					position = { x = 2 y = 4 }
+					font = "hoi_18mbs"
+					text = "[GetAnarchyViewMainText]"
+					maxWidth = 485
+					maxHeight = 500
+					format = centre
+					fixedsize = yes
+				}
+			}
+			containerWindowType = {
+				name = "countrydiplomacyview_anarchy_lower_view_assets"
+				position = { x = 100 y = 100 }
+				iconType = {
+					name = "category_header"
+					position = {x=-100 y=-80}
+					spriteType = GFX_category_header_bg
+					scale = 1
+				}	
+				instantTextboxType = {
+					name = "category_header_txt"
+					position = { x = -80 y = -70 }
+					font = "hoi_30header"
+					text = "[GetAnarchyCategoryHeader]"
+					maxWidth = 555
+					maxHeight = 20
+					fixedsize = yes
+					alwaystransparent=yes
+				}
+
+				containerWindowType = {
+					name = "anarchy_box_1_container"
+					position = { x = 0 y = 8 }
+					iconType ={
+						name ="anarchy_box_1_background"
+						spriteType = "GFX_EBF_laws_category_no_bar"
+						position = { x=-80 y=-20 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "anarchy_box_1_header"
+						position = { x = -76 y = -15 }
+						font = "hoi_18mbs"
+						text = "anarchy_box_1_header_txt"
+						maxWidth = 230
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					instantTextboxType = {
+						name = "anarchy_box_1_main"
+						position = { x = -76 y = 4 }
+						font = "hoi_18mbs"
+						text = "[GetAnarchyBoxOneText]"
+						maxWidth = 230
+						maxHeight = 100
+						format = centre
+						fixedsize = yes
+					}
+				}
+
+				containerWindowType = {
+					name = "anarchy_box_2_container"
+					position = { x = 250 y = 8 }
+					iconType ={
+						name ="anarchy_box_2_background"
+						spriteType = "GFX_EBF_laws_category_no_bar"
+						position = { x=-80 y=-20 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "anarchy_box_2_header"
+						position = { x = -76 y = -15 }
+						font = "hoi_18mbs"
+						text = "anarchy_box_2_header_txt"
+						maxWidth = 230
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					instantTextboxType = {
+						name = "anarchy_box_2_main"
+						position = { x = -76 y = 4 }
+						font = "hoi_18mbs"
+						text = "[GetAnarchyBoxTwoText]"
+						maxWidth = 230
+						maxHeight = 100
+						format = centre
+						fixedsize = yes
+					}
+				}
+
+				containerWindowType = {
+					name = "anarchy_box_3_container"
+					position = { x = 0 y = 88 }
+					iconType ={
+						name ="anarchy_box_3_background"
+						spriteType = "GFX_EBF_laws_category_no_bar"
+						position = { x=-80 y=-20 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "anarchy_box_3_header"
+						position = { x = -76 y = -15 }
+						font = "hoi_18mbs"
+						text = "[GetAnarchyBoxThreeTitle]"
+						maxWidth = 230
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					instantTextboxType = {
+						name = "anarchy_box_3_main"
+						position = { x = -76 y = 4 }
+						font = "hoi_18mbs"
+						text = "[GetAnarchyBoxThreeText]"
+						maxWidth = 230
+						maxHeight = 100
+						format = centre
+						fixedsize = yes
+					}
+				}
+
+				containerWindowType = {
+					name = "anarchy_box_4_container"
+					position = { x = 250 y = 88 }
+					iconType ={
+						name ="anarchy_box_4_background"
+						spriteType = "GFX_EBF_laws_category_no_bar"
+						position = { x=-80 y=-20 }
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextboxType = {
+						name = "anarchy_box_4_header"
+						position = { x = -76 y = -15 }
+						font = "hoi_18mbs"
+						text = "[GetAnarchyBoxFourTitle]"
+						maxWidth = 230
+						maxHeight = 15
+						format = centre
+						fixedsize = yes
+					}
+					instantTextboxType = {
+						name = "anarchy_box_4_main"
+						position = { x = -76 y = 4 }
+						font = "hoi_18mbs"
+						text = "[GetAnarchyBoxFourText]"
+						maxWidth = 230
+						maxHeight = 100
+						format = centre
+						fixedsize = yes
+					}
+				}
+			}
+		}
+		
+		iconType = {
+			name = "anarchy_picture_gui"
+			position = {x=-7 y=-22}
+			spriteType = GFX_culture_0
+			scale = 1
+		}	
+		
+	}
+} 

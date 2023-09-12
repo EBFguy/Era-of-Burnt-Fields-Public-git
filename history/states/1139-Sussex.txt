@@ -1,0 +1,19 @@
+state= {
+	id=1139
+	name="STATE_1139"
+	manpower = 1052380
+	
+	state_category = town
+	local_supplies = 0.0 
+	history= {
+		add_core_of = DOV
+		owner = DOV
+		buildings = {
+		}
+		
+	}
+
+	provinces= {
+		13470 13464 13465 13070 11446
+ 	}
+}

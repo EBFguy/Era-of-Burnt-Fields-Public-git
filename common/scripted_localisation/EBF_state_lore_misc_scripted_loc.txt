@@ -1,0 +1,25 @@
+defined_text = {
+	name = GetSLName
+	text = {
+		trigger = {
+			state = 126
+		}
+		localization_key = state_lore_long_name.1
+	}
+	text = {
+		localization_key = "[THIS.GetName]"
+	}
+}
+
+defined_text = {
+	name = Statelore_Get_grid_entry_GFX
+	text = {
+		trigger = {
+			check_variable = { selected_lore_alt = lore_entries_onscreen^sl_i }
+		}
+		localization_key = "GFX_SL_grid_entry"
+	}
+	text = {
+		localization_key = "GFX_SL_grid_entry_de"
+	}
+}

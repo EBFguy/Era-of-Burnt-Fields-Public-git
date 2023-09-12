@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+		POR_surrounded_by_wolves = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POR_surrounded_by_wolves"}
+			removal_cost = -1
+
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_POR_surrounded_by_wolves
+
+			modifier = {
+				stability_factor = -0.3
+			}
+			targeted_modifier = {
+				tag = NPF
+				defense_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = PRP
+				defense_bonus_against = 0.2
+			}
+		}
+		POR_dissolving_coalition = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POR_dissolving_coalition"}
+			removal_cost = -1
+
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_POR_dissolving_coalition
+
+			modifier = {
+				political_power_gain = -0.5
+				administrative_efficiency_monthly_rate = -20	
+			}
+
+		}
+		POR_our_collapsed_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea POR_our_collapsed_economy"}
+			removal_cost = -1
+
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = idea_POR_our_collapsed_economy
+
+			modifier = {	
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.3
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+				poverty_rate_monthly_rate = -10
+				economic_health_monthly_rate = -10
+			}
+		}
+	}
+}

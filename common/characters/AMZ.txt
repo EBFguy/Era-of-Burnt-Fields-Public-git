@@ -1,0 +1,96 @@
+characters = {
+	AMZ_elisio_watanabe = {
+		name = AMZ_elisio_watanabe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AMZ/Portrait_AMZ_elisio_watanabe.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultramilitarism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ELISIO_WATANABE_DESC"
+		}
+	}
+	AMZ_nilton_watanabe = {
+		name = AMZ_nilton_watanabe
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = AMZ_nilton_watanabe_min
+			allowed = { original_tag = AMZ }
+			traits = {
+				appeaser
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	AMZ_tomas_fraga = {
+		name = AMZ_tomas_fraga
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_tomas_fraga"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = AMZ_tomas_fraga_min
+			allowed = { original_tag = AMZ }
+			traits = {
+				financial_expert
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+	AMZ_rafael_vidal = {
+		name = AMZ_rafael_vidal
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_rafael_vidal"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = AMZ_rafael_vidal_min
+			allowed = { original_tag = AMZ }
+			traits = {
+				fortification_engineer
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}		
+	AMZ_clara_salles = {
+		name = AMZ_clara_salles
+		portraits = {
+			civilian = {
+				small = "GFX_idea_AMZ_clara_salles"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = AMZ_clara_salles_min
+			allowed = { original_tag = AMZ }
+			traits = {
+				popular_figurehead2
+			}
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}	
+
+}

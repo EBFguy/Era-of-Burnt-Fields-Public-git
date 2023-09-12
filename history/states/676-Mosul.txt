@@ -1,0 +1,24 @@
+state={
+	id=676
+	name="STATE_676"
+	manpower = 1182741
+	
+	state_category = town
+
+	history={
+		add_core_of = BAG
+		owner = BAG
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10106 5 
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1600 1938 10106 10804 12372
+	}
+}

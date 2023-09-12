@@ -1,0 +1,15 @@
+characters = {
+	NRF_Ethan_King = {
+		name = "Ethan King"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRF/Portrait_NRF_Ethan_King.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_absolute_monarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ETHAN_KING_DESC"
+		}
+	}
+}

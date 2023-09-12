@@ -1,0 +1,161 @@
+#######################################
+# Social Development custom modifiers #
+#######################################
+
+academic_level_monthly_rate = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+poverty_rate_monthly_rate = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+economic_health_monthly_rate = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+army_professionalism_monthly_rate = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+industrial_equipment_monthly_rate = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+administrative_efficiency_monthly_rate = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+########################################
+# Military Investment custom modifiers #
+########################################
+added_military_ip = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+added_military_ip_ground = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+added_military_ip_air = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+added_military_ip_navy = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+added_military_ip_research = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+added_military_ip_civil_services = {
+	color_type = good
+	value_type = number
+	precision = 2
+	category = country
+}
+
+##############################
+# Ordinance custom modifiers #
+##############################
+
+misc_energy_consumption_add = {
+	color_type = bad
+	value_type = number
+	precision = 0
+	category = country
+}
+
+misc_energy_consumption_reducers = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}
+
+misc_food_consumption_add = {
+	color_type = bad
+	value_type = number
+	precision = 0
+	category = country
+}
+
+misc_food_consumption_reducers = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}
+
+#############################
+# Ecodecay custom modifiers #
+#############################
+
+ecodecay_national_monthly_decay = {
+	color_type = bad
+	value_type = number
+	precision = 0
+	category = country
+}
+
+ecodecay_national_monthly_decay_minus = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = country
+}
+
+ecodecay_local_monthly_decay = {
+	color_type = bad
+	value_type = number
+	precision = 0
+	category = state
+}
+
+ecodecay_local_monthly_decay_minus = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = state
+}
+
+ecodecay_local_targeted_monthly_decay = {
+	color_type = good
+	value_type = number
+	precision = 0
+	category = state
+}

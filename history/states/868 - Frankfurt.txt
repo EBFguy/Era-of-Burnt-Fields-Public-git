@@ -1,0 +1,25 @@
+
+state={
+	id=868
+	name="STATE_868"
+	manpower = 3798235
+
+	state_category = large_city
+
+	history={
+		add_core_of = FRK
+		owner = FRK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		victory_points = {
+			6488 20.0 
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3574 589 11560 6488 6444
+	}
+}

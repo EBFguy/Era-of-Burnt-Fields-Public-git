@@ -1,0 +1,115 @@
+characters = {
+
+	IND_Devansh_Thaman = {
+		name = IND_Devansh_Thaman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_one_party_dominant_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_DEVANSH_THAMAN_DESC"
+		}
+	}
+
+	CID_Ritu_Behl = {
+		name = CID_Ritu_Behl
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_RITU_BEHL_DESC"
+		}
+	}	
+
+	MAH_Amit_Sangha = {
+		name = MAH_Amit_Sangha
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_AMIT_SANGHA_DESC"
+		}
+	}
+
+	HIN_Indrajit_Bhasin = {
+		name = HIN_Indrajit_Bhasin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_INDRAJIT_BHASIN_DESC"
+		}
+	}			
+
+	KAS_Fartouss_Mamund = {
+		name = KAS_Fartouss_Mamund
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FARTOUSS_MAMUND_DESC"
+		}
+	}		
+
+	PAK_Abdul_Hamid_Jamshidi = {
+		name = PAK_Abdul_Hamid_Jamshidi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ABDUL_HAMID_JAMSHIDI_DESC"
+		}
+	}			
+
+	FAR_Ananya_Sridhar = {
+		name = FAR_Ananya_Sridhar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_occupation_authority_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ANANYA_SRIDHAR_DESC"
+		}
+	}		
+
+
+	RDL_master_legionary = {
+		name = RDL_master_legionary
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_legionary_communism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MASTER_LEGIONARY_DESC"
+		}
+	}
+}

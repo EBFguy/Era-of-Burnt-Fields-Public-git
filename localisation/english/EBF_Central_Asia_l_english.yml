@@ -1,0 +1,53 @@
+﻿l_english:
+ #COUNTRIES#
+ FAD:0 "Fadel"
+ FAD_DEF:0 "The Republic of Fadel"
+ FAD_ADJ:0 "Fadelite"
+
+ TRK:0 "Turkmenistan"
+ TRK_DEF:0 "The Liberation Front of Turkmenistan"
+ TRK_ADJ:0 "Turkmenistani"
+
+ KAR:0 "Karakalpakstan"
+ KAR_DEF:0 "The Karakalpakstan Self-Governing Zone"
+ KAR_ADJ:0 "Karakalpakstani"
+
+ FRU:0 "Free Roaming Army of Uzbekistan"
+ FRU_DEF:0 "The Free Roaming Army of Uzbekistan"
+ FRU_ADJ:0 "Uzbek"
+
+ UZB:0 "Uzbekistan"
+ UZB_DEF:0 "The Second Republic of Uzbekistan"
+ UZB_ADJ:0 "Uzbek"
+
+ KYR:0 "Kyrgyz Union"
+ KYR_DEF:0 "The Kyrgyz Peoples' Union"
+ KYR_ADJ:0 "Kyrgyz"
+
+ KGR:0 "Kyrgyzstan"
+ KGR_DEF:0 "The Kyrgyzstan Republic"
+ KGR_ADJ:0 "Kyrgyz"
+
+ TAJ:0 "Tajik Free People"
+ TAJ_DEF:0 "The Tajik Free People"
+ TAJ_ADJ:0 "Tajik"
+
+ #PARTIES
+ TAJ_KGR_party:0 "TOA"
+ TAJ_KGR_party_long:0 "Tajikistan Occupational Authority"
+ UZB_KGR_party:0 "UZA"
+ UZB_KGR_party_long:0 "Uzbek Zone Authority"
+ KAR_KGR_party:0 "KSRG"
+ KAR_KGR_party_long:0 "Karakalpakstani Self-Ruling Government"
+ TRK_KGR_party:0 "TULF"
+ TRK_KGR_party_long:0 "Turkmenistani United Liberation Forces"
+
+ 
+
+ #IDEAS#
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#

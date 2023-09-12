@@ -1,0 +1,1747 @@
+defined_text = {
+	name = GetCate1Lawpoliticalparties
+	text = {
+		trigger = { has_idea = EBF_one_party_state }
+		localization_key = EBF_one_party_state
+	}
+	text = {
+		trigger = { has_idea = EBF_dominant_party_state }
+		localization_key = EBF_dominant_party_state
+	}
+	text = {
+		trigger = { has_idea = EBF_two_party_state }
+		localization_key = EBF_two_party_state
+	}	
+	text = {
+		trigger = { has_idea = EBF_multiparty_system }
+		localization_key = EBF_multiparty_system
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawpoliticalpartiesmod
+	text = {
+		trigger = { has_idea = EBF_one_party_state }
+		localization_key = EBF_one_party_state_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_dominant_party_state }
+		localization_key = EBF_dominant_party_state_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_two_party_state }
+		localization_key = EBF_two_party_state_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_multiparty_system }
+		localization_key = EBF_multiparty_system_mod
+	}	
+}
+
+defined_text = {
+	name = GetCate1Lawoppositionfreedom
+	text = {
+		trigger = { has_idea = EBF_underground_opposition }
+		localization_key = EBF_underground_opposition
+	}
+	text = {
+		trigger = { has_idea = EBF_suppressed_opposition }
+		localization_key = EBF_suppressed_opposition
+	}
+	text = {
+		trigger = { has_idea = EBF_internal_opposition }
+		localization_key = EBF_internal_opposition
+	}	
+	text = {
+		trigger = { has_idea = EBF_single_party_opposition }
+		localization_key = EBF_single_party_opposition
+	}	
+	text = {
+		trigger = { has_idea = EBF_multiparty_opposition }
+		localization_key = EBF_multiparty_opposition
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawoppositionfreedomod
+	text = {
+		trigger = { has_idea = EBF_underground_opposition }
+		localization_key = EBF_underground_opposition_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_suppressed_opposition }
+		localization_key = EBF_suppressed_opposition_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_internal_opposition }
+		localization_key = EBF_internal_opposition_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_single_party_opposition }
+		localization_key = EBF_single_party_opposition_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_multiparty_opposition }
+		localization_key = EBF_multiparty_opposition_mod
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawreligousfreedom
+	text = {
+		trigger = { has_idea = EBF_state_religion }
+		localization_key = EBF_state_religion
+	}
+	text = {
+		trigger = { has_idea = EBF_pluralism }
+		localization_key = EBF_pluralism
+	}
+	text = {
+		trigger = { has_idea = EBF_secularism }
+		localization_key = EBF_secularism
+	}	
+	text = {
+		trigger = { has_idea = EBF_state_atheism }
+		localization_key = EBF_state_atheism
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawreligousfreedomod
+	text = {
+		trigger = { has_idea = EBF_state_religion }
+		localization_key = EBF_state_religion_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_pluralism }
+		localization_key = EBF_pluralism_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_secularism }
+		localization_key = EBF_secularism_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_state_atheism }
+		localization_key = EBF_state_atheism_mod
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawvoterfranchise
+	text = {
+		trigger = { has_idea = EBF_no_voting }
+		localization_key = EBF_no_voting
+	}
+	text = {
+		trigger = { has_idea = EBF_elite_voting }
+		localization_key = EBF_elite_voting
+	}
+	text = {
+		trigger = { has_idea = EBF_registered_voting }
+		localization_key = EBF_registered_voting
+	}	
+	text = {
+		trigger = { has_idea = EBF_universal_voting }
+		localization_key = EBF_universal_voting
+	}
+	text = {
+		trigger = { has_idea = EBF_support_disenfranchised }
+		localization_key = EBF_support_disenfranchised
+	}	
+}
+
+defined_text = {
+	name = GetCate1Lawvoterfranchisemod
+	text = {
+		trigger = { has_idea = EBF_no_voting }
+		localization_key = EBF_no_voting_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_elite_voting }
+		localization_key = EBF_elite_voting_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_registered_voting }
+		localization_key = EBF_registered_voting_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_universal_voting }
+		localization_key = EBF_universal_voting_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_support_disenfranchised }
+		localization_key = EBF_support_disenfranchised_mod
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawpressrights
+	text = {
+		trigger = { has_idea = EBF_state_press }
+		localization_key = EBF_state_press
+	}
+	text = {
+		trigger = { has_idea = EBF_censored_press }
+		localization_key = EBF_censored_press
+	}
+	text = {
+		trigger = { has_idea = EBF_free_press }
+		localization_key = EBF_free_press
+	}	
+}
+
+defined_text = {
+	name = GetCate1Lawpressrightsmod
+	text = {
+		trigger = { has_idea = EBF_state_press }
+		localization_key = EBF_state_press_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_censored_press }
+		localization_key = EBF_censored_press_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_free_press }
+		localization_key = EBF_free_press_mod
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawtradeunions
+	text = {
+		trigger = { has_idea = EBF_outlawed_unions }
+		localization_key = EBF_outlawed_unions
+	}
+	text = {
+		trigger = { has_idea = EBF_state_controlled_unions }
+		localization_key = EBF_state_controlled_unions
+	}
+	text = {
+		trigger = { has_idea = EBF_non_socialist_unions }
+		localization_key = EBF_non_socialist_unions
+	}	
+	text = {
+		trigger = { has_idea = EBF_all_unions_allowed }
+		localization_key = EBF_all_unions_allowed
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawtradeunionsmod
+	text = {
+		trigger = { has_idea = EBF_outlawed_unions }
+		localization_key = EBF_outlawed_unions_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_state_controlled_unions }
+		localization_key = EBF_state_controlled_unions_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_non_socialist_unions }
+		localization_key = EBF_non_socialist_unions_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_all_unions_allowed }
+		localization_key = EBF_all_unions_allowed_mod
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawimmigrationlaws
+	text = {
+		trigger = { has_idea = EBF_closed_borders }
+		localization_key = EBF_closed_borders
+	}
+	text = {
+		trigger = { has_idea = EBF_immigration_quotas }
+		localization_key = EBF_immigration_quotas
+	}
+	text = {
+		trigger = { has_idea = EBF_open_immigration }
+		localization_key = EBF_open_immigration
+	}	
+	text = {
+		trigger = { has_idea = EBF_encouraged_immigration }
+		localization_key = EBF_encouraged_immigration
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawimmigrationlawsmod
+	text = {
+		trigger = { has_idea = EBF_closed_borders }
+		localization_key = EBF_closed_borders_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_immigration_quotas }
+		localization_key = EBF_immigration_quotas_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_open_immigration }
+		localization_key = EBF_open_immigration_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_encouraged_immigration }
+		localization_key = EBF_encouraged_immigration_mod
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawaipersonhood
+	text = {
+		trigger = { has_idea = EBF_no_legal_protections }
+		localization_key = EBF_no_legal_protections
+	}
+	text = {
+		trigger = { has_idea = EBF_cognizant_awareness_checks }
+		localization_key = EBF_cognizant_awareness_checks
+	}
+	text = {
+		trigger = { has_idea = EBF_indentured_ownership_only }
+		localization_key = EBF_indentured_ownership_only
+	}	
+	text = {
+		trigger = { has_idea = EBF_full_emancipation }
+		localization_key = EBF_full_emancipation
+	}
+}
+
+defined_text = {
+	name = GetCate1Lawaipersonhoodmod
+	text = {
+		trigger = { has_idea = EBF_no_legal_protections }
+		localization_key = EBF_no_legal_protections_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_cognizant_awareness_checks }
+		localization_key = EBF_cognizant_awareness_checks_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_indentured_ownership_only }
+		localization_key = EBF_indentured_ownership_only_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_full_emancipation }
+		localization_key = EBF_full_emancipation_mod
+	}
+}
+
+
+defined_text = {
+	name = GetCate2Lawtrade
+	text = {
+		trigger = { has_idea = EBF_closed_economy }
+		localization_key = EBF_closed_economy
+	}
+	text = {
+		trigger = { has_idea = EBF_limited_exports }
+		localization_key = EBF_limited_exports
+	}
+	text = {
+		trigger = { has_idea = EBF_export_focus }
+		localization_key = EBF_export_focus
+	}
+	text = {
+		trigger = { has_idea = EBF_free_trade }
+		localization_key = EBF_free_trade
+	}	
+}
+
+defined_text = {
+	name = GetCate2Lawtrademod
+	text = {
+		trigger = { has_idea = EBF_closed_economy }
+		localization_key = EBF_closed_economy_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_limited_exports }
+		localization_key = EBF_limited_exports_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_export_focus }
+		localization_key = EBF_export_focus_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_free_trade }
+		localization_key = EBF_free_trade_mod
+	}	
+}
+
+defined_text = {
+	name = GetCate2Lawminwage
+	text = {
+		trigger = { has_idea = EBF_no_minimum_wage }
+		localization_key = EBF_no_minimum_wage
+	}
+	text = {
+		trigger = { has_idea = EBF_trinket_minimum_wage }
+		localization_key = EBF_trinket_minimum_wage
+	}
+	text = {
+		trigger = { has_idea = EBF_minor_minimum_wage }
+		localization_key = EBF_minor_minimum_wage
+	}
+	text = {
+		trigger = { has_idea = EBF_decent_minimum_wage }
+		localization_key = EBF_decent_minimum_wage
+	}	
+	text = {
+		trigger = { has_idea = EBF_living_wage }
+		localization_key = EBF_living_wage
+	}	
+}
+
+defined_text = {
+	name = GetCate2Lawminwagemod
+	text = {
+		trigger = { has_idea = EBF_no_minimum_wage }
+		localization_key = EBF_no_minimum_wage_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_trinket_minimum_wage }
+		localization_key = EBF_trinket_minimum_wage_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_minor_minimum_wage }
+		localization_key = EBF_minor_minimum_wage_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_decent_minimum_wage }
+		localization_key = EBF_decent_minimum_wage_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_living_wage }
+		localization_key = EBF_living_wage_mod
+	}	
+}
+
+defined_text = {
+	name = GetCate2Lawmaxhours
+	text = {
+		trigger = { has_idea = EBF_18_hours }
+		localization_key = EBF_18_hours
+	}
+	text = {
+		trigger = { has_idea = EBF_16_hours }
+		localization_key = EBF_16_hours
+	}	
+	text = {
+		trigger = { has_idea = EBF_14_hours }
+		localization_key = EBF_14_hours
+	}
+	text = {
+		trigger = { has_idea = EBF_10_hours }
+		localization_key = EBF_10_hours
+	}	
+	text = {
+		trigger = { has_idea = EBF_8_hours }
+		localization_key = EBF_8_hours
+	}		
+}
+
+defined_text = {
+	name = GetCate2Lawmaxhoursmod
+	text = {
+		trigger = { has_idea = EBF_18_hours }
+		localization_key = EBF_18_hours_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_16_hours }
+		localization_key = EBF_16_hours_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_14_hours }
+		localization_key = EBF_14_hours_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_10_hours }
+		localization_key = EBF_10_hours_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_8_hours }
+		localization_key = EBF_8_hours_mod
+	}	
+}
+
+
+defined_text = {
+	name = GetCate2Laweconomicmodel
+	text = {
+		trigger = { has_idea = EBF_primary_human_model }
+		localization_key = EBF_primary_human_model
+	}
+	text = {
+		trigger = { has_idea = EBF_emerging_AI_model }
+		localization_key = EBF_emerging_AI_model
+	}	
+	text = {
+		trigger = { has_idea = EBF_joint_human_AI_model }
+		localization_key = EBF_joint_human_AI_model
+	}
+	text = {
+		trigger = { has_idea = EBF_majority_ai_model }
+		localization_key = EBF_majority_ai_model
+	}	
+	text = {
+		trigger = { has_idea = EBF_primary_AI_model }
+		localization_key = EBF_primary_AI_model
+	}		
+}
+
+defined_text = {
+	name = GetCate2Laweconomicmodelmod
+	text = {
+		trigger = { has_idea = EBF_primary_human_model }
+		localization_key = EBF_primary_human_model_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_emerging_AI_model }
+		localization_key = EBF_emerging_AI_model_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_joint_human_AI_model }
+		localization_key = EBF_joint_human_AI_model_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_majority_ai_model }
+		localization_key = EBF_majority_ai_model_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_primary_AI_model }
+		localization_key = EBF_primary_AI_model_mod
+	}	
+}
+
+defined_text = {
+	name = GetCate3Lawconscription
+	text = {
+		trigger = { has_idea = EBF_scraping_the_barrel }
+		localization_key = EBF_scraping_the_barrel
+	}
+	text = {
+		trigger = { has_idea = EBF_all_adults_serve }
+		localization_key = EBF_all_adults_serve
+	}	
+	text = {
+		trigger = { has_idea = EBF_service_by_requirement }
+		localization_key = EBF_service_by_requirement
+	}
+	text = {
+		trigger = { has_idea = EBF_four_year_draft }
+		localization_key = EBF_four_year_draft
+	}	
+	text = {
+		trigger = { has_idea = EBF_two_year_draft }
+		localization_key = EBF_two_year_draft
+	}	
+	text = {
+		trigger = { has_idea = EBF_one_year_draft }
+		localization_key = EBF_one_year_draft
+	}
+	text = {
+		trigger = { has_idea = EBF_volunteer_only }
+		localization_key = EBF_volunteer_only
+	}	
+	text = {
+		trigger = { has_idea = EBF_disarmed_nation }
+		localization_key = EBF_disarmed_nation
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawconscriptionmod
+	text = {
+		trigger = { has_idea = EBF_scraping_the_barrel }
+		localization_key = EBF_scraping_the_barrel_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_all_adults_serve }
+		localization_key = EBF_all_adults_serve_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_service_by_requirement }
+		localization_key = EBF_service_by_requirement_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_four_year_draft }
+		localization_key = EBF_four_year_draft_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_two_year_draft }
+		localization_key = EBF_two_year_draft_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_one_year_draft }
+		localization_key = EBF_one_year_draft_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_volunteer_only }
+		localization_key = EBF_volunteer_only_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_disarmed_nation }
+		localization_key = EBF_disarmed_nation_mod
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawtrainingstandards
+	text = {
+		trigger = { has_idea = EBF_no_training }
+		localization_key = EBF_no_training
+	}
+	text = {
+		trigger = { has_idea = EBF_minimal_training }
+		localization_key = EBF_minimal_training
+	}	
+	text = {
+		trigger = { has_idea = EBF_basic_training }
+		localization_key = EBF_basic_training
+	}
+	text = {
+		trigger = { has_idea = EBF_combat_schooling }
+		localization_key = EBF_combat_schooling
+	}	
+	text = {
+		trigger = { has_idea = EBF_advanced_schooling }
+		localization_key = EBF_advanced_schooling
+	}	
+}
+
+defined_text = {
+	name = GetCate3Lawtrainingstandardsmod
+	text = {
+		trigger = { has_idea = EBF_no_training }
+		localization_key = EBF_no_training_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_minimal_training }
+		localization_key = EBF_minimal_training_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_basic_training }
+		localization_key = EBF_basic_training_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_combat_schooling }
+		localization_key = EBF_combat_schooling_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_advanced_schooling }
+		localization_key = EBF_advanced_schooling_mod
+	}
+}
+
+
+defined_text = {
+	name = GetCate3Lawpolicing
+	text = {
+		trigger = { has_idea = EBF_no_policing }
+		localization_key = EBF_no_policing
+	}
+	text = {
+		trigger = { has_idea = EBF_community_outreach }
+		localization_key = EBF_community_outreach
+	}	
+	text = {
+		trigger = { has_idea = EBF_ordinary_policing }
+		localization_key = EBF_ordinary_policing
+	}
+	text = {
+		trigger = { has_idea = EBF_intimidation_policing }
+		localization_key = EBF_intimidation_policing
+	}	
+	text = {
+		trigger = { has_idea = EBF_heavily_armed_policing }
+		localization_key = EBF_heavily_armed_policing
+	}	
+	text = {
+		trigger = { has_idea = EBF_militarised_policing }
+		localization_key = EBF_militarised_policing
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawpolicingmod
+	text = {
+		trigger = { has_idea = EBF_no_policing }
+		localization_key = EBF_no_policing_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_community_outreach }
+		localization_key = EBF_community_outreach_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_ordinary_policing }
+		localization_key = EBF_ordinary_policing_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_intimidation_policing }
+		localization_key = EBF_intimidation_policing_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_heavily_armed_policing }
+		localization_key = EBF_heavily_armed_policing_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_militarised_policing }
+		localization_key = EBF_militarised_policing_mod
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawmilitarysupervision
+	text = {
+		trigger = { has_idea = EBF_no_restrictions }
+		localization_key = EBF_no_restrictions
+	}
+	text = {
+		trigger = { has_idea = EBF_minimal_supervision }
+		localization_key = EBF_minimal_supervision
+	}	
+	text = {
+		trigger = { has_idea = EBF_military_police }
+		localization_key = EBF_military_police
+	}
+	text = {
+		trigger = { has_idea = EBF_rules_of_engagement }
+		localization_key = EBF_rules_of_engagement
+	}	
+	text = {
+		trigger = { has_idea = EBF_modernised_rules_of_war }
+		localization_key = EBF_modernised_rules_of_war
+	}	
+	text = {
+		trigger = { has_idea = EBF_ethical_battlefield_supervision }
+		localization_key = EBF_ethical_battlefield_supervision
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawmilitarysupervisionmod
+	text = {
+		trigger = { has_idea = EBF_no_restrictions }
+		localization_key = EBF_no_restrictions_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_minimal_supervision }
+		localization_key = EBF_minimal_supervision_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_military_police }
+		localization_key = EBF_military_police_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_rules_of_engagement }
+		localization_key = EBF_rules_of_engagement_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_modernised_rules_of_war }
+		localization_key = EBF_modernised_rules_of_war_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_ethical_battlefield_supervision }
+		localization_key = EBF_ethical_battlefield_supervision_mod
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawmilitaryethos
+	text = {
+		trigger = { has_idea = EBF_ground_forces_ethos }
+		localization_key = EBF_ground_forces_ethos
+	}
+	text = {
+		trigger = { has_idea = EBF_naval_forces_ethos }
+		localization_key = EBF_naval_forces_ethos
+	}	
+	text = {
+		trigger = { has_idea = EBF_air_forces_ethos }
+		localization_key = EBF_air_forces_ethos
+	}
+	text = {
+		trigger = { has_idea = EBF_special_forces_ethos }
+		localization_key = EBF_special_forces_ethos
+	}	
+	text = {
+		trigger = { has_idea = EBF_military_research_ethos }
+		localization_key = EBF_military_research_ethos
+	}	
+	text = {
+		trigger = { has_idea = EBF_civil_services_ethos }
+		localization_key = EBF_civil_services_ethos
+	}
+	text = {
+		trigger = { has_idea = EBF_neutral_ethos }
+		localization_key = EBF_neutral_ethos
+	}
+}
+
+defined_text = {
+	name = GetCate3Lawmilitaryethics
+	text = {
+		trigger = { has_idea = EBF_banned_wmds_ethics }
+		localization_key = EBF_banned_wmds_ethics
+	}
+	text = {
+		trigger = { has_idea = EBF_restricted_wmds_ethics }
+		localization_key = EBF_restricted_wmds_ethics
+	}	
+	text = {
+		trigger = { has_idea = EBF_unrestricted_wmds_ethics }
+		localization_key = EBF_unrestricted_wmds_ethics
+	}
+}
+
+defined_text = {
+	name = GetCate4socdevacademiclevel
+	text = {
+		trigger = { has_idea = EBF_mass_illiteracy }
+		localization_key = EBF_mass_illiteracy
+	}
+	text = {
+		trigger = { has_idea = EBF_basic_literacy }
+		localization_key = EBF_basic_literacy
+	}	
+	text = {
+		trigger = { has_idea = EBF_primary_schooling }
+		localization_key = EBF_primary_schooling
+	}
+	text = {
+		trigger = { has_idea = EBF_secondary_schooling }
+		localization_key = EBF_secondary_schooling
+	}	
+	text = {
+		trigger = { has_idea = EBF_tertiary_schooling }
+		localization_key = EBF_tertiary_schooling
+	}	
+	text = {
+		trigger = { has_idea = EBF_mass_illiteracy_eradicated }
+		localization_key = EBF_mass_illiteracy_eradicated
+	}
+}
+
+defined_text = {
+	name = GetCate4socdevacademiclevelmod
+	text = {
+		trigger = { has_idea = EBF_mass_illiteracy }
+		localization_key = EBF_mass_illiteracy_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_basic_literacy }
+		localization_key = EBF_basic_literacy_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_primary_schooling }
+		localization_key = EBF_primary_schooling_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_secondary_schooling }
+		localization_key = EBF_secondary_schooling_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_tertiary_schooling }
+		localization_key = EBF_tertiary_schooling_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_mass_illiteracy_eradicated }
+		localization_key = EBF_mass_illiteracy_eradicated_mod
+	}
+}
+
+defined_text = {
+	name = get_academic_level_monthly_change_var
+	text = {
+		trigger = {
+			set_temp_variable = { academic_level_monthly_change_tt = academic_level_monthly_change }
+			add_to_temp_variable = { academic_level_monthly_change_tt = modifier@academic_level_monthly_rate }
+		}
+		localization_key = academic_level_monthly_change_value_tt
+	}
+}
+
+defined_text = {
+	name = GetCate4socdevpovertyrate
+	text = {
+		trigger = { has_idea = EBF_overwhelming_poverty }
+		localization_key = EBF_overwhelming_poverty
+	}
+	text = {
+		trigger = { has_idea = EBF_rampant_poverty }
+		localization_key = EBF_rampant_poverty
+	}	
+	text = {
+		trigger = { has_idea = EBF_widespread_poverty }
+		localization_key = EBF_widespread_poverty
+	}
+	text = {
+		trigger = { has_idea = EBF_significant_poverty }
+		localization_key = EBF_significant_poverty
+	}	
+	text = {
+		trigger = { has_idea = EBF_minor_poverty }
+		localization_key = EBF_minor_poverty
+	}	
+}
+
+defined_text = {
+	name = GetCate4socdevpovertyratemod
+	text = {
+		trigger = { has_idea = EBF_overwhelming_poverty }
+		localization_key = EBF_overwhelming_poverty_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_rampant_poverty }
+		localization_key = EBF_rampant_poverty_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_widespread_poverty }
+		localization_key = EBF_widespread_poverty_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_significant_poverty }
+		localization_key = EBF_significant_poverty_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_minor_poverty }
+		localization_key = EBF_minor_poverty_mod
+	}	
+}
+
+defined_text = {
+	name = get_poverty_Rate_monthly_change_var
+	text = {
+		trigger = {
+			set_temp_variable = { poverty_rate_monthly_change_tt = poverty_rate_monthly_change }
+			add_to_temp_variable = { poverty_rate_monthly_change_tt = modifier@poverty_rate_monthly_rate }
+		}
+		localization_key = poverty_rate_monthly_change_value_tt
+	}
+}
+
+defined_text = {
+	name = GetCate4socdeveconomichealth
+	text = {
+		trigger = { has_idea = EBF_no_economy }
+		localization_key = EBF_no_economy
+	}
+	text = {
+		trigger = { has_idea = EBF_economic_collapse }
+		localization_key = EBF_economic_collapse
+	}	
+	text = {
+		trigger = { has_idea = EBF_economic_panic }
+		localization_key = EBF_economic_panic
+	}
+	text = {
+		trigger = { has_idea = EBF_underperforming_economy }
+		localization_key = EBF_underperforming_economy
+	}	
+	text = {
+		trigger = { has_idea = EBF_stagnating_economy }
+		localization_key = EBF_stagnating_economy
+	}	
+	text = {
+		trigger = { has_idea = EBF_middling_consumer_confidence }
+		localization_key = EBF_middling_consumer_confidence
+	}	
+	text = {
+		trigger = { has_idea = EBF_strong_consumer_health }
+		localization_key = EBF_strong_consumer_health
+	}	
+}
+
+defined_text = {
+	name = GetCate4socdeveconomichealthmod
+	text = {
+		trigger = { has_idea = EBF_no_economy }
+		localization_key = EBF_no_economy_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_economic_collapse }
+		localization_key = EBF_economic_collapse_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_economic_panic }
+		localization_key = EBF_economic_panic_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_underperforming_economy }
+		localization_key = EBF_underperforming_economy_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_stagnating_economy }
+		localization_key = EBF_stagnating_economy_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_middling_consumer_confidence }
+		localization_key = EBF_middling_consumer_confidence_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_strong_consumer_health }
+		localization_key = EBF_strong_consumer_health_mod
+	}
+}
+
+defined_text = {
+	name = get_economic_health_monthly_change_var
+	text = {
+		trigger = {
+			set_temp_variable = { economic_health_monthly_change_tt = economic_health_monthly_change }
+			add_to_temp_variable = { economic_health_monthly_change_tt = modifier@economic_health_monthly_rate }
+		}
+		localization_key = economic_health_monthly_change_value_tt
+	}
+}
+
+
+defined_text = {
+	name = GetCate4socdevarmyprofessionalism
+	text = {
+		trigger = { has_idea = EBF_disorganised_militia }
+		localization_key = EBF_disorganised_militia
+	}
+	text = {
+		trigger = { has_idea = EBF_untrained_conscripts }
+		localization_key = EBF_untrained_conscripts
+	}	
+	text = {
+		trigger = { has_idea = EBF_hastily_trained_conscripts }
+		localization_key = EBF_hastily_trained_conscripts
+	}
+	text = {
+		trigger = { has_idea = EBF_military_widespread_corruption }
+		localization_key = EBF_military_widespread_corruption
+	}	
+	text = {
+		trigger = { has_idea = EBF_political_interference }
+		localization_key = EBF_political_interference
+	}	
+	text = {
+		trigger = { has_idea = EBF_professional_army }
+		localization_key = EBF_professional_army
+	}	
+	text = {
+		trigger = { has_idea = EBF_spartan_professionalism }
+		localization_key = EBF_spartan_professionalism
+	}	
+}
+
+defined_text = {
+	name = GetCate4socdevarmyprofessionalismmod
+	text = {
+		trigger = { has_idea = EBF_disorganised_militia }
+		localization_key = EBF_disorganised_militia_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_untrained_conscripts }
+		localization_key = EBF_untrained_conscripts_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_hastily_trained_conscripts }
+		localization_key = EBF_hastily_trained_conscripts_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_military_widespread_corruption }
+		localization_key = EBF_military_widespread_corruption_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_political_interference }
+		localization_key = EBF_political_interference_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_professional_army }
+		localization_key = EBF_professional_army_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_spartan_professionalism }
+		localization_key = EBF_spartan_professionalism_mod
+	}	
+}
+
+defined_text = {
+	name = get_army_professionalism_monthly_change_var
+	text = {
+		trigger = {
+			set_temp_variable = { army_professionalism_monthly_change_tt = army_professionalism_monthly_change }
+			add_to_temp_variable = { army_professionalism_monthly_change_tt = modifier@army_professionalism_monthly_rate }
+		}
+		localization_key = army_professionalism_monthly_change_value_tt
+	}
+}
+
+defined_text = {
+	name = GetCate4socdevindustrialequipment
+	text = {
+		trigger = { has_idea = EBF_non_powered_tools }
+		localization_key = EBF_non_powered_tools
+	}
+	text = {
+		trigger = { has_idea = EBF_power_tools }
+		localization_key = EBF_power_tools
+	}	
+	text = {
+		trigger = { has_idea = EBF_manufactory_lines }
+		localization_key = EBF_manufactory_lines
+	}
+	text = {
+		trigger = { has_idea = EBF_industrial_equipment_use }
+		localization_key = EBF_industrial_equipment_use
+	}	
+	text = {
+		trigger = { has_idea = EBF_exoskeleton_assisted_production }
+		localization_key = EBF_exoskeleton_assisted_production
+	}	
+	text = {
+		trigger = { has_idea = EBF_cutting_edge_exoskeletons }
+		localization_key = EBF_cutting_edge_exoskeletons
+	}		
+}
+
+defined_text = {
+	name = GetCate4socdevindustrialequipmentmod
+	text = {
+		trigger = { has_idea = EBF_non_powered_tools }
+		localization_key = EBF_non_powered_tools_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_power_tools }
+		localization_key = EBF_power_tools_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_manufactory_lines }
+		localization_key = EBF_manufactory_lines_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_industrial_equipment_use }
+		localization_key = EBF_industrial_equipment_use_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_exoskeleton_assisted_production }
+		localization_key = EBF_exoskeleton_assisted_production_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_cutting_edge_exoskeletons }
+		localization_key = EBF_cutting_edge_exoskeletons_mod
+	}
+}
+
+defined_text = {
+	name = get_industrial_equipment_monthly_change_var
+	text = {
+		trigger = {
+			set_temp_variable = { industrial_equipment_monthly_change_tt = industrial_equipment_monthly_change }
+			add_to_temp_variable = { industrial_equipment_monthly_change_tt = modifier@industrial_equipment_monthly_rate }
+		}
+		localization_key = industrial_equipment_monthly_change_value_tt
+	}
+}
+
+defined_text = {
+	name = GetCate4socdevadministrativeefficiency
+	text = {
+		trigger = { has_idea = EBF_nonexistent_administration }
+		localization_key = EBF_nonexistent_administration
+	}
+	text = {
+		trigger = { has_idea = EBF_ineffectual_administration }
+		localization_key = EBF_ineffectual_administration
+	}	
+	text = {
+		trigger = { has_idea = EBF_widespread_corruption }
+		localization_key = EBF_widespread_corruption
+	}
+	text = {
+		trigger = { has_idea = EBF_cronyism }
+		localization_key = EBF_cronyism
+	}	
+	text = {
+		trigger = { has_idea = EBF_functional_administration }
+		localization_key = EBF_functional_administration
+	}	
+	text = {
+		trigger = { has_idea = EBF_streamlined_administration }
+		localization_key = EBF_streamlined_administration
+	}	
+	text = {
+		trigger = { has_idea = EBF_ai_assisted_administration }
+		localization_key = EBF_ai_assisted_administration
+	}	
+}
+
+defined_text = {
+	name = GetCate4socdevadministrativeefficiencymod
+	text = {
+		trigger = { has_idea = EBF_nonexistent_administration }
+		localization_key = EBF_nonexistent_administration_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_ineffectual_administration }
+		localization_key = EBF_ineffectual_administration_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_widespread_corruption }
+		localization_key = EBF_widespread_corruption_mod
+	}
+	text = {
+		trigger = { has_idea = EBF_cronyism }
+		localization_key = EBF_cronyism_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_functional_administration }
+		localization_key = EBF_functional_administration_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_streamlined_administration }
+		localization_key = EBF_streamlined_administration_mod
+	}	
+	text = {
+		trigger = { has_idea = EBF_ai_assisted_administration }
+		localization_key = EBF_ai_assisted_administration_mod
+	}
+}
+
+defined_text = {
+	name = get_administrative_efficiency_monthly_change_var
+	text = {
+		trigger = {
+			set_temp_variable = { administrative_efficiency_monthly_change_tt = administrative_efficiency_monthly_change }
+			add_to_temp_variable = { administrative_efficiency_monthly_change_tt = modifier@administrative_efficiency_monthly_rate }
+		}
+		localization_key = administrative_efficiency_monthly_change_value_tt
+	}
+}
+
+
+defined_text = {
+	name = Getcurrentconscriptionmin
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 8 } }
+		localization_key = EBF_scraping_the_barrel
+	}
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 7 } }
+		localization_key = EBF_all_adults_serve
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 6 } }
+		localization_key = EBF_service_by_requirement
+	}
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 5 } }
+		localization_key = EBF_four_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 4 } }
+		localization_key = EBF_two_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 3 } }
+		localization_key = EBF_one_year_draft
+	}
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 2 } }
+		localization_key = EBF_volunteer_only
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_min = 1 } }
+		localization_key = EBF_disarmed_nation
+	}
+}
+
+defined_text = {
+	name = Getcurrentconscriptionmax
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 8 } }
+		localization_key = EBF_scraping_the_barrel
+	}
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 7 } }
+		localization_key = EBF_all_adults_serve
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 6 } }
+		localization_key = EBF_service_by_requirement
+	}
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 5 } }
+		localization_key = EBF_four_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 4 } }
+		localization_key = EBF_two_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 3 } }
+		localization_key = EBF_one_year_draft
+	}
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 2 } }
+		localization_key = EBF_volunteer_only
+	}	
+	text = {
+		trigger = { check_variable = { conscription_allow_law_max = 1 } }
+		localization_key = EBF_disarmed_nation
+	}
+}
+
+defined_text = {
+	name = Getnewconscriptionmin
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 8 } }
+		localization_key = EBF_scraping_the_barrel
+	}
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 7 } }
+		localization_key = EBF_all_adults_serve
+	}	
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 6 } }
+		localization_key = EBF_service_by_requirement
+	}
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 5 } }
+		localization_key = EBF_four_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 4 } }
+		localization_key = EBF_two_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 3 } }
+		localization_key = EBF_one_year_draft
+	}
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 2 } }
+		localization_key = EBF_volunteer_only
+	}	
+	text = {
+		trigger = { check_variable = { new_min_conscription_boundry = 1 } }
+		localization_key = EBF_disarmed_nation
+	}
+}
+
+defined_text = {
+	name = Getnewconscriptionmax
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 8 } }
+		localization_key = EBF_scraping_the_barrel
+	}
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 7 } }
+		localization_key = EBF_all_adults_serve
+	}	
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 6 } }
+		localization_key = EBF_service_by_requirement
+	}
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 5 } }
+		localization_key = EBF_four_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 4 } }
+		localization_key = EBF_two_year_draft
+	}	
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 3 } }
+		localization_key = EBF_one_year_draft
+	}
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 2 } }
+		localization_key = EBF_volunteer_only
+	}	
+	text = {
+		trigger = { check_variable = { new_max_conscription_boundry = 1 } }
+		localization_key = EBF_disarmed_nation
+	}
+}
+
+defined_text = {
+	name = Getcurrenttrainingstandardmin
+	text = {
+		trigger = { check_variable = { training_standard_law_min = 1 } }
+		localization_key = EBF_no_training
+	}
+	text = {
+		trigger = { check_variable = { training_standard_law_min = 2 } }
+		localization_key = EBF_minimal_training
+	}	
+	text = {
+		trigger = { check_variable = { training_standard_law_min = 3 } }
+		localization_key = EBF_basic_training
+	}
+	text = {
+		trigger = { check_variable = { training_standard_law_min = 4 } }
+		localization_key = EBF_combat_schooling
+	}	
+	text = {
+		trigger = { check_variable = { training_standard_law_min = 5 } }
+		localization_key = EBF_advanced_schooling
+	}	
+}
+
+defined_text = {
+	name = Getcurrenttrainingstandardmax
+	text = {
+		trigger = { check_variable = { training_standard_law_max = 1 } }
+		localization_key = EBF_no_training
+	}
+	text = {
+		trigger = { check_variable = { training_standard_law_max = 2 } }
+		localization_key = EBF_minimal_training
+	}	
+	text = {
+		trigger = { check_variable = { training_standard_law_max = 3 } }
+		localization_key = EBF_basic_training
+	}
+	text = {
+		trigger = { check_variable = { training_standard_law_max = 4 } }
+		localization_key = EBF_combat_schooling
+	}	
+	text = {
+		trigger = { check_variable = { training_standard_law_max = 5 } }
+		localization_key = EBF_advanced_schooling
+	}	
+}
+
+defined_text = {
+	name = Getnewtrainingstandardmin
+	text = {
+		trigger = { check_variable = { new_min_training_standards_boundry = 1 } }
+		localization_key = EBF_no_training
+	}
+	text = {
+		trigger = { check_variable = { new_min_training_standards_boundry = 2 } }
+		localization_key = EBF_minimal_training
+	}	
+	text = {
+		trigger = { check_variable = { new_min_training_standards_boundry = 3 } }
+		localization_key = EBF_basic_training
+	}
+	text = {
+		trigger = { check_variable = { new_min_training_standards_boundry = 4 } }
+		localization_key = EBF_combat_schooling
+	}	
+	text = {
+		trigger = { check_variable = { new_min_training_standards_boundry = 5 } }
+		localization_key = EBF_advanced_schooling
+	}	
+}
+
+defined_text = {
+	name = Getnewtrainingstandardmax
+	text = {
+		trigger = { check_variable = { new_max_training_standards_boundry = 1 } }
+		localization_key = EBF_no_training
+	}
+	text = {
+		trigger = { check_variable = { new_max_training_standards_boundry = 2 } }
+		localization_key = EBF_minimal_training
+	}	
+	text = {
+		trigger = { check_variable = { new_max_training_standards_boundry = 3 } }
+		localization_key = EBF_basic_training
+	}
+	text = {
+		trigger = { check_variable = { new_max_training_standards_boundry = 4 } }
+		localization_key = EBF_combat_schooling
+	}	
+	text = {
+		trigger = { check_variable = { new_max_training_standards_boundry = 5 } }
+		localization_key = EBF_advanced_schooling
+	}
+}
+
+defined_text = {
+	name = Getcurrentpolicingmin
+	text = {
+		trigger = { check_variable = { policing_law_min = 1 } }
+		localization_key = EBF_no_policing
+	}
+	text = {
+		trigger = { check_variable = { policing_law_min = 2 } }
+		localization_key = EBF_community_outreach
+	}	
+	text = {
+		trigger = { check_variable = { policing_law_min = 3 } }
+		localization_key = EBF_ordinary_policing
+	}
+	text = {
+		trigger = { check_variable = { policing_law_min = 4 } }
+		localization_key = EBF_intimidation_policing
+	}	
+	text = {
+		trigger = { check_variable = { policing_law_min = 5 } }
+		localization_key = EBF_heavily_armed_policing
+	}	
+	text = {
+		trigger = { check_variable = { policing_law_min = 6 } }
+		localization_key = EBF_militarised_policing
+	}
+}
+
+
+defined_text = {
+	name = Getcurrentpolicingmax
+	text = {
+		trigger = { check_variable = { policing_law_max = 1 } }
+		localization_key = EBF_no_policing
+	}
+	text = {
+		trigger = { check_variable = { policing_law_max = 2 } }
+		localization_key = EBF_community_outreach
+	}	
+	text = {
+		trigger = { check_variable = { policing_law_max = 3 } }
+		localization_key = EBF_ordinary_policing
+	}
+	text = {
+		trigger = { check_variable = { policing_law_max = 4 } }
+		localization_key = EBF_intimidation_policing
+	}	
+	text = {
+		trigger = { check_variable = { policing_law_max = 5 } }
+		localization_key = EBF_heavily_armed_policing
+	}	
+	text = {
+		trigger = { check_variable = { policing_law_max = 6 } }
+		localization_key = EBF_militarised_policing
+	}
+}
+
+defined_text = {
+	name = Getnewpolicingmin
+	text = {
+		trigger = { check_variable = { new_min_policing_boundry = 1 } }
+		localization_key = EBF_no_policing
+	}
+	text = {
+		trigger = { check_variable = { new_min_policing_boundry = 2 } }
+		localization_key = EBF_community_outreach
+	}	
+	text = {
+		trigger = { check_variable = { new_min_policing_boundry = 3 } }
+		localization_key = EBF_ordinary_policing
+	}
+	text = {
+		trigger = { check_variable = { new_min_policing_boundry = 4 } }
+		localization_key = EBF_intimidation_policing
+	}	
+	text = {
+		trigger = { check_variable = { new_min_policing_boundry = 5 } }
+		localization_key = EBF_heavily_armed_policing
+	}	
+	text = {
+		trigger = { check_variable = { new_min_policing_boundry = 6 } }
+		localization_key = EBF_militarised_policing
+	}
+}
+
+defined_text = {
+	name = Getnewpolicingmax
+	text = {
+		trigger = { check_variable = { new_max_policing_boundry = 1 } }
+		localization_key = EBF_no_policing
+	}
+	text = {
+		trigger = { check_variable = { new_max_policing_boundry = 2 } }
+		localization_key = EBF_community_outreach
+	}	
+	text = {
+		trigger = { check_variable = { new_max_policing_boundry = 3 } }
+		localization_key = EBF_ordinary_policing
+	}
+	text = {
+		trigger = { check_variable = { new_max_policing_boundry = 4 } }
+		localization_key = EBF_intimidation_policing
+	}	
+	text = {
+		trigger = { check_variable = { new_max_policing_boundry = 5 } }
+		localization_key = EBF_heavily_armed_policing
+	}	
+	text = {
+		trigger = { check_variable = { new_max_policing_boundry = 6 } }
+		localization_key = EBF_militarised_policing
+	}
+}
+
+
+defined_text = {
+	name = Getcurrentmilitarysupervisionmin
+	text = {
+		trigger = { check_variable = { military_supervision_law_min = 6 } }
+		localization_key = EBF_no_restrictions
+	}
+	text = {
+		trigger = { check_variable = { military_supervision_law_min = 5 } }
+		localization_key = EBF_minimal_supervision
+	}	
+	text = {
+		trigger = { check_variable = { military_supervision_law_min = 4 } }
+		localization_key = EBF_military_police
+	}
+	text = {
+		trigger = { check_variable = { military_supervision_law_min = 3 } }
+		localization_key = EBF_rules_of_engagement
+	}	
+	text = {
+		trigger = { check_variable = { military_supervision_law_min = 2 } }
+		localization_key = EBF_modernised_rules_of_war
+	}	
+	text = {
+		trigger = { check_variable = { military_supervision_law_min = 1 } }
+		localization_key = EBF_ethical_battlefield_supervision
+	}
+}
+
+
+defined_text = {
+	name = Getcurrentmilitarysupervisionmax
+	text = {
+		trigger = { check_variable = { military_supervision_law_max = 6 } }
+		localization_key = EBF_no_restrictions
+	}
+	text = {
+		trigger = { check_variable = { military_supervision_law_max = 5 } }
+		localization_key = EBF_minimal_supervision
+	}	
+	text = {
+		trigger = { check_variable = { military_supervision_law_max = 4 } }
+		localization_key = EBF_military_police
+	}
+	text = {
+		trigger = { check_variable = { military_supervision_law_max = 3 } }
+		localization_key = EBF_rules_of_engagement
+	}	
+	text = {
+		trigger = { check_variable = { military_supervision_law_max = 2 } }
+		localization_key = EBF_modernised_rules_of_war
+	}	
+	text = {
+		trigger = { check_variable = { military_supervision_law_max = 1 } }
+		localization_key = EBF_ethical_battlefield_supervision
+	}
+}
+
+defined_text = {
+	name = Getnewmilitarysupervisionmin
+	text = {
+		trigger = { check_variable = { new_min_military_supervision_boundry = 6 } }
+		localization_key = EBF_no_restrictions
+	}
+	text = {
+		trigger = { check_variable = { new_min_military_supervision_boundry = 5 } }
+		localization_key = EBF_minimal_supervision
+	}	
+	text = {
+		trigger = { check_variable = { new_min_military_supervision_boundry = 4 } }
+		localization_key = EBF_military_police
+	}
+	text = {
+		trigger = { check_variable = { new_min_military_supervision_boundry = 3 } }
+		localization_key = EBF_rules_of_engagement
+	}	
+	text = {
+		trigger = { check_variable = { new_min_military_supervision_boundry = 2 } }
+		localization_key = EBF_modernised_rules_of_war
+	}	
+	text = {
+		trigger = { check_variable = { new_min_military_supervision_boundry = 1 } }
+		localization_key = EBF_ethical_battlefield_supervision
+	}
+}
+
+defined_text = {
+	name = Getnewpmilitarysupervisionmax
+	text = {
+		trigger = { check_variable = { new_max_military_supervision_boundry = 6 } }
+		localization_key = EBF_no_restrictions
+	}
+	text = {
+		trigger = { check_variable = { new_max_military_supervision_boundry = 5 } }
+		localization_key = EBF_minimal_supervision
+	}	
+	text = {
+		trigger = { check_variable = { new_max_military_supervision_boundry = 4 } }
+		localization_key = EBF_military_police
+	}
+	text = {
+		trigger = { check_variable = { new_max_military_supervision_boundry = 3 } }
+		localization_key = EBF_rules_of_engagement
+	}	
+	text = {
+		trigger = { check_variable = { new_max_military_supervision_boundry = 2 } }
+		localization_key = EBF_modernised_rules_of_war
+	}	
+	text = {
+		trigger = { check_variable = { new_max_military_supervision_boundry = 1 } }
+		localization_key = EBF_ethical_battlefield_supervision
+	}
+}
+
+
+defined_text = {
+	name = Getcurrentmilitaryethicsmin
+	text = {
+		trigger = { check_variable = { ethics_law_min = 3 } }
+		localization_key = EBF_banned_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { ethics_law_min = 2 } }
+		localization_key = EBF_restricted_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { ethics_law_min = 1 } }
+		localization_key = EBF_unrestricted_wmds_ethics
+	}
+}
+
+
+defined_text = {
+	name = Getcurrentmilitaryethicsmax
+	text = {
+		trigger = { check_variable = { ethics_law_max = 3 } }
+		localization_key = EBF_banned_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { ethics_law_max = 2 } }
+		localization_key = EBF_restricted_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { ethics_law_max = 1 } }
+		localization_key = EBF_unrestricted_wmds_ethics
+	}
+}
+
+defined_text = {
+	name = Getnewmilitaryethicsmin
+	text = {
+		trigger = { check_variable = { new_min_military_ethics_boundry = 3 } }
+		localization_key = EBF_banned_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { new_min_military_ethics_boundry = 2 } }
+		localization_key = EBF_restricted_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { new_min_military_ethics_boundry = 1 } }
+		localization_key = EBF_unrestricted_wmds_ethics
+	}
+}
+
+defined_text = {
+	name = Getnewmilitaryethicsmax
+	text = {
+		trigger = { check_variable = { new_max_military_ethics_boundry = 3 } }
+		localization_key = EBF_banned_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { new_max_military_ethics_boundry = 2 } }
+		localization_key = EBF_restricted_wmds_ethics
+	}	
+	text = {
+		trigger = { check_variable = { new_max_military_ethics_boundry = 1 } }
+		localization_key = EBF_unrestricted_wmds_ethics
+	}
+}

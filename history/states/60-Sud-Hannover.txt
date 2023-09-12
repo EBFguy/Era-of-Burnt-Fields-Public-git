@@ -1,0 +1,30 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 4347747
+	
+	state_category = large_city
+
+	history={
+		add_core_of = SAX
+		owner = SAX
+		victory_points = { 3561 5 }
+		victory_points = { 425 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 3
+				arms_factory = 2
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		425 482 538 3500 3561 6501 6524 6582 9497 
+	}
+}

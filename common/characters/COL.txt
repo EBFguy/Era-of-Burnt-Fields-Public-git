@@ -1,0 +1,15 @@
+characters = {
+	COL_Juan_Carlos_Franco = {
+		name = COL_Juan_Carlos_Franco
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			ideology = fascist_neo_fascism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JUAN_CARLOS_FRANCO_DESC"
+		}
+	}
+}

@@ -1,0 +1,3409 @@
+technologies = {
+	MBT2040 = {
+		#Pre-2040s Main Battle Tank
+		enable_equipments = {
+			MBT_equipment_0
+		}
+		enable_subunits = {
+			MBT
+		}
+		research_cost = 1.5
+		start_year = 2040
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		path = {
+			leads_to_tech = MBT2050 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	MBT2050 = {
+		#Pre-2050s Main Battle Tank
+		enable_equipments = {
+			MBT_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = MBT2062 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2062 = {
+		#Experimental Railgun Equipped Main Battle Tank
+		enable_equipments = {
+			MBT_equipment_2
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = MBT2062_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MBT2062_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = MBT2068
+			research_cost_coeff = 1
+		}				
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2062_0_0 = {
+		#Improved Electromagnets
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 11
+			}
+		}
+		path = {
+			leads_to_tech = MBT2062_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	MBT2062_0_1 = {
+		#Further Improved Electromagnets
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 13
+			}
+		}
+		path = {
+			leads_to_tech = MBT2062_0_2 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2062_0_2 = {
+		#Finalised Electromagnets
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 15
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2062_1_0 = {
+		#Improved Electricity Generators
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 11
+			}
+		}
+		path = {
+			leads_to_tech = MBT2062_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2062_1_1 = {
+		#Further Improved Electricity Generators
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 13
+			}
+		}
+		path = {
+			leads_to_tech = MBT2062_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2062_1_2 = {
+		#Finalised Electricity Generator
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 15
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2068 = {
+		#Railgun Equipped Main Battle Tank
+		enable_equipments = {
+			MBT_equipment_3
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 18
+			}
+		}
+		path = {
+			leads_to_tech = MBT2068_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MBT2068_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = MBT2074
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = HT2074
+			research_cost_coeff = 1
+		}			
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	MBT2068_0_0 = {
+		#Improved Terrain Adaptation Tracks
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 21
+			}
+		}
+		path = {
+			leads_to_tech = MBT2068_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2068_0_1 = {
+		#Further Improved Terrain Adaptation Tracks
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 23
+			}
+		}
+		path = {
+			leads_to_tech = MBT2068_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT2068_0_2 = {
+		#Finalised Terrain Adaptation Tracks
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 25
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2068_1_0 = {
+		#Improved Secondary Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 21
+			}
+		}
+		path = {
+			leads_to_tech = MBT2068_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2068_1_1 = {
+		#Further Improved Secondary Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 23
+			}
+		}
+		path = {
+			leads_to_tech = MBT2068_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT2068_1_2 = {
+		#Finalised Secondary Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 25
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2074 = {
+		#Conventional Main Battle Tank
+		enable_equipments = {
+			MBT_equipment_4
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 28
+			}
+		}
+		path = {
+			leads_to_tech = MBT2074_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MBT2074_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = MBT2080
+			research_cost_coeff = 1
+		}	
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	MBT2074_0_0 = {
+		#Electromagnetic Armour Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 31
+			}
+		}
+		XOR = {
+			MBT2074_1_0
+		}
+		path = {
+			leads_to_tech = MBT2074_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2074_0_1 = {
+		#Improved Electromagnetic Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = MBT2074_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT2074_0_2 = {
+		#Finalised Electromagnetic Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2074_1_0 = {
+		#Improved Composite Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 31
+			}
+		}
+		XOR = {
+			MBT2074_0_0
+		}
+		path = {
+			leads_to_tech = MBT2074_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2074_1_1 = {
+		#Further Improved Composite Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = MBT2074_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT2074_1_2 = {
+		#Finalised Composite Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}			
+
+	MBT2080 = {
+		#Main Ground Assault Tank
+		enable_equipments = {
+			MBT_equipment_5
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = MBT2080_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MBT2080_1_0 
+			research_cost_coeff = 1
+		}		
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	MBT2080_0_0 = {
+		#Encouraged use of Liomethate
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 41
+			}
+		}
+		path = {
+			leads_to_tech = MBT2080_0_1 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			MBT2080_1_0
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2080_0_1 = {
+		#Continual Liomethane Pumps
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = MBT2080_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT2080_0_2 = {
+		#Fully Integrated Tank Team 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	MBT2080_1_0 = {
+		#Autonomous Navigation Gear
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 41
+			}
+		}
+		XOR = {
+			MBT2080_0_0
+		}
+		path = {
+			leads_to_tech = MBT2080_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	MBT2080_1_1 = {
+		#Overarching AI Integration 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = MBT2080_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MBT2080_1_2 = {
+		#Individualised Tank Sentience
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	#HOVERTANKS 
+
+	HT2074 = {
+		#Experimental Hover Tank
+		enable_equipments = {
+			HT_equipment_0
+		}
+		enable_subunits = {
+			Hover_Tank
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 5
+				y = 28
+			}
+		}
+		path = {
+			leads_to_tech = HT2074_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = HT2074_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = HT2080
+			research_cost_coeff = 1
+		}			
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	HT2074_0_0 = {
+		#Conventional Tank Gun Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 4
+				y = 31
+			}
+		}
+		XOR = {
+			HT2074_1_0
+		}
+		path = {
+			leads_to_tech = HT2074_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	HT2074_0_1 = {
+		#Improved Conventional Tank Gun
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 4
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = HT2074_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	HT2074_0_2 = {
+		#Finalised Light Conventional Tank Gun
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 4
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	HT2074_1_0 = {
+		#Light Railgun Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 6
+				y = 31
+			}
+		}
+		XOR = {
+			HT2074_0_0
+		}
+		path = {
+			leads_to_tech = HT2074_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	HT2074_1_1 = {
+		#Improved Light Railgun
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 6
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = HT2074_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	HT2074_1_2 = {
+		#Finalised Light Railgun
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 6
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}				
+
+	HT2080 = {
+		#Main Hover Assisted Assault Tank
+		enable_equipments = {
+			HT_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 5
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = HT2080_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = HT2080_1_0 
+			research_cost_coeff = 1
+		}				
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	HT2080_0_0 = {
+		#Hostile Terrain Analysis 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 4
+				y = 41
+			}
+		}
+		XOR = {
+			HT2080_1_0
+		}
+		path = {
+			leads_to_tech = HT2080_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	HT2080_0_1 = {
+		#Integrated Biological-Mechanical Parts
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 4
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = HT2080_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	HT2080_0_2 = {
+		#Tank Wide Nervous System
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 4
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	HT2080_1_0 = {
+		#Flesh-Armour Moulding 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 6
+				y = 41
+			}
+		}
+		XOR = {
+			HT2080_0_0
+		}
+		path = {
+			leads_to_tech = HT2080_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	HT2080_1_1 = {
+		#Nanomachine Enhanced F-A Synthetisation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 6
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = HT2080_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	HT2080_1_2 = {
+		#Human-Tank Hybrid
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 6
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			MBT_armour_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#IFV TECH
+	
+	IFV2040 = {
+		#Pre-2040s Infantry Fighting Vehicle 
+		enable_equipments = {
+			IFV_equipment_0
+		}
+		enable_subunits = {
+			motorized
+		}
+		research_cost = 1.5
+		start_year = 2040
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		path = {
+			leads_to_tech = IFV2050 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2050 = {
+		#Pre-2050s Infantry Fighting Vehicle 
+		enable_equipments = {
+			IFV_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = IFV2062
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2062 = {
+		#Modern Infantry Fighting Vehicle 
+		enable_equipments = {
+			IFV_equipment_2
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = IFV2062_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = IFV2062_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = IFV2068
+			research_cost_coeff = 1
+		}	
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2062_0_0 = {
+		#Hardened Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 11
+			}
+		}
+		path = {
+			leads_to_tech = IFV2062_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	IFV2062_0_1 = {
+		#Further Hardened Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 13
+			}
+		}
+		path = {
+			leads_to_tech = IFV2062_0_2 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2062_0_2 = {
+		#Finalised Hardened Armour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 15
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2062_1_0 = {
+		#Improved Off Road Mobility
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 11
+			}
+		}
+		path = {
+			leads_to_tech = IFV2062_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2062_1_1 = {
+		#Further Improved Off Road Mobility
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 13
+			}
+		}
+		path = {
+			leads_to_tech = IFV2062_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2062_1_2 = {
+		#Finalised Off Road Mobility
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 15
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2068 = {
+		#Improved Modern Infantry Fighting Vehicle
+		enable_equipments = {
+			IFV_equipment_3
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 18
+			}
+		}
+		path = {
+			leads_to_tech = IFV2068_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = IFV2068_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = IFV2074
+			research_cost_coeff = 1
+		}				
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	IFV2068_0_0 = {
+		#Improved Internal Repair Kits
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 21
+			}
+		}
+		path = {
+			leads_to_tech = IFV2068_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2068_0_1 = {
+		#Further Improved Internal Repair Kits
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 23
+			}
+		}
+		path = {
+			leads_to_tech = IFV2068_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2068_0_2 = {
+		#Finalised Internal Repair Kits
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 25
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2068_1_0 = {
+		#Improved Urban Defence Capabilities 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 21
+			}
+		}
+		path = {
+			leads_to_tech = IFV2068_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2068_1_1 = {
+		#Further Improved Urban Defence Capabilities
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 23
+			}
+		}
+		path = {
+			leads_to_tech = IFV2068_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2068_1_2 = {
+		#Improved Urban Defence Capabilities
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 25
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2074 = {
+		#Further Improved Modern Infantry Fighting Vehicle
+		enable_equipments = {
+			IFV_equipment_4
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 28
+			}
+		}
+		path = {
+			leads_to_tech = IFV2074_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = IFV2074_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = IFV2080
+			research_cost_coeff = 1
+		}	
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2074_0_0 = {
+		#Light Railgun Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 31
+			}
+		}
+		XOR = {
+			IFV2074_1_0
+		}
+		path = {
+			leads_to_tech = IFV2074_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2074_0_1 = {
+		#Improved Light Railgun
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = IFV2074_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2074_0_2 = {
+		#Finalised Light Railgun
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2074_1_0 = {
+		#Secondary Anti-Air Gun Implementation 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 31
+			}
+		}
+		XOR = {
+			IFV2074_0_0
+		}
+		path = {
+			leads_to_tech = IFV2074_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2074_1_1 = {
+		#Improved Secondary Anti-Air Gun 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = IFV2074_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2074_1_2 = {
+		#Finalised Secondary Anti-Air Gun 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	IFV2080 = {
+		#Infantry Assault Vehicle 
+		enable_equipments = {
+			IFV_equipment_5
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = IFV2080_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = IFV2080_1_0 
+			research_cost_coeff = 1
+		}		
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	IFV2080_0_0 = {
+		#External Subliminal Transmissions
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 41
+			}
+		}
+		path = {
+			leads_to_tech = IFV2080_0_1 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			IFV2080_1_0
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2080_0_1 = {
+		#Improved Selective Subliminal Transmissions
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = IFV2080_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2080_0_2 = {
+		#Synthetic Fervour
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2080_1_0 = {
+		#Autonomous Navigation Gear
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 41
+			}
+		}
+		XOR = {
+			IFV2080_0_0
+		}
+		path = {
+			leads_to_tech = IFV2080_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	IFV2080_1_1 = {
+		#Overarching AI Integration 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = IFV2080_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	IFV2080_1_2 = {
+		#Individualised Tank Sentience
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	#APC TECH
+
+	APC2040 = {
+		#Pre-2040s Armoured Personnel Carrier
+		enable_equipments = {
+			APC_equipment_0
+		}
+		enable_subunits = {
+			mechanized
+		}
+		research_cost = 1.5
+		start_year = 2040
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		path = {
+			leads_to_tech = APC2050 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2050 = {
+		#Pre-2050s Armoured Personnel Carrier
+		enable_equipments = {
+			APC_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = APC2062
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2062 = {
+		#Modern Armoured Personnel Carrier 
+		enable_equipments = {
+			APC_equipment_2
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = APC2062_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = APC2062_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = APC2068
+			research_cost_coeff = 1
+		}	
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2062_0_0 = {
+		#Improved Infantry Support Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 11
+			}
+		}
+		path = {
+			leads_to_tech = APC2062_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	APC2062_0_1 = {
+		#Further Improved Infantry Support Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 13
+			}
+		}
+		path = {
+			leads_to_tech = APC2062_0_2 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2062_0_2 = {
+		#Finalised Improved Infantry Support Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 15
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2062_1_0 = {
+		#Improved Most Viable Route Scan
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 11
+			}
+		}
+		path = {
+			leads_to_tech = APC2062_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2062_1_1 = {
+		#Further Improved Most Viable Route Scan
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 13
+			}
+		}
+		path = {
+			leads_to_tech = APC2062_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2062_1_2 = {
+		#Finalised Most Viable Route Scan
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2062
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 15
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2068 = {
+		#Improved Modern Armoured Personnel Carrier
+		enable_equipments = {
+			APC_equipment_3
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 18
+			}
+		}
+		path = {
+			leads_to_tech = APC2068_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = APC2068_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = APC2074
+			research_cost_coeff = 1
+		}				
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	APC2068_0_0 = {
+		#Improved Secondary Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 21
+			}
+		}
+		path = {
+			leads_to_tech = APC2068_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2068_0_1 = {
+		#Further Improved Secondary Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 23
+			}
+		}
+		path = {
+			leads_to_tech = APC2068_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2068_0_2 = {
+		#Finalised Improved Secondary Weaponry
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 25
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2068_1_0 = {
+		#Improved Survivability Ratio 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 21
+			}
+		}
+		path = {
+			leads_to_tech = APC2068_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2068_1_1 = {
+		#Further Improved Survivability Ratio
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 23
+			}
+		}
+		path = {
+			leads_to_tech = APC2068_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2068_1_2 = {
+		#Finalised Improved Survivability Ratio
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 25
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2074 = {
+		#Further Improved Modern Armoured Personnel Carrier
+		enable_equipments = {
+			APC_equipment_4
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 28
+			}
+		}
+		path = {
+			leads_to_tech = APC2074_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = APC2074_1_0 
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = APC2080
+			research_cost_coeff = 1
+		}	
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2074_0_0 = {
+		#Ultra Light Railgun Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 31
+			}
+		}
+		XOR = {
+			APC2074_1_0
+		}
+		path = {
+			leads_to_tech = APC2074_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2074_0_1 = {
+		#Improved Ultra Light Railgun Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = APC2074_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2074_0_2 = {
+		#Finalised Ultra Light Railgun Implementation
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2074_1_0 = {
+		#Improved River Assault Coordination Tactics 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 31
+			}
+		}
+		XOR = {
+			APC2074_0_0
+		}
+		path = {
+			leads_to_tech = APC2074_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2074_1_1 = {
+		#Further Improved River Assault Coordination Tactics 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 33
+			}
+		}
+		path = {
+			leads_to_tech = APC2074_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2074_1_2 = {
+		#Finalised Improved River Assault Coordination Tactics 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 35
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	APC2080 = {
+		#Armoured Assault Carrier
+		enable_equipments = {
+			APC_equipment_5
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 38
+			}
+		}
+		path = {
+			leads_to_tech = APC2080_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = APC2080_1_0 
+			research_cost_coeff = 1
+		}		
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	APC2080_0_0 = {
+		#Mass Production Schematics 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 41
+			}
+		}
+		path = {
+			leads_to_tech = APC2080_0_1 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			APC2080_1_0
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2080_0_1 = {
+		#Individualised Defence Pods
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = APC2080_0_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2080_0_2 = {
+		#Ramming Manoeuvre
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -1
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2080_1_0 = {
+		#Autonomous Navigation Gear
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 41
+			}
+		}
+		XOR = {
+			APC2080_0_0
+		}
+		path = {
+			leads_to_tech = APC2080_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	APC2080_1_1 = {
+		#Overarching AI Integration 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 43
+			}
+		}
+		path = {
+			leads_to_tech = APC2080_1_2
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	APC2080_1_2 = {
+		#Individualised Tank Sentience
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 1
+				y = 45
+			}
+		}
+		categories = {
+			armor
+			APC_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#SKELL TECH
+	
+	SKELL2074 = {
+		#Prototype Skell Armour
+		enable_equipments = {
+			SKELL_equipment_0
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2076 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2076 = {
+		#Sahelanthropus Type Skell
+		enable_equipments = {
+			SKELL_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 0
+				y = 2
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2078_0 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = SKELL2078_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2078_0 = {
+		#Mark 1 Ardipithecus Type Skell
+		enable_equipments = {
+			SKELL_walker_equipment_0
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -5
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2080_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2080_0_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2080_0_0 = {
+		#Lunar Titanium Derivative Reliant Bolts
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -7
+				y = 6
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2082_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2082_0_1 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			SKELL2080_0_1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2080_0_1 = {
+		#Super Heated Munition Rounds
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -3
+				y = 6
+			}
+		}
+		XOR = {
+			SKELL2080_0_0
+		}
+		path = {
+			leads_to_tech = SKELL2082_0_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2082_0_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2082_0_0 = {
+		#Propulsion Assisted Flight
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -7
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2084_0
+			research_cost_coeff = 1
+		}
+		XOR = {
+			SKELL2082_0_1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2082_0_1 = {
+		#Improved Kinetic Dampener
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -3
+				y = 8
+			}
+		}
+		XOR = {
+			SKELL2082_0_0
+		}
+		path = {
+			leads_to_tech = SKELL2084_0
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SKELL2084_0 = {
+		#Mark 2 Ardipithecus  Rex Type Skell
+		enable_equipments = {
+			SKELL_walker_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -5
+				y = 10
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2086_0_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2086_0_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2086_0_0 = {
+		#Propulsion Assisted Flight
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -7
+				y = 12
+			}
+		}
+		XOR = {
+			SKELL2086_0_1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2086_0_1 = {
+		#Improved Kinetic Dampener
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = -3
+				y = 12
+			}
+		}
+		XOR = {
+			SKELL2086_0_0
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2078_1 = {
+		#Mark 1 Habilis Type Skell
+		enable_equipments = {
+			SKELL_platform_equipment_0
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 5
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2080_1_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2080_1_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2080_1_0 = {
+		#Proximity Morale Horn
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 7
+				y = 6
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2082_1_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2082_1_1 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			SKELL2080_1_1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2080_1_1 = {
+		#Omni Directional Weapons Platform Movement
+
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 3
+				y = 6
+			}
+		}
+		XOR = {
+			SKELL2080_1_0
+		}
+		path = {
+			leads_to_tech = SKELL2082_1_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2082_1_1 
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2082_1_0 = {
+		#Ray Armoury 
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 7
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2084_1
+			research_cost_coeff = 1
+		}
+		XOR = {
+			SKELL2082_1_1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2082_1_1 = {
+		#Excelsus Armoury
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 3
+				y = 8
+			}
+		}
+		XOR = {
+			SKELL2082_1_0
+		}
+		path = {
+			leads_to_tech = SKELL2084_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SKELL2084_1 = {
+		#Mark 2 Habilis Gander Type Skell
+		enable_equipments = {
+			SKELL_platform_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 5
+				y = 10
+			}
+		}
+		path = {
+			leads_to_tech = SKELL2086_1_0 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SKELL2086_1_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2086_1_0 = {
+		#Primary Gargantuan Railgun weapon
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 3
+				y = 12
+			}
+		}
+		XOR = {
+			SKELL2086_1_0
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	SKELL2086_1_1 = {
+		#Autonomous Flying Attack Swarm
+		exoskeleton = {
+			maximum_speed = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = vehicles_folder
+			position = {
+				x = 7
+				y = 12
+			}
+		}
+		XOR = {
+			SKELL2086_1_1
+		}
+		categories = {
+			armor
+			IFV_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}			
+}

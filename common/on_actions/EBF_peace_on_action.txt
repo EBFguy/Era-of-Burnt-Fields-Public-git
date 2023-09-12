@@ -1,0 +1,625 @@
+on_actions = {
+	#### PEACE/WAR VICTORY ON_CAPITULATION BLOCK ####
+	# Amongus
+
+	# FROM = winner
+	# ROOT = country being capitulated/loser
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+
+			set_global_flag = show_peace_popup_alert
+			FROM = {
+				save_global_event_target_as = winning_country
+			}
+			ROOT = {
+				save_global_event_target_as = losing_country
+			}
+
+			log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+			if = {
+				limit = {
+					event_target:losing_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:losing_country
+						}
+					}
+				}
+				set_global_flag = losing_country_multiple
+			}
+
+			if = {
+				limit = {
+					event_target:winning_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:winning_country
+						}
+					}
+				}
+				set_global_flag = winning_country_multiple
+			}
+			add_to_variable = { global.peace_popup_dirty = 1 }
+
+			#Annexation block
+			#This if block will only fire if FROM (capitulator) and ROOT (country being capitulated)
+			#That is to say, if one side has completely lost (nobody left to fight on)
+			if = {
+				limit = {
+					NOT = {
+						ROOT = {
+							has_country_flag = EBF_DO_NOT_DELETE_ME # Seriously don't 
+						}
+					}
+				}
+				log = "war_won"
+				set_global_flag = war_won
+
+				if = {
+					limit = {
+						FROM = {
+							is_central_asian_nation = yes
+						}
+						ROOT = {
+							is_central_asian_nation = yes
+						}
+					}
+					Central_Asian_capitulation_effect = yes
+				}
+
+				else_if = { #First Army humilation
+					limit = {
+						FROM = {
+							is_european_warlord_nation = yes
+						}
+						ROOT = {
+							is_european_warlord_nation = yes
+						}
+					}
+					EUROPE_capitulation_effect = yes
+				}	
+
+				else_if = { #First Army humilation
+					limit = {
+						FROM = {
+							tag = RDL
+						}
+						ROOT = {
+							tag = FAR
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #Red Legion Conquests
+					limit = {
+						FROM = {
+							tag = RDL
+						}
+						ROOT = {
+							OR = {
+								tag = FAR
+								tag = PAK
+								tag = KAS
+								tag = HIN
+								tag = CID
+								tag = MAH
+							}
+							
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #The Final Battle of North India, Red Legion victoy
+					limit = {
+						FROM = {
+							tag = RDL
+						}
+						ROOT = {
+							tag = IND
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					RDL = {
+						set_cosmetic_tag = RDL_india_unified			
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #The Final Battle of North India, Unification Government Victory
+					limit = {
+						FROM = {
+							tag = IND
+						}
+						ROOT = {
+							tag = RDL
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #Ulster Pacification, Ulster victory
+					limit = {
+						FROM = {
+							tag = ULS
+						}
+						ROOT = {
+							tag = BIF
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_capital = {
+							state = 848
+							remember_old_capital = no
+						}
+						BIF = {
+							remove_state_core = 345
+						}
+						random_list = {
+							50 = {
+								country_event = {
+									id = ireland_skeleton.1
+									days = 10
+								}
+							}
+							50 = {
+								country_event = {
+									id = ireland_skeleton.2
+									days = 10
+								}
+							}
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #Ulster Pacification, Belfast victory
+					limit = {
+						FROM = {
+							tag = BIF
+						}
+						ROOT = {
+							tag = ULS
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_cosmetic_tag = BIF_unionist_forces
+						BIF = {
+							country_event = {
+								id = ireland_skeleton.3
+								days = 10
+							}
+						}
+						ULS = {
+							remove_state_core = 853
+							remove_state_core = 119
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				else_if = { #Second Irish Civil War, Sons of Ireland victory
+					limit = {
+						FROM = {
+							tag = ULS
+						}
+						ROOT = {
+							tag = IRE
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_cosmetic_tag = ULS_united_ireland
+						set_global_flag = WORLD_WILL_NO_NEGOTIATE_IRELAND
+						set_capital = {
+							state = 113
+							remember_old_capital = no
+						}
+						every_state = {
+							limit = {
+								is_core_of = IRE
+							}
+							add_core_of = BIF
+							add_claim_by = IRE
+							remove_core_of = IRE
+						}		
+						every_country = { news_event = news_event.30 }				
+					}
+					set_global_flag = skip_default_capitulation
+				}		
+
+				else_if = { #Second Irish Civil War, Ireland victory
+					limit = {
+						FROM = {
+							tag = IRE
+						}
+						ROOT = {
+							OR = {
+								tag = ULS
+								tag = BIF
+							}
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}	
+						if = {
+							limit = {
+								ROOT = {
+									tag = ULS
+								}
+								
+							}
+							every_country = { news_event = news_event.32 }	
+						}	
+
+						if = {
+							limit = {
+								ROOT = {
+									tag = BIF
+								}
+							}
+							
+							every_country = { news_event = news_event.33 }	
+						}
+						every_state = {
+							limit = {
+								or = {
+									is_core_of = ULS
+									is_core_of = BIF
+								}
+							}
+							remove_core_of = ULS
+							remove_core_of = BIF
+						}										
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #Second Irish Civil War, Belfast victory
+					limit = {
+						FROM = {
+							tag = BIF
+						}
+						ROOT = {
+							tag = IRE
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_global_flag = WORLD_UNIONIST_IRELAND
+						every_country = { news_event = news_event.31 }	
+						BIF = {
+							set_cosmetic_tag = BIF_united_ireland
+							add_ideas = BIF_the_crown_will_reign				
+							set_country_leader_description = {
+								ideology = anocracy
+								desc = POLITICS_JAYDEN_ROCHFORT_IRELAND_DESC
+							}
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}	
+				
+				else_if = { #Battle of Hokkaido
+					limit = {
+						FROM = {
+							OR = {
+								tag = INT
+								tag = VEA
+							}
+						}
+						ROOT = {
+							OR = {
+								tag = INT
+								tag = VEA
+							}
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+					set_global_flag = skip_default_capitulation
+				}
+				
+				else_if = { #Korean Civil War
+					limit = {
+						FROM = { is_korean_warlord_nation = yes }
+						ROOT = { is_korean_warlord_nation = yes }
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						every_state = {
+							limit = {
+								is_core_of = ROOT
+							}
+							remove_core_of = ROOT
+						}  						
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				else_if = { #Yucatan war, ZAP SIDE ONLY, YUC SIDE MANAGED THROUGH SEPERATE ON ACTION
+					limit = {
+						FROM = { 
+							tag = ZAP
+						}
+						ROOT = { 
+							tag = YUC
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						every_state = {
+							limit = {
+								is_core_of = ROOT
+							}
+							remove_core_of = ROOT
+						}  						
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				else_if = { #Mauritania action, WACDEP victory always expected
+					limit = {
+						FROM = { 
+							tag = MAU
+						}
+						ROOT = { 
+							tag = WMU
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						every_state = {
+							limit = {
+								is_core_of = ROOT
+							}
+							remove_core_of = ROOT
+						}  		
+						NIG = {
+							add_to_faction = MAU
+						}				
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				else_if = { #Maghreb revolutionary War - Morocco
+					limit = {
+						FROM = { 
+							tag = MOR
+						}
+						ROOT = { 
+							tag = MAG
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						every_state = {
+							limit = {
+								is_core_of = ROOT
+							}
+							remove_core_of = ROOT
+						}  					
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				else_if = { #Great Middle Eastern War - SAUDI LOSS
+					limit = {
+						FROM = { 
+							OR = {
+								tag = IRA
+								is_in_faction_with = IRA
+							}
+						}
+						ROOT = { 
+							tag = SAU
+						}
+						NOT = {has_global_flag = EBF_GMEW_great_middle_east_war_over}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						EBF_GMEW_Gulf_Union_victory_effects = yes
+					}		
+					set_global_flag = skip_default_capitulation
+				}	
+
+				else_if = { #Australian Civil War
+					limit = {
+						FROM = { 
+							OR = {
+								tag = AST
+								tag = CST
+								tag = PRT
+								tag = STM
+								tag = CDF
+							}
+						}
+						ROOT = { 
+							OR = {
+								tag = AST
+								tag = CST
+								tag = PRT
+								tag = STM
+								tag = CDF
+							}
+						}
+						has_global_flag = EBF_AUSTRALIAN_CIVIL_WAR_ONGOING
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}		
+					ROOT = {
+						every_state = {
+							limit = {
+								is_core_of = ROOT
+							}
+							remove_core_of = ROOT
+						} 
+					}
+					set_global_flag = skip_default_capitulation
+				}
+
+				else_if = { #Great Middle Eastern War - SAUDI LOSS
+					limit = {
+						FROM = { 
+							OR = {
+								tag = IRA
+								is_in_faction_with = IRA
+							}
+						}
+						ROOT = { 
+							OR = {
+								tag = SAU
+								is_in_faction_with = SAU
+							}
+						}
+						NOT = {has_global_flag = EBF_GMEW_great_middle_east_war_over}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						EBF_GMEW_Gulf_Union_victory_effects = yes
+					}		
+					set_global_flag = skip_default_capitulation
+				}		
+
+				else_if = { #Philippine Salvation War - Habeo Ideam Victory
+					limit = {
+						FROM = { 
+							tag = PHI
+						}
+						ROOT = { 
+							tag = RPH
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_global_flag = EBF_PHI_Habeo_Ideam_Survives
+						every_country = {news_event = news_event.88}
+					}		
+					set_global_flag = skip_default_capitulation
+				}	
+				else_if = { #Philippine Salvation War - Republic Victory
+					limit = {
+						FROM = { 
+							tag = RPH
+						}
+						ROOT = { 
+							tag = PHI
+						}
+					}
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+						set_global_flag = EBF_PHI_Habeo_Ideam_Collapses
+						set_cosmetic_tag = RPH_victory
+						every_country = {news_event = news_event.89}
+						every_country = {
+							news_event = {
+								id = news_event.90
+								days = 7  
+							}
+						}
+					}		
+					set_global_flag = skip_default_capitulation
+				}	
+			}
+			clr_global_flag = skip_default_capitulation
+		}
+	}
+	#don't mind me just logging wars
+	on_declare_war = {
+		effect = {
+			log="[GetDateText]: [Root.GetName] declared war on [From.GetName]"
+		}
+	}
+}

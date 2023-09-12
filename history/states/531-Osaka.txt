@@ -1,0 +1,24 @@
+state = {
+	id = 531
+	name = "STATE_531"
+	manpower = 9764273
+	state_category = megalopolis
+
+	history = {
+		add_core_of = JAP
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+		}
+		victory_points = {
+			7113 25 
+		}
+	}
+
+	provinces = {
+		7113 
+	}
+}

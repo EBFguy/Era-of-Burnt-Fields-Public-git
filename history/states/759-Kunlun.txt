@@ -1,0 +1,23 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		1943 2074 10315 13389 13388
+	}
+	manpower=121915
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	local_supplies = 0.0 
+}

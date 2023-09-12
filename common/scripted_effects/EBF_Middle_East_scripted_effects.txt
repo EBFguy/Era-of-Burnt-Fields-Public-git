@@ -1,0 +1,238 @@
+EBF_GMEW_Gulf_Union_victory_effects = {
+
+    if = {
+        limit = {
+            ROOT = {
+                tag = SAU
+            }
+        }
+        every_country = {
+            limit = { OR = { is_in_faction_with = IRA tag = IRA } }
+            white_peace = SAU
+        }
+    }
+    
+    #Checks for capitulation nations
+
+    every_state = {
+        limit = {
+            is_core_of = BAG
+        }
+        transfer_state_to = BAG
+        remove_core_of = IRQ
+    }	
+
+    every_state = {
+        limit = {
+            is_core_of = SRY
+            NOT = {
+                is_core_of = TUR
+            }
+        }
+        transfer_state_to = SRY
+        remove_core_of = SYR
+    }
+
+    every_state = {
+        limit = {
+            or = {
+                is_core_of = SAU
+                is_core_of = OMA
+                is_core_of = YEM
+                is_core_of = UAE
+            }
+        }
+        remove_core_of = YEM
+        remove_core_of = OMA
+        remove_core_of = UAE
+        transfer_state_to = SAU
+    }
+
+    553 = {
+        remove_core_of = SRY
+    }
+
+    #Pre-existing nations cosmetics tags
+
+    BAG = {
+        set_cosmetic_tag = BAG_iraq
+        EBF_factions_remover = YES
+        add_ideas = gulf_union_status_2
+    }
+
+    SRY = {
+        set_cosmetic_tag = SRY_syria
+        set_capital = {
+            state = 554 
+            remember_old_capital = no
+        }
+        add_ideas = gulf_union_status_2
+    }
+
+    LEB = {
+        add_state_core = 553
+        transfer_state = 553
+        set_cosmetic_tag = LEB_iran
+        add_ideas = gulf_union_status_3
+    }
+
+    JOR = {
+        add_state_core = 455
+        transfer_state = 455
+        set_cosmetic_tag = JOR_iran
+        add_ideas = gulf_union_status_3
+    }
+
+    SAU = {
+        set_cosmetic_tag = SAU_iran
+        add_ideas = gulf_union_status_4
+    }
+
+    KRD = {
+        add_state_core = 835
+        transfer_state = 835
+        add_ideas = gulf_union_status_2
+    }
+
+    UAE = {
+        add_state_core = 765
+        transfer_state = 765
+        add_state_core = 656
+        transfer_state = 656
+        add_state_core = 1074
+        transfer_state = 1074
+        add_state_core = 1075
+        transfer_state = 1075
+        add_state_core = 1096
+        transfer_state = 1096
+        set_cosmetic_tag = UAE_iran
+        add_ideas = gulf_union_status_4
+    }
+
+    YEM = {
+        add_state_core = 1088
+        transfer_state = 1088
+        add_state_core = 1089
+        transfer_state = 1089
+        add_state_core = 1087
+        transfer_state = 1087
+        set_capital = {
+            state = 1088 
+            remember_old_capital = no
+        }
+        set_cosmetic_tag = YEM_iran
+        add_ideas = gulf_union_status_4
+    }
+
+    IRA = {
+        if = {
+            limit = { BAG = { is_in_faction = NO } }
+            add_to_faction = BAG
+        }
+        if = {
+            limit = { SRY = { is_in_faction = NO } }
+            add_to_faction = SRY
+        }
+        add_to_faction = LEB
+        add_to_faction = JOR
+        add_to_faction = SAU
+        add_to_faction = KRD
+        add_to_faction = YEM
+        add_to_faction = UAE
+    }
+
+    set_global_flag = EBF_GMEW_great_middle_east_war_over
+    set_global_flag = EBF_GMEW_iranian_victory
+    every_country = {news_event = news_event.65 }
+}
+
+EBF_GMEW_GCC_victory_effects = {
+
+    every_country = {
+        limit = { is_in_faction_with = SAU tag = SAU }
+        white_peace = IRA
+    }
+
+    #Checks for capitulation nations
+
+    every_state = {
+        limit = {
+            is_core_of = IRQ
+        }
+        transfer_state_to = IRQ
+        remove_core_of = BAG
+    }	
+
+    every_state = {
+        limit = {
+            is_core_of = SYR
+            NOT = {
+                is_core_of = TUR
+            }
+        }
+        transfer_state_to = SYR
+        remove_core_of = SRY
+    }
+
+    #normal effects
+
+    IRQ = {
+        set_capital = {
+            state = 1077 
+            remember_old_capital = no
+        }
+    }
+
+    SYR = {
+        leave_faction = yes
+    }
+
+    ANA_anarchy_iran_effect = yes
+
+    IRA = {
+        launch_nuke = {
+            province = 1822
+            use_nuke = no
+        }
+    
+        launch_nuke = {
+            province = 4943
+            use_nuke = no
+        }
+    
+        launch_nuke = {
+            province = 5098
+            use_nuke = no
+        }
+    
+        launch_nuke = {
+            province = 8040
+            use_nuke = no
+        }
+    
+        launch_nuke = {
+            province = 2065
+            use_nuke = no
+        }
+    }
+
+    KHU = {
+        add_state_core = 1099
+        transfer_state = 1099
+        add_state_core = 413
+        transfer_state = 413
+        set_cosmetic_tag = KHU_saudi
+    }
+
+    SAU = {
+        add_to_faction = KHU
+    }
+
+    IRA = {
+        set_variable = { IRA.year_detonation = global.year }
+        leave_faction = YES
+    }
+    set_global_flag = EBF_GMEW_great_middle_east_war_over
+    set_global_flag = EBF_GMEW_saudi_victory
+    every_country = {news_event = news_event.66 }
+}

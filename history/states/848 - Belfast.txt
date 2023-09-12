@@ -1,0 +1,36 @@
+
+state={
+	id=848
+	name="STATE_848"
+
+	history={
+		add_core_of = BIF
+		add_core_of = ULS
+		owner = BIF
+		victory_points = {
+			3379 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+			3379 = {
+				naval_base = 4
+			}
+		}
+		
+		
+		
+	}
+
+	provinces={
+		3379 
+	}
+	manpower=1014814
+	buildings_max_level_factor=1
+	state_category=large_town
+	
+	local_supplies = 0.0 
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1028
+	name="STATE_1028"
+	manpower = 10
+	
+	state_category = megalopolis
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = BOT
+		owner = BOT
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2489 1580
+	}
+}

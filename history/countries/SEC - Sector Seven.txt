@@ -1,0 +1,86 @@
+﻿capital = 924
+
+# Vacant
+recruit_character = SEC_Generic_Vacant_psi
+recruit_character = SEC_Generic_Vacant_pi_0
+recruit_character = SEC_Generic_Vacant_pi_1
+recruit_character = SEC_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = technoutopianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 100
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 0
+    conservatism = 0
+    liberal_conservatism = 0
+    liberalism = 0
+    progressivism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+recruit_character = SEC_FREED
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_underground_opposition
+    EBF_state_atheism
+    EBF_no_voting
+    EBF_state_press
+    EBF_outlawed_unions
+    EBF_closed_borders
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_closed_economy
+    EBF_trinket_minimum_wage
+    EBF_18_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_two_year_draft 
+    EBF_heavily_armed_policing
+    EBF_basic_training
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_widespread_poverty
+    EBF_underperforming_economy
+    EBF_professional_army
+    EBF_industrial_equipment_use
+    EBF_functional_administration
+
+    #BASE IDEAS
+    SEC_FREEDOM
+    broken_london    
+}
+
+add_ideas = {
+    commonet_Member
+}

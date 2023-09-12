@@ -1,0 +1,47 @@
+﻿l_english:
+ #NAME#
+ TUR:0 "Turkey"
+ TUR_DEF:0 "The Turkish State"
+ TUR_ADJ:0 "Turkish"
+
+ #CHARACTERS
+ TUR_Kemal_Yildirim:0 "Kemal Yıldırım"
+ POLITICS_KEMAL_YILDRIM_DESC:0 ""
+
+ TUR_Baris_Seven:0 "Barış Seven"
+ POLITICS_BARIS_SEVEN_DESC:0 ""
+
+ TUR_Burak_Sabanci:0 "Burak Sabancı"
+ POLITICS_BURAK_SABANCI_DESC:0 ""
+
+ TUR_Mustafa_Koc:0 "Mustafa Koçı"
+ POLITICS_MUSTAFA_KOC_DESC:0 ""
+
+ TUR_Mehmet_Can_Yigit:0 "Mehmet Can Yiğit"
+ POLITICS_MEHMET_CAN_YIGIT_DESC:0 ""
+
+ TUR_Unknown:0 "Unknown"
+ POLITICS_TUR_UNKNOWN_DESC:0 ""
+
+ TUR_Secret:0 "Secret"
+ POLITICS_TUR_SECRET_DESC:0 ""
+
+ #PARTY NAMES
+ TUR_technoutopianism_party:0 "Sabancı"
+ TUR_technoutopianism_party_long:0 "Sabancı Holding" 
+ TUR_securocracy_party:0 "Koç"
+ TUR_securocracy_party_long:0 "Koç Holding"
+ TUR_autocracy_party:0 "YYB"
+ TUR_autocracy_party_long:0 "Yeni Yüzyıl Bankası" 
+ TUR_autocracy_1_party:0 "MSO"
+ TUR_autocracy_1_party_long:0 "Milli Savunma Organizasyonu" 
+ TUR_libertarian_socialism_party:0 "DEVTÜRK"
+ TUR_libertarian_socialism_party_long:0 "DEVTÜRK" 
+ TUR_authoritarian_socialism_party:0 "ÖHO"
+ TUR_authoritarian_socialism_party_long:0 "Özgür Halk Ordusu" 
+ TUR_authoritarian_socialism_1_party:0 "TKP"
+ TUR_authoritarian_socialism_1_party_long:0 "Türk Komünist Partisi" 
+ 
+ #IDEAS
+ 
+ #FOCUS TREE

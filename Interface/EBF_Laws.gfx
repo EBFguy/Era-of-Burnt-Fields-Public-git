@@ -1,0 +1,61 @@
+spriteTypes = {
+	spriteType = { 
+		name = "GFX_law_change_bracket_middle"
+		texturefile = "gfx/interface/EBF_Mob_Laws/law_change_bracket_middle.dds"
+	}
+	spriteType = { 
+		name = "GFX_law_change_bracket_top"
+		texturefile = "gfx/interface/EBF_Mob_Laws/law_change_bracket_top.dds"
+	}
+	spriteType = { 
+		name = "GFX_law_change_bracket_bottom"
+		texturefile = "gfx/interface/EBF_Mob_Laws/law_change_bracket_bottom.dds"
+	}
+	spriteType = { 
+		name = "GFX_law_change_bracket_both"
+		texturefile = "gfx/interface/EBF_Mob_Laws/law_change_bracket_both.dds"
+	}
+	spriteType = { 
+		name = "GFX_empty_bg"
+		texturefile = "gfx/interface/EBF_Mob_Laws/empty_bg.dds"
+	}
+	spriteType = { 
+		name = "GFX_investment_points_bar_holder"
+		texturefile = "gfx/interface/EBF_Mob_Laws/investment_points_bar_holder.dds"
+	}
+	progressbartype = {
+		name = "GFX_investment_points_bar"
+		textureFile1 = "gfx/interface/EBF_Mob_Laws/investment_points_bar_full.dds"
+		textureFile2 = "gfx/interface/EBF_Mob_Laws/investment_points_bar_empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 469
+			y = 26
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	progressbartype = {
+		name = "GFX_added_investment_points_bar"
+		textureFile1 = "gfx/interface/EBF_Mob_Laws/added_investment_points_bar_full.dds"
+		textureFile2 = "gfx/interface/EBF_Mob_Laws/investment_points_bar_empty.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 469
+			y = 26
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	spriteType = { 
+		name = "GFX_mob_laws_decrease_button"
+		texturefile = "gfx/interface/EBF_Mob_Laws/mob_laws_decrease_button.dds"
+	}
+	spriteType = { 
+		name = "GFX_mob_laws_increase_button"
+		texturefile = "gfx/interface/EBF_Mob_Laws/mob_laws_increase_button.dds"
+	}
+
+}

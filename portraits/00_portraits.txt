@@ -1,0 +1,1044 @@
+default = {
+
+	#navy = {
+	#	male = {
+	#	
+	#	}
+	#	female = {
+	#	
+	#	}
+	#}
+	#army = {
+	#	male = {
+	#	
+	#	}
+	#	female = {
+	#	
+	#	}
+	#}
+
+	male = {
+		"gfx/leaders/Generics/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/Generics/leader_unknown.dds"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_GER.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_GER.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_USA.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_USA.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_USA.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_GER.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_GER.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_GER.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_RUS.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_RUS.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_RUS.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_ENG.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_ENG.dds"
+		}
+	}
+	
+	operative = {
+		male = {
+			#"gfx/leaders/Generics/Portrait_Generic_Male_1_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_2_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_3_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_4_Spy.dds"
+			#"gfx/leaders/Generics/Portrait_Generic_Male_5_Spy.dds"
+		}
+	}
+
+	political = {
+		technoutopianism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		securocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		ultranationalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		fascist = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		autocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		anocracy = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		conservatism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		liberalism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		libertarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		authoritarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		totalitarian_socialism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+		reductivism = {
+			male = {
+				#"gfx/leaders/Generics/Portrait_Generic_Male_1_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_2_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_3_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_4_Leader.dds"
+				#"gfx/leaders/Generics/Portrait_Generic_Male_5_Leader.dds"
+			}
+		}
+	}
+}

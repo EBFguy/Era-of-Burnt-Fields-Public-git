@@ -1,0 +1,22 @@
+
+state={
+	id=262
+	name="STATE_262" # Pechora
+	manpower = 63063
+	local_supplies = 0.0 
+	state_category = rural
+
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+	}
+
+	provinces={
+		154 6016 6177 6538 9099 9121 9230 10723 11182 
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=432
+	name="STATE_432"
+	history={
+		add_core_of = ASS
+		owner = ASS
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		997 1075 1525 1553 1581 7455 7634 10090 10514 12366 12395 7179 11929 2843 11968 9993 12423 4245 9935 4162
+	}
+	manpower=95342050
+	buildings_max_level_factor=1.000
+	state_category=town
+}

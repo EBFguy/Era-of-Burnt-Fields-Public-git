@@ -1,0 +1,20 @@
+
+state={
+	id=1015
+	name="STATE_1015"
+	manpower = 10
+	
+	state_category = metropolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		13310 13311 13314  
+	}
+}

@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Android Combat Unit"
+	division_names_group = EOH_AND_01
+	regiments = {
+		android = { x = 0 y = 0 }
+		android = { x = 0 y = 1 }
+        android = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = "9950"
+		division_template = "Android Combat Unit"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.75
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = "9950"
+		division_template = "Android Combat Unit"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.75
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = "9950"
+		division_template = "Android Combat Unit"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.75
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = "9950"
+		division_template = "Android Combat Unit"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.75
+	}
+}

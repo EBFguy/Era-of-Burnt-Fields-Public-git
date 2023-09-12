@@ -1,0 +1,26 @@
+state={
+	id=699
+	name="STATE_699"
+	manpower = 21056
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = MAG
+		owner = MAG
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 1
+			8038 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8038 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+	 	8038 8111 5046 7203 4022 1989 7908 5095 1958 1043 1901 8088 2049 
+	}
+}

@@ -1,0 +1,178 @@
+EBF_aussie_civil_war = {
+	AST = {
+		leave_faction = yes
+		EBF_factions_remover = YES
+		every_state = {
+            limit = {
+                is_owned_by = AST
+            }
+            add_core_of = CST
+            add_core_of = PRT
+            add_core_of = STM
+        }
+	}
+	CST = {
+		transfer_state = 520
+		transfer_state = 1051
+		transfer_state = 1054
+		inherit_technology = AST
+	}		
+	PRT = {
+		transfer_state = 522
+		transfer_state = 519
+		transfer_state = 1055
+		inherit_technology = AST
+	}	
+	STM = {
+		transfer_state = 1050
+		set_province_controller = 8249
+		set_province_controller = 2130
+		set_province_controller = 12932
+		set_province_controller = 4791
+		set_province_controller = 2155
+		set_province_controller = 2114
+		set_province_controller = 4776
+		set_province_controller = 2146
+		inherit_technology = AST
+	}		
+	CST = {
+		set_province_controller = 2201
+	}
+	ANA = {
+		transfer_state = 674
+	}	
+	set_global_flag = EBF_AUSTRALIAN_CIVIL_WAR_ONGOING
+	AST = {
+		declare_war_on = {
+			target = STM
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = PRT
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CST
+			type = annex_everything
+		}		
+	}
+	CST = {
+		declare_war_on = {
+			target = STM
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = PRT
+			type = annex_everything
+		}	
+	}
+	STM = {
+		declare_war_on = {
+			target = PRT
+			type = annex_everything
+		}	
+	}
+	every_country = { news_event = news_event.68 }	
+}
+
+EBF_aussie_civil_war_intervention = {
+	CDF = {
+		transfer_state = 518
+		transfer_state = 1053
+		set_province_controller = 7798
+		set_province_controller = 4791
+		set_province_controller = 1773
+		set_province_controller = 4481
+		set_province_controller = 12308
+		set_province_controller = 7651
+		set_province_controller = 10475
+		declare_war_on = {
+			target = STM
+			type = annex_everything
+		}	
+		declare_war_on = {
+			target = PRT
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CST
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = AST
+			type = annex_everything
+		}
+	}	
+	every_country = { news_event = news_event.69 }	
+}
+
+get_australia_tag = {
+	if = {
+		limit = {
+			tag = CST
+		}
+		set_cosmetic_tag = CST_ACW_victory
+		
+	}
+	if = {
+		limit = {
+			tag = PRT
+		}
+		set_cosmetic_tag = PRT_ACW_victory
+	}	
+	if = {
+		limit = {
+			tag = STM
+		}
+		set_cosmetic_tag = STM_ACW_victory
+	}	
+	if = {
+		limit = {
+			tag = CDF
+		}
+		set_cosmetic_tag = CDF_ACW_victory
+	}	
+}
+
+get_australia_event = {
+	if = {
+		limit = {
+			tag = AST
+		}
+		every_country = { news_event = news_event.70 }	
+	}
+	if = {
+		limit = {
+			tag = CST
+		}
+		every_country = { news_event = news_event.71 }	
+	}
+	if = {
+		limit = {
+			tag = PRT
+		}
+		every_country = { news_event = news_event.72 }	
+	}	
+	if = {
+		limit = {
+			tag = STM
+		}
+		every_country = { news_event = news_event.73 }	
+	}	
+	if = {
+		limit = {
+			tag = CDF
+		}
+		every_country = { news_event = news_event.74 }	
+	}	
+}
+
+EBF_federation_formation = {
+	annex_country = { target = AST transfer_troops = no }
+	annex_country = { target = AST transfer_troops = no }
+	annex_country = { target = PAP transfer_troops = no }
+	annex_country = { target = TIM transfer_troops = no }
+	annex_country = { target = NZL transfer_troops = no }
+	annex_country = { target = CAP transfer_troops = no }
+	annex_country = { target = MIC transfer_troops = no }
+}

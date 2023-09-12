@@ -1,0 +1,54 @@
+﻿l_english:
+
+ EBF_PEACE_POPUP_TITLE: "DIPLOMATIC ALERT"
+ EBF_PEACE_POPUP_DESCRIPTION: "[GetWarStatus]"
+ EBF_PEACE_POPUP_FLAVOR: "[GetFlavor]"
+
+ EBF_PEACE_POPUP_CLOSE: "CLOSE"
+ 
+ EBF_PEACE_POPUP_FLAG1_TT: "§GVictor:§! [winning_country.GetFlag] §Y[winning_country.GetName]§!"
+ EBF_PEACE_POPUP_FLAG2_TT: "§RDefeated:§! [losing_country.GetFlag] §Y[losing_country.GetName]§!"
+
+ EBF_PEACE_POPUP_COUNTRY_PLURAL: " and their allies"
+ EBF_PEACE_POPUP_COUNTRY_SINGULAR: ""
+
+ EBF_PEACE_POPUP_COUNTRY_PLURAL_HAS: " and their allies have"
+ EBF_PEACE_POPUP_COUNTRY_SINGULAR_HAS: " has"
+
+ #Peace event/war loc
+ EBF_PEACE_POPUP_WAR_CONCLUSION: "[GetWarConclusionLoc]"
+ EBF_PEACE_POPUP_WAR_CONTINUING: "[GetWarContinuationLoc]"
+
+ #Wars that have finished
+ EBF_PEACE_POPUP_WAR_CONCLUSION_DEFAULT: "§Y[winning_country.GetNameWithFlag]§![GetWinnerAlliesWithHas] defeated §Y[losing_country.GetNameWithFlag]§![GetLoserAllies] in a war."
+ EBF_PEACE_POPUP_WAR_CONCLUSION_EUROPE: "§Y[winning_country.GetNameWithFlag]§! has defeated §Y[losing_country.GetNameWithFlag]§! in the struggle for §YThe Federation's Corpse§!."
+ EBF_PEACE_POPUP_WAR_CONCLUSION_BRITAIN: "The silence of Britain grows as §Y[winning_country.GetNameWithFlag]§! has consquered §Y[losing_country.GetNameWithFlag]§!."
+ 
+ #Capitulation (war continuing) events
+ EBF_PEACE_POPUP_WAR_CONTINUING_DEFAULT: "§Y[winning_country.GetNameWithFlag]§! has defeated §Y[losing_country.GetNameWithFlag]§! in an ongoing conflict."
+ 
+ #Flavor loc
+ 
+ #EUROPE
+ EBF_PEACE_POPUP_FLAVOR_NOW_AVA: "Their Mother's death ends their duty at last"
+ EBF_PEACE_POPUP_FLAVOR_NOW: "Their Mother's dream is confined to history, their suffering goes unheard"
+ EBF_PEACE_POPUP_FLAVOR_BRU_AVA: "The Federation is dead, brought down by its own soldiers"
+ EBF_PEACE_POPUP_FLAVOR_BRU: "The last fire of the Federation splitters out"
+ EBF_PEACE_POPUP_FLAVOR_OCC: "Their stories, silenced forevermore"
+ EBF_PEACE_POPUP_FLAVOR_VNC: "Let the past die"
+
+ #PHI
+ EBF_PEACE_POPUP_FLAVOR_PHI: "The House of false intellect dies"
+
+ #BRITAIN 
+ EBF_PEACE_POPUP_FLAVOR_LON: "A Machine could never rule Britain"
+ #IRELAND
+ EBF_PEACE_POPUP_FLAVOR_BIF: "A reunification a century in the making"
+ EBF_PEACE_POPUP_FLAVOR_ULS: "To Defend Northern Ireland"
+ EBF_PEACE_POPUP_FLAVOR_SONS_OF_IRELAND: "Their blood debts will remain unsettled"
+ EBF_PEACE_POPUP_FLAVOR_IRE: "The Emerald Isle is lost"
+ EBF_PEACE_POPUP_FLAVOR_IRE_BRITISH: "A backwards reunification"
+ EBF_PEACE_POPUP_FLAVOR_IRE_SONS: "Ireland is lost to a sea of hate"
+
+ #default
+ EBF_PEACE_POPUP_FLAVOR_DEFAULT: "Another nation, lost to the night"

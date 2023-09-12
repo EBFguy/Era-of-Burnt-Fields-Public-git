@@ -1,0 +1,89 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_russian_democracy_end"
+		texturefile = "gfx/event_pictures/RUS_russian_democracy_end.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_23"
+		texturefile = "gfx/event_pictures/news_event_23.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_30"
+		texturefile = "gfx/event_pictures/news_event_30.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_31"
+		texturefile = "gfx/event_pictures/news_event_31.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_32"
+		texturefile = "gfx/event_pictures/news_event_32.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_34"
+		texturefile = "gfx/event_pictures/news_event_34.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_35"
+		texturefile = "gfx/event_pictures/news_event_35.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_45"
+		texturefile = "gfx/event_pictures/news_event_45.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_50"
+		texturefile = "gfx/event_pictures/news_event_50.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_51"
+		texturefile = "gfx/event_pictures/news_event_51.dds"
+	}
+
+
+
+	spriteType = {
+		name = "GFX_news_event_53"
+		texturefile = "gfx/event_pictures/news_event_53.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_54"
+		texturefile = "gfx/event_pictures/news_event_54.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_62"
+		texturefile = "gfx/event_pictures/news_event_62.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_63"
+		texturefile = "gfx/event_pictures/news_event_63.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_64"
+		texturefile = "gfx/event_pictures/news_event_64.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_66"
+		texturefile = "gfx/event_pictures/news_event_66.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_paris_unification"
+		texturefile = "gfx/event_pictures/paris_unification.dds"
+	}
+}

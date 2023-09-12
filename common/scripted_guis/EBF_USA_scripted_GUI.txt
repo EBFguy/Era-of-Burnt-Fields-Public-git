@@ -1,0 +1,26 @@
+scripted_gui = {
+
+	EBF_USA_GUI_DOA_open = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "EBF_USA_GUI_DOA_open"
+
+		visible = {
+			tag = USA
+			has_country_flag = USA_solomonites_chosen
+		}
+
+		effects = {
+			USA_open_DOA_GUI_click = {
+				if = {
+					limit = { has_country_flag = USA_open_DOA_GUI_Open }
+					clr_country_flag = USA_open_DOA_GUI
+				}
+				else = { set_country_flag = USA_open_DOA_GUI_Open }
+			}
+		}
+		
+		triggers = {
+		}
+	}
+}

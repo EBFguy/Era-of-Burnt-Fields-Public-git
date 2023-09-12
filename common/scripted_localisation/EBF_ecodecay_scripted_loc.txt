@@ -1,0 +1,124 @@
+defined_text = {
+	name = GetEcodecay
+	text = { # Artificial Ecosphere
+		trigger = { check_variable = { ecodecay_level = 0 } }
+		localization_key = EBF_ecodecay_0
+	}
+	text = { # Total Ecodecay
+		trigger = {   check_variable = { ecodecay_level = 1 } }
+		localization_key = EBF_ecodecay_1
+	}
+	text = { # Dangerous Ecodecay
+		trigger = {   check_variable = { ecodecay_level = 2 } }
+		localization_key = EBF_ecodecay_2
+	}
+	text = { # Great Ecodecay
+		trigger = {   check_variable = { ecodecay_level = 3 } }
+		localization_key = EBF_ecodecay_3
+	}
+	text = { # Middling Ecodecay
+		trigger = {  check_variable = { ecodecay_level = 4 } }
+		localization_key = EBF_ecodecay_4
+	}
+	text = { # Trace Ecodecay
+		trigger = {  check_variable = { ecodecay_level = 5 } }
+		localization_key = EBF_ecodecay_5
+	}
+	text = { # Minimal  Ecodecay
+		trigger = {   check_variable = { ecodecay_level = 6 } }
+		localization_key = EBF_ecodecay_6
+	}
+}
+
+defined_text = {
+	name = GetEcodecayDesc
+	text = { # Artificial Ecosphere
+		trigger = { check_variable = { ecodecay_level = 0 } }
+		localization_key = EBF_ecodecay_0_desc
+	}
+	text = { # Total Ecodecay
+		trigger = { check_variable = { ecodecay_level = 1 } }
+		localization_key = EBF_ecodecay_1_desc
+	}
+	text = { # Dangerous Ecodecay
+		trigger = { check_variable = { ecodecay_level = 2 } }
+		localization_key = EBF_ecodecay_2_desc
+	}
+	text = { # Great Ecodecay
+		trigger = { check_variable = { ecodecay_level = 3 } }
+		localization_key = EBF_ecodecay_3_desc
+	}
+	text = { # Middling Ecodecay
+		trigger = { check_variable = { ecodecay_level = 4 } }
+		localization_key = EBF_ecodecay_4_desc
+	}
+	text = { # Trace Ecodecay
+		trigger = { check_variable = { ecodecay_level = 5 } }
+		localization_key = EBF_ecodecay_5_desc
+	}
+	text = { # Minimal  Ecodecay
+		trigger = { check_variable = { ecodecay_level = 6 } }
+		localization_key = EBF_ecodecay_6_desc
+	}
+}
+
+defined_text = {
+	name = GetEcodecayStateChange
+	text = { 
+		trigger = {
+			set_temp_variable = { EBF_local_ecodecay_change = global.ecodecay_global_monthly_decay }
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = global.ecodecay_global_monthly_decay_minus }
+
+			add_to_temp_variable = { EBF_local_ecodecay_change = OWNER:ecodecay_national_monthly_decay}
+			add_to_temp_variable = { EBF_local_ecodecay_change = OWNER:modifier@ecodecay_national_monthly_decay}
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = OWNER:ecodecay_national_monthly_decay_minus }
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = OWNER:modifier@ecodecay_national_monthly_decay_minus }
+			
+			add_to_temp_variable = { EBF_local_ecodecay_change = ecodecay_local_monthly_decay}
+			add_to_temp_variable = { EBF_local_ecodecay_change = modifier@ecodecay_local_monthly_decay}
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = ecodecay_local_monthly_decay_minus }
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = modifier@ecodecay_local_monthly_decay_minus }
+
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = ecodecay_local_targeted_monthly_decay }
+			subtract_from_temp_variable = { EBF_local_ecodecay_change = modifier@ecodecay_local_targeted_monthly_decay }
+		}
+		localization_key = EBF_ecodecay_state_change
+	}
+}
+
+defined_text = {
+	name = GetEcodecayGlobalChange
+	text = { #
+		trigger = {
+			set_temp_variable = { EBF_global_ecodecay_change = global.ecodecay_global_monthly_decay }
+			subtract_from_temp_variable = { EBF_global_ecodecay_change = global.ecodecay_global_monthly_decay_minus }
+		}
+		localization_key = EBF_ecodecay_global_change
+	}
+}
+
+defined_text = {
+	name = GetEcodecayNationalChange
+	text = { #
+		trigger = {
+			add_to_temp_variable = { EBF_national_ecodecay_change = OWNER:ecodecay_national_monthly_decay}
+			add_to_temp_variable = { EBF_national_ecodecay_change = OWNER:modifier@ecodecay_national_monthly_decay}
+			subtract_from_temp_variable = { EBF_national_ecodecay_change = OWNER:ecodecay_national_monthly_decay_minus }
+			subtract_from_temp_variable = { EBF_national_ecodecay_change = OWNER:modifier@ecodecay_national_monthly_decay_minus }
+		}
+		localization_key = EBF_ecodecay_national_change
+	}
+}
+
+defined_text = {
+	name = GetEcodecayLocalChange
+	text = { #
+		trigger = {
+			add_to_temp_variable = { EBF_state_ecodecay_change = ecodecay_local_monthly_decay}
+			add_to_temp_variable = { EBF_state_ecodecay_change = modifier@ecodecay_local_monthly_decay}
+			subtract_from_temp_variable = { EBF_state_ecodecay_change = ecodecay_local_monthly_decay_minus }
+			subtract_from_temp_variable = { EBF_state_ecodecay_change = modifier@ecodecay_local_monthly_decay_minus }
+		}
+		localization_key = EBF_ecodecay_local_change
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=538
+	name="STATE_538" # Central Congo
+	manpower = 9629056
+	
+	state_category = wasteland
+	
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		988 8048 10951 
+	}
+}

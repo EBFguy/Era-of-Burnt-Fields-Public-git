@@ -1,0 +1,92 @@
+characters = {
+	NOW_Ava_Smith = {
+		name = NOW_Ava_Smith
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOW/Portrait_NOW_Ava_Smith.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_soldiers_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_AVA_SMITH_DESC"
+			traits = { NOW_mother_of_european_forces }
+		}
+	}
+	NOW_Wiseman = {
+		name = NOW_Wiseman
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = NOW_Wiseman_min
+			allowed = { original_tag = NOW }
+			traits = { NOW_the_aged }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NOW_Baptiste = {
+		name = NOW_Baptiste
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOW/Portrait_NOW_Baptiste.dds"
+				small = "GFX_idea_NOW_Baptiste"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = NOW_Baptiste_min
+			allowed = { original_tag = NOW }
+			traits = { NOW_the_lad }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NOW_Ambrosius = {
+		name = NOW_Ambrosius
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOW/Portrait_NOW_Ambrosius.dds"
+				small = "GFX_idea_NOW_Ambrosius"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = NOW_Ambrosius_min
+			allowed = { original_tag = NOW }
+			traits = { NOW_the_lost }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+	NOW_Rutger = {
+		name = NOW_Rutger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+				small = "GFX_idea_AMZ_nilton_watanabe"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = NOW_Rutger_min
+			allowed = { original_tag = NOW }
+			traits = { NOW_the_cold }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+}

@@ -1,0 +1,15 @@
+characters = {
+	PRS_Judith_Bettencourt = {
+		name = "Judith Bettencourt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRS/Portrait_PRS_Judith_Bettencourt.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_syndicalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JUDITH_BETTENCOURT_DESC"
+		}
+	}
+}

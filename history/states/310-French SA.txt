@@ -1,0 +1,27 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 620783
+
+	state_category = town
+	local_supplies = 0.0 
+	history={
+		add_core_of = GUI
+		owner = GUI
+		
+		buildings = {
+			infrastructure = 2
+			12885 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12885 1 
+		}
+	}
+
+	provinces={
+		4934 12885 
+	}
+}

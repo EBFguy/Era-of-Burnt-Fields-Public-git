@@ -1,0 +1,268 @@
+#Shared Focuses
+
+# Starting Focus #
+
+shared_focus = {
+	id = AMZ_still_standing
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_still_standing"
+		add_political_power = -100
+		country_event = { id = wwc.1 }
+	}
+}
+
+shared_focus = {
+	id = AMZ_gather_the_commanders
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_gather_the_commanders"
+		add_command_power = 25
+		country_event = { id = wwc.2 }
+	}
+	relative_position_id = AMZ_still_standing
+	prerequisite = { focus = AMZ_still_standing }
+}
+
+shared_focus = {
+	id = AMZ_disciplining_the_men
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_disciplining_the_men"
+		country_event = { id = wwc.6 }
+	}
+	relative_position_id = AMZ_gather_the_commanders
+	prerequisite = { focus = AMZ_gather_the_commanders }
+}
+
+shared_focus = {
+	id = AMZ_mopping_up_resistance
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_mopping_up_resistance"
+		add_manpower = -250
+		add_popularity = {
+			ideology = fascist
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = autocracy
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = anocracy
+			popularity = -0.05
+		}
+		add_stability = .05
+		country_event = { id = wwc.3 }
+	}
+	relative_position_id = AMZ_gather_the_commanders
+	prerequisite = { focus = AMZ_gather_the_commanders }
+}
+
+shared_focus = {
+	id = AMZ_organize_hunting_parties
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_organize_hunting_parties"
+		army_experience = 15
+		add_manpower = 500
+	}
+	relative_position_id = AMZ_mopping_up_resistance
+	prerequisite = { focus = AMZ_mopping_up_resistance }
+}
+
+shared_focus = {
+	id = AMZ_a_bounty_on_reactionaries
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_a_bounty_on_reactionaries"
+		add_timed_idea = {
+			idea = AMZ_a_bounty_on_reactionaries
+			days = 90
+		}
+		country_event = { id = wwc.4 }
+	}
+	relative_position_id = AMZ_mopping_up_resistance
+	prerequisite = { focus = AMZ_mopping_up_resistance }
+}
+
+shared_focus = {
+	id = AMZ_strike_where_it_hurts
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_strike_where_it_hurts"
+		country_event = { id = wwc.5 }
+	}
+	relative_position_id = AMZ_organize_hunting_parties
+	prerequisite = { focus = AMZ_a_bounty_on_reactionaries }
+	prerequisite = { focus = AMZ_organize_hunting_parties }
+}
+
+shared_focus = {
+	id = AMZ_legitimizing_our_rule
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_mopping_up_resistance"
+		add_stability = 0.05
+		add_political_power = 50
+		country_event = { id = wwc.7 }
+	}
+	relative_position_id = AMZ_gather_the_commanders
+	prerequisite = { focus = AMZ_gather_the_commanders }
+}
+
+shared_focus = {
+	id = AMZ_with_an_iron_fist
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 0
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_organize_hunting_parties"
+		add_popularity = {
+			ideology = authoritarian_socialism
+			popularity = 0.05
+		}
+		add_stability = 0.10
+		add_war_support = 0.05
+		add_manpower = -500
+		country_event = { id = wwc.8 }
+	}
+	mutually_exclusive = {
+		focus = AMZ_with_a_velvet_glove
+	}
+	relative_position_id = AMZ_legitimizing_our_rule
+	prerequisite = { focus = AMZ_legitimizing_our_rule }
+}
+
+shared_focus = {
+	id = AMZ_with_a_velvet_glove
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 2
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_organize_hunting_parties"
+		add_popularity = {
+			ideology = libertarian_socialism
+			popularity = 0.05
+		}
+		add_stability = 0.05
+		add_war_support = 0.10
+		add_political_power = -50
+		country_event = { id = wwc.9 }
+	}
+	mutually_exclusive = {
+		focus = AMZ_with_an_iron_fist
+	}
+	relative_position_id = AMZ_legitimizing_our_rule
+	prerequisite = { focus = AMZ_legitimizing_our_rule }
+}
+
+shared_focus = {
+	id = AMZ_the_demobilization
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = -1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_strike_where_it_hurts"
+		add_command_power = -25
+		add_popularity = {
+			ideology = ultranationalism
+			popularity = -0.2
+		}
+		country_event = { id = wwc.10 }
+	}
+	relative_position_id = AMZ_with_a_velvet_glove
+	prerequisite = { focus = AMZ_with_an_iron_fist focus = AMZ_with_a_velvet_glove }
+}
+
+shared_focus = {
+	id = AMZ_learn_from_our_enemies
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_connecting_the_land"
+	}
+	relative_position_id = AMZ_mopping_up_resistance
+	prerequisite = { focus = AMZ_strike_where_it_hurts }
+	prerequisite = { focus = AMZ_disciplining_the_men }
+}
+
+shared_focus = {
+	id = AMZ_connecting_the_land
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_connecting_the_land"
+		876 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		877 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		878 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		add_stability = 0.025
+	}
+	relative_position_id = AMZ_disciplining_the_men
+	prerequisite = { focus = AMZ_disciplining_the_men }
+	prerequisite = { focus = AMZ_the_demobilization }
+}
+
+shared_focus = {
+	id = AMZ_the_skeletons_in_our_closet
+	icon = GFX_generic_suspend_constitution
+	cost = 2
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus AMZ_the_skeletons_in_our_closet"
+	}
+	relative_position_id = AMZ_learn_from_our_enemies
+	prerequisite = { focus = AMZ_learn_from_our_enemies }
+	prerequisite = { focus = AMZ_connecting_the_land }
+}

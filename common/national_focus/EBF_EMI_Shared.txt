@@ -1,0 +1,467 @@
+shared_focus = { 
+	id = EMI_Raise_the_Curtain
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 12
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = { 
+	id = EMI_Lights_On
+	prerequisite = {
+		focus = EMI_Raise_the_Curtain
+	}
+	icon = 
+	VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = -2
+	y = 1
+	relative_position_id = EMI_Raise_the_Curtain
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Check_the_Sound_Boxes
+	prerequisite = {
+		focus = EMI_Raise_the_Curtain
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_Raise_the_Curtain
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Silence_in_the_Room
+	prerequisite = {
+		focus = EMI_Raise_the_Curtain
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 2
+	y = 1
+	relative_position_id = EMI_Raise_the_Curtain
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Let_the_Show_Begins
+	prerequisite = {
+		focus = EMI_Lights_On
+	}
+	prerequisite = {
+		focus = EMI_Silence_in_the_Room
+	}
+	prerequisite = {
+		focus = EMI_Check_the_Sound_Boxes
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_Check_the_Sound_Boxes
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_An_Hungry_Crowds
+	prerequisite = {
+		focus = EMI_Let_the_Show_Begins
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = -6
+	y = 2
+	relative_position_id = EMI_Let_the_Show_Begins
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_And_Nothing_to_Feed_It
+	prerequisite = {
+		focus = EMI_An_Hungry_Crowds
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_An_Hungry_Crowds
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Vascural_System
+	prerequisite = {
+		focus = EMI_And_Nothing_to_Feed_It
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_And_Nothing_to_Feed_It
+	mutually_exclusive = { focus = EMI_Autonomous_Suburbs }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Autonomous_Suburbs
+	prerequisite = {
+		focus = EMI_And_Nothing_to_Feed_It
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 2
+	y = 1
+	relative_position_id = EMI_And_Nothing_to_Feed_It
+	mutually_exclusive = { focus = EMI_Vascural_System }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Greatest_Play_of_All_Time
+	prerequisite = {
+		focus = EMI_Let_the_Show_Begins
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 2
+	relative_position_id = EMI_Let_the_Show_Begins
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Pirandellian_Irony
+	prerequisite = {
+		focus = EMI_The_Greatest_Play_of_All_Time
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = -3
+	y = 1
+	relative_position_id = EMI_The_Greatest_Play_of_All_Time
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Gramscian_Realism
+	prerequisite = {
+		focus = EMI_The_Greatest_Play_of_All_Time
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_The_Greatest_Play_of_All_Time
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Bordigian_Patience
+	prerequisite = {
+		focus = EMI_The_Greatest_Play_of_All_Time
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 3
+	y = 1
+	relative_position_id = EMI_The_Greatest_Play_of_All_Time
+	completion_reward = {
+			
+	} 
+}
+
+shared_focus = { 
+	id = EMI_Stick_to_the_Script
+	prerequisite = {
+		focus = EMI_Pirandellian_Irony		
+	}
+	prerequisite = {
+		focus = EMI_Bordigian_Patience		
+	}
+	prerequisite = {
+		focus = EMI_Gramscian_Realism		
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = -1
+	y = 1
+	relative_position_id = EMI_Gramscian_Realism
+	mutually_exclusive = { focus = EMI_Some_Small_Deviation }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Some_Small_Deviation
+	prerequisite = {
+		focus = EMI_Pirandellian_Irony		
+	}
+	prerequisite = {
+		focus = EMI_Bordigian_Patience		
+	}
+	prerequisite = {
+		focus = EMI_Gramscian_Realism		
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 1
+	y = 1
+	relative_position_id = EMI_Gramscian_Realism
+	mutually_exclusive = { focus = EMI_Stick_to_the_Script }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Some_Lively_Actors
+	icon = VNC_end_new_years_on_the_shining_island
+	prerequisite = {
+		focus = EMI_Let_the_Show_Begins
+	}
+	cost = 3
+	x = 6
+	y = 2
+	relative_position_id = EMI_Let_the_Show_Begins
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Between_Passion_and_Discipline
+	prerequisite = {
+		focus = EMI_Some_Lively_Actors
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_Some_Lively_Actors
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Carrot
+	prerequisite = {
+		focus = EMI_Between_Passion_and_Discipline
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = -2
+	y = 1
+	relative_position_id = EMI_Between_Passion_and_Discipline
+	mutually_exclusive = { focus = EMI_The_Stick }
+	mutually_exclusive = { focus = EMI_The_Mule }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Stick
+	prerequisite = {
+		focus = EMI_Between_Passion_and_Discipline
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 1
+	relative_position_id = EMI_Between_Passion_and_Discipline
+	mutually_exclusive = { focus = EMI_The_Carrot }
+	mutually_exclusive = { focus = EMI_The_Mule }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Mule
+	prerequisite = {
+		focus = EMI_Between_Passion_and_Discipline
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 2
+	y = 1
+	relative_position_id = EMI_Between_Passion_and_Discipline
+	mutually_exclusive = { focus = EMI_The_Carrot }
+	mutually_exclusive = { focus = EMI_The_Stick }
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Burning_Appennines
+	prerequisite = {
+		focus = EMI_Vascural_System	
+        focus = EMI_Autonomous_Suburbs
+	}
+	prerequisite = {
+		focus = EMI_Stick_to_the_Script
+        focus = EMI_Some_Small_Deviation
+	}
+	prerequisite = {
+		focus = EMI_The_Carrot
+        focus = EMI_The_Stick
+		focus = EMI_The_Mule
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 2
+	y = 1
+	relative_position_id = EMI_Autonomous_Suburbs
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Sinking_Padania
+	prerequisite = {
+		focus = EMI_Vascural_System	
+        focus = EMI_Autonomous_Suburbs
+	}
+	prerequisite = {
+		focus = EMI_Stick_to_the_Script
+        focus = EMI_Some_Small_Deviation
+	}
+	prerequisite = {
+		focus = EMI_The_Carrot
+        focus = EMI_The_Stick
+		focus = EMI_The_Mule
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 1
+	y = 1
+	relative_position_id = EMI_Some_Small_Deviation
+	completion_reward = {
+			
+	}
+}
+
+shared_focus = { 
+	id = EMI_Thinking_About_a_Backup_Plan
+	prerequisite = {
+		focus = EMI_Burning_Appennines
+	}
+	prerequisite = {
+		focus = EMI_Sinking_Padania
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 2
+	y = 2
+	relative_position_id = EMI_Burning_Appennines
+
+	completion_reward = {		
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_People_Are_Getting_Bored
+	prerequisite = {
+		focus = EMI_Thinking_About_a_Backup_Plan
+	}
+	allow_branch = {
+		has_country_flag = EMI_Act2
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = -4
+	y = 2
+	relative_position_id = EMI_Thinking_About_a_Backup_Plan
+
+	completion_reward = {		
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Staff_Is_Annoyed
+	prerequisite = {
+		focus = EMI_Thinking_About_a_Backup_Plan
+	}
+	allow_branch = {
+		has_country_flag = EMI_Act2
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 2
+	relative_position_id = EMI_Thinking_About_a_Backup_Plan
+
+	completion_reward = {		
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Actors_Are_in_Shambles
+	prerequisite = {
+		focus = EMI_Thinking_About_a_Backup_Plan
+	}
+	allow_branch = {
+		has_country_flag = EMI_Act2
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 4
+	y = 2
+	relative_position_id = EMI_Thinking_About_a_Backup_Plan
+
+	completion_reward = {		
+	}
+}
+
+shared_focus = { 
+	id = EMI_The_Urgency_of_a_Twist
+	prerequisite = {
+		focus = EMI_The_Actors_Are_in_Shambles		
+	}
+	prerequisite = {
+		focus = EMI_The_Staff_Is_Annoyed		
+	}
+	prerequisite = {
+		focus = EMI_The_People_Are_Getting_Bored		
+	}
+	icon = VNC_end_new_years_on_the_shining_island
+	cost = 3
+	x = 0
+	y = 2
+	relative_position_id = EMI_The_Staff_Is_Annoyed
+	completion_reward = {
+			
+	}
+}

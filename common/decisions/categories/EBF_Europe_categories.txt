@@ -1,0 +1,26 @@
+EBF_europe_debug_decisions = {
+	icon = generic_research
+	allowed = {
+		is_european_warlord_nation = YES
+	}
+	visible = {
+		is_debug = yes
+	}
+	visible_when_empty = YES
+	priority = 1
+}
+
+EBF_european_unification = {
+	icon = generic_research
+	allowed = {
+		is_european_warlord_nation = yes
+	}
+	visible = {
+		NOT = {
+			has_global_flag = EUROPEAN_UNIFICATION_DONE
+		}
+	}
+	visible_when_empty = YES
+	priority = 1000000
+}
+

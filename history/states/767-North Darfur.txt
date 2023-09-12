@@ -1,0 +1,20 @@
+state=
+{
+	id=767
+	name="STATE_767" # North Darfur
+	manpower = 8143
+	
+	state_category = wasteland
+	
+	history= {
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		8103 13334
+	}
+	local_supplies = 0.0 
+}

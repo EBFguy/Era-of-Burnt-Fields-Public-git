@@ -1,0 +1,27 @@
+
+state={
+	id=77
+	name="STATE_77"
+	manpower = 546865
+	
+	state_category = town
+
+	history={
+		add_core_of = BUL
+		owner = BUL
+		victory_points = {
+			11597 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		9614 11597 
+	}
+}

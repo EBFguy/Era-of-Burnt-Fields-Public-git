@@ -1,0 +1,29 @@
+
+state={
+	id=450
+	name="STATE_450"
+	manpower = 876569
+	
+	state_category = enclave
+
+	history={
+		add_core_of = LIB
+		owner = LIB
+		
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			11954 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1127 4120 10123 11954 
+	}
+}

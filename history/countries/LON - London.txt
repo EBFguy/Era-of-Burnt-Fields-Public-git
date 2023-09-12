@@ -1,0 +1,96 @@
+﻿capital = 126
+
+# Vacant
+recruit_character = LON_Generic_Vacant_psi
+recruit_character = LON_Generic_Vacant_pi_0
+recruit_character = LON_Generic_Vacant_pi_1
+recruit_character = LON_Generic_Vacant_pi_2
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = technoutopianism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 100
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 0
+    conservatism = 0
+    liberal_conservatism = 0
+    liberalism = 0
+    progressivism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+recruit_character = LON_EO12_Echo
+recruit_character = LON_ewan_campbell
+recruit_character = LON_defence_strategy_routines
+recruit_character = LON_outreach_strategy_routines
+recruit_character = LON_localnet_overseer_routines
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_multiparty_opposition
+    EBF_secularism
+    EBF_no_voting
+    EBF_free_press
+    EBF_all_unions_allowed
+    EBF_closed_borders
+    EBF_indentured_ownership_only
+
+    #ECONOMIC
+    EBF_closed_economy
+    EBF_no_minimum_wage
+    EBF_18_hours
+    EBF_primary_AI_model
+
+    #MILITARY
+    EBF_disarmed_nation
+    EBF_no_policing
+    EBF_no_training
+    EBF_no_restrictions
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_rampant_poverty
+    EBF_no_economy
+    EBF_disorganised_militia
+    EBF_power_tools
+    EBF_ai_assisted_administration
+
+    #MINISTERS  
+    LON_ewan_campbell_min
+    LON_defence_strategy_routines_min
+    LON_outreach_strategy_routines_min
+    LON_localnet_overseer_routines_min
+
+    #BASE IDEAS
+    LON_curious_case
+    LON_barebones_nation
+    LON_neural_reaching_critical_levels
+    broken_london
+}
+
+add_ideas = {
+    commonet_Member
+}

@@ -1,0 +1,27 @@
+state={
+	id=592
+	name="STATE_592"
+	manpower = 150903892
+	state_category = city
+
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 
+	}
+}
+

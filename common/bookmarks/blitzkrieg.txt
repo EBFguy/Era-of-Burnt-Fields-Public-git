@@ -1,0 +1,45 @@
+bookmarks = {
+	bookmark = {
+		name = "DARKCLOUDS_NAME"
+		desc = "DARKCLOUDS_DESC"
+		date = 2061.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "USA"
+		default = yes
+		
+		"PRC"={
+			history = "PRC_DARKCLOUDS_DESC"
+			ideology = autocracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_DARKCLOUDS_DESC"
+			ideology = autocracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RUS"={
+			history = "RUS_DARKCLOUDS_DESC"
+			ideology = anocracy
+			ideas = {
+				RUS_vestigial_democracy
+				RUS_vestigial_democracy
+				RUS_vestigial_democracy
+			}
+			focuses = {
+				RUS_i_am_president_tsar_and_premier
+				RUS_i_am_president_tsar_and_premier
+				RUS_i_am_president_tsar_and_premier
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

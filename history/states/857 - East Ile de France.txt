@@ -1,0 +1,28 @@
+
+state={
+	id=857
+	name="STATE_857"
+	manpower = 19778575
+	
+	state_category = large_city
+	
+
+	history={
+		add_core_of = PCC
+		owner = PCC
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 2
+			anti_air_building = 3
+			air_base = 5
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		9534 11506 11491 11518 6949 13242 13239 13240
+	}
+}

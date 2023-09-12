@@ -1,0 +1,15 @@
+characters = {
+	CUB_Alejandro_Cambeiro = {
+		name = CUB_Alejandro_Cambeiro
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CUB/Portrait_CUB_Alejandro_Cambeiro.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_civlian_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ALEJANDRO_CAMBEIRO_DESC"
+		}
+	}
+}

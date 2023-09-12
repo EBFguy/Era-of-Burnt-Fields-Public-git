@@ -1,0 +1,72 @@
+scripted_gui = {
+	
+	
+	EBF_Poland_GUI_Opener = {
+		window_name = "EBF_Poland_GUI_Opener"
+		context_type = player_context
+
+		visible = {
+			tag = POL
+		}
+
+		effects = {
+			
+			EBF_Poland_GUI_Opener_Button_click = {
+				set_variable = { Button_Clicked = 0 }
+				if = {
+					limit = { NOT = { has_country_flag = POL_GUI_Open } }
+					set_country_flag = POL_GUI_Open
+				}
+				else_if = {
+					limit = { has_country_flag = POL_GUI_Open }
+					clr_country_flag = POL_GUI_Open
+				}
+			}
+		}
+	}
+
+	EBF_Poland_GUI_Main = {
+		window_name = "EBF_Poland_GUI_Main"
+		context_type = player_context
+		dirty = Poland_GUI_dirty
+
+		visible = {
+			has_country_flag = POL_GUI_Open 
+		}
+
+
+		triggers = {
+			Button_1_green_visible = {
+				check_variable = { Button_Clicked = 1 }
+			}
+	
+			Button_2_green_visible = {
+				check_variable = { Button_Clicked = 2 }
+			}
+	
+			Button_3_green_visible = {
+				check_variable = { Button_Clicked = 3 }
+			}
+		}
+
+
+		effects = {
+			Button_1_grey_click = {
+				set_variable = { Button_Clicked = 1 }
+				add_to_variable = { Poland_GUI_dirty = 0.01}
+			}
+			Button_2_grey_click = {
+				set_variable = { Button_Clicked = 2 }
+				add_to_variable = { Poland_GUI_dirty = 0.01}
+			}
+			Button_3_grey_click = {
+				set_variable = { Button_Clicked = 3 }
+				add_to_variable = { Poland_GUI_dirty = 0.01}
+			}
+			EBF_Poland_GUI_Closer_Button_click = {
+				clr_country_flag = POL_GUI_Open
+			}
+		}
+	}
+
+}

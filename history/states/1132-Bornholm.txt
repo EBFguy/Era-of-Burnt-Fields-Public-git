@@ -1,0 +1,25 @@
+state= {
+	id=1132
+	name="STATE_1132"
+	manpower = 12
+
+	state_category = small_island
+
+	history=
+	{
+		add_core_of = DEN
+		owner = DEN
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			6361 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces= {
+		6361 
+	}
+}

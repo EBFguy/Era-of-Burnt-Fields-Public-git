@@ -1,0 +1,24 @@
+
+state={
+	id=12
+	name="STATE_12"
+	manpower = 2199760
+	
+	state_category = city
+	
+	history={
+		add_core_of = ODO
+		owner = ODO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+	 	3388 9317 9501 10493 11302 
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		add_core_of = ETH
+		owner = ETH
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+
+		}
+		victory_points = {
+			7980 1.0 
+		}
+
+	}
+
+	provinces={
+		5041 7980 
+	}
+	manpower=4586943
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

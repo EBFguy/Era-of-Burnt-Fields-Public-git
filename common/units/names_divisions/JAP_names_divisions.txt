@@ -1,0 +1,81 @@
+﻿JAP_INF_01 = {
+	name = "Infantry Division"
+
+	for_countries = { JAP }
+
+	can_use = { }
+
+	division_types = { "infantry" "elite_infantry" }
+
+	ordered = {
+		1 = { "%d. Infantry Division"}
+		2 = { "%d. Infantry Division" }
+		3 = { "%d. Infantry Division" }
+	}
+
+	fallback_name = "%d. Infantry Division"
+}
+
+JAP_INF_02 = {
+	name = "Mixed Infantry Division"
+
+	for_countries = { JAP }
+
+	can_use = { }
+
+	division_types = { "infantry" "elite_infantry" "android" }
+
+	ordered = {
+		1 = { "%d. Mixed Infantry Division"}
+		2 = { "%d. Mixed Infantry Division" }
+		3 = { "%d. Mixed Infantry Division" }
+	}
+
+	fallback_name = "%d. Mixed Infantry Division"
+}
+
+JAP_INF_03 = {
+	name = "Special Operations Division"
+
+	for_countries = { JAP }
+
+	can_use = { }
+
+	division_types = { "infantry" "elite_infantry" "android" }
+
+	ordered = {
+		1 = { "%d. Special Operations Division" }
+		2 = { "%d. Special Operations Division" }
+		3 = { "%d. Special Operations Division" }
+	}
+
+	fallback_name = "%d. Special Operations Division"
+}
+
+EOH_AND_01 = {
+	name = "Android Combat Division"
+
+	for_countries = { JAP }
+
+	can_use = {
+		has_country_leader_ideology = technoutopianism_EOHs_transmission_subtype
+	}
+
+	division_types = { "infantry" "elite_infantry" "android" }
+
+	ordered = {
+		1 = { "%d. Android Combat Division 'Agent'" }
+		2 = { "%d. Android Combat Division 'Judge'" }
+		3 = { "%d. Android Combat Division 'Alchemist'" }
+		4 = { "%d. Android Combat Division 'Dreamer'" }
+		5 = { "%d. Android Combat Division 'Architect'" }
+		6 = { "%d. Android Combat Division 'Intruder'" }
+		7 = { "%d. Android Combat Division 'Ouroboros'" }
+		8 = { "%d. Android Combat Division 'Gager'" }
+		9 = { "%d. Android Combat Division 'Hunter'" }
+		10 = { "%d. Android Combat Division 'Executioner'" }
+		11 = { "%d. Android Combat Division 'Scarecrow'" }
+	}
+
+	fallback_name = "%d. Android Combat Division"
+}

@@ -1,0 +1,18 @@
+﻿add_namespace = central_asia
+country_event = {
+	id = central_asia.1 #startt the big war
+	immediate = {log = "[GetDateText]: [Root.GetName]: event central_asia.1"}
+	title = central_asia.1.t
+	desc = central_asia.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = central_asia.1.a
+		battle_royale_effect = yes
+		every_country = {
+			news_event = {
+				id = news_event.1
+			}
+		}
+	}
+}

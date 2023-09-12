@@ -1,0 +1,28 @@
+state={
+	id=978
+	name="STATE_978"
+	
+	local_supplies = 0.0 
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 6
+
+		}
+		victory_points = {
+			6890 10 
+		}
+
+	}
+
+	provinces={
+		6890 882 4442 6874 3853 9825 659 3685 3872 689 13154
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

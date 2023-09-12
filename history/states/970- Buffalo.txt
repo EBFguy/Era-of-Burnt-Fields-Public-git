@@ -1,0 +1,29 @@
+
+state={
+	id=970
+	name="STATE_970"
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+
+		}
+		victory_points = {
+			11654 3 
+		}
+
+	}
+
+	provinces={
+		11654 6707 734 9664
+	}
+	manpower=25666712
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=34
+	name="STATE_34"
+	manpower = 2930536
+	
+	state_category = city
+
+	history={
+		add_core_of = NOW
+		owner = NOW
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 1
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		3488 6537 9444 11407 9431
+	}
+}

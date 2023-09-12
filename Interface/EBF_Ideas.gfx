@@ -1,0 +1,427 @@
+spriteTypes = {
+	
+	#RUSSIA
+	spriteType = {
+		name = "GFX_idea_RUS_december_emergency_decree"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_december_emergency_decree.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_RUS_path_verdant_siberia"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_path_verdant_siberia.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_RUS_kazakh_pacification"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_kazakh_pacification.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_RUS_vestigial_democracy"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_vestigial_democracy.dds"
+	}	
+
+	#KAZAKHSTAN
+	spriteType = {
+		name = "GFX_idea_RUS_Fighting_in_a_Blighted_Land"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_Fighting_in_a_Blighted_Land.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_RUS_On_The_Wings_of_a_Hero"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_On_The_Wings_of_a_Hero.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_RUS_The_Long_War"
+		texturefile = "gfx/interface/ideas/RUS/RUS_idea_The_Long_War.dds"
+	}		
+	#IRELAND
+
+	spriteType = {
+		name = "GFX_idea_IRE_europes_western_bastion"
+		texturefile = "gfx/interface/ideas/IRE/IRE_idea_europes_western_bastion.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_IRE_rising_sons"
+		texturefile = "gfx/interface/ideas/IRE/IRE_idea_rising_sons.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_IRE_marching_towards_unification"
+		texturefile = "gfx/interface/ideas/IRE/IRE_idea_marching_towards_unification.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_IRE_unified_at_last"
+		texturefile = "gfx/interface/ideas/IRE/IRE_unified_at_last.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_ULS_retaking_the_home"
+		texturefile = "gfx/interface/ideas/IRE/ULS_retaking_the_home.dds"
+	}				
+
+	spriteType = {
+		name = "GFX_idea_ULS_the_sons_have_risen"
+		texturefile = "gfx/interface/ideas/IRE/ULS_idea_the_sons_have_risen.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_ULS_debts_will_be_repayed"
+		texturefile = "gfx/interface/ideas/IRE/ULS_idea_debts_will_be_repayed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BIF_fortress_belfast"
+		texturefile = "gfx/interface/ideas/IRE/BIF_fortress_belfast.dds"
+	}			
+
+	spriteType = {
+		name = "GFX_idea_BIF_british_takeover"
+		texturefile = "gfx/interface/ideas/IRE/BIF_british_takeover.dds"
+	}				
+
+	spriteType = {
+		name = "GFX_idea_BIF_the_crown_will_reign"
+		texturefile = "gfx/interface/ideas/IRE/BIF_the_crown_will_reign.dds"
+	}				
+
+	#ARGENTINA
+
+	spriteType = {
+		name = "GFX_idea_ARG_la_guerra_de_tucuman"
+		texturefile = "gfx/interface/ideas/ARG/ARG_idea_la_guerra_de_tucuman.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_idea_ARG_el_gobierno_de_reconstruccion_nacional"
+		texturefile = "gfx/interface/ideas/ARG/ARG_idea_el_gobierno_de_reconstruccion_nacional.dds"
+	}	
+	
+	#BALTICS
+	
+	spriteType = {
+		name = "GFX_idea_the_baltic_concordant"
+		texturefile = "gfx/interface/ideas/Baltics/idea_the_baltic_concordant.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_LIT_broken_shards"
+		texturefile = "gfx/interface/ideas/Baltics/LIT_idea_broken_shards.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_BLT_blue_seas_ruled_by_blue_flag"
+		texturefile = "gfx/interface/ideas/Baltics/idea_BLT_blue_seas_ruled_by_blue_flag.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_BLT_distant_defender_of_baltics"
+		texturefile = "gfx/interface/ideas/Baltics/idea_BLT_distant_defender_of_baltics.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_MAR_defenders_of_marijampole"
+		texturefile = "gfx/interface/ideas/Baltics/MAR_idea_defenders_of_marijampole.dds"
+	}
+
+	#Portugal
+	spriteType = {
+		name = "GFX_idea_POR_surrounded_by_wolves"
+		texturefile = "gfx/interface/ideas/POR/POR_surrounded_by_wolves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POR_dissolving_coalition"
+		texturefile = "gfx/interface/ideas/POR/POR_dissolving_coalition.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POR_our_collapsed_economy"
+		texturefile = "gfx/interface/ideas/POR/POR_our_collapsed_economy.dds"
+	}
+
+	#Mexico
+	spriteType = {
+		name = "GFX_idea_SIL_Narco_Empire"
+		texturefile = "gfx/interface/ideas/SIL/SIL_idea_Narco_Empire.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_SIL_Anti_Cartel_Vigilantes"
+		texturefile = "gfx/interface/ideas/SIL/SIL_idea_Anti_Cartel_Vigilantes.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_MEX_American_Support"
+		texturefile = "gfx/interface/ideas/MEX/MEX_American_Support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MEX_Death_Squads"
+		texturefile = "gfx/interface/ideas/MEX/MEX_death_squads.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ZAP_Autonomous_Army"
+		texturefile = "gfx/interface/ideas/ZAP/ZAP_autonomous_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ZAP_Anarchist_Society"
+		texturefile = "gfx/interface/ideas/ZAP/ZAP_anarchist_society.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MNL_Ultranationalist_Internationale"
+		texturefile = "gfx/interface/ideas/MNL/MNL_ultranationalist_internationale.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MNL_Blood_Money"
+		texturefile = "gfx/interface/ideas/MNL/MNL_blood_money.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YUC_Yepes_Offensive"
+		texturefile = "gfx/interface/ideas/YUC/YUC_yepes_offensive.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_YUC_Pearl_of_Yucatan"
+		texturefile = "gfx/interface/ideas/YUC/YUC_Pearl_of_Yucatan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MWR_Manzanares_Program"
+		texturefile = "gfx/interface/ideas/MWR/MWR_Manzanares_Program.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MWR_Shangai_Pact_Backing"
+		texturefile = "gfx/interface/ideas/MWR/MWR_Shangai_Pact_Backing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MCN_Inhospitable_North"
+		texturefile = "gfx/interface/ideas/MCN/MCN_Inhospitable_North.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MCN_Chaotic_Situation"
+		texturefile = "gfx/interface/ideas/MCN/MCN_Chaotic_Situation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COM_Flower_of_Freedom"
+		texturefile = "gfx/interface/ideas/COM/COM_Flower_Of_freedom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COM_Unstable_Coalition"
+		texturefile = "gfx/interface/ideas/COM/COM_Unstable_Coalition.dds"
+	}
+
+	#China
+	spriteType = {
+		name = "GFX_idea_PRC_great_hall_of_masquerades"
+		texturefile = "gfx/interface/ideas/PRC/PRC_great_hall_of_masquerades.dds"
+	}	
+
+	#DEN
+	spriteType = {
+		name = "GFX_idea_DEN_Banned_Works_program"
+		texturefile = "gfx/interface/ideas/DEN/DEN_banned_works.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEN_Holger_Danske"
+		texturefile = "gfx/interface/ideas/DEN/DEN_Holger_Danske.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEN_Disgruntled_Privateers"
+		texturefile = "gfx/interface/ideas/DEN/DEN_Disgruntled_Privateers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEN_Schleswig_Pressure"
+		texturefile = "gfx/interface/ideas/DEN/DEN_Schleswig_Pressure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_DEN_Counterfeit_Currency"
+		texturefile = "gfx/interface/ideas/DEN/DEN_Counterfeit_Currency.dds"
+	}
+
+	#NOW
+
+	spriteType = {
+		name = "GFX_idea_NOW_the_might_of_unicorns_idea"
+		texturefile = "gfx/interface/ideas/NOW/NOW_the_might_of_unicorns_idea.dds"
+	}
+
+	#MON
+
+	spriteType = {
+		name = "GFX_idea_MON_pure_red_regime"
+		texturefile = "gfx/interface/ideas/MON/MON_A_Pure_Red_Regime.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_MON_small_land_of_paradise"
+		texturefile = "gfx/interface/ideas/MON/MON_A_Small_Land_of_Paradise.dds"
+	}
+
+	#DPK
+
+	spriteType = {
+		name = "GFX_idea_DPK_national_council_reorg_patriotic_korea"
+		texturefile = "gfx/interface/ideas/DPK/DPK_The_National_Council_for_the_Reorga.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DPK_echoes_of_juche"
+		texturefile = "gfx/interface/ideas/DPK/DPK_The_Echoes_of_Juche.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DPK_an_overzealous_old_guard"
+		texturefile = "gfx/interface/ideas/DPK/DPK_An_Overzealous_Old_Guard.dds"
+	}
+
+	#OCC
+	spriteType = {
+		name = "GFX_idea_OCC_the_powers_of_supreme_politburo"
+		texturefile = "gfx/interface/ideas/OCC/OCC_the_powers_of_supreme_politburo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_OCC_growing_power_games"
+		texturefile = "gfx/interface/ideas/OCC/OCC_growing_power_games.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_OCC_our_eurocity"
+		texturefile = "gfx/interface/ideas/OCC/OCC_our_eurocity.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_OCC_issues_of_workplace_revolutionism"
+		texturefile = "gfx/interface/ideas/OCC/OCC_issues_of_workplace_revolutionism.dds"
+	}
+
+	#AMZ
+
+	spriteType = {
+		name = "GFX_idea_AMZ_the_curupiras"
+		texturefile = "gfx/interface/ideas/AMZ/AMZ_the_curupiras.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AMZ_remnants_of_BPR"
+		texturefile = "gfx/interface/ideas/AMZ/AMZ_remnants_of_BPR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AMZ_a_bounty_on_reactionaries"
+		texturefile = "gfx/interface/ideas/AMZ/AMZ_a_bounty_on_reactionaries.dds"
+	}
+	#BRA
+
+	spriteType = {
+		name = "GFX_idea_the_amazonian_disaster"
+		texturefile = "gfx/interface/ideas/BRA/the_amazonian_disaster.dds"
+	}
+	
+	#POL
+
+	spriteType = {
+		name = "GFX_idea_POL_A_Humanitarian_Catastrophe"
+		texturefile = "gfx/interface/ideas/POL/A_Humanitarian_Catastrophe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POL_Abusive_Economic_Relationship"
+		texturefile = "gfx/interface/ideas/POL/Abusive_Economic_Relationship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POL_All_For_Me_None_For_Thee"
+		texturefile = "gfx/interface/ideas/POL/An_Economic_Disaster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POL_Destroyed_Coastline"
+		texturefile = "gfx/interface/ideas/POL/Destroyed_Coastline.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POL_The_Bulwark_Of_Europe"
+		texturefile = "gfx/interface/ideas/POL/The_Bulwark_Of_Europe.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POL_Two_Polands_A_State_Of_Limbo"
+		texturefile = "gfx/interface/ideas/POL/Two_Polands_A_State_Of_Limbo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POL_Unrepresentative_Democracy"
+		texturefile = "gfx/interface/ideas/POL/Unrepresentative_Democracy.dds"
+	}
+
+	#PHI
+
+	spriteType = {
+		name = "GFX_idea_PHI_broken_archipelago"
+		texturefile = "gfx/interface/ideas/PHI/PHI_broken_archipelago.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PHI_golden_city"
+		texturefile = "gfx/interface/ideas/PHI/PHI_golden_city.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PHI_nothing_can_stop_progress"
+		texturefile = "gfx/interface/ideas/PHI/PHI_nothing_can_stop_progress.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PHI_those_bound_to_past"
+		texturefile = "gfx/interface/ideas/PHI/PHI_those_bound_to_past.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PHI_under_habeo_ideam"
+		texturefile = "gfx/interface/ideas/PHI/PHI_under_habeo_ideam.dds"
+	}
+
+	#VNC
+
+	spriteType = {
+		name = "GFX_idea_VNC_beacon_habeo_ideam"
+		texturefile = "gfx/interface/ideas/VNC/VNC_beacon_habeo_ideam.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VNC_the_new_venice_self_defence_force"
+		texturefile = "gfx/interface/ideas/VNC/VNC_new_venice_self_defence_force.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VNC_new_venice_shining_island_on_sea"
+		texturefile = "gfx/interface/ideas/VNC/VNC_new_venice_shining_island_on_sea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VNC_no_home_of_ours"
+		texturefile = "gfx/interface/ideas/VNC/VNC_no_home_of_ours.dds"
+	}
+
+
+	#CUB
+
+	spriteType = {
+		name = "GFX_idea_CUB_Apolitical_Strongman"
+		texturefile = "gfx/interface/ideas/CUB/CUB_Apolitical_Strongman.dds"
+	}
+}

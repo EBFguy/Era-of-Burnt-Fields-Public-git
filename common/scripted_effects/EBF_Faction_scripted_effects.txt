@@ -1,0 +1,23 @@
+EBF_factions_remover = {
+	remove_ideas = {
+		shanghai_pact_status_1
+		shanghai_pact_status_2
+		shanghai_pact_status_3
+		shanghai_pact_status_4
+		wacdep_status_1
+		wacdep_status_2
+		wacdep_status_3
+		mpa_status_1
+		cod_status_1
+		cod_status_2
+		cod_status_3
+		cod_status_4
+		solomon_faction_status_1
+		solomon_faction_status_2
+		solomon_faction_status_3
+		gulf_union_status_1
+		gulf_union_status_2
+		gulf_union_status_3
+		gulf_union_status_4
+	}
+}

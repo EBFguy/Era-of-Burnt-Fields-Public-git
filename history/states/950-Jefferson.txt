@@ -1,0 +1,27 @@
+
+state={
+	id=950
+	name="STATE_950"
+	manpower = 10
+	
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 10
+			610 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		610 3644 6482 781 3588 6665 4331 10159 766 11698 710
+	}
+}

@@ -1,0 +1,84 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "RUS_GUI_Kazakh_Paci_Decision_GUI"
+		size = { width = 525 height = 570 }
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name = "RUS_GUI_Kazakh_Paci_category_header"
+			spriteType = "GFX_decision_category_EBF_RUS_kazakh_pacification"
+			position = { x = 5 y = -10 }
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "RUS_GUI_Kazakh_Paci_desc_upper"
+			position = { x = 115 y = 95 }
+			font = "hoi_16mbs"
+			text = "RUS_GUI_Kazakh_Paci_desc_upper_txt"
+			alwaystransparent = yes
+			maxWidth = 380
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
+			name = "RUS_GUI_Kazakh_Paci_desc_lower"
+			position = { x = 10 y = 310 }
+			font = "hoi_16mbs"
+			text = "RUS_GUI_Kazakh_Paci_desc_lower_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
+			name = "RUS_GUI_Kazakh_Paci_Nikitin_sus_desc"
+			position = { x = 25 y = 452 }
+			font = "hoi_16mbs"
+			text = "RUS_GUI_Kazakh_Paci_Nikitin_sus_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+		
+		iconType = {
+			name = "RUS_GUI_Kazakh_Paci_Nikitin_sus_Decision_GUI_Bar"
+			spriteType = "GFX_RUS_GUI_Kazakh_Paci_Nikitin_sus_Bar"
+			pdx_tooltip = RUS_GUI_Kazakh_Paci_Decision_TT
+			position = { x = 22 y = 471 }
+		}
+
+		iconType = {
+			name = "RUS_GUI_Kazakh_Paci_Nikitin_sus_Decision_GUI_Bar_Frame"
+			spriteType = "GFX_RUS_GUI_Kazakh_Paci_GUI_Bar_Frame"
+			position = { x = 20 y = 470 }
+			alwaystransparent = YES
+		}
+
+		instantTextboxType = {
+			name = "RUS_GUI_Kazakh_Paci_Forces_Strength_desc"
+			position = { x = 25 y = 506 }
+			font = "hoi_16mbs"
+			text = "RUS_GUI_Kazakh_Paci_Forces_Strength_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 490
+			maxHeight = 50
+		}
+
+		iconType = {
+			name = "RUS_GUI_Kazakh_Paci_Forces_Strength_Bar"
+			spriteType = "GFX_RUS_GUI_Kazakh_Paci_Forces_Strength_Bar"
+			pdx_tooltip = RUS_GUI_Kazakh_Paci_Forces_Strength_TT
+			position = { x = 22 y = 526 }
+		}
+
+		iconType = {
+			name = "RUS_GUI_Kazakh_Paci_Forces_Strength_Bar_Frame"
+			spriteType = "GFX_RUS_GUI_Kazakh_Paci_GUI_Bar_Frame"
+			position = { x = 20 y = 525 }
+			alwaystransparent = YES
+		}		
+		
+	}
+} 

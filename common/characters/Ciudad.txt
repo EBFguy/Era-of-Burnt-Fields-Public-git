@@ -1,0 +1,15 @@
+characters = {
+	CIU_Eric_Navarro = {
+		name = "Eric Navarro"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CIU/Portrait_CIU_Eric_Navarro.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_stratocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ERIC_NAVARRO_DESC"
+		}
+	}
+}

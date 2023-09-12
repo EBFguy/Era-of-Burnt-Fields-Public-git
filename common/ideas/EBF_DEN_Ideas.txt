@@ -1,0 +1,191 @@
+ideas = {
+	country = {
+		DEN_Banned_Works_program = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Banned_Works_program"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DEN_Banned_Works_program
+					  
+			modifier = {	
+				academic_level_monthly_rate = -5
+			}
+		}
+
+		DEN_Holger_Danske = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Holger_Danske"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DEN_Holger_Danske
+					  
+			modifier = {	
+				administrative_efficiency_monthly_rate = -5
+				stability_factor = -0.05
+			}
+		}
+
+		DEN_Holger_Danske_1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Holger_Danske_1"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DEN_Holger_Danske
+					  
+			modifier = {	
+				administrative_efficiency_monthly_rate = -2.5
+				stability_factor = -0.025
+			}
+		}
+
+		DEN_Disgruntled_Privateers = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Disgruntled_Privateers"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DEN_Disgruntled_Privateers
+					  
+			modifier = {	
+				industrial_equipment_monthly_rate = -5
+				administrative_efficiency_monthly_rate = -2.5
+			}
+		}
+
+		DEN_Schleswig_Pressure = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Schleswig_Pressure"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DEN_Schleswig_Pressure
+					  
+			modifier = {	
+				war_support_factor = 0.05
+				army_core_defence_factor = 0.2
+			}
+		}
+
+		DEN_Counterfeit_Currency = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Counterfeit_Currency"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			
+			picture = idea_DEN_Counterfeit_Currency
+					  
+			modifier = {	
+				stability_weekly = -0.025
+				poverty_rate_monthly_rate = -10
+				economic_health_monthly_rate = -15
+			}
+		}
+
+		DEN_martial_law_declared = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_Disgruntled_Privateers"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = idea_DEN_Disgruntled_Privateers
+					  
+			modifier = {	
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				political_power_factor = -0.05
+				administrative_efficiency_monthly_rate = 2.5
+			}
+		}
+
+		DEN_treasury_frozen = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_treasury_frozen"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = idea_DEN_Disgruntled_Privateers
+					  
+			modifier = {	
+				political_power_gain = 0.1
+				administrative_efficiency_monthly_rate = -20
+				production_speed_buildings_factor = -1000
+				research_speed_factor = -1000
+				custom_modifier_tooltip = cannot_train_units_tt
+			}
+		}
+
+		DEN_food_struggles = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEN_food_struggles"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = idea_DEN_Disgruntled_Privateers
+					  
+			modifier = {	
+				stability_weekly = -0.025
+				monthly_population = -0.1
+				political_power_factor = -0.1
+				attrition = 0.1
+			}
+		}
+	}
+}

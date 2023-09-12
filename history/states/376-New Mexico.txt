@@ -1,0 +1,26 @@
+
+state={
+	id=376
+	name="STATE_376"
+	manpower = 2282566
+	
+	state_category = rural
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		victory_points = {
+			4975 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		2102 4975 10642 12684 
+	}
+	
+}

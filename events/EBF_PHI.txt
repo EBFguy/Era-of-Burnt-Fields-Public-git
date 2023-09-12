@@ -1,0 +1,29 @@
+﻿add_namespace = PHI_skeleton
+
+country_event = {
+	id = PHI_skeleton.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PHI_skeleton.1" }
+	title = PHI_skeleton.1.t
+	desc = PHI_skeleton.1.desc
+
+	is_triggered_only = yes
+	
+	option = {
+		name = PHI_skeleton.1.a
+		RPH = {
+			inherit_technology = PHI
+			transfer_state = 623
+			set_province_controller = 7275
+			set_province_controller = 7351
+			set_province_controller = 10175
+			declare_war_on = {
+				target = PHI
+				type = annex_everything
+			}
+		}
+		PHI = {
+			remove_ideas = PHI_those_bound_to_past
+		}
+		every_country = { news_event = news_event.87 }
+	}
+}

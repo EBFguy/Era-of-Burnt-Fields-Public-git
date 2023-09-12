@@ -1,0 +1,15 @@
+characters = {
+	SAX_Augustin_Rommel = {
+		name = "Augustin Rommel"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SCF/Portrait_SCF_Stephen_Montgomery.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_national_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_AUGUSTIN_ROMMEL_DESC"
+		}
+	}
+}

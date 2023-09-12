@@ -1,0 +1,23 @@
+
+state={
+	id=969
+	name="STATE_969"
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		11722 9721 6916 6778 598 9754
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

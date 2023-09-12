@@ -1,0 +1,25 @@
+
+state={
+	id=39
+	name="STATE_39" # South Tyrol
+	manpower = 928297
+	
+	state_category = town
+	
+
+	history={
+		add_core_of = VNC
+		owner = VNC
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		6675 9630 11615 
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=4
+	name="STATE_4"
+	manpower = 3755698
+	
+	state_category = large_city
+	
+	history={
+		add_core_of = VIE
+		owner = VIE
+		victory_points = {
+			11666 30.0 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 6
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		704 3718 6739 9527 11666 13248 13249 11651 6723 6552
+	}
+}

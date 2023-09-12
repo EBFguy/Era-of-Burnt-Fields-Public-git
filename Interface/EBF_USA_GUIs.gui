@@ -1,0 +1,13 @@
+guiTypes = {
+	containerWindowType = {
+		name = "EBF_USA_GUI_DOA_open"
+		size = { width = 166 height = 41 }
+		position = { x = 360 y = 500 }
+		buttonType = {
+			name = "USA_open_DOA_GUI"
+			spriteType = "GFX_USA_open_DOA_GUI"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "scripted_gui_open_tt_ERS_map"
+		}
+	}
+}

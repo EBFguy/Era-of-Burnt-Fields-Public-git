@@ -1,0 +1,67 @@
+﻿l_english:
+ #NAME#
+ PHI:0 "Philippine Directorate"
+ PHI_DEF:0 "The Philippine Directorate"
+ PHI_ADJ:0 "Philippino"
+ 
+ RPH:0 "Unitary Philippine Government"
+ RPH_DEF:0 "The Unitary Philippine Government"
+ RPH_ADJ:0 "Philippino" 
+
+ RPH_victory:0 "Republic of the Philippines"
+ RPH_victory_DEF:0 "The Republic of the Philippines"
+ RPH_victory_ADJ:0 "Philippino"  
+ #PARTIES
+ PHI_technoutopianism_party:0 "OWHI"
+ PHI_technoutopianism_party_long:0 "Office of the Wise Hall Initiative" 
+ PHI_securocracy_party:0 "HIOCEO"
+ PHI_securocracy_party_long:0 "Habeo Ideam Office of the CEO"
+ PHI_ultranationalism_party:0 "DISORGANISED"
+ PHI_ultranationalism_party_long:0 "DISORGANISED"
+ PHI_fascist_party:0 "DISORGANISED"
+ PHI_fascist_party_long:0 "DISORGANISED"
+ PHI_autocracy_party:0 "DISORGANISED"
+ PHI_autocracy_party_long:0 "DISORGANISED" 
+ PHI_anocracy_party:0 "League of Salvation"
+ PHI_anocracy_party_long:0 "League of Salvation"
+ PHI_conservatism_party:0 "DISORGANISED"
+ PHI_conservatism_party_long:0 "DISORGANISED" 
+ PHI_liberalism_party:0 "DISORGANISED"
+ PHI_liberalism_party_long:0 "DISORGANISED" 
+ PHI_libertarian_socialism_party:0 "DISORGANISED"
+ PHI_libertarian_socialism_party_long:0 "DISORGANISED" 
+ PHI_authoritarian_socialism_party:0 "DISORGANISED"
+ PHI_authoritarian_socialism_party_long:0 "DISORGANISED" 
+ PHI_totalitarian_socialism_party:0 "DISORGANISED"
+ PHI_totalitarian_socialism_party_long:0 "DISORGANISED" 
+ PHI_reductivism_party:0 "DISORGANISED"
+ PHI_reductivism_party_long:0 "DISORGANISED" 
+
+ RPH_anocracy_party:0 "League of Salvation"
+ RPH_anocracy_party_long:0 "League of Salvation" 
+ #CHARACHTERS#
+ PHI_domonic_richford:0 "Domonic Richford"
+ POLITICS_DOMONIC_RICHFORD_DESC:0 "§YCEO Of Habeo Ideam\nDirector of the Philippines§!\n§W--------------§!\nTo many, Dominic Ritchford is nothing other than a great man. A great scientist, hard worker, and saviour of those butchered by climate change, he is the perfect example of a businessman, enriching himself while saving those who cannot save themselves. If only they knew how wrong they are. Born in San Francisco on the 21st of January 2012, he sprinted through the world of Science, going from a STEM-infatuated teenager to a master's graduate in chemistry and rocketry to landing a job at SpaceX in just 20 years, setting himself apart from the other scientists with his charisma and public speaking abilities. While working on the moon in SpaceX's primary colony in 2032, Ritchford bore witness to the greatness of the intellectual members of the colony, Preserving the colony through their efforts and genius despite breakdowns, incidents and their struggle against their higher-ups, fanning a growing idea within Ritchford that only grew when Several Lunar colonies were destroyed by the bumbling selfishness of the US government and SpaceX. Returning to earth in 2035, Ritchford would forge his Ideas into 2 things: Habeo Ideam and the Lunar System of Government. The former, Created by disgruntled SpaceX employees, specialised in weapons manufacturing, the creation of Artificial Islands, AI programming, Smart Homes, cybernetics and Complete Internal Monitoring HeadsetS (CIMS). However, HI would serve a much darker path as well: spreading Richfords Lunar System of Governance, created in the cold winter of 2039. No more would the wise suffer under the foolish and stupid. Through Ritchford's guidance, the world will be shaped anew, with the Wise Men carving society into shape in their Halls, while the Idiotic public serve them, kept in line by the Strong. The journey will be long, bloody and tough, But much like the scientific progress he so adores, Richford will not stop. §REver.§!"
+ PHI_Ferdinand_Romualdez:0 "Ferdinand Romualdez"
+ POLITICS_FERDINAND_ROMUALDEZ_DESC:0 "§YLead Officer of the Salvation Government§!\n§W--------------§!"
+
+
+ #FOCUSES#
+
+ 
+ 
+
+ #IDEAS#
+ PHI_under_habeo_ideam:0 "Under Habeo Ideam"
+ PHI_broken_archipelago:0 "The Broken Archipelago"
+ PHI_golden_city:0 "A Golden City"
+ PHI_nothing_can_stop_progress:0 "Nothing Can Stop Progress"
+ PHI_those_bound_to_past:0 "Those Bound to the Past"
+
+
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#

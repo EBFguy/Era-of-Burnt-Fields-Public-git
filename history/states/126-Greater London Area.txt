@@ -1,0 +1,27 @@
+state={
+	id=126
+	name="STATE_126"
+	manpower=1821314
+	
+	state_category = megalopolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = LON
+		owner = LON
+		victory_points = {
+			6103 50 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 5
+		}
+	}
+
+	provinces={
+		6103 13299 13301 13302
+	}
+}

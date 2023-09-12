@@ -1,0 +1,29 @@
+
+state={
+	id=1054
+	name="STATE_1054"
+	manpower = 10
+	
+	state_category = town
+
+	local_supplies = 0.0 
+	history={
+		add_core_of = AST
+		owner = AST
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			7566 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7566 1 
+		}
+		
+	}
+
+	provinces={
+		1514 12957 7566 12382 8230 2187 2166 7538 12367 4520 12354 1501 10378 7525 4505 10365 10350 7506 10338 4648 1644
+	}
+}

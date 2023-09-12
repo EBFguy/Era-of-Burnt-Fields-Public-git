@@ -1,0 +1,24 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 1191872
+	
+	state_category = town
+
+	history={
+		add_core_of = PLB
+		owner = PLB
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 2
+			fuel_silo = 1
+			air_base = 2
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		247 9281 11233 11264 11388 11318 9309
+	}
+}

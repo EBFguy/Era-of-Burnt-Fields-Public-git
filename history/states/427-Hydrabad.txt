@@ -1,0 +1,22 @@
+state={
+	id=427
+	name="STATE_427"
+	manpower = 148830500
+	
+	state_category = town
+
+	history={
+		add_core_of = MAH
+		owner = MAH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1359 5019 5063 5104 10311 10324 10511 11950 12226 11955 7430
+	}
+}

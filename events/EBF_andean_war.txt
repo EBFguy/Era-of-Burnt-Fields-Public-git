@@ -1,0 +1,146 @@
+﻿add_namespace = andean_war
+
+#andean_war
+country_event = {
+	id = andean_war.1 #taking of Salta
+	immediate = {log = "[GetDateText]: [Root.GetName]: event andean_war.1"}
+	title = andean_war.1.t
+	desc = andean_war.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = andean_war.1.a
+		1038 = {
+			set_demilitarized_zone = yes
+		}
+		country_event = {
+			id = andean_war.2
+			days = 5
+		}		
+	}
+}
+
+country_event = {
+	id = andean_war.2 #TENSIONS RISING
+	immediate = {log = "[GetDateText]: [Root.GetName]: event andean_war.2"}
+	title = andean_war.2.t
+	desc = andean_war.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = andean_war.2.a
+		CHL = {
+			create_faction = Andes_Pact
+			add_to_faction = ARG
+			set_global_flag = CHL_Andes_Pact_Exists
+		}
+		ARG = {
+			add_ideas = {
+				Habeo_Ideam_Network_Member
+			}
+		}
+		country_event = {
+			id = andean_war.3
+			days = 5
+		}		
+	}
+}
+
+country_event = {
+	id = andean_war.3 #The North Argentine Revolution
+	immediate = {log = "[GetDateText]: [Root.GetName]: event andean_war.3"}
+	title = andean_war.3.t
+	desc = andean_war.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = andean_war.3.a
+		every_state = {
+			limit = {
+				and = {
+					is_core_of = ARG
+					is_demilitarized_zone = yes
+				}
+			}
+			add_core_of = NRG
+			set_demilitarized_zone = no
+		}		
+		
+		NRG = {
+			transfer_state = 894
+			transfer_state = 508
+			transfer_state = 895
+			transfer_state = 509
+			transfer_state = 1038
+		}
+		every_state = {
+			limit = {
+				is_core_of = ARG
+				NOT = {
+					is_owned_by = NRG
+				}
+			}
+			add_claim_by = NRG
+		}		
+		country_event = {
+			id = andean_war.4
+			days = 5
+		}		
+	}
+}
+
+country_event = {
+	id = andean_war.4 #The revolutnaries join the MPA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event andean_war.4"}
+	title = andean_war.4.t
+	desc = andean_war.4.d
+	is_triggered_only = yes
+	
+	option = {
+		name = andean_war.4.a
+		BOL = {
+			add_to_faction = NRG
+		}
+		NRG = {
+			add_ideas = {
+				RevNet_member
+			}
+		}		
+		country_event = {
+			id = andean_war.5
+			days = 5
+		}		
+	}
+}
+
+country_event = {
+	id = andean_war.5 #War begins
+	immediate = {log = "[GetDateText]: [Root.GetName]: event andean_war.5"}
+	title = andean_war.5.t
+	desc = andean_war.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = andean_war.5.a
+		every_country = { 
+			limit = {
+				is_in_faction_with = CHL
+			}
+            declare_war_on = {
+                target = NRG
+                type = annex_everything
+            }	
+            declare_war_on = {
+                target = BOL
+                type = annex_everything
+            }			
+            declare_war_on = {
+                target = PER
+                type = annex_everything
+            }					
+		}
+		news_event = {
+			id = news_event.20
+		}
+	}
+}

@@ -1,0 +1,93 @@
+﻿capital = 501
+
+# Vacant
+recruit_character = BRA_Generic_Vacant_psi
+recruit_character = BRA_Generic_Vacant_pi_0
+recruit_character = BRA_Generic_Vacant_pi_1
+recruit_character = BRA_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = BRA_Romeu_Delgado
+recruit_character = BRA_Cesar_Vaz
+recruit_character = BRA_Nelson_Capela
+recruit_character = BRA_Lourenco_Di_Mattia
+recruit_character = BRA_Isaias_Rezende
+recruit_character = BRA_Erasmo_Blauschwert
+recruit_character = BRA_WWC_Cells
+recruit_character = BRA_Daniel_Sarney
+
+recruit_character = BRA_Rosa_Sa
+recruit_character = BRA_Rejuvenation_Council
+recruit_character = BRA_Yago_Lobo
+recruit_character = BRA_Conrado_Karpowicz
+recruit_character = BRA_Pablo_I
+
+set_popularities = {
+    technoutopianism = 5
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 20
+    autocracy = 2.5
+    anocracy = 50
+    conservatism = 0
+    liberalism = 20
+    libertarian_socialism = 0
+    authoritarian_socialism = 2.5
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+add_ideas = {
+
+    #POLLITICAL
+    EBF_dominant_party_state
+    EBF_internal_opposition
+    EBF_secularism
+    EBF_elite_voting
+    EBF_free_press
+    EBF_non_socialist_unions
+    EBF_immigration_quotas
+    EBF_cognizant_awareness_checks
+
+    #ECONOMIC
+    EBF_export_focus
+    EBF_minor_minimum_wage
+    EBF_14_hours
+    EBF_emerging_AI_model
+
+    #MILITARY
+    EBF_two_year_draft
+    EBF_militarised_policing
+    EBF_basic_training
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_rampant_poverty
+    EBF_economic_collapse
+    EBF_military_widespread_corruption
+    EBF_manufactory_lines
+    EBF_widespread_corruption
+
+    the_amazonian_disaster
+    BRA_delgados_neglect
+	BRA_cordial_men
+	BRA_unbound_radicalism
+}

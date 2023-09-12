@@ -1,0 +1,32 @@
+
+state={
+	id=937
+	name="STATE_937"
+	manpower = 10
+	
+	state_category = megalopolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			dockyard = 7
+			air_base = 2
+			6845 = {
+				naval_base = 8
+
+			}
+		}
+		
+		victory_points = {
+			6845 20
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		822 3824 6869 6845 11799
+	}
+}

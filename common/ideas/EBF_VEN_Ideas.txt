@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		#BASE IDEAS
+		VEN_The_Perfect_Scapegoat = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VEN_The_Perfect_Scapegoat"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.3
+				war_stability_factor = 0.2
+				political_power_factor = -0.25
+			}
+		}			
+		VEN_An_All_Venezuelan_Tragedy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea VEN_An_All_Venezuelan_Tragedy"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				drift_defence_factor = -0.3
+				industrial_capacity_factory = -0.4
+				consumer_goods_factor = 0.4
+				production_speed_buildings_factor = -0.5
+				local_resources_factor = -0.5
+			}
+		}	
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=1141
+	name="STATE_1141"
+
+	history={
+		add_core_of = WLS
+		owner = WLS
+		victory_points = {
+			13484 5 
+		}
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		11361 13484 13485 13486 
+	}
+	manpower=1052380
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

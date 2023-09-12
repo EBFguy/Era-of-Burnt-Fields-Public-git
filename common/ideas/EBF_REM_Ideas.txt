@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		REM_those_who_have_been_forsaken = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea REM_those_who_have_been_forsaken"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				global_building_slots_factor = -1.0
+				custom_modifier_tooltip = cannot_train_units_tt
+			}
+		}			
+	}
+}

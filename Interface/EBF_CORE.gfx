@@ -1,0 +1,78 @@
+spriteTypes = {
+	textSpriteType = {
+		name = "GFX_government_button_small"
+		texturefile = "gfx//interface//government_button_small.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_category_header_shorter"
+		textureFile = "gfx/interface/category_header_shorter.dds"
+	}	
+	spriteType = {
+		name = "GFX_EBF_laws_category"
+		textureFile = "gfx/interface/EBF_laws_category.dds"
+	}			
+	textSpriteType = {
+		name = "GFX_law_button_140x29"
+		texturefile = "gfx/interface/EBF_law_button_140x29.dds"
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_odri_indicator"
+		texturefile = "gfx/interface/EBF_ordi_checkbox.dds"
+		noOfFrames = 2
+	}
+	textSpriteType = {
+		name = "GFX_law_button_77x31"
+		texturefile = "gfx/interface/EBF_law_button_77x31.dds"
+		noOfFrames = 2
+	}	
+	textSpriteType = {
+		name = "GFX_law_button_green_77x31"
+		texturefile = "gfx/interface/EBF_law_button_green_77x31.dds"
+	}	
+	textSpriteType = {
+		name = "GFX_law_button_221x29"
+		texturefile = "gfx/interface/EBF_law_button_221x29.dds"
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_EBF_socdev_category"
+		textureFile = "gfx/interface/EBF_socdevs_category.dds"
+	}	
+	spriteType = {
+		name = "GFX_EBF_socdev_bar_holder"
+		textureFile = "gfx/interface/EBF_Socdev_bar_holder.dds"
+	}	
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_1b_no_border"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg_laws.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_idea_entry"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiled_idea_entry_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}	
+	progressbartype = {
+		name = "GFX_EBF_GUI_socdev_bar"
+		textureFile1 = "gfx/interface/EBF_Socdevs_bar.dds"
+		textureFile2 = "gfx/interface/EBF_Socdevs_negative_bar.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 352
+			y = 14
+		}
+		steps = 300
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

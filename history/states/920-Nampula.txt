@@ -1,0 +1,25 @@
+
+state={
+	id=920
+	name="STATE_920" #Mozambique
+	manpower = 10
+	
+	state_category = rural
+	
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			2123 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		12971 2180 5164 2159 2217 2202 2123
+	}
+}

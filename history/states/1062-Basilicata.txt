@@ -1,0 +1,21 @@
+state={
+	id=1062
+	name="STATE_1062"
+	manpower = 997635
+	local_supplies = 0.0 
+	state_category = pastoral
+
+	history={
+		add_core_of = MEZ
+		owner = MEZ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+
+	provinces={
+		3958 6972 9856 3968
+	}
+}

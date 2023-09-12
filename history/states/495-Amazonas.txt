@@ -1,0 +1,22 @@
+
+state={
+	id=495
+	name="STATE_495"
+	manpower = 5727636
+	
+	state_category = pastoral
+
+	history={
+		add_core_of = BRA
+		owner = BRA
+		buildings = {
+			infrastructure = 0
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1979 2035 2198 5216 5232 8172 8185 8254 10956 10960 12965 
+	}
+}

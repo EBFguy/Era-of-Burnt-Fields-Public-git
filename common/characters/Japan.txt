@@ -1,0 +1,126 @@
+characters = {
+	JAP_Uranishi_Yukichi = {
+		name = JAP_Uranishi_Yukichi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Japan/Portrait_JAP_Uranishi_Yukichi.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_social_liberal_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_URANISHI_YUKICHI_DESC"
+		}
+	}
+
+	JAP_airi = {
+		name = JAP_end_of_humanity
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_EOH_Animated_EOH"
+			}
+		}
+		country_leader = {
+			desc = JAP_end_of_humanity_desc
+			ideology = technoutopianism_EOHs_transmission_subtype
+		}
+	}	
+
+	PRJ_Okimoto_Shuichi = {
+		name = PRJ_Okimoto_Shuichi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Japan/Portrait_PRJ_Okimoto_Shuichi.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_OKIMOTO_SHICHI_DESC"
+		}
+	}	
+
+	SHI_Yukawa_Namika = {
+		name = SHI_Yukawa_Namika
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_one_party_dominant_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_YUKAWA_NAMIKA_DESC"
+		}
+	}		
+
+	NRJ_Matsuyama_Kojiro = {
+		name = NRJ_Matsuyama_Kojiro
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MATSUYAMA_KOJIRO_DESC"
+		}
+	}	
+
+	SCE_Tominaga_Akko = {
+		name = SCE_Tominaga_Akko
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_EOHs_transmission_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_TOMINAGA_AKKO_DESC"
+		}
+	}	
+
+	TVN_Hashira_Tango = {
+		name = TVN_Hashira_Tango
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_EOHs_transmission_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_HASHIRRA_TANGO_DESC"
+		}
+	}	
+
+	INT_Interconnection_AI = {
+		name = INT_Interconnection_AI
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_esoteric_technoutopianism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_INTERCONNECTION_AI_DESC"
+		}
+	}	
+
+	VEA_Uesato_Tokutomi = {
+		name = VEA_Uesato_Tokutomi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = reductivism_fatalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_UESATO_TOKUTOMI_AI_DESC"
+		}
+	}	
+}

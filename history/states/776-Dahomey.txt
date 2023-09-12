@@ -1,0 +1,26 @@
+
+state={
+	id=776
+	name="STATE_776" # Benin/Dahomey
+	manpower = 1351563
+	
+	state_category = pastoral
+	history={
+		add_core_of = BEN
+		owner = BEN
+		victory_points = {
+			10919 1
+		}
+		buildings = {
+			infrastructure = 3
+			10919 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		10919 12874 12762
+	}
+	local_supplies = 0.0 
+}

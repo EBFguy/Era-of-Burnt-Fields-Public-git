@@ -1,0 +1,33 @@
+characters = {
+	PHI_domonic_richford = {
+		name = PHI_domonic_richford
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PHI/Portrait_PHI_Domonic_Richford.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_richford_system_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_DOMONIC_RICHFORD_DESC"
+		}
+		country_leader = {
+			ideology = securocracy_habeo_ideam_directorate_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_DOMONIC_RICHFORD_DESC"
+		}		
+	}
+	PHI_Ferdinand_Romualdez = {
+		name = PHI_Ferdinand_Romualdez
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PHI/Portrait_PHI_Ferdinand_Romualdez.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FERDINAND_ROMUALDEZ_DESC"
+		}	
+	}
+}

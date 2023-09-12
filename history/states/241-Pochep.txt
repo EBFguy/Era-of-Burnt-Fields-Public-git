@@ -1,0 +1,26 @@
+
+state={
+	id=241
+	name="STATE_241" # Gomel
+	manpower = 1364881
+	
+	state_category = rural
+	local_supplies = 0.0 
+	history={
+		add_core_of = BLR
+		owner = BLR
+		victory_points = {
+			9288 10 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		
+		
+	}
+
+	provinces={
+		289 6233 6344 6354 9247 9288 9342 9371 9396 11230 11271 11355 11383 
+	}
+}

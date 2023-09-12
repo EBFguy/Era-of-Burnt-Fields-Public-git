@@ -1,0 +1,22 @@
+
+state={
+	id=424
+	name="STATE_424" # Madras
+	manpower = 167717085
+	state_category = rural
+	
+
+	history={
+		add_core_of = SID
+		owner = SID
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1344 1430 4321 4365 4414 7310 10152 10296 10756 10897 12180 12779 1317
+	}
+}

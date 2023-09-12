@@ -1,0 +1,79 @@
+on_actions = {#THIS IS WHERE EVERY COUNTRY SETS UP THEIR SOCDEVS, PLEASE SET THEM UP ACCORDININGLY, PLAYABLE NATIONS MUST HAVE THEIR SOCDEVS SET UP
+
+    #CODE SLICE:
+    # TAG = {
+    #     set_variable = {academic_level_monthly_change = 0 }
+    #     set_variable = {EBF_socdev_academic_level_var = 150 }
+
+    #     set_variable = {poverty_rate_monthly_change = 0 }
+    #     set_variable = {EBF_socdev_poverty_rate_var = 150 }
+
+    #     set_variable = {economic_health_monthly_change = 0 }
+    #     set_variable = {EBF_socdev_economic_health_var = 150 }
+
+    #     set_variable = {army_professionalism_monthly_rate = 0 }
+    #     set_variable = {EBF_socdev_army_professionalism_var = 150 }
+
+    #     set_variable = {industrial_equipment_monthly_change = 0 }
+    #     set_variable = {EBF_socdev_industrial_equipment_var = 150 }
+
+    #     set_variable = {administrative_efficiency_monthly_change = 0 }
+    #     set_variable = {EBF_socdev_administrative_efficiency_var = 150 }
+
+    #     set_variable = {conscription_allow_law_min = 1 }
+    #     set_variable = {conscription_allow_law_max = 8 }   
+
+    #     set_variable = {training_standard_law_min = 1 }
+    #     set_variable = {training_standard_law_max = 8 }   
+
+    #     set_variable = {policing_law_min = 1 }
+    #     set_variable = {policing_law_max = 8 }   
+
+    #     set_variable = {military_supervision_law_min = 1 }
+    #     set_variable = {military_supervision_law_max = 8 }   
+
+    #     set_variable = {ethos_law_min = 1 }
+    #     set_variable = {ethos_law_max = 8 }   
+
+    #     set_variable = {ethics_law_min = 1 }
+    #     set_variable = {ethics_law_max = 8 }   
+    # }
+    on_startup = {
+        effect = {
+            every_country = { #BASICS FOR EVERY COUNTRY
+                EBF_startup_nation = yes
+                set_country_flag = starting_tag
+            }          
+            USA = {
+                set_variable = {EBF_socdev_academic_level_var = 25}
+            }
+            VNC = {
+                set_variable = {EBF_socdev_academic_level_var = 50}
+                set_variable = {academic_level_monthly_change = -2.5}
+                set_variable = {EBF_socdev_poverty_rate_var = 25}
+                set_variable = {EBF_socdev_economic_health_var = 60}
+                set_variable = {EBF_socdev_army_professionalism_var = 75}
+                set_variable = {EBF_socdev_industrial_equipment_var = 125}
+                set_variable = {industrial_equipment_monthly_change = -5}
+                set_variable = {EBF_socdev_administrative_efficiency_var = 110}
+                set_variable = {conscription_allow_law_min = 2 }
+                set_variable = {conscription_allow_law_max = 2 }   
+                set_variable = {training_standard_law_min = 3 }
+                set_variable = {training_standard_law_max = 4 }   
+                set_variable = {policing_law_min = 3 }
+                set_variable = {policing_law_max = 5 }   
+                set_variable = {military_supervision_law_min = 3 }
+                set_variable = {military_supervision_law_max = 4 }   
+                set_variable = {ethics_law_min = 1 }
+                set_variable = {ethics_law_max = 1 }   
+            }
+
+            DEN = {
+                set_variable = {EBF_socdev_poverty_rate_var = 90 }
+                set_variable = {EBF_socdev_economic_health_var = 60 }
+                set_variable = {EBF_socdev_army_professionalism_var = 70 }
+                set_variable = {EBF_socdev_administrative_efficiency_var = 110 }
+            }
+        }
+    }
+}

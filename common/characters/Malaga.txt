@@ -1,0 +1,15 @@
+characters = {
+	MLA_Málaga_Commune = {
+		name = "Málaga Commune"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MLA/Portrait_MLA_Málaga_Commune.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MALAGA_COMMUNE_DESC"
+		}
+	}
+}

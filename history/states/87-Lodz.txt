@@ -1,0 +1,31 @@
+state={
+	id=87
+	name="STATE_87"
+	manpower = 3807805
+	
+	state_category = town
+	history={
+		add_core_of = POL
+		owner = POL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		victory_points = {
+			9508 10
+		}
+		victory_points = {
+			11428 5
+		}
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+			}
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		493 9508 11428 9546 584 11492 9400 3482 
+	}
+}

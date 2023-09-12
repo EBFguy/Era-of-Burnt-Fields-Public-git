@@ -1,0 +1,24 @@
+
+state={
+	id=863
+	name="STATE_863"
+	manpower = 2407316
+
+	state_category = town
+
+	history={
+		add_core_of = ORL
+		owner = ORL
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		9478 11463 3509 3523 527 3495
+	}
+}

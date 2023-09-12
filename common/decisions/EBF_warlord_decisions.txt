@@ -1,0 +1,16 @@
+warlord_europe_epoch_decision_category = {
+	warlord_europe_debug_epoch_1 = {
+		visible = { is_debug = yes }
+
+		complete_effect = {
+			set_variable = { global.warlord_europe_epoch = 1 }
+		}
+	}
+	warlord_europe_debug_epoch_2 = {
+		visible = { is_debug = yes }
+
+		complete_effect = {
+			set_variable = { global.warlord_europe_epoch = 2 }
+		}
+	}
+}

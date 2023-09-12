@@ -1,0 +1,142 @@
+﻿capital = 1021
+
+# Vacant
+recruit_character = RUS_Generic_Vacant_psi
+recruit_character = RUS_Generic_Vacant_pi_0
+recruit_character = RUS_Generic_Vacant_pi_1
+recruit_character = RUS_Generic_Vacant_pi_2
+
+oob = RUS_2061
+set_research_slots = 4
+
+# Starting tech
+set_technology = {
+    #infantry folder
+    infantry_weapons2040 = 1
+    infantry_weapons2050 = 1
+    infantry_weapons2059 = 1
+    rations2059 = 1
+    special_operations = 1
+    para2059 = 1
+
+    #support folder
+    tech_support = 1
+
+    #hardware_folder
+    exoskeleton2045 = 1
+    exoskeleton2050 = 1
+    lightexoskeleton2058 = 1
+    android2045 = 1
+    cims2030 = 1
+    cims2050 = 1
+    cims2060 = 1
+
+    #vehicles
+    MBT2040 = 1
+    MBT2050 = 1
+    MBT2062 = 1
+    IFV2040 = 1
+    IFV2050 = 1
+    IFV2062 = 1
+    APC2040 = 1
+    APC2050 = 1
+    APC2062 = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.35
+
+set_convoys = 50
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_autonomy = { target = KAZ autonomy_state = RUS_military_authority }
+
+KAZ = {set_cosmetic_tag = KAZ_Ruspuppet }
+
+recruit_character = RUS_Grigory_Chkalov
+recruit_character = RUS_Grigoriy_Sudoplatov
+recruit_character = RUS_REDACTED_sec
+recruit_character = RUS_Miron_Osipov
+recruit_character = RUS_Timur_Sokolov
+recruit_character = RUS_Igor_Kozlov
+recruit_character = RUS_Roksana_Smirnova
+recruit_character = RUS_UNKNOWN_libsoc
+recruit_character = RUS_Disorganised
+recruit_character = RUS_Andrei_Damian
+recruit_character = RUS_Mikhail_Tarasov
+recruit_character = RUS_Pavel_Nikitin
+recruit_character = RUS_Rurik_Belov
+recruit_character = RUS_Nikifor_Kovalev
+
+set_popularities = {
+    technoutopianism = 1
+    securocracy = 0
+    ultranationalism = 10
+    fascist = 0
+    autocracy = 20
+    anocracy = 29
+    conservatism = 15
+    liberalism = 15
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 10
+    reductivism = 0
+}
+
+add_ideas = {
+
+    #POLLITICAL
+    EBF_dominant_party_state
+    EBF_suppressed_opposition
+    EBF_pluralism
+    EBF_elite_voting
+    EBF_censored_press
+    EBF_non_socialist_unions
+    EBF_immigration_quotas
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_limited_exports
+    EBF_trinket_minimum_wage
+    EBF_10_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_ordinary_policing
+    EBF_basic_training
+    EBF_military_police
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_widespread_poverty
+    EBF_stagnating_economy
+    EBF_professional_army
+    EBF_industrial_equipment_use
+    EBF_cronyism
+
+    #MINISTERS
+    RUS_Mikhail_Tarasov_min
+    RUS_Grigoriy_Sudoplatov_min
+    RUS_Pavel_Nikitin_min
+    RUS_Rurik_Belov_min
+
+    #BASE IDEAS
+    RUS_vestigial_democracy
+    RUS_kazakh_pacification
+    RUS_december_emergency_decree
+    RUS_path_verdant_siberia
+}
+
+add_ideas = {
+    UEN_member
+}
+for_each_scope_loop = {
+	array = RUS.subjects
+	add_ideas = UEN_member
+}

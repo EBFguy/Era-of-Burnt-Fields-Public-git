@@ -1,0 +1,100 @@
+characters = {
+
+	BLT_Andrea_Canali = {
+		name = BLT_Andrea_Canali
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLT/Portrait_BLT_Andrea_Canali.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_stratocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_AMDREA_CANALI_DESC"
+		}
+	}
+
+	EST_feliks_kaas = {
+		name = EST_feliks_kaas
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EST/Portrait_EST_feliks_kaas.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_social_liberal_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FELIKS_KAAS_DESC"
+		}
+	}	
+
+	ODO_Reiner_Klossner = {
+		name = ODO_Reiner_Klossner
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ODO/Portrait_ODO_Reiner_Klossner.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_banditry_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_REINER_KLOSSNER_DESC"
+		}
+	}
+
+	LAT_Maksims_Vilsons = {
+		name = LAT_Maksims_Vilsons
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAT/Portrait_LAT_Maksims_Vilsons.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_civlian_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MAKSIMS_VILSONS_DESC"
+		}
+	}			
+
+	BAU_Anaita_Priede = {
+		name = BAU_Anaita_Priede
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BAU/Portrait_BAU_Anaita_Priede.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_market_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ANAITA_PRIEDE_DESC"
+		}
+	}		
+
+	LIT_Juozapas_Zurlys = {
+		name = LIT_Juozapas_Zurlys
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIT/Portrait_LIT_Juozapas_Zurlys.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_national_conservative_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JUOZAPAS_ZURLYS_JAMSHIDI_DESC"
+		}
+	}			
+
+	MAR_Albert_Elijzen = {
+		name = MAR_Albert_Elijzen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MAR/Portrait_MAR_Albert_Elijzen.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_occupation_authority_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ALBERT_ELIJZEN_DESC"
+		}
+	}		
+}

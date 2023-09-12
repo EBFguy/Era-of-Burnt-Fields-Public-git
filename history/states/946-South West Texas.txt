@@ -1,0 +1,31 @@
+
+state={
+	id=946
+	name="STATE_946"
+	manpower = 10
+	
+	
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 9
+			air_base = 3
+			6785 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			12782 1 
+		}		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		12369 5061 6785 6987 2019 12728 4955 2042 12782 4884 1927 6798 8064 1998
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=90
+	name="STATE_90" # Kielce
+	manpower = 2655770
+	
+	state_category = town
+	
+
+	history={
+		add_core_of = POL
+		owner = POL
+
+		victory_points = {
+			9551 10
+		}
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		562 3497 6416 11532 9551 13455
+	}
+}

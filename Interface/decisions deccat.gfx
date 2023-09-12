@@ -1,0 +1,20 @@
+spriteTypes = {	
+
+	### categories
+	
+
+	spriteType = {
+		name = "GFX_decision_category_EBF_RUS_kazakh_pacification"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_EBF_RUS_Kazakhstan_Pacification.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_EBF_PRC_battle_for_the_great_hall"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_EBF_PRC_battle_for_the_great_hall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_EBF_LON_Logic_Consump"
+		texturefile = "gfx/interface/decisions/pictures/decision_cat_EBF_LON_Logic_Consump.dds"
+	}
+}

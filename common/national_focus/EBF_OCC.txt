@@ -1,0 +1,26 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_occitania_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = OCC
+		}
+	}
+	default = no
+	shared_focus = OCC_the_city_communism_was_found
+	shared_focus = OCC_utopia_in_flames
+}
+
+#focus_tree = {
+#	id = EBF_occitania_utopia_crisis_response
+#	country = {
+#		factor = 0
+#		modifier = {
+#			add = 10
+#			tag = OCC
+#		}
+#	}
+#	default = no
+#}

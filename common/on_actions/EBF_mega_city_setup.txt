@@ -1,0 +1,21 @@
+# Notes:
+# Stolen from TNO loL!
+
+on_actions = {
+	on_startup = {
+		effect = {
+			# London
+			126 = { add_to_array = { global.state_with_megacity = THIS.id } }
+			add_to_array = { 126.megacity_entries = 1 }
+			924 = {
+				add_to_array = { global.state_with_megacity = THIS.id }
+				add_to_array = { megacity_entries = 1 }
+			}
+			925 = {
+				add_to_array = { global.state_with_megacity = THIS.id }
+				add_to_array = { megacity_entries = 1 }
+			}
+		}
+
+	}
+}

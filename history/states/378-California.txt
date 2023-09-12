@@ -1,0 +1,20 @@
+
+state={
+	id=378
+	name="STATE_378"
+	manpower = 70353081
+	
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		941 1432 1601 1651 7667 9855 10387 10483 11763 11795 
+	}
+}

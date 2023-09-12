@@ -1,0 +1,1202 @@
+#Renamed because this engine is horrid
+technologies = {
+
+
+	tech_support = {
+
+		enable_equipments = {
+			support_equipment_1
+		}
+		
+		
+		path = {
+			leads_to_tech = tech_engineers
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = tech_recon
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = tech_field_hospital
+			research_cost_coeff = 1
+		}					
+
+		path = {
+			leads_to_tech = tech_logistics_company
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_military_police
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_signal_company
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_maintenance_company
+			research_cost_coeff = 1
+		}
+		research_cost = 1.0
+		start_year = 2055
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			support_tech
+		}
+	}
+
+	
+	tech_engineers = {
+
+		enable_subunits = {
+			engineer
+			mbt_engineer
+		}
+		
+		path = {
+			leads_to_tech = tech_engineers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_engineers2 = {
+
+		enable_subunits = {
+			robo_engineer
+		}
+
+		category_engineer = {
+			entrenchment  = 1
+		}
+
+		engineer = {
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		mbt_engineer = {
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		
+		path = {
+			leads_to_tech = tech_engineers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_engineers3 = {
+
+		category_engineer = {
+			entrenchment  = 1
+		}
+		
+		engineer = {
+			desert = {
+				attack = 0.1	
+				defence = 0.05
+			}
+		}
+
+		mbt_engineer = {
+			desert = {
+				attack = 0.1	
+				defence = 0.05
+			}
+		}
+
+		robo_engineer = {
+			amphibious = {
+				attack = 0.05
+			}
+		}
+
+		path = {
+			leads_to_tech = tech_engineers4
+			research_cost_coeff = 1
+		}		
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_engineers4 = {
+
+		category_engineer = {
+			entrenchment  = 1
+			river = {
+				attack = 0.1	
+				defence = 0.10
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		path = {
+			leads_to_tech = tech_engineers5
+			research_cost_coeff = 1
+		}	
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 13 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+        show_effect_as_desc = yes
+
+	}	
+
+	tech_engineers5 = {
+
+		category_engineer = {
+			entrenchment  = 1
+			hills = {
+				attack = 0.1	
+				defence = 0.1
+				movement = 0.05
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 16 }
+		}
+
+		path = {
+			leads_to_tech = tech_engineers6
+			research_cost_coeff = 1
+		}	
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+        show_effect_as_desc = yes
+
+	}	
+
+	tech_engineers6 = {
+
+		category_engineer = {
+			entrenchment  = 1
+		}
+
+		engineer = {
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+		}
+
+		mbt_engineer = {
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+		}
+
+		robo_engineer = {
+			amphibious = {
+				attack = 0.1
+			}
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+			engineers_tech
+		}
+        show_effect_as_desc = yes
+
+	}	
+	
+	tech_recon = {
+
+		enable_subunits = {
+			recon
+			mot_recon
+			scout_cars_recon
+			armoured_recon
+		}
+		
+		path = {
+			leads_to_tech = tech_recon2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_recon2 = {
+
+		category_recon = {
+			recon = 2
+		}
+		
+		path = {
+			leads_to_tech = tech_recon3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_recon3 = {
+
+		category_recon = {
+			recon = 2
+		}
+		path = {
+			leads_to_tech = tech_recon4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+	}
+	tech_recon4 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 13 }
+		}
+
+		path = {
+			leads_to_tech = tech_recon5
+			research_cost_coeff = 1
+		}
+
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_recon5 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 16 }
+		}
+
+		path = {
+			leads_to_tech = tech_recon6
+			research_cost_coeff = 1
+		}
+
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_recon6 = {
+
+		category_recon = {
+			recon = 2
+		}
+
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 19 }
+		}
+
+		
+		categories = {
+			support_tech
+			recon_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_military_police = {
+
+		enable_subunits = {
+			military_police
+		}
+		
+		path = {
+			leads_to_tech = tech_military_police2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_military_police2 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+		
+		
+		path = {
+			leads_to_tech = tech_military_police3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_military_police3 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+		path = {
+			leads_to_tech = tech_military_police4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	tech_military_police4 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = tech_military_police5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 13 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_military_police5 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+
+		path = {
+			leads_to_tech = tech_military_police6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_military_police6 = {
+
+		military_police = {
+			suppression_factor = 0.1
+		}
+
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+			military_police_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_maintenance_company = {
+
+		enable_subunits = {
+			maintenance_company
+		}
+		
+		path = {
+			leads_to_tech = tech_maintenance_company2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_maintenance_company2 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+		
+		
+		path = {
+			leads_to_tech = tech_maintenance_company3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_maintenance_company3 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+		path = {
+			leads_to_tech = tech_maintenance_company4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+	tech_maintenance_company4 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+		path = {
+			leads_to_tech = tech_maintenance_company5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 13 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_maintenance_company5 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+		path = {
+			leads_to_tech = tech_maintenance_company6
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 16 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_maintenance_company6 = {
+
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_field_hospital = {
+
+		enable_subunits = {
+			field_hospital
+		}
+		
+		path = {
+			leads_to_tech = tech_field_hospital2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			hospital_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_field_hospital2 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.10
+			experience_loss_factor = -0.10
+		}
+		
+		path = {
+			leads_to_tech = tech_field_hospital3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			hospital_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_field_hospital3 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+		path = {
+			leads_to_tech = tech_field_hospital4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			hospital_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	tech_field_hospital4 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 13 }
+		}
+		path = {
+			leads_to_tech = tech_field_hospital5
+			research_cost_coeff = 1
+		}
+
+		
+		categories = {
+			support_tech
+			hospital_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_field_hospital5 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 16 }
+		}
+		path = {
+			leads_to_tech = tech_field_hospital6
+			research_cost_coeff = 1
+		}
+
+		
+		categories = {
+			support_tech
+			hospital_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_field_hospital6 = {
+
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = support_folder
+			position = { x = 8 y = 19 }
+		}
+
+		
+		categories = {
+			support_tech
+			hospital_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_logistics_company = {
+
+		enable_subunits = {
+			logistics_company
+		}
+		
+		path = {
+			leads_to_tech = tech_logistics_company2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_logistics_company2 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		
+		
+		path = {
+			leads_to_tech = tech_logistics_company3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_logistics_company3 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		path = {
+			leads_to_tech = tech_logistics_company4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			
+		}
+
+	}
+
+	tech_logistics_company4 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		path = {
+			leads_to_tech = tech_logistics_company5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 13 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_logistics_company5 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 16 }
+		}
+		path = {
+			leads_to_tech = tech_logistics_company6
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_logistics_company6 = {
+
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = support_folder
+			position = { x = 10 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+			logistics_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+
+	tech_signal_company = {
+
+		enable_subunits = {
+			signal_company
+		}
+		
+		path = {
+			leads_to_tech = tech_signal_company2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = support_folder
+			position = { x = 12 y = 4 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_signal_company2 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+		
+		
+		path = {
+			leads_to_tech = tech_signal_company3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2064
+		folder = {
+			name = support_folder
+			position = { x = 12 y = 7 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	
+	tech_signal_company3 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+		path = {
+			leads_to_tech = tech_signal_company4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = support_folder
+			position = { x = 12 y = 10 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+	tech_signal_company4 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = support_folder
+			position = { x = 12 y = 13 }
+		}
+		path = {
+			leads_to_tech = tech_signal_company5
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_signal_company5 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 12 y = 16 }
+		}
+		path = {
+			leads_to_tech = tech_signal_company6
+			research_cost_coeff = 1
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+
+	tech_signal_company6 = {
+
+		signal_company = {
+			initiative = 0.12
+		}
+
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = support_folder
+			position = { x = 12 y = 19 }
+		}
+		
+		categories = {
+			support_tech
+			signal_company_tech
+			
+		}
+        show_effect_as_desc = yes
+
+	}
+}

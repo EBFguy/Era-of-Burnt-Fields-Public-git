@@ -1,0 +1,94 @@
+﻿capital = 266
+
+# Vacant
+recruit_character = IRA_Generic_Vacant_psi
+recruit_character = IRA_Generic_Vacant_pi_0
+recruit_character = IRA_Generic_Vacant_pi_1
+recruit_character = IRA_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+set_politics = {
+	ruling_party = autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    technoutopianism = 4
+    securocracy = 0
+    ultranationalism = 4
+    fascist = 2
+    autocracy = 31
+    anocracy = 27
+    conservatism = 12
+    liberalism = 10
+    libertarian_socialism = 10
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+recruit_character = IRA_Erfan_Qaedi
+recruit_character = IRA_Nader_Raisi
+recruit_character = IRA_Taraneh_Hossein
+recruit_character = IRA_Abbas_Qajar
+
+add_ideas = {
+    #POLLITICAL
+    EBF_multiparty_system
+    EBF_multiparty_opposition
+    EBF_state_atheism
+    EBF_registered_voting
+    EBF_censored_press
+    EBF_all_unions_allowed
+    EBF_immigration_quotas
+    EBF_indentured_ownership_only
+
+    #ECONOMIC
+    EBF_export_focus
+    EBF_minor_minimum_wage
+    EBF_10_hours
+    EBF_emerging_AI_model
+
+    #MILITARY
+    EBF_two_year_draft
+    EBF_ordinary_policing
+    EBF_basic_training
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_primary_schooling
+    EBF_widespread_poverty
+    EBF_stagnating_economy
+    EBF_professional_army
+    EBF_industrial_equipment_use
+    EBF_functional_administration
+
+    #BASE IDEAS
+    IRA_the_fires_of_liberation
+    IRA_cost_of_change
+    IRA_disperced_command
+    IRA_legacy_of_the_burning_of_tehran
+}
+
+add_ideas = gulf_union_status_1
+
+create_faction = GULF_UNION
+add_to_faction = BAG
+add_to_faction = SRY
+set_global_flag = IRA_GU_Exists
+
+declare_war_on = {
+    target = SAU
+    type = annex_everything
+}

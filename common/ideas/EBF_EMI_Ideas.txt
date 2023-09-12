@@ -1,0 +1,86 @@
+ideas = {
+	country = {
+		EMI_the_wants_of_the_hungry = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea EMI_the_wants_of_the_hungry"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {
+            monthly_population = -0.15
+            stability_factor = -0.2
+			civilian_factory_use = 5
+			}
+		}
+		EMI_partisans_and_brigands = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea EMI_partisans_and_brigands"}
+			#picture = MTG_naval_treaty_adherent
+
+			allowed = {
+				original_tag = EMI
+			}
+
+			removal_cost = -1
+
+			cancel = {
+			}
+
+			on_remove = {
+				country_lock_all_division_template = no
+			}
+			
+			modifier = {
+			army_speed_factor = 0.1
+			army_core_attack_factor = 0.1
+			army_core_defence_factor = 0.1
+			org_loss_when_moving = -0.15
+			custom_modifier_tooltip = EMI_partisans_and_brigands_tt
+			}
+		}
+		EMI_the_isolated_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea EMI_the_isolated_revolution"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			local_resources_factor = 0.1
+			}
+		}	
+		EMI_unity_between_marxists = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea EMI_unity_between_marxists"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+			political_power_factor = -0.25
+			war_support_factor = -0.05
+			}
+		}
+	}	
+}	

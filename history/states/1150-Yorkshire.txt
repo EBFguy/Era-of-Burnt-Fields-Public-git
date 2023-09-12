@@ -1,0 +1,26 @@
+
+state={
+	id=1150
+	name="STATE_1150"
+	manpower = 10
+	
+	state_category = large_town
+
+	history={
+		add_core_of = NER
+		owner = NER
+		victory_points = {
+			9379 15 
+		}
+		victory_points = {
+			9315 3
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		11382 9315 13236 9379
+	}
+}

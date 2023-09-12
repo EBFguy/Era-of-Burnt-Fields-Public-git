@@ -1,0 +1,49 @@
+capital = 698
+
+# Vacant
+recruit_character = AZO_Generic_Vacant_psi
+recruit_character = AZO_Generic_Vacant_pi_0
+recruit_character = AZO_Generic_Vacant_pi_1
+recruit_character = AZO_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+
+
+set_stability = 0.5
+set_war_support = 0.5
+
+set_convoys = 100
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 2
+    anocracy = 69
+    conservatism = 15
+    liberalism = 5
+    libertarian_socialism = 3
+    authoritarian_socialism = 4
+    totalitarian_socialism = 2
+    reductivism = 0
+}
+
+recruit_character = AZO_Nunes_Cabral
+
+add_ideas = {
+	Free_Internet_member
+}

@@ -1,0 +1,19 @@
+state={
+	id=925
+	name="STATE_925"
+	manpower=10
+	
+	state_category = megalopolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = REM
+		owner = REM
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		13298 13300 13303
+	}
+}

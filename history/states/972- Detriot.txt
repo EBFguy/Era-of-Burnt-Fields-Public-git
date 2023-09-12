@@ -1,0 +1,25 @@
+state={
+	id=972
+	name="STATE_972"
+
+	state_category = metropolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+		victory_points = {
+			6710 20 
+		}		
+	}
+	local_supplies = 0.0 
+	provinces={
+		6710
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=771
+	name="STATE_771" # Zambia
+	
+	state_category = rural
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		697 7872 10538
+	}
+	manpower=1380089
+	buildings_max_level_factor=1.000
+	local_supplies = 0.0 
+}

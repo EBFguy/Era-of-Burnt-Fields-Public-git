@@ -1,0 +1,728 @@
+technologies = {
+	
+	drones2045 = {
+
+		category_all_infantry = {
+			ap_attack = 0.05
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2050
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = bomberdrone2050
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2045
+		
+		folder = {
+			name = air_forces_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+		}
+	}
+
+	fighterdrone2050 = {
+
+		enable_equipments = {
+			assault_drone_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2055
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2050
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 8 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	fighterdrone2055 = {
+
+		enable_equipments = {
+			assault_drone_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2060
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = massfighterdrone2060
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2050
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 13 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	fighterdrone2060 = {
+
+		enable_equipments = {
+			assault_drone_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2065
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = carrierdrone2065
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 18 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	massfighterdrone2060 = {
+
+		enable_equipments = {
+			mass_assault_drone_equipment_0
+		}
+
+		path = {
+			leads_to_tech = massfighterdrone2065
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2065
+		folder = {
+			name = air_forces_folder
+			position = { x = -5 y = 18 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_attack_drone_tech
+		}
+	}
+
+	massfighterdrone2065 = {
+
+		enable_equipments = {
+			mass_assault_drone_equipment_1
+		}
+
+		path = {
+			leads_to_tech = massfighterdrone2070
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2065
+		folder = {
+			name = air_forces_folder
+			position = { x = -5 y = 23 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_attack_drone_tech
+		}
+	}
+
+	massfighterdrone2070 = {
+
+		enable_equipments = {
+			mass_assault_drone_equipment_2
+		}
+
+		path = {
+			leads_to_tech = massfighterdrone2075
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2070
+		folder = {
+			name = air_forces_folder
+			position = { x = -5 y = 28 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_attack_drone_tech
+		}
+	}
+	
+	massfighterdrone2075 = {
+
+		enable_equipments = {
+			mass_assault_drone_equipment_3
+		}
+
+		path = {
+			leads_to_tech = massfighterdrone2080
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2075
+		folder = {
+			name = air_forces_folder
+			position = { x = -5 y = 33 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_attack_drone_tech
+		}
+	}
+
+	massfighterdrone2080 = {
+
+		enable_equipments = {
+			mass_assault_drone_equipment_4
+		}
+		
+		research_cost = 2
+		start_year = 2080
+		folder = {
+			name = air_forces_folder
+			position = { x = -5 y = 38 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_attack_drone_tech
+		}
+	}
+
+	fighterdrone2065 = {
+
+		enable_equipments = {
+			assault_drone_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2070
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+		start_year = 2065
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 23 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	fighterdrone2070 = {
+
+		enable_equipments = {
+			assault_drone_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2075
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2070
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 28 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	fighterdrone2075 = {
+
+		enable_equipments = {
+			assault_drone_equipment_5
+		}
+	
+		path = {
+			leads_to_tech = fighterdrone2080
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2075
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 33 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	fighterdrone2080 = {
+
+		enable_equipments = {
+			assault_drone_equipment_6
+		}
+		
+		research_cost = 2
+		start_year = 2080
+		folder = {
+			name = air_forces_folder
+			position = { x = -3 y = 38 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	carrierdrone2065 = {
+
+		enable_equipments = {
+			drone_carrier_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = carrierdrone2070
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+		start_year = 2070
+		folder = {
+			name = air_forces_folder
+			position = { x = 0 y = 23 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			carrier_drone_tech
+		}
+	}
+
+	carrierdrone2070 = {
+
+		enable_equipments = {
+			drone_carrier_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = carrierdrone2075
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+		start_year = 2070
+		folder = {
+			name = air_forces_folder
+			position = { x = 0 y = 28 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			carrier_drone_tech
+		}
+	}
+
+	carrierdrone2075 = {
+
+		enable_equipments = {
+			drone_carrier_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = carrierdrone2080
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+		start_year = 2075
+		folder = {
+			name = air_forces_folder
+			position = { x = 0 y = 33 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			carrier_drone_tech
+		}
+	}
+
+	carrierdrone2080 = {
+
+		enable_equipments = {
+			drone_carrier_equipment_3
+		}
+		
+		research_cost = 2
+		start_year = 2080
+		folder = {
+			name = air_forces_folder
+			position = { x = 0 y = 38 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			carrier_drone_tech
+		}
+	}
+
+	bomberdrone2050 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = bomberdrone2055
+			research_cost_coeff = 1
+		}
+
+		
+		research_cost = 2
+		start_year = 2050
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			bomber_drone_tech
+		}
+	}
+
+	bomberdrone2055 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = bomberdrone2060
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = massbomberdrone2060
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 13 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	bomberdrone2060 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = bomberdrone2065
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = carrierdrone2065
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 18 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	massbomberdrone2060 = {
+
+		enable_equipments = {
+			kamikaze_drone_equipment_0
+		}
+
+		path = {
+			leads_to_tech = massbomberdrone2065
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2060
+		folder = {
+			name = air_forces_folder
+			position = { x = 5 y = 18 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_bomber_drone_tech
+		}
+	}
+
+	massbomberdrone2065 = {
+
+		enable_equipments = {
+			kamikaze_drone_equipment_1
+		}
+
+		path = {
+			leads_to_tech = massbomberdrone2070
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2065
+		folder = {
+			name = air_forces_folder
+			position = { x = 5 y = 23 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_bomber_drone_tech
+		}
+	}
+
+	massbomberdrone2070 = {
+
+		enable_equipments = {
+			kamikaze_drone_equipment_2
+		}
+
+		path = {
+			leads_to_tech = massbomberdrone2075
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2070
+		folder = {
+			name = air_forces_folder
+			position = { x = 5 y = 28 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_bomber_drone_tech
+		}
+	}
+	
+	massbomberdrone2075 = {
+
+		enable_equipments = {
+			kamikaze_drone_equipment_3
+		}
+
+		path = {
+			leads_to_tech = massbomberdrone2080
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2075
+		folder = {
+			name = air_forces_folder
+			position = { x = 5 y = 33 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_bomber_drone_tech
+		}
+	}
+
+	massbomberdrone2080 = {
+
+		enable_equipments = {
+			kamikaze_drone_equipment_4
+		}
+		
+		research_cost = 2
+		start_year = 2080
+		folder = {
+			name = air_forces_folder
+			position = { x = 5 y = 38 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			mass_bomber_drone_tech
+		}
+	}
+
+	bomberdrone2065 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = bomberdrone2070
+			research_cost_coeff = 1
+		}
+
+		
+		research_cost = 2
+		start_year = 2065
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 23 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	bomberdrone2070 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_4
+		}
+	
+		path = {
+			leads_to_tech = bomberdrone2075
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2070
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 28 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	bomberdrone2075 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_5
+		}
+	
+		path = {
+			leads_to_tech = bomberdrone2080
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 2075
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 33 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+
+	bomberdrone2080 = {
+
+		enable_equipments = {
+			bomber_drone_equipment_6
+		}
+		
+		research_cost = 2
+		start_year = 2080
+		folder = {
+			name = air_forces_folder
+			position = { x = 3 y = 38 }
+		}
+		
+		categories = {
+			air_tech
+			drone_tech
+			attack_drone_tech
+		}
+	}
+}

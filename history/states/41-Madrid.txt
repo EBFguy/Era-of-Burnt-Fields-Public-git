@@ -1,0 +1,28 @@
+state={
+	id=41
+	name="STATE_41"
+
+	history={
+		add_core_of = CAS
+		owner = CAS
+		victory_points = {
+			858 1
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		858 896 939 977 3794 3845 3986 6914 9767 9800 11820 13224 
+	}
+	manpower=337385
+	buildings_max_level_factor=1.000
+	state_category=town 
+}

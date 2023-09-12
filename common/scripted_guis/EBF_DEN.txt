@@ -1,0 +1,65 @@
+scripted_gui = {
+	DEN_regional_resistance = {
+		context_type = decision_category
+		window_name = "DEN_regional_resistance_container"
+
+		visible = {
+			always = yes
+		}
+
+		dynamic_lists = {
+			DEN_regional_resistance_map_grid = {
+				array = DEN_regional_resistance_map_array
+				index = DEN_regional_resistance_map_index
+				change_scope = no
+				entry_container = DEN_regional_resistance_map_entry
+			}
+			DEN_regional_resistance_faction_grid = {
+				array = DEN_regional_resistance_faction_array
+				index = DEN_regional_resistance_faction_index
+				change_scope = no
+				entry_container = DEN_regional_resistance_faction_entry
+			}
+		}
+
+		effects = {
+		}
+
+		triggers = {
+			DEN_regional_resistance_denmark_map_normal_visible = {
+				NOT = { has_country_flag = DEN_regional_resistance_broken }
+			}
+			DEN_regional_resistance_denmark_map_broken_visible = {
+				has_country_flag = DEN_regional_resistance_broken
+			}
+			DEN_regional_resistance_map_all_visible = {
+				NOT = { has_country_flag = DEN_regional_resistance_broken }
+			}
+		}
+
+		properties = {
+			DEN_regional_resistance_map_button = {
+				frame = v:DEN_regional_resistance_map_frame
+				image = "GFX_DEN_regional_resistance_map_[?v]"
+				x = v:DEN_regional_resistance_map_x
+				y = v:DEN_regional_resistance_map_y
+			}
+			DEN_regional_resistance_faction_icon = {
+				image = "GFX_DEN_regional_resistance_faction_icon_[?v]"
+				x = v:DEN_regional_resistance_faction_x
+				y = v:DEN_regional_resistance_faction_y
+			}
+			DEN_regional_resistance_faction_bar = {
+				frame = v:DEN_regional_resistance_faction_power
+				image = "GFX_DEN_regional_resistance_power_bar_[?v]"
+				x = v:DEN_regional_resistance_faction_x2
+				y = v:DEN_regional_resistance_faction_y2
+			}
+			DEN_regional_resistance_faction_bar_frame = {
+				image = "[GetDENRegionalResistanceFactionBarFrameIcon]"
+				x = v:DEN_regional_resistance_faction_x3
+				y = v:DEN_regional_resistance_faction_y3
+			}
+		}
+	}
+}

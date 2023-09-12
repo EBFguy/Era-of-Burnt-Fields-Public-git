@@ -1,0 +1,104 @@
+scripted_map_modes = {
+	ebf_ecodecay_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { alpha_temp = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 0 }
+						}
+					}
+		 			set_temp_variable = { red = 0.722 }
+		 			set_temp_variable = { green = 0.929 }
+		 			set_temp_variable = { blue = 0.761 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 1 }
+						}
+					}
+		 			set_temp_variable = { red = 0.671 }
+		 			set_temp_variable = { green = 0.149 }
+		 			set_temp_variable = { blue = 0.122 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 2 }
+						}
+					}
+		 			set_temp_variable = { red = 0.78 }
+		 			set_temp_variable = { green = 0.31 }
+		 			set_temp_variable = { blue = 0.278 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 3 }
+						}
+					}
+		 			set_temp_variable = { red = 0.929 }
+		 			set_temp_variable = { green = 0.49 }
+		 			set_temp_variable = { blue = 0.502 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 4 }
+						}
+					}
+					set_temp_variable = { red = 0.5 }
+					set_temp_variable = { green = 0.5 }
+					set_temp_variable = { blue = 0.5 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 5 }
+						}
+					}
+		 			set_temp_variable = { red = 0.522 }
+		 			set_temp_variable = { green = 0.729 }
+		 			set_temp_variable = { blue = 0.502 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { ecodecay_level = 6 }
+						}
+					}
+		 			set_temp_variable = { red = 0.651 }
+		 			set_temp_variable = { green = 0.78 }
+		 			set_temp_variable = { blue = 0.631 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+
+				else = {
+		 			set_temp_variable = { red = 0.5 }
+		 			set_temp_variable = { green = 0.5 }
+		 			set_temp_variable = { blue = 0.5 }
+		 			set_temp_variable = { alpha = alpha_temp }
+				}
+			}
+		}
+		far_text = none
+		near_text = state
+		update_daily = no
+	}
+}

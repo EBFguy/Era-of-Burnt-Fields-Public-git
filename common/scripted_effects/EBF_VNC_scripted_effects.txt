@@ -1,0 +1,238 @@
+EBF_VNC_get_current_faction = { 
+    if = {
+        limit = { has_country_flag = VNC_krennic_chosen }
+        set_temp_variable = { temp_selected_faction = 0 }
+    }
+    if = {
+        limit = { has_country_flag = VNC_milanna_chosen }
+        set_temp_variable = { temp_selected_faction = 1 }
+    }
+    if = {
+        limit = { has_country_flag = VNC_holmes_chosen }
+        set_temp_variable = { temp_selected_faction = 2 }
+    }
+    if = {
+        limit = { has_country_flag = VNC_manna_chosen }
+        set_temp_variable = { temp_selected_faction = 3 }
+    }
+}
+
+#temp_faction_power, explanatory, it changes the actual var
+#temp_faction_power_tt, explanatory, displays var
+#temp_selected_faction 0 - krennic, 1 - milanna, 2 - holmes 3, - manna
+#use non-decimilsed numbers eg 1 not 0.01 (.5, .25 can NOT be added to the non-decimalised)
+EBF_VNC_change_corporate_power = { 
+    if = {
+        limit = { check_variable = { temp_faction_power < 0 } }
+        set_temp_variable = { temp_faction_power_tt = temp_faction_power }
+        multiply_temp_variable = {temp_faction_power_tt = -1 }
+
+        add_to_variable = {VNC_corporate_power^temp_selected_faction = temp_faction_power }
+
+        custom_effect_tooltip = EBF_VNC_faction_power_dec
+    }
+    else = {
+        set_temp_variable = {temp_faction_power_tt = temp_faction_power }
+
+        add_to_variable = { VNC_corporate_power^temp_selected_faction = temp_faction_power }
+        custom_effect_tooltip = EBF_VNC_faction_power_inc
+    }
+    clamp_variable = { var = VNC_corporate_power^temp_selected_faction min = 0 max = 100 }
+    EBF_VNC_corporate_cap_x = YES
+}
+
+#temp_faction_power_tick, explanatory, it changes the actual var
+#temp_faction_power_tick_tt, explanatory, displays var
+#temp_selected_faction 0 - krennic, 1 - milanna, 2 - holmes 3, - manna
+#use non-decimilsed numbers eg 1 not 0.01 (.5, .25 can NOT be added to the non-decimalised)
+EBF_VNC_change_corporate_power_tick = { 
+    if = {
+        limit = { check_variable = { temp_faction_power_tick < 0 } }
+        set_temp_variable = { temp_faction_power_tick_tt = temp_faction_power_tick }
+        multiply_temp_variable = {temp_faction_power_tick_tt = -1 }
+
+        add_to_variable = {VNC_corporate_power_tick^temp_selected_faction = temp_faction_power_tick }
+
+        custom_effect_tooltip = EBF_VNC_faction_power_tick_dec
+    }
+    else = {
+        set_temp_variable = {temp_faction_power_tick_tt = temp_faction_power_tick }
+
+        add_to_variable = { VNC_corporate_power_tick_tick^temp_selected_faction = temp_faction_power_tick }
+        custom_effect_tooltip = EBF_VNC_faction_power_tick_inc
+    }
+    EBF_VNC_corporate_cap_x = YES
+}
+
+
+EBF_VNC_corporate_cap_x = {
+    if = { 
+        limit = { has_country_flag = VNC_corporate_krennic_in_control }
+        set_variable = { VNC_corporate_power_bar_cap_var = VNC_corporate_power^0 }
+    }
+    else_if = {
+        limit = { has_country_flag = VNC_corporate_Milana_in_control }
+        set_variable = { VNC_corporate_power_bar_cap_var = VNC_corporate_power^1 }
+    }
+    else_if = {
+        limit = { has_country_flag = VNC_corporate_holmes_in_control }       
+        set_variable = { VNC_corporate_power_bar_cap_var = VNC_corporate_power^2 }
+    }
+    else_if = {
+        limit = { has_country_flag = VNC_corporate_manna_in_control }
+        set_variable = { VNC_corporate_power_bar_cap_var = VNC_corporate_power^3 }
+    }
+    multiply_variable = {
+        VNC_corporate_power_bar_cap_var = 4.58
+    }
+
+    clamp_variable = { var = VNC_corporate_power_bar_cap_var min = 15 max = 458 }
+}
+
+#temp_building_change, explanatory, it changes the actual var
+#temp_building_change_tt, explanatory, displays var
+#temp_selected_building_type, check LOC for the list
+#use non-decimilsed numbers eg 1 not 0.01 (.5, .25 can NOT be added to the non-decimalised)
+EBF_VNC_city_change_building = { 
+    if = {
+        limit = { check_variable = { temp_building_change < 0 } }
+        set_temp_variable = { temp_building_change_tt = temp_building_change }
+        multiply_temp_variable = {temp_building_change_tt = -1 }
+
+        add_to_variable = {EBF_VNC_city_building^temp_selected_building_type = temp_building_change }
+        add_to_variable = {EBF_VNC_city_used_building_spaces = temp_building_change_tt } #Increases amount of buildings, yippie
+
+        custom_effect_tooltip = EBF_VNC_city_building_dec
+    }
+    else = {
+        set_temp_variable = {temp_building_change_tt = temp_building_change }
+
+        add_to_variable = { EBF_VNC_city_building^temp_selected_building_type = temp_building_change }
+        add_to_variable = {EBF_VNC_city_used_building_spaces = temp_building_change } #Increases amount of buildings, not yippie
+        custom_effect_tooltip = EBF_VNC_city_building_inc
+    }
+    clamp_variable = { var = VNC_corporate_power^temp_selected_building_type min = 0 max = EBF_VNC_city_total_building_spaces }
+    clamp_variable = { var = EBF_VNC_city_used_building_spaces min = 0 max = EBF_VNC_city_total_building_spaces }
+    hidden_effect = { EBF_VNC_city_reconfigure_city_dynmod = YES }
+    
+}
+
+#Maths
+EBF_VNC_city_reconfigure_city_dynmod = { 
+    set_variable = { EBF_VNC_city_total_admin_cap = 0.5}
+    multiply_variable = { EBF_VNC_city_total_admin_cap = EBF_VNC_city_building^0}
+
+    set_variable = { research_speed_factor_VNC_new_venice = 0.005}
+    multiply_variable = { research_speed_factor_VNC_new_venice = EBF_VNC_city_building^1}
+
+    set_variable = { political_power_gain_VNC_new_venice = 0.025}
+    multiply_variable = { political_power_gain_VNC_new_venice = EBF_VNC_city_building^2}
+
+    set_variable = { stability_factor_gain_VNC_new_venice = 0.0025}
+    multiply_variable = { stability_factor_gain_VNC_new_venice = EBF_VNC_city_building^3}
+
+    set_variable = { stability_factor_gain_VNC_new_venice = 0.0025}
+    multiply_variable = { stability_factor_gain_VNC_new_venice = EBF_VNC_city_building^3}
+
+    set_variable = { conscription_factor_gain_VNC_new_venice = 0.025}
+    multiply_variable = { conscription_factor_gain_VNC_new_venice = EBF_VNC_city_building^4}
+
+    set_variable = { max_fuel_factor_gain_VNC_new_venice = 0.005}
+    multiply_variable = { max_fuel_factor_gain_VNC_new_venice = EBF_VNC_city_building^5}
+
+    set_variable = { max_fuel_factor_gain_VNC_new_venice = 0.005}
+    multiply_variable = { max_fuel_factor_gain_VNC_new_venice = EBF_VNC_city_building^5}
+
+    multiply_variable = { civ_factory_VNC_new_venice = -1 }
+    add_offsite_building = { type = industrial_complex level = civ_factory_VNC_new_venice }
+    set_variable = { civ_factory_VNC_new_venice = EBF_VNC_city_building^7 }
+    add_offsite_building = { type = industrial_complex level = civ_factory_VNC_new_venice }
+
+    multiply_variable = { arms_factory_VNC_new_venice = -1 }
+    add_offsite_building = { type = arms_factory level = arms_factory_VNC_new_venice }
+    set_variable = { arms_factory_VNC_new_venice = EBF_VNC_city_building^7 }
+    add_offsite_building = { type = arms_factory level = arms_factory_VNC_new_venice }
+    force_update_dynamic_modifier = yes
+}
+
+
+#temp_cap_change, explanatory, it changes the actual var
+#temp_cap_change_tt, explanatory, displays var
+#temp_selected_cap 0 - standrd, 1 - elite, 2 - reserve 3, - tank
+#use non-decimilsed numbers eg 1
+EBF_VNC_change_forces_cap = { 
+    if = {
+        limit = { check_variable = { temp_cap_change < 0 } }
+        set_temp_variable = { temp_cap_change_tt = temp_cap_change }
+        multiply_temp_variable = {temp_cap_change_tt = -1 }
+
+        add_to_variable = {VNC_force_cap^temp_selected_cap = temp_cap_change }
+
+        custom_effect_tooltip = EBF_VNC_force_cap_dec
+    }
+    else = {
+        set_temp_variable = {temp_cap_change_tt = temp_cap_change }
+
+        add_to_variable = { VNC_force_cap^temp_selected_cap = temp_cap_change }
+        custom_effect_tooltip = EBF_VNC_force_cap_inc
+    }
+    clamp_variable = { var = VNC_force_cap^temp_selected_cap min = 0 max = 100 }
+    EBF_VNC_forces_cap_doer = yes
+}
+
+EBF_VNC_forces_cap_doer = {
+    hidden_effect = {
+        set_division_template_cap = { 
+            division_template = "Standard Self Defence Force" 
+            division_cap = VNC_force_cap^0
+        }
+        set_division_template_cap = { 
+            division_template = "Elite Self Defence Force" 
+            division_cap = VNC_force_cap^1
+        }
+        set_division_template_cap = { 
+            division_template = "Reserve Self Defence Force" 
+            division_cap = VNC_force_cap^2
+        }
+        set_division_template_cap = { 
+            division_template = "New Venice Tank Force" 
+            division_cap = VNC_force_cap^3
+        }        
+    }
+}
+
+EBF_VNC_get_own_variable = {
+	if = {
+		limit = { has_country_flag = EBF_VNC_krennic_chosen}
+		set_temp_variable = { temp_selected_faction = 0 }
+	}
+	else_if = {
+		limit = { has_country_flag = EBF_VNC_milana_chosen}
+		set_temp_variable = { temp_selected_faction = 1 }
+	}
+	else_if = {
+		limit = { has_country_flag = EBF_VNC_holmes_chosen}
+		set_temp_variable = { temp_selected_faction = 2 }
+	}
+	else_if = {
+		limit = { has_country_flag = EBF_VNC_manna_chosen}
+		set_temp_variable = { temp_selected_faction = 3 }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

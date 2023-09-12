@@ -1,0 +1,15 @@
+characters = {
+	NAN_Pierre_Antoine = {
+		name = "Pierre Antoine"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NAN/Portrait_NAN_Pierre_Antoine.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_semi_constitutional_monarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_PIERRE_ANTOINE_DESC"
+		}
+	}
+}

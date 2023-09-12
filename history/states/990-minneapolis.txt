@@ -1,0 +1,25 @@
+
+state={
+	id=990
+	name="STATE_990"
+	manpower = 10
+	state_category = city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		victory_points = {
+			1866 5 
+		}
+
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1866 9880 10719 6752 12693 10618 12597 11667
+	}
+}

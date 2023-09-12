@@ -1,0 +1,203 @@
+EBF_european_unification = {
+
+	EBF_europe_iberia_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states_iberia = yes
+			has_war = no
+		}
+
+		visible = {
+    		is_european_warlord_nation_iberia = yes
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EUROPE_IBERIA_UNIFICATION_DONE
+			set_country_flag = IS_NATIONAL_UNIFIER
+			get_europe_iberia_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+
+	EBF_europe_franco_lowlands_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states_lowcountries = yes
+			has_war = no
+		}
+
+		visible = {
+    		is_european_warlord_nation_franco_lowcountries = yes
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EUROPE_FRANCO_LOWLANDS_UNIFICATION_DONE
+			set_country_flag = IS_NATIONAL_UNIFIER
+			get_europe_franco_lowlands_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}	
+
+	EBF_europe_north_central_europe_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states_north_central_europe = yes
+			has_war = no
+		}
+
+		visible = {
+    		is_european_warlord_nation_north_central_europe = yes
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EUROPE_NORTH_CENTRAL_EUROPE_UNIFICATION_DONE
+			set_country_flag = IS_NATIONAL_UNIFIER
+			get_europe_north_central_europe_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}		
+
+	EBF_europe_south_central_europe_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states_south_central_europe = yes
+			has_war = no
+		}
+
+		visible = {
+    		is_european_warlord_nation_south_central_europe = yes
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EUROPE_SOUTH_CENTRAL_EUROPE_UNIFICATION_DONE
+			set_country_flag = IS_NATIONAL_UNIFIER
+			get_europe_south_central_europe_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}	
+
+	EBF_europe_west_europe_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states_western_europe = yes
+			has_war = no
+		}
+
+		visible = {
+			OR = {
+				is_european_warlord_nation_franco_lowcountries = yes
+				is_european_warlord_nation_iberia = yes
+			}
+			has_country_flag = IS_NATIONAL_UNIFIER
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = WEST_EUROPE_UNIFICATION_DONE
+			set_country_flag = IS_SUPER_NATIONAL_UNIFIER
+			get_europe_west_europe_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}	
+
+	EBF_europe_central_europe_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states_central_europe = yes
+			has_war = no
+		}
+
+		visible = {
+			OR = {
+				is_european_warlord_nation_south_central_europe = yes
+				is_european_warlord_nation_north_central_europe = yes
+			}
+			has_country_flag = IS_NATIONAL_UNIFIER
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = WEST_EUROPE_UNIFICATION_DONE
+			set_country_flag = IS_SUPER_NATIONAL_UNIFIER
+			get_europe_central_europe_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}	
+
+	EBF_europe_unification = {
+
+		icon = generic_research
+
+		available = {
+			european_warlord_states = yes
+			has_war = no
+		}
+
+		visible = {
+			OR = {
+				is_european_warlord_nation_western_europe = yes
+				is_european_warlord_nation_central_europe = yes
+			}
+			has_country_flag = IS_SUPER_NATIONAL_UNIFIER			
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EUROPEAN_UNIFICATION_DONE
+			set_country_flag = IS_EUROPEAN_UNIFIER
+			get_europe_unification_tag = yes
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}	
+}

@@ -1,0 +1,591 @@
+defined_text = {
+	name = GetMobilisationLawTitle
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 1 } }
+		localization_key = ebf_conscription_laws
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 2 } }
+		localization_key = ebf_training_standards_laws
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 3 } }
+		localization_key = ebf_policing_laws
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 4 } }
+		localization_key = ebf_military_supervision_laws
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 5 } }
+		localization_key = ebf_ethos_laws
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 6 } }
+		localization_key = ebf_ethics_laws
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobilisationLawBtn
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 1 } }
+		localization_key = ebf_conscription_btn
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 2 } }
+		localization_key = ebf_training_standards_btn
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 3 } }
+		localization_key = ebf_policing_btn
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 4 } }
+		localization_key = ebf_military_supervision_btn
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 5 } }
+		localization_key = ebf_ethos_btn
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 6 } }
+		localization_key = ebf_ethics_btn
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+
+defined_text = {
+	name = GetMobilisationLawBtntt
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 1 } }
+		localization_key = ebf_conscription_btn_tt
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 2 } }
+		localization_key = ebf_training_standards_btn_tt
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 3 } }
+		localization_key = ebf_policing_btn_tt
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 4 } }
+		localization_key = ebf_military_supervision_btn_tt
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 5 } }
+		localization_key = ebf_ethos_btn_tt
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law = 6 } }
+		localization_key = ebf_ethics_btn_tt
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetChangingLawTitle
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 1 } }
+		localization_key = ebf_conscription_laws
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 2 } }
+		localization_key = ebf_training_standards_laws
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 3 } }
+		localization_key = ebf_policing_laws
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 4 } }
+		localization_key = ebf_military_supervision_laws
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 5 } }
+		localization_key = ebf_ethos_laws
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 6 } }
+		localization_key = ebf_ethics_laws
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitle
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 1 } }
+		localization_key = ebf_conscription_title_loc
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 2 } }
+		localization_key = ebf_training_standards_title_loc
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 3 } }
+		localization_key = ebf_policing_title_loc
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 4 } }
+		localization_key = ebf_military_supervision_title_loc
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 5 } }
+		localization_key = ebf_ethos_title_loc
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 6 } }
+		localization_key = ebf_ethics_title_loc
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitleConscription
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 8 } }
+		localization_key = EBF_scraping_the_barrel
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 7 } }
+		localization_key = EBF_all_adults_serve
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 6 } }
+		localization_key = EBF_service_by_requirement
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 5 } }
+		localization_key = EBF_four_year_draft
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 4 } }
+		localization_key = EBF_two_year_draft
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 3 } }
+		localization_key = EBF_one_year_draft
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 2 } }
+		localization_key = EBF_volunteer_only
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 1 } }
+		localization_key = EBF_disarmed_nation
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitleTrainingStandards
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 5 } }
+		localization_key = EBF_advanced_schooling
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 4 } }
+		localization_key = EBF_combat_schooling
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 3 } }
+		localization_key = EBF_basic_training
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 2 } }
+		localization_key = EBF_minimal_training
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 1 } }
+		localization_key = EBF_no_training
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitlePolicing
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 6 } }
+		localization_key = EBF_militarised_policing
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 5 } }
+		localization_key = EBF_heavily_armed_policing
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 4 } }
+		localization_key = EBF_intimidation_policing
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 3 } }
+		localization_key = EBF_ordinary_policing
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 2 } }
+		localization_key = EBF_community_outreach
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 1 } }
+		localization_key = EBF_no_policing
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitleMilitarySupervision
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 6 } }
+		localization_key = EBF_no_restrictions
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 5 } }
+		localization_key = EBF_minimal_supervision
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 4 } }
+		localization_key = EBF_military_police
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 3 } }
+		localization_key = EBF_rules_of_engagement
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 2 } }
+		localization_key = EBF_modernised_rules_of_war
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 1 } }
+		localization_key = EBF_ethical_battlefield_supervision
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitleMilitaryEthos
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 7 } }
+		localization_key = EBF_ground_forces_ethos
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 6 } }
+		localization_key = EBF_naval_forces_ethos
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 5 } }
+		localization_key = EBF_air_forces_ethos
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 4 } }
+		localization_key = EBF_special_forces_ethos
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 3 } }
+		localization_key = EBF_military_research_ethos
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 2 } }
+		localization_key = EBF_civil_services_ethos
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 1 } }
+		localization_key = EBF_neutral_ethos
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = GetMobLawTitleMilitaryEthics
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 3 } }
+		localization_key = EBF_banned_wmds_ethics
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 2 } }
+		localization_key = EBF_restricted_wmds_ethics
+	}
+	text = {
+		trigger = { check_variable = { mobilization_1_law_ladder = 1 } }
+		localization_key = EBF_unrestricted_wmds_ethics
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = {
+	name = EBFgetmilitarylawchangecost
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 1 } }
+		localization_key = ebf_conscription_change_cost
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 2 } }
+		localization_key = ebf_training_standards_change_cost
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 3 } }
+		localization_key = ebf_policing_change_cost
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 4 } }
+		localization_key = ebf_military_supervision_change_cost
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 5 } }
+		localization_key = ebf_ethos_change_cost
+	}
+	text = {
+		trigger = { check_variable = { ebf_mobilization_category = 6 } }
+		localization_key = ebf_ethics_change_cost
+	}
+	text = {
+		localization_key = "ERROR"
+	}
+}
+
+defined_text = { #My long ass list of GFX pain
+	name = GetAllowedLawLadderBracket
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 1 }
+			check_variable = { mobilization_1_law_ladder = conscription_allow_law_min }
+			check_variable = { mobilization_1_law_ladder = conscription_allow_law_max }
+		}
+		localization_key = GFX_law_change_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 1 }
+			check_variable = { mobilization_1_law_ladder = conscription_allow_law_min }
+		}
+		localization_key = GFX_law_change_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 1 }
+			check_variable = { mobilization_1_law_ladder = conscription_allow_law_max }
+		}
+		localization_key = GFX_law_change_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 1 }
+			check_variable = { mobilization_1_law_ladder > conscription_allow_law_min }
+			check_variable = { mobilization_1_law_ladder < conscription_allow_law_max }
+		}
+		localization_key = GFX_law_change_bracket_middle
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 2 }
+			check_variable = { mobilization_1_law_ladder = training_standard_law_min }
+			check_variable = { mobilization_1_law_ladder = training_standard_law_max }
+		}
+		localization_key = GFX_law_change_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 2 }
+			check_variable = { mobilization_1_law_ladder = training_standard_law_min }
+		}
+		localization_key = GFX_law_change_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 2 }
+			check_variable = { mobilization_1_law_ladder = training_standard_law_max }
+		}
+		localization_key = GFX_law_change_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 2 }
+			check_variable = { mobilization_1_law_ladder > training_standard_law_min }
+			check_variable = { mobilization_1_law_ladder < training_standard_law_max }
+		}
+		localization_key = GFX_law_change_bracket_middle
+	}
+
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 3 }
+			check_variable = { mobilization_1_law_ladder = policing_law_min }
+			check_variable = { mobilization_1_law_ladder = policing_law_max }
+		}
+		localization_key = GFX_law_change_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 3 }
+			check_variable = { mobilization_1_law_ladder = policing_law_min }
+		}
+		localization_key = GFX_law_change_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 3 }
+			check_variable = { mobilization_1_law_ladder = policing_law_max }
+		}
+		localization_key = GFX_law_change_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 3 }
+			check_variable = { mobilization_1_law_ladder > policing_law_min }
+			check_variable = { mobilization_1_law_ladder < policing_law_max }
+		}
+		localization_key = GFX_law_change_bracket_middle
+	}
+
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 4 }
+			check_variable = { mobilization_1_law_ladder = military_supervision_law_min }
+			check_variable = { mobilization_1_law_ladder = military_supervision_law_max }
+		}
+		localization_key = GFX_law_change_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 4 }
+			check_variable = { mobilization_1_law_ladder = military_supervision_law_min }
+		}
+		localization_key = GFX_law_change_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 4 }
+			check_variable = { mobilization_1_law_ladder = military_supervision_law_max }
+		}
+		localization_key = GFX_law_change_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 4 }
+			check_variable = { mobilization_1_law_ladder > military_supervision_law_min }
+			check_variable = { mobilization_1_law_ladder < military_supervision_law_max }
+		}
+		localization_key = GFX_law_change_bracket_middle
+	}
+
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 5 }
+			check_variable = { mobilization_1_law_ladder = ethos_law_min }
+			check_variable = { mobilization_1_law_ladder = ethos_law_max }
+		}
+		localization_key = GFX_law_change_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 5 }
+			check_variable = { mobilization_1_law_ladder = ethos_law_min }
+		}
+		localization_key = GFX_law_change_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 5 }
+			check_variable = { mobilization_1_law_ladder = ethos_law_max }
+		}
+		localization_key = GFX_law_change_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 5 }
+			check_variable = { mobilization_1_law_ladder > ethos_law_min }
+			check_variable = { mobilization_1_law_ladder < ethos_law_max }
+		}
+		localization_key = GFX_law_change_bracket_middle
+	}
+
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 6 }
+			check_variable = { mobilization_1_law_ladder = ethics_law_min }
+			check_variable = { mobilization_1_law_ladder = ethics_law_max }
+		}
+		localization_key = GFX_law_change_bracket_both
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 6 }
+			check_variable = { mobilization_1_law_ladder = ethics_law_min }
+		}
+		localization_key = GFX_law_change_bracket_bottom
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 6 }
+			check_variable = { mobilization_1_law_ladder = ethics_law_max }
+		}
+		localization_key = GFX_law_change_bracket_top
+	}
+	text = {
+		trigger = {
+			check_variable = { ebf_mobilization_category = 6 }
+			check_variable = { mobilization_1_law_ladder > ethics_law_min }
+			check_variable = { mobilization_1_law_ladder < ethics_law_max }
+		}
+		localization_key = GFX_law_change_bracket_middle
+	}
+
+	text = {
+		localization_key = GFX_empty_bg
+	}
+}
+
+#Military Investment
+
+defined_text = {
+	name = GetCurrentMaximumIPs
+	text = {
+		trigger = {
+			set_temp_variable = { EBF_maxIPs_tt = standard_IPs }
+			add_to_temp_variable = { EBF_maxIPs_tt = modifier@added_military_ip }
+			add_to_temp_variable = { EBF_maxIPs_tt = added_military_ip }
+			subtract_from_temp_variable = { EBF_maxIPs_tt = modifier@remove_military_ip }
+			subtract_from_temp_variable = { EBF_maxIPs_tt = remove_military_ip }
+		}
+		localization_key = EBF_get_real_max_IPs
+	}
+}
+
+defined_text = {
+	name = GetCurrentUsedIPs
+	text = {
+		trigger = {
+			set_temp_variable = { EBF_currentIPs_tt = ground_ips_used }
+			add_to_temp_variable = { EBF_currentIPs_tt = naval_ips_used }
+			add_to_temp_variable = { EBF_currentIPs_tt = air_ips_used }
+			add_to_temp_variable = { EBF_currentIPs_tt = research_ips_used }
+			add_to_temp_variable = { EBF_currentIPs_tt = civil_services_ips_used }
+		}
+		localization_key = EBF_get_real_used_IPs
+	}
+}

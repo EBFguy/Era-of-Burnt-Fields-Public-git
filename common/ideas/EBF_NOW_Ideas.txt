@@ -1,0 +1,96 @@
+ideas = {
+	country = {
+		NOW_cause_of_all_soldiers_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOW_cause_of_all_soldiers_idea" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				army_org_factor = -0.15
+				breakthrough_factor = 0.1
+			}
+		}		
+		NOW_the_might_of_unicorns_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOW_the_might_of_unicorns_idea" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_NOW_the_might_of_unicorns_idea
+			modifier = {
+				custom_modifier_tooltip = cannot_train_units_tt
+			}
+		}	
+		NOW_a_unicorns_speed_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOW_a_unicorns_speed_idea" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				army_speed_factor = 0.25
+			}
+		}
+		NOW_a_mothers_love_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOW_a_mothers_love_idea" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				army_morale_factor = 0.30
+			}
+		}
+		NOW_do_you_hear_us_now_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOW_do_you_hear_us_now_1" }
+			name = NOW_do_you_hear_us_now
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				army_attack_factor = 0.10
+				experience_gain_army_factor = 0.10
+				weekly_manpower = 100
+			}
+		}
+		NOW_do_you_hear_us_now_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOW_do_you_hear_us_now_2" }
+			name = NOW_do_you_hear_us_now
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_ULS_the_sons_have_risen
+			modifier = {
+				army_attack_factor = 0.20
+				army_speed_factor = 0.05
+				experience_gain_army_factor = 0.10
+				weekly_manpower = 100
+			}
+		}
+	}
+}

@@ -1,0 +1,152 @@
+JAP_setup_starting_tags = {
+	EOH = {
+		kill_country_leader = yes
+	}
+	JAP = {
+		JAP_airi = {
+			set_nationality = EOH
+			promote_character = technoutopianism_EOHs_transmission_subtype
+		}
+
+		every_owned_state = {
+			remove_core_of = EOH
+		}
+	}
+}
+
+#EBF_JAP_EOH_victory_effect = {
+#
+#    JAP = {
+#        white_peace = EOH
+#    }  
+#
+#    EOH = {
+#        transfer_state = 1034
+#        transfer_state = 1035
+#        transfer_state = 1036
+#        transfer_state = 727   
+#        transfer_state = 282
+#        transfer_state = 534
+#        set_capital = {
+#            state = 1034
+#            remember_old_capital = no
+#        }
+#        every_state = {
+#            limit = {
+#                is_owned_by = EOH
+#                NOT = {
+#                    state = 932
+#                    state = 536
+#                }
+#            }
+#            add_core_of = SCE
+#            add_core_of = TVN
+#            add_core_of = EOH
+#        }        
+#    }
+#    
+#    JAP = {
+#        set_capital = {
+#            state = 531 
+#            remember_old_capital = no
+#        }
+#        every_state = {
+#            limit = {
+#                is_core_of = JAP
+#                is_owned_by = EOH
+#            }
+#            remove_core_of = JAP
+#        }         
+#        every_state = {
+#            limit = {
+#                is_core_of = JAP
+#            }
+#            add_core_of = NRJ
+#            add_core_of = PRJ
+#        }            
+#    }
+#
+#    PRJ = {
+#        transfer_state = 528
+#        transfer_state = 526
+#        transfer_state = 645
+#        add_ideas = Peoples_Connection_member
+#    }
+#
+#    SHI = {
+#        transfer_state = 530
+#    }
+#
+#    NRJ = {
+#        transfer_state = 532
+#        transfer_state = 535
+#    }
+#
+#    SCE = {
+#        transfer_state = 534
+#        transfer_state = 931
+#        transfer_state = 282
+#    }			
+#
+#    TVN = {
+#        transfer_state = 533
+#    }	
+#
+#    932 = {
+#        add_core_of = INT
+#        add_core_of = VEA
+#        remove_core_of = EOH
+#    }
+#    
+#    536 = {
+#        add_core_of = INT
+#        add_core_of = VEA
+#        remove_core_of = EOH
+#    }
+#
+#    INT = {
+#        transfer_state = 932  
+#    }	
+#
+#    VEA = {
+#        transfer_state = 536
+#        declare_war_on = {
+#            target = INT
+#            type = annex_everything
+#        }
+#    }	  
+#
+#    every_country = { news_event = news_event.21 }
+#    
+#    set_global_flag = JAP_EOH_conflict_over
+#    set_global_flag = JAP_EOH_cult_victory    
+#}
+#
+#EBF_EOH_JAP_victory_effect = {
+#
+#    JAP = {
+#        white_peace = EOH
+#    }
+#    
+#    JAP = {
+#        transfer_state = 931
+#        transfer_state = 533
+#    }    
+#
+#    EOH = {
+#        set_cosmetic_tag = EOH_forlorn_children
+#    }
+#
+#    931 = {
+#        remove_core_of = EOH
+#    }
+#
+#    533 = {
+#        remove_core_of = EOH
+#    }    
+#
+#    every_country = { news_event = news_event.22 }
+#
+#    set_global_flag = JAP_EOH_conflict_over
+#    set_global_flag = JAP_EOH_japan_victory
+#}

@@ -1,0 +1,26 @@
+#Starting Tree
+focus_tree = {
+	id = EBF_denmark_starting_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DEN
+		}
+	}
+	default = no
+	shared_focus = DEN_nights_in_copenhagen
+}
+
+focus_tree = {
+	id = EBF_denmark_election_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DEN
+		}
+	}
+	default = no
+	shared_focus = DEN_election_of_the_second_premier
+}

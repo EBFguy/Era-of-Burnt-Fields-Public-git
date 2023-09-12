@@ -1,0 +1,828 @@
+ideas = {
+
+	EBF_political_parties = { 
+		law = yes
+
+		EBF_one_party_state = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    political_power_gain = 0.15
+				drift_defence_factor = 0.25			
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_dominant_party_state = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    political_power_gain = 0.1
+				drift_defence_factor = 0.15	
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_two_party_state = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    stability_factor = 0.025 
+				political_power_gain = 0.05
+				drift_defence_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_multiparty_system = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    stability_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}				
+	}
+
+	EBF_opposition_freedom = { 
+		law = yes
+
+		EBF_underground_opposition = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    stability_factor = 0.05 
+				drift_defence_factor = 0.15		
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_suppressed_opposition = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    stability_factor = 0.025 
+				drift_defence_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_internal_opposition = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    stability_factor = -0.05
+				drift_defence_factor = 0.25
+				#Admineffic = -10 
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_single_party_opposition = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    drift_defence_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_multiparty_opposition = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}			
+	}	
+
+	EBF_religous_freedom = { 
+		law = yes
+
+		EBF_state_religion = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    political_power_gain = -0.1 
+				stability_factor = 0.1 
+				war_support_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_pluralism  = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			   political_power_gain = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_secularism = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			   political_power_gain = 0.05 
+			   stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_state_atheism = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			   political_power_gain = 0.1
+			   stability_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}			
+	}	
+
+	EBF_voter_franchise = { 
+		law = yes
+
+		EBF_no_voting = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    political_power_factor = 0.15 
+				stability_factor = -0.075
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_elite_voting = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				political_power_factor = 0.1 
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_registered_voting = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				political_power_factor = 0.05 
+				stability_factor = -0.025
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_universal_voting = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_support_disenfranchised = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				political_power_factor = -0.05 
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+	}	
+
+	EBF_press_rights = { 
+		law = yes
+
+		EBF_state_press = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    drift_defence_factor = 0.1 
+				defensive_war_stability_factor = 0.15
+				offensive_war_stability_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_censored_press = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				drift_defence_factor = 0.05 
+				defensive_war_stability_factor = 0.1
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_free_press = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}					
+	}	
+
+	EBF_trade_unions = { 
+		law = yes
+
+		EBF_outlawed_unions = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    industrial_capacity_dockyard = 0.05 
+				industrial_capacity_factory = 0.05 
+				production_factory_max_efficiency_factor = -0.05 
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_state_controlled_unions = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    industrial_capacity_dockyard = 0.025 
+				industrial_capacity_factory = 0.025 
+				production_factory_max_efficiency_factor = -0.025 
+				stability_factor = -0.025
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_non_socialist_unions = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    industrial_capacity_dockyard = -0.025 
+				industrial_capacity_factory = -0.025 
+				stability_factor = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_all_unions_allowed = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				industrial_capacity_dockyard = -0.05 
+				industrial_capacity_factory = -0.05 
+				production_factory_max_efficiency_factor = 0.025 
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}				
+	}	
+
+	EBF_immigration_laws = { 
+		law = yes
+
+		EBF_closed_borders = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    MONTHLY_POPULATION = -0.10 
+				stability_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_immigration_quotas = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    MONTHLY_POPULATION = -0.05 
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_open_immigration = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    MONTHLY_POPULATION = 0.05 
+				stability_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+		}		
+
+		EBF_encouraged_immigration = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			    MONTHLY_POPULATION = 0.1 
+				stability_factor = -0.1
+			}
+			
+			cancel_if_invalid = no
+		}			
+	}	
+
+	EBF_ai_personhood = { 
+		law = yes
+
+		EBF_no_legal_protections = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		EBF_cognizant_awareness_checks = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.05 
+				research_speed_factor = 0.01
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_indentured_ownership_only  = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.1 
+				research_speed_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}	
+
+		EBF_full_emancipation = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            #picture = MTG_naval_treaty_adherent
+                  
+			modifier = {
+				stability_factor = -0.15 
+				research_speed_factor = 0.15
+			}
+			
+			cancel_if_invalid = no
+		}					
+	}
+}
+	

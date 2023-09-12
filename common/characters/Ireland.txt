@@ -1,0 +1,145 @@
+characters = {
+	IRE_Riley_Rochfort = {
+		name = IRE_Riley_Rochfort
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_one_party_dominant_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_RILEY_ROCHFORT_DESC"
+		}
+	}
+
+	IRE_Thomas_OLeary = {
+		name = IRE_Thomas_OLeary
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_THOMAS_OLEARY_DESC"
+		}
+	}	
+
+	IRE_Richard_McGarry = {
+		name = IRE_Richard_McGarry
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultramilitarism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_RICHARD_MCGARRY_DESC"
+		}
+	}
+
+	IRE_Edward_Lawlor = {
+		name = IRE_Edward_Lawlor
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_paleoconservative_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_EDWARD_LAWLOR_DESC"
+		}
+	}	
+
+	IRE_Harrison_Donohoe = {
+		name = IRE_Harrison_Donohoe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_christian_democrat_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_HARRISON_DONOHOE_DESC"
+		}
+	}	
+
+	IRE_Nora_Gibbons = {
+		name = IRE_Nora_Gibbons
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_democratic_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NORA_GIBBONS_DESC"
+		}
+	}
+
+	IRE_Charles_Reynolds = {
+		name = IRE_Charles_Reynolds
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRE/Portrait_IRE_Riley_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_religious_fascism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CHARLES_REYNOLDS_DESC"
+		}
+	}
+
+
+	ULS_Nicholas_Neylan = {
+		name = ULS_Nicholas_Neylan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ULS/Portrait_ULS_Nicholas_Neylan.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_occupation_authority_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NICHOLAS_NEYLAN_DESC"
+		}
+	}	
+
+	ULS_Calum_OGalvin = {
+		name = ULS_Calum_OGalvin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ULS/Portrait_ULS_Calum_OGalvin.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultramilitarism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CALUM_OGALVIN_DESC"
+		}
+	}	
+
+
+
+	BIF_Jayden_Rochfort = {
+		name = BIF_Jayden_Rochfort
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BIF/Portrait_BIF_Jayden_Rochfort.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_controlled_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JAYDEN_ROCHFORT_DESC"
+		}
+	}
+
+}

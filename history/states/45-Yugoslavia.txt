@@ -1,0 +1,24 @@
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		victory_points = { 619 3 }
+		add_core_of = SER
+		owner = SER
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		619 3617 3623 9621 11580 11577
+	}
+	manpower=1213262
+	buildings_max_level_factor=1.000
+	state_category=town
+}

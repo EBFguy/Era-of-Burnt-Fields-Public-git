@@ -1,0 +1,28 @@
+characters = {
+	ARG_Agustin_Riba = {
+		name = ARG_Agustin_Riba
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARG/Portrait_ARG_Agustin_Riba.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_military_junta_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_AGUSTIN_RIBA_DESC"
+		}
+	}
+	NRG_Radomiro_Tejero = {
+		name = NRG_Radomiro_Tejero
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NRG/Portrait_NRG_Radomiro_Tejero.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_guevarism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_RADOMIRO_TEJERO_DESC"
+		}
+	}	
+}

@@ -1,0 +1,1071 @@
+scripted_gui = {
+	EBF_politics_category_selector = {
+		context_type = player_context
+		window_name = "politics_category_selector"
+		parent_window_token = politics_tab
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+		}
+
+		effects = { #SORTING = CATEGORY IS FIRST NUMBER, ORDER IN THE TREE IS RIGHT NUMBER
+			pol_cat_selector_laws_btn_click = {
+				set_variable = { ebf_politics_category = 1 }
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+			}			
+			pol_cat_selector_socdevs_btn_click = {
+				set_variable = { ebf_politics_category = 2 }
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+			}	
+			pol_cat_selector_ordinance_btn_click = {
+				set_variable = { ebf_politics_category = 3 }
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+			}			
+			pol_cat_selector_military_mob_btn_click = {
+				set_variable = { ebf_politics_category = 4 }
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+			}	
+			pol_cat_selector_ecodecay_btn_click = {
+				set_variable = { ebf_politics_category = 5 }
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+			}		
+		}
+	}
+
+	EBF_politics_laws = {
+		context_type = player_context
+		window_name = "new_politics_laws"
+		parent_window_token = politics_tab
+
+		visible = {
+			OR = {
+				check_variable = { ebf_politics_category = 0 }
+				check_variable = { ebf_politics_category = 1 }
+			}
+			is_ai = no
+		}
+
+		properties = {
+		}
+
+		effects = { #SORTING = CATEGORY IS FIRST NUMBER, ORDER IN THE TREE IS RIGHT NUMBER
+
+			cate_1_law_ebf_political_parties_btn_click = {
+				set_variable = { ebf_opened_laws_category = 10 }
+			}				
+			cate_1_law_ebf_opposition_freedom_btn_click = {
+				set_variable = { ebf_opened_laws_category = 11 }
+			}
+			cate_1_law_ebf_religous_freedom_btn_click = {
+				set_variable = { ebf_opened_laws_category = 12 }
+			}
+			cate_1_law_ebf_voter_franchise_btn_click = {
+				set_variable = { ebf_opened_laws_category = 13 }
+			}
+			cate_1_law_ebf_press_rights_btn_click = {
+				set_variable = { ebf_opened_laws_category = 14 }
+			}
+			cate_1_law_ebf_trade_unions_btn_click = {
+				set_variable = { ebf_opened_laws_category = 15 }
+			}
+			cate_1_law_ebf_immigration_laws_btn_click = {
+				set_variable = { ebf_opened_laws_category = 16 }
+			}
+			cate_1_law_ebf_ai_personhood_btn_click = {
+				set_variable = { ebf_opened_laws_category = 17 }
+			}			
+
+			cate_2_law_ebf_trade_btn_click = {
+				set_variable = { ebf_opened_laws_category = 20 }
+			}
+			cate_2_law_ebf_min_wage_btn_click = {
+				set_variable = { ebf_opened_laws_category = 21 }
+			}
+			cate_2_law_ebf_max_hours_btn_click = {
+				set_variable = { ebf_opened_laws_category = 22 }
+			}		
+			cate_2_law_ebf_economic_model_btn_click = {
+				set_variable = { ebf_opened_laws_category = 23 }
+			}		
+
+			cate_3_law_ebf_conscription_btn_click = {
+				set_variable = { ebf_opened_laws_category = 30 }
+			}
+			cate_3_law_ebf_training_standards_btn_click = {
+				set_variable = { ebf_opened_laws_category = 31 }
+			}
+			cate_3_law_ebf_policing_btn_click = {
+				set_variable = { ebf_opened_laws_category = 32 }
+			}		
+			cate_3_law_ebf_military_supervision_btn_click = {
+				set_variable = { ebf_opened_laws_category = 33 }
+			}						
+		}
+	}	
+
+	#CATEGORY 1
+
+	EBF_politics_laws_category_popup_political_parties = {
+		context_type = player_context
+		window_name = "laws_category_popup_political_parties"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 10 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}	
+
+	EBF_politics_laws_category_popup_opposition_freedom = {
+		context_type = player_context
+		window_name = "laws_category_popup_opposition_freedom"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 11 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}	
+
+	EBF_politics_laws_category_popup_religous_freedom = {
+		context_type = player_context
+		window_name = "laws_category_popup_religous_freedom"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 12 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_voter_franchise = {
+		context_type = player_context
+		window_name = "laws_category_popup_voter_franchise"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 13 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_press_rights = {
+		context_type = player_context
+		window_name = "laws_category_popup_press_rights"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 14 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_trade_unions = {
+		context_type = player_context
+		window_name = "laws_category_popup_trade_unions"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 15 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_immigration_laws = {
+		context_type = player_context
+		window_name = "laws_category_popup_immigration_laws"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 16 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_ai_personhood = {
+		context_type = player_context
+		window_name = "laws_category_popup_ai_personhood"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 17 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	#CATEGORY 2
+
+	EBF_politics_laws_category_popup_trade = {
+		context_type = player_context
+		window_name = "laws_category_popup_trade"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 20 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}	
+
+	EBF_politics_laws_category_popup_min_wage = {
+		context_type = player_context
+		window_name = "laws_category_popup_min_wage"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 21 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}	
+
+	EBF_politics_laws_category_popup_max_hours = {
+		context_type = player_context
+		window_name = "laws_category_popup_max_hours"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 22 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_economic_model = {
+		context_type = player_context
+		window_name = "laws_category_popup_economic_model"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 23 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}			
+
+	#CATEGORY 3
+
+	EBF_politics_laws_category_popup_conscription = {
+		context_type = player_context
+		window_name = "laws_category_popup_conscription"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 30 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}	
+
+	EBF_politics_laws_category_popup_training_standards = {
+		context_type = player_context
+		window_name = "laws_category_popup_training_standards"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 31 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}		
+
+	EBF_politics_laws_category_popup_policing = {
+		context_type = player_context
+		window_name = "laws_category_popup_policing"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 32 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_laws_category_popup_military_supervision = {
+		context_type = player_context
+		window_name = "laws_category_popup_military_supervision"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 33 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	#SOCDEVS
+
+	EBF_politics_socdevs = {
+		context_type = player_context
+		window_name = "new_politics_socdevs"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_politics_category = 2 }
+			is_ai = no
+		}
+
+		properties = {
+			
+			socdevs_ebf_academic_level_bar = {
+				frame = EBF_socdev_academic_level_var
+			}
+
+			socdevs_ebf_poverty_rate_bar = {
+				frame = EBF_socdev_poverty_rate_var
+			}
+
+			socdevs_ebf_economic_health_bar = {
+				frame = EBF_socdev_economic_health_var
+			}
+
+			socdevs_ebf_army_professionalism_bar = {
+				frame = EBF_socdev_army_professionalism_var
+			}
+
+			socdevs_ebf_industrial_equipment_bar = {
+				frame = EBF_socdev_industrial_equipment_var
+			}
+
+			socdevs_ebf_administrative_efficiency_bar = {
+				frame = EBF_socdev_administrative_efficiency_var
+			}
+		}
+
+		effects = { #4 = socdevs, second number = order number
+			socdevs_ebf_academic_level_btn_click = {
+				set_variable = { ebf_opened_laws_category = 40 }
+			}		
+			
+			socdevs_ebf_poverty_rate_btn_click = {
+				set_variable = { ebf_opened_laws_category = 41 }
+			}	
+			
+			socdevs_ebf_economic_health_btn_click = {
+				set_variable = { ebf_opened_laws_category = 42 }
+			}	
+			
+			socdevs_ebf_army_professionalism_btn_click = {
+				set_variable = { ebf_opened_laws_category = 43 }
+			}
+
+			socdevs_ebf_industrial_equipment_btn_click = {
+				set_variable = { ebf_opened_laws_category = 44 }
+			}
+
+			socdevs_ebf_administrative_efficiency_btn_click = {
+				set_variable = { ebf_opened_laws_category = 45 }
+			}			
+		}
+	}
+
+	EBF_politics_socdev_category_popup_academic_level = {
+		context_type = player_context
+		window_name = "laws_category_popup_academic_level"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 40 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+	
+	EBF_politics_socdev_category_popup_poverty_rate = {
+		context_type = player_context
+		window_name = "laws_category_popup_poverty_rate"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 41 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_socdev_category_popup_economic_health = {
+		context_type = player_context
+		window_name = "laws_category_popup_economic_health"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 42 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_socdev_category_popup_army_professionalism = {
+		context_type = player_context
+		window_name = "laws_category_popup_army_professionalism"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 43 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_socdev_category_popup_industrial_equipment = {
+		context_type = player_context
+		window_name = "laws_category_popup_industrial_equipment"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 44 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_socdev_category_popup_administrative_efficiency = {
+		context_type = player_context
+		window_name = "laws_category_popup_administrative_efficiency"
+		parent_window_token = politics_tab
+
+		visible = {
+			check_variable = { ebf_opened_laws_category = 45 }
+		}
+
+		effects = {
+			close_click = {
+				clear_variable = ebf_opened_laws_category
+			}
+		}
+	}
+
+	EBF_politics_ordinance = {
+		context_type = player_context
+		window_name = "new_politics_ordinance"
+		parent_window_token = politics_tab
+
+		visible = {
+			OR = {
+				check_variable = { ebf_politics_category = 3 }
+				is_ai = YES
+			}
+			
+		}
+
+		properties = {
+			#ENERGY
+			ordi_1_outage_5 = {
+                frame = EBF_ordi_1_outage_5_ON
+            }
+			ordi_1_outage_4 = {
+                frame = EBF_ordi_1_outage_4_ON
+            }
+			ordi_1_outage_3 = {
+                frame = EBF_ordi_1_outage_3_ON
+            }
+			ordi_1_outage_2 = {
+                frame = EBF_ordi_1_outage_2_ON
+            }
+			ordi_1_outage_1 = {
+                frame = EBF_ordi_1_outage_1_ON
+            }
+
+			ordi_1_high_consump_btn = {
+				frame = ordi_1_high_consump_btn_ON
+			}
+			ordi_1_norm_consump_btn = {
+				frame = ordi_1_norm_consump_btn_ON
+			}
+			ordi_1_small_regs_btn = {
+				frame = ordi_1_small_regs_btn_ON
+			}
+			ordi_1_med_regs_btn = {
+				frame = ordi_1_med_regs_btn_ON
+			}
+			ordi_1_high_regs_btn = {
+				frame = ordi_1_high_regs_btn_ON
+			}
+
+			ordi_1_size_minor_btn = {
+				frame = ordi_1_size_minor_btn_ON
+			}
+			ordi_1_size_normal_btn = {
+				frame = ordi_1_size_normal_btn_ON
+			}
+			ordi_1_size_large_btn = {
+				frame = ordi_1_size_large_btn_ON
+			}
+			ordi_1_size_massive_btn = {
+				frame = ordi_1_size_massive_btn_ON
+			}
+			ordi_1_size_super_massive_btn = {
+				frame = ordi_1_size_super_massive_btn_ON
+			}
+
+			ordi_2_famine_5 = {
+                frame = EBF_ordi_2_famine_5_ON
+            }
+			ordi_2_famine_4 = {
+                frame = EBF_ordi_2_famine_4_ON
+            }
+			ordi_2_famine_3 = {
+                frame = EBF_ordi_2_famine_3_ON
+            }
+			ordi_2_famine_2 = {
+                frame = EBF_ordi_2_famine_2_ON
+            }
+			ordi_2_famine_1 = {
+                frame = EBF_ordi_2_famine_1_ON
+            }
+
+			ordi_2_below_stock_btn = {
+				frame = ordi_2_below_stock_btn_ON
+			}
+			ordi_2_meeting_stock_btn = {
+				frame = ordi_2_meeting_stock_btn_ON
+			}
+			ordi_2_slightly_above_stock_btn = {
+				frame = ordi_2_slightly_above_stock_btn_ON
+			}
+			ordi_2_above_stock_btn = {
+				frame = ordi_2_above_stock_btn_ON
+			}
+			ordi_2_high_stock_btn = {
+				frame = ordi_2_high_stock_btn_ON
+			}
+		}
+
+		triggers = {
+        }
+
+		effects = {		
+			#ENERGY
+			
+			ordi_1_high_consump_btn_click = {
+				if = {
+					limit = {
+						has_political_power > EBF_energy_consump_var^0
+					}
+					add_political_power = EBF_energy_consump_cost^0
+					EBF_remove_energy_regs_on_frames = YES
+					add_ideas = EBF_energy_consump_high
+					set_country_flag = EBF_energy_consump_action_taken
+					country_event = { id = other_operational_events.1 days = 30}
+					EBF_energy_weekly_pulse = YES
+				}
+			}
+			ordi_1_norm_consump_btn_click = {
+				if = {
+					limit = {
+						has_political_power > EBF_energy_consump_var^1
+					}
+					add_political_power = EBF_energy_consump_cost^1
+					EBF_remove_energy_regs_on_frames = YES
+					add_ideas = EBF_energy_consump_norm
+					set_country_flag = EBF_energy_consump_action_taken
+					country_event = { id = other_operational_events.1 days = 30}
+					EBF_energy_weekly_pulse = YES
+				}
+			}
+			ordi_1_small_regs_btn_click = {
+				if = {
+					limit = {
+						has_political_power > EBF_energy_consump_var^2
+					}
+					add_political_power = EBF_energy_consump_cost^2
+					EBF_remove_energy_regs_on_frames = YES
+					add_ideas = EBF_energy_consump_small_reg
+					set_country_flag = EBF_energy_consump_action_taken
+					country_event = { id = other_operational_events.1 days = 30}
+					EBF_energy_weekly_pulse = YES
+				}
+			}
+			ordi_1_med_regs_btn_click = {
+				if = {
+					limit = {
+						has_political_power > EBF_energy_consump_var^3
+					}
+					add_political_power = EBF_energy_consump_cost^3
+					EBF_remove_energy_regs_on_frames = YES
+					add_ideas = EBF_energy_consump_medium_reg
+					set_country_flag = EBF_energy_consump_action_taken
+					country_event = { id = other_operational_events.1 days = 30}
+					EBF_energy_weekly_pulse = YES
+				}
+			}
+			ordi_1_high_regs_btn_click = {
+				if = {
+					limit = {
+						has_political_power > EBF_energy_consump_var^4
+					}
+					add_political_power = EBF_energy_consump_cost^4
+					EBF_remove_energy_regs_on_frames = YES
+					add_ideas = EBF_energy_consump_high_reg
+					set_country_flag = EBF_energy_consump_action_taken
+					country_event = { id = other_operational_events.1 days = 30}
+					EBF_energy_weekly_pulse = YES
+				}
+			}	
+		}
+	}	
+
+	EBF_politics_mobilization = {
+		context_type = player_context
+		window_name = "new_politics_mobilization"
+		parent_window_token = politics_tab
+		#dirty = EBF_mobliz_dirty
+
+		visible = {
+			OR = {
+				check_variable = { ebf_politics_category = 4 }
+				is_ai = YES
+			}
+			
+		}
+
+		properties = {
+			mobilization_2_ground_IP_bar = {
+                frame = total_ground_ips_used
+            }
+			mobilization_2_added_ground_IP_bar = {
+                frame = all_added_military_ip_ground
+            }
+			mobilization_2_air_IP_bar = {
+                frame = total_air_ips_used
+            }
+			mobilization_2_added_air_IP_bar = {
+                frame = all_added_military_ip_air
+            }
+			mobilization_2_naval_IP_bar = {
+                frame = total_naval_ips_used
+            }
+			mobilization_2_added_naval_IP_bar = {
+                frame = all_added_military_ip_naval
+            }
+			mobilization_2_research_IP_bar = {
+                frame = total_research_ips_used
+            }
+			mobilization_2_added_research_IP_bar = {
+                frame = all_added_military_ip_research
+            }
+			mobilization_2_civil_services_IP_bar = {
+                frame = total_civil_services_ips_used
+            }
+			mobilization_2_added_civil_service_IP_bar = {
+                frame = all_added_military_ip_civil_services
+            }
+		}
+
+		triggers = {
+			mobilization_2_added_ground_IP_bar_visible = { check_variable = { all_added_military_ip_ground > 0 } }
+			mobilization_2_added_air_IP_bar_visible = { check_variable = { all_added_military_ip_air > 0 } }
+			mobilization_2_added_naval_IP_bar_visible = { check_variable = { all_added_military_ip_naval > 0 } }
+			mobilization_2_added_research_IP_bar_visible = { check_variable = { all_added_military_ip_research > 0 } }
+			mobilization_2_added_civil_service_IP_bar_visible = { check_variable = { all_added_military_ip_civil_services > 0 } }
+        }
+
+		effects = {		
+			mobilization_1_laws_grid_entry_select_click = {
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+				get_law_grid_btn_effect = YES
+			}
+			mobilization_2_ground_increase_button_click = {
+				set_temp_variable = { ip_change = 1 }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_increase_button_control_click = {
+				set_temp_variable = { ip_change = 5 }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_increase_button_shift_click = {
+				set_temp_variable = { ip_change = 10 }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_increase_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = { ip_change = remaining_IPs }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_decrease_button_click = {
+				set_temp_variable = { ip_change = -1 }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_decrease_button_control_click = {
+				set_temp_variable = { ip_change = -5 }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_decrease_button_shift_click = {
+				set_temp_variable = { ip_change = -10 }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+			mobilization_2_ground_decrease_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = {
+					maths = ground_ips_used
+				}
+				multiply_temp_variable = { maths = -1 }
+				set_temp_variable = { ip_change = maths }
+				change_ground_investment = yes
+				update_ground_investment = yes
+			}
+
+			mobilization_2_naval_increase_button_click = {
+				set_temp_variable = { ip_change = 1 }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_increase_button_control_click = {
+				set_temp_variable = { ip_change = 5 }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_increase_button_shift_click = {
+				set_temp_variable = { ip_change = 10 }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_increase_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = { ip_change = remaining_IPs }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_decrease_button_click = {
+				set_temp_variable = { ip_change = -1 }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_decrease_button_control_click = {
+				set_temp_variable = { ip_change = -5 }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_decrease_button_shift_click = {
+				set_temp_variable = { ip_change = -10 }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+			mobilization_2_naval_decrease_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = {
+					maths = naval_ips_used
+				}
+				multiply_temp_variable = { maths = -1 }
+				set_temp_variable = { ip_change = maths }
+				change_naval_investment = yes
+				update_naval_investment = yes
+			}
+
+			mobilization_2_air_increase_button_click = {
+				set_temp_variable = { ip_change = 1 }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_increase_button_control_click = {
+				set_temp_variable = { ip_change = 5 }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_increase_button_shift_click = {
+				set_temp_variable = { ip_change = 10 }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_increase_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = { ip_change = remaining_IPs }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_decrease_button_click = {
+				set_temp_variable = { ip_change = -1 }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_decrease_button_control_click = {
+				set_temp_variable = { ip_change = -5 }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_decrease_button_shift_click = {
+				set_temp_variable = { ip_change = -10 }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+			mobilization_2_air_decrease_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = {
+					maths = air_ips_used
+				}
+				multiply_temp_variable = { maths = -1 }
+				set_temp_variable = { ip_change = maths }
+				change_air_investment = yes
+				update_air_investment = yes
+			}
+
+			mobilization_2_research_increase_button_click = {
+				set_temp_variable = { ip_change = 1 }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_increase_button_control_click = {
+				set_temp_variable = { ip_change = 5 }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_increase_button_shift_click = {
+				set_temp_variable = { ip_change = 10 }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_increase_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = { ip_change = remaining_IPs }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_decrease_button_click = {
+				set_temp_variable = { ip_change = -1 }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_decrease_button_control_click = {
+				set_temp_variable = { ip_change = -5 }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_decrease_button_shift_click = {
+				set_temp_variable = { ip_change = -10 }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+			mobilization_2_research_decrease_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = {
+					maths = research_ips_used
+				}
+				multiply_temp_variable = { maths = -1 }
+				set_temp_variable = { ip_change = maths }
+				change_research_investment = yes
+				update_research_investment = yes
+			}
+
+			mobilization_2_civil_services_increase_button_click = {
+				set_temp_variable = { ip_change = 1 }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_increase_button_control_click = {
+				set_temp_variable = { ip_change = 5 }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_increase_button_shift_click = {
+				set_temp_variable = { ip_change = 10 }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_increase_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = { ip_change = remaining_IPs }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_decrease_button_click = {
+				set_temp_variable = { ip_change = -1 }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_decrease_button_control_click = {
+				set_temp_variable = { ip_change = -5 }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_decrease_button_shift_click = {
+				set_temp_variable = { ip_change = -10 }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+			mobilization_2_civil_services_decrease_button_right_click = {
+				ip_maths = yes
+				set_temp_variable = {
+					maths = civil_services_ips_used
+				}
+				multiply_temp_variable = { maths = -1 }
+				set_temp_variable = { ip_change = maths }
+				change_civil_services_investment = yes
+				update_civil_services_investment = yes
+			}
+		}
+
+		dynamic_lists = {
+			mobilization_1_laws_grid = {
+				array = mobilization_1_laws_grid
+				entry_container = mobilization_1_laws_grid_entry
+				value = mobilization_1_law
+			}	
+		}
+	}
+
+	EBF_politics_mobilization_change = {
+		context_type = player_context
+		window_name = "EBF_mobilization_1_law_change"
+		parent_window_token = politics_tab
+		#dirty = EBF_mobliz_dirty
+
+		visible = {
+			has_variable = ebf_mobilization_category
+		}
+
+		properties = {
+		}
+
+		triggers = {
+        }
+
+		effects = {		
+			close_click = {
+				clear_variable = ebf_mobilization_category
+				clear_array = law_ladder_grid
+			}
+		}
+	}
+
+	EBF_politics_mobilization_scrollbar = {
+		context_type = player_context
+		window_name = "EBF_mobilization_1_law_scrollbar"
+		parent_window_token = politics_tab
+		#dirty = EBF_mobliz_dirty
+
+		visible = {
+			has_variable = ebf_mobilization_category
+		}
+
+		properties = {
+			allowed_laws_bracket = {
+				image = "[GetAllowedLawLadderBracket]"
+			}
+		}
+
+		triggers = {
+        }
+
+		effects = {		
+			mobilization_1_law_ladder_entry_select_click = {
+				law_change_effect_list = yes
+			}
+		}
+
+		dynamic_lists = {
+			law_ladder_grid = {
+				array = law_ladder_grid
+				entry_container = law_ladder_grid_entry
+				value = mobilization_1_law_ladder
+			}	
+		}
+	}
+}

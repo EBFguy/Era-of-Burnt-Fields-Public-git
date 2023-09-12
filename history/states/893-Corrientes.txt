@@ -1,0 +1,23 @@
+
+state={
+	id=893
+	name="STATE_893"
+
+	history={
+		add_core_of = ARG
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		8187 8238 12964 
+	}
+	manpower=3931054
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

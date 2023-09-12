@@ -1,0 +1,874 @@
+﻿l_english:
+ #BASE basic
+ ZZZ:0 ""
+ ZZZ_DEF:0 ""
+ ZZZ_ADJ:0 ""
+ #BASE advanced
+ ZZZ_technoutopianism:0 ""
+ ZZZ_technoutopianism_DEF:0 ""
+ ZZZ_technoutopianism_ADJ:0 ""
+ ZZZ_securocracy:0 ""
+ ZZZ_securocracy_DEF:0 ""
+ ZZZ_securocracy_ADJ:0 ""
+ ZZZ_ultranationalism:0 ""
+ ZZZ_ultranationalism_DEF:0 ""
+ ZZZ_ultranationalism_ADJ:0 ""
+ ZZZ_fascist:0 ""
+ ZZZ_fascist_DEF:0 ""
+ ZZZ_fascist_ADJ:0 ""
+ ZZZ_autocracy:0 ""
+ ZZZ_autocracy_DEF:0 ""
+ ZZZ_autocracy_ADJ:0 ""
+ ZZZ_anocracy:0 ""
+ ZZZ_anocracy_DEF:0 ""
+ ZZZ_anocracy_ADJ:0 ""
+ ZZZ_conservatism:0 ""
+ ZZZ_conservatism_DEF:0 ""
+ ZZZ_conservatism_ADJ:0 ""
+ ZZZ_liberal_conservatism:0 ""
+ ZZZ_liberal_conservatism_DEF:0 ""
+ ZZZ_liberal_conservatism_ADJ:0 "" 
+ ZZZ_liberalism:0 ""
+ ZZZ_liberalism_DEF:0 ""
+ ZZZ_liberalism_ADJ:0 ""
+ ZZZ_progressivism_conservatism:0 ""
+ ZZZ_progressivism_conservatism_DEF:0 ""
+ ZZZ_progressivism_conservatism_ADJ:0 "" 
+ ZZZ_libertarian_socialism:0 ""
+ ZZZ_libertarian_socialism_DEF:0 ""
+ ZZZ_libertarian_socialism_ADJ:0 ""
+ ZZZ_authoritarian_socialism:0 ""
+ ZZZ_authoritarian_socialism_DEF:0 ""
+ ZZZ_authoritarian_socialism_ADJ:0 ""
+ ZZZ_totalitarian_socialism:0 ""
+ ZZZ_totalitarian_socialism_DEF:0 ""
+ ZZZ_totalitarian_socialism_ADJ:0 ""
+ ZZZ_reductivism:0 ""
+ ZZZ_reductivism_DEF:0 ""
+ ZZZ_reductivism_ADJ:0 ""
+
+ ZZZ_technoutopianism_party:0 ""
+ ZZZ_technoutopianism_party_long:0 "" 
+ ZZZ_securocracy_party:0 ""
+ ZZZ_securocracy_party_long:0 ""
+ ZZZ_ultranationalism_party:0 ""
+ ZZZ_ultranationalism_party_long:0 ""
+ ZZZ_fascist_party:0 ""
+ ZZZ_fascist_party_long:0 ""
+ ZZZ_autocracy_party:0 ""
+ ZZZ_autocracy_party_long:0 "" 
+ ZZZ_anocracy_party:0 ""
+ ZZZ_anocracy_party_long:0 ""
+ ZZZ_conservatism_party:0 ""
+ ZZZ_conservatism_party_long:0 "" 
+ ZZZ_liberalism_party:0 ""
+ ZZZ_liberalism_party_long:0 "" 
+ ZZZ_libertarian_socialism_party:0 ""
+ ZZZ_libertarian_socialism_party_long:0 "" 
+ ZZZ_authoritarian_socialism_party:0 ""
+ ZZZ_authoritarian_socialism_party_long:0 "" 
+ ZZZ_totalitarian_socialism_party:0 ""
+ ZZZ_totalitarian_socialism_party_long:0 "" 
+ ZZZ_reductivism_party:0 ""
+ ZZZ_reductivism_party_long:0 "" 
+
+ CUB:0 "Reconstruction Government of Cuba"
+ CUB_DEF:0 "The Reconstruction Government of Cuba"
+ CUB_ADJ:0 "Cuban"
+
+ MAF:0 ""
+ MAF_DEF:0 ""
+ MAF_ADJ:0 "Central African"
+
+ EAF:0 "East African Federation"
+ EAF_DEF:0 "The East African Federation of Kenya and Uganda"
+ EAF_ADJ:0 "East African"
+
+ KAZ:0 "Kazakh Liberation Front"
+ KAZ_DEF:0 "The Kazakh Liberation Front"
+ KAZ_ADJ:0 "Kazakhstani"
+
+ SID:0 "South Indian Republic"
+ SID_DEF:0 "The South Indian Republic"
+ SID_ADJ:0 "South Indian"
+
+ NEP:0 "Nepal"
+ NEP_DEF:0 "The Republic of Nepal"
+ NEP_ADJ:0 "Nepalese"
+
+ BAN:0 "Bangladesh"
+ BAN_DEF:0 "The Republic of Bangladesh"
+ BAN_ADJ:0 "Bangladeshi"
+
+ SRI:0 "Sri Lanka"
+ SRI_DEF:0 "The People's Republic of Sri Lanka"
+ SRI_ADJ:0 "Sri Lankan"
+
+ PAP:0 "Papua"
+ PAP_DEF:0 "The Independent State of Papua"
+ PAP_ADJ:0 "Papuan"
+
+ KRD:0 "Liberated Kurdistan"
+ KRD_DEF:0 "The Religiously and Politically Liberated Kurds"
+ KRD_ADJ:0 "Iraqi Kurdish"
+
+ IRQ:0 "Republic of Iraq"
+ IRQ_DEF:0 "The Republic of Iraq"
+ IRQ_ADJ:0 "Iraqi"
+
+ KUR:0 "Kurdistan"
+ KUR_DEF:0 "The Free Republic of Kurdistan"
+ KUR_ADJ:0 "Kurdish"
+
+ SYR:0 "Arab Republic of Syria"
+ SYR_DEF:0 "The Arab Republic of Syria and Lebanon"
+ SYR_ADJ:0 "Arab"
+
+ ISR:0 "Israel"
+ ISR_DEF:0 "The State of Israel"
+ ISR_ADJ:0 "Israeli"
+
+ JOR:0 "Jordan"
+ JOR_DEF:0 "The Republic of Jordan"
+ JOR_ADJ:0 "Jordan"
+
+ CAN:0 "Canada"
+ CAN_DEF:0 "The Republic of Canada"
+ CAN_ADJ:0 "Canadian"
+
+ NZL:0 "New Zealand"
+ NZL_DEF:0 "The Kingdom of New Zealand"
+ NZL_ADJ:0 "New Zealander"
+
+ SUD:0 "Sudan"
+ SUD_DEF:0 "The Republic of the Sudan"
+ SUD_ADJ:0 "Sudanese"
+
+ ETH:0 "Ethopia"
+ ETH_DEF:0 "The United Republic of Ethiopia"
+ ETH_ADJ:0 "Ethopian"
+
+ DJI:0 "Djibouti"
+ DJI_DEF:0 "The Republic of Djibouti"
+ DJI_ADJ:0 "Djiboutian"
+
+ SOM:0 "Somalia"
+ SOM_DEF:0 "The Federal Republic of Somalia"
+ SOM_ADJ:0 "Somalian"
+
+ LIB:0 "Libya"
+ LIB_DEF:0 "The State of Libya"
+ LIB_ADJ:0 "Libyan"
+
+ TUN:0 "Tunisia"
+ TUN_DEF:0 "The Tunisian Republic"
+ TUN_ADJ:0 "Tunisian"
+
+ ALG:0 "Algeria"
+ ALG_DEF:0 "The People's Democratic Republic of Algeria"
+ ALG_ADJ:0 "Algerian"
+
+ MOR:0 "Morocco"
+ MOR_DEF:0 "The Kingdom of Morocco"
+ MOR_ADJ:0 "Moroccan"
+
+ NIG:0 "Nigeria"
+ NIG_DEF:0 "The Federal Republic of Nigeria"
+ NIG_ADJ:0 "Nigerian"
+
+ NAM:0 "Namibia"
+ NAM_DEF:0 "The Republic of Namibia"
+ NAM_ADJ:0 "Namibian"
+
+ BOT:0 "Botswana"
+ BOT_DEF:0 "The Republic of Botswana"
+ BOT_ADJ:0 "Botswanan"
+
+ MAD:0 "Madagascar"
+ MAD_DEF:0 "The Republic of Madagascar"
+ MAD_ADJ:0 "Malagasy"
+
+ BOE:0 "Boer Republic"
+ BOE_DEF:0 "The Boer Republic"
+ BOE_ADJ:0 "Boer"
+
+ LIM:0 "Limpopo"
+ LIM_DEF:0 "The Limpopo Business Commissariat"
+ LIM_ADJ:0 "Boer"
+
+ NAT:0 "Natalia"
+ NAT_DEF:0 "The Second Natalia Republic"
+ NAT_ADJ:0 "Afrikaner"
+
+ ASR:0 "South African Socialist Republic"
+ ASR_DEF:0 "The South African Socialist Republic"
+ ASR_ADJ:0 "South African"
+
+ HIS:0 "Union of Hispaniola"
+ HIS_DEF:0 "The Union of Hispaniola"
+ HIS_ADJ:0 "Hispaniolan"
+
+ BEL:0 "Belize"
+ BEL_DEF:0 "The Republic of Belize"
+ BEL_ADJ:0 "Belizean"
+
+ CAM:0 "Federation of Central American Republics"
+ CAM_DEF:0 "The Federation of Central American Republics"
+ CAM_ADJ:0 "Central American"
+
+ CAC:0 "Civil Army of Colombia"
+ CAC_DEF:0 "The Civil Army of Colombia"
+ CAC_ADJ:0 "Colombian"
+
+ COL:0 "Colombia"
+ COL_DEF:0 "The Republic of Colombia"
+ COL_ADJ:0 "Colombian"
+
+ VEN:0 "Venezuela"
+ VEN_DEF:0 "The Bolivarian Republic of Venezuela"
+ VEN_ADJ:0 "Venezuelan"
+
+ GUI:0 "Guyana"
+ GUI_DEF:0 "The Socialist States of Guyana"
+ GUI_ADJ:0 "Guyanan"
+
+ ECU:0 "Ecuador"
+ ECU_DEF:0 "The Republic of Ecuador"
+ ECU_ADJ:0 "Ecuadorian"
+
+ PER:0 "Peru"
+ PER_DEF:0 "The Republic of Peru"
+ PER_ADJ:0 "Peruvian"
+
+ BOL:0 "Bolivia"
+ BOL_DEF:0 "The All People's State of Bolivia"
+ BOL_ADJ:0 "Bolivian"
+
+ CHL:0 "Chile"
+ CHL_DEF:0 "The Republic of Chile"
+ CHL_ADJ:0 "Chilean"
+
+
+ URG:0 "Uruguay"
+ URG_DEF:0 "The Oriental Republic of Uruguay"
+ URG_ADJ:0 "Uruguayan"
+
+ PAR:0 "Paraguay"
+ PAR_DEF:0 "The Republic of Paraguay"
+ PAR_ADJ:0 "Paraguayan"
+ 
+ ARM:0 "Armenia"
+ ARM_DEF:0 "The Soviet Republic of Armenia"
+ ARM_ADJ:0 "Armenian"
+
+ NAK:0 "Nakhchivan"
+ NAK_DEF:0 "The Nakhchivan Autonomous Soviet Republic"
+ NAK_ADJ:0 "Nakhchivan"
+
+ GEO:0 "Georgia"
+ GEO_DEF:0 "The State of Georgia"
+ GEO_ADJ:0 "Georgian"
+
+ AZE:0 "Azerbaijan"
+ AZE_DEF:0 "The Republic of Azerbaijan"
+ AZE_ADJ:0 "Azerbaijani"
+
+ SIN:0 "Singapore"
+ SIN_DEF:0 "The Republic of Singapore"
+ SIN_ADJ:0 "Singaporean"
+
+ ACE:0 "Aceh Republic"
+ ACE_DEF:0 "The Aceh Self-Governing Republic"
+ ACE_ADJ:0 "Acehnese"
+
+ INS:0 "Indonesia"
+ INS_DEF:0 "The Republic of Indonesia"
+ INS_ADJ:0 "Indonesian"
+
+ TIM:0 "Timor"
+ TIM_DEF:0 "The Democratic Republic of Timor"
+ TIM_ADJ:0 "Timorese"
+
+ NOV:0 "Novorossiya"
+ NOV_DEF:0 "The Federal State of Novorossiya"
+ NOV_ADJ:0 "Novorossiyan"
+
+ AOZ:0 "Anti-Terrorist Operation Zone"
+ AOZ_DEF:0 "The Anti-Terrorist Operation Zone"
+ AOZ_ADJ:0 "East Ukrainian"
+
+ FIN:0 "Finland"
+ FIN_DEF:0 "The Republic of Finland"
+ FIN_ADJ:0 "Finnish"
+
+ MLD:0 "Moldova"
+ MLD_DEF:0 "The Republic of Moldova"
+ MLD_ADJ:0 "Moldovan"
+
+ POL:0 "Poland"
+ POL_DEF:0 "The Fourth Polish Republic"
+ POL_ADJ:0 "Polish"
+
+ ROL:0 "Polish State"
+ ROL_DEF:0 "The Polish State"
+ ROL_ADJ:0 "Russo-Polish"
+
+ SOL:0 "Holy Order of Poland"
+ SOL_DEF:0 "The Holy Order of Poland"
+ SOL_ADJ:0 "New Polish"
+
+ PPR:0 "Polish Popular Republic"
+ PPR_DEF:0 "The Polish Popular Republic"
+ PPR_ADJ:0 "Polish"
+
+ PCC:0 "Paris Council"
+ PCC_DEF:0 "The Paris City Council"
+ PCC_ADJ:0 "Parisian"
+
+ PRS:0 "Paris Commune"
+ PRS_DEF:0 "The Parisian Communes"
+ PRS_ADJ:0 "Parisian"
+
+ BRU:0 "Belgium"
+ BRU_DEF:0 "The European Capital Federal State of Belgium"
+ BRU_ADJ:0 "European"
+
+ CHA:0 "Champagne"
+ CHA_DEF:0 "The Champagne Republic"
+ CHA_ADJ:0 "French"
+
+ SMM:0 "Picardy"
+ SMM_DEF:0 "The New Order State of Picardy"
+ SMM_ADJ:0 "French"
+
+ ALS:0 "Alsace-Lorraine"
+ ALS_DEF:0 "The Franco-German State of Alsace-Lorraine"
+ ALS_ADJ:0 "Franco-German"
+
+ NRM:0 "Normandy"
+ NRM_DEF:0 "The European Research Facilities within Normandy"
+ NRM_ADJ:0 "Norman"
+
+ ANF:0 "French Anarchist Council"
+ ANF_DEF:0 "The French Anarchist Council"
+ ANF_ADJ:0 "East French"
+
+ BRE:0 "Brittany"
+ BRE_DEF:0 "The Breton Republic"
+ BRE_ADJ:0 "Breton"
+
+ NAN:0 "Nantes"
+ NAN_DEF:0 "The Antoine Kingdom of Nantes"
+ NAN_ADJ:0 "French"
+
+ ORL:0 "Orleans"
+ ORL_DEF:0 "The Antoine Kingdom of Orléans"
+ ORL_ADJ:0 "French"
+
+ SIA:0 "Antoinite Army"
+ SIA_DEF:0 "The Army of the Kingdom of France"
+ SIA_ADJ:0 "French"
+
+ RHO:0 "Rhone"
+ RHO_DEF:0 "The United States of Rhone"
+ RHO_ADJ:0 "French"
+
+ PRO:0 "Provence"
+ PRO_DEF:0 "The Naturalist State of Provence"
+ PRO_ADJ:0 "French"
+
+ RHE:0 "Rhenish Republic"
+ RHE_DEF:0 "The Rhenish Republic"
+ RHE_ADJ:0 "Rhenish"
+
+ RHI:0 "Rhenish Socialist Republic"
+ RHI_DEF:0 "The Socialist Republic of the Northern Rhine"
+ RHI_ADJ:0 "Rhenish"
+
+ BAV:0 "Bavaria"
+ BAV_DEF:0 "The Republic of Bavaria"
+ BAV_ADJ:0 "Bavarian"
+
+ WUT:0 "Württemberg"
+ WUT_DEF:0 "The State of Württemberg"
+ WUT_ADJ:0 "German"
+
+ BAD:0 "Baden"
+ BAD_DEF:0 "The Franco-German State of Baden"
+ BAD_ADJ:0 "Franco-German"
+
+ FRK:0 "Frankfurt"
+ FRK_DEF:0 "The Frankfurt Police Brigade"
+ FRK_ADJ:0 "German"
+
+ HES:0 "Hessen"
+ HES_DEF:0 "The Diocese of Hessen"
+ HES_ADJ:0 "German"
+
+ WES:0 "Westphalia"
+ WES_DEF:0 "The Republic of Westphalia"
+ WES_ADJ:0 "German"
+
+ PLB:0 "Pale Brigade"
+ PLB_DEF:0 "The Pale Brigade"
+ PLB_ADJ:0 "Germano-Polish"
+
+ WIL:0 "Mecklenburg"
+ WIL_DEF:0 "The European Naval Authority in Mecklenburg"
+ WIL_ADJ:0 "European"
+
+ BRM:0 "Hannover"
+ BRM_DEF:0 "The Kingdom of Hannover"
+ BRM_ADJ:0 "German"
+
+ SCH:0 "Schlewsig-Holstein"
+ SCH_DEF:0 "The Traders Republic of Schlewsig-Holstein"
+ SCH_ADJ:0 "German"
+
+ SAX:0 "Saxony"
+ SAX_DEF:0 "The National State of Saxony"
+ SAX_ADJ:0 "German"
+
+ GRA:0 "Graz"
+ GRA_DEF:0 "The Archduchy of Austria"
+ GRA_ADJ:0 "Austrian"
+
+ LIZ:0 "Linz"
+ LIZ_DEF:0 "The Linz Reconstruction Government"
+ LIZ_ADJ:0 "Austrian"
+
+ VIE:0 "Vienna"
+ VIE_DEF:0 "The Democratic Republic of Vienna"
+ VIE_ADJ:0 "Austrian"
+
+ AMA:0 "Amazonian Free State"
+ AMA_DEF:0 "The Amazonian Free State"
+ AMA_ADJ:0 "Amazonian"
+
+ AME:0 "Amazonian Expedition"
+ AME_DEF:0 "The Northern Military Command for the Amazonian Expedition"
+ AME_ADJ:0 "Brazilan"
+
+ CAL:0 "Calais"
+ CAL_DEF:0 "The European Climate Disaster & Resettlement Zone of Calais"
+ CAL_ADJ:0 "French"
+
+ SWE:0 "Sweden"
+ SWE_DEF:0 "The Kingdom of Sweden"
+ SWE_ADJ:0 "Swedish"
+
+ STO:0 "Stockholm"
+ STO_DEF:0 "The Stockholm Free Zone"
+ STO_ADJ:0 "Swedish"
+
+ GAL:0 "Galicia"
+ GAL_DEF:0 "The European Federal State of Galicia"
+ GAL_ADJ:0 "Spanish"  
+
+ BSQ:0 "Basque"
+ BSQ_DEF:0 "The National Independence Army of Basque"
+ BSQ_ADJ:0 "Basques"  
+
+ CAT:0 "Catalonia"
+ CAT_DEF:0 "The Socialist Republic of Catalonia"
+ CAT_ADJ:0 "Catalan"  
+
+ ARA:0 "Aragon"
+ ARA_DEF:0 "The Kingdom of Aragon"
+ ARA_ADJ:0 "Spanish"  
+
+ BUR:0 "Burgos"
+ BUR_DEF:0 "The Republic of Burgos"
+ BUR_ADJ:0 "Spanish"  
+
+ ATU:0 "Asturias"
+ ATU_DEF:0 "The Holy Retribution Brigades of Asturias"
+ ATU_ADJ:0 "Spanish" 
+
+ LEO:0 "Leon"
+ LEO_DEF:0 "The Republic of Leon"
+ LEO_ADJ:0 "Spanish" 
+
+ VAL:0 "Valencia"
+ VAL_DEF:0 "The National Republic of Valencia"
+ VAL_ADJ:0 "Spanish" 
+
+ XAV:0 "Xavier Company"
+ XAV_DEF:0 "The Xavier Company"
+ XAV_ADJ:0 "European Mercenaries" 
+
+ CAS:0 "Castile"
+ CAS_DEF:0 "The Kingdom of Castile"
+ CAS_ADJ:0 "Russo-Spanish" 
+
+ EXT:0 "Extremadura"
+ EXT_DEF:0 "The Social Republic of Extremadura"
+ EXT_ADJ:0 "Spanish" 
+
+ CIU:0 "Ciudad"
+ CIU_DEF:0 "The Republic of Ciudad"
+ CIU_ADJ:0 "Spanish" 
+
+ ADA:0 "Andalusia"
+ ADA_DEF:0 "The Revolutionary Defence Army of Andalusia"
+ ADA_ADJ:0 "Spanish" 
+
+ GIB:0 "Gibraltar"
+ GIB_DEF:0 "The Gibraltar Rehabilitation Commune"
+ GIB_ADJ:0 "Spanish" 
+
+ MLA:0 "Málaga"
+ MLA_DEF:0 "The Málaga Commune"
+ MLA_ADJ:0 "Spanish" 
+
+ SEV:0 "Seville"
+ SEV_DEF:0 "The Seville Commune"
+ SEV_ADJ:0 "Spanish" 
+
+ EGY:0 "Egypt"
+ EGY_DEF:0 "The Arab Republic of Egypt"
+ EGY_ADJ:0 "Egyptian"
+
+ PRP:0 "Portimão"
+ PRP_DEF:0 "The Provisional Republic of Portugal"
+ PRP_ADJ:0 "South Portuguese"
+
+ CZE:0 "Czech Republic"
+ CZE_DEF:0 "The Czech Republic"
+ CZE_ADJ:0 "Czech"
+
+ MOV:0 "Moravia"
+ MOV_DEF:0 "The Moravian Restoration Zone"
+ MOV_ADJ:0 "Moravian"
+
+ NOR:0 "Norway"
+ NOR_DEF:0 "The Republic of Norway"
+ NOR_ADJ:0 "Norwegen"
+
+ ICE:0 "Iceland"
+ ICE_DEF:0 "The Republic of Iceland"
+ ICE_ADJ:0 "Icelandic"
+
+ SLO:0 "Slovakia"
+ SLO_DEF:0 "The Slovak Republic"
+ SLO_ADJ:0 "Slovak"
+
+ HUN:0 "Hungary"
+ HUN_DEF:0 "The Republic of Hungary"
+ HUN_ADJ:0 "Hungarian"
+
+ WHU:0 "EuroFed Hungary"
+ WHU_DEF:0 "The European Federation Government in West Hungary"
+ WHU_ADJ:0 "European Government in Exile"
+
+ BAL:0 "Balkan Union"
+ BAL_DEF:0 "The Balkan Union"
+ BAL_ADJ:0 "Balkan"
+
+ SER:0 "Serbia"
+ SER_DEF:0 "The Republic of Serbia"
+ SER_ADJ:0 "Serbian"
+
+ MOT:0 "Montenegro"
+ MOT_DEF:0 "The Republic of Montenegro"
+ MOT_ADJ:0 "Montenegrin"
+
+ MAC:0 "North Macedonia"
+ MAC_DEF:0 "The Republic of North Macedonia"
+ MAC_ADJ:0 "North Macedonian"
+
+ ALB:0 "Albania"
+ ALB_DEF:0 "The Republic of Albania"
+ ALB_ADJ:0 "Albanian"
+
+ BUC:0 "Bucharest"
+ BUC_DEF:0 "The Supreme Soviet of the Romanian Federation in Bucharest"
+ BUC_ADJ:0 "Romanian"
+
+ TRA:0 "Transylvanian FSR"
+ TRA_DEF:0 "The Transylvanian Federal Soviet Republic"
+ TRA_ADJ:0 "Transylvanian"
+
+ WAC:0 "Wallachian FSR"
+ WAC_DEF:0 "The Wallachian Federal Soviet Republic"
+ WAC_ADJ:0 "Wallachian"
+
+ MOL:0 "Moldavian FSR"
+ MOL_DEF:0 "The Moldavian Federal Soviet Republic"
+ MOL_ADJ:0 "Moldavian"
+
+ BUL:0 "Bulgaria"
+ BUL_DEF:0 "The Republic of Bulgaria"
+ BUL_ADJ:0 "Bulgarian"
+
+ GRE:0 "Hellenic State"
+ GRE_DEF:0 "The True Hellenic State"
+ GRE_ADJ:0 "Hellenic"
+
+ THR:0 "Thrace"
+ THR_DEF:0 "The Thracian Republic"
+ THR_ADJ:0 "Thracian"
+
+ AEG:0 "Aegea"
+ AEG_DEF:0 "The Union of Aegean Islands"
+ AEG_ADJ:0 "Aegean"
+
+ SEG:0 "Senegambia"
+ SEG_DEF:0 "The Senegambia Confederation"
+ SEG_ADJ:0 "Senegambian"
+
+ BEN:0 "Benin"
+ BEN_DEF:0 "The Republic of Benin"
+ BEN_ADJ:0 "Beninese"
+
+ TOG:0 "Togo"
+ TOG_DEF:0 "The Togolese Republic"
+ TOG_ADJ:0 "Togolese"
+
+ GHA:0 "Ghana"
+ GHA_DEF:0 "The Republic of Ghana"
+ GHA_ADJ:0 "Ghanaian"
+
+ IVO:0 "Ivory Coast"
+ IVO_DEF:0 "The Republic of The Ivory Coast"
+ IVO_ADJ:0 "Ivorian"
+
+ LIE:0 "Liberia"
+ LIE_DEF:0 "The Republic of Liberia"
+ LIE_ADJ:0 "Liberian"
+
+ SIE:0 "Sierra Leone"
+ SIE_DEF:0 "The Republic of Sierra Leone"
+ SIE_ADJ:0 "Sierra Leonean"
+
+ GUE:0 "Guinea"
+ GUE_DEF:0 "The United Republic of Guinea"
+ GUE_ADJ:0 "Guinean"
+
+ BRK:0 "Burkina Faso"
+ BRK_DEF:0 "The Republic of Burkina Faso"
+ BRK_ADJ:0 "Burkinese"
+
+ NGR:0 "Niger"
+ NGR_DEF:0 "The Republic of the Niger"
+ NGR_ADJ:0 "Nigerien"
+
+ MLI:0 "Mali Mandate"
+ MLI_DEF:0 "The West African Community of Defence and Economic Prosperity Mandate of Western Mali"
+ MLI_ADJ:0 "West Malian"
+
+ COS:0 "Children of the Sahara"
+ COS_DEF:0 "The Children of the Sahara"
+ COS_ADJ:0 "Saharan"
+
+ CHD:0 "Chad"
+ CHD_DEF:0 "The Republic of Chad"
+ CHD_ADJ:0 "Chadian"
+
+ CME:0 "Cameroon"
+ CME_DEF:0 "The Republic of Cameroon"
+ CME_ADJ:0 "Cameroonian"
+
+ PAS:0 "Paradise"
+ PAS_DEF:0 "The Republic of Paradise"
+ PAS_ADJ:0 "Paradisian"
+
+ GRN:0 ""
+ GRN_DEF:0 ""
+ GRN_ADJ:0 "Greenlander"
+
+ MIC:0 "TTP"
+ MIC_DEF:0 "The Three Stars of the Pacific"
+ MIC_ADJ:0 "Pacific islander"
+
+ SAU:0 "Saudi Arabia"
+ SAU_DEF:0 "The Kingdom of Saudi Arabia"
+ SAU_ADJ:0 "Saudi Arabian"
+
+ YEM:0 "Yemen"
+ YEM_DEF:0 "The Republic of Yemen"
+ YEM_ADJ:0 "Yemeni"
+
+ OMA:0 "Oman"
+ OMA_DEF:0 "The Sultanate of Oman"
+ OMA_ADJ:0 "Omani"
+
+ UAE:0 "Gulf Authority"
+ UAE_DEF:0 "The Saudi Gulf Authority"
+ UAE_ADJ:0 "Emirati"
+
+ SAR:0 "Sardinia"
+ SAR_DEF:0 "The Kingdom of Sardinia"
+ SAR_ADJ:0 "Sardinian"
+
+ PIE:0 "Piedmont"
+ PIE_DEF:0 "The Provisional European Federal Capital Territory of Piedmont"
+ PIE_ADJ:0 "European"
+
+ EMI:0 "People's Republic of Italy"
+ EMI_DEF:0 "The People's Republic of Italy"
+ EMI_ADJ:0 "Italian"
+
+ GRL:0 "Grey League"
+ GRL_DEF:0 "The Grey League Military Administration"
+ GRL_ADJ:0 "Swiss"
+
+ SWI:0 "Swiss Liberty Front"
+ SWI_DEF:0 "The Swiss Liberty Front"
+ SWI_ADJ:0 "Swiss"
+
+ MEZ:0 "Republic of Italy"
+ MEZ_DEF:0 "The Republic of Italy"
+ MEZ_ADJ:0 "South Italian"
+
+ ALA:0 "ALA"
+ ALA_DEF:0 "The African Liberation Army"
+ ALA_ADJ:0 "Central African"
+
+ MEK:0 "Mekambo"
+ MEK_DEF:0 "The Mekambo Commune"
+ MEK_ADJ:0 "Mekamboan"
+
+ COG:0 "Congolese Trading Column"
+ COG_DEF:0 "The Congolese Trading Column"
+ COG_ADJ:0 "Congolese"
+
+ GEM:0 "Cult of the All Seer"
+ GEM_DEF:0 "The Cult of the All Seer"
+ GEM_ADJ:0 "Children of the All Seer"
+
+ KIN:0 "Congolese Mission"
+ KIN_DEF:0 "The Habeo Ideam Mission in the Congo"
+ KIN_ADJ:0 "Congolese"
+
+ LUA:0 "Lualaba"
+ LUA_DEF:0 "The Lualaba Research Remnants"
+ LUA_ADJ:0 "Americans in Central Africa"
+
+ TAN:0 "Grey Army of Tanzania"
+ TAN_DEF:0 "The Grey Army of Tanzania"
+ TAN_ADJ:0 "Tanzanian"
+
+ AKA:0 "Akasarudzwa NaMwari"
+ AKA_DEF:0 "The Akasarudzwa NaMwari"
+ AKA_ADJ:0 "God's Chosen"
+
+ RAN:0 "Tanzania"
+ RAN_DEF:0 "The Republic of Tanzania"
+ RAN_ADJ:0 "Tanzanian"
+
+ IRT:0 "Islamic Republic of Tanzania"
+ IRT_DEF:0 "The Islamic Republic of Tanzania"
+ IRT_ADJ:0 "Tanzanian"
+
+ MOZ:0 "Mozambique"
+ MOZ_DEF:0 "The Republic of Mozambique"
+ MOZ_ADJ:0 "Mozambiqueian"
+
+ REE:0 "Domain of Rees"
+ REE_DEF:0 "The Domain of Rees"
+ REE_ADJ:0 "Reesian"
+
+ MAP:0 "Maputo"
+ MAP_DEF:0 "The Scientific Expedition in Maputo"
+ MAP_ADJ:0 "Edenite"
+
+ ZIM:0 "Zimbabwe"
+ ZIM_DEF:0 "The African Restoration Republic of Zimbabwe"
+ ZIM_ADJ:0 "Zimbabwean"
+
+ LOR:0 "III Corps"
+ LOR_DEF:0 "The Reborn III Corps"
+ LOR_ADJ:0 "British"  
+
+ NWG:0 "New West Gang"
+ NWG_DEF:0 "The New West Gang"
+ NWG_ADJ:0 "British"  
+
+ NEA:0 "New Amsterdam"
+ NEA_DEF:0 "The Germano-Dutch Republic of New Amsterdam"
+ NEA_ADJ:0 "Germano-Dutch"  
+
+ CNC:0 "United Tribes of Central Africa"
+ CNC_DEF:0 "The United Tribes of Central Africa"
+ CNC_ADJ:0 "Congolese"  
+
+ LUS:0 "Lusaka"
+ LUS_DEF:0 "The Copperbelt Conglomerates United"
+ LUS_ADJ:0 "Zambian"  
+
+ KAM:0 "Lubumbashi"
+ KAM_DEF:0 "The Pan-African Patriotic Liberation Front"
+ KAM_ADJ:0 "Zambian" 
+
+ RMA:0 "Romania"
+ RMA_DEF:0 "The Romanian People's Soviet Republic"
+ RMA_ADJ:0 "Romanian" 
+
+ ITU:0 "Ituri"
+ ITU_DEF:0 "The Ituri Temporary Executive"
+ ITU_ADJ:0 "Congolese" 
+
+ KIV:0 "Kivu"
+ KIV_DEF:0 "The Islamic State of Kivu"
+ KIV_ADJ:0 "Congolese"  
+
+ BUK:0 "Bukavu"
+ BUK_DEF:0 "The National Defence Forces of Bukavu"
+ BUK_ADJ:0 "Congolese"  
+
+ DLK:0 "Domain of the Lightning King"
+ DLK_DEF:0 "The Domain of the Lightning King"
+ DLK_ADJ:0 "Congolese"  
+
+ KWI:0 "Kwilu"
+ KWI_DEF:0 "The Union State of Kwilu"
+ KWI_ADJ:0 "Congolese"   
+
+ DOU:0 "Douala"
+ DOU_DEF:0 "The Republic of Cameroon"
+ DOU_ADJ:0 "Cameroonian"    
+
+ MAU:0 "Mauritania Military Mission"
+ MAU_DEF:0 "The West African Community of Defence and Economic Prosperity Military Mission in Mauritania"
+ MAU_ADJ:0 "Mauritanian"
+
+ WMU:0 "Socialist Republic of Mauritania"
+ WMU_DEF:0 "The Workers Socialist Republic of Mauritania"
+ WMU_ADJ:0 "Mauritanian"
+
+ MAG:0 "Commonwealth of Maghreb"
+ MAG_DEF:0 "The Soviet Commonwealth of Maghreb"
+ MAG_ADJ:0 "Maghrebian"
+
+ DUB:0 "Dubai"
+ DUB_DEF:0 "The Free City of Dubai"
+ DUB_ADJ:0 "Dubain"  
+
+ MOS:0 "Mosul"
+ MOS_DEF:0 "The Liberated Workers of Mosul"
+ MOS_ADJ:0 "North Iraqi"  
+
+ HAT:0 "Hatay Forces"
+ HAT_DEF:0 "The Turkish Armed Forces in Hatay"
+ HAT_ADJ:0 "Turko-Syrian"  
+
+ LEB:0 "Lebanon"
+ LEB_DEF:0 "The Republic of Lebanon"
+ LEB_ADJ:0 "Lebanese"  
+
+ IEZ:0 ""
+ IEZ_DEF:0 ""
+ IEZ_ADJ:0 ""  
+
+ KHU:0 "Khuzestan"
+ KHU_DEF:0 "Republic of Khuzestan"
+ KHU_ADJ:0 "Khuzestani"  
+ 
+ CSL:0 "Czech Silesia"
+ CSL_DEF:0 "The Czech Republic Of Silesia"
+ CSL_ADJ:0 "Czech Silesian"
+
+ PRC:0 "People's Republic of China"
+ PRC_DEF:0 "The People's Republic of China"
+ PRC_ADJ:0 "Chinese"

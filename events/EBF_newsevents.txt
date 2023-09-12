@@ -1,0 +1,1155 @@
+﻿add_namespace = news_event
+news_event = {
+	id = news_event.1 #CENTRAL ASIA BATTLE ROYALE
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.1"}
+	title = news_event.1.t
+	desc = news_event.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.1.a
+	}
+}
+
+news_event = {
+	id = news_event.2 #COMMUNISTS UNIFY CENTRAL ASIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.2"}
+	title = news_event.2.t
+	desc = news_event.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.2.a
+	}
+}
+
+news_event = {
+	id = news_event.3 #REDUCTIVISTS UNIFY CENTRAL ASIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.3"}
+	title = news_event.3.t
+	desc = news_event.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.3.a
+	}
+}
+
+news_event = {
+	id = news_event.4 #FADEL UNIFY CENTRAL ASIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.4"}
+	title = news_event.4.t
+	desc = news_event.4.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.4.a
+	}
+}
+
+news_event = {
+	id = news_event.5 #SCIENTISTS UNIFY CENTRAL ASIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.5"}
+	title = news_event.5.t
+	desc = news_event.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.5.a
+	}
+}
+
+news_event = {
+	id = news_event.6 #FREE ARMY UNIFY CENTRAL ASIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.6"}
+	title = news_event.6.t
+	desc = news_event.6.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.6.a
+	}
+}
+
+news_event = {
+	id = news_event.7 #LIBERATION FRONT UNIFY CENTRAL ASIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.7"}
+	title = news_event.7.t
+	desc = news_event.7.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.7.a
+	}
+}
+
+news_event = {
+	id = news_event.8 #UNION OF CENTRAL ASIAN NATIONS IS BORN
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.81"}
+	title = news_event.8.t
+	desc = news_event.8.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.8.a
+	}
+}
+
+news_event = {
+	id = news_event.9 #UNITED STATES OF CENTRAL ASIA IS BORN
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.9"}
+	title = news_event.9.t
+	desc = news_event.9.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.9.a
+	}
+}
+
+news_event = {
+	id = news_event.10 #AMERICAN CIVIL WAR BEGINS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.10"}
+	title = news_event.10.t
+	desc = news_event.10.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.10.a
+	}
+}
+
+news_event = {
+	id = news_event.11 #THE METAL EVOLUTION BEGINS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.11"}
+	title = news_event.11.t
+	desc = news_event.11.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.11.a
+		custom_effect_tooltip = metal_evolution_begins
+		hidden_effect = {
+			GRN = {
+				if = {
+					limit = {
+						NOT = {
+							has_global_flag = WORLD_CYBER_REVOLUTION_BEGIN
+						}
+					}
+					set_global_flag = WORLD_CYBER_REVOLUTION_BEGIN
+				}
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news_event.12 #END OF RUSSIAN DEMOCRACY
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.12"}
+	title = news_event.12.t
+	desc = news_event.12.d
+	picture = GFX_russian_democracy_end
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.12.a
+	}
+}
+
+news_event = {
+	id = news_event.13 #FORMATION OF THE BALTIC FEDERATION
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.13"}
+	title = news_event.13.t
+	desc = news_event.13.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.13.a
+	}
+}
+
+news_event = {
+	id = news_event.14 #THE OLD DOG'S CONQUEST
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.14"}
+	title = news_event.14.t
+	desc = news_event.14.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.14.a
+	}
+}
+
+news_event = {
+	id = news_event.15 #EUROPE'S LAST FORTRESS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.15"}
+	title = news_event.15.t
+	desc = news_event.15.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.15.a
+	}
+}
+
+news_event = {
+	id = news_event.16 #THE UNITED STATES OF THE BALTICS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.16"}
+	title = news_event.16.t
+	desc = news_event.16.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.16.a
+	}
+}
+
+news_event = {
+	id = news_event.17 #THE SIAULIAI DECLARATION
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.17"}
+	title = news_event.17.t
+	desc = news_event.17.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.17.a
+	}
+}
+
+news_event = {
+	id = news_event.18 #THE BALTIC COMMONWEALTH FORMS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.18"}
+	title = news_event.18.t
+	desc = news_event.18.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.18.a
+	}
+}
+
+news_event = {
+	id = news_event.19 #THE BALTIC MILITARY UNION
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.19"}
+	title = news_event.19.t
+	desc = news_event.19.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.19.a
+	}
+}
+
+news_event = {
+	id = news_event.20 #WAR ON THE ANDES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.20"}
+	title = news_event.20.t
+	desc = news_event.20.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.20.a
+	}
+}
+
+news_event = {
+	id = news_event.21 #RETREAT IN TOKYO, JAPAN IN FREE FALL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.21"}
+	title = news_event.21.t
+	desc = news_event.21.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.21.a
+	}
+}
+
+news_event = {
+	id = news_event.22 #END OF THE FRACTURED MIND
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.22"}
+	title = news_event.22.t
+	desc = news_event.22.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.22.a
+	}
+}
+
+news_event = {
+	id = news_event.23 #A DREAM 139 YEARS SINCE
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.23"}
+	title = news_event.23.t
+	desc = news_event.23.d
+	picture = GFX_news_event_23
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.23.a
+	}
+}
+
+news_event = {
+	id = news_event.24 #AUTHORITARIANISM BY BALLOT BOX
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.24"}
+	title = news_event.24.t
+	desc = news_event.24.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.24.a
+	}
+}
+
+news_event = {
+	id = news_event.25 #NATIONAL IRELAND IN CONTROL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.25"}
+	title = news_event.25.t
+	desc = news_event.25.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.25.a
+	}
+}
+
+news_event = {
+	id = news_event.26 #IRISH DEMOCRACY REBORN - LIBERAL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.26"}
+	title = news_event.26.t
+	desc = news_event.26.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.26.a
+	}
+}
+
+news_event = {
+	id = news_event.27 #IRISH DEMOCRACY REBORN - CONSERVATIVE
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.27"}
+	title = news_event.27.t
+	desc = news_event.27.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.27.a
+	}
+}
+
+news_event = {
+	id = news_event.28 #EURO ARMY BACKED COUP IN IRELAND
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.28"}
+	title = news_event.28.t
+	desc = news_event.28.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.28.a
+	}
+}
+
+news_event = {
+	id = news_event.29 #SOCIALISM IN IRELAND
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.29"}
+	title = news_event.29.t
+	desc = news_event.29.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.29.a
+	}
+}
+
+news_event = {
+	id = news_event.30 #THE SONS IN CHARGE
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.30"}
+	title = news_event.30.t
+	desc = news_event.30.d
+	is_triggered_only = yes
+	picture = GFX_news_event_30
+	
+	
+	option = {
+		name = news_event.30.a
+	}
+}
+
+news_event = {
+	id = news_event.31 #BRITISH BOOTS IN DUBLIN
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.31"}
+	title = news_event.31.t
+	desc = news_event.31.d
+	is_triggered_only = yes
+	picture = GFX_news_event_31
+	
+	option = {
+		name = news_event.31.a
+	}
+}
+
+news_event = {
+	id = news_event.32 #END OF THE SONS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.32"}
+	title = news_event.32.t
+	desc = news_event.32.d
+	is_triggered_only = yes
+	picture = GFX_news_event_32
+	
+	option = {
+		name = news_event.32.a
+	}
+}
+
+news_event = {
+	id = news_event.33 #IRELAND'S BLOODY REUNIFICATION, BELFAST LOSES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.33"}
+	title = news_event.33.t
+	desc = news_event.33.d
+	is_triggered_only = yes
+	
+	option = {
+		name = news_event.33.a
+	}
+}
+
+news_event = {
+	id = news_event.34 #COUP IN ULSTER, SONS IN CONTROL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.33"}
+	title = news_event.34.t
+	desc = news_event.34.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.34.a
+	}
+}
+
+news_event = {
+	id = news_event.35 #DELGADO RETIRES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.35"}
+	title = news_event.35.t
+	desc = news_event.35.d
+	is_triggered_only = yes
+	picture = GFX_news_event_35
+	
+	option = {
+		name = news_event.35.a
+	}
+}
+
+news_event = {
+	id = news_event.36 #RETURN OF BRAZILLIAN DEMOCRACY?
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.36"}
+	title = news_event.36.t
+	desc = news_event.36.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.36.a
+	}
+}
+
+news_event = {
+	id = news_event.37 #BRAZILLIAN DEMOCRACY RESTORED
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.37"}
+	title = news_event.37.t
+	desc = news_event.37.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.37.a
+	}
+}
+
+news_event = {
+	id = news_event.38 #SOCIALISM RETURNS TO BRAZIL?
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.38"}
+	title = news_event.38.t
+	desc = news_event.38.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.38.a
+	}
+}
+
+news_event = {
+	id = news_event.39 #A DEMOCRACY WITH TEETH
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.39"}
+	title = news_event.39.t
+	desc = news_event.39.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.39.a
+	}
+}
+
+news_event = {
+	id = news_event.40 #BRAZIL'S DEMOCRACY RETURNS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.40"}
+	title = news_event.40.t
+	desc = news_event.40.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.40.a
+	}
+}
+
+news_event = {
+	id = news_event.41 #BRAZIL'S DEMOCRACY RETURNS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.41"}
+	title = news_event.41.t
+	desc = news_event.41.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.41.a
+	}
+}
+
+news_event = {
+	id = news_event.42 #OFFICERS IN CHARGE OF BRAZIL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.42"}
+	title = news_event.42.t
+	desc = news_event.42.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.42.a
+	}
+}
+
+news_event = {
+	id = news_event.43 #OFFICERS IN CHARGE OF BRAZIL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.43"}
+	title = news_event.43.t
+	desc = news_event.43.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.43.a
+	}
+}
+
+news_event = {
+	id = news_event.44 #OFFICERS IN CHARGE OF BRAZIL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.44"}
+	title = news_event.44.t
+	desc = news_event.44.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.44.a
+	}
+}
+
+news_event = {
+	id = news_event.45 #SCANDLE ROCKS BRAZIL, FUTURE IN DOUBT
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.45"}
+	title = news_event.45.t
+	desc = news_event.45.d
+	is_triggered_only = yes
+	picture = GFX_news_event_45
+	
+	option = {
+		name = news_event.45.a
+	}
+}
+
+news_event = {
+	id = news_event.46 #TECHNOCRATS IN CONTROL OF BRAZIL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.46"}
+	title = news_event.46.t
+	desc = news_event.46.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.46.a
+	}
+}
+
+news_event = {
+	id = news_event.47 #THE REGENCY OF BRAZIL?
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.47"}
+	title = news_event.47.t
+	desc = news_event.47.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.47.a
+	}
+}
+
+news_event = {
+	id = news_event.48 #BRAZILIAN TECHNOCRACY GOES MAINSTREAM
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.48"}
+	title = news_event.48.t
+	desc = news_event.48.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.48.a
+	}
+}
+
+news_event = {
+	id = news_event.49 #BRAZILIAN TECHNOCRACY GOES MAINSTREAM
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.49"}
+	title = news_event.49.t
+	desc = news_event.49.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.49.a
+	}
+}
+
+news_event = {
+	id = news_event.50 #PABLO THE FIRST CROWNED EMPEROR
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.50"}
+	title = news_event.50.t
+	desc = news_event.50.d
+	is_triggered_only = yes
+	picture = GFX_news_event_50
+	
+	option = {
+		name = news_event.50.a
+	}
+}
+
+news_event = {
+	id = news_event.51 #PABLO THE FIRST CROWNED EMPEROR
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.51"}
+	title = news_event.51.t
+	desc = news_event.51.d
+	is_triggered_only = yes
+	picture = GFX_news_event_51
+	
+	option = {
+		name = news_event.51.a
+	}
+}
+
+news_event = {
+	id = news_event.52 #DEATH CONFIRMED: XI IS DEAD
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.52"}
+	title = news_event.52.t
+	desc = news_event.52.d
+	is_triggered_only = yes
+	picture = GFX_news_event_34
+	
+	option = {
+		name = news_event.52.a
+	}
+}
+
+news_event = {
+	id = news_event.53 #BLOOD ON THE STEPPES, SIGNS OF THINGS TO COME?
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.53"}
+	title = news_event.53.t
+	desc = news_event.53.d
+	is_triggered_only = yes
+	picture = GFX_news_event_53
+	
+	option = {
+		name = news_event.53.a
+	}
+}
+
+news_event = {
+	id = news_event.54 #BATTLE OF THE PACIFIC, COMMONWEALTH FAILURE
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.54"}
+	title = news_event.54.t
+	desc = news_event.54.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.54.a
+	}
+}
+
+news_event = {
+	id = news_event.55 #BATTLE OF THE PACIFIC, AUSTRALIAN VICTORY
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.55"}
+	title = news_event.55.t
+	desc = news_event.55.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.55.a
+	}
+}
+
+news_event = {
+	id = news_event.56 #BATTLE OF THE PACIFIC, CANADIAN VICTORY
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.56"}
+	title = news_event.56.t
+	desc = news_event.56.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.56.a
+	}
+}
+
+news_event = {
+	id = news_event.57 #MOSUL COMMUNISTS IN BAGHDAD
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.57"}
+	title = news_event.57.t
+	desc = news_event.57.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.57.a
+	}
+}
+
+news_event = {
+	id = news_event.58 #PRO-IRAN FORCES TAKE IRAQ
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.58"}
+	title = news_event.58.t
+	desc = news_event.58.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.58.a
+	}
+}
+
+news_event = {
+	id = news_event.59 #PRO-SAUDI FORCES RETAKE BAGHDAD
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.59"}
+	title = news_event.59.t
+	desc = news_event.59.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.59.a
+	}
+}
+news_event = {
+	id = news_event.60 #FREE SYRIA STORMS DAMASCUS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.60"}
+	title = news_event.60.t
+	desc = news_event.60.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.60.a
+	}
+}
+
+news_event = {
+	id = news_event.61 #PRO-SAUDI FORCES WIN IN SYRIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.61"}
+	title = news_event.61.t
+	desc = news_event.61.d
+	is_triggered_only = yes
+	picture = GFX_news_event_54
+	
+	option = {
+		name = news_event.61.a
+	}
+}
+
+news_event = {
+	id = news_event.62 #ANOTHER NUP LANDSLIDE IN AUSTRALIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.62"}
+	title = news_event.62.t
+	desc = news_event.62.d
+	is_triggered_only = yes
+	picture = GFX_news_event_62
+	
+	option = {
+		name = news_event.62.a
+	}
+}
+
+news_event = {
+	id = news_event.63 #AUSTRALIAN ECONOMY CRASHES AS AMERICAN BURN
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.63"}
+	title = news_event.63.t
+	desc = news_event.63.d
+	is_triggered_only = yes
+	picture = GFX_news_event_63
+	
+	option = {
+		name = news_event.63.a
+	}
+}
+
+news_event = {
+	id = news_event.64 #FLETCHER NGUYEN TAKES OVER THE AUSTRALIAN GOVERNMENT
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.64"}
+	title = news_event.64.t
+	desc = news_event.64.d
+	is_triggered_only = yes
+	picture = GFX_news_event_64
+	
+	option = {
+		name = news_event.64.a
+	}
+}
+
+news_event = {
+	id = news_event.65 #SAUDIS SURRENDER, IRAN CONTROLS THE GULF
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.65"}
+	title = news_event.65.t
+	desc = news_event.65.d
+	is_triggered_only = yes
+	picture = GFX_news_event_64
+	
+	option = {
+		name = news_event.65.a
+	}
+}
+
+news_event = {
+	id = news_event.66 #IRAN GONE MAD, SEVEN NUCLEAR DETONATIONS OVER ZAGROS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.66"}
+	title = news_event.66.t
+	desc = news_event.66.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.66.a
+	}
+}
+
+news_event = {
+	id = news_event.67 #AUSTRALIAN ELECTIONS, NUP WINS BIGGER MAJORITY
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.67"}
+	title = news_event.67.t
+	desc = news_event.67.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.67.a
+	}
+}
+
+news_event = {
+	id = news_event.68 #AUSTRALIAN FALLS INTO CIVIL WAR, COMMONWEALTH WATCHES ON
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.68"}
+	title = news_event.68.t
+	desc = news_event.68.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.68.a
+	}
+}
+
+news_event = {
+	id = news_event.69 #COMMONWEALTH EXPEDITIONARY FORCES ARRIVE IN AUSTRALIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.69"}
+	title = news_event.69.t
+	desc = news_event.69.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.69.a
+	}
+}
+
+news_event = {
+	id = news_event.70 #AUSTRALIAN CIVIL WAR OVER, FLETCHER REMAINS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.70"}
+	title = news_event.70.t
+	desc = news_event.70.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.70.a
+	}
+}
+
+news_event = {
+	id = news_event.71 #AUSTRALIAN CIVIL WAR OVER, COMMUNISTS WIN
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.71"}
+	title = news_event.71.t
+	desc = news_event.71.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.71.a
+	}
+}
+
+news_event = {
+	id = news_event.72 #AUSTRALIAN CIVIL WAR OVER, DEMOCRACY REMADE
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.72"}
+	title = news_event.72.t
+	desc = news_event.72.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.72.a
+	}
+}
+
+news_event = {
+	id = news_event.73 #AUSTRALIA TRANSENDS 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.73"}
+	title = news_event.73.t
+	desc = news_event.73.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.73.a
+	}
+}
+
+news_event = {
+	id = news_event.74 #THE COMMONWEALTH RECLAIMS AUSTRALIA
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.74"}
+	title = news_event.74.t
+	desc = news_event.74.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.74.a
+	}
+}
+
+news_event = {
+	id = news_event.75 #THE COMMONWEALTH'S LAST HOPE IN REYJAVÍK
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.75"}
+	title = news_event.75.t
+	desc = news_event.75.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.75.a
+	}
+}
+
+news_event = {
+	id = news_event.76 #REYJAVÍK REFORMS ANNOUNCED
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.76"}
+	title = news_event.76.t
+	desc = news_event.76.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.76.a
+	}
+}
+
+news_event = {
+	id = news_event.77 #REYJAVÍK AGREEMENT ANNOUNCED
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.77"}
+	title = news_event.77.t
+	desc = news_event.77.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.77.a
+	}
+}
+
+news_event = {
+	id = news_event.78 #THE REYJAVÍK ACCORDS ANNOUNCED
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.78"}
+	title = news_event.78.t
+	desc = news_event.78.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.78.a
+	}
+}
+
+news_event = {
+	id = news_event.79 #JASPER REID AUSTRALIAN ELECTION 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.79"}
+	title = news_event.79.t
+	desc = news_event.79.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.79.a
+	}
+}
+
+news_event = {
+	id = news_event.80 #SONNY MUSSETT AUSTRALIAN ELECTION 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.80"}
+	title = news_event.80.t
+	desc = news_event.80.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.80.a
+	}
+}
+
+news_event = {
+	id = news_event.81 #GEMMA WATSON AUSTRALIAN ELECTION 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.81"}
+	title = news_event.81.t
+	desc = news_event.81.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.81.a
+	}
+}
+
+news_event = {
+	id = news_event.82 #JOSHUA STONE AUSTRALIAN ELECTION 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.82"}
+	title = news_event.82.t
+	desc = news_event.82.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.82.a
+	}
+}
+
+news_event = {
+	id = news_event.83 #ANDREW COLLINS AUSTRALIAN ELECTION 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.83"}
+	title = news_event.83.t
+	desc = news_event.83.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.83.a
+	}
+}
+
+news_event = {
+	id = news_event.84 #LOGAN WRIGHT AUSTRALIAN ELECTION 
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.84"}
+	title = news_event.84.t
+	desc = news_event.84.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.84.a
+	}
+}
+
+news_event = {
+	id = news_event.85 #MILITARY COUP IN AUSTRALIA, CRISIS BEGINS
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.85"}
+	title = news_event.85.t
+	desc = news_event.85.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.85.a
+	}
+}
+
+news_event = {
+	id = news_event.86 #THE NEW POWER RISES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.86"}
+	title = news_event.86.t
+	desc = news_event.86.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.86.a
+	}
+}
+
+news_event = {
+	id = news_event.87 #HI LOCKS UP THE PHILIPPINES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.87"}
+	title = news_event.87.t
+	desc = news_event.87.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.87.a
+	}
+}
+
+news_event = {
+	id = news_event.88 #HI ISSUES STATEMENT ON THE PHILIPPINES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.88"}
+	title = news_event.88.t
+	desc = news_event.88.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.88.a
+	}
+}
+
+news_event = {
+	id = news_event.89 #HI PULLS OUT OF THE PHILIPPINES
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.89"}
+	title = news_event.89.t
+	desc = news_event.89.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.89.a
+	}
+}
+
+news_event = {
+	id = news_event.90 #HABEO IDEAM'S CRIMES EXPOSED, STOCKS IN FREEFALL
+	immediate = {log = "[GetDateText]: [Root.GetName]: event news_event.90"}
+	title = news_event.90.t
+	desc = news_event.90.d
+	is_triggered_only = yes
+	picture = GFX_news_event_66
+	
+	option = {
+		name = news_event.90.a
+	}
+}

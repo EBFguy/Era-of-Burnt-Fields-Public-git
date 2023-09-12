@@ -1,0 +1,40 @@
+﻿l_english:
+ #NAME#
+ POR:0 "Portugal"
+ POR_DEF:0 "Fourth Portuguese Republic"
+ POR_ADJ:0 "Portuguese"
+
+ #CHARACTERS#
+ POR_Joao_Botelho:0 "João Botelho De Oliveira"
+ POLITICS_Joao_Botelho_desc:0 "§YPrime Minister of Portugal§!\n§W--------------§!\nThe Oingo Boingo of Portugal."
+ POR_Espiridiao_Rabelo:0 "Esperidião Rabelo"
+ POR_Espiridiao_Rabelo_min_desc:0 "§YPresident of the Portuguese Republic\nConservative Democracy\nJolly Drunkard§!\n\n\n\n\n\n\n£GFX_idea_POR_Espiridiao_Rabelo_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ POR_Eduardo_Silveira:0 "Eduardo Silveira"
+ POR_Eduardo_Silveira_min_desc:0 "§YMinister of Finance\nLiberal Democracy\nWell Meaning Troublemaker§!\n\n\n\n\n\n\n£GFX_idea_POR_Eduardo_Silveira_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ POR_Jose_Magalhaes:0 "José Magalhães"
+ POR_Jose_Magalhaes_min_desc:0 "§YChief of Army Staff\nautocracy\nDistrusting General§!\n\n\n\n\n\n\n£GFX_idea_POR_Jose_Magalhaes_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ POR_Pedro_Linhares:0 "Pedro Linhares"
+ POR_Pedro_Linhares_min_desc:0 "§YMinister of Foreign Relations\nConservative Democracy\nPragmatic Utilitarian§!\n\n\n\n\n\n\n£GFX_idea_POR_Pedro_Linhares_large\n\n\n\n\n\n\n\n--------------\n§L§!"
+ POR_Isidoro_Prestes:0 "Isidoro Prestes Da Silva Neto"
+
+ #IDEAS#
+ POR_surrounded_by_wolves:0 "Surrounded By Wolves"
+ POR_dissolving_coalition:0 "A Dissolving Coalition"
+ POR_our_collapsed_economy:0 "Our Collapsed Economy..."
+
+ ##IDEA DESC##
+ POR_surrounded_by_wolves_desc:0 "The Portuguese Republic is surrounded on all sides. On the north the communist elements of the Army plot to march into Lisbon at any time as their §RRed Reign of Terror§! is cemented in Porto. In the South the terrible forces of reaction and ultra-catholicism seek to whip the Portuguese faithful and conservative into a warlike frenzy to topple our righteous and secular Republic and instate their vision of a Catholic, Traditional and Authoritarian Portugal, a §3Estado Novo§!. Time will say if the Republic can survive its woes."
+ POR_dissolving_coalition_desc:0 "The Unity Coalition founded after the end of the European Federation and the creation of the Fourth Portuguese Republic can only truly be called ‘united’ in name. The Coalition was marginally successful and cohesive during the first years of the Republic, as it was able to put aside its differences due to the immediate dangers associated with the collapse of the Federation and the woes that ensued. But currently the Coalition is little more than a disunited, squabbling group of parties that each see a different way to deal with the issues afflicting the nation, the Assembly of the Republic could be described as a powder keg waiting for a spark to end the coalition in a terrific boom. The Prime Minister and his cabinet will have to keep the coalition at least somewhat cohesive and stable if the Republic is to win out against Radicalism."
+ POR_our_collapsed_economy_desc:0 "The Portuguese Republic is bankrupt. There is no denying it, the economy collapsed along with the Federation and has yet to recover, the long used Euro has lost all its value as the European Central Bank was dissolved and became defunct, unemployment rates reach historically high levels which are aggravated by the arrival of refugees arriving from the war scarred Spain, production is low and food security is a joke. The Republic must stabilize its currency, create employment, deal with the food shortages and re-industrialise should it ever want to recover."
+
+ ##PARTIES##
+ POR_conservatism_party:0 "PSD"
+ POR_conservatism_party_long:0 "Social Democratic Party"
+ POR_liberalism_party:0 "PS"
+ POR_liberalism_party_long:0 "Socialist Party"
+ POR_libertarian_socialism_party:0 "§RBANNED§"
+ POR_libertarian_socialism_party_long:0 "§RBANNED§"
+ POR_authoritarian_socialism_party:0 "§RBANNED§"
+ POR_authoritarian_socialism_party_long:0 "§RBANNED§"
+ POR_totalitarian_socialism_party:0 "§RBANNED§"
+ POR_totalitarian_socialism_party_long:0 "§RBANNED§"

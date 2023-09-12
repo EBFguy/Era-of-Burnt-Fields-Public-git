@@ -1,0 +1,86 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "OCC_GUI_free_workers_GUI"
+		size = { width = 525 height = 150 }
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "OCC_GUI_unity_container"
+			position = { x = 0 y = 30 }
+
+			iconType = {
+				name = "OCC_GUI_free_workers_Unity_Bar"
+				spriteType = "GFX_OCC_GUI_workers_Unity_Bar"
+				position = { x = 22 y = 0 }
+			}
+
+			iconType = {
+				name = "OCC_GUI_free_workers_bar_frame"
+				spriteType = "GFX_OCC_GUI_worker_GUI_Bar_Frame"
+				pdx_tooltip = OCC_free_workers_Decision_Unity_Bar_tt
+				position = { x = 20 y = 0 }
+			}
+
+			instantTextboxType = {
+				name = "OCC_GUI_free_workers_unity_bar_txt"
+				position = { x = -10 y = -40 }
+				format = center
+				font = "hoi_30header"
+				text = "OCC_GUI_free_workers_unity_bar_txt"
+				alwaystransparent = yes
+				maxWidth = 510
+				maxHeight = 50
+			}
+	
+		}
+
+		containerWindowType = {
+			name = "OCC_GUI_power_distribution_container"
+			position = { x = 0 y = 110 }
+
+			iconType = {
+				name = "OCC_GUI_free_workers_Decision_GUI_Bar_left"
+				spriteType = "GFX_OCC_GUI_workers_hall_Bar_left"
+				position = { x = 22 y = 0 }
+			}
+
+			iconType = {
+				name = "OCC_GUI_free_workers_Decision_GUI_Bar_right"
+				spriteType = "GFX_OCC_GUI_workers_hall_Bar_right"
+				position = { x = 22 y = 0 }
+			}
+
+			iconType = {
+				name = "OCC_GUI_free_workers_bar_frame"
+				spriteType = "GFX_OCC_GUI_worker_GUI_Bar_Frame"
+				pdx_tooltip = OCC_free_workers_Decision_GUI_Bar_tt
+				position = { x = 20 y = 0 }
+			}
+
+			instantTextboxType = {
+				name = "OCC_GUI_free_workers_power_bar_txt"
+				position = { x = -10 y = -40 }
+				format = center
+				font = "hoi_30header"
+				text = "OCC_GUI_free_workers_power_bar_txt"
+				alwaystransparent = yes
+				maxWidth = 510
+				maxHeight = 50
+			}
+		}
+
+		containerWindowType = {
+			name = "OCC_GUI_peoples_house_text_container"
+			position = { x = 0 y = 0 }
+
+			iconType = {
+				name = "Info"
+				spriteType = "GFX_PRC_GUI_infobutton"
+				position = { x = 380 y = -63 }
+				pdx_tooltip = OCC_supreme_politburo_info_tt
+			}
+		}
+		
+	}
+} 

@@ -1,0 +1,97 @@
+﻿l_english:
+ news_event.1.t:0 "CENTRAL ASIAN BATTLE ROYALE"
+ news_event.1.d:0 "After a short period of peace in Central Asia it seems the warlords and despots of the region are once again fighting over Central Asia's ruins"
+ news_event.1.a:0 "Can we get some real news?"
+
+ news_event.2.t:0 "COMMUNISTS UNITE CENTRAL ASIA"
+ news_event.2.d:0 ""
+ news_event.2.a:0 "Back to the 20th century"
+
+ news_event.3.t:0 "A GREEN DAWN IN CENTRAL ASIA"
+ news_event.3.d:0 ""
+ news_event.3.a:0 "An Intresting Turn"
+
+ news_event.4.t:0 "FADEL'S EMPIRE IN CENTRAL ASIA"
+ news_event.4.d:0 ""
+ news_event.4.a:0 "What in the hell"
+
+ news_event.5.t:0 "SCIENTISTS REUNITE CENTRAL ASIA"
+ news_event.5.d:0 ""
+ news_event.5.a:0 "But can they turn theory to fact?"
+
+ news_event.6.t:0 "AN UNBEATABLE ARMY REUNITES CENTRAL ASIA"
+ news_event.6.d:0 ""
+ news_event.6.a:0 "As long as they stay there"
+
+ news_event.7.t:0 "CENTRAL ASIAN FEDERATION DECLARED"
+ news_event.7.d:0 ""
+ news_event.7.a:0 "Maybe there is light?"
+ 
+ news_event.8.t:0 "CENTRAL ASIA: REMADE"
+ news_event.8.d:0 ""
+ news_event.8.a:0 "A Taste of the past"
+ 
+ news_event.9.t:0 "UNITED STATES OF CENTRAL ASIA PROCLAIMED"
+ news_event.9.d:0 ""
+ news_event.9.a:0 "Peace at last?"
+
+ news_event.10.t:0 "SECOND AMERICAN CIVIL WAR BEGINS"
+ news_event.10.d:0 ""
+ news_event.10.a:0 "Brother Fights Brother Once More"
+
+ news_event.11.t:0 "THE METAL EVOLUTION BEGINS"
+ news_event.11.d:0 "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ news_event.11.a:0 "A New Dichotomy of Warfare"
+ metal_evolution_begins:0 "§6Warfare has changed, a new technology tab has been unlocked.§!"
+
+ news_event.12.t:0 "THE END OF RUSSIAN DEMOCRACY"
+ news_event.12.d:0 "After nearly a year of disorder and democratic breakdown in Russia following the communist coup d'etat attempt, President Grigory Chkalov has driven what many consider to be the final nail in the coffin for the nation's rare and high ideals. In a speech given from the presidential palace, Ckhalov hammered the need for a "strong, level-headed" executive in modern Russia, stating:\n\n"In this time of international chaos, Russia remains a bastion of stability and strength. The collapse of Chinese hegemony in East Asia and the sudden strengthening of terrorist movements across the globe, we require, now more then ever, a steady hand. To maintain our way in these troubled waters, to maintain our ability as a global power, the weak must be swept aside."\n\nShortly after the announcement, Ckhalov signed the "Permanent Powers Decree", extending the emergency executive powers of the December Emergency Decree indefinitely, and effectively ending Russian democracy. As international pundits write on the demise of the last major democracy on Earth, one phrase consistently hits the headlines:"
+ news_event.12.a:0 "The ideas of the West have, at last, died." 
+
+ news_event.20.t:0 "WAR ON THE ANDES"
+ news_event.20.d:0 ""
+ news_event.20.a:0 "A War Dawns" 
+
+ news_event.21.t:0 "RETREAT IN TOKYO, JAPAN IN FREE FALL"
+ news_event.21.d:0 ""
+ news_event.21.a:0 "How Did This Happen?" 
+
+ news_event.22.t:0 "END OF THE FRACTURED MIND"
+ news_event.22.d:0 ""
+ news_event.22.a:0 "Mankind's Greatest Creation Lost Once More" 
+
+ news_event.23.t:0 "A DREAM 139 YEARS SINCE"
+ news_event.23.d:0 "After 139 years of separation Ireland has been unified under Riley Rochfort. The Ulster Pacification led by Nicholas Neylan cleared out unionist resistance with most unionists getting captured or fleeing the country. The extremist Sons of Ireland that were rumored to be infiltrating the Irish army have been wiped out with their leader Calum O'Galvin under arrest and awaiting trial. Riley Rochfort gave a speech in Dublin to his supporters stating “Centuries of humiliation have been rectified. Never again shall we fall under the boot of another!” The Path this nation takes has yet to be seen but what is certain is that Ireland has risen."
+ news_event.23.a:0 "Took Them Long Enough."
+
+
+ news_event.30.t:0 "THE SONS IN CHARGE"
+ news_event.30.d:0 "Dark news comes from the Emerald Isle as the Sons of Ireland announce their unification of the eponymous island. Following their brutally quick victory against the Ulster Pacification Force they swept south over the rest of the island. Now from the Straits of Moyle to the Celtic Sea the Sons of Ireland march.\n\nIn Dublin their leader Calum O'Galvin has given a blistering speech declaring that Ireland's "Blood debts against the English invaders, rapists, and murders will be repaid, in the only currency that they understand."\n\nTo the few to whom the English wastes still bear a silver of importance to the rise of the Sons is a worrying development for the once Sceptred Isle of Albion, but to the rest of the world, it is but a blip on the radar. The Sons of Ireland may have risen, but their isle remains a forgotten one, orbiting the blood soaked ruins of Europe."
+ news_event.30.a:0 "Ireland Risen?" 
+
+ news_event.31.t:0 "BRITISH BOOTS IN DUBLIN?"
+ news_event.31.d:0 "For a country whose people, and government have fled to the stars the United Kingdom's legacy burns brightly, in perhaps the most unexpected of places. Today the Unionist remnant once reduced to just Belfast has announced their unification of the Emerald Isle, following their decisive defeat against first the Pacification Forces, and then the Irish Government itself.\n\nSpeaking from Dublin, despite the near riots engulfing the city the new government has pledged to maintain the legacy of the United Kingdom. The few international reactions have been ones of bemused surprise, as British boots march in Dublin once more. With no Britain to return too."
+ news_event.31.a:0 "Ulster fought, and Ulster was proven right" 
+
+ news_event.32.t:0 "BRITISH BOOTS IN DUBLIN?"
+ news_event.32.d:0 "The Irish Tricolour at long last flies over all of Ireland as the Taoiseach announces from a newly pacified Belfast that the Sons of Ireland have been put down. Their quick success over the Unionist remains in Belfast did not meet with the same result against the Dublin government. Following the defeat of the Sons' initial offensives the ROIAF managed to overwhelm their weak position in Ulster, and unify the Emerald Isle under Irish rule for the first time since the days of the High Kings.\n\nThe trial of the Sons' leadership is fully expected to be one of the biggest cases in Irish legal history, but for now that is in the future. Peace reigns over Ireland, a peace that many hope will last."
+ news_event.32.a:0 "A unified Ireland at long last…" 
+
+ news_event.34.t:0 "COUP IN ULSTER, SONS IN CONTROL"
+ news_event.34.d:0 "Shortly after Ulster Pacification was declared an Irish victory, the far-right terrorist group The Sons of Ireland, long rumored to be infiltrating the irish army, have taken control of the Irish Expeditionary Force. During a meeting with other high ranking officers, Nicholas Neylan who had been leading the expeditionary force was killed by an unknown assailant who shot him and the other officers in the head repeatedly. The Sons of Ireland quickly organized their forces and in a coordinated strike took control over Ulster with the speed and efficiency of a long planned attack. This has led many to theorize that this conspiracy has been months in the making.\n\nNow the Sons march into Ireland proper hoping to unify Ireland under their own rule. Those loyal to the expeditionary force have been hunted down and killed without mercy. Many are already gathering their possessions in the hopes of avoiding the horrors The Sons might bring should they succeed. The Irish government has yet to make a coordinated response on account of the speed of the event. Ireland will rise but not in the way many had hoped."
+ news_event.34.a:0 "What Will Happen Now?"
+
+ news_event.53.t:0 "BLOOD ON THE STEPPES, WHAT NEXT?"
+ news_event.53.d:0 "It has been only twenty-four hours since China's premier, Lai Xiaojian, announced the death of Xi Jinping to the people, and it already seems that his work is on the brink of total collapse. Local PLA elements, resistance movements, and regional governments from all across the Pact seem ready to kill each other before Xi's body, or what's left of it, can even be buried.\n\nFormerly a stronghold of continuing the communist traditions of leaders past, the central government has been restrained to Ulaanbaatar and its surrounding area, despite Chairman Hutagt Ankhbayar's insistence that the situation is nothing more then a roadbump on the path to communism. With the local Chinese garrison seizing the northern border, veteran organizations in the west capturing Bayankhongor and Khovd, and the ugly heads of reactionaries rising in the Gobi desert and in Sukhabaatar, whether the central government can overcome the chaos and once again become a model example of the Shanghai Pact will have to be settled in blood.\n\nWith the fighting in Korea escalating dramatically and Xi's funeral still two days away, many are asking how long the CPC administration is willing to wait to restore order in their alliance. And if they are unwilling or incapabable to stop it, how far this chaos can go."
+ news_event.53.a:0 "Only took them twenty-four hours..."
+
+ news_event.54.t:0 "PACIFIC BLOODIED, NO VICTOR"
+ news_event.54.d:0 ""
+ news_event.54.a:0 "The British Legacy, broken."
+
+ news_event.66.t:0 "IRAN GONE MAD, FIVE NUCLEAR DETONATIONS OVER ZAGROS"
+ news_event.66.d:0 "The following statement has been released by the Office of the President of Iran a couple of hours ago:\n\n"We will not surrender to the dogs of the old world, bound by their old ways and shackled by their old superstitions. Iran will never again falter to your kind." -President Erfan Qaedi.\n\nAccompanying this ominous statement have been reports that several nuclear weapons have been detonated in the Zagros Mountain Range focused at the Iran-Iraq border. A move which appears to be an attempt to halt further GCC advancement into Iran and to buy the Iranians more time to resupply after their devastating losses in Iraq and Syria.\n\nWith reports flooding in of GCC and Iranian alike soldiers fleeing for their lives and the death toll rising to at least thirty thousand, it seems as if Erfan achieved his wish of stopping all advances into Iran. However, without any further communications coming from Tehran the situation remains in constant flux."
+ news_event.66.a:0 "Dear God"
+
+
+

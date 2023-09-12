@@ -1,0 +1,57 @@
+spriteTypes = {
+
+	#Primum Inter Pares GUI
+
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Column"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Column.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Frame"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Frame.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Minister_Available"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Minister_Available.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Minister_Unavailable"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Minister_Unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Minister_Vacant"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Minister_Vacant.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Progbar_Empty"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Progbar_Empty.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Sidebar_Frame"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Sidebar_Frame.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_GUI_Button_Clicked"
+		textureFile = "gfx/interface/EBF_POL/PIP/POL_GUI_Button_Clicked.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_GUI_Button_Grey"
+		textureFile = "gfx/interface/EBF_POL/PIP/POL_GUI_Button_Grey.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Columns"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Columns.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_PIP_GUI_Sidebar"
+		textureFile = "gfx/interface/EBF_POL/PIP/PIP_GUI_Sidebar.dds"
+	}
+	#Funny Placeholder
+	spriteType = {
+		name = "GFX_POL_GUI_Opener_Button"
+		textureFile = "gfx/interface/EBF_state_lore/otherlore/culture_placeholder.dds"
+	}
+
+	#Other SuiGUI
+	
+}

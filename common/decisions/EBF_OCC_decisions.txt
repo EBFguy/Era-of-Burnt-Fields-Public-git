@@ -1,0 +1,100 @@
+EBF_OCC_debug_decisions = {
+
+}
+
+EBF_OCC_house_of_the_free_workers_decisions = {
+
+	EBF_OCC_improve_unity_in_politburo = {
+
+		icon = generic_research
+
+		cost = 50
+
+		days_remove = 15
+
+		complete_effect = {
+			set_temp_variable = { t_change = 10 }
+			OCC_worker_house_change_unity = YES
+		}
+	} 
+
+	EBF_OCC_improve_unity_over_time = {
+
+		icon = generic_research
+
+		cost = 25
+
+		days_remove = 14
+
+		complete_effect = {
+			set_temp_variable = { t_change = 2.5 }
+			OCC_worker_house_change_unity_tick = YES
+		}
+	} 
+
+	EBF_OCC_offer_concessions_for_unity = {
+
+		icon = generic_research
+
+		cost = 50
+
+		days_remove = 15
+
+		custom_cost_trigger = {
+			set_temp_variable = { OCC_workers_house_array_check = 5 }
+			OCC_custom_cost_has_more_power_than = yes
+		}
+		custom_cost_text = OCC_workers_house_unity_custom_cost_loc
+
+		complete_effect = {
+			
+		}
+	} 
+
+
+	EBF_OCC_destabalise_another_faction = {
+
+		icon = generic_research
+
+		cost = 50
+
+		days_remove = 15
+
+		custom_cost_trigger = {
+			set_temp_variable = { OCC_workers_house_unity_var_check = 5 }
+			OCC_custom_cost_has_more_unity_than = yes
+		}
+		custom_cost_text = OCC_workers_house_unity_custom_cost_loc
+
+		complete_effect = {
+			
+		}
+	} 
+
+
+	EBF_OCC_the_politburo_moves = {
+		allowed = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = no
+		days_mission_timeout = 30
+		selectable_mission = no
+		cancel_if_not_visible = yes
+		timeout_effect = {
+			set_temp_variable = { t_change = -2.5 }
+			OCC_worker_house_change_unity_tick = YES
+			hidden_effect = {
+				activate_mission = EBF_OCC_the_politburo_moves
+			}
+		}
+	}	
+
+
+}

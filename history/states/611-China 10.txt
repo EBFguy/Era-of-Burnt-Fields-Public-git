@@ -1,0 +1,27 @@
+
+state={
+	id=611
+	name="STATE_611" # South Chahar
+	manpower = 32983834
+	
+	state_category = town
+
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			11752 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		828 1489 4495 4612 7545 7674 11752 1137 6904 9776 1590 10397 952
+	}
+}

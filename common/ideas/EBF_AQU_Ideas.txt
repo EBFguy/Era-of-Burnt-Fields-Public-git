@@ -1,0 +1,68 @@
+ideas = {
+	country = {
+		AQU_bastion_of_true_catholicism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AQU_bastion_of_true_catholicism"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = 0.25
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05				
+			}
+		}	
+		
+		AQU_loyal_knights_of_lucius = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AQU_loyal_knights_of_lucius"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				offensive_war_stability_factor = 0.15
+				defensive_war_stability_factor = 0.15
+				army_attack_factor = 0.1						
+			}
+		}	
+
+		AQU_against_communists_bastards_and_heretics = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AQU_against_communists_bastards_and_heretics"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				libertarian_socialism_acceptance = -50
+				authoritarian_socialism_acceptance = -50
+				totalitarian_socialism_acceptance = -50
+				army_attack_factor = 0.1
+									
+			}
+		}
+	}
+}

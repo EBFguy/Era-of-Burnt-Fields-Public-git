@@ -1,0 +1,15 @@
+characters = {
+	PRO_Régis_Pichard = {
+		name = "Régis Pichard"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRO/Portrait_PRO_Régis_Pichard.dds"
+			}
+		}
+		country_leader = {
+			ideology = reductivism_barbetites_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_RÉGIS_PICHARD_DESC"
+		}
+	}
+}

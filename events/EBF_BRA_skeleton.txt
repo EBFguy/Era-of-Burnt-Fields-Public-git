@@ -1,0 +1,512 @@
+﻿add_namespace = brazil_skeleton
+add_namespace = guardian_brazil_skeleton
+add_namespace = bso_brazil_skeleton
+add_namespace = bso_brazil_skeleton
+add_namespace = bnd_brazil_skeleton
+add_namespace = is_brazil_skeleton
+
+
+
+#brazil_skeleton
+country_event = { #DELGADO RETIRES
+	id = brazil_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event brazil_skeleton.1"}
+	title = brazil_skeleton.1.t
+	desc = brazil_skeleton.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = brazil_skeleton.1.a
+		BRA = {
+			kill_ideology_leader = anocracy
+			promote_character = {
+				character = BRA_Yago_Lobo
+				ideology = anocracy_provisional_government_subtype
+			}
+			remove_ideas = BRA_delgados_neglect
+		}
+		every_country = { news_event = news_event.35 }	
+	}
+}
+
+country_event = { #RETURN OF BRAZILLIAN DEMOCACY?
+	id = brazil_skeleton.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event brazil_skeleton.2"}
+	title = brazil_skeleton.2.t
+	desc = brazil_skeleton.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = brazil_skeleton.2.a
+		every_country = { news_event = news_event.36 }	
+	}
+}
+
+country_event = { #Bribery contest goes uncovered or not
+	id = brazil_skeleton.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event brazil_skeleton.3"}
+	title = brazil_skeleton.3.t
+	desc = brazil_skeleton.3.d
+	is_triggered_only = yes
+	
+	option = {
+		name = brazil_skeleton.3.a
+		random_list = {
+			50 = {#Bribery goes ahead
+				country_event = {
+					id = brazil_skeleton.4
+				}				
+			}
+			50 = {#Bribery is jover
+				country_event = {
+					id = brazil_skeleton.5
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Guardians or BSO
+	id = brazil_skeleton.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event brazil_skeleton.4"}
+	title = brazil_skeleton.4.t
+	desc = brazil_skeleton.4.d
+	is_triggered_only = yes
+
+	immediate = {
+		remove_ideas = BRA_delgados_neglect
+	}
+	
+	option = {
+		name = brazil_skeleton.4.a
+		random_list = {
+			50 = {#Guardians
+				remove_country_leader_role = {
+					character = BRA_Yago_Lobo
+					ideology = anocracy_provisional_government_subtype
+				}
+				remove_country_leader_role = {
+					character = BRA_Lourenco_Di_Mattia
+					ideology = conservatism_conservatism_subtype
+				}		
+				add_country_leader_role = {
+					character = BRA_Yago_Lobo
+					promote_leader = yes
+					country_leader = {
+						ideology = anocracy_transitional_democracy_subtype
+						desc = "POLITICS_YAGO_LOBO_TRANS_DEMOCRAT_DESC"
+					}
+				}
+				set_party_name = {
+					ideology = anocracy
+					long_name = BRA_prov_council_auth_dem_long
+					name = BRA_prov_council_auth_dem
+				}
+				every_country = { news_event = news_event.37 }	
+				country_event = { #October 18th 2062
+					id = guardian_brazil_skeleton.1
+					days = 253
+				}		
+				add_popularity = {
+					ideology = liberalism
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = conservatism
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = libertarian_socialism
+					popularity = 0.15
+				}			
+				set_party_name = {
+					ideology = liberalism
+					long_name = BRA_guardians_social_democrat_party_long
+					name = BRA_guardians_social_democrat_party
+				}
+				set_party_name = {
+					ideology = autocracy
+					long_name = BRA_vanguard_autocracy_party_long
+					name = BRA_vanguard_autocracy_party
+				}				
+			}
+			50 = {#BSO
+				remove_country_leader_role = {
+					character = BRA_Yago_Lobo
+					ideology = anocracy_provisional_government_subtype
+				}
+				add_country_leader_role = {
+					character = BRA_Yago_Lobo
+					promote_leader = yes
+					country_leader = {
+						ideology = anocracy_transitional_democracy_subtype
+						desc = "POLITICS_YAGO_LOBO_TRANS_DEMOCRAT_BSO_DESC"
+					}
+				}
+				set_party_name = {
+					ideology = anocracy
+					long_name = BRA_prov_council_party_long
+					name = BRA_prov_council_party
+				}
+				every_country = { news_event = news_event.42 }	
+				country_event = { #October 18th 2062
+					id = BSO_brazil_skeleton.1
+					days = 253
+				}	
+				add_popularity = {
+					ideology = fascist
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = ultranationalism
+					popularity = 0.15
+				}			
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.15
+				}
+				set_party_name = {
+					ideology = fascist
+					long_name = BRA_BSO_fascist_party_long
+					name = BRA_BSO_fascist_party
+				}
+				set_party_name = {
+					ideology = autocracy
+					long_name = BRA_vanguard_autocracy_party_long
+					name = BRA_vanguard_autocracy_party
+				}	
+			}
+		}
+	}
+}
+
+country_event = { #BRIBERY SCANDLE
+	id = brazil_skeleton.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event brazil_skeleton.5"}
+	title = brazil_skeleton.5.t
+	desc = brazil_skeleton.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = brazil_skeleton.5.a
+		BRA = {
+			kill_ideology_leader = anocracy
+			promote_character = {
+				character = BRA_Rejuvenation_Council
+				ideology = anocracy_provisional_government_subtype
+			}
+			every_country = { news_event = news_event.45 }	
+				country_event = { #October 18th 2062
+				id = brazil_skeleton.6
+				days = 253
+			}			
+		}		
+	}
+}
+
+country_event = { #power struggle
+	id = brazil_skeleton.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event brazil_skeleton.6"}
+	title = brazil_skeleton.6.t
+	desc = brazil_skeleton.6.d
+	is_triggered_only = yes
+
+	immediate = {
+		retire_character = BRA_Rejuvenation_Council		
+	}
+	
+	option = {
+		name = brazil_skeleton.6.a
+		random_list = {
+			50 = {#BND
+				set_politics = {
+					ruling_party = technoutopianism
+				}
+				retire_character = BRA_Lourenco_Di_Mattia
+				promote_character = {
+					character = BRA_Erasmo_Blauschwert
+					ideology = autocracy_technocratic_despotism_subtype
+				}
+				promote_character = {
+					character = BRA_Erasmo_Blauschwert
+					ideology = anocracy_technocratic_democracy_subtype
+				}
+				set_party_name = {
+					ideology = anocracy
+					long_name = BRA_BND_auth_dem_long
+					name = BRA_BND_auth_dem
+				}
+				set_party_name = {
+					ideology = autocracy
+					long_name = BRA_BND_despot_long
+					name = BRA_BND_despot
+				}
+				set_party_name = {
+					ideology = technoutopianism
+					long_name = BRA_BND_techno_long
+					name = BRA_BND_techno
+				}
+				every_country = { news_event = news_event.46 }	
+				country_event = { #December 8th 2062
+					id = BND_brazil_skeleton.1
+					days = 51
+				}		
+				set_political_party = {
+					ideology = anocracy
+					popularity = 15
+				}
+				set_political_party = {
+					ideology = autocracy
+					popularity = 15
+				}
+				set_political_party = {
+					ideology = technoutopianism
+					popularity = 15
+				}						
+
+			}
+			50 = {#IS
+				retire_character = BRA_Erasmo_Blauschwert
+				set_politics = {
+					ruling_party = autocracy
+				}
+				set_cosmetic_tag = BRA_monarchy
+				set_political_party = {
+					ideology = technoutopianism
+					popularity = 0
+				}
+				set_political_party = {
+					ideology = anocracy
+					popularity = 0
+				}
+				add_popularity = {
+					ideology = autocracy
+					popularity = 0.5
+				}
+				set_party_name = {
+					ideology = autocracy
+					long_name = BRA_IS_despot_long
+					name = BRA_IS_despot
+				}
+				every_country = { news_event = news_event.47 }	
+				country_event = { #December 8th 2062
+					id = IS_brazil_skeleton.1
+					days = 51
+				}		
+			}
+		}		
+	}
+}
+
+
+country_event = { #2062 elections
+	id = guardian_brazil_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event guardian_brazil_skeleton.1"}
+	title = guardian_brazil_skeleton.1.t
+	desc = guardian_brazil_skeleton.1.d
+	is_triggered_only = yes
+
+	immediate = {
+		BRA = {
+			retire_ideology_leader = anocracy
+			promote_character = {
+				character = BRA_Conrado_Karpowicz
+				ideology = anocracy_militaristic_libertarianism_subtype
+			}
+			set_party_name = {
+				ideology = anocracy
+				long_name = BRA_guardians_unity_party_long
+				name = BRA_guardians_unity_party
+			}
+		}
+	}
+	
+	option = {
+		name = guardian_brazil_skeleton.1.a
+		random_list = {
+			25 = {#Rosa
+				set_politics = {
+					ruling_party = libertarian_socialism
+				}
+				every_country = { news_event = news_event.38 }	
+				set_political_party = {
+					ideology = libertarian_socialism
+					popularity = 51
+				}
+			}
+			25 = {#Conrado
+				every_country = { news_event = news_event.39 }	
+				set_political_party = {
+					ideology = anocracy
+					popularity = 51
+				}
+			}
+			25 = {#Daniel Sarney
+				set_politics = {
+					ruling_party = conservatism
+				}
+				every_country = { news_event = news_event.40 }	
+				set_political_party = {
+					ideology = conservatism
+					popularity = 51
+				}
+			}
+			25 = {#Isaias Rezende
+				set_politics = {
+					ruling_party = liberalism
+				}
+				every_country = { news_event = news_event.41 }	
+				set_political_party = {
+					ideology = liberalism
+					popularity = 51
+				}
+			}
+		}
+	}
+}
+
+
+country_event = { #2062 voting contest
+	id = BSO_brazil_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BSO_brazil_skeleton.1"}
+	title = BSO_brazil_skeleton.1.t
+	desc = BSO_brazil_skeleton.1.d
+	is_triggered_only = yes
+
+	immediate = {
+		BRA = {
+			retire_ideology_leader = anocracy
+			promote_character = {
+				character = BRA_Conrado_Karpowicz
+				ideology = anocracy_militaristic_libertarianism_subtype
+			}
+			set_party_name = {
+				ideology = anocracy
+				long_name = BRA_guardians_unity_party_long
+				name = BRA_guardians_unity_party
+			}
+		}
+	}
+	
+	option = {
+		name = BSO_brazil_skeleton.1.a
+		random_list = {
+			50 = {#Nelson
+				set_politics = {
+					ruling_party = ultranationalism
+				}
+				every_country = { news_event = news_event.43 }	
+				set_political_party = {
+					ideology = ultranationalism
+					popularity = 50
+				}
+			}
+			25 = {#Cesar
+				set_politics = {
+					ruling_party = fascist
+				}
+				every_country = { news_event = news_event.44 }	
+				set_political_party = {
+					ideology = fascist
+					popularity = 50
+				}
+			}
+		}
+	}
+}
+
+
+country_event = { #2062 party conference
+	id = BND_brazil_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BSO_brazil_skeleton.1"}
+	title = BSO_brazil_skeleton.1.t
+	desc = BSO_brazil_skeleton.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = BSO_brazil_skeleton.1.a
+		random_list = {
+			50 = {#Guardian-BND
+				set_politics = {
+					ruling_party = anocracy
+				}
+				every_country = { news_event = news_event.48 }	
+				set_popularities = {
+					technoutopianism = 15
+					autocracy = 25
+					anocracy = 40
+					liberalism = 20
+				}
+			}
+			50 = {#BSO-BND
+				every_country = { news_event = news_event.49 }	
+				set_popularities = {
+					technoutopianism = 40
+					autocracy = 20
+					anocracy = 25
+					fascist = 10
+					ultranationalism = 5
+				}
+			}
+		}
+	}
+}
+
+country_event = { #2062 emperor returns
+	id = IS_brazil_skeleton.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event IS_brazil_skeleton.1"}
+	title = IS_brazil_skeleton.1.t
+	desc = IS_brazil_skeleton.1.d
+	is_triggered_only = yes
+
+	immediate = {
+		set_party_name = {
+			ideology = autocracy
+			long_name = BRA_IS_empire_despot_long
+			name = BRA_IS_empire_despot
+		}
+		set_party_name = {
+			ideology = anocracy
+			long_name = BRA_IS_empire_authdem_long
+			name = BRA_IS_empire_authdem
+		}
+		BRA = {
+			remove_country_leader_role = {
+				ideology = autocracy_autocracy_subtype
+			}
+			promote_character = {
+				character = BRA_Pablo_I
+				ideology = anocracy_semi_constitutional_monarchy_subtype
+			}
+			promote_character = {
+				character = BRA_Pablo_I
+				ideology = autocracy_absolute_monarchy_subtype
+			}
+		}
+	}
+	
+	option = {
+		name = IS_brazil_skeleton.1.a
+		random_list = {
+			50 = {#Constitutionalists
+				set_politics = {
+					ruling_party = anocracy
+				}
+				every_country = { news_event = news_event.50 }	
+				set_popularities = {
+					anocracy = 60
+					autocracy = 40
+				}
+			}
+			50 = {#BSO-Imperial Coalition
+				every_country = { news_event = news_event.51 }	
+				set_popularities = {
+					anocracy = 30
+					autocracy = 40
+					fascist = 20
+					ultranationalism = 10
+				}
+			}
+		}
+	}
+}

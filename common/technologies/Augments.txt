@@ -1,0 +1,2662 @@
+technologies = {
+    #CYBERNETIC AUGMENTATION
+	cyberaugment2065 = {
+		#Voluntary State Cybernetics
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2065
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 3
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2067_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2067_c_1
+			research_cost_coeff = 1
+		}		
+
+		path = {
+			leads_to_tech = cyberaugment2067_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2067_m_1
+			research_cost_coeff = 1
+		}		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2067_c_0 = {
+		#Enhanced Parietal Lobe Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 5
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_c_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2067_c_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2067_c_1 = {
+		#Hypothalamus Blocker Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 5
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_c_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2067_c_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2070_c_0 = {
+		#Ideal Amygdala Reaction Analyser Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 7
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_c_1
+			research_cost_coeff = 1
+		}		
+
+		xor = {
+			cyberaugment2070_c_1
+		}
+		compliance_growth_on_our_occupied_states = 0.05
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2070_c_1 = {
+		#Ideal Amygdala Reductor Analyser Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 7
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_c_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2070_c_0
+		}
+		resistance_growth_on_our_occupied_states = 0.05
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2073_c_0 = {
+		#Civilian Use  Fortified Arms "Gorilla Arms" Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2073
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 9
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077
+			research_cost_coeff = 1
+		}	
+
+		xor = {
+			cyberaugment2073_c_1
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2073_c_1 = {
+		#Local Engagement Hormone Analyser Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2073
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 9
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2073_c_0
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2067_m_0 = {
+		#Live Action Trajectory Generator Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 5
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_m_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2067_m_1
+		}
+		land_night_attack = 0.05
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2067_m_1 = {
+		#Improved Compliance Module Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 5
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2070_m_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2067_m_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2070_m_0 = {
+		#Internal BioMonitor Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 7
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_m_1
+			research_cost_coeff = 1
+		}		
+
+		xor = {
+			cyberaugment2070_m_1
+		}
+
+		category_all_infantry = {
+			max_strength = 0.05
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2070_m_1 = {
+		#Fortified Bone Structure Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 7
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2073_m_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2070_m_0
+		}
+
+		army_defence_factor = 0.05
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2073_m_0 = {
+		#Military Use Fortified Arms "Gorilla Arms" Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2073
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 9
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077
+			research_cost_coeff = 1
+		}	
+
+		xor = {
+			cyberaugment2073_m_1
+		}
+
+		category_all_infantry = {
+			hard_attack = 0.05
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2073_m_1 = {
+		#Arm Based Protrusion Weaponry "Mantisblades" Installation
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2073
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 9
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2073_m_0
+		}
+
+		category_all_infantry = {
+			soft_attack  = 0.05
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2077 = {
+		#Invention of the Biological Processor
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 11
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077_c_1
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cyberaugment2077_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2077_m_1
+			research_cost_coeff = 1
+		}			
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2077_c_0 = {
+		#StockMarket Analyser Optics Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 13
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_c_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2077_c_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2077_c_1 = {
+		#Bio Processor RAM Upgrade Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 13
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_c_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2077_c_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2080_c_0 = {
+		#National Prerogative Recogniser Biochip 
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 15
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2081
+			research_cost_coeff = 1
+		}	
+
+		xor = {
+			cyberaugment2080_c_1
+		}
+		stability_factor = 0.1
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2080_c_1 = {
+		#National Patriotism Recogniser Biochip 
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 15
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2081
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2080_c_0
+		}
+
+		war_support_factor = 0.1
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2077_m_0 = {
+		#Modular Strategy Advisor Biochip 
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 13
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_m_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2077_m_1
+		}
+
+		initiative_factor = 0.04
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2077_m_1 = {
+		#SmartLink Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 13
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2080_m_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2077_m_0
+		}
+
+		category_all_infantry = {
+			air_attack = 0.05
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2080_m_0 = {
+		#Synaptic Accelerator Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 15
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2081
+			research_cost_coeff = 1
+		}	
+
+		xor = {
+			cyberaugment2080_m_1
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2080_m_1 = {
+		#Innate Balance and Movement Calculations Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 15
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2081
+			research_cost_coeff = 1
+		}	
+
+		xor = {
+			cyberaugment2080_m_0
+		}
+
+		category_all_infantry = {
+			maximum_speed = 0.05
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cyberaugment2081 = {
+		#State Mandated Cybernetics Program
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 17
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2083_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2083_c_1
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cyberaugment2083_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2083_m_1
+			research_cost_coeff = 1
+		}	
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2083_c_0 = {
+		#Compulsory Lockdown Protocol Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 19
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_c_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2083_c_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2083_c_1 = {
+		#Unobtrusive Decryption Support Protocol Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 19
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_c_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_c_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2083_c_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2085_c_0 = {
+		#The Interconnected Administration
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2085
+		folder = {
+			name = augments_folder
+			position = {
+				x = 5
+				y = 21
+			}
+		}
+
+		xor = {
+			cyberaugment2085_c_1
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2085_c_1 = {
+		#Mass Dogma Generator
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 21
+			}
+		}
+
+		xor = {
+			cyberaugment2085_c_0
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2083_m_0 = {
+		#Dopamine Editor Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 19
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_m_1
+			research_cost_coeff = 1
+		}			
+
+		xor = {
+			cyberaugment2083_m_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2083_m_1 = {
+		#Pain Editor Biochip
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 19
+			}
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_m_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cyberaugment2085_m_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			cyberaugment2083_m_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cyberaugment2085_m_0 = {
+		#Limited Self Ego-Death 
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2085
+		folder = {
+			name = augments_folder
+			position = {
+				x = 11
+				y = 21
+			}
+		}	
+
+		xor = {
+			cyberaugment2085_m_1
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cyberaugment2085_m_1 = {
+		#Limited Self Bio-death
+		enable_subunits = {
+			preservers
+		}
+		research_cost = 1.5
+		start_year = 2085
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 21
+			}
+		}
+
+		xor = {
+			cyberaugment2085_m_0
+		}
+		
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+    #PERSERVERS
+	cybernetictroops2065 = {
+		#Cybernetically Enhanced Soldier
+		enable_subunits = {
+			cybersoldiers
+		}
+		enable_equipments = {
+			cyber_soldier_equipment_0
+		}		
+		research_cost = 1.5
+		start_year = 2065
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 3
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2067_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2067_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2067_0 = {
+		#Pre Cognizant Action Trajectory Generator Installation
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 5
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2070_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2070_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2067_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2067_1 = {
+		#Subliminal Obedience Module Installation
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 5
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2070_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2070_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2067_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cybernetictroops2070_0 = {
+		#Advanced BioMonitor Installation
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 7
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2073_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2073_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2070_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2070_1 = {
+		#Subdermal Armor
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 7
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2073_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2073_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2070_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2073_0 = {
+		#Bullet Resistant "Gorilla Arms" Installation
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 9
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2077
+			research_cost_coeff = 1
+		}	
+
+		xor	= {
+			cybernetictroops2073_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2073_1 = {
+		#Thermally Enhanced "Mantisblades" Installation
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2073
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 9
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2077
+			research_cost_coeff = 1
+		}	
+
+		xor	= {
+			cybernetictroops2073_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cybernetictroops2077 = {
+		#Bioprocessor Enhanced Cybernetic Soldier
+		enable_equipments = {
+			cyber_soldier_equipment_1
+		}		
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 11
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2077_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2077_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2077_0 = {
+		#Comprehensive Modular Strategy Advisor Biochip 
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 13
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2080_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2080_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2077_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2077_1 = {
+		#Real Time Opposition Tracking Biochip
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2077
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 13
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2080_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2080_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2077_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cybernetictroops2080_0 = {
+		#Hormonal Regulator Biochip
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 15
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2081
+			research_cost_coeff = 1
+		}	
+
+		xor	= {
+			cybernetictroops2080_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2080_1 = {
+		#Idealised Tendon Manipulation Biochip
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 15
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2081
+			research_cost_coeff = 1
+		}	
+
+		xor	= {
+			cybernetictroops2080_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2081 = {
+		#Third Generation Cybernetic Soldier
+		enable_equipments = {
+			cyber_soldier_equipment_2
+		}		
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 17
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2083_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2083_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+
+	cybernetictroops2083_0 = {
+		#Dopamine Optimal Persistence Biochip
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 19
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2085_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2085_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2083_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2083_1 = {
+		#Prostaglandin Optimal Persistence Biochip
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 19
+			}
+		}
+		
+		path = {
+			leads_to_tech = cybernetictroops2085_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cybernetictroops2085_1
+			research_cost_coeff = 1
+		}		
+
+		xor	= {
+			cybernetictroops2083_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	cybernetictroops2085_0 = {
+		#Self Ego-Death 
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2085
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 21
+			}
+		}
+
+		xor	= {
+			cybernetictroops2085_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	cybernetictroops2085_1 = {
+		#Self Bio-death
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 21
+			}
+		}
+
+		xor	= {
+			cybernetictroops2085_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+
+    #PERSERVERS
+	preservertroops2067 = {
+		#Weaponize Preserver Units
+		enable_subunits = {
+			preservers
+		}
+		enable_equipments = {
+			preserver_equipment_0
+		}		
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 3
+			}
+		}
+		
+		path = {
+			leads_to_tech = preservertroops2074_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = preservertroops2074_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	preservertroops2074_0 = {
+		#Stricter Dragoon Program Requirements
+		preservers = {
+			training_time = 0.1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 5
+			}
+		}
+		
+		path = {
+			leads_to_tech = preservertroops2078_0
+			research_cost_coeff = 1
+		}
+
+		xor	= {
+			preservertroops2074_1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	preservertroops2078_0 = {
+		#Mix Performance Enhancing Drugs into the Nutrient Solution
+		preservers = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 7
+			}
+		}
+		
+		path = {
+			leads_to_tech = preservertroops2082_0
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	preservertroops2082_0 = {
+		#The Soldier's Final Honour 
+		preservers = {
+			casualty_trickleback = -0.1
+			hard_attack = 0.1
+			soft_attack = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 9
+			}
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	preservertroops2074_1 = {
+		#Expand Recruitment to the non-injured
+		preservers = {
+			training_time = -0.15
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 5
+			}
+		}
+		
+		path = {
+			leads_to_tech = preservertroops2078_1
+			research_cost_coeff = 1
+		}
+
+		xor	= {
+			preservertroops2074_0
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	preservertroops2078_1 = {
+		#Replace the Nutrient Solution with Control Systems
+		preservers = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 7
+			}
+		}
+		
+		path = {
+			leads_to_tech = preservertroops2082_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	preservertroops2082_1 = {
+		#The Soldier's Final Honour 
+		preservers = {
+			supply_consumption = -0.1
+			reliability_factor = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 10
+				y = 9
+			}
+		}
+
+		categories = {
+			preserver_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#GRAFTED TROOPS
+	graftedtroops2075 = {
+		#Weaponize Skin Grafting Techniques
+		enable_subunits = {
+			grafted
+		}
+		enable_equipments = {
+			grafted_equipment_0
+		}	
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = augments_folder
+			position = {
+				x = 14
+				y = 3
+			}
+		}
+		
+		path = {
+			leads_to_tech = graftedtroops2080_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = graftedtroops2080_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	graftedtroops2080_0 = {
+		#Dynamic Weapon Extrusion Points 
+		grafted = {
+			soft_attack = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 5
+			}
+		}
+		
+		path = {
+			leads_to_tech = graftedtroops2082_0
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			graftedtroops2080_1
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	graftedtroops2082_0 = {
+		#Full Body Weaponization
+		grafted = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2082
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 7
+			}
+		}
+		
+		path = {
+			leads_to_tech = graftedtroops2084_0
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	graftedtroops2084_0 = {
+		#Bio-Mechanical Total Body Grafting
+		grafted = {
+			defense = 0.1
+			experience_loss_factor = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2084
+		folder = {
+			name = augments_folder
+			position = {
+				x = 13
+				y = 9
+			}
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	graftedtroops2080_1 = {
+		#Improved Skin-2 Grafting
+		grafted = {
+			recon = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 15
+				y = 5
+			}
+		}
+
+		path = {
+			leads_to_tech = graftedtroops2082_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			graftedtroops2080_0
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	graftedtroops2082_1 = {
+		#High Oxidation Blood Substitute
+		grafted = {
+			reliability_factor = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 15
+				y = 7
+			}
+		}
+
+		path = {
+			leads_to_tech = graftedtroops2084_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	graftedtroops2084_1 = {
+		#Total Standard Human Emulation
+		grafted = {
+			recon = 0.2
+			soft_attack = 0.1
+			hard_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 15
+				y = 9
+			}
+		}
+
+		categories = {
+			grafted_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+
+	### NANOMACHINE TECH ###
+	nanomachines2070 = {
+		#Military Use of Nanomachines
+		path = {
+			leads_to_tech = nanomachines2072_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2072
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nanomachines2072_1
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2070
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = -2
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	nanomachines2072_0 = {
+		#Nanomachine Mechanical Repair Algorithms
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = nanomachines2075_0
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = augments_folder
+			position = {
+				x = 4
+				y = 0
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	nanomachines2075_0 = {
+		#Localised Nanomachine Banks
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = nanomachines2078_0
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = augments_folder
+			position = {
+				x = 4
+				y = 2
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	nanomachines2078_0 = {
+		#Enhanced Nanomachine Mechanical Repairing 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		path = {
+			leads_to_tech = nanomachines2081_0
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 4
+				y = 4
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2081_0 = {
+		#Dynamic Vehicle Mapping for Improved Repair
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2081
+		path = {
+			leads_to_tech = nanomachines2083_0
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = augments_folder
+			position = {
+				x = 4
+				y = 6
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2083_0 = {
+		#Automated Upgrade Algorithms 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2083
+		folder = {
+			name = augments_folder
+			position = {
+				x = 4
+				y = 8
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2072 = {
+		#Nanomachine Enhanced Soldiers
+		enable_equipments = {
+			nanomachine_equipment_0
+		}
+		research_cost = 1.5
+		start_year = 2072
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 0
+			}
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2075_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2075_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2075_0 = {
+		#Incoming Trauma Nanomachine Based Hardening
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 2
+			}
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2078_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2078_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			nanomachinesoldier2075_1
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2075_1 = {
+		#Nanomachine Assault Extrusions
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2075
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 2
+			}
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2078_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2078_1
+			research_cost_coeff = 1
+		}
+		xor = {
+			nanomachinesoldier2075_0
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2078_0 = {
+		#Living Armour
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2080
+			research_cost_coeff = 1
+		}
+		xor = {
+			nanomachinesoldier2078_1
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2078_1 = {
+		#Full Body Weaponization 
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2080
+			research_cost_coeff = 1
+		}
+		xor = {
+			nanomachinesoldier2078_0
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2080 = {
+		#Improved Nanomachine Enhanced Soldiers
+		enable_equipments = {
+			nanomachine_equipment_1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = augments_folder
+			position = {
+				x = 8
+				y = 6
+			}
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2082_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nanomachinesoldier2082_1
+			research_cost_coeff = 1
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2082_0 = {
+		#The Raven Protocol
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2082
+		folder = {
+			name = augments_folder
+			position = {
+				x = 7
+				y = 8
+			}
+		}
+		xor = {
+			nanomachinesoldier2082_1
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachinesoldier2082_1 = {
+		#Bio-Nanomechanical Unity
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2082
+		folder = {
+			name = augments_folder
+			position = {
+				x = 9
+				y = 8
+			}
+		}
+		xor = {
+			nanomachinesoldier2082_0
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2072_1 = {
+		#Nanomachine Biological Repair Algorithms
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2072
+		path = {
+			leads_to_tech = nanomachines2075_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = augments_folder
+			position = {
+				x = 12
+				y = 0
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2075_1 = {
+		#Spray on Nanomachine Canisters
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2072
+		path = {
+			leads_to_tech = nanomachines2078_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = augments_folder
+			position = {
+				x = 12
+				y = 2
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2078_1 = {
+		#Faster Healing Nanomachines
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2081
+		path = {
+			leads_to_tech = nanomachines2081_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = augments_folder
+			position = {
+				x = 12
+				y = 4
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2081_1 = {
+		#Perfected In Battle Organ Creation & Replacement
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2081
+		path = {
+			leads_to_tech = nanomachines2083_1
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = augments_folder
+			position = {
+				x = 12
+				y = 6
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	nanomachines2083_1 = {
+		#Improved DNA similarities between Nanomachine Organ and base Organ
+		category_all_infantry = {
+			ap_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = augments_folder
+			position = {
+				x = 12
+				y = 8
+			}
+		}
+		categories = {
+			nanomachine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

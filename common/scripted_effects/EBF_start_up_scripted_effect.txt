@@ -1,0 +1,32 @@
+EBF_startup_nation = { #USE THIS EVERY TIME YOU SPAWN IN A NEW NATION
+	set_variable = {var_Infobox_Open = 1}
+	set_variable = {EBF_socdev_academic_level_var = 150}
+	set_variable = {EBF_socdev_poverty_rate_var = 150}
+	set_variable = {EBF_socdev_economic_health_var = 150}
+	set_variable = {EBF_socdev_industrial_equipment_var = 150}
+	set_variable = {EBF_socdev_army_professionalism_var = 150}
+	set_variable = {EBF_socdev_administrative_efficiency_var = 150}
+	set_variable = {conscription_allow_law_min = 1 }
+	set_variable = {conscription_allow_law_max = 8 }   
+	set_variable = {training_standard_law_min = 1 }
+	set_variable = {training_standard_law_max = 5 }   
+	set_variable = {policing_law_min = 1 }
+	set_variable = {policing_law_max = 6 }   
+	set_variable = {military_supervision_law_min = 1 }
+	set_variable = {military_supervision_law_max = 6 }   
+	set_variable = {ethics_law_min = 1 }
+	set_variable = {ethics_law_max = 3 }   
+	set_variable = {standard_IPs = 50}
+	
+
+	clear_array = mobilization_1_laws_grid
+
+	for_loop_effect = {#ah! thank you maho!
+		start = 1
+		end = 7
+
+		add_to_array = { mobilization_1_laws_grid = v }
+	}
+
+	laws_get_correct_set_variable = YES #do this to avoid werid variable nonsense because the game dosen't like it when i set vars in history file
+}

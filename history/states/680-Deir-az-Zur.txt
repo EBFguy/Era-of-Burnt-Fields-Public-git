@@ -1,0 +1,26 @@
+state={
+	id=680
+	name="STATE_680"
+	manpower = 324110
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = SYR
+		owner = SYR
+		add_core_of = SRY
+		victory_points = {
+			3942 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+
+	provinces={
+		2013 3942 7513 10383 12316 12442 
+	}
+}

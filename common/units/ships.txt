@@ -1,0 +1,139 @@
+sub_units = {
+	carrier = {
+		sprite = carrier
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { 
+			#capital_ship
+			carrier 
+		}
+		need = { ship_hull_carrier = 1 }
+		
+		supply_consumption = 0.3
+		
+		max_organisation = 40
+		
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+	submarine = {
+		sprite = submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { ship_hull_submarine = 1 }
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+		
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed ballast_tanks_inoperable }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+	light_cruiser = {
+		sprite = light_cruiser
+		map_icon_category = ship
+		priority = 5
+		active = yes
+		type = { screen_ship }
+		need = { ship_hull_cruiser = 1 }
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.04
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+	heavy_cruiser = {
+		sprite = heavy_cruiser
+		map_icon_category = ship
+		priority = 6
+		active = yes
+		type = { capital_ship }
+		need = { ship_hull_cruiser = 1 }
+		
+		max_organisation = 40
+
+		
+		supply_consumption = 0.1
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+	destroyer = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 3
+		active = yes
+		type = { screen_ship }
+		need = { ship_hull_light = 1 }
+		
+		max_organisation = 40
+
+		supply_consumption = 0.01
+		
+		critical_parts = { destroyed_ammo_storage broken_propeller on_fire rudder_jammed}
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+	battleship = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 9
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_heavy = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_armor_bb_1 = 1
+				ship_armor_bb_2 = 1
+				ship_armor_bb_3 = 1
+				ship_armor_shbb = 1
+			}
+		}
+		
+		max_organisation = 40
+
+		supply_consumption = 0.2
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1 
+		
+		hit_profile_mult = 1.0
+	}
+	battle_cruiser = {
+		sprite = battle_cruiser
+		map_icon_category = ship
+		priority = 8
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_heavy = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_armor_bc_1 = 1
+				ship_armor_bc_2 = 1
+				ship_armor_bc_3 = 1
+			}
+		}
+
+		max_organisation = 40
+
+		supply_consumption = 0.12
+		
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+}

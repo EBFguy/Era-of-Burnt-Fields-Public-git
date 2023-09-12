@@ -1,0 +1,320 @@
+buildings = {
+
+	# show_on_map:
+	#    if provincial = yes, then show_on_map = X is amount per each province
+	#    if provincial = no, then show_on_map = X is amount per state
+
+
+	#INFASTRUCTURE
+
+	infrastructure = {
+		base_cost = 6000
+		icon_frame = 3
+		infrastructure = yes
+		max_level = 5
+		value = 1
+
+		show_modifier = yes
+		max_fuel_building = 1.5 #k
+		allied_build = yes
+	}
+	
+	air_base = {
+		show_on_map = 1
+		base_cost = 1250
+		icon_frame = 5
+		air_base = yes
+		max_level = 10
+		value = 1
+		damage_factor = 0.5
+		allied_build = yes
+	}
+	
+	radar_station = {
+		show_on_map = 1
+		base_cost = 3375
+		icon_frame = 11
+		radar = yes
+		#max_level = 0 # max: 5
+		max_level = 6 # This is the max unlock level
+		damage_factor = 0.5
+		value = 4
+		centered = yes
+		allied_build = yes
+	}
+	
+	anti_air_building = {
+		show_on_map = 3
+		base_cost = 2500
+		icon_frame = 9
+		anti_air = yes
+		disabled_in_dmz = yes
+		air_defence = 1
+		max_level = 5 # This is the max unlock level
+		damage_factor = 0.1
+		value = 1
+	}
+
+	#STATE BUILDINGS
+
+	arms_factory = {
+		show_on_map = 6
+		base_cost = 7200
+		base_cost_conversion = 4000
+		military_production = 1
+		icon_frame = 2
+		max_level = 20
+		shares_slots = yes
+		value = 8
+		infrastructure_construction_effect = yes
+	}
+
+	industrial_complex = {
+		show_on_map = 6
+		base_cost = 10800
+		base_cost_conversion = 9000
+		general_production = 1
+		icon_frame = 1
+		max_level = 20
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+
+	light_foundry = {
+		base_cost = 9000
+		icon_frame = 10
+		local_resources_lcm = 3 # May use local_resources_ + any resource name
+		local_resources_hcm = 1 # May use local_resources_ + any resource name
+		max_level = 10 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}
+
+	heavy_foundry = {
+		base_cost = 12000
+		icon_frame = 10
+		local_resources_lcm = 5 # May use local_resources_ + any resource name
+		local_resources_hcm = 3 # May use local_resources_ + any resource name
+		max_level = 5 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}
+
+	agricultural_complex = {
+		base_cost = 9000
+		icon_frame = 10
+		local_resources_food = 3 # May use local_resources_ + any resource name
+		max_level = 10 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}	
+
+	food_growing_laboratory = {
+		base_cost = 15000
+		icon_frame = 10
+		local_resources_food = 10 # May use local_resources_ + any resource name
+		max_level = 3 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}	
+
+	circuitry_manufactory = {
+		base_cost = 15000
+		icon_frame = 10
+		local_resources_circuitry = 3 # May use local_resources_ + any resource name
+		max_level = 5 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}		
+
+	renewable_energy_construction  = {
+		base_cost = 9000
+		icon_frame = 10
+		local_resources_electricity = 4 # May use local_resources_ + any resource name
+		max_level = 5 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}	
+
+	dirty_energy_construction = {
+		base_cost = 2000
+		icon_frame = 10
+		local_resources_electricity = 2 # May use local_resources_ + any resource name
+		max_level = 10 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}		
+	
+	nuclear_reactor = {
+		show_on_map = 1
+		base_cost = 12500
+		icon_frame = 13
+		local_resources_electricity = 10 # May use local_resources_ + any resource name
+		max_level = 10 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 10
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}
+	
+	cold_fusion_energy_powerplant = {
+		base_cost = 30000
+		icon_frame = 13
+		local_resources_electricity = 20 # May use local_resources_ + any resource name
+		max_level = 10 # This is the max unlock level
+		refinery = yes
+		shares_slots = yes
+		value = 10
+		infrastructure_construction_effect = yes
+		show_modifier = yes
+	}	
+	
+	rocket_site = {
+		show_on_map = 1
+		base_cost = 6400
+		icon_frame = 12
+		rocket_production = 5
+		rocket_launch_capacity = 1
+		max_level = 2
+		shares_slots = yes
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+	
+	dockyard = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		base_cost = 6400
+		only_costal = yes
+		naval_production = 1
+		icon_frame = 4
+		only_costal = yes
+		max_level = 20
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+	}
+	#PROVINCE BUILDINGS
+
+	supply_node = {
+		show_on_map = 1
+		base_cost = 20000
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 15
+		max_level = 1
+		centered = yes
+		supply_node = yes
+		damage_factor = 0.1
+		allied_build = yes
+		always_shown = yes
+	}	
+	
+	rail_way = {
+		base_cost = 170
+		per_level_extra_cost = 130
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 16
+		max_level = 1
+	}
+	
+	naval_base = {
+		show_on_map = 1
+		show_on_map_meshes = 3
+		always_shown = yes
+		base_cost = 3000
+		provincial = yes
+		only_costal = yes
+		is_port = yes
+		icon_frame = 6
+		max_level = 10
+		value = 1
+		allied_build = yes
+	}
+
+	bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 500
+		per_level_extra_cost = 500
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 7
+		land_fort = 1
+		max_level = 10
+		value = 1
+	}
+	
+	coastal_bunker = {
+		show_on_map = 1
+		has_destroyed_mesh = yes
+		base_cost = 500
+		per_level_extra_cost = 500
+		provincial = yes
+		disabled_in_dmz = yes
+		only_costal = yes
+		icon_frame = 8
+		naval_fort = 1
+		max_level = 10
+		value = 1
+	}
+
+
+	#LEGACY
+	synthetic_refinery = { #LEGACY BUILDING
+		base_cost = 14500
+		icon_frame = 10
+		#local_resources_electricity = 1 # May use local_resources_ + any resource name
+		local_resources_circuitry = 1 # May use local_resources_ + any resource name
+		refinery = yes
+		max_level = 3 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		fuel_gain_from_states = 2.0 #per hour
+	}
+	
+	fuel_silo = {
+		show_on_map = 1
+		base_cost = 5000
+		icon_frame = 14
+		#max_level = 1
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		fuel_silo = yes
+		
+		show_modifier = yes
+		max_fuel_building = 100.0 #k
+	}
+}
+
+
+
+

@@ -1,0 +1,31 @@
+state={
+	id=88
+	name="STATE_88"
+
+	history={
+		add_core_of = POL
+		owner = POL
+		victory_points = {
+			6499 10 
+		}
+		victory_points = {
+			9494 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		466 3434 6522 9494 11507 6499
+	}
+	manpower=5342501
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

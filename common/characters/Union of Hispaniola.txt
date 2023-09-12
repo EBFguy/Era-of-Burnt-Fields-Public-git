@@ -1,0 +1,15 @@
+characters = {
+	HIS_Marie_Lourdes = {
+		name = "Marie Lourdes"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HIS/Portrait_HIS_Marie_Lourdes.dds"
+			}
+		}
+		country_leader = {
+			ideology = reductivism_reductivism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MARIE_LOURDES_DESC"
+		}
+	}
+}

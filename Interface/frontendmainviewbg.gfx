@@ -1,0 +1,10 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/mainmenu_screen.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1924 y=1442 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+}

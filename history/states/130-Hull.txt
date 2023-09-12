@@ -1,0 +1,29 @@
+
+state={
+	id=130
+	name="STATE_130"
+	manpower = 824059
+	local_supplies = 0.0 
+	state_category = large_city
+
+	history={
+		add_core_of = LIN
+		owner = LIN
+		victory_points = {
+			11297 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 10
+			11297 = {
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces={
+	 	11297
+	}
+}

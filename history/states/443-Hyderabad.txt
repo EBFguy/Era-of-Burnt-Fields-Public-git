@@ -1,0 +1,23 @@
+
+state={
+	id=443
+	name="STATE_443" # Sind
+	manpower = 41282212
+	
+	state_category = rural
+
+	history={
+		add_core_of = FAR
+		owner = FAR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1971 4382 7084 10735 10898 10866 12792
+	}
+}

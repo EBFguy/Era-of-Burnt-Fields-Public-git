@@ -1,0 +1,33 @@
+
+state={
+	id=338
+	name="STATE_338"
+
+	history={
+		add_core_of = MER
+		owner = MER
+		victory_points = {
+			3369 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 2
+			3369 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3369 6221 11471 13473 
+	}
+	manpower=2660848
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

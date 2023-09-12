@@ -1,0 +1,28 @@
+
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		add_core_of = YOR
+		owner = YOR
+		victory_points = {
+			13518 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 4
+			air_base = 6
+		}
+
+	}
+
+	provinces={
+		351 11299 13488 13518 13521 
+	}
+	manpower=1197788
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

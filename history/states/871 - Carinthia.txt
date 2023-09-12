@@ -1,0 +1,24 @@
+
+state={
+	id=871
+	name="STATE_871"
+	manpower = 2275377
+	
+	state_category = city
+
+	history={
+		add_core_of = GRA
+		owner = GRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+		victory_points = {
+			3673 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		11612 3673 6687 3674 6691 9650 668 6673
+	}
+}

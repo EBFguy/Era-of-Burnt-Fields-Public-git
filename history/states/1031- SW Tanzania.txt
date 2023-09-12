@@ -1,0 +1,21 @@
+
+state={
+	id=1031
+	name="STATE_1031"
+	manpower = 10
+	
+	state_category = megalopolis
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13034 10988 2176 2281
+	}
+}

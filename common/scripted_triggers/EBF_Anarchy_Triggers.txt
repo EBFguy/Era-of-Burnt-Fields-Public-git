@@ -1,0 +1,8 @@
+EBF_anarchy_visible = {
+	OWNER = {
+		OR = {
+			original_tag = ANA
+			original_tag = SAH
+		}
+	}
+}

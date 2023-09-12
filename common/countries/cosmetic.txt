@@ -1,0 +1,315 @@
+#reload countrycolors
+
+KAZ_Ruspuppet = {
+	color = rgb { 30 60 42 }
+	color_ui = rgb { 30 60 42 }
+}
+
+BRU_Unified = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+LON_Unified_England = {
+	color = rgb { 138 55 86 }
+	color_ui = rgb { 138 55 86 }
+}
+
+LON_Unified_Great_Britain = {
+	color = rgb { 138 55 86 }
+	color_ui = rgb { 138 55 86 }
+}
+
+LON_Unified_Great_Britain2 = {
+	color = rgb { 90 39 68 }
+	color_ui = rgb { 90 39 68 }
+}
+
+LON_Unified_Great_Britain3 = {
+	color = rgb { 90 39 68 }
+	color_ui = rgb { 90 39 68 }
+}
+
+LON_Unified_British_Isles = {
+	color = rgb { 138 55 86 }
+	color_ui = rgb { 138 55 86 }
+}
+
+LON_Unified_British_Isles2 = {
+	color = rgb { 90 39 68 }
+	color_ui = rgb { 90 39 68 }
+}
+
+LON_Unified_British_Isles3 = {
+	color = rgb { 90 39 68 }
+	color_ui = rgb { 90 39 68 }
+}
+
+# ANARCHY
+ANA_Sahara = {
+	color = rgb { 206 169 99 }
+	color_ui = rgb { 206 169 99 }
+}
+ANA_Greenland = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ANA_Africa = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ANA_Iran = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ANA_Outback = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
+#FRANCO-LOWLANDS
+NOW_Unified_Franco_Lowlands2 = {
+    color = rgb { 143 143 143 }
+	color_ui = rgb { 143 143 143 }
+}
+
+NOW_Unified_West_Europe2 = {
+    color = rgb { 143 143 143 }
+	color_ui = rgb { 143 143 143 }
+}
+
+NOW_Unified_Europe2 = {
+    color = rgb { 143 143 143 }
+	color_ui = rgb { 143 143 143 }
+}
+
+#SOUTH EUROPE
+VNC_Unified_south_central_europe2 = {
+	color = rgb { 156 148 148 }
+	color_ui = rgb { 156 148 148 }
+}
+
+VNC_Unified_south_central_europe5 = {
+	color = rgb { 166 96 96 }
+	color_ui = rgb { 166 96 96 }
+}
+
+VNC_Unified_south_central_europe6 = {
+	color = rgb { 172 152 152 }
+	color_ui = rgb { 55 133 142 }
+}
+#central europe
+
+VNC_Unified_central_europe2 = {
+	color = rgb { 156 148 148 }
+	color_ui = rgb { 156 148 148 }
+}
+
+VNC_Unified_central_europe5 = {
+	color = rgb { 166 96 96 }
+	color_ui = rgb { 166 96 96 }
+}
+
+VNC_Unified_central_europe6 = {
+	color = rgb { 172 152 152 }
+	color_ui = rgb { 172 152 152 }
+}
+#EUROPE
+
+VNC_Unified_europe2 = {
+	color = rgb { 156 148 148 }
+	color_ui = rgb { 156 148 148 }
+}
+
+VNC_Unified_europe5 = {
+	color = rgb { 166 96 96 }
+	color_ui = rgb { 166 96 96 }
+}
+
+VNC_Unified_europe6 = {
+	color = rgb { 172 152 152 }
+	color_ui = rgb { 172 152 152 }
+}
+
+#CENTRAL ASIA
+
+KYR_central_asia = {
+	color = rgb { 181 28 7 }
+	color_ui = rgb { 181 28 7 }
+}
+
+#USA
+
+USA_Atlantic_City = {
+	color = rgb { 149 149 149 }
+	color_ui = rgb { 149 149 149 }
+}
+
+USA_reconstruction_government = {
+	color = rgb { 100 138 190 }
+	color_ui = rgb { 100 138 190 }
+}
+
+#BALTIC UNION
+
+EST_united_baltic = {
+	color = rgb { 50 133 168 }
+	color_ui = rgb { 50 133 168 }
+}
+
+LIT_united_baltic = {
+	color = rgb { 50 133 168 }
+	color_ui = rgb { 50 133 168 }
+}
+
+LAT_united_baltic = {
+	color = rgb { 50 133 168 }
+	color_ui = rgb { 50 133 168 }
+}
+
+ODO_russian_military = {
+	color = rgb { 63 122 51 }
+	color_ui = rgb { 63 122 51 }
+}
+
+#IRELAND
+
+ULS_sons_of_ireland = {
+	color = rgb { 80 100 90 }
+	color_ui = rgb { 104 207 117 }
+}
+
+IRE_euro_coup = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+#BRAZIL
+BRA_monarchy = {
+	color = rgb { 70 84 48 }
+	color_ui = rgb { 70 84 48 }
+}
+
+#ARABIA
+SAU_iran = {
+	color = rgb { 50 158 100 }
+	color_ui = rgb { 50 158 100 }
+}
+
+LEB_iran = {
+	color = rgb { 10 158 120 }
+	color_ui = rgb { 10 158 120 }
+}
+
+JOR_iran = {
+	color = rgb { 0 158 140 }
+	color_ui = rgb { 0 158 140 }
+}
+
+UAE_iran = {
+	color = rgb { 117 129 80 }
+	color_ui = rgb { 92 147 126 }
+}
+
+YEM_iran = {
+	color = rgb { 117 90 107 }
+	color_ui = rgb { 92 147 126 }
+}
+
+KHU_saudi = {
+	color = rgb { 76 142 90 }
+	color_ui = rgb { 76 142 90 }
+}
+
+#COMMONWEALTH
+commonwealth_hue_colour = {
+	color = rgb { 168 12 16 }
+	color_ui = rgb { 168 12 16 }
+}
+
+Federation_Common_Nations = {
+	color = rgb { 168 12 16 }
+	color_ui = rgb { 168 12 16 }
+}
+
+ITA_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+SPA_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+FRA_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+DEN_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+GRE_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+ALB_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+POR_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+LIT_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+LAT_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+EST_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+LUX_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+AUS_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+GER_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+CZE_eurofed = {
+    color = rgb { 64 72 169 }
+	color_ui = rgb { 64 72 169 }
+}
+
+JAP_EOH = {
+	color = rgb { 119 62 181 }
+	color_ui = rgb { 119 62 181 }
+}
+
+#Poland things
+
+PLC = {
+	color = rgb { 197 92 106 }
+	color_ui = rgb { 255 120 138 }
+}

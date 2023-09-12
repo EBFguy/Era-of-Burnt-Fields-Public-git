@@ -1,0 +1,21 @@
+
+state={
+	id=887
+	name="STATE_887" # Algerian Desert
+	manpower = 207733
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		7041 12849 12842
+	}
+}

@@ -1,0 +1,28 @@
+state=
+{
+	id=100
+	name="STATE_100"
+	manpower = 167633
+	
+	state_category = rural
+	
+	
+	history=
+	{
+		add_core_of = ICE
+		owner = ICE
+		victory_points = { 12674 1 }
+		buildings = {
+			infrastructure = 2
+			12674 ={
+				naval_base = 1
+			}
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces=
+	{
+4861 12674 12689 	}
+}

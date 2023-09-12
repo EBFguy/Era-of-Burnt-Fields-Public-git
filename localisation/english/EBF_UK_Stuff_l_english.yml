@@ -1,0 +1,62 @@
+﻿l_english:
+
+ #LEGIT GOV
+ MER:0 "United Kingdom"
+ MER_DEF:0 "The Legitimate Government of the United Kingdom"
+ MER_ADJ:0 "British"
+
+ SCO:0 "Scottish Autonomy"
+ SCO_DEF:0 "The Devolved Government of Scotland"
+ SCO_ADJ:0 "Scottish"
+
+ WAL:0 "Welsh Autonomy"
+ WAL_DEF:0 "The Devolved Government of Wales"
+ WAL_ADJ:0 "Welsh"
+
+ YOR:0 "North English Assembly"
+ YOR_DEF:0 "The Devolved North English Assembly"
+ YOR_ADJ:0 "North English"
+
+ DOV:0 "Sussex Admiralty"
+ DOV_DEF:0 "The Sussex Admiralty"
+ DOV_ADJ:0 "English"
+
+ SEN:0 "South English Assembly"
+ SEN_DEF:0 "The South English Assembly"
+ SEN_ADJ:0 "South English"
+
+ #COMMUNISTS
+ NER:0 "British People's Republic"
+ NER_DEF:0 "The Headquarters of the British Revolution"
+ NER_ADJ:0 "British"
+
+ LIN:0 "North English Black Army"
+ LIN_DEF:0 "The North English People's Army"
+ LIN_ADJ:0 "North English"
+
+ SCT:0 "Scottish People's Republic"
+ SCT_DEF:0 "The Scottish People's Republic"
+ SCT_ADJ:0 "Scottish"
+
+ WLS:0 "Welsh Republic"
+ WLS_DEF:0 "The Welsh Free Republic"
+ WLS_ADJ:0 "Welsh"
+
+ NSC:0 "Kent Commune"
+ NSC_DEF:0 "The Commune of Kent"
+ NSC_ADJ:0 "South English"
+
+ CRN:0 "South West Worker's Rebellion"
+ CRN_DEF:0 "The South West Worker's Rebellion"
+ CRN_ADJ:0 "Cornish"
+
+ #OTHERS
+
+ SCF:0 "Central Belt Autonomous Zone"
+ SCF_DEF:0 "The Central Belt Autonomous Zone"
+ SCF_ADJ:0 "Central Scottish"
+
+ NRF:0 "Norfolk"
+ NRF_DEF:0 "The Norfolk Kingdom"
+ NRF_ADJ:0 "English"
+ #LONDON

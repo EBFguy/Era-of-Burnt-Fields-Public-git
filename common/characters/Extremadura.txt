@@ -1,0 +1,15 @@
+characters = {
+	EXT_Alfonso_Baztán = {
+		name = "Alfonso Baztán"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EXT/Portrait_EXT_Alfonso_Baztán.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_national_socialism_with_transhuman_characteristics_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ALFONSO_BAZTAN_DESC"
+		}
+	}
+}

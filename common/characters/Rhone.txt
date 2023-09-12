@@ -1,0 +1,15 @@
+characters = {
+	RHO_Barbara_Massé = {
+		name = "Barbara Massé"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHO/Portrait_RHO_Barbara_Massé.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_liberalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_BARBARA_MASSÉ_DESC"
+		}
+	}
+}

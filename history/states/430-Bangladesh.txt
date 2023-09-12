@@ -1,0 +1,25 @@
+state={
+	id=430
+	name="STATE_430"
+
+	history={
+		add_core_of = ASS
+		owner = ASS
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		7078 9991 10035 10389 10416 10443 11911 12010 13208 12050 7565 10349 1497 1159 4616 7662 4062 7475 1656 10878 10361
+	}
+	manpower=339575137
+	buildings_max_level_factor=1.000
+	state_category=town
+}

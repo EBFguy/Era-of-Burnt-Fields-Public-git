@@ -1,0 +1,19 @@
+scripted_gui = {
+	EBF_super_events = {
+		context_type = player_context
+		window_name = "super_event_GUI"
+
+		visible = {
+			is_ai = no
+			has_variable = EBF_super_event
+		}
+		properties = {
+			EBF_SE_image = { image = "[EBFgetsupereventimage]" }
+		}
+		effects = {
+			EBF_super_event_option_click = {
+				clear_variable = EBF_super_event
+			}
+		}
+	}
+}

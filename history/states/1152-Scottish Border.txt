@@ -1,0 +1,20 @@
+
+state={
+	id=1152
+	name="STATE_1152"
+	manpower = 10
+	
+	state_category = large_town
+
+	history={
+		add_core_of = SCT
+		owner = SCT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		11378 9314
+	}
+}

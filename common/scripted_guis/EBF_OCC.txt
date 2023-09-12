@@ -1,0 +1,35 @@
+scripted_gui = {
+
+	OCC_GUI_free_workers = {
+		context_type = decision_category
+		window_name = "OCC_GUI_free_workers_GUI"
+
+		visible = {
+			always = yes
+			tag = OCC
+		}
+
+		effects = {
+
+		}
+
+		triggers = {
+
+		}
+
+		properties = {
+
+			OCC_GUI_free_workers_Unity_Bar = {
+				frame = OCC_workers_house_unity_var
+			}	
+
+			OCC_GUI_free_workers_Decision_GUI_Bar_left = {
+				frame = OCC_workers_house_array^0
+			}
+
+			OCC_GUI_free_workers_Decision_GUI_Bar_right = {
+				frame = OCC_workers_house_array^2
+			}			
+		}
+	}
+}

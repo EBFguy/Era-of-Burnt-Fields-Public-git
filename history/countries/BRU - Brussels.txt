@@ -1,0 +1,76 @@
+﻿capital = 6
+
+# Vacant
+recruit_character = BRU_Generic_Vacant_psi
+recruit_character = BRU_Generic_Vacant_pi_0
+recruit_character = BRU_Generic_Vacant_pi_1
+recruit_character = BRU_Generic_Vacant_pi_2
+
+recruit_character = BRU_Stefan_Weiss
+recruit_character = BRU_Zach_Philips
+recruit_character = BRU_Patrick_Darcey
+recruit_character = BRU_Josiane_Blanc
+recruit_character = BRU_Magdi_Leonard_Kyenge
+recruit_character = BRU_Sigmund_Meyer
+recruit_character = BRU_Anna_Koen
+recruit_character = BRU_Adriana_Rubio
+recruit_character = BRU_Jasper_Dijk
+recruit_character = BRU_Alincia_Brune
+recruit_character = BRU_Liesbeth_Martens
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    technoutopianism = 5
+    fascist = 2
+    autocracy = 7
+    anocracy = 76
+    libertarian_socialism = 10
+}
+
+add_ideas = {
+    Free_Internet_member
+
+    BRU_Alincia_Brune_min
+    BRU_Patrick_Darcey_min
+    BRU_Generic_Vacant_pi_1_min
+    BRU_Liesbeth_Martens_min
+
+    BRU_A_Long_Gone_Federation
+    BRU_Against_The_Wall
+    BRU_The_Eurostructure
+
+    EBF_limited_exports
+    EBF_minor_minimum_wage
+    EBF_14_hours
+    EBF_primary_human_model
+
+    EBF_volunteer_only
+    EBF_ordinary_policing
+    EBF_basic_training
+    EBF_modernised_rules_of_war
+
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_pluralism
+    EBF_universal_voting
+    EBF_free_press
+    EBF_all_unions_allowed
+    EBF_open_immigration
+    EBF_no_legal_protections
+}

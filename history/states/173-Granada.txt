@@ -1,0 +1,35 @@
+state={
+	id=173
+	name="STATE_173"
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = ADA
+		owner = ADA
+		victory_points = {
+			12038 1 
+		}
+		victory_points = {
+			1176 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
+			12038 = {
+				naval_base = 1
+
+			}
+
+		}
+		
+
+	}
+
+	provinces={
+		747 1176 4065 7068 7153 7196 10009 10063 11956 12038 
+	}
+	manpower=2404895
+	buildings_max_level_factor=1.000
+	state_category=city
+}

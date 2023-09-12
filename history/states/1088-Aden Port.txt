@@ -1,0 +1,27 @@
+state={
+	id=1088
+	name="STATE_1088"
+	manpower = 10
+
+	state_category = metropolis
+	local_supplies = 0.0
+	history={
+		add_core_of = YEM
+		owner = YEM
+		buildings = {
+			infrastructure = 4
+			13433 = {
+				naval_base = 4
+			}
+		}
+
+		victory_points = {
+			13433 10
+		}
+
+	}
+
+	provinces={
+		13433 13434
+	}
+}

@@ -1,0 +1,42 @@
+#
+# List of options showing in the Game Rules screen
+#
+# format is:
+# rule_token = {
+#	name = "TEXT_KEY_FOR_NAME"
+#	required_dlc = "Name of the Required DLC"
+#	desc = "TEXT_KEY_FOR_LONG_DESC"
+#	group = "TEXT_KEY_FOR_GROUP"					# Used for filtering. A single rule can be in multiple groups 
+#	icon = gfx_option_token							# Optional icon
+#	option = {										# Unless other specified, the first option is the default option
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		allow_achievements = no						# Achievements cannot be earned if one or more game rules are set to an option that has this property set to no.
+#													# If not specified, this is set to yes for default options and no for all other options.
+#	}
+#	default = {										# Specify an option with the "default" token to override the behavior of treating the first option as the default.
+#		name = option_token
+#		text = "TEXT_KEY_FOR_OPTION_NAME"
+#		...
+#	}
+# }
+
+#EBF Game Rules#
+
+### Global Stuff
+even_earth_can_bleed = {
+	name = "EVEN_EARTH_CAN_BLEED"
+	group = "RULE_GROUP_GLOBAL_RULES"
+	default = {
+		name = EARTH_CANNOT_BLEED
+		text = "RULE_OPTION_DEFAULT_CANNOT_BLEED"
+		desc = "RULE_OPTION_DEFAULT_CANNOT_BLEED_DESC"
+		allow_achievements = yes	
+	}
+	option = {
+		name = EARTH_CAN_BLEED
+		text = "RULE_OPTION_CAN_BLEED"
+		desc = "RULE_OPTION_CAN_BLEED_DESC"
+		allow_achievements = yes		
+	}
+}

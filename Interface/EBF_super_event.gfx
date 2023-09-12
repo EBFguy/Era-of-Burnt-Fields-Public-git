@@ -1,0 +1,26 @@
+spriteTypes = {
+	SpriteType = { 
+		name = "GFX_superevent_screen_GUI" 
+		texturefile = "gfx/interface/EBF_superevent/EBF_superevent_screen.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_superevent_screen_overlay_GUI" 
+		texturefile = "gfx/interface/EBF_superevent/EBF_Superevent_grey_overlay.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_superevent_button_GUI" 
+		texturefile = "gfx/interface/EBF_superevent/Big_Event_Button.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_superevent_picture_one" 
+		texturefile = "gfx/interface/EBF_superevent/SE_pics/EBF_Superevent_picture_one.dds" 
+	}	
+
+	SpriteType = { 
+		name = "GFX_superevent_picture_two" 
+		texturefile = "gfx/interface/EBF_superevent/SE_pics/EBF_Superevent_picture_two.dds" 
+	}	
+}

@@ -1,0 +1,67 @@
+﻿capital = 307
+
+# Vacant
+recruit_character = VEN_Generic_Vacant_psi
+recruit_character = VEN_Generic_Vacant_pi_0
+recruit_character = VEN_Generic_Vacant_pi_1
+recruit_character = VEN_Generic_Vacant_pi_2
+
+fill_empty_minister_nochecks = yes # Please remove if you're adding ministers.
+
+# Starting tech
+set_technology = {
+
+}
+
+recruit_character = VEN_Gael_Puig
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = authoritarian_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    authoritarian_socialism = 100
+}
+
+add_ideas = {
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_underground_opposition
+    EBF_pluralism
+    EBF_no_voting
+    EBF_state_press
+    EBF_all_unions_allowed
+    EBF_closed_borders
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_limited_exports
+    EBF_trinket_minimum_wage
+    EBF_10_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_volunteer_only
+    EBF_basic_training
+    EBF_militarised_policing
+    EBF_minimal_supervision
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_significant_poverty
+    EBF_stagnating_economy
+    EBF_political_interference
+    EBF_industrial_equipment_use
+    EBF_cronyism
+	
+	VEN_The_Perfect_Scapegoat
+    VEN_An_All_Venezuelan_Tragedy
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=22
+	name="STATE_22" # Languedoc
+	manpower = 5972955
+	
+	
+	state_category = town
+	
+
+	history={
+		add_core_of = OCC
+		owner = OCC
+		victory_points = {
+			9898 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
+		
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		752 760 3751 6770 6960 6962 9723 9898 11709 11711 11877 
+	}
+}

@@ -1,0 +1,365 @@
+ideas = {
+	country = {
+		DPK_echoes_of_juche = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DPK_echoes_of_juche"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DPK_echoes_of_juche
+					  
+			modifier = {	
+				political_power_factor = 0.1
+				drift_defence_factor = 0.3
+			}
+		}
+
+		DPK_an_overzealous_old_guard = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DPK_an_overzealous_old_guard"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DPK_an_overzealous_old_guard
+					  
+			modifier = {	
+				army_core_attack_factor = 0.15
+				experience_gain_factor = -0.1
+			}
+		}	
+
+		DPK_national_council_reorg_patriotic_korea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DPK_national_council_reorg_patriotic_korea"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_DPK_national_council_reorg_patriotic_korea
+					  
+			modifier = {	
+				conscription_factor = -0.65
+				research_speed_factor = -0.5
+				production_factory_efficiency_gain_factor = -0.1 
+			}
+		}		
+
+		MON_pure_red_regime = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MON_pure_red_regime"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MON_pure_red_regime
+					  
+			modifier = {	
+				stability_factor = 0.1
+				political_power_factor = 0.3
+			}
+		}		
+
+		MON_small_land_of_paradise = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MON_small_land_of_paradise"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_MON_small_land_of_paradise
+					  
+			modifier = {	
+				army_defence_factor = 0.1
+			}
+		}	
+
+		AFG_strife_inwards_strife_outwards = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AFG_strife_inwards_strife_outwards"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.25
+				weekly_manpower = 250
+				conscription_factor = -0.35
+			}
+		}		
+
+		AFG_help_from_shanghai = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AFG_help_from_shanghai"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = -0.1
+				production_factory_start_efficiency_factor = 0.15
+			}
+		}		
+
+		ASS_forgotten_conquest = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ASS_forgotten_conquest"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.5
+				war_support_factor = -0.5
+			}
+		}	
+
+		ASS_what_remains_to_be_exploited = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ASS_what_remains_to_be_exploited"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+
+			targeted_modifier = {
+				tag = PRC
+				cic_to_target_factor = 0.5
+				mic_to_target_factor = 0.9
+			}
+		}	
+
+		TRI_shadows_across_the_jungle = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TRI_shadows_across_the_jungle"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				stability_factor = -0.75
+				army_speed_factor = -0.25
+				army_morale_factor = -0.1
+			}
+		}	
+
+		TRI_permanence_of_impermanence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TRI_permanence_of_impermanence"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = -0.3
+				drift_defence_factor = -0.15
+			}
+		}		
+
+		TRI_executors_efforts = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea TRI_executors_efforts"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				acclimatization_hot_climate_gain_factor = 0.25
+				army_core_attack_factor = 0.1
+			}
+		}		
+
+		MYA_ghost_of_the_duke = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MYA_ghost_of_the_duke"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_core_attack_factor = 0.15
+				party_popularity_stability_factor = -0.1
+			}
+		}	
+
+		MYA_wa_shwes_pleasures = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MYA_wa_shwes_pleasures"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = 0.15
+				stability_weekly_factor = -0.05
+			}
+		}	
+
+		MAL_south_east_stronghold= {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAL_south_east_stronghold"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				army_core_defence_factor = 0.05
+				production_speed_buildings_factor = 0.1
+			}
+		}			
+		MAL_fallen_city= {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAL_fallen_city"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = -0.05
+				civilian_factory_use = 5
+			}
+		}	
+		CIN_broken_and_sunken = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CIN_broken_and_sunken"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				political_power_factor = -0.3
+				stability_factor = -0.1
+			}
+		}		
+		CIN_war_that_never_ended = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CIN_war_that_never_ended"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = MTG_naval_treaty_adherent
+					  
+			modifier = {	
+				war_support_factor = 0.05
+				max_training = -0.1
+
+			}
+		}
+
+	}
+}

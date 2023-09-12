@@ -1,0 +1,109 @@
+characters = {
+	OCC_Supreme_Politburo = {
+		name = OCC_Supreme_Politburo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/OCC/Portrait_OCC_Supreme_Politburo.dds"
+			}
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_total_collectivism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_SUPREME_POLITBURO_DESC"
+		}
+	}
+
+	OCC_Supreme_Politburo_minister = {
+		name = OCC_Supreme_Politburo_minister
+		portraits = {
+			civilian = {
+				small = "GFX_idea_OCC_Supreme_Politburo"
+			}
+		}
+		advisor = {
+			slot = person_of_significant_influence
+			idea_token = OCC_Supreme_Politburo_minister_min
+			allowed = { original_tag = OCC }
+			traits = { }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	OCC_Nicolas_Favre = {
+		name = OCC_Nicolas_Favre
+		portraits = {
+			civilian = {
+				small = "GFX_idea_OCC_Nicolas_Favre"
+				large = "gfx/leaders/OCC/Portrait_OCC_Nicolas_Favre.dds"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = OCC_Nicolas_Favre_min
+			allowed = { original_tag = OCC }
+			traits = { minister_old_dogmatist }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			ideology = totalitarian_socialism_total_collectivism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NICOLAS_FAVRE_DESC"
+		}
+	}
+
+	OCC_Urilla_Deniau = {
+		name = OCC_Urilla_Deniau
+		portraits = {
+			civilian = {
+				small = "GFX_idea_OCC_Urilla_Deniau"
+				large = "gfx/leaders/OCC/Portrait_OCC_Urilla_Deniau.dds"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = OCC_Urilla_Deniau_min
+			allowed = { original_tag = OCC }
+			traits = { minister_crazed_fanatic }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			ideology = libertarian_socialism_soul_of_the_worker_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NICOLAS_FAVRE_DESC"
+		}
+	}
+
+	OCC_Giorgio_Napolitani = {
+		name = OCC_Giorgio_Napolitani
+		portraits = {
+			civilian = {
+				small = "GFX_idea_OCC_Giorgio_Napolitani"
+				large = "gfx/leaders/OCC/Portrait_OCC_Giorgio_Napolitani.dds"
+			}
+		}
+		advisor = {
+			slot = person_of_influence
+			idea_token = OCC_Giorgio_Napolitani_min
+			allowed = { original_tag = OCC }
+			traits = { minister_connected_false_scientist }
+			ledger = civilian
+			cost = -1
+			removal_cost = -1
+			ai_will_do = { factor = 0 }
+		}
+		country_leader = {
+			ideology = technoutopianism_scientific_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NICOLAS_FAVRE_DESC"
+		}
+	}
+}

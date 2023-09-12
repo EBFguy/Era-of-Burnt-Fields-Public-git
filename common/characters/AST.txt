@@ -1,0 +1,189 @@
+characters = {
+	AST_Roger_Floyd	= {
+		name = AST_Roger_Floyd
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ROGER_FLOYD_DESC"
+		}	
+	}
+	AST_Joshua_Stone = {
+		name = AST_Joshua_Stone
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JOSHUA_STONE_DESC"
+		}	
+	}
+	AST_Australian_Parliament = {
+		name = AST_Australian_Parliament
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_AUSTRALIAN_PARLIAMENT_DESC"
+		}	
+	}	
+
+	AST_Jasper_Reid = {
+		name = AST_Jasper_Reid
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_national_conservative_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_JASPER_REID_DESC"
+		}	
+	}	
+	AST_Andrew_Collins = {
+		name = AST_Andrew_Collins
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism_liberal_conservatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ANDREW_COLLINS_DESC"
+		}	
+	}	
+	AST_Sonny_Mussett = {
+		name = AST_Sonny_Mussett
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_national_liberalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_SONNY_MUSSETT_DESC"
+		}	
+	}	
+	AST_Logan_Wright = {
+		name = AST_Logan_Wright
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_social_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_LOGAN_WRIGHT_DESC"
+		}	
+	}	
+	AST_Fletcher_Nguyen	= {
+		name = AST_Fletcher_Nguyen
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultramilitarism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FLETCHER_NGUYEN_CANADA_DESC"
+		}	
+	}	
+	AST_Gemma_Watson = {
+		name = AST_Gemma_Watson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_democratic_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_GEMMA_WATSON_DESC"
+		}	
+	}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#CIVIL WAR FACTIONS
+	CST_Chloe_Davies = {
+		name = CST_Chloe_Davies
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_absolute_eco_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CHOLE_DAVIES_DESC"
+		}	
+	}	
+	PRT_Ella_O_Brien = {
+		name = PRT_Ella_O_Brien
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_social_liberal_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ELLA_O_BRIEN_DESC"
+		}	
+	}	
+	STM_Dylan_Russel = {
+		name = STM_Dylan_Russel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_transhumanism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_DYLAN_RUSSEL_DESC"
+		}	
+	}
+	CDF_Nixon_Evans	= {
+		name = CDF_Nixon_Evans
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_occupation_authority_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NIXON_EVANS_DESC"
+		}	
+	}
+}

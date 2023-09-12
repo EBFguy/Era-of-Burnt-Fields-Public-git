@@ -1,0 +1,27 @@
+
+state={
+	id=132
+	name="STATE_132"
+
+	history={
+		add_core_of = NER
+		owner = NER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		6318 6335 6384 13511 13514 13515 13522 
+	}
+	manpower=8348316
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

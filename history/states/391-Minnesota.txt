@@ -1,0 +1,21 @@
+
+state={
+	id=391
+	name="STATE_391"
+	manpower = 18953015
+	state_category = city
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	
+	}
+	local_supplies = 0.0 
+	provinces={
+		1719 1734 6767 6827 7896 12550 12588 
+	}
+}

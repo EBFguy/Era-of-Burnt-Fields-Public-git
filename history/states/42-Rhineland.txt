@@ -1,0 +1,28 @@
+
+state={
+	id=42
+	name="STATE_42"
+	manpower = 10054523
+	
+	state_category = metropolis
+
+	history={
+		add_core_of = RHE
+		owner = RHE
+		victory_points = { 11435 1 }
+		#victory_points = { 3423 3 }
+		#victory_points = { 9575 3 }
+		victory_points = { 11531 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		563 3423 3558 9575 11435 11470 11494 11531 11547 9335
+	}
+	
+	
+}

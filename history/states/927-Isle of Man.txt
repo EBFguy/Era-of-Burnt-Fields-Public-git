@@ -1,0 +1,22 @@
+state={
+	id=927
+	name="STATE_927"
+	manpower=10
+	
+	state_category = megalopolis
+	local_supplies = 0.0 
+	history={
+		add_core_of = MER
+		owner = MER
+		buildings = {
+			infrastructure = 4
+			3311 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		3311
+	}
+}

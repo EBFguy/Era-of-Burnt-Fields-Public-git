@@ -1,0 +1,74 @@
+﻿l_english:
+
+ EUROPEAN_UNIFICATION_WAR:0 "European Unification War"
+ european_unification:0 "Following the collapse of the European Federation European warlords now fight over the federation's corspe."
+ BRITISH_UNIFICATION_WAR:0 "British Unification War"
+ british_reunification:0 "After decending into warlordism following the British Exodus the remaining residents of Britain now fight in their abandoned homeland."
+
+ #JAPAN
+ WAR_NAME_EOH_JAP:0 "The Fractured Mind Insurrection"
+ WAR_NAME_VEA_INT:0 "Battle of Hokkaido"
+
+ #EUROPE WARS
+ WAR_NAME_ULS_BIF:0 "The Ulster Pacification"
+ CIVIL_WAR_NAME_ULS_IRE:0 "Second Irish Civil War"
+ CIVIL_WAR_NAME_BIF_IRE:0 "Second Irish Civil War"
+ WAR_NAME_NOW_BRU:0 "The Soldier's War"
+ #CENTRAL ASIA WARS
+ WAR_NAME_FAD_TRK:0 "Turkestani War of Liberation"
+ WAR_NAME_FRU_UZB:0 "Uzbekistan Civil War"
+ WAR_NAME_KYR_KGR:0 "Kyrgyzstan Civil War"
+ WAR_NAME_FRU_KAR:0 "The March of the Free Roaming Army"
+ WAR_NAME_FRU_TRK:0 "The March of the Free Roaming Army"
+ WAR_NAME_FRU_FAD:0 "The March of the Free Roaming Army"
+ WAR_NAME_FRU_KYR:0 "The March of the Free Roaming Army"
+ WAR_NAME_FRU_KGR:0 "The March of the Free Roaming Army"
+ WAR_NAME_FRU_TAJ:0 "The March of the Free Roaming Army"
+ WAR_NAME_KGR_UZB:0 "Central Asian Battle Royale"
+ WAR_NAME_FAD_UZB:0 "Central Asian Battle Royale"
+ WAR_NAME_TRK_UZB:0 "Central Asian Battle Royale"
+ WAR_NAME_KYR_UZB:0 "Central Asian Battle Royale"
+ WAR_NAME_KYR_FAD:0 "Central Asian Battle Royale"
+ WAR_NAME_KYR_TRK:0 "Central Asian Battle Royale"
+ WAR_NAME_UZB_FAD:0 "Central Asian Battle Royale"
+ WAR_NAME_UZB_TRK:0 "Central Asian Battle Royale"
+ WAR_NAME_KAR_KGR:0 "Central Asian Battle Royale"
+ WAR_NAME_KAR_KYR:0 "Central Asian Battle Royale"
+ WAR_NAME_KAR_UZB:0 "Central Asian Battle Royale"
+ WAR_NAME_KAR_TAJ:0 "Central Asian Battle Royale"
+ WAR_NAME_KAR_FAD:0 "Central Asian Battle Royale"
+ WAR_NAME_KAR_TRK:0 "Central Asian Battle Royale"
+ WAR_NAME_TAJ_KGR:0 "Central Asian Battle Royale"
+ WAR_NAME_TAJ_KYR:0 "Central Asian Battle Royale"
+ WAR_NAME_TAJ_UZB:0 "Central Asian Battle Royale"
+ WAR_NAME_TAJ_FAD:0 "Central Asian Battle Royale"
+ WAR_NAME_TAJ_TRK:0 "Central Asian Battle Royale"
+
+ #INDIA
+ WAR_NAME_RDL_FAR:0 "The First Army's Retreat"
+ WAR_NAME_RDL_PAK:0 "The Red Legions March"
+ WAR_NAME_RDL_KAS:0 "The Red Legions March"
+ WAR_NAME_RDL_HIN:0 "The Red Legions March"
+ WAR_NAME_RDL_CID:0 "The Red Legions March"
+ WAR_NAME_RDL_MAH:0 "The Red Legions March"
+ WAR_NAME_RDL_IND:0 "The War for North India"
+
+ #ANDES
+ WAR_NAME_ARG_NGL:0 "The Argentine Civil War"
+ WAR_NAME_ARG_BOL:0 "The Andes War"
+ WAR_NAME_ARG_PER:0 "The Andes War"
+ WAR_NAME_CHL_NGL:0 "The Andes War"
+ WAR_NAME_CHL_BOL:0 "The Andes War"
+ WAR_NAME_CHL_PER:0 "The Andes War"
+
+ #middle east
+ WAR_NAME_IRA_SAU:0 "The Great Middle Eastern War"
+
+ #MEXICO
+ WAR_NAME_YUC_ZAP:0 "The Yucatán Liberation War"
+
+ #NORTH AFRICA
+ WAR_NAME_MAG_MOR:0 "The Maghreb Revolutionary War"
+
+ #CENTRAL AFRICA
+ WAR_NAME_MAU_WMU:0 "The Mauritania Order Action"

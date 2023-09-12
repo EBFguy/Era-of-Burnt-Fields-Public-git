@@ -1,0 +1,252 @@
+defined_text = {
+	name = GetVNCshiningislandstart
+	text = {
+		trigger = { has_country_flag = VNC_new_venice_construction_beginning }
+		localization_key = VNC_new_venice_on
+	}
+	text = {
+		localization_key = VNC_new_venice_off
+	}
+}
+
+defined_text = {
+	name = GetVNCshiningislandnormalfunctions
+	text = {
+		trigger = { has_country_flag = VNC_built_first_building }
+		localization_key = VNC_normal_functions_show
+	}
+	text = {
+		localization_key = VNC_normal_functions_show_other
+	}
+}
+
+defined_text = {
+	name = GetVNCshiningislandextrafunctions
+	text = {
+		trigger = { has_country_flag = VNC_built_first_special_building }
+		localization_key = VNC_special_functions_show
+	}
+}
+defined_text = {
+	name = GetVNCshiningislandpolitical
+	text = {
+		trigger = { check_variable = { political_power_gain_VNC_new_venice > 0 } }
+		localization_key = VNC_shining_island_political_show
+	}
+}
+
+defined_text = {
+	name = GetVNCshiningislandconscription
+	text = {
+		trigger = { check_variable = { conscription_factor_gain_VNC_new_venice > 0 } }
+		localization_key = VNC_shining_island_conscription_show
+	}
+}
+
+defined_text = {
+	name = GetVNCshiningislandstability
+	text = {
+		trigger = { check_variable = { stability_factor_gain_VNC_new_venice > 0 } }
+		localization_key = VNC_shining_island_stability_show
+	}
+}
+
+defined_text = {
+	name = GetVNCshiningislandresearch
+	text = {
+		trigger = { check_variable = { research_speed_factor_VNC_new_venice > 0 } }
+		localization_key = VNC_shining_island_research_show
+	}
+}
+
+defined_text = {
+	name = GetVNCshiningislandmaxfuel
+	text = {
+		trigger = { check_variable = { max_fuel_factor_gain_VNC_new_venice > 0 } }
+		localization_key = VNC_shining_island_max_fuel_show
+	}
+}
+
+
+defined_text = {
+	name = VNC_get_krennic_position
+	text = {
+		trigger = { has_country_flag = VNC_corporate_krennic_in_control }
+		localization_key = VNC_corperate_this_member_in_control
+	}
+	text = {
+		trigger = { has_country_flag = VNC_corporate_krennic_coup_attempt }
+		localization_key = VNC_corperate_this_member_in_coup
+	}
+	text = {
+		trigger = { 
+			NOT = {
+				has_country_flag = VNC_corporate_krennic_coup_attempt 
+				has_country_flag = VNC_corperate_this_member_in_coup 
+			}
+		}
+		localization_key = VNC_corperate_this_member_is_neutral
+	}
+}
+
+defined_text = {
+	name = VNC_get_milana_position
+	text = {
+		trigger = { has_country_flag = VNC_corporate_Milana_in_control }
+		localization_key = VNC_corperate_this_member_in_control
+	}
+	text = {
+		trigger = { has_country_flag = VNC_corporate_Milana_coup_attempt }
+		localization_key = VNC_corperate_this_member_in_coup
+	}
+	text = {
+		trigger = { 
+			NOT = {
+				has_country_flag = VNC_corporate_Milana_coup_attempt 
+				has_country_flag = VNC_corperate_this_member_in_coup 
+			}
+		}
+		localization_key = VNC_corperate_this_member_is_neutral
+	}
+}
+
+defined_text = {
+	name = VNC_get_holmes_position
+	text = {
+		trigger = { has_country_flag = VNC_corporate_holmes_in_control }
+		localization_key = VNC_corperate_this_member_in_control
+	}
+	text = {
+		trigger = { has_country_flag = VNC_corporate_holmes_coup_attempt }
+		localization_key = VNC_corperate_this_member_in_coup
+	}
+	text = {
+		trigger = { 
+			NOT = {
+				has_country_flag = VNC_corporate_holmes_coup_attempt 
+				has_country_flag = VNC_corperate_this_member_in_coup 
+			}
+		}
+		localization_key = VNC_corperate_this_member_is_neutral
+	}
+}
+
+defined_text = {
+	name = VNC_get_manna_position
+	text = {
+		trigger = { has_country_flag = VNC_corporate_manna_in_control }
+		localization_key = VNC_corperate_this_member_in_control
+	}
+	text = {
+		trigger = { has_country_flag = VNC_corporate_manna_coup_attempt }
+		localization_key = VNC_corperate_this_member_in_coup
+	}
+	text = {
+		trigger = { 
+			NOT = {
+				has_country_flag = VNC_corporate_manna_coup_attempt 
+				has_country_flag = VNC_corperate_this_member_in_coup 
+			}
+		}
+		localization_key = VNC_corperate_this_member_is_neutral
+	}
+}
+
+defined_text = {
+	name = VNCgetcorperatefaction
+	text = {
+		trigger = { check_variable = { temp_selected_faction = 0 } }
+		localization_key = VNC_corperate_hall_faction_0
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_faction = 1 } }
+		localization_key = VNC_corperate_hall_faction_1
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_faction = 2 } }
+		localization_key = VNC_corperate_hall_faction_2
+	}
+    text = {
+		trigger = { check_variable = { temp_selected_faction = 3 } }
+		localization_key = VNC_corperate_hall_faction_3
+	}
+}
+
+defined_text = {
+	name = VNCgetforcecapname
+	text = {
+		trigger = { check_variable = { temp_selected_cap = 0 } }
+		localization_key = VNC_selected_force_cap_0
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_cap = 1 } }
+		localization_key = VNC_selected_force_cap_1
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_cap = 2 } }
+		localization_key = VNC_selected_force_cap_2
+	}
+    text = {
+		trigger = { check_variable = { temp_selected_cap = 3 } }
+		localization_key = VNC_selected_force_cap_3
+	}
+}
+
+defined_text = {
+	name = VNCgetbuildingtype
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 0 } }
+		localization_key = VNC_selected_building_0
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 1 } }
+		localization_key = VNC_selected_building_1
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 2 } }
+		localization_key = VNC_selected_building_2
+	}
+    text = {
+		trigger = { check_variable = { temp_selected_building_type = 3 } }
+		localization_key = VNC_selected_building_3
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 4 } }
+		localization_key = VNC_selected_building_4
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 5 } }
+		localization_key = VNC_selected_building_5
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 6 } }
+		localization_key = VNC_selected_building_6
+	}
+	text = {
+		trigger = { check_variable = { temp_selected_building_type = 7 } }
+		localization_key = VNC_selected_building_7
+	}
+}
+
+defined_text = {
+	name = VNCgetrulingmembervar
+	text = {
+		trigger = { has_country_flag = VNC_corporate_krennic_in_control }
+		localization_key = VNC_ruling_member_0
+	}
+	text = {
+		trigger = { has_country_flag = VNC_corporate_Milana_in_control }
+		localization_key = VNC_ruling_member_1
+	}
+	text = {
+		trigger = { has_country_flag = VNC_corporate_holmes_in_control }
+		localization_key = VNC_ruling_member_2
+	}
+    text = {
+		trigger = { has_country_flag = VNC_corporate_manna_in_control }
+		localization_key = VNC_ruling_member_3
+	}
+}
+
+
+

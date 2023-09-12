@@ -1,0 +1,21 @@
+
+state={
+	id=858
+	name="STATE_858"
+	manpower = 3281981
+	
+	state_category = town
+
+	history={
+		add_core_of = CAL
+		owner = CAL
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		3476 6504 11606 480
+	}
+}

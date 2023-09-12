@@ -1,0 +1,70 @@
+defined_text = {
+	name = GetNetworkName
+	text = {
+		trigger = { has_idea = AmericaNet_member }
+		localization_key = AmericaNet_name
+	}
+	text = {
+		trigger = { has_idea = Peoples_Connection_member }
+		localization_key = Peoples_Connection_name
+	}
+	text = {
+		trigger = { has_idea = Free_Internet_member }
+		localization_key = Free_Internet_name
+	}
+	text = {
+		trigger = { has_idea = UEN_member }
+		localization_key = UEN_name
+	}
+	text = {
+		trigger = { has_idea = RevNet_member }
+		localization_key = RevNet_name
+	}
+	text = {
+		trigger = { has_idea = Habeo_Ideam_Network_Member }
+		localization_key = Habeo_Ideam_Network_name
+	}	
+	text = {
+		trigger = { has_idea = commonet_Member }
+		localization_key = commonet_name
+	}		
+	text = {
+		localization_key = No_Network_name
+	}
+}
+
+defined_text = {
+	name = GetNetworkDesc
+	text = {
+		trigger = { has_idea = AmericaNet_member }
+		localization_key = AmericaNet_desc
+	}
+	text = {
+		trigger = { has_idea = Peoples_Connection_member }
+		localization_key = Peoples_Connection_desc
+	}
+	text = {
+		trigger = { has_idea = Free_Internet_member }
+		localization_key = Free_Internet_desc
+	}
+	text = {
+		trigger = { has_idea = UEN_member }
+		localization_key = UEN_desc
+	}
+	text = {
+		trigger = { has_idea = RevNet_member }
+		localization_key = RevNet_desc
+	}
+	text = {
+		trigger = { has_idea = Habeo_Ideam_Network_Member }
+		localization_key = Habeo_Ideam_Network_desc
+	}	
+	text = {
+		trigger = { has_idea = commonet_Member }
+		localization_key = commonet_desc
+	}	
+		
+	text = {
+		localization_key = No_Network_desc
+	}
+}

@@ -1,0 +1,120 @@
+﻿l_english:
+ #BASE
+ ZZZ_ultranational:0 ""
+ ZZZ_ultranational_DEF:0 ""
+ ZZZ_ultranational_ADJ:0 ""
+ ZZZ_fascist:0 ""
+ ZZZ_fascist_DEF:0 ""
+ ZZZ_fascist_ADJ:0 ""
+ ZZZ_despotist:0 ""
+ ZZZ_despotist_DEF:0 ""
+ ZZZ_despotist_ADJ:0 ""
+ ZZZ_anocracy:0 ""
+ ZZZ_anocracy_DEF:0 ""
+ ZZZ_anocracy_ADJ:0 ""
+ ZZZ_conservatism:0 ""
+ ZZZ_conservatism_DEF:0 ""
+ ZZZ_conservatism_ADJ:0 ""
+ ZZZ_liberalism:0 ""
+ ZZZ_liberalism_DEF:0 ""
+ ZZZ_liberalism_ADJ:0 ""
+ ZZZ_social_democrat:0 ""
+ ZZZ_social_democrat_DEF:0 ""
+ ZZZ_social_democrat_ADJ:0 ""
+ ZZZ_socalist:0 ""
+ ZZZ_socalist_DEF:0 ""
+ ZZZ_socalist_ADJ:0 ""
+ ZZZ_libertarian_communist:0 ""
+ ZZZ_libertarian_communist_DEF:0 ""
+ ZZZ_libertarian_communist_ADJ:0 ""
+ ZZZ_authoritarian_communist:0 ""
+ ZZZ_authoritarian_communist_DEF:0 ""
+ ZZZ_authoritarian_communist_ADJ:0 ""
+
+ #BRU_Unified
+ BRU_Unified:0 "European Federation"
+ BRU_Unified_DEF:0 "The European Federation"
+ BRU_Unified_ADJ:0 "European"
+
+ #Central Asian Unifiers
+ KYR_central_asia:0 "Central Asian Union"
+ KYR_central_asia_DEF:0 "The Central Asian Peoples' Union"
+ KYR_central_asia_ADJ:0 "Central Asian"
+ TAJ_central_asia:0 "The Freemen"
+ TAJ_central_asia_DEF:0 "The Freemen of Central Asia"
+ TAJ_central_asia_ADJ:0 "Central Asian Freemen"
+ FAD_central_asia:0 "Fadel"
+ FAD_central_asia_DEF:0 "The Empire of Fadel"
+ FAD_central_asia_ADJ:0 "Fadelite"
+ KAR_central_asia:0 "Central Asian Restoration Government"
+ KAR_central_asia_DEF:0 "The Central Asian Restoration Government"
+ KAR_central_asia_ADJ:0 "Central Asian"
+ FRU_central_asia:0 "The All Conquering Army"
+ FRU_central_asia_DEF:0 "The All Conquering Army"
+ FRU_central_asia_ADJ:0 "Central Asian"
+ TRK_central_asia:0 "Central Asian Federation"
+ TRK_central_asia_DEF:0 "The Central Asian Federation"
+ TRK_central_asia_ADJ:0 "Central Asian"
+ UZB_central_asia:0 "United States of Central Asia"
+ UZB_central_asia_DEF:0 "The United States of Central Asia"
+ UZB_central_asia_ADJ:0 "Central Asian" 
+
+ #Poland Cosmetic Tags
+ PLC:0 "Mandate Of Silesia"
+ PLC_DEF:0 "Polish Mandate Of Czech Silesia"
+ PLC_ADJ:0 "Silesian"
+
+ #KGR VICTORY COSMETIC TAGS
+ TAJ_KGR_central_asia:0 "Tajikistan"
+ TAJ_KGR_central_asia_DEF:0 "The Tajikistan Occupational Government"
+ TAJ_KGR_central_asia_ADJ:0 "Tajikistani" 
+ UZB_KGR_central_asia:0 "Uzbekistan Zone"
+ UZB_KGR_central_asia_DEF:0 "The Uzbekistan Transitional Government Zone"
+ UZB_KGR_central_asia_ADJ:0 "Uzbekistani" 
+ KAR_KGR_central_asia:0 "Karakalpakstan"
+ KAR_KGR_central_asia_DEF:0 "The Self-Governing Republic of Karakalpakstan"
+ KAR_KGR_central_asia_ADJ:0 "Karakalpakstani"
+ TRK_KGR_central_asia:0 "Turkmenistan"
+ TRK_KGR_central_asia_DEF:0 "The Republic of Turkmenistan"
+ TRK_KGR_central_asia_ADJ:0 "Turkmenistani" 
+
+ #AMZ_Brazil
+ AMZ_Brazil:0 "Socialist State of Brazil"
+ AMZ_Brazil_DEF:0 "The Socialist State of Brazil"
+ AMZ_Brazil_ADJ:0 "Brazilian"
+
+ #MOS_IRAQ
+ MOS_iraq:0 "Liberated Workers of Iraq"
+ MOS_iraq_DEF:0 "The Liberated Workers of Iraq"
+ MOS_iraq_ADJ:0 "Iraqi"
+
+ #KHU_saudi
+ KHU_saudi:0 "Khuzestan Province"
+ KHU_saudi_DEF:0 "The Saudi Forces in Khuzestan"
+ KHU_saudi_ADJ:0 "Saudi"
+
+ #Federation_Common_Nations
+ Federation_Common_Nations:0 "Federation of Common Nations"
+ Federation_Common_Nations_DEF:0 "The Federation of Common Nations"
+ Federation_Common_Nations_ADJ:0 "Anglo-Federal"
+
+ #Federation_Common_Nations
+ ITA_eurofed:0 "Italy"
+ SPA_eurofed:0 "Spain"
+ FRA_eurofed:0 "France"
+ GRE_eurofed:0 "Greece"
+ GER_eurofed:0 "Germany"
+ CZE_eurofed:0 "Czechia"
+ POR_eurofed:0 "Portugal"
+ LUX_eurofed:0 "Luxembourg"
+ AUS_eurofed:0 "Austria"
+ MER_united_kingdom:0 "United Kingdom"
+ GAL_civil_war_fed:0 "Gabrielite Forces"
+ BRN_civil_war_fed:0 "Second German Democratic Republic"
+ ORL_civil_war_fed:0 "Kingdom of France"
+ GRE_civil_war_fed:0 "Greece"
+
+
+
+
+

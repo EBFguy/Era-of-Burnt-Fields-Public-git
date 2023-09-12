@@ -1,0 +1,37 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "LON_Logic_Consumption_GUI"
+		size = { width = 525 height = 300 }
+		position = { x = 0 y = 0 }
+
+
+		iconType = {
+			name = "LON_GUI_logic_consump_category_header"
+			spriteType = "GFX_decision_category_EBF_LON_Logic_Consump"
+			position = { x = 5 y = -10 }
+			alwaystransparent = yes
+		}
+
+		instantTextboxType = {
+			name = "LON_GUI_logic_consump_upper_desc"
+			position = { x = 115 y = 95 }
+			font = "hoi_16mbs"
+			text = "LON_GUI_logic_consump_upper_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 380
+			maxHeight = 50
+		}
+
+		instantTextboxType = {
+			name = "LON_GUI_logic_consump_lower_desc"
+			position = { x = 115 y = 200 }
+			font = "hoi_16mbs"
+			text = "LON_GUI_logic_consump_lower_desc_txt"
+			alwaystransparent = yes
+			maxWidth = 380
+			maxHeight = 50
+		}
+		
+	}
+} 

@@ -1,0 +1,24 @@
+
+state={
+	id=220
+	name="STATE_220"
+	manpower = 2430638
+	state_category = city
+	local_supplies = 0.0 
+	history={
+		add_core_of = RUS
+		owner = RUS
+		victory_points = {
+			3580 5
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		
+	}
+
+	provinces={
+		457 558 580 3554 3580 6254 6304 6543 6603 9260 9542 9579 11244 11526 
+	}
+}

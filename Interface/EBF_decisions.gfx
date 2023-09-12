@@ -1,0 +1,10 @@
+spriteTypes = {	
+
+	### categories
+	
+
+	#spriteType = {
+	#	name = "GFX_decision_category_test1"
+	#	texturefile = "gfx/interface/EBF_PRC/category_test_1.dds"
+	#}
+}

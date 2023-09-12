@@ -1,0 +1,22 @@
+state=
+{
+	id=648
+	name="STATE_648"
+	state_category = tiny_island
+	manpower=223
+	history=
+	{
+		add_core_of = ANA
+		owner = ANA
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces=
+	{
+13026 12677	}
+}

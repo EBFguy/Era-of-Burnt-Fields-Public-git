@@ -1,0 +1,22 @@
+
+state={
+	id=889
+	name="STATE_889"
+	manpower = 18539
+	
+	state_category = wasteland
+
+	history={
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = CHD
+		owner = CHD
+		
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1994 12022 5004 5136 4902
+	}
+}

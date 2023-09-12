@@ -1,0 +1,196 @@
+characters = {
+	#INITAL PARTY LEADERS
+	BRA_Romeu_Delgado = {
+		name = BRA_Romeu_Delgado
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Romeu_Delgado.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ROMEU_DELGADO_DESC"
+		}
+	}
+
+	BRA_Cesar_Vaz = {
+		name = BRA_Cesar_Vaz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Cesar_Vaz.dds"
+			}
+		}
+		country_leader = {
+			ideology = fascist_neo_fascism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CESAR_VAZ_DESC"
+		}
+	}	
+
+	BRA_Nelson_Capela = {
+		name = BRA_Nelson_Capela
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Nelson_Capela.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism_ultranationalism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NELSON_CAPELA_DESC"
+		}
+	}	
+
+	BRA_Lourenco_Di_Mattia= {
+		name = BRA_Lourenco_Di_Mattia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Lourenco_Di_Mattia.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_autocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_LOURCENO_DI_MATTIA_DESC"
+		}
+	}
+
+	BRA_Daniel_Sarney = {
+		name = BRA_Daniel_Sarney
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Daniel_Sarney.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_paleoconservative_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_DANIEL_SARNEY_DESC"
+		}
+	}
+
+	BRA_Isaias_Rezende = {
+		name = BRA_Isaias_Rezende
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Isaias_Rezende.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressivism_social_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ISAIAS_REZENDE_DESC"
+		}
+	}
+
+	BRA_WWC_Cells = {
+		name = BRA_WWC_Cells
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_authoritarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "no no bad bad bad"
+		}
+	}
+	
+	BRA_Erasmo_Blauschwert = {
+		name = BRA_Erasmo_Blauschwert
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Erasmo_Blauschwert.dds"
+			}
+		}
+		country_leader = {
+			ideology = technoutopianism_technocracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ERASMO_BLASCHWERT_TECHNOCRACY_DESC"
+		}
+		country_leader = {
+			ideology = autocracy_technocratic_despotism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ERASMO_BLASCHWERT_TECHNOCRACTIC_autocracy_DESC"
+		}		
+		country_leader = {
+			ideology = anocracy_technocratic_democracy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ERASMO_BLASCHWERT_TECHNOCRATIC_DEMOCRACY_DESC"
+		}
+	}	
+	BRA_Rosa_Sa = {
+		name = BRA_Rosa_Sa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Rosa_Sa.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_market_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_ROSA_SA_DESC"
+		}
+	}	
+
+	#NON STARTING LEADERS
+	BRA_Conrado_Karpowicz = {
+		name = BRA_Conrado_Karpowicz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Conrado_Karpowicz.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_militaristic_libertarianism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CONRADO_KARPOWICZ_DESC"
+		}
+	}
+	BRA_Rejuvenation_Council = {
+		name = BRA_Rejuvenation_Council
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_REJUVENATION_COUNCIL_DESC"
+		}
+	}
+	BRA_Yago_Lobo = {
+		name = BRA_Yago_Lobo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Yago_Lobo.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_provisional_government_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_YAGO_LOBO_DESC"
+		}	
+	}
+	BRA_Pablo_I = {
+		name = BRA_Pablo_I
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRA/Portrait_BRA_Pablo_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = anocracy_semi_constitutional_monarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_PABLO_I_SEMI_DESC"
+		}
+		country_leader = {
+			ideology = autocracy_absolute_monarchy_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_PABLO_I_ABSOLUTE_MON_DESC"
+		}
+	}
+}

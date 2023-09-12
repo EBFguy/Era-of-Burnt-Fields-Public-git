@@ -1,0 +1,104 @@
+ideas = {
+	country = {
+		OCC_the_powers_of_supreme_politburo = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea OCC_the_powers_of_supreme_politburo"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_OCC_the_powers_of_supreme_politburo
+					  
+			modifier = {	
+				political_power_cost = -0.05
+				drift_defence_factor = 0.5
+				administrative_efficiency_monthly_rate = -5
+			}
+		}			
+		OCC_issues_of_workplace_revolutionism = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea OCC_issues_of_workplace_revolutionism"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_OCC_issues_of_workplace_revolutionism
+					  
+			modifier = {	
+				stability_factor = -0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = -0.05
+			}
+		}	
+		OCC_growing_power_games = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea OCC_growing_power_game"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_OCC_growing_power_games
+					  
+			modifier = {	
+				political_power_gain = -0.15
+				administrative_efficiency_monthly_rate = -5
+			}
+		}
+		OCC_our_eurocity = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea OCC_growing_power_game"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_OCC_our_eurocity
+					  
+			modifier = {	
+				OCC_workers_house_tick_array = 5
+				civilian_factory_use = 3
+				consumer_goods_factor = 0.1
+			}
+		}
+		OCC_utopia_crisis = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea OCC_utopia_crisis"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			#picture = idea_OCC_our_eurocity
+					  
+			modifier = {	
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_gain = -0.25
+				EBF_OCC_unity_tick_change = -5
+			}
+		}
+	}
+}

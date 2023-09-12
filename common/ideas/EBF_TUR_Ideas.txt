@@ -1,0 +1,6 @@
+ideas = {
+	country = {
+		TUR_autocracy_1 = {}
+		TUR_authoritarian_socialism_1 = {}
+	}	
+}	

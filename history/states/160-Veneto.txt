@@ -1,0 +1,27 @@
+state={
+	id=160
+	name="STATE_160"
+	
+	local_supplies = 0.0 
+	state_category = large_city
+
+	history={
+		add_core_of = VNC
+		owner = VNC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		603 628 3604 3657 6656 9613 11584 6793
+	}
+	manpower=5733628
+	buildings_max_level_factor=1.000
+}

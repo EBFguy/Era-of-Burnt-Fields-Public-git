@@ -1,0 +1,23 @@
+
+state={
+	id=490
+	name="STATE_490"
+	manpower = 3485163
+	
+	state_category = rural
+
+	history={
+		add_core_of = PER
+		owner = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		8149 10942 
+	}
+}

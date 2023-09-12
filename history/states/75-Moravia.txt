@@ -1,0 +1,28 @@
+state={
+	id=75
+	name="STATE_75"
+	manpower = 3759195
+
+	state_category = city
+
+	history={
+		add_core_of = MOV
+		owner = MOV
+		victory_points = {
+			3569 20
+		}
+		victory_points = {
+			6562 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			air_base = 5
+
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		569 3553 3569 6562 6576 6590 11511 
+	}
+}

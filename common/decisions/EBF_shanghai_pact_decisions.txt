@@ -1,0 +1,133 @@
+EBF_shanghai_pact_korea = {
+	EBF_korea_north_korean_unification = {
+
+		icon = generic_research
+
+		available = {
+			has_war = no
+		}
+
+		visible = {
+    		is_north_korean_warlord_nation = yes
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EBF_KOREA_NORTH_KOREA_UNIFIED
+			set_country_flag = IS_NATIONAL_UNIFIER
+			get_north_korea_tag = yes
+			save_global_event_target_as = EBF_Korea_north_korean_unifier
+			set_capital = {
+				state = 527
+				remember_old_capital = no
+			}
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+	EBF_korea_south_korean_unification = {
+
+		icon = generic_research
+
+		available = {
+			has_war = no
+		}
+
+		visible = {
+    		is_south_korean_warlord_nation = yes
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EBF_KOREA_SOUTH_KOREA_UNIFIED
+			set_country_flag = IS_NATIONAL_UNIFIER
+			get_south_korea_tag = yes
+			save_global_event_target_as = EBF_Korea_south_korean_unifier
+			set_capital = {
+				state = 525
+				remember_old_capital = no
+			}
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+	EBF_korea_korean_unification_War = {
+
+		icon = generic_research
+
+		available = {
+			has_war = no
+			has_country_flag = IS_NATIONAL_UNIFIER
+			has_global_flag = EBF_KOREA_SOUTH_KOREA_UNIFIED
+			has_global_flag = EBF_KOREA_NORTH_KOREA_UNIFIED
+		}
+
+		visible = {
+    		OR = {
+				is_south_korean_warlord_nation = yes
+				is_north_korean_warlord_nation = yes
+			}
+			has_country_flag = IS_NATIONAL_UNIFIER
+		}
+
+		fire_only_once = YES
+		cost = 0
+		days_remove = 60
+
+		cancel_trigger = {
+			has_war = yes
+			has_global_flag = EBF_PRC_CHINA_MOVES_TO_KOREA
+		}
+
+		complete_effect = {
+			country_event = {
+				id = korean_skeleton.1
+			}
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+	EBF_korea_korean_unification = {
+
+		icon = generic_research
+
+		available = {
+			has_war = no
+			owns_state = 1043
+			owns_state = 1049
+		}
+
+		visible = {
+			OR = {
+				is_south_korean_warlord_nation = yes
+				is_north_korean_warlord_nation = yes
+			}
+    		has_country_flag = IS_NATIONAL_UNIFIER
+		}
+
+		fire_only_once = YES
+		cost = 0
+
+		complete_effect = {
+			set_global_flag = EBF_KOREA_UNIFIED
+			clr_global_flag = EBF_shanghai_pact_korea_collapse_ongoing
+			set_country_flag = IS_FULL_UNIFIER
+			get_full_korea_tag = yes
+			save_global_event_target_as = EBF_Korea_total_korean_unifier
+		}
+
+		ai_will_do = {
+			base = 1000
+		}
+	}
+}

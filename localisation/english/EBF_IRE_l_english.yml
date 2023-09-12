@@ -1,0 +1,118 @@
+﻿l_english:
+ #NAMES#
+ BIF:0 "Belfast"
+ BIF_DEF:0 "The Union of Belfast"
+ BIF_ADJ:0 "British Irish"
+
+ ULS:0 "Ulster"
+ ULS_DEF:0 "The Irish Pacification Force of Ulster"
+ ULS_ADJ:0 "Northern Irish"
+
+ IRE:0 "Ireland"
+ IRE_DEF:0 "The Republic of Ireland"
+ IRE_ADJ:0 "Irish"
+
+ #COSMETICS#
+ #IRE
+ IRE_euro_coup:0 "EuroCommission Ireland"
+ IRE_euro_coup_DEF:0 "The European Commission of Ireland"
+ IRE_euro_coup_ADJ:0 "Euro-Irish" 
+ #ULS
+ ULS_sons_of_ireland:0 "Sons of Ireland"
+ ULS_sons_of_ireland_DEF:0 "The Sons of Ireland"
+ ULS_sons_of_ireland_ADJ:0 "Irish"
+ ULS_united_ireland:0 "Éire"
+ ULS_united_ireland_DEF:0 "The Republic of Éire"
+ ULS_united_ireland_ADJ:0 "Irish" 
+
+ #BIF
+ BIF_unionist_forces:0 "Ulster"
+ BIF_unionist_forces_DEF:0 "The Union of Ulster"
+ BIF_unionist_forces_ADJ:0 "Ulster"
+ BIF_united_ireland:0 "Governorate of Ireland"
+ BIF_united_ireland_DEF:0 "The Governorate of Ireland"
+ BIF_united_ireland_ADJ:0 "British-Irish" 
+ 
+ #PARTIES#
+ #Ireland
+ IRE_ultranationalism_party:0 "Sons of Ireland"
+ IRE_ultranationalism_party_long:0 "The Sons of Ireland"
+ IRE_fascist_party:0 "National Ireland"
+ IRE_fascist_party_long:0 "The National Ireland Party" 
+ IRE_autocracy_party:0 "EAI"
+ IRE_autocracy_party_long:0 "The European Army in Ireland" 
+ IRE_anocracy_party:0 "PAI"
+ IRE_anocracy_party_long:0 "Provisional Assembly of Ireland"
+ IRE_conservatism_party:0 "EPR - Conservatives"
+ IRE_conservatism_party_long:0 "European Parliament Remnants - Conservatives" 
+ IRE_liberalism_party:0 "EPR - Liberals"
+ IRE_liberalism_party_long:0 "European Parliament Remnants - Liberals" 
+ IRE_libertarian_socialism_party:0 "Solidarity"
+ IRE_libertarian_socialism_party_long:0 "The Unified Solidarity Party" 
+
+ IRE_authdem_party_collapse:0 "RI"
+ IRE_authdem_party_collapse_long:0 "Rebuilding Ireland"
+ IRE_condem_party_collapse:0 "Dignity Party"
+ IRE_condem_party_collapse_long:0 "The Dignity Party"
+ IRE_libdem_party_collapse:0 "Irish Liberals"
+ IRE_libdem_party_collapse_long:0 "The Irish Liberal Party"
+ #Ulster
+ ULS_ultranationalism_party:0 "Sons of Ireland"
+ ULS_ultranationalism_party_long:0 "The Sons of Ireland"
+ ULS_autocracy_party:0 "UPF"
+ ULS_autocracy_party_long:0 "Ulster Pacification Forces" 
+ #Belfast
+ BIF_anocracy_party:0 "TMI"
+ BIF_anocracy_party_long:0 "The Ministry of Ireland"
+ #CHARACHTERS#
+ #IRELAND
+ IRE_Riley_Rochfort:0 "Riley Rochfort"
+ POLITICS_RILEY_ROCHFORT_DESC:0 "§YTaoiseach of Ireland§!\n§W--------------§!\nAgainst all odds, Riley Rochfort has become the Taoiseach of Ireland. He was born in 1982 to poor carpenters, and the chances of him ever achieving much were negligible from the moment he was born. However, he persisted, working in his father's carpentry business for thirty years and making a small fortune through years of hard work and savviness.\n\nHowever, when the Covid-19 recession brought his business to bankruptcy, Riley decided to go to university and study political science with the hope of changing Ireland for the better. This hope was achieved when he became a member of the Dáil Éireann in 2030 for the Labour Party. Serving consistently for the next 25 years, Riley soon became known as the rock of Irish politics, a man of sage advice and kind smiles.\n\nHowever, even the rock of Ireland could not foresee the European Civil War and the subsequent collapse. With the Dáil collapsing around him and no leader readily available to guide Ireland through the chaos, Riley stepped up and became the Taoiseach in 2056, amidst turmoil and a political structure on the brink.\n\nFive years later, Ireland is back on firmer ground and, for the first time in its existence, is ready to unify under one republic. But still, there are those who are against him and Ireland. Will the rock be able to unify Ireland and lead it through these troubled times?"
+ POLITICS_RILEY_ROCHFORT_GREAT_UNIFIER_DESC:0 "§YTaoiseach of Ireland§!\n§W--------------§!\n"
+ IRE_Thomas_OLeary:0 "Thomas O'Leary"
+ POLITICS_THOMAS_OLEARY_DESC:0 "§YEuroCommissioner of Ireland§!\n§W--------------§!\n"
+ IRE_Richard_McGarry:0 "Richard McGarry"
+ POLITICS_RICHARD_MCGARRY_DESC:0 "§YThe Second Son§!\n§W--------------§!\n"
+ IRE_Edward_Lawlor:0 "Edward Lawlor"
+ POLITICS_EDWARD_LAWLOR_DESC:0 "§YTaoiseach of Ireland§!\n§W--------------§!\n"
+ IRE_Harrison_Donohoe:0 "Harrison Donohoe"
+ POLITICS_HARRISON_DONOHOE_DESC:0 "§YTaoiseach of Ireland§!\n§W--------------§!\n"
+ IRE_Charles_Reynolds:0 "Charles Reynolds"
+ POLITICS_CHARLES_REYNOLDS_DESC:0 "§YTaoiseach of Ireland§!\n§W--------------§!\n"
+ 
+ #ULSTER
+ ULS_Nicholas_Neylan:0 "Nicholas Neylan"
+ POLITICS_NICHOLAS_NEYLAN_DESC:0 "§YHead of the Ulster Forces§!\n§W--------------§!\nWhen chaos erupted in Europe, many generals fled to fight for whichever small and pitiful warlord would take them. However, Neylan was not one of these men. Born in 2017 into a long line of military men, he knew from a young age that his destiny was to serve Ireland, and he embraced it fervently.\n\nAfter completing his education, Neylan joined the Irish Officer Cadets in 2037 and quickly distinguished himself as a natural leader and fearless fighter. His fiery reputation and top marks earned him the honor of becoming part of the still-young EuroArmy in 2039, where he helped define its independence from the national armies of the Federation.\n\nHowever, when Spanish General Gabriel Riba betrayed Europe and incited the bloody Brussels Siege and subsequent Civil War, Neylan chose to return home instead of joining up with any of the countless petty kingdoms and warlords being established. He brought with him years of knowledge and expertise and quickly became one of Rochfort's most trusted confidants.\n\nIn 2059, Neylan was entrusted with his most sacred duty yet: the reclamation of Ulster. With the British Exodus in full swing, Neylan led his men across to achieve the long-held dream of Irish unification.\n\nIt's now or never."
+ ULS_Calum_OGalvin:0 "Calum O'Galvin"
+ POLITICS_CALUM_OGALVIN_DESC:0 "§YHeadmaster of the Sons of Ireland§!\n§W--------------§!\nEven those who are a part of Calum's closest circle have no idea where he comes from, and many even question whether the name Calum O'Galvin is just a guise used to hide his true identity. Yet still, his calls for a crusade against the traitors in Dublin who sold Ireland to foreigners are answered by tens of thousands of determined souls.\n\nInitially seen as a nuisance Calum has built the Sons of Ireland from the ground up with tenacity and determination since its founding in 2047. During the 50s the ranks of the Sons increased gradually increasing to a couple hundred men Dublin finally started to put pressure on him and his organisation as he developed more and more into a significant threat. A pressure that seemed likely to doom the organisation.\n\nHowever, 2056 proved to be a turning point for Calum's fate, as the federation's demise and the subsequent economic and political turmoil in Ireland provided a catalyst for growth in the Sons. Membership began to swell, and by the time the Ulster Expedition began, Calum was ready. Infiltrating Nicholas Neylan's expeditionary forces proved to be child's play, and soon after every aspect and corner of Neylan's forces were filled with Sons of Ireland sympathizers and members. With the Expedition's victory in Belfast, Neylan's usefulness ended for Calum's plan, and with one single shot, the Sons of Ireland manage to take over the entirety of Ulster.\n\nCalum promises only one thing, that Ireland will be cleansed with blood and tears, and those who wronged her will face their consequences, in every imaginable way..."
+
+ #BELFAST
+ BIF_Jayden_Rochfort:0 "Jayden Rochfort"
+ POLITICS_JAYDEN_ROCHFORT_DESC:0 "§YFirst Minister of Ulster§!\n§W--------------§!\n"
+ POLITICS_JAYDEN_ROCHFORT_IRELAND_DESC:0 "§YGeneral Governor of Ireland§!\n§W--------------§!\n"
+ #IDEAS# 
+ IRE_europes_western_bastion:0 "Europe's Last Western Bastion"
+ IRE_europes_western_bastion_desc:0 "Despite the war and unrest that has plagued Europe, Ireland stands as a bastion of peace and stability. This relative peace makes us the last bastion of western Europe and the old ideas of liberty."
+ IRE_marching_towards_unification:0 "Marching Towards Unification"
+ IRE_marching_towards_unification_desc:0 "With Britan's demise thanks to their Exodus from the Earth we have been the best oppurunity to at last reunify our fair island. After a successful first few months of battle Unionist forces now hold out in the Fortress city of Belfast."
+ IRE_rising_sons:0 "Rising Sons"
+ IRE_rising_sons_desc:0 "The Sons of Ireland are a far-right militant group led by Calum O'Galvin. They wish to return Ireland to its true form as a land for the Celtic exclusively. They have managed to infiltrate the army in many areas, especially the north."
+ IRE_unified_at_last:0 "Unified at Last"
+ IRE_unified_at_last:0 "After a century of being split we have finally united the Emerald Isle under our rule. We have freed our fellow people from the grips of imperialism and secured a future in which we never have to live under the boot of another again."
+ IRE_europes_defender:0 "Europe's Defender"
+ IRE_europes_new_home:0 "Europe's New Home?"
+ ULS_retaking_the_home:0 "Retaking Our Home"
+ ULS_retaking_the_home_desc:0 "Under Major-general Nicholas Neylan's command the Ulster Pacification Force has pushed its way to Belfast. However, they have managed to hold out against our assault so far but soon enough they will falter and Ireland will be one once more."
+ ULS_the_sons_have_risen:0 "The Sons Have Risen"
+ ULS_debts_will_be_repayed:0 "Debts Will be Repayed"
+ ULS_debts_will_be_repayed_desc:0 "The many who have wronged Ireland have a debt to repay. This is a debt that  must be paid in blood for the countless lives lost at the hands of imperialists. Now is the time to collect our debt and right the wrongs of their ancestors."
+ BIF_fortress_belfast:0 "Fortress Belfast"
+ BIF_fortress_belfast:0 "We stand as the last bastion of unionism and must defend it with our lives. Though we are heavily fortified the Irish forces may overwhelm us with sheer force. We must stand firm for our brothers and sisters."
+ BIF_british_takeover:0 "A Very British Takeover"
+ BIF_the_crown_will_reign:0 "The Crown Will Reign"
+
+ #TRAITS#
+ IRE_great_unifier:0 "Great Unifier"
+
+ #MISC# 
+ BIF_the_crown_will_reign_tt:0 "§YWe will always bow to a nation ruled by the House of Windsor§!"

@@ -1,0 +1,23 @@
+state={
+	id=725
+	name="STATE_725"
+	manpower=5785
+	state_category = tiny_island
+
+	history={
+		add_core_of = PAP
+		owner = PAP
+		
+		buildings = {
+			infrastructure = 3
+			7339 = {
+				naval_base = 1
+
+			}		
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		7339 
+	}
+}

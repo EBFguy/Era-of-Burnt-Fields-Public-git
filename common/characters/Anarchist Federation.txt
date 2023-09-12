@@ -1,0 +1,15 @@
+characters = {
+	ANF_French_Councils = {
+		name = "French Councils"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ANF/Portrait_ANF_French_Councils.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_anarcho_communist_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_FRENCH_COUNCILS_DESC"
+		}
+	}
+}

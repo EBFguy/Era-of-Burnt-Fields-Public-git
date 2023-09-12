@@ -1,0 +1,54 @@
+characters = {
+	EMI_Giovanni_Marlobruno = {
+		name = "GIovanni Marlobruno"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EMI/Portrait_EMI_Giovanni_Marlobruno.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_united_front_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_GIOVANNI_BRUNO_DESC"
+		}
+	}
+	EMI_Gabriele_Bronte = {
+		name = "Max Davis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EMI/Portrait_EMI_Gabriele_Bronte.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_religious_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_GABRIELE_BRONTE_DESC"
+		}
+	}
+	EMI_Migel_Marconi = {
+		name = "Max Davis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EMI/Portrait_EMI_Migel_Marconi.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_market_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MIGEL_MARCONI_DESC"
+		}
+	}
+	EMI_Carlo_Gallo = {
+		name = "Max Davis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/EMI/Portrait_EMI_Carlo_Gallo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_neo_stalinlist_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_CARLO_GALLO_DESC"
+		}
+	}
+}

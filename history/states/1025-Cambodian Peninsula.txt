@@ -1,0 +1,24 @@
+
+state={
+	id=1025
+	name="STATE_1025"
+	manpower = 10
+	
+	state_category = megalopolis
+	
+	local_supplies = 0.0 
+	history={
+		victory_points = {
+			7376 1
+		}
+		add_core_of = TRI
+		owner = TRI
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		13027 7376 12288 10317 4223 10289 7404 7331 7319 1396 7432 4341 4359 12191 1353 10177 4284 10134
+	}
+}

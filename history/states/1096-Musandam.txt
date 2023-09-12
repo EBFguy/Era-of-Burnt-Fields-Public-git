@@ -1,0 +1,21 @@
+state={
+	id=1096
+	name="STATE_1096"
+	manpower = 10
+
+	state_category = pastoral
+	local_supplies = 0.0
+	history={
+		add_core_of = OMA
+		owner = OMA
+		add_core_of = UAE
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		13448
+	}
+}

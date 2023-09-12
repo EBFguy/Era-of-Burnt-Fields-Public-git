@@ -1,0 +1,28 @@
+
+state={
+	id=121
+	name="STATE_121"
+
+	history={
+		add_core_of = SCF
+		owner = SCF
+		victory_points = {
+			9392 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		9383 9392 
+	}
+	manpower=893441
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

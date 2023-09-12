@@ -1,0 +1,21 @@
+
+state={
+	id=232
+	name="STATE_232"
+	manpower = 2399108
+	local_supplies = 0.0 
+	state_category = rural
+
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+
+	provinces={
+		683 700 712 728 1450 3668 3682 3711 4463 6730 7554 7624 9645 11632 
+	}
+}

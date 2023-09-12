@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		NPF_processo_revolucionario = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NPF_processo_revolucionario"}
+			removal_cost = -1
+
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			#picture = MTG_naval_treaty_adherent
+
+			modifier = {
+
+			}
+		}
+		NPF_ramshackle_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea NPF_ramshackle_army"}
+			removal_cost = -1
+
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+
+			#picture = MTG_naval_treaty_adherent
+
+			modifier = {
+
+			}
+		}
+	}
+}

@@ -1,0 +1,99 @@
+﻿capital = 8
+
+# Vacant
+recruit_character = NOW_Generic_Vacant_psi
+recruit_character = NOW_Generic_Vacant_pi_0
+recruit_character = NOW_Generic_Vacant_pi_1
+recruit_character = NOW_Generic_Vacant_pi_2
+
+# Starting tech
+set_technology = {
+
+}
+
+set_stability = 0.5
+set_war_support = 0.1
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = anocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+country_lock_all_division_template = yes
+
+
+set_popularities = {
+    technoutopianism = 0
+    securocracy = 0
+    ultranationalism = 0
+    fascist = 0
+    autocracy = 0
+    anocracy = 100
+    conservatism = 0
+    liberalism = 0
+    libertarian_socialism = 0
+    authoritarian_socialism = 0
+    totalitarian_socialism = 0
+    reductivism = 0
+}
+
+add_ideas = {
+    Free_Internet_member
+}
+
+recruit_character = NOW_Ava_Smith
+recruit_character = NOW_Wiseman
+recruit_character = NOW_Baptiste
+recruit_character = NOW_Ambrosius
+recruit_character = NOW_Rutger
+
+add_ideas = {
+    #POLLITICAL
+    EBF_one_party_state
+    EBF_internal_opposition
+    EBF_state_atheism
+    EBF_elite_voting
+    EBF_registered_voting
+    EBF_non_socialist_unions
+    EBF_open_immigration
+    EBF_no_legal_protections
+
+    #ECONOMIC
+    EBF_limited_exports
+    EBF_minor_minimum_wage
+    EBF_10_hours
+    EBF_primary_human_model
+
+    #MILITARY
+    EBF_one_year_draft
+    EBF_ordinary_policing
+    EBF_combat_schooling
+    EBF_rules_of_engagement
+
+    #SOCDEV
+    EBF_secondary_schooling
+    EBF_rampant_poverty
+    EBF_stagnating_economy
+    EBF_spartan_professionalism
+    EBF_industrial_equipment_use
+    EBF_functional_administration
+
+    #MINISTERS
+    NOW_Wiseman_min
+    NOW_Baptiste_min
+    NOW_Ambrosius_min
+    NOW_Rutger_min
+
+    #BASE IDEAS
+    NOW_cause_of_all_soldiers_idea
+    NOW_the_might_of_unicorns_idea
+}
+
+declare_war_on = {
+	target = BRU
+	type = annex_everything
+}

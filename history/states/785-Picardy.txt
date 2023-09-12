@@ -1,0 +1,28 @@
+state={
+	id=785
+	name="STATE_785"
+	manpower = 2285840
+	
+	state_category = large_town
+	
+	history={
+		add_core_of = SMM
+		owner = SMM
+		victory_points = {
+			11420 5
+		}
+		
+		
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		454 3402 3447 6585 9561 11420 11549 13243
+	}
+	local_supplies = 0.0 
+}
+

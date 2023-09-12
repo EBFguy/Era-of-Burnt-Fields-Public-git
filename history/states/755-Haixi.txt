@@ -1,0 +1,24 @@
+state={
+	id=755
+	name="STATE_755"
+	provinces={
+		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146
+	}
+	manpower=5200000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	history={
+		add_core_of = PRC
+		owner = PRC
+		
+		
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	local_supplies = 0.0 
+}

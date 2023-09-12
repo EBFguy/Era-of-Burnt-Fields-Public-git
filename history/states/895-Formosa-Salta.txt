@@ -1,0 +1,21 @@
+state={
+	id=895
+	name="STATE_895"
+	provinces={
+		10944 12922 12943 
+	}
+	history={
+		add_core_of = ARG
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		set_demilitarized_zone = yes
+	}
+	manpower=771067
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

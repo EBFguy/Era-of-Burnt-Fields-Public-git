@@ -1,0 +1,21 @@
+
+state={
+	id=434
+	name="STATE_434"
+	manpower = 2124116
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = ASS
+		owner = ASS
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		1116 1996 10810 12322 12730 7124
+	}
+}

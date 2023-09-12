@@ -1,0 +1,19 @@
+state= {
+	id=1138
+	name="STATE_1138"
+	manpower = 1052380
+	
+	state_category = town
+	local_supplies = 0.0 
+	history= {
+		add_core_of = SEN
+		owner = SEN
+		buildings = {
+		}
+		
+	}
+
+	provinces= {
+		13467 13468 3463 3422 9484
+ 	}
+}

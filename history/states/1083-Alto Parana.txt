@@ -1,0 +1,28 @@
+
+ state={
+	id=1083
+	name="STATE_1083"
+	manpower = 758672
+
+	state_category = town
+	local_supplies = 0.0
+	history={
+		add_core_of = BLA
+		owner = BLA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+
+		victory_points = {
+			13417 10
+		}
+	}
+
+	provinces={
+		13417 13419
+	}
+	
+ }

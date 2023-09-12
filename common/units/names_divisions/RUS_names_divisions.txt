@@ -1,0 +1,140 @@
+﻿RUS_motor_rfile = {
+	name = "Motopehotnaya Diviziya"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "motorized" }
+
+	fallback_name = "%d. Motopehotnaya Diviziya"
+
+	ordered = {
+		1 = { "%d. Motopehotnaya Diviziya" }
+		2 = { "%d. Motopehotnaya Diviziya" }
+		3 = { "%d. Motopehotnaya Diviziya" }
+		4 = { "%d. Motopehotnaya Diviziya" }
+		5 = { "%d. Motopehotnaya Diviziya" }
+	}
+}
+
+RUS_guard_motor_rfile = {
+	name = "Gvardeyskaya Motopehotnaya Diviziya"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "MBT" }
+
+	fallback_name = "%d. Gvardeyskaya Motopehotnaya Diviziya"
+
+	ordered = {
+		1 = { "%d. Gvardeyskaya Motopehotnaya Diviziya" }
+		2 = { "%d. Gvardeyskaya Motopehotnaya Diviziya" }
+		3 = { "%d. Gvardeyskaya Motopehotnaya Diviziya" }
+		4 = { "%d. Gvardeyskaya Motopehotnaya Diviziya" }
+		5 = { "%d. Gvardeyskaya Motopehotnaya Diviziya" }
+	}
+}
+
+RUS_enhanced_motor_rfile = {
+	name = "Elitnaya Motopehotnaya Diviziya"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" "exoskeleton" }
+
+	fallback_name = "%d. Elitnaya Motopehotnaya Diviziya"
+
+	ordered = {
+		1 = { "%d. Elitnaya Motopehotnaya Diviziya" }
+		2 = { "%d. Elitnaya Motopehotnaya Diviziya" }
+		3 = { "%d. Elitnaya Motopehotnaya Diviziya" }
+		4 = { "%d. Elitnaya Motopehotnaya Diviziya" }
+		5 = { "%d. Elitnaya Motopehotnaya Diviziya" }
+	}
+}
+
+RUS_tank_division = {
+	name = "Tankovaya Diviziya"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "MBT" }
+
+	fallback_name = "%d. Tankovaya Diviziya"
+
+	ordered = {
+		1 = { "%d. Tankovaya Diviziya" }
+		2 = { "%d. Tankovaya Diviziya" }
+		3 = { "%d. Tankovaya Diviziya" }
+		4 = { "%d. Tankovaya Diviziya" }
+		5 = { "%d. Tankovaya Diviziya" }		
+	}
+}
+
+RUS_spetnaz = {
+	name = "Diviziya Spetsnasa"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "elite_infantry" }
+
+	fallback_name = "%d. Diviziya Spetsnasa"
+
+	ordered = {
+		1 = { "%d. Diviziya Spetsnasa" }
+		2 = { "%d. Diviziya Spetsnasa" }
+		3 = { "%d. Diviziya Spetsnasa" }
+		4 = { "%d. Diviziya Spetsnasa" }
+		5 = { "%d. Diviziya Spetsnasa" }			
+	}
+}
+
+RUS_android = {
+	name = "Diviziya Boevyh Androidov"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "android" }
+
+	fallback_name = "%d. Diviziya Boevyh Androidov"
+
+	ordered = {
+		1 = { "%d. Diviziya Boevyh Androidov" }
+		2 = { "%d. Diviziya Boevyh Androidov" }
+		3 = { "%d. Diviziya Boevyh Androidov" }
+		4 = { "%d. Diviziya Boevyh Androidov" }
+		5 = { "%d. Diviziya Boevyh Androidov" }			
+	}
+}
+
+
+RUS_paratrooper = {
+	name = "Vozdushno-Desantnaya Diviziya"
+
+	for_countries = { RUS }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	fallback_name = "%d. Vozdushno-Desantnaya Diviziya"
+
+	ordered = {
+		1 = { "%d. Vozdushno-Desantnaya Diviziya" }
+		2 = { "%d. Vozdushno-Desantnaya Diviziya" }
+		3 = { "%d. Vozdushno-Desantnaya Diviziya" }
+		4 = { "%d. Vozdushno-Desantnaya Diviziya" }
+		5 = { "%d. Vozdushno-Desantnaya Diviziya" }			
+	}
+}

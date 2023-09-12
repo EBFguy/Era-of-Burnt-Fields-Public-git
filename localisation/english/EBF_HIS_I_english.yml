@@ -1,0 +1,12 @@
+l_english:
+
+ #NAMES#
+ HIS:0 "Union of Hispaniola"
+ HIS_DEF:0 "The Union of Hispaniola"
+ HIS_ADJ:0 "Hispaniolan"
+ 
+ #PARTIES#
+ HIS_autocracy_party:0 "National Preservation Alliance of Hispaniola"
+ HIS_autocracy_party_long:0 "The National Preservation Alliance of Hispaniola"
+ HIS_reductivism_party:0 "National Preservation Alliance of Hispaniola"
+ HIS_reductivism_party_long:0 "The National Preservation Alliance of Hispaniola" 

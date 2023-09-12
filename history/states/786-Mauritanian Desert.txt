@@ -1,0 +1,22 @@
+state={
+	id=786
+	name="STATE_786" # Mauritanian Desert
+	manpower = 124200
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+
+	provinces={
+		7943 10838
+	}
+	local_supplies = 0.0 
+}

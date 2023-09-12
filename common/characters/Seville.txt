@@ -1,0 +1,15 @@
+characters = {
+	SEV_Seville_Commune = {
+		name = "Seville Commune"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SEV/Portrait_SEV_Seville_Commune.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_SEVILLE_COMMUNE_DESC"
+		}
+	}
+}

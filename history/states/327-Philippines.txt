@@ -1,0 +1,24 @@
+state=
+{
+	id=327
+	name="STATE_327" # Luzon
+	manpower = 8918233
+	
+	state_category = town
+	history=
+	{
+		add_core_of = PHI
+		owner = PHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 6
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		1288 7275 7323 7351 10165 10236 10265 12236 
+	}
+}

@@ -1,0 +1,23 @@
+scripted_gui = {
+
+	LON_Logic_Consumption_Decision_GUI = {
+		context_type = decision_category
+		window_name = "LON_Logic_Consumption_GUI"
+
+		visible = {
+			always = yes
+			tag = LON
+		}
+
+		effects = {
+
+		}
+
+		triggers = {
+
+		}
+
+		properties = {		
+		}
+	}
+}

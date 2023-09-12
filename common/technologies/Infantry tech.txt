@@ -1,0 +1,1799 @@
+#Renamed because this engine is horrid
+technologies = {
+	infantry_weapons2040 = {
+		#Pre-2040 Inf Equip
+		enable_equipments = {
+			infantry_equipment_0
+		}
+		enable_subunits = {
+			infantry
+			light_infantry
+			elite_infantry
+
+		}
+		path = {
+			leads_to_tech = infantry_weapons2050
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2040
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = -2
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_weapons2050 = {
+		#Pre-2050 Inf Equip
+		enable_equipments = {
+			infantry_equipment_1
+		}
+		path = {
+			leads_to_tech = infantry_weapons2059
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 0
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_weapons2059 = {
+		#2059 Standard Issue Equip
+		enable_equipments = {
+			infantry_equipment_2
+		}
+		path = {
+			leads_to_tech = at_weapons2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavy_weapons2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = me_weapons2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armour2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grenade_weapons2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sniper_weapons2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ai_command2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rations2059
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_weapons2068
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 2
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	at_weapons2059 = {
+		#2059 Heat Seeking Anti Armour Missile Launcher
+		category_all_infantry = {
+			ap_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 1
+				y = 4
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	me_weapons2059 = {
+		#2059 Machine Gun Emplacement
+		category_all_infantry = {
+			breakthrough = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 4
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armour2059 = {
+		#2059 Super Light Graphene Armour
+		category_all_infantry = {
+			max_strength = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 7
+				y = 4
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sniper_weapons2059 = {
+		#2068 Auto Spotting Standard Issue Sniper Rifle
+		category_all_infantry = {
+			recon = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 9
+				y = 4
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	superheavy_weapons2059 = {
+		#2059 Super Heavy Standard Issue Rifle
+		category_enhanced_soldier = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = 5
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ai_command2059 = {
+		#2059 AI Augmented Battle Visors
+		category_all_infantry = {
+			initiative = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 4
+				y = 5
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	grenade_weapons2059 = {
+		#2059 Standard Issue Heated Fragmentation Grenade  
+		category_all_infantry = {
+			soft_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 6
+				y = 5
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rations2059 = {
+		#2059 Nutritional Ration Pack
+		category_all_infantry = {
+			supply_consumption = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 8
+				y = 5
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_weapons2068 = {
+		#2068 Standard Issue Equip
+		enable_equipments = {
+			infantry_equipment_3
+		}
+		path = {
+			leads_to_tech = at_weapons2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavy_weapons2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = me_weapons2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armour2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grenade_weapons2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sniper_weapons2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ai_command2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rations2068
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_weapons2076
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 7
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	at_weapons2068 = {
+		#2068 Dynamic Target Value Missile Launcher
+		category_all_infantry = {
+			ap_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 1
+				y = 9
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	me_weapons2068 = {
+		#2068 Auto Aiming Machine Gun Emplacement
+		category_all_infantry = {
+			breakthrough = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 9
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armour2068 = {
+		#2068 Super Light Foam Graphene Armour
+		category_all_infantry = {
+			max_strength = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 7
+				y = 9
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sniper_weapons2068 = {
+		#2068 Auto Spotting Standard Issue Sniper Rifle 
+		category_all_infantry = {
+			recon = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 9
+				y = 9
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	superheavy_weapons2068 = {
+		#2068 Super Heavy Standard Issue Multi-barrelled Weapon
+		category_enhanced_soldier = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = 10
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ai_command2068 = {
+		#2068 Squad Based AI Overwatch
+		category_all_infantry = {
+			initiative = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 4
+				y = 10
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	grenade_weapons2068 = {
+		#2068 Standard Issue Super Heated Fragmentation Grenade  
+		category_all_infantry = {
+			soft_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 6
+				y = 10
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rations2068 = {
+		#2068 Nutritional Pill Pack
+		category_all_infantry = {
+			supply_consumption = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2068
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 8
+				y = 10
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_weapons2076 = {
+		#2076 Standard Issue Equip
+		enable_equipments = {
+			infantry_equipment_4
+		}
+		path = {
+			leads_to_tech = at_weapons2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavy_weapons2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = me_weapons2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armour2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grenade_weapons2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sniper_weapons2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ai_command2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rations2076
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_weapons2081
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 12
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	at_weapons2076 = {
+		#2076 Simultaneous Multi Missile Launcher 
+		category_all_infantry = {
+			ap_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 1
+				y = 14
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	me_weapons2076 = {
+		#2076 Automated Machine Gun Emplacement
+		category_all_infantry = {
+			breakthrough = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 14
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armour2076 = {
+		#2076 Sealed Battle Armour
+		category_all_infantry = {
+			max_strength = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 7
+				y = 14
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sniper_weapons2076 = {
+		#2076 Aim Assisting Standard Issue Sniper Rifle
+		category_all_infantry = {
+			recon = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 9
+				y = 14
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	superheavy_weapons2076 = {
+		#2076 Super Heavy Standard Issue Rocket Bolter  
+		category_enhanced_soldier = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = 15
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ai_command2076 = {
+		#2076 Individual Tactical Cohesive AI 
+		category_all_infantry = {
+			initiative = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 4
+				y = 15
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	grenade_weapons2076 = {
+		#2076 Standard Issue Modular Grenade
+		category_all_infantry = {
+			soft_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 6
+				y = 15
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rations2076 = {
+		#2076 Sustainer Pill
+		category_all_infantry = {
+			supply_consumption = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2076
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 8
+				y = 15
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	infantry_weapons2081 = {
+		#2081 Standard Issue Equip
+		enable_equipments = {
+			infantry_equipment_5
+		}
+		path = {
+			leads_to_tech = at_weapons2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavy_weapons2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = me_weapons2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armour2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = grenade_weapons2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sniper_weapons2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ai_command2081
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rations2081
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 17
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	at_weapons2081 = {
+		#2081 Simultaneous Auto Aiming Missile Launcher 
+		category_all_infantry = {
+			ap_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 1
+				y = 19
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	me_weapons2081 = {
+		#2081 Autonomous Machine Gun Emplacement
+		category_all_infantry = {
+			breakthrough = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 19
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	armour2081 = {
+		#2081 Anti-Adverse Chemical, Particulate and Raditation Isolation Armour
+		category_all_infantry = {
+			max_strength = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 7
+				y = 19
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sniper_weapons2081 = {
+		#2081 Smart Ammunition Equipped Sniper Rifle
+		category_all_infantry = {
+			recon = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 9
+				y = 19
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	superheavy_weapons2081 = {
+		#2081 Super Heavy Standard Issue Rocket Heavy Bolter  
+		category_enhanced_soldier = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 2
+				y = 20
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ai_command2081 = {
+		#2081 Total AI Unit Control 
+		category_all_infantry = {
+			initiative = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 4
+				y = 20
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	grenade_weapons2081 = {
+		#2081 Artificial Ego Death Grenade Module
+		category_all_infantry = {
+			soft_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 6
+				y = 20
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	rations2081 = {
+		#2081 Dietary Tract Modification
+		category_all_infantry = {
+			supply_consumption = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2081
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 8
+				y = 20
+			}
+		}
+		categories = {
+			infantry_weapons_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	special_operations = {
+		#Modern Special Operations
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2050
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -1
+				y = 0
+			}
+		}
+
+		path = {
+			leads_to_tech = marines2059
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = para2059
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = mount2059
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = special_operations2060
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = LBPtroops2067
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = graftedtroops2075
+			research_cost_coeff = 1
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	marines2059 = {
+		#Modern Amphibious Warfare
+		enable_subunits = {
+			marine
+		}
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = marine
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_marines"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}		
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -8
+				y = 2
+			}
+		}
+		path = {
+			leads_to_tech = marines2067
+			research_cost_coeff = 1
+		}
+		categories = {
+			marine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	marines2067 = {
+		#Non-Gunpower reliant Ammunition
+		marine = {
+			soft_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -8
+				y = 4
+			}
+		}
+		categories = {
+			marine_tech
+		}
+		path = {
+			leads_to_tech = marines2074
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	marines2074 = {
+		#Super Fast Landing Craft
+		invasion_preparation = -0.1
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -8
+				y = 6
+			}
+		}
+		categories = {
+			marine_tech
+		}
+		path = {
+			leads_to_tech = marines2080
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	marines2080 = {
+		#Improved AI Functionality Underwater
+		marine = {
+			initiative = 0.2
+			weight = -0.1   
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -8
+				y = 8
+			}
+		}
+		categories = {
+			marine_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	para2059 = {
+		#Modern Paratrooper Warfare
+		enable_subunits = {
+			paratrooper
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = paratrooper
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_paratroopers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}	
+
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -6
+				y = 2
+			}
+		}
+		categories = {
+			para_tech
+		}
+		path = {
+			leads_to_tech = para2067
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	para2067 = {
+		#All Environment Training
+		paratrooper = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -6
+				y = 4
+			}
+		}
+		path = {
+			leads_to_tech = para2074
+			research_cost_coeff = 1
+		}
+		categories = {
+			para_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	para2074 = {
+		#Landing Assistance Algorithms 
+		paratrooper = {
+			max_organisation = 10
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -6
+				y = 6
+			}
+		}
+		categories = {
+			para_tech
+		}
+		path = {
+			leads_to_tech = para2080
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	para2080 = {
+		#Active Camouflage Parachute
+		paratrooper = {
+			recon = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -6
+				y = 8
+			}
+		}
+		categories = {
+			para_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	mount2059 = {
+		#Modern Mountain Warfare
+		enable_subunits = {
+			mountaineers
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = mountaineers
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_mountineers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -4
+				y = 2
+			}
+		}
+		categories = {
+			mountaineers_tech
+		}
+		path = {
+			leads_to_tech = mount2067
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mount2067 = {
+		#Auto Heating Climatization Foam 
+		winter_attrition_factor = -0.05
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -4
+				y = 4
+			}
+		}
+		categories = {
+			mountaineers_tech
+		}
+		path = {
+			leads_to_tech = mount2074
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mount2074 = {
+		#Autonomous Climbing Gear
+		mountaineers = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -4
+				y = 6
+			}
+		}
+		categories = {
+			mountaineers_tech
+		}
+		path = {
+			leads_to_tech = mount2080
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	mount2080 = {
+		#Global Incline Categorising System
+		mountaineers = {
+			recon = 1
+			initiative = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -4
+				y = 8
+			}
+		}
+		categories = {
+			mountaineers_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	special_operations2060 = {
+		#2060s Special Forces Tactics
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2059
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -1
+				y = 2
+			}
+		}
+
+		path = {
+			leads_to_tech = expanded_special_operations2067
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = advanced_special_operations2067
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	expanded_special_operations2067 = {
+		#Expanded Special Forces
+		special_forces_cap = 0.05
+		special_forces_training_time_factor = -0.1
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = 4
+			}
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		path = {
+			leads_to_tech = expanded_special_operations2074
+			research_cost_coeff = 1
+		}
+		xor = {
+			advanced_special_operations2067
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	expanded_special_operations2074 = {
+		#All Terrain Survival Training
+		category_special_forces = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = 6
+			}
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		path = {
+			leads_to_tech = expanded_special_operations2080
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	expanded_special_operations2080 = {
+		#Common Experience Neurotransmitters
+		special_forces_training_time_factor = -0.1
+		category_special_forces = {
+			experience_loss_factor = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2080
+		folder = {
+			name = infantry_folder
+			position = {
+				x = -2
+				y = 8
+			}
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_special_operations2067 = {
+		#Advanced Special Forces
+		category_special_forces = {
+			max_organisation = 5
+			defense = 0.05
+		}
+
+		special_forces_training_time_factor = 0.1
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 4
+			}
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		path = {
+			leads_to_tech = advanced_special_operations2074
+			research_cost_coeff = 1
+		}
+		xor = {
+			expanded_special_operations2067
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_special_operations2074 = {
+		#Configurable Drug Intake Valves
+		category_special_forces = {
+			maximum_speed = 0.1
+			casualty_trickleback = 0.1
+			soft_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 6
+			}
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		path = {
+			leads_to_tech = advanced_special_operations2080
+			research_cost_coeff = 1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	advanced_special_operations2080 = {
+		#All Dimension Directional Gear
+		on_research_complete = {		
+			custom_effect_tooltip = advanced_special_operations2080_tooltip
+		}	
+		paratrooper = {
+			urban = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		marine = {
+			urban = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		mountaineers = {
+			urban = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		preservers = {
+			urban = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		jet_troops = {
+			urban = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		grafted = {
+			urban = {
+				movement = 0.05
+				attack = 0.05
+			}
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 0
+				y = 8
+			}
+		}
+		categories = {
+			mountaineers_tech
+			marine_tech
+			para_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2067 = {
+		#Militarize LPBs 
+		enable_subunits = {
+			jet_troops
+		}
+		enable_equipments = {
+			lbp_equipment_0
+		}
+		
+		research_cost = 1.5
+		start_year = 2067
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 4
+				y = 3
+			}
+		}
+		
+		path = {
+			leads_to_tech = LBPtroops2074_0
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = LBPtroops2074_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2074_0 = {
+		#Improved Fuel Efficiency 
+		jet_troops = {
+			supply_consumption_factor = -0.1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 6
+			}
+		}
+
+		path = {
+			leads_to_tech = LBPtroops2078_0
+			research_cost_coeff = 1
+		}
+		xor = {
+			LBPtroops2074_1
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2078_0 = {
+		#All Environmental Extremities Protection Suit
+		jet_troops = {
+			acclimatization_hot_climate_gain_factor = 0.05
+			acclimatization_cold_climate_gain_factor = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = LBPtroops2082_0
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2082_0 = {
+		#Automated Heavy Injury Takeover Protocol  
+		jet_troops = {
+			casualty_trickleback = -0.1
+			hard_attack = 0.05
+		}
+		research_cost = 1.5
+		start_year = 2082
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 3
+				y = 10
+			}
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2074_1 = {
+		#Improved Ignition Speeds
+		jet_troops = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2074
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 6
+			}
+		}
+
+		path = {
+			leads_to_tech = LBPtroops2078_1
+			research_cost_coeff = 1
+		}
+
+		xor = {
+			LBPtroops2074_0
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2078_1 = {
+		#Automatic Gravitational Force Resuscitator
+		jet_troops = {
+			reliability_factor = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2078
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 8
+			}
+		}
+		path = {
+			leads_to_tech = LBPtroops2082_1
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	LBPtroops2082_1 = {
+		#Meprozaprine
+		jet_troops = {
+			max_strength = 0.1
+			max_organisation = 0.1
+		}
+		research_cost = 1.5
+		start_year = 2082
+		folder = {
+			name = infantry_folder
+			position = {
+				x = 5
+				y = 10
+			}
+		}
+
+		categories = {
+			lbp_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

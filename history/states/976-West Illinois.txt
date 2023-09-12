@@ -1,0 +1,20 @@
+
+state={
+	id=976
+	name="STATE_976"
+	manpower = 10
+	state_category = megalopolis
+
+	history={
+		add_core_of = USA
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+	local_supplies = 0.0 
+	provinces={
+		12365 4590 1527 10393 10339 6737 11589 12312 12368
+	}
+}

@@ -1,0 +1,106 @@
+characters = {
+	DPK_Kwon_Gyeong_Su = {
+		name = DPK_Kwon_Gyeong_Su
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_KWON_GYEONG_SU_DESC"
+		}	
+	}
+	MON_Hutagt_Ankhbayar = {
+		name = MON_Hutagt_Ankhbayar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MON/Portrait_MON_Hutagt_Ankhbayar.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_national_communism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_HUTAGT_ANKHBAYAR_DESC"
+		}	
+	}	
+	AFG_Marwaan_al_Miah = {
+		name = AFG_Marwaan_al_Miah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AFG/Portrait_AFG_Marwaan_al_Miah.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_MARWAAN_AL_MIAH_DESC"
+		}	
+	}	
+	ASS_Hou_Huili = {
+		name = ASS_Hou_Huili
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ASS/Portrait_ASS_Huili_Hou.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_HOU_HUILI_DESC"
+		}	
+	}
+	TRI_Bai_Jinhai = {
+		name = TRI_Bai_Jinhai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = securocracy_ultrastatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_BAI_JINHAI_DESC"
+		}	
+	}
+	MYA_Thakin_Wa_Shwe = {
+		name = MYA_Thakin_Wa_Shwe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocracy_civlian_dictatorship_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_THAKIN_WA_SHWE_DESC"
+		}	
+	}
+	MAL_Raaid_Mohamad = {
+		name = MAL_Raaid_Mohamad
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_market_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_RAAID_MOHAMAD_DESC"
+		}	
+	}	
+	CIN_Wijonarko_Zixin = {
+		name = CIN_Wijonarko_Zixin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_xi_jinping_pragmatic_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_WIJONARKO_ZIXIN_DESC"
+		}	
+	}	
+}

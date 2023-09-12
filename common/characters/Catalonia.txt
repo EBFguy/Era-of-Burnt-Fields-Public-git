@@ -1,0 +1,15 @@
+characters = {
+	CAT_Narcís_Millet = {
+		name = "Narcís Millet"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAT/Portrait_CAT_Narcís_Millet.dds"
+			}
+		}
+		country_leader = {
+			ideology = libertarian_socialism_libertarian_socialism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_NARCIS_MILLET_DESC"
+		}
+	}
+}

@@ -1,0 +1,239 @@
+shared_focus = {
+	id = PRC_todays_affairs
+	icon = x
+	cost = 7
+	x = 8
+	y = 0
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_deal_with_internal_affairs
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_todays_affairs
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_todays_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_lanzhou_xinjiang_capsule_hsr
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_deal_with_internal_affairs
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_deal_with_internal_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_experimental_ai_government_affairs_system
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_deal_with_internal_affairs
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_deal_with_internal_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_adopt_general_offices_proposal
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_lanzhou_xinjiang_capsule_hsr
+	}
+	prerequisite = {
+		focus = PRC_experimental_ai_government_affairs_system
+	}
+	mutually_exclusive = {
+		focus = PRC_support_sasacs_proposal
+	}
+	x = -1
+	y = 2
+	relative_position_id = PRC_deal_with_internal_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_support_sasacs_proposal
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_lanzhou_xinjiang_capsule_hsr
+	}
+	prerequisite = {
+		focus = PRC_experimental_ai_government_affairs_system
+	}
+	mutually_exclusive = {
+		focus = PRC_adopt_general_offices_proposal
+	}
+	x = 1
+	y = 2
+	relative_position_id = PRC_deal_with_internal_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_coastal_revitalization
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_adopt_general_offices_proposal
+		focus = PRC_support_sasacs_proposal
+	}
+	x = 0
+	y = 3
+	relative_position_id = PRC_deal_with_internal_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_2061_east_pacific_strategy
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_todays_affairs
+	}
+	x = -3
+	y = 2
+	relative_position_id = PRC_todays_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_comment_on_the_north_american_question
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_2061_east_pacific_strategy
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_2061_east_pacific_strategy
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_guide_militarys_ideology
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_todays_affairs
+	}
+	x = 3
+	y = 2
+	relative_position_id = PRC_todays_affairs
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_the_party_leads_the_gun
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_guide_militarys_ideology
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_guide_militarys_ideology
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_promote_new_officers
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_the_party_leads_the_gun
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_guide_militarys_ideology
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_the_alarm_goes_off
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_comment_on_the_north_american_question
+	}
+	prerequisite = {
+		focus = PRC_coastal_revitalization
+	}
+	prerequisite = {
+		focus = PRC_promote_new_officers
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_coastal_revitalization
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_the_illusion_ends
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_the_alarm_goes_off
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_the_alarm_goes_off
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_and_his_life_is_on_the_edge
+	icon = x
+	cost = 10
+	prerequisite = {
+		focus = PRC_the_illusion_ends
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_the_alarm_goes_off
+	completion_reward = {
+		
+	}
+}

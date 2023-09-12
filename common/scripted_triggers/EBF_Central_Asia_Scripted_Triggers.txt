@@ -1,0 +1,30 @@
+is_central_asian_nation = {
+	OR = {
+		tag = KGR
+		tag = KYR
+		tag = UZB
+		tag = FRU
+		tag = FAD
+		tag = TRK
+		tag = KAR
+		tag = TAJ
+	}
+}
+
+central_asian_states = {
+	AND = {
+		owns_state = 732
+		owns_state = 844
+		owns_state = 405
+		owns_state = 742
+		owns_state = 879
+		owns_state = 830
+		owns_state = 585 
+		owns_state = 823
+		owns_state = 831
+		owns_state = 843
+		owns_state = 832
+		owns_state = 584
+		owns_state = 842
+	}
+}

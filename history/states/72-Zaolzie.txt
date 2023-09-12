@@ -1,0 +1,31 @@
+state={
+	id=72
+	name="STATE_72"
+	manpower = 219903
+	
+	state_category = rural
+	
+	history={
+		add_core_of = POL
+		owner = POL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			6464 15
+		}
+		victory_points = {
+			506 10
+		}
+		victory_points = {
+			11467 5
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		9567 506 6464 11467 3586
+	}
+}

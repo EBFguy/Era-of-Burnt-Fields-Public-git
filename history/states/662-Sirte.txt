@@ -1,0 +1,21 @@
+state={
+	id=662
+	name="STATE_662"
+	manpower = 70276
+	
+	state_category = wasteland
+	
+	
+	history={
+		add_core_of = LIB
+		owner = LIB
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		4200 7076 7136 8069 13073 
+	}
+}

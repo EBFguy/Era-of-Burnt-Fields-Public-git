@@ -1,0 +1,397 @@
+#Keep your pulses clean and tight please
+
+#Keep your pulses clean and tight please
+
+EBF_assorted_monthly_pulses = {
+	every_country = {
+		EBF_socdev_monthly_pulse = yes
+	}
+	every_state = {
+		EBF_ecodecay_monthly_pulse = yes
+	}
+}
+
+EBF_assorted_weekly_pulses = {
+	every_country = {
+		EBF_population_weekly_pulse = yes #SORTED FIRST AS NEEDED IN OTHER CALCULATIONS, DO NOT MOVE IT FROM THIS SPOT
+ 		EBF_energy_weekly_pulse = yes
+ 		EBF_food_weekly_pulse = yes
+	}
+}
+
+EBF_socdev_monthly_pulse = {
+
+	add_to_variable = { EBF_socdev_academic_level_var = academic_level_monthly_change }
+	add_to_variable = { EBF_socdev_academic_level_var = modifier@academic_level_monthly_rate }
+	EBF_socdev_academic_level_display_vars = YES
+
+	add_to_variable = { EBF_socdev_poverty_rate_var = poverty_rate_monthly_change }
+	add_to_variable = { EBF_socdev_poverty_rate_var = modifier@poverty_rate_monthly_rate }
+	EBF_socdev_poverty_rate_display_vars = YES
+
+	add_to_variable = { EBF_socdev_economic_health_var = economic_health_monthly_change }
+	add_to_variable = { EBF_socdev_economic_health_var = modifier@economic_health_monthly_rate }
+	EBF_socdev_economic_health_display_vars = YES
+
+	add_to_variable = { EBF_socdev_army_professionalism_var = army_professionalism_monthly_change }
+	add_to_variable = { EBF_socdev_army_professionalism_var = modifier@army_professionalism_monthly_rate }
+	EBF_socdev_army_professionalism_display_vars = YES
+
+	add_to_variable = { EBF_socdev_industrial_equipment_var = industrial_equipment_monthly_change }
+	add_to_variable = { EBF_socdev_industrial_equipment_var = modifier@industrial_equipment_monthly_rate }
+	EBF_socdev_industrial_equipment_display_vars = YES
+
+	add_to_variable = { EBF_socdev_administrative_efficiency_var = administrative_efficiency_monthly_change }
+	add_to_variable = { EBF_socdev_administrative_efficiency_var = modifier@administrative_efficiency_monthly_rate }
+	EBF_socdev_administrative_efficiency_display_vars = YES
+
+	if = {
+		limit = { check_variable = { EBF_socdev_academic_level_var > 299 } }
+		country_event = socdev_events.4101
+		add_to_variable = { EBF_socdev_academic_level_var = 150 }
+	}
+	else_if = {
+		limit = { check_variable = { EBF_socdev_academic_level_var < 1 } }
+		country_event = socdev_events.4102
+		add_to_variable = { EBF_socdev_academic_level_var = 150 }
+	}
+	if = {
+		limit = { check_variable = { EBF_socdev_poverty_rate_var > 299 } }
+		country_event = socdev_events.4201
+		add_to_variable = { EBF_socdev_poverty_rate_var = 150 }
+	}
+	else_if = {
+		limit = { check_variable = { EBF_socdev_poverty_rate_var < 1 } }
+		country_event = socdev_events.4202
+		add_to_variable = { EBF_socdev_poverty_rate_var = 150 }
+	}
+	if = {
+		limit = { check_variable = { EBF_socdev_economic_health_var > 299 } }
+		country_event = socdev_events.4301
+		add_to_variable = { EBF_socdev_economic_health_var = 150 }
+	}
+	else_if = {
+		limit = { check_variable = { EBF_socdev_economic_health_var < 1 } }
+		country_event = socdev_events.4302
+		add_to_variable = { EBF_socdev_economic_health_var = 150 }
+	}
+	if = {
+		limit = { check_variable = { EBF_socdev_army_professionalism_var > 299 } }
+		country_event = socdev_events.4401
+		add_to_variable = { EBF_socdev_army_professionalism_var = 150 }
+	}
+	else_if = {
+		limit = { check_variable = { EBF_socdev_army_professionalism_var < 1 } }
+		country_event = socdev_events.4402
+		add_to_variable = { EBF_socdev_army_professionalism_var = 150 }
+	}
+	if = {
+		limit = { check_variable = { EBF_socdev_industrial_equipment_var > 299 } }
+		country_event = socdev_events.4501
+		add_to_variable = { EBF_socdev_industrial_equipment_var = 150 }
+	}
+	else_if = {
+		limit = { check_variable = { EBF_socdev_industrial_equipment_var < 1 } }
+		country_event = socdev_events.4502
+		add_to_variable = { EBF_socdev_industrial_equipment_var = 150 }
+	}
+	if = {
+		limit = { check_variable = { EBF_socdev_administrative_efficiency_var > 299 } }
+		country_event = socdev_events.4601
+		add_to_variable = { EBF_socdev_administrative_efficiency_var = 150 }
+	}
+	else_if = {
+		limit = { check_variable = { EBF_socdev_administrative_efficiency_var < 1 } }
+		country_event = socdev_events.4602
+		add_to_variable = { EBF_socdev_administrative_efficiency_var = 150 }
+	}
+}
+
+EBF_ecodecay_monthly_pulse = {
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					has_dynamic_modifier = {
+						modifier = EBF_ecodecay_0
+					}
+				}
+			}
+		}
+		set_temp_variable = { EBF_local_ecodecay_change = global.ecodecay_global_monthly_decay }
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = global.ecodecay_global_monthly_decay_minus }
+		
+		add_to_temp_variable = { EBF_local_ecodecay_change = OWNER:ecodecay_national_monthly_decay}
+		add_to_temp_variable = { EBF_local_ecodecay_change = OWNER:modifier@ecodecay_national_monthly_decay}
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = OWNER:ecodecay_national_monthly_decay_minus }
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = OWNER:modifier@ecodecay_national_monthly_decay_minus }
+		
+		add_to_temp_variable = { EBF_local_ecodecay_change = ecodecay_local_monthly_decay}
+		add_to_temp_variable = { EBF_local_ecodecay_change = modifier@ecodecay_local_monthly_decay}
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = ecodecay_local_monthly_decay_minus }
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = modifier@ecodecay_local_monthly_decay_minus }
+
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = ecodecay_local_targeted_monthly_decay }
+		subtract_from_temp_variable = { EBF_local_ecodecay_change = modifier@ecodecay_local_targeted_monthly_decay }
+
+		subtract_from_variable = { This.ecodecay_value = EBF_local_ecodecay_change }
+
+		clamp_variable = {
+			var = This.ecodecay_value
+			min = 0
+			max = 100
+		}
+
+		if = {
+			limit = {
+				check_variable = {
+					var = ecodecay_value
+					value = 0
+					compare = less_than_or_equals
+				}
+			}
+			EBF_ecodecay_worsen = YES
+			set_variable = { This.ecodecay_value = 25 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = ecodecay_value
+					value = 100
+					compare = greater_than_or_equals
+				}
+			}
+			EBF_ecodecay_improve = YES
+			set_variable = { This.ecodecay_value = 75 }
+		}
+	}
+}
+
+EBF_population_weekly_pulse = {
+	set_variable = { total_pop_m = 0 }
+	set_variable = { total_core_pop_m = 0 }
+	every_owned_state = {
+		set_temp_variable = { spm = state_population_k }
+		divide_temp_variable = { spm = 1000 }
+		add_to_variable = { PREV.total_pop_m = spm }
+		if = {
+			limit = { is_core_of = THIS }
+			add_to_variable = { PREV.total_core_pop_m = spm }
+		}
+	}
+	set_variable = { total_ncore_pop_m = total_pop_m }
+	subtract_from_variable = { total_ncore_pop_m = total_core_pop_m }
+}
+
+EBF_energy_weekly_pulse = {
+	#CONSUMPTION SECTOR
+	#RESET EVERY MONTH FOR CLEAN OPERATION
+	set_variable = { EBF_bio_energy_needed = 0.075 }
+	set_variable = { EBF_robotic_energy_needed = 0.1 }
+	set_variable = { EBF_state_population_energy_needed = 0.5 }
+	set_variable = { EBF_army_total_energy_needed = 0 }
+
+	#CHECKS ARMY SIZE FOR MULTIPLIER
+	EBF_remove_energy_size_on_frames = YES
+	IF = {
+		limit = {
+			NOT = {
+				has_idea = EBF_energy_army_size_disabled
+			}
+		}
+		if = {
+			limit = { check_variable = {num_armies < 25} }
+			add_ideas = EBF_energy_army_size_minor
+			set_variable = { ordi_1_size_minor_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {num_armies < 50} 
+				check_variable = {num_armies > 25} 
+			}
+			add_ideas = EBF_energy_army_size_normal
+			set_variable = { ordi_1_size_normal_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {num_armies < 100} 
+				check_variable = {num_armies > 50} 
+			}
+			add_ideas = EBF_energy_army_size_large
+			set_variable = { ordi_1_size_large_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {num_armies < 200} 
+				check_variable = {num_armies > 100} 
+			}
+			add_ideas = EBF_energy_army_size_massive
+			set_variable = { ordi_1_size_massive_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {num_armies < 300} 
+				check_variable = {num_armies > 200} 
+			}
+			add_ideas = EBF_energy_army_size_super_massive
+			set_variable = { ordi_1_size_super_massive_btn_ON = 2 }
+		}
+	}
+
+	#BASIC MATHS FOR ARMY COMP. WHEN ADDING NEW ROBOTIC/CYBERNETIC DIVISIONS YOU MUST ADD A NEW num_armies_with_type
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@android}
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@grafted}
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@cybersoldiers}
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@android}
+	set_temp_variable = { EBF_army_bio_divs = num_battalions}
+	subtract_from_temp_variable = {EBF_army_bio_divs = EBF_army_robotic_divs} #WE NOW HAVE THE BIO DIVS AND MECH DIVS
+	#MULTIPLIES NEW VALUES WITH ARMY VALUES
+	multiply_variable = { EBF_robotic_energy_needed = EBF_army_robotic_divs }
+	multiply_variable = { EBF_bio_energy_needed = EBF_army_bio_divs }
+	multiply_variable = { EBF_robotic_energy_needed = EBF_energy_army_size_multi }
+	multiply_variable = { EBF_bio_energy_needed = EBF_energy_army_size_multi }
+	round_variable = EBF_robotic_energy_needed 
+	round_variable = EBF_bio_energy_needed
+
+	add_to_variable = { EBF_army_total_energy_needed = EBF_robotic_energy_needed}
+	add_to_variable = { EBF_army_total_energy_needed = EBF_bio_energy_needed}
+	
+	multiply_variable = { EBF_state_population_energy_needed = total_pop_m }
+	multiply_variable = { EBF_state_population_energy_needed = EBF_energy_consump_multi }
+	round_variable = EBF_state_population_energy_needed
+
+
+	clamp_variable = { var = EBF_army_total_energy_needed min = 0 }
+	clamp_variable = { var = EBF_state_population_energy_needed min = 0 }
+	clamp_variable = { var = EBF_robotic_energy_needed min = 0 }
+	clamp_variable = { var = EBF_bio_energy_needed min = 0 }
+
+	set_variable = { EBF_building_total_energy_needed = 0 } #PLACEHOLDER FOR WHEN BUILDING ENERGY IS SORTED OUT
+	multiply_variable = { buildings_power_demand = 4 }
+
+	#AFTER NEW MONTH CONSUMPTION VARIABLES ARE DONE NOW CHECK IF MEET CONSUMPTION REQUIREMENT
+	set_temp_variable = { needed_energy_consumption = misc_energy_consumption_add }
+	add_to_temp_variable = { needed_energy_consumption = modifier@misc_energy_consumption_add }
+	add_to_temp_variable = { needed_energy_consumption = EBF_army_total_energy_needed }
+	add_to_temp_variable = { needed_energy_consumption = EBF_state_population_energy_needed }
+	add_to_temp_variable = { needed_energy_consumption = EBF_building_total_energy_needed }
+	subtract_from_temp_variable = { needed_energy_consumption = misc_energy_consumption_reducers }
+	subtract_from_temp_variable = { needed_energy_consumption = modifier@misc_energy_consumption_reducers }
+	if = { 
+		limit = {
+			NOT = {
+				has_country_flag = EBF_country_currently_in_outage
+			}
+			check_variable = { needed_energy_consumption > resource@electricity }
+		}
+		set_country_flag = EBF_country_currently_in_outage
+		set_variable = { EBF_ordi_1_outage_1_ON = 2 }
+		country_event = ordi_events.1
+	}
+}
+
+
+EBF_food_weekly_pulse = {
+	#CONSUMPTION SECTOR
+	#RESET EVERY MONTH FOR CLEAN OPERATION
+	set_variable = { EBF_bio_food_needed = 0.25 }
+	set_variable = { EBF_state_population_food_needed = 0.75 }
+	set_variable = { EBF_army_total_food_needed = 0 }
+
+	#BASIC MATHS FOR ARMY COMP. WHEN ADDING NEW ROBOTIC/CYBERNETIC DIVISIONS YOU MUST ADD A NEW num_armies_with_type
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@android}
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@grafted}
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@cybersoldiers}
+	add_to_temp_variable = { EBF_army_robotic_divs = num_battalions_with_type@android}
+	set_temp_variable = { EBF_army_bio_divs = num_battalions}
+	subtract_from_temp_variable = {EBF_army_bio_divs = EBF_army_robotic_divs} #WE NOW HAVE THE BIO DIVS AND MECH DIVS
+	#MULTIPLIES NEW VALUES WITH ARMY VALUES
+	multiply_variable = { EBF_bio_food_needed = EBF_army_bio_divs }
+
+	add_to_variable = { EBF_army_total_food_needed = EBF_bio_food_needed}
+
+	multiply_variable = { EBF_state_population_food_needed = total_pop_m }
+	round_variable = EBF_state_population_food_needed
+
+	clamp_variable = { var = EBF_army_total_food_needed min = 0 }
+	clamp_variable = { var = EBF_state_population_food_needed min = 0 }
+	clamp_variable = { var = EBF_bio_food_needed min = 0 }
+
+	#CHECKS STOCKPILE SIZE
+	set_temp_variable = { needed_food_consumption = misc_food_consumption_add }
+	add_to_temp_variable = { needed_food_consumption = modifier@misc_food_consumption_add }
+	add_to_temp_variable = { needed_food_consumption = EBF_army_total_food_needed }
+	add_to_temp_variable = { needed_food_consumption = EBF_state_population_food_needed }
+	subtract_from_temp_variable = { needed_food_consumption = misc_food_consumption_reducers }
+	subtract_from_temp_variable = { needed_food_consumption = modifier@misc_food_consumption_reducers }
+
+
+	set_variable = { food_divisioncalc1 = needed_food_consumption }
+	divide_variable = { food_divisioncalc1 = 10 } #10%
+	round_variable = food_divisioncalc1
+	add_to_variable = { food_divisioncalc1 = needed_food_consumption }
+	set_variable = { food_divisioncalc2 = needed_food_consumption }
+	divide_variable = { food_divisioncalc2 = 4 } #25%
+	round_variable = food_divisioncalc2
+	add_to_variable = { food_divisioncalc2 = needed_food_consumption }
+	set_variable = { food_divisioncalc3 = needed_food_consumption }
+	multiply_variable = { 0.35 = food_divisioncalc3 } #35%
+	round_variable = food_divisioncalc3
+	add_to_variable = { food_divisioncalc3 = needed_food_consumption }
+	EBF_remove_food_stockpile_frames = YES
+	IF = {
+		limit = {
+			NOT = {
+				has_idea = EBF_food_stockpile_disabled
+			}
+		}
+		if = {
+			limit = { check_variable = { needed_food_consumption > resource@food} }
+			add_ideas = EBF_food_stockpile_below
+			set_variable = { ordi_2_below_stock_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = { needed_food_consumption < resource@food} 
+				check_variable = {resource@food < food_divisioncalc1} 
+			}
+			add_ideas = EBF_food_stockpile_meeting
+			set_variable = { ordi_2_meeting_stock_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {food_divisioncalc1 < resource@food} 
+				check_variable = {resource@food < food_divisioncalc2} 
+			}
+			add_ideas = EBF_food_stockpile_slightly_above
+			set_variable = { ordi_2_slightly_above_stock_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {food_divisioncalc2 < resource@food} 
+				check_variable = {resource@food < food_divisioncalc3} 
+			}
+			add_ideas = EBF_food_stockpile_above
+			set_variable = { ordi_2_above_stock_btn_ON = 2 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {food_divisioncalc3 < resource@food} 
+			}
+			add_ideas = EBF_food_stockpile_highly_above
+			set_variable = { ordi_2_high_stock_btn_ON = 2 }
+		}
+	}
+
+	if = { 
+		limit = {
+			NOT = {
+				has_country_flag = EBF_country_currently_in_famine
+			}
+			check_variable = { needed_food_consumption > resource@food }
+		}
+		set_country_flag = EBF_country_currently_in_famine
+		set_variable = { EBF_ordi_2_famine_1_ON = 2 }
+		country_event = ordi_events.7
+	}
+}

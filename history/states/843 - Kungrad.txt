@@ -1,0 +1,23 @@
+state={
+	id=843
+	name="STATE_815"
+
+	history={
+		add_core_of = KAR
+		owner = KAR
+		buildings = {
+			infrastructure = 3
+
+		}
+		
+
+	}
+
+	provinces={
+		12233 12474 7541 10348 13207 3622 11482
+	}
+	manpower=1033721
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies = 0.0 
+}

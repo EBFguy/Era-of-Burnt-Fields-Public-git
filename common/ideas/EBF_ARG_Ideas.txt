@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		ARG_la_guerra_de_tucuman = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_la_guerra_de_tucuman"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ARG_la_guerra_de_tucuman
+					  
+			modifier = {	
+			}
+		}	
+		ARG_el_gobierno_de_reconstruccion_nacional = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_el_gobierno_de_reconstruccion_nacional"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_ARG_el_gobierno_de_reconstruccion_nacional
+					  
+			modifier = {	
+			}
+		}				
+	}
+}

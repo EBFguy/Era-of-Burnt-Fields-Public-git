@@ -1,0 +1,23 @@
+state={
+	id=540
+	name="STATE_540"
+
+	history={
+		add_core_of = ANA
+		owner = ANA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			10966 1 
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		2126 4735 5158 8138 8202 10966 12391 12958 12985 
+	}
+	manpower=48826772
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

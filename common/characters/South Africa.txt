@@ -1,0 +1,29 @@
+characters = {
+	SAF_lesego_hadebe = {
+		name = SAF_lesego_hadebe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialism_african_communism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_LESEGO_HADEBE_DESC"
+		}
+	}
+
+	CAP_piet_Jager = {
+		name = CAP_piet_Jager
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LON/Portrait_LON_EO12_Echo.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberal_conservatism_liberal_conservatism_subtype
+			expire = "2082.10.20"
+			desc = "POLITICS_PIET_JAGER_DESC"
+		}
+	}	
+}

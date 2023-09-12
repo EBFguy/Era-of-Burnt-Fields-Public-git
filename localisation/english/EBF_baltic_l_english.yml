@@ -1,0 +1,118 @@
+﻿l_english:
+ #SKELETON CONTENT ONLY PLEASE
+ #NAME#
+
+ LIT:0 "Lithuania"
+ LIT_DEF:0 "The Republic of Lithuania"
+ LIT_ADJ:0 "Lithuanian"
+
+ LAT:0 "Latvia"
+ LAT_DEF:0 "The Republic of Latvia"
+ LAT_ADJ:0 "Latvian"
+
+ EST:0 "Estonia"
+ EST_DEF:0 "The State of Estonia"
+ EST_ADJ:0 "Estonian"
+
+ BLT:0 "EuroFed Baltic"
+ BLT_DEF:0 "The European Federation Navy in the Baltics"
+ BLT_ADJ:0 "European"   
+
+ MAR:0 "Marijampole Garrison"
+ MAR_DEF:0 "The European Federation Garrison in Marijampole"
+ MAR_ADJ:0 "European"   
+
+ ODO:0 "Old Dogs"
+ ODO_DEF:0 "The Old Dogs Free Soldiers Organisation"
+ ODO_ADJ:0 "European"   
+
+ ODO_russian_military:0 "Alexander's Brigade"
+ ODO_russian_military_DEF:0 "The Alexander Brigade"
+ ODO_russian_military_ADJ:0 "Baltic" 
+
+ BAU:0 "Baltic Union"
+ BAU_DEF:0 "The Union of Baltic Socialist States"
+ BAU_ADJ:0 "Baltic"   
+
+ EST_united_baltic:0 "Baltic Federation"
+ EST_united_baltic_DEF:0 "The Baltic Federation"
+ EST_united_baltic_ADJ:0 "Baltic" 
+
+ ODO_united_baltic:0 "Old Dogs Free Soldiers Organisation"
+ ODO_united_baltic_DEF:0 "The Old Dogs Free Soldiers Organisation"
+ ODO_united_baltic_ADJ:0 "European" 
+
+ BLT_united_baltic:0 "European Federal State of the Baltics"
+ BLT_united_baltic_DEF:0 "The European Federal State of the Baltics"
+ BLT_united_baltic_ADJ:0 "European" 
+
+ LAT_united_baltic:0 "United States of the Baltics"
+ LAT_united_baltic_DEF:0 "The United States of the Baltics"
+ LAT_united_baltic_ADJ:0 "Baltic" 
+
+ BAU_united_baltic:0 "Union of Baltic Socialist States"
+ BAU_united_baltic_DEF:0 "The Union of Baltic Socialist States"
+ BAU_united_baltic_ADJ:0 "Baltic" 
+
+ LIT_united_baltic:0 "Baltic Commonwealth"
+ LIT_united_baltic_DEF:0 "The Baltic Commonwealth"
+ LIT_united_baltic_ADJ:0 "Baltic" 
+
+ MAR_united_baltic:0 "Baltic Military Union"
+ MAR_united_baltic_DEF:0 "The Baltic Military Union"
+ MAR_united_baltic_ADJ:0 "Baltic" 
+
+
+ #PARTIES
+ BLT_anocracy_party:0 "EUROFED: BALTIC"
+ BLT_anocracy_party_long:0 "European Federation Remenants: Baltic"
+ EST_liberalism_party:0 "EF"
+ EST_liberalism_party_long:0 "The Estonian Front"
+ ODO_autocracy_party:0 "The Old Dogs"
+ ODO_autocracy_party_long:0 "The Old Dogs" 
+ LAT_autocracy_party:0 "NRMA"
+ LAT_autocracy_party_long:0 "The New Rigan Military Administration" 
+ BAU_libertarian_socialism_party:0 "PUBSS"
+ BAU_libertarian_socialism_party_long:0 "The Politburo of the United Baltic Socialist States" 
+ LIT_conservatism_party:0 "LLA"
+ LIT_conservatism_party_long:0 "The Local Lithuanian Authority"  
+ MAR_autocracy_party:0 "Marijampole Garrison"
+ MAR_autocracy_party_long:0 "The Marijampole Garrison"   
+ #CHARACHTERS#
+ BLT_Andrea_Canali:0 "Andrea Canali"
+ POLITICS_AMDREA_CANALI_DESC:0 "§YAdmiral of the Baltic Branch of the European Navy§!\n§W--------------§!\n"
+ EST_feliks_kaas:0 "Feliks Kaas"
+ POLITICS_FELIKS_KAAS_DESC:0 "§YPresident of Estonia§!\n§W--------------§!\n"
+ ODO_Reiner_Klossner:0 "Reiner Klossner"
+ POLITICS_REINER_KLOSSNER_DESC:0 "§YThe Old Dog§!\n§W--------------§!\n" 
+ LAT_Maksims_Vilsons:0 "Maksims Vilsons"
+ POLITICS_MAKSIMS_VILSONS_DESC:0 "§YAdministator of New Riga§!\n§W--------------§!\n" 
+ BAU_Anaita_Priede:0 "Anaita Priede"
+ POLITICS_ANAITA_PRIEDE_DESC:0 "§YGeneral Secretary of the United Baltic Party§!\n§W--------------§!\n" 
+ LIT_Juozapas_Zurlys:0 "Juozapas Zurlys"
+ POLITICS_JUOZAPAS_ZURLYS_JAMSHIDI_DESC:0 "§YPresident of Lithuania§!\n§W--------------§!\n" 
+ MAR_Albert_Elijzen:0 "Albert Elijzen"
+ POLITICS_ALBERT_ELIJZEN_DESC:0 "§YGarrison Commander of Marijampole§!\n§W--------------§!\n" 
+ 
+
+ #IDEAS#
+ the_baltic_concordant:0 "The Baltic Concordant"
+ BLT_blue_seas_ruled_by_blue_flag:0 "Blue Seas Ruled by the Blue Flag"
+ BLT_distant_defender_of_baltics:0 "Distant Defender of the Baltics"
+ EST_we_shall_stand:0 "We Shall Stand"
+ ODO_marching_the_beat_our_hearts:0 "Marching To The Beat of Our Hearts"
+ ODO_everybody_a_warrior:0 "Everybody a Warrior"
+ LAT_final_city:0 "The Final City"
+ LAT_rumblings_in_the_east:0 "Rumblings in the East"
+ BAU_the_black_sheep:0 "The Black Sheep"
+ BAU_soldiers_of_the_people_unite:0 "Soldiers of the People, Unite!"
+ LIT_broken_shards:0 "Broken Shards"
+ MAR_defenders_of_marijampole:0 "The Defenders of Marijampole"
+
+
+ #DECISIONS#
+
+ #EVENT#
+
+ #MISC#
+ BLT_distant_defender_of_baltics_tt:0 "§REurofed Baltics Cannot declare war until The Baltic Concordant's conditions are broken by a foreign power§!"

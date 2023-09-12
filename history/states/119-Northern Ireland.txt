@@ -1,0 +1,26 @@
+
+state={
+	id=119
+	name="STATE_119"
+	local_supplies = 0.0 
+	history={
+		add_core_of = ULS
+		add_core_of = BIF
+		owner = ULS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		
+		
+		
+	}
+
+	provinces={
+		276 385 3217 3242 11257 
+	}
+	manpower=984883
+	buildings_max_level_factor=1
+	state_category=town
+}

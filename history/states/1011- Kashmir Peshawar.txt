@@ -1,0 +1,26 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+	manpower = 10
+	
+	state_category = rural
+
+	history={
+		add_core_of = KAS
+		owner = KAS
+		victory_points = {
+			12763 3
+		}
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		4558 12763
+	}
+}

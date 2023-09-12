@@ -1,0 +1,22 @@
+
+state={
+	id=1055
+	name="STATE_1055"
+	manpower = 10
+	
+	state_category = wasteland
+
+	history={
+		add_core_of = AST
+		owner = AST
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+	}
+	local_supplies = 0.0 
+	provinces={
+		2201 12993 8152 10950 5125 10971 4645 5170 12323
+	}
+}

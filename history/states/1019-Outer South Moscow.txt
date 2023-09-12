@@ -1,0 +1,21 @@
+
+state={
+	id=1019
+	name="STATE_1019"
+	manpower = 10
+	
+	state_category = megalopolis
+	
+	local_supplies = 0.0 
+	history={
+		add_core_of = RUS
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		11268 9395 9282 6290 9348 6348
+	}
+}

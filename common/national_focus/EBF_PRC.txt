@@ -1,0 +1,12 @@
+focus_tree = {
+	id = EBF_china_intro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_todays_affairs
+}

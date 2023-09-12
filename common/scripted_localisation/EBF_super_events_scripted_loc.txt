@@ -1,0 +1,59 @@
+defined_text = {
+	name = EBFgetsupereventimage
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 1 } }
+		localization_key = "GFX_superevent_picture_one"
+	}
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 2 } }
+		localization_key = "GFX_superevent_picture_two"
+	}
+	text = { #
+		localization_key = "GFX_culture_0"
+	}
+}
+
+defined_text = {
+	name = EBFSuperEventTitle
+	text = { #
+	trigger = { check_variable = { EBF_super_event = 1 } }
+		localization_key = EBF_super_event_title_one
+	}
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 2 } }
+		localization_key = EBF_super_event_title_two
+	}
+	text = {
+		localization_key = EBF_super_event_wrong_title
+	}				
+}
+
+defined_text = {
+	name = EBFSuperEventDesc
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 1 } }
+		localization_key = EBF_super_event_desc_one
+	}
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 2 } }
+		localization_key = EBF_super_event_desc_two
+	}
+	text = {
+		localization_key = EBF_super_event_wrong_desc
+	}				
+}
+
+defined_text = {
+	name = EBFSuperEventOption
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 1 } }
+		localization_key = EBF_super_event_option_one
+	}
+	text = { #
+		trigger = { check_variable = { EBF_super_event = 2 } }
+		localization_key = EBF_super_event_option_two
+	}
+	text = {
+		localization_key = EBF_super_event_wrong_option
+	}				
+}

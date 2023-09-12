@@ -1,0 +1,89 @@
+ideas = {
+	country = {
+		the_amazonian_disaster = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea the_amazonian_disaster"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_the_amazonian_disaster
+					  
+			modifier = {	
+				political_power_gain = -0.3
+				stability_factor = -0.15
+				war_support_factor = 0.1
+				consumer_goods_factor = 0.5
+			}
+		}
+		AMZ_remnants_of_BPR = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AMZ_remnants_of_BPR"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_AMZ_remnants_of_BPR
+					  
+			modifier = {	
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				conscription_factor = -0.1
+				army_org_factor = -0.05
+			}
+		}	
+		AMZ_the_curupiras = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AMZ_the_curupiras"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = idea_AMZ_the_curupiras
+					  
+			modifier = {	
+				attrition = -0.1
+				army_speed_factor = 0.05
+				special_forces_attack_factor = 0.05
+				special_forces_defence_factor = 0.1
+			}
+		}	
+		AMZ_a_bounty_on_reactionaries = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea AMZ_a_bounty_on_reactionaries"}		
+			removal_cost = -1
+				
+			allowed = { 
+				always = no 
+			}
+	
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			picture = GFX_idea_AMZ_a_bounty_on_reactionaries
+					  
+			modifier = {	
+				political_power_gain = -0.05
+				fascist_drift = -0.01
+				autocracy_drift = -0.01
+				anocracy_drift = -0.01
+				stability_weekly = 0.01
+			}
+		}		
+	}
+}

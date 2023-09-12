@@ -1,0 +1,18 @@
+state={
+	id=704
+	name="STATE_704"
+	manpower=2485	
+	state_category = tiny_island
+	
+	history= {
+		add_core_of = NAM
+		owner = NAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	local_supplies = 0.0 
+	provinces={
+		13016 7770 10957 10978 12921 8136 12519 13217
+	}
+}

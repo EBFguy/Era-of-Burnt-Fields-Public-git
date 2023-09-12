@@ -1,0 +1,33 @@
+
+is_baltic_warlord_nation = {
+	OR = {
+		tag = EST
+		tag = ODO
+		tag = BLT
+		tag = LAT
+		tag = BAU
+		tag = LIT
+		tag = MAR
+	}
+}
+baltic_warlord_states = {
+	AND = {
+		owns_state = 813
+		owns_state = 812
+		owns_state = 891
+		owns_state = 13
+		owns_state = 191
+		owns_state = 12
+		owns_state = 811
+		owns_state = 190
+		owns_state = 810
+		owns_state = 808
+		owns_state = 809
+		owns_state = 815
+		owns_state = 11
+		owns_state = 784
+		owns_state = 189
+		owns_state = 188
+		owns_state = 814
+	}
+}

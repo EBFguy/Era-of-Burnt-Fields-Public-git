@@ -1,0 +1,32 @@
+﻿l_english:
+ #NAME#
+ AQU:0 "Aquitaine"
+ AQU_DEF:0 "The Holy Knights of Aquitaine and His Holiness Pope Lucius IV"
+ AQU_ADJ:0 "Aquitanian"
+
+ #COSMETIC TAGS 
+
+ #PARTIES
+ AQU_ultranationalism_party:0 "HKL IV"
+ AQU_ultranationalism_party_long:0 "Holy Knights of Lucius IV"
+ AQU_fascist_party:0 "HKL IV"
+ AQU_fascist_party_long:0 "Holy Knights of Lucius IV"
+ AQU_autocracy_party:0 "Lucius IV's Papacy"
+ AQU_autocracy_party_long:0 "Lucius IV's Papacy" 
+ AQU_anocracy_party:0 "PRAA"
+ AQU_anocracy_party_long:0 "Papal Rule Assistance Authority"
+ AQU_libertarian_socialism_party:0 "OLIVB"
+ AQU_libertarian_socialism_party_long:0 "Order of Lucius IV's Benediction" 
+ AQU_reductivism_party:0 "HKL IV - Right"
+ AQU_reductivism_party_long:0 "Holy Knights of Lucius IV - Right" 
+
+ #CHARACHTERS#
+ AQU_Lucius_IV:0 "Lucius IV"
+ POLITICS_LUCIUS_IV_DESC:0 "§YHis Holiness Pope Lucius IV§!\n§W--------------§!\n"
+
+ #IDEAS#
+ AQU_bastion_of_true_catholicism:0 "The Bastion of True Catholicism"
+ AQU_loyal_knights_of_lucius:0 "The Loyal Knights of Lucius IV"
+ AQU_against_communists_bastards_and_heretics:0 "Against Communists, Bastards and Heretics"
+
+ #MISC#
